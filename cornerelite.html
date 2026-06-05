@@ -88,6 +88,17 @@ section{position:relative;z-index:1;padding:5rem 2rem}
 .level-desc{font-size:12px;color:var(--white2);line-height:1.8;margin-bottom:1.25rem}
 .level-market{font-size:11px;letter-spacing:1px;font-weight:600}
 
+/* NEW VISUAL BANKROLL CARDS */
+.bankroll-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem;max-width:950px;margin:0 auto}
+.br-card{background:var(--navy2);border:1px solid var(--gold-b);padding:2rem 1.5rem;text-align:center;border-radius:4px;display:flex;flex-direction:column;justify-content:space-between}
+.br-card h3{font-family:'Cinzel',serif;font-size:13px;letter-spacing:2px;color:var(--gold-l);margin-bottom:1.5rem}
+.br-row{display:flex;justify-content:space-around;align-items:center;background:rgba(6,13,26,0.4);padding:1rem 0;border:1px solid rgba(255,255,255,0.03);border-radius:4px}
+.br-alloc{text-align:center;flex:1}
+.br-alloc:not(:last-child){border-right:1px solid rgba(255,255,255,0.05)}
+.br-pvalue{font-family:'Cinzel',serif;font-size:1.8rem;font-weight:700;color:var(--white);display:block;line-height:1.2}
+.br-pvalue.highlight{color:var(--gold)}
+.br-plabel{font-size:9px;letter-spacing:1px;color:var(--white3);text-transform:uppercase;display:block;margin-top:0.4rem}
+
 /* TELEGRAM MOCK */
 .tg-section{background:rgba(10,22,40,0.8);border-top:1px solid var(--gold-b);border-bottom:1px solid var(--gold-b)}
 .tg-wrap{display:grid;grid-template-columns:1fr 1fr;gap:4rem;align-items:center}
@@ -113,14 +124,6 @@ section{position:relative;z-index:1;padding:5rem 2rem}
 .live-stat-val{font-family:'Cinzel',serif;font-size:2.5rem;font-weight:700;color:var(--gold-l);display:block;margin-bottom:0.5rem}
 .live-stat-val.green{color:var(--green)}
 .live-stat-label{font-size:9px;letter-spacing:3px;color:var(--white3);text-transform:uppercase}
-.live-note{text-align:center;font-size:11px;color:var(--white3);margin-top:1.5rem;letter-spacing:1px}
-
-/* CTA SECTION */
-.cta-section{text-align:center;padding:6rem 2rem;position:relative;overflow:hidden}
-.cta-glow{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:500px;height:500px;border-radius:50%;background:radial-gradient(circle,rgba(201,162,39,0.06) 0%,transparent 70%);pointer-events:none}
-.cta-title{font-family:'Cinzel',serif;font-size:clamp(1.8rem,4vw,3rem);font-weight:700;margin-bottom:1rem;position:relative;z-index:1}
-.cta-sub{font-size:14px;color:var(--white2);max-width:500px;margin:0 auto 2.5rem;line-height:1.8;position:relative;z-index:1;font-style:italic}
-.cta-btns{display:flex;gap:1rem;justify-content:center;flex-wrap:wrap;position:relative;z-index:1}
 
 /* MEMBERSHIP */
 .membership-section{padding:5rem 2rem;background:rgba(10,22,40,0.6)}
@@ -145,10 +148,6 @@ section{position:relative;z-index:1;padding:5rem 2rem}
 .skrill-note{text-align:center;font-size:12px;color:var(--white3);margin-top:1rem}
 .skrill-note strong{color:var(--white2)}
 
-/* PERSONAL TIPS */
-.tips-card{background:rgba(201,162,39,0.05);border:1px solid var(--gold-b);padding:2rem;margin-bottom:2rem;position:relative}
-.tips-card::before{content:'';position:absolute;top:0;left:0;width:4px;height:100%;background:linear-gradient(180deg,var(--gold),transparent)}
-
 /* CONTACT */
 .contact-section{padding:5rem 2rem}
 .contact-wrap{display:grid;grid-template-columns:1fr 1fr;gap:4rem;align-items:center;max-width:900px;margin:0 auto}
@@ -157,7 +156,6 @@ section{position:relative;z-index:1;padding:5rem 2rem}
 .form-input:focus{border-color:var(--gold)}
 .form-input::placeholder{color:var(--white3)}
 .form-select{background:var(--navy2);border:1px solid var(--gold-b);padding:0.75rem 1rem;color:var(--white);font-family:'Raleway',sans-serif;font-size:13px;outline:none;width:100%}
-@media(max-width:900px){.plans-grid{grid-template-columns:repeat(2,1fr)}.contact-wrap{grid-template-columns:1fr}}.creator-grid{display:grid;grid-template-columns:1fr 1fr;gap:3rem;align-items:center}@media(max-width:768px){.creator-grid{grid-template-columns:1fr}}
 
 /* FOOTER */
 footer{border-top:1px solid var(--gold-b);padding:2rem;text-align:center}
@@ -169,6 +167,7 @@ footer{border-top:1px solid var(--gold-b);padding:2rem;text-align:center}
   .features-grid{grid-template-columns:1fr}
   .windows-grid{grid-template-columns:repeat(2,1fr)}
   .levels-wrap{grid-template-columns:1fr}
+  .bankroll-grid{grid-template-columns:1fr}
   .tg-wrap{grid-template-columns:1fr}
   .live-stats-grid{grid-template-columns:repeat(2,1fr)}
   .nav-links{display:none}
@@ -188,11 +187,6 @@ footer{border-top:1px solid var(--gold-b);padding:2rem;text-align:center}
   .container{padding:0 0.25rem}
   nav{padding:0.75rem 1.25rem}
   .nav-brand{font-size:0.85rem}
-  div[style*="grid-template-columns:1fr 1fr;gap:3rem;align-items:center"]{
-    grid-template-columns:1fr !important;
-    gap:1.5rem !important;
-  }
-  .tips-card{padding:1.25rem}
   .hero{padding:5rem 1.25rem 3rem}
   .hero-logo{width:90px;height:90px}
   .hero-btns{flex-direction:column;align-items:center}
@@ -200,7 +194,7 @@ footer{border-top:1px solid var(--gold-b);padding:2rem;text-align:center}
   .tg-phone{max-width:100%}
   .contact-section{padding:3rem 1.25rem}
   .membership-section{padding:3rem 1.25rem}
-  .levels-card{padding:1.25rem}
+  .level-card{padding:1.25rem}
   .feature-card{padding:1.25rem}
 }
 </style>
@@ -393,35 +387,56 @@ footer{border-top:1px solid var(--gold-b);padding:2rem;text-align:center}
     <h2 class="section-title">Bankroll & Stake Allocation</h2>
     <p class="section-sub">Strict risk management guarantees mathematical sustainability. Staking configurations must adapt directly to structural system confidence tiers.</p>
     <div class="gold-line"></div>
-    <div style="overflow-x:auto; max-width:900px; margin:0 auto; border:1px solid var(--gold-b);">
-      <table style="width:100%; border-collapse:collapse; background:var(--navy2); text-align:left; font-size:13px;">
-        <thead>
-          <tr style="border-bottom:2px solid var(--gold); background:rgba(6,13,26,0.6); font-family:'Cinzel',serif; color:var(--gold-l); font-size:11px; letter-spacing:1px;">
-            <th style="padding:1rem 1.5rem;">Confidence Score Rating</th>
-            <th style="padding:1rem 1.5rem;">Conservative Profile</th>
-            <th style="padding:1rem 1.5rem;">Intermediate Profile</th>
-          </tr>
-        </thead>
-        <tbody style="color:var(--white2); line-height:1.5;">
-          <tr style="border-bottom:1px solid rgba(201,162,39,0.1);">
-            <td style="padding:1.25rem 1.5rem; color:var(--white); font-weight:500;">⭐ 7.0 — 7.5 Stars <span style="display:block; font-size:10px; color:var(--white3); font-weight:300; margin-top:2px;">Standard Pressure Threshold</span></td>
-            <td style="padding:1.25rem 1.5rem;">0.50% - 0.75% of Capital</td>
-            <td style="padding:1.25rem 1.5rem;">1.00% of Capital</td>
-          </tr>
-          <tr style="border-bottom:1px solid rgba(201,162,39,0.1);">
-            <td style="padding:1.25rem 1.5rem; color:var(--white); font-weight:500;">⭐ 8.0 — 8.5 Stars <span style="display:block; font-size:10px; color:var(--gold); font-weight:300; margin-top:2px;">High Intensity Windows</span></td>
-            <td style="padding:1.25rem 1.5rem;">1.00% of Capital</td>
-            <td style="padding:1.25rem 1.5rem;">1.50% of Capital</td>
-          </tr>
-          <tr>
-            <td style="padding:1.25rem 1.5rem; color:var(--white); font-weight:500;">⭐ 9.0 — 10.0 Stars <span style="display:block; font-size:10px; color:var(--gold-l); font-weight:300; margin-top:2px;">Maximum Sufoco / Red Cards</span></td>
-            <td style="padding:1.25rem 1.5rem;">1.50% of Capital</td>
-            <td style="padding:1.25rem 1.5rem;">2.00% of Capital</td>
-          </tr>
-        </tbody>
-      </table>
+    
+    <div class="bankroll-grid">
+      <div class="br-card">
+        <h3>⭐ 7.0 — 7.5 STARS</h3>
+        <div class="br-row">
+          <div class="br-alloc">
+            <span class="br-pvalue">0.5%</span>
+            <span class="br-plabel">Conservative Min</span>
+          </div>
+          <div class="br-alloc">
+            <span class="br-pvalue">0.75%</span>
+            <span class="br-plabel">Conservative Max</span>
+          </div>
+          <div class="br-alloc">
+            <span class="br-pvalue highlight">1.0%</span>
+            <span class="br-plabel">Intermediate</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="br-card">
+        <h3>⭐ 8.0 — 8.5 STARS</h3>
+        <div class="br-row">
+          <div class="br-alloc">
+            <span class="br-pvalue">1.0%</span>
+            <span class="br-plabel">Conservative</span>
+          </div>
+          <div class="br-alloc">
+            <span class="br-pvalue highlight">1.5%</span>
+            <span class="br-plabel">Intermediate</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="br-card">
+        <h3>⭐ 9.0 — 10.0 STARS</h3>
+        <div class="br-row">
+          <div class="br-alloc">
+            <span class="br-pvalue">1.5%</span>
+            <span class="br-plabel">Conservative</span>
+          </div>
+          <div class="br-alloc">
+            <span class="br-pvalue highlight">2.0%</span>
+            <span class="br-plabel">Intermediate</span>
+          </div>
+        </div>
+      </div>
     </div>
-    <p style="text-align:center; color:var(--red); font-size:11px; font-style:italic; margin-top:1.5rem; letter-spacing:0.5px;">* Exponential scaling configurations or martingale recovery attempts directly violate our operational core and break long-term mathematical distribution curves.</p>
+    
+    <p style="text-align:center; color:var(--red); font-size:11px; font-style:italic; margin-top:2rem; letter-spacing:0.5px;">* Exponential scaling configurations or martingale recovery attempts directly violate our operational core and break long-term mathematical distribution curves.</p>
   </div>
 </section>
 
@@ -466,22 +481,6 @@ footer{border-top:1px solid var(--gold-b);padding:2rem;text-align:center}
           📸 <span class="tg-blue">[Post-Alert Verification at T+2.5 min active]</span>
         </div>
         <div class="tg-time">21:34</div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section id="performance">
-  <div class="container">
-    <div class="creator-grid">
-      <div style="text-align:center">
-        <img src="creator.png" alt="Ziii — Quantitative Analyst" style="max-width:100%; width:260px; border-radius:4px; border:1px solid var(--gold-b); box-shadow:0 10px 40px rgba(0,0,0,0.5)">
-      </div>
-      <div>
-        <div class="section-label">The Architect</div>
-        <h2 class="section-title" style="text-align:left; margin-bottom:1.5rem">Engineered by Ziii</h2>
-        <p style="font-size:13px; color:var(--white2); line-height:1.8; margin-bottom:1.5rem">"ZI Corner Pro wasn't designed to guess sport dynamics. It was built to eliminate emotional cognitive biases entirely through math. By tracking baseline statistical behavior across 87 specialized leagues, our algorithms isolate temporary pressure anomalies and track performance with completely uncompromised transparency."</p>
-        <p style="font-size:12px; color:var(--gold-l); font-family:'Cinzel',serif; letter-spacing:1px">— ZIII, FOUNDER & QUANT ANALYST</p>
       </div>
     </div>
   </div>
