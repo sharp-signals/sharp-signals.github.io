@@ -32,5 +32,22 @@
       "golos_apos_casa": 0,
       "golos_apos_fora": 1
     }
+  ],
+  "2026-06-07": [
+    {
+      "timestamp": "2026-06-07T22:07:36.232662",
+      "jogo": "CRB vs São Bernardo",
+      "liga": "Serie B",
+      "janela": "MID PRESSURE",
+      "tempo_alerta": 67,
+      "estrelas": 8.0,
+      "cantos_no_ref": 4,
+      "cantos_final": 6,
+      "cantos_apos_alerta": 2,
+      "meta_cantos": 3,
+      "resultado": "LOSS",
+      "golos_apos_casa": 0,
+      "golos_apos_fora": 1
+    }
   ]
 }
