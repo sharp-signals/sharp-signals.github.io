@@ -49,5 +49,22 @@
       "golos_apos_casa": 0,
       "golos_apos_fora": 1
     }
+  ],
+  "2026-06-08": [
+    {
+      "timestamp": "2026-06-08T23:54:58.742012",
+      "jogo": "Atletico Nacional vs Junior",
+      "liga": "Primera A",
+      "janela": "HT ATTACK",
+      "tempo_alerta": 29,
+      "estrelas": 8.5,
+      "cantos_no_ref": 6,
+      "cantos_final": 11,
+      "cantos_apos_alerta": 5,
+      "meta_cantos": 2,
+      "resultado": "WIN",
+      "golos_apos_casa": 0,
+      "golos_apos_fora": 0
+    }
   ]
 }
