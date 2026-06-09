@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Match Value Elite — Performance</title>
+<style>
+:root{
+  --bg:#070d18; --bg2:#0a111f; --panel:#101c34; --panel2:#0c1730; --line:#1d2c49;
+  --gold:#e8c468; --gold2:#caa23e; --gold3:#f6dd97; --txt:#eaf0fb; --muted:#8493ab;
+  --green:#38d39a; --red:#f0606a; --grey:#6b7892;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:'Segoe UI',Roboto,Helvetica,Arial,sans-serif;background:var(--bg);color:var(--txt);
+  min-height:100vh;overflow-x:hidden;line-height:1.5}
+a{color:inherit;text-decoration:none}
+.wrap{max-width:1140px;margin:0 auto;padding:0 20px}
+.gold{color:var(--gold)} .pos{color:var(--green)} .neg{color:var(--red)}
+
+/* fundo: aurora + grão + monograma "S" (preenche, discreto, profissional) */
+.aurora{position:fixed;inset:0;z-index:-3;background:
+  radial-gradient(900px 500px at 12% -8%,rgba(232,196,104,.10),transparent 60%),
+  radial-gradient(1000px 600px at 88% 0%,rgba(56,120,220,.12),transparent 55%),
+  radial-gradient(1200px 800px at 50% 120%,rgba(232,196,104,.06),transparent 60%),var(--bg)}
+.grain{position:fixed;inset:0;z-index:-1;opacity:.04;pointer-events:none;
+  background-image:radial-gradient(#fff 1px,transparent 1px);background-size:3px 3px}
+/* moeda Match Value Elite como marca-d'água DISCRETA, ao lado (não no meio) */
+.sidelogo{position:fixed;z-index:-2;left:-120px;top:50%;transform:translateY(-50%);
+  width:560px;height:560px;opacity:.13;pointer-events:none;
+  background:url('logo_mv.png?v=2') center/contain no-repeat}
+@media(max-width:900px){.sidelogo{left:-200px;width:420px;height:420px;opacity:.08}}
+
+/* nav */
+nav{position:sticky;top:0;z-index:50;backdrop-filter:blur(10px);
+  background:rgba(7,13,24,.72);border-bottom:1px solid var(--line)}
+nav .wrap{display:flex;align-items:center;justify-content:space-between;height:62px}
+.logo{display:flex;align-items:center;gap:10px;font-weight:800;letter-spacing:3px;text-transform:uppercase}
+.logo .mark{width:36px;height:36px;border-radius:50%;
+  background:url('logo_mv.png?v=2') center/contain no-repeat;
+  box-shadow:0 4px 14px rgba(232,196,104,.35)}
+.nav-links{display:flex;gap:22px;font-size:14px;color:var(--muted)}
+.nav-links a:hover{color:var(--gold)}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:9px 18px;border-radius:30px;font-weight:700;
+  font-size:13.5px;border:1px solid var(--line);transition:.2s;cursor:pointer;color:var(--txt)}
+.btn:hover{border-color:var(--gold);color:var(--gold)}
+@media(max-width:780px){.nav-links{display:none}}
+
+header.top{text-align:center;padding:34px 0 8px}
+.hcoin{width:96px;height:96px;display:block;margin:0 auto 14px;
+  filter:drop-shadow(0 6px 22px rgba(232,196,104,.35))}
+@media(max-width:760px){.hcoin{width:74px;height:74px}}
+.brand{font-size:32px;font-weight:900;letter-spacing:6px;text-transform:uppercase;
+  background:linear-gradient(180deg,var(--gold3),var(--gold2));-webkit-background-clip:text;
+  background-clip:text;color:transparent}
+.tag{color:var(--gold2);letter-spacing:4px;font-size:12px;text-transform:uppercase;margin-top:4px}
+.upd{color:var(--muted);font-size:12px;margin-top:10px}
+.trust{display:inline-flex;align-items:center;gap:8px;margin-top:14px;padding:6px 14px;border-radius:30px;
+  border:1px solid var(--line);background:rgba(16,28,52,.5);color:var(--muted);font-size:12px}
+.trust .dot{width:7px;height:7px;border-radius:50%;background:var(--green);
+  box-shadow:0 0 0 0 rgba(56,211,154,.6);animation:pulse 2s infinite}
+@keyframes pulse{0%{box-shadow:0 0 0 0 rgba(56,211,154,.5)}70%{box-shadow:0 0 0 8px rgba(56,211,154,0)}100%{box-shadow:0 0 0 0 rgba(56,211,154,0)}}
+
+.stakebar{display:flex;justify-content:center;align-items:center;gap:10px;margin:22px 0 6px;
+  color:var(--muted);font-size:13px}
+.stakebar input{width:74px;background:#0a1424;border:1px solid var(--line);color:var(--txt);
+  border-radius:8px;padding:7px 10px;font-size:14px;text-align:center}
+.stakebar input:focus{outline:none;border-color:var(--gold2)}
+
+.grid{display:grid;gap:14px}
+.kpis{grid-template-columns:repeat(4,1fr);margin:8px 0 16px}
+.card{background:linear-gradient(180deg,var(--panel),var(--panel2));border:1px solid var(--line);
+  border-radius:16px;padding:18px;position:relative;overflow:hidden}
+.kpi{text-align:center}
+.kpi::before{content:"";position:absolute;top:0;left:0;right:0;height:2px;
+  background:linear-gradient(90deg,transparent,var(--gold),transparent);opacity:.6}
+.kpi .lbl{color:var(--muted);font-size:11px;text-transform:uppercase;letter-spacing:1.5px}
+.kpi .val{font-size:31px;font-weight:900;margin-top:8px;letter-spacing:-.5px}
+.kpi .sub{font-size:12px;color:var(--muted);margin-top:4px}
+
+.periodos{grid-template-columns:repeat(3,1fr);margin-bottom:8px}
+.per{background:linear-gradient(180deg,var(--panel),var(--panel2));border:1px solid var(--line);
+  border-radius:16px;padding:18px 20px}
+.per .pl{color:var(--gold);font-size:12px;text-transform:uppercase;letter-spacing:2px;font-weight:700}
+.per .pv{font-size:26px;font-weight:900;margin-top:8px}
+.per .ps{color:var(--muted);font-size:12.5px;margin-top:6px}
+
+/* seletor de estratégia (muda o dashboard todo) */
+.segwrap{display:flex;justify-content:center;margin:4px 0 16px}
+.segs{display:inline-flex;gap:4px;background:#0a1424;border:1px solid var(--line);border-radius:30px;padding:4px;flex-wrap:wrap}
+.seg{padding:8px 20px;border-radius:24px;font-size:13.5px;color:var(--muted);cursor:pointer;font-weight:600;transition:.2s}
+.seg:hover{color:var(--txt)}
+.seg.on{background:linear-gradient(145deg,var(--gold3),var(--gold2));color:#0a0f1c}
+
+/* cartão de FORMA & SEQUÊNCIA (métricas que saltam à vista) */
+.formcard{display:flex;justify-content:space-between;align-items:center;gap:20px;flex-wrap:wrap;margin-bottom:14px;
+  border:1px solid var(--gold2);background:
+  radial-gradient(500px 180px at 10% 0,rgba(232,196,104,.13),transparent 60%),linear-gradient(180deg,var(--panel),var(--panel2))}
+.fc-big{font-size:24px;font-weight:800;line-height:1.1}
+.fc-big b{font-size:38px;color:var(--gold)} .fc-big span{font-size:15px;color:var(--muted);font-weight:500}
+.fc-sub{color:var(--muted);font-size:13px;margin-top:8px}
+.fc-lbl{color:var(--muted);font-size:11px;text-transform:uppercase;letter-spacing:1.5px;margin-bottom:9px;text-align:right}
+.dots{display:flex;gap:6px;flex-wrap:wrap;justify-content:flex-end;max-width:340px}
+.dot{width:16px;height:16px;border-radius:50%;display:inline-block}
+.dot.g{background:var(--green)} .dot.p{background:var(--red)} .dot.x{background:var(--grey)}
+@media(max-width:620px){.dots{justify-content:flex-start}.fc-lbl{text-align:left}}
+
+.sec-t{color:var(--gold);font-size:13px;text-transform:uppercase;letter-spacing:2px;
+  margin:30px 4px 12px;border-left:3px solid var(--gold);padding-left:10px;display:flex;
+  justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px}
+.chips{display:flex;gap:8px;flex-wrap:wrap}
+.chip{padding:6px 14px;border-radius:30px;border:1px solid var(--line);background:#0a1424;
+  color:var(--muted);font-size:12.5px;cursor:pointer;letter-spacing:.5px;transition:.2s}
+.chip:hover{border-color:var(--gold2);color:var(--txt)}
+.chip.on{background:linear-gradient(145deg,var(--gold3),var(--gold2));color:#0a0f1c;
+  border-color:transparent;font-weight:700}
+.chart{position:relative}
+svg{width:100%;height:250px;display:block}
+
+.estrats{grid-template-columns:repeat(3,1fr)}
+.est{background:linear-gradient(180deg,var(--panel),var(--panel2));border:1px solid var(--line);
+  border-radius:14px;padding:16px 18px;transition:.2s}
+.est:hover{transform:translateY(-3px);border-color:var(--gold2)}
+.est .e-top{display:flex;justify-content:space-between;align-items:baseline}
+.est .e-name{font-weight:800;font-size:16px}
+.est .e-n{color:var(--muted);font-size:12px}
+.bar{height:7px;background:#0a1424;border-radius:4px;margin-top:12px;overflow:hidden}
+.bar > div{height:100%;background:linear-gradient(90deg,var(--gold2),var(--gold))}
+.est .e-bot{display:flex;justify-content:space-between;margin-top:9px;font-size:12.5px;color:var(--muted)}
+
+/* tip do dia (isca BTTS) */
+.tipday{margin:6px 0 4px;border:1px solid var(--gold2);background:
+  radial-gradient(600px 220px at 92% 0,rgba(232,196,104,.13),transparent 60%),
+  linear-gradient(180deg,var(--panel),var(--panel2))}
+.tipday .hd{display:flex;align-items:center;gap:10px;margin-bottom:4px}
+.tipday .hd b{font-size:17px}
+.tipday .free{background:linear-gradient(145deg,var(--gold3),var(--gold2));color:#0a0f1c;font-weight:800;
+  font-size:11px;padding:3px 11px;border-radius:20px;letter-spacing:1px}
+.tiprow{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:11px 0;
+  border-top:1px solid #16223c;font-size:14px}
+.tiprow .mk{color:var(--gold);font-weight:700}
+
+/* challenge */
+.ch{display:flex;gap:20px;flex-wrap:wrap;align-items:center;justify-content:space-between;
+  border:1px solid var(--gold2)}
+.ch .stats{display:flex;gap:22px}
+.ch .stats .v{font-size:27px;font-weight:900} .ch .stats .l{color:var(--muted);font-size:11px;text-transform:uppercase;letter-spacing:1px}
+.ch-legs{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:8px}
+.ch-leg{background:#0a1424;border:1px solid var(--line);border-radius:20px;padding:4px 11px;font-size:12px}
+.ch-od{font-size:13px}
+
+table{width:100%;border-collapse:collapse;font-size:13px}
+th{color:var(--muted);text-transform:uppercase;font-size:11px;letter-spacing:1px;text-align:left;
+  padding:10px 8px;border-bottom:1px solid var(--line)}
+td{padding:9px 8px;border-bottom:1px solid #16223c}
+tr:hover td{background:#0d1830}
+.badge{padding:2px 9px;border-radius:20px;font-size:11px;font-weight:700}
+.b-g{background:rgba(56,211,154,.15);color:var(--green)}
+.b-p{background:rgba(240,96,106,.15);color:var(--red)}
+.b-x{background:rgba(130,147,171,.15);color:var(--grey)}
+.b-w{background:rgba(232,196,104,.15);color:var(--gold)}
+
+footer{border-top:1px solid var(--line);padding:30px 0;margin-top:40px;color:var(--muted);font-size:12px}
+footer .wrap{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px}
+.err{text-align:center;color:var(--muted);padding:50px}
+.reveal{opacity:0;transform:translateY(20px);transition:.6s cubic-bezier(.2,.7,.2,1)}
+.reveal.in{opacity:1;transform:none}
+@media(max-width:760px){.kpis{grid-template-columns:repeat(2,1fr)}.periodos,.estrats{grid-template-columns:1fr}.brand{font-size:25px}}
+
+/* ===================== VIDA VISUAL ===================== */
+.aurora{background-size:180% 180%;animation:aur 22s ease-in-out infinite}
+@keyframes aur{0%,100%{background-position:0% 12%}50%{background-position:100% 64%}}
+/* brilho dourado a varrer o nome */
+.brand{background:linear-gradient(100deg,#c8992f 0%,#f6dd97 38%,#fff6d8 50%,#f6dd97 62%,#c8992f 100%);
+  background-size:230% auto;-webkit-background-clip:text;background-clip:text;color:transparent;animation:sheen 5.5s linear infinite}
+@keyframes sheen{to{background-position:-230% center}}
+/* números com glow */
+.kpi .val{text-shadow:0 0 22px rgba(232,196,104,.20)}
+.kpi .val.pos{text-shadow:0 0 24px rgba(56,211,154,.30)} .kpi .val.neg{text-shadow:0 0 24px rgba(240,96,106,.28)}
+.fc-big b{text-shadow:0 0 22px rgba(232,196,104,.45)}
+/* hover com elevação e brilho */
+.card,.kpi,.per,.est{transition:transform .25s,box-shadow .25s,border-color .25s}
+.card:hover,.kpi:hover,.per:hover{transform:translateY(-3px);border-color:rgba(232,196,104,.45);box-shadow:0 16px 40px rgba(0,0,0,.45)}
+/* gráfico desenha-se com glow */
+svg polyline{filter:drop-shadow(0 0 7px rgba(232,196,104,.6));stroke-dasharray:4000;stroke-dashoffset:4000;animation:draw 1.9s ease-out forwards}
+@keyframes draw{to{stroke-dashoffset:0}}
+/* moeda a flutuar */
+.hcoin{animation:floaty 5.5s ease-in-out infinite}
+@keyframes floaty{0%,100%{transform:translateY(0)}50%{transform:translateY(-7px)}}
+/* bolinhas de forma a brilhar */
+.dot.g{box-shadow:0 0 9px rgba(56,211,154,.7)} .dot.p{box-shadow:0 0 9px rgba(240,96,106,.55)}
+.seg.on{box-shadow:0 5px 18px rgba(232,196,104,.45)}
+/* reflexo a passar nos cartões de destaque */
+.formcard,.tipday,.ch{position:relative;overflow:hidden}
+.formcard::after,.tipday::after,.ch::after{content:"";position:absolute;top:0;left:-70%;width:45%;height:100%;
+  pointer-events:none;background:linear-gradient(100deg,transparent,rgba(255,255,255,.07),transparent);animation:swipe 7s ease-in-out infinite}
+@keyframes swipe{0%{left:-70%}45%,100%{left:160%}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+</head>
+<body>
+<div class="aurora"></div><div class="sidelogo"></div><div class="grain"></div>
+
+<nav><div class="wrap">
+  <div class="logo"><span class="mark"></span>Match Value Elite</div>
+  <div class="nav-links"><a href="#kpis">Performance</a><a href="#banca">Banca</a>
+    <a href="#estrat">Estratégias</a><a href="#hist">Histórico</a></div>
+  <a class="btn" href="sharp-signals.html">← Início</a>
+</div></nav>
+
+<header class="top"><div class="wrap">
+  <img class="hcoin" src="logo_mv.png?v=2" alt="Match Value Elite">
+  <div class="brand" id="brand">MATCH VALUE ELITE</div>
+  <div class="tag" id="tag">Elite Sports Intelligence</div>
+  <div><span class="trust"><span class="dot"></span> Cada sinal registado e apurado · sem cherry-picking</span></div>
+  <div class="upd" id="upd"></div>
+  <div class="stakebar">Stake por aposta: <input id="stake" type="number" min="1" step="1" value="10"> €
+    <span style="color:#5d6b86">— ajusta para veres em euros</span></div>
+</div></header>
+
+<div class="wrap"><div id="app"><div class="err">A carregar dados…</div></div></div>
+
+<footer><div class="wrap">
+  <div class="logo"><span class="mark"></span>Match Value Elite</div>
+  <div>© <span id="yr"></span> Match Value Elite · stake plana 1u · +18 · joga com responsabilidade</div>
+</div></footer>
+
+<script>
+const f2=(n)=>(n>=0?'+':'')+Number(n).toFixed(2);
+const f1=(n)=>(n>=0?'+':'')+Number(n).toFixed(1);
+const cls=(n)=>n>0?'pos':(n<0?'neg':'');
+let DATA=null, STRAT='Total', STAKE=10;
+const stakeEl=document.getElementById('stake');
+document.getElementById('yr').textContent=new Date().getFullYear();
+
+const eur=(u)=>{const v=u*STAKE;return (v>=0?'+':'')+Math.round(v)+'€';};
+
+function animate(el,to,fmt){const dur=1000,t0=performance.now();
+  (function s(t){const k=Math.min((t-t0)/dur,1),e=1-Math.pow(1-k,3);
+   el.textContent=fmt(to*e);if(k<1)requestAnimationFrame(s);})(t0);}
+
+function kpisFor(g){
+  g=g||{lucro_u:0,roi:0,wr:0,sinais:0,ganhos:0,perdidos:0};
+  return `<div class="grid kpis" id="kbox">
+    <div class="card kpi"><div class="lbl">Lucro total</div>
+      <div class="val ${cls(g.lucro_u)}" data-anim="${g.lucro_u}" data-fmt="u">+0.0u</div>
+      <div class="sub ${cls(g.lucro_u)}">${eur(g.lucro_u)} @ ${STAKE}€</div></div>
+    <div class="card kpi"><div class="lbl">ROI</div>
+      <div class="val ${cls(g.roi)}" data-anim="${g.roi}" data-fmt="pct">+0.0%</div>
+      <div class="sub">retorno / aposta</div></div>
+    <div class="card kpi"><div class="lbl">Taxa de acerto</div>
+      <div class="val gold" data-anim="${g.wr}" data-fmt="wr">0%</div>
+      <div class="sub">✅${g.ganhos} ❌${g.perdidos}</div></div>
+    <div class="card kpi"><div class="lbl">Sinais</div>
+      <div class="val" data-anim="${g.sinais}" data-fmt="int">0</div>
+      <div class="sub">enviados</div></div></div>`;
+}
+function runAnims(){document.querySelectorAll('[data-anim]').forEach(el=>{
+  const to=+el.dataset.anim,t=el.dataset.fmt;
+  animate(el,to,v=>t==='u'?f2(v)+'u':t==='pct'?f1(v)+'%':t==='wr'?v.toFixed(0)+'%':Math.round(v));});}
+
+function periodsFor(p){
+  const P=(lbl,st)=>{st=st||{lucro_u:0,roi:0,sinais:0,wr:0};return `<div class="per"><div class="pl">${lbl}</div>
+    <div class="pv ${cls(st.lucro_u)}">${f2(st.lucro_u)}u <span style="font-size:14px;color:#8493ab">(${eur(st.lucro_u)})</span></div>
+    <div class="ps"><span class="${cls(st.roi)}">ROI ${f1(st.roi)}%</span> · ${st.sinais} sinais · WR ${st.wr}%</div></div>`;};
+  return `<div class="grid periodos">${P('Hoje',p.diario)}${P('Esta semana',p.semanal)}${P('Este mês',p.mensal)}</div>`;
+}
+function formCard(p){
+  const dots=(p.forma||[]).map(r=>`<span class="dot ${r==='ganho'?'g':r==='perdido'?'p':'x'}"></span>`).join('') || '<span style="color:#8493ab;font-size:13px">sem histórico ainda</span>';
+  const sa=p.streak_atual||0, sm=p.streak_melhor||0, mo=p.maior_odd||0;
+  const mdd=p.melhor_dia_data, dd=mdd?` (${mdd.slice(8,10)}/${mdd.slice(5,7)})`:'';
+  const big = sa>=1 ? `${sa>=3?'🔥':'✅'} <b>${sa}</b> <span>greens seguidos</span>`
+                    : `🏆 <b>${sm}</b> <span>melhor sequência de greens</span>`;
+  const sub = (sa>=1?`Recorde <b class="gold">${sm}</b> · `:'')+
+    `🚀 melhor dia <b class="pos">${f2(p.melhor_dia||0)}u</b>${dd}`+
+    (mo?` · maior odd <b class="gold">${mo.toFixed(2)}</b>`:'')+
+    ` · <b>${p.dias_verde_pct||0}%</b> dias no verde`;
+  return `<div class="card formcard">
+    <div><div class="fc-big">${big}</div><div class="fc-sub">${sub}</div></div>
+    <div><div class="fc-lbl">Forma — últimas ${(p.forma||[]).length}</div><div class="dots">${dots}</div></div>
+  </div>`;
+}
+
+function chart(serie){
+  if(!serie||serie.length<2) return '<div class="card chart"><div class="err">Sem histórico suficiente.</div></div>';
+  const W=1080,H=250,pad=30,ys=serie.map(p=>p.lucro_acum);
+  let mn=Math.min(0,...ys),mx=Math.max(0,...ys); if(mn===mx)mx=mn+1;
+  const X=i=>pad+i*(W-2*pad)/(serie.length-1), Y=v=>H-pad-(v-mn)*(H-2*pad)/(mx-mn);
+  const pts=serie.map((p,i)=>`${X(i).toFixed(1)},${Y(p.lucro_acum).toFixed(1)}`).join(' ');
+  const area=`${pad},${Y(0)} ${pts} ${X(serie.length-1)},${Y(0)}`, zero=Y(0), last=ys[ys.length-1];
+  return `<div class="card chart"><svg viewBox="0 0 ${W} ${H}" preserveAspectRatio="none">
+    <defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e8c468" stop-opacity="0.30"/>
+      <stop offset="1" stop-color="#e8c468" stop-opacity="0"/></linearGradient></defs>
+    <line x1="${pad}" y1="${zero}" x2="${W-pad}" y2="${zero}" stroke="#2a3a5c" stroke-dasharray="4 4"/>
+    <polygon points="${area}" fill="url(#g)"/>
+    <polyline points="${pts}" fill="none" stroke="#e8c468" stroke-width="2.5"/>
+    <text x="${pad}" y="16" fill="#8493ab" font-size="12">${serie[0].data}</text>
+    <text x="${W-pad}" y="16" fill="#8493ab" font-size="12" text-anchor="end">${serie[serie.length-1].data}</text>
+    <text x="${W-pad}" y="${H-8}" fill="${last>=0?'#38d39a':'#f0606a'}" font-size="13" text-anchor="end" font-weight="700">${f2(last)}u (${eur(last)})</text>
+  </svg></div>`;
+}
+function segs(painel){
+  const pref=['Total','Golos','Cantos','LIVE','BTTS','Challenge','Sharp Pick'];
+  const keys=Object.keys(painel).sort((a,b)=>{const ia=pref.indexOf(a),ib=pref.indexOf(b);
+    return (ia<0?99:ia)-(ib<0?99:ib);});
+  return `<div class="segwrap"><div class="segs">${keys.map(k=>
+    `<span class="seg ${k===STRAT?'on':''}" data-strat="${k}">${k==='Total'?'Tudo':k}</span>`).join('')}</div></div>`;
+}
+
+function tipDoDia(tips){
+  const head=`<div class="hd">🎯 <b>Tip do Dia</b> <span class="free">BTTS · GRÁTIS</span></div>`;
+  if(!tips||!tips.length)
+    return `<div class="card tipday">${head}<div style="color:#8493ab;padding:8px 0">
+      As tips de hoje (Ambas Marcam) aparecem aqui assim que saírem — atualizado todos os dias. ⏳</div></div>`;
+  const rows=tips.map(t=>{const ic=t.resultado==='ganho'?'✅':t.resultado==='perdido'?'❌':'🟡';
+    return `<div class="tiprow"><div>${ic} <b>${t.jogo||''}</b> <span style="color:#8493ab">· ${t.liga||''}${t.hora?' · '+t.hora:''}</span></div>
+      <div><span class="mk">${t.mercado||'Ambas Marcam'}</span> ${t.odd?'@ <b class="gold">'+Number(t.odd).toFixed(2)+'</b>':''}</div></div>`;}).join('');
+  return `<div class="card tipday">${head}${rows}</div>`;
+}
+function challengeBlock(c){
+  if(!c) return '';
+  const legs=(c.escada||[]).map(l=>{const ic=l.resultado==='ganho'?'✅':l.resultado==='perdido'?'❌':'⏳';
+    return `<span class="ch-leg">${ic} ${l.mercado||''}${l.odd?' @'+Number(l.odd).toFixed(2):''}</span>`;}).join('');
+  const ladder=(c.escada&&c.escada.length)
+    ?`<div class="ch-legs">${legs}</div><div class="ch-od">Odd acumulada <b class="gold">${Number(c.odd_acumulada||1).toFixed(2)}×</b> · Jogo ${Math.min((c.escada.length+1),c.total||4)}/${c.total||4}</div>`
+    :`<div class="ch-od" style="color:#8493ab">Escada vazia — à espera da próxima tip.</div>`;
+  return `<div class="sec-t">🏆 The Challenge — acumulador de 4</div>
+    <div class="card ch">
+      <div class="stats">
+        <div><div class="l">🏆 Completos</div><div class="v pos">${c.completos||0}</div></div>
+        <div><div class="l">❌ Falhados</div><div class="v neg">${c.falhados||0}</div></div>
+      </div><div style="flex:1;min-width:240px">${ladder}</div></div>`;
+}
+function estrat(po){
+  const items=Object.entries(po).sort((a,b)=>b[1].lucro-a[1].lucro);
+  return items.map(([n,v])=>`<div class="est"><div class="e-top"><span class="e-name">${n}</span>
+    <span class="e-n">${v.n} sinais</span></div><div class="bar"><div style="width:${Math.min(100,v.wr||0)}%"></div></div>
+    <div class="e-bot"><span>WR ${v.wr||0}% · ✅${v.g} ❌${v.p}</span>
+    <span class="${cls(v.lucro)}">${f2(v.lucro)}u (${eur(v.lucro)})</span></div></div>`).join('');
+}
+function hist(rows){
+  const bd=r=>r==='ganho'?'<span class="badge b-g">GANHO</span>':r==='perdido'?'<span class="badge b-p">PERDIDO</span>':
+    r==='push'?'<span class="badge b-x">PUSH</span>':'<span class="badge b-w">PENDENTE</span>';
+  const tr=rows.slice().sort((a,b)=>(b.data+(b.hora||'')).localeCompare(a.data+(a.hora||''))).slice(0,40).map(s=>`<tr><td>${s.data}</td><td>${s.estrategia}</td>
+    <td style="color:#8493ab">${s.liga||''}</td><td>${s.jogo||''}</td><td>${s.mercado||''}</td>
+    <td class="gold">${s.odd?Number(s.odd).toFixed(2):'—'}</td><td>${bd(s.resultado)}</td></tr>`).join('');
+  return `<div class="card" style="padding:6px 10px"><table>
+    <tr><th>Data</th><th>Estratégia</th><th>Liga</th><th>Jogo</th><th>Mercado</th><th>Odd</th><th>Resultado</th></tr>
+    ${tr}</table></div>`;
+}
+
+function kpis(g){return kpisFor(g);}   // compat
+function render(){
+  const d=DATA;
+  const painel=d.painel||{Total:{geral:d.geral,diario:d.diario,semanal:d.semanal,mensal:d.mensal,serie:d.serie||[]}};
+  if(!painel[STRAT]) STRAT='Total';
+  const p=painel[STRAT]||{};
+  const g=p.geral||{lucro_u:0,roi:0,wr:0,sinais:0,ganhos:0,perdidos:0};
+  const nome=STRAT==='Total'?'Tudo':STRAT;
+  const histRows=(STRAT==='Total')?(d.historico_sinais||[]):(d.historico_sinais||[]).filter(s=>s.estrategia===STRAT);
+  document.getElementById('brand').textContent=(d.marca&&d.marca.nome)?d.marca.nome.toUpperCase():'MATCH VALUE ELITE';
+  document.getElementById('tag').textContent=(d.marca&&d.marca.tagline)||'';
+  document.getElementById('upd').textContent='Atualizado: '+(d.atualizado||'').replace('T',' ');
+  document.getElementById('app').innerHTML=
+    `${Object.keys(painel).length>2?segs(painel):''}
+     <div id="kpis">${kpisFor(g)}</div>
+     ${formCard(p)}
+     <div class="sec-t">🎯 Tip do Dia — grátis, todos os dias</div>
+     ${tipDoDia(d.tip_do_dia)}
+     ${periodsFor(p)}
+     <div class="sec-t" id="banca">Evolução da banca — ${nome}</div>
+     <div id="chartbox">${chart(p.serie||[])}</div>
+     ${challengeBlock(d.challenge)}
+     <div class="sec-t" id="estrat">Por estratégia</div>
+     <div class="grid estrats">${estrat(d.por_estrategia||{})}</div>
+     <div class="sec-t" id="hist">Histórico${STRAT==='Total'?'':' — '+STRAT}</div>${hist(histRows)}`;
+  document.querySelectorAll('.seg').forEach(s=>s.onclick=()=>{STRAT=s.dataset.strat;render();});
+  runAnims();
+  document.querySelectorAll('.reveal').forEach(el=>el.classList.add('in'));
+}
+
+stakeEl.addEventListener('input',()=>{STAKE=Math.max(1,+stakeEl.value||1); if(DATA) render();});
+
+// ?strat=LIVE no URL pré-seleciona a estratégia (o parceiro liga cada cliente à sua)
+const q=new URLSearchParams(location.search).get('strat'); if(q) STRAT=q;
+
+fetch('dashboard.json?'+Date.now()).then(r=>r.json()).then(d=>{DATA=d;render();})
+  .catch(()=>{document.getElementById('app').innerHTML=
+    '<div class="err">Não consegui carregar <b>dashboard.json</b>.<br>'+
+    'Abre via servidor (<code>python -m http.server</code>) → http://localhost:8000/dashboard.html</div>';});
+</script>
+</body>
+</html>
