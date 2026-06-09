@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ZI Corner Pro — Performance Dashboard</title>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Raleway:wght@300;400;600&display=swap" rel="stylesheet">
+<style>
+:root{--navy:#060d1a;--navy2:#0a1628;--gold:#c9a227;--gold-l:#e8c96e;--gold-b:rgba(201,162,39,0.25);--white:#f8f4ed;--white2:rgba(248,244,237,0.6);--green:#2ecc71;--red:#e74c3c;--orange:#e67e22;--yellow:#f1c40f}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--navy);color:var(--white);font-family:'Raleway',sans-serif;font-weight:300;min-height:100vh}
+body::before{content:'';position:fixed;inset:0;background-image:linear-gradient(rgba(201,162,39,0.03) 1px,transparent 1px),linear-gradient(90deg,rgba(201,162,39,0.03) 1px,transparent 1px);background-size:60px 60px;pointer-events:none;z-index:0}
+.wrap{position:relative;z-index:1;max-width:1200px;margin:0 auto;padding:0 1.5rem 4rem}
+
+/* HEADER */
+.header{display:flex;align-items:center;justify-content:space-between;padding:2rem 0 1.5rem;border-bottom:1px solid var(--gold-b);margin-bottom:2.5rem;flex-wrap:wrap;gap:1rem}
+.header-left{display:flex;align-items:center;gap:1.25rem}
+.logo-wrap{width:60px;height:60px;border-radius:50%;overflow:hidden;border:1.5px solid var(--gold-b);box-shadow:0 0 20px rgba(201,162,39,0.2);flex-shrink:0}
+.logo-wrap img{width:100%;height:100%;object-fit:cover;display:block}
+.brand-name{font-family:'Cinzel',serif;font-size:1.5rem;font-weight:700;background:linear-gradient(135deg,var(--gold-l),var(--gold));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;letter-spacing:3px}
+.brand-sub{font-size:10px;letter-spacing:4px;color:var(--gold);opacity:0.7;text-transform:uppercase;margin-top:3px}
+.header-right{display:flex;align-items:center;gap:1rem;flex-wrap:wrap}
+.live-badge{display:flex;align-items:center;gap:0.5rem;background:rgba(46,204,113,0.1);border:1px solid rgba(46,204,113,0.3);padding:0.4rem 0.9rem;font-size:11px;font-weight:600;color:var(--green);letter-spacing:1px}
+.live-dot{width:7px;height:7px;border-radius:50%;background:var(--green);animation:pulse 2s infinite}
+.dl-btn{background:transparent;border:1px solid var(--gold-b);color:var(--gold);padding:0.4rem 0.9rem;font-size:11px;letter-spacing:1px;font-family:'Raleway',sans-serif;text-decoration:none;transition:all 0.2s;white-space:nowrap}
+.dl-btn:hover{background:rgba(201,162,39,0.1);border-color:var(--gold);color:var(--gold-l)}
+@keyframes pulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:0.5;transform:scale(0.8)}}
+.last-update{font-size:11px;color:var(--white2);letter-spacing:1px}
+.last-alert{font-size:11px;color:var(--gold);letter-spacing:1px}
+
+/* FILTER */
+.filter-bar{display:flex;gap:0.5rem;margin-bottom:2rem;flex-wrap:wrap}
+.filter-btn{background:transparent;border:1px solid var(--gold-b);color:var(--white2);padding:0.45rem 1.1rem;font-size:11px;letter-spacing:2px;font-family:'Raleway',sans-serif;cursor:pointer;transition:all 0.2s;text-transform:uppercase}
+.filter-btn:hover{border-color:var(--gold);color:var(--gold)}
+.filter-btn.active{background:rgba(201,162,39,0.15);border-color:var(--gold);color:var(--gold-l);font-weight:600}
+
+/* HERO */
+.hero-stats{display:grid;grid-template-columns:repeat(6,1fr);gap:1px;background:var(--gold-b);margin-bottom:2.5rem}
+.hero-stat{background:var(--navy2);padding:1.75rem 1rem;text-align:center;position:relative;overflow:hidden}
+.hero-stat::before{content:'';position:absolute;top:0;left:0;right:0;height:2px;background:linear-gradient(90deg,transparent,var(--gold),transparent)}
+.hero-stat-val{font-family:'Cinzel',serif;font-size:2.2rem;font-weight:700;color:var(--gold-l);display:block;line-height:1;margin-bottom:0.5rem}
+.hero-stat-val.green{color:var(--green)}
+.hero-stat-val.red{color:var(--red)}
+.hero-stat-label{font-size:9px;letter-spacing:3px;color:var(--white2);text-transform:uppercase;display:block}
+.formstrip{display:flex;align-items:center;justify-content:space-between;gap:1.5rem;background:rgba(255,255,255,0.02);border:1px solid var(--gold-b);padding:1.5rem 1.75rem;margin-bottom:2.5rem;position:relative;flex-wrap:wrap}
+.formstrip::before{content:'';position:absolute;top:0;left:0;width:3px;height:100%;background:linear-gradient(180deg,var(--gold),transparent)}
+.formstrip-left{display:flex;flex-direction:column;gap:0.3rem}
+.formstrip-title{font-family:'Cinzel',serif;font-size:13px;letter-spacing:3px;color:var(--gold);text-transform:uppercase}
+.formstrip-sub{font-size:11px;color:var(--white2);letter-spacing:0.5px}
+.formstrip-dots{display:flex;gap:10px;align-items:center}
+.fdot{width:26px;height:26px;border-radius:50%;flex-shrink:0;border:1px solid rgba(255,255,255,0.12);display:flex;align-items:center;justify-content:center;font-size:13px;font-weight:700;font-family:'Cinzel',serif;transition:transform 0.2s}
+.fdot:hover{transform:scale(1.15)}
+.fdot.win{background:rgba(46,204,113,0.18);border-color:var(--green);color:var(--green);box-shadow:0 0 10px rgba(46,204,113,0.3)}
+.fdot.loss{background:rgba(231,76,60,0.18);border-color:var(--red);color:var(--red)}
+.fdot.void{background:rgba(241,196,15,0.12);border-color:var(--yellow);color:var(--yellow)}
+.fdot.empty{background:transparent;border-style:dashed;border-color:rgba(255,255,255,0.15)}
+.formstrip-legend{display:flex;gap:1rem;font-size:10px;letter-spacing:1px;color:var(--white2);text-transform:uppercase}
+.formstrip-legend span{display:flex;align-items:center;gap:0.4rem}
+.lgd{width:11px;height:11px;border-radius:50%;display:inline-block}
+.lgd.win{background:var(--green)}.lgd.loss{background:var(--red)}.lgd.void{background:var(--yellow)}
+@media(max-width:768px){.formstrip{justify-content:center;text-align:center}.fdot{width:22px;height:22px;font-size:11px}}
+
+/* SECTIONS */
+.sec{font-family:'Cinzel',serif;font-size:11px;letter-spacing:4px;color:var(--gold);text-transform:uppercase;display:flex;align-items:center;gap:0.75rem;margin-bottom:1.25rem}
+.sec::after{content:'';flex:1;height:1px;background:linear-gradient(90deg,var(--gold-b),transparent)}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:1.5rem;margin-bottom:2.5rem}
+.grid4{display:grid;grid-template-columns:repeat(4,1fr);gap:1rem;margin-bottom:2.5rem}
+.card{background:rgba(255,255,255,0.02);border:1px solid var(--gold-b);padding:1.5rem;position:relative}
+.card::before{content:'';position:absolute;top:0;left:0;width:3px;height:100%;background:linear-gradient(180deg,var(--gold),transparent)}
+
+/* WINDOWS */
+.wcard{background:var(--navy2);border:1px solid var(--gold-b);padding:1.25rem;text-align:center}
+.wname{font-family:'Cinzel',serif;font-size:11px;letter-spacing:2px;color:var(--gold);text-transform:uppercase;margin-bottom:0.5rem}
+.wrate{font-family:'Cinzel',serif;font-size:2rem;font-weight:700;margin-bottom:0.25rem}
+.wdetail{font-size:11px;color:var(--white2)}
+.pbar{height:4px;background:rgba(255,255,255,0.08);margin-top:0.75rem;border-radius:2px;overflow:hidden}
+.pfill{height:100%;border-radius:2px;transition:width 1s ease}
+
+/* TIERS */
+.tier-row{display:flex;align-items:center;padding:0.75rem 0;border-bottom:1px solid rgba(255,255,255,0.05);gap:0.75rem}
+.tier-row:last-child{border-bottom:none}
+.tier-label{font-size:13px;color:var(--white2);min-width:80px}
+.tbar-wrap{flex:1;height:6px;background:rgba(255,255,255,0.08);border-radius:3px;overflow:hidden}
+.tbar{height:100%;border-radius:3px}
+
+/* CHART */
+.chart-wrap{position:relative;height:200px;margin-top:0.5rem}
+
+/* TABLE */
+.tbl-wrap{overflow-x:auto;margin-bottom:2.5rem}
+table{width:100%;border-collapse:collapse;font-size:12px;table-layout:auto}
+thead th{font-family:'Cinzel',serif;font-size:9px;letter-spacing:1px;color:var(--gold);text-transform:uppercase;padding:0.7rem 0.5rem;border-bottom:1px solid var(--gold-b);text-align:left;background:rgba(201,162,39,0.05);white-space:nowrap}
+tbody td{padding:0.6rem 0.5rem;border-bottom:1px solid rgba(255,255,255,0.04);color:var(--white2);white-space:nowrap}
+thead th:first-child,tbody td:first-child{padding-left:0.85rem}
+thead th:last-child,tbody td:last-child{padding-right:0.85rem}
+tbody tr:hover td{background:rgba(201,162,39,0.03)}
+.bwin{background:rgba(46,204,113,0.15);color:var(--green);border:1px solid rgba(46,204,113,0.3);padding:2px 7px;font-size:11px;font-weight:600;letter-spacing:1px;white-space:nowrap}
+.bloss{background:rgba(231,76,60,0.15);color:var(--red);border:1px solid rgba(231,76,60,0.3);padding:2px 7px;font-size:11px;font-weight:600;letter-spacing:1px;white-space:nowrap}
+.bvoid{background:rgba(241,196,15,0.15);color:var(--yellow);border:1px solid rgba(241,196,15,0.3);padding:2px 7px;font-size:11px;font-weight:600;letter-spacing:1px;white-space:nowrap}
+.bht{background:rgba(201,162,39,0.15);color:var(--gold-l);border:1px solid var(--gold-b);padding:2px 8px;font-size:10px}
+.bshark{background:rgba(93,173,226,0.15);color:#5dade2;border:1px solid rgba(93,173,226,0.3);padding:2px 8px;font-size:10px}
+.bmid{background:rgba(230,126,34,0.15);color:var(--orange);border:1px solid rgba(230,126,34,0.3);padding:2px 8px;font-size:10px}
+.bfinal{background:rgba(231,76,60,0.15);color:var(--red);border:1px solid rgba(231,76,60,0.3);padding:2px 8px;font-size:10px}
+.sv{font-family:'Cinzel',serif;font-weight:600;color:var(--gold-l)}
+
+/* DISCLAIMER */
+.disclaimer{background:rgba(201,162,39,0.04);border:1px solid var(--gold-b);padding:1.5rem;margin-top:2rem;margin-bottom:2rem}
+.disclaimer-title{font-family:'Cinzel',serif;font-size:10px;letter-spacing:3px;color:var(--gold);text-transform:uppercase;margin-bottom:0.75rem}
+.disclaimer-text{font-size:11px;color:var(--white2);line-height:1.8}
+
+/* FOOTER */
+.footer{text-align:center;padding:2rem 0;border-top:1px solid var(--gold-b);margin-top:1rem}
+.footer-logo{font-family:'Cinzel',serif;font-size:1rem;color:var(--gold);letter-spacing:3px;margin-bottom:0.5rem}
+.footer-sub{font-size:10px;letter-spacing:3px;color:var(--white2);text-transform:uppercase}
+
+/* NO DATA */
+.no-data{text-align:center;padding:3rem;color:var(--white2);font-size:13px}
+
+@media(max-width:768px){.hero-stats{grid-template-columns:repeat(3,1fr)}.grid2{grid-template-columns:1fr}.grid4{grid-template-columns:repeat(2,1fr)}}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<div class="header">
+  <div class="header-left">
+    <a href="index.html" style="display:block;text-decoration:none">
+      <div class="logo-wrap">
+        <img src="https://raw.githubusercontent.com/sharp-signals/sharp-signals.github.io/main/logo.png" alt="ZI Corner Pro" onerror="this.parentElement.style.display='none'">
+      </div>
+    </a>
+    <div>
+      <div class="brand-name">ZI CORNER PRO</div>
+      <div class="brand-sub">Performance Dashboard</div>
+    </div>
+  </div>
+  <div class="header-right">
+    <a href="https://sharp-signals.github.io" class="dl-btn">← Home</a>
+    <div class="last-alert" id="last-alert">Last alert: —</div>
+    <a href="whitepaper.pdf" target="_blank" class="dl-btn">⬇ Whitepaper</a>
+    <div class="live-badge"><div class="live-dot"></div> LIVE</div>
+    <div class="last-update" id="last-update">—</div>
+  </div>
+</div>
+
+<div class="filter-bar">
+  <button class="filter-btn" onclick="setFilter('today')">Today</button>
+  <button class="filter-btn" onclick="setFilter('week')">Last 7 Days</button>
+  <button class="filter-btn" onclick="setFilter('month')">Last 30 Days</button>
+  <button class="filter-btn active" onclick="setFilter('all')">All Time</button>
+</div>
+
+<div class="hero-stats">
+  <div class="hero-stat"><span class="hero-stat-val" id="h-total">—</span><span class="hero-stat-label">Total Alerts</span></div>
+  <div class="hero-stat"><span class="hero-stat-val green" id="h-wins">—</span><span class="hero-stat-label">Wins</span></div>
+  <div class="hero-stat"><span class="hero-stat-val red" id="h-losses">—</span><span class="hero-stat-label">Losses</span></div>
+  <div class="hero-stat"><span class="hero-stat-val" id="h-voids" style="color:var(--yellow)">—</span><span class="hero-stat-label">Voids</span></div>
+  <div class="hero-stat"><span class="hero-stat-val" id="h-rate">—</span><span class="hero-stat-label">Win Rate</span></div>
+  <div class="hero-stat"><span class="hero-stat-val" id="h-cantos">—</span><span class="hero-stat-label">Avg Corners</span></div>
+</div>
+
+<div class="formstrip">
+  <div class="formstrip-left">
+    <span class="formstrip-title">Recent Form</span>
+    <span class="formstrip-sub">Last 10 settled alerts</span>
+  </div>
+  <div class="formstrip-dots" id="form-dots"></div>
+  <div class="formstrip-legend">
+    <span><i class="lgd win"></i> Win</span>
+    <span><i class="lgd loss"></i> Loss</span>
+    <span><i class="lgd void"></i> Void</span>
+  </div>
+</div>
+
+<div class="sec">Performance by Window</div>
+<div class="grid4">
+  <div class="wcard"><div class="wname">⚡ HT Attack</div><div class="wrate" id="w-ht" style="color:var(--gold)">—</div><div class="wdetail" id="wd-ht">—</div><div class="pbar"><div class="pfill" id="wp-ht" style="background:var(--gold);width:0%"></div></div></div>
+  <div class="wcard"><div class="wname">🦈 Shark Attack</div><div class="wrate" id="w-shark" style="color:#5dade2">—</div><div class="wdetail" id="wd-shark">—</div><div class="pbar"><div class="pfill" id="wp-shark" style="background:#5dade2;width:0%"></div></div></div>
+  <div class="wcard"><div class="wname">🔥 Mid Pressure</div><div class="wrate" id="w-mid" style="color:var(--orange)">—</div><div class="wdetail" id="wd-mid">—</div><div class="pbar"><div class="pfill" id="wp-mid" style="background:var(--orange);width:0%"></div></div></div>
+  <div class="wcard"><div class="wname">💥 Final Push</div><div class="wrate" id="w-final" style="color:var(--red)">—</div><div class="wdetail" id="wd-final">—</div><div class="pbar"><div class="pfill" id="wp-final" style="background:var(--red);width:0%"></div></div></div>
+</div>
+
+<div class="grid2">
+  <div class="card">
+    <div class="sec">Win Rate by Minimum Score</div>
+    <div id="score-tiers"></div>
+  </div>
+  <div class="card">
+    <div class="sec">Cumulative Win Rate Over Time</div>
+    <div class="chart-wrap"><canvas id="chart"></canvas></div>
+  </div>
+</div>
+
+<div class="grid2" style="margin-bottom:2.5rem">
+  <div class="card" style="text-align:center">
+    <div style="font-size:11px;letter-spacing:3px;color:var(--green);text-transform:uppercase;margin-bottom:0.5rem">Avg Score — WIN</div>
+    <div style="font-family:'Cinzel',serif;font-size:3rem;color:var(--green);font-weight:700" id="avg-win">—</div>
+    <div style="font-size:11px;color:var(--white2);margin-top:0.25rem">/ 10</div>
+  </div>
+  <div class="card" style="text-align:center">
+    <div style="font-size:11px;letter-spacing:3px;color:var(--red);text-transform:uppercase;margin-bottom:0.5rem">Avg Score — LOSS</div>
+    <div style="font-family:'Cinzel',serif;font-size:3rem;color:var(--red);font-weight:700" id="avg-loss">—</div>
+    <div style="font-size:11px;color:var(--white2);margin-top:0.25rem">/ 10</div>
+  </div>
+</div>
+
+<div class="sec">Alert History</div>
+<div class="tbl-wrap">
+  <table>
+    <thead><tr><th>Date</th><th>Match</th><th>League</th><th>Window</th><th>Min</th><th>Score</th><th>Ref</th><th>Final</th><th>+Corners</th><th>Target</th><th>Result</th></tr></thead>
+    <tbody id="tbody"></tbody>
+  </table>
+</div>
+
+<div class="disclaimer">
+  <div class="disclaimer-title">⚠ Disclaimer</div>
+  <div class="disclaimer-text">
+    ZI Corner Pro is a real-time football pressure analysis system. All results presented in this dashboard are calculated automatically based on commonly observed market parameters — over corners at near-even odds within the typical market window for each alert type. Actual results may vary depending on the odds available at the time of the alert, added time, and the betting platform used.<br><br>
+    <strong style="color:var(--white)">Market entry decisions, stake sizing, and bet placement are the sole responsibility of the user.</strong> ZI Corner Pro provides informational alerts only and does not constitute financial or betting advice. Past performance does not guarantee future results.
+  </div>
+</div>
+
+<div class="footer">
+  <div class="footer-logo">ZI CORNER PRO</div>
+  <div class="footer-sub">Strategy Elite · Verified Performance · Automated Data</div>
+</div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.0/chart.umd.min.js"></script>
+<script>
+var allData = [];
+var currentFilter = 'all';
+var chartInst = null;
+
+async function loadData() {
+  try {
+    var res = await fetch('historico.json?t=' + Date.now());
+    if (!res.ok) return null;
+    return await res.json();
+  } catch(e) { return null; }
+}
+
+function processData(h) {
+  var all = [];
+  Object.keys(h).forEach(function(d) {
+    h[d].forEach(function(e) { all.push(e); });
+  });
+  all.sort(function(a,b) { return new Date(a.timestamp) - new Date(b.timestamp); });
+  return all;
+}
+
+function filterData(all, filter) {
+  var now = new Date();
+  if (filter === 'today') {
+    var today = now.toISOString().slice(0,10);
+    return all.filter(function(e){ return e.timestamp && e.timestamp.slice(0,10) === today; });
+  }
+  if (filter === 'week') {
+    var weekAgo = new Date(now - 7*24*60*60*1000);
+    return all.filter(function(e){ return new Date(e.timestamp) >= weekAgo; });
+  }
+  if (filter === 'month') {
+    var monthAgo = new Date(now - 30*24*60*60*1000);
+    return all.filter(function(e){ return new Date(e.timestamp) >= monthAgo; });
+  }
+  return all;
+}
+
+function setFilter(f) {
+  currentFilter = f;
+  document.querySelectorAll('.filter-btn').forEach(function(b){ b.classList.remove('active'); });
+  event.target.classList.add('active');
+  render(filterData(allData, f));
+}
+
+function rateColor(r) {
+  if (r >= 70) return 'var(--green)';
+  if (r >= 50) return 'var(--yellow)';
+  return 'var(--red)';
+}
+
+function render(data) {
+  if (!data.length) {
+    document.getElementById('h-total').textContent = '0';
+    document.getElementById('h-wins').textContent = '0';
+    document.getElementById('h-losses').textContent = '0';
+    document.getElementById('h-rate').textContent = '—';
+    document.getElementById('h-cantos').textContent = '—';
+    document.getElementById('avg-win').textContent = '—';
+    document.getElementById('avg-loss').textContent = '—';
+    document.getElementById('tbody').innerHTML = '<tr><td colspan="11" class="no-data">No alerts recorded for this period</td></tr>';
+    document.getElementById('score-tiers').innerHTML = '';
+    return;
+  }
+
+  var wins = data.filter(function(e){ return e.resultado === 'WIN'; }).length;
+  var losses = data.filter(function(e){ return e.resultado === 'LOSS'; }).length;
+  var voids = data.filter(function(e){ return e.resultado === 'VOID'; }).length;
+  var decididos = wins + losses;
+  var rate = decididos > 0 ? Math.round(wins / decididos * 1000) / 10 : 0;
+  var cantosArr = data.map(function(e){ return e.cantos_apos_alerta; }).filter(function(x){ return x != null; });
+  var medC = cantosArr.length ? Math.round(cantosArr.reduce(function(a,b){ return a+b; },0)/cantosArr.length*10)/10 : 0;
+  var scW = data.filter(function(e){ return e.resultado==='WIN'; }).map(function(e){ return e.estrelas; });
+  var scL = data.filter(function(e){ return e.resultado==='LOSS'; }).map(function(e){ return e.estrelas; });
+  var avgW = scW.length ? Math.round(scW.reduce(function(a,b){return a+b;},0)/scW.length*10)/10 : 0;
+  var avgL = scL.length ? Math.round(scL.reduce(function(a,b){return a+b;},0)/scL.length*10)/10 : 0;
+
+  document.getElementById('h-total').textContent = data.length;
+  document.getElementById('h-wins').textContent = wins;
+  document.getElementById('h-losses').textContent = losses;
+  document.getElementById('h-voids').textContent = voids;
+  document.getElementById('h-rate').textContent = rate + '%';
+  document.getElementById('h-cantos').textContent = '+' + medC;
+  document.getElementById('avg-win').textContent = avgW || '—';
+  document.getElementById('avg-loss').textContent = avgL || '—';
+  document.getElementById('last-update').textContent = 'Updated: ' + new Date().toLocaleTimeString('en-GB');
+
+  var janelas = [
+    {key:'HT ATTACK', id:'ht'},
+    {key:'SHARK ATTACK', id:'shark'},
+    {key:'MID PRESSURE', id:'mid'},
+    {key:'FINAL PUSH', id:'final'}
+  ];
+  janelas.forEach(function(j) {
+    var arr = data.filter(function(e){ return e.janela === j.key; });
+    var arrD = arr.filter(function(e){ return e.resultado==='WIN' || e.resultado==='LOSS'; });
+    var w = arr.filter(function(e){ return e.resultado==='WIN'; }).length;
+    var r = arrD.length ? Math.round(w/arrD.length*1000)/10 : 0;
+    var rc = rateColor(r);
+    var el = document.getElementById('w-' + j.id);
+    el.textContent = arrD.length ? r + '%' : '—';
+    el.style.color = arrD.length ? rc : 'var(--white2)';
+    document.getElementById('wd-' + j.id).textContent = arr.length ? w + '/' + arrD.length + ' alerts' : 'no data';
+    document.getElementById('wp-' + j.id).style.width = arr.length ? r + '%' : '0%';
+  });
+
+  var tiers = [7.0, 7.5, 8.0, 8.5, 9.0];
+  var tiersHTML = '';
+  tiers.forEach(function(t) {
+    var arr = data.filter(function(e){ return e.estrelas >= t; });
+    var arrD = arr.filter(function(e){ return e.resultado==='WIN' || e.resultado==='LOSS'; });
+    var w = arr.filter(function(e){ return e.resultado==='WIN'; }).length;
+    var r = arrD.length ? Math.round(w/arrD.length*1000)/10 : 0;
+    var rc = rateColor(r);
+    tiersHTML += '<div class="tier-row">';
+    tiersHTML += '<span class="tier-label">Score \u2265 ' + t + '</span>';
+    tiersHTML += '<div class="tbar-wrap"><div class="tbar" style="width:' + (arr.length?r:0) + '%;background:' + rc + '"></div></div>';
+    tiersHTML += '<span style="font-size:13px;font-weight:600;color:' + (arr.length?rc:'var(--white2)') + '">' + (arr.length ? r+'%' : '—') + '</span>';
+    tiersHTML += '<span style="font-size:11px;color:var(--white2);margin-left:0.5rem">(' + w + '/' + arrD.length + ')</span>';
+    tiersHTML += '</div>';
+  });
+  document.getElementById('score-tiers').innerHTML = tiersHTML;
+
+  var labels = data.map(function(e){
+    var d = new Date(e.timestamp);
+    return d.toLocaleDateString('en-GB',{day:'2-digit',month:'short'});
+  });
+  var cumWin = [];
+  var wc = 0;
+  var dc = 0;
+  data.forEach(function(e){
+    if(e.resultado==='WIN' || e.resultado==='LOSS') {
+      if(e.resultado==='WIN') wc++;
+      dc++;
+    }
+    cumWin.push(dc > 0 ? Math.round(wc/dc*100) : 0);
+  });
+
+  if(chartInst) chartInst.destroy();
+  var ctx = document.getElementById('chart').getContext('2d');
+  chartInst = new Chart(ctx, {
+    type: 'line',
+    data: {
+      labels: labels,
+      datasets: [{
+        label: 'Win Rate %',
+        data: cumWin,
+        borderColor: '#c9a227',
+        backgroundColor: 'rgba(201,162,39,0.08)',
+        borderWidth: 2,
+        fill: true,
+        tension: 0.4,
+        pointRadius: data.length > 30 ? 0 : 4,
+        pointBackgroundColor: '#c9a227'
+      }]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: { legend: { display: false } },
+      scales: {
+        x: {
+          ticks: {
+            color: 'rgba(248,244,237,0.4)',
+            font: { size: 9 },
+            maxTicksLimit: 10,
+            maxRotation: 0
+          },
+          grid: { color: 'rgba(255,255,255,0.03)' },
+          border: { color: 'transparent' }
+        },
+        y: {
+          min: 0, max: 100,
+          grid: { color: 'rgba(255,255,255,0.04)' },
+          ticks: { color: 'rgba(248,244,237,0.5)', font: { size: 10 }, callback: function(v){ return v+'%'; } },
+          border: { color: 'transparent' }
+        }
+      }
+    }
+  });
+
+  var jBadge = {'HT ATTACK':'bht','SHARK ATTACK':'bshark','MID PRESSURE':'bmid','FINAL PUSH':'bfinal'};
+  var rows = '';
+  data.slice().reverse().forEach(function(e) {
+    var dt = new Date(e.timestamp);
+    var dd = dt.toLocaleDateString('en-GB',{day:'2-digit',month:'2-digit',year:'2-digit'});
+    var hh = dt.toLocaleTimeString('en-GB',{hour:'2-digit',minute:'2-digit'});
+    var cc = e.resultado==='WIN' ? 'var(--green)' : 'var(--red)';
+    var resSpan = e.resultado==='WIN' ? '<span class="bwin">WIN</span>' : e.resultado==='VOID' ? '<span class="bvoid">VOID</span>' : '<span class="bloss">LOSS</span>';
+    var badge = jBadge[e.janela] || 'bht';
+    rows += '<tr>';
+    rows += '<td style="font-size:11px">' + dd + ' ' + hh + '</td>';
+    rows += '<td style="color:var(--white);font-weight:500">' + e.jogo + '</td>';
+    rows += '<td style="font-size:11px">' + (e.liga||'—') + '</td>';
+    rows += '<td><span class="' + badge + '">' + e.janela + '</span></td>';
+    rows += '<td>' + e.tempo_alerta + "'" + '</td>';
+    rows += '<td><span class="sv">' + e.estrelas + '</span></td>';
+    rows += '<td>' + e.cantos_no_ref + '</td>';
+    rows += '<td>' + e.cantos_final + '</td>';
+    rows += '<td style="color:' + cc + ';font-weight:600">+' + e.cantos_apos_alerta + '</td>';
+    rows += '<td>+' + e.meta_cantos + '</td>';
+    rows += '<td>' + resSpan + '</td>';
+    rows += '</tr>';
+  });
+  document.getElementById('tbody').innerHTML = rows;
+}
+
+function updateLastAlert(all) {
+  if (!all.length) return;
+  var last = all[all.length - 1];
+  var dt = new Date(last.timestamp);
+  var dd = dt.toLocaleDateString('en-GB',{day:'2-digit',month:'short',year:'numeric'});
+  var hh = dt.toLocaleTimeString('en-GB',{hour:'2-digit',minute:'2-digit'});
+  document.getElementById('last-alert').textContent = 'Last alert: ' + dd + ' ' + hh;
+}
+
+function renderForm(all) {
+  var decided = all.filter(function(e){
+    return e.resultado==='WIN' || e.resultado==='LOSS' || e.resultado==='VOID';
+  });
+  var last10 = decided.slice(-10);
+  var html = '';
+  last10.forEach(function(e){
+    var cls = e.resultado==='WIN' ? 'win' : (e.resultado==='LOSS' ? 'loss' : 'void');
+    var letter = e.resultado==='WIN' ? 'W' : (e.resultado==='LOSS' ? 'L' : 'V');
+    html += '<div class="fdot ' + cls + '" title="' + e.resultado + '">' + letter + '</div>';
+  });
+  for (var i = last10.length; i < 10; i++) {
+    html += '<div class="fdot empty"></div>';
+  }
+  var el = document.getElementById('form-dots');
+  if (el) el.innerHTML = html;
+}
+
+async function init() {
+  var raw = await loadData();
+  if (!raw) {
+    document.getElementById('tbody').innerHTML = '<tr><td colspan="11" class="no-data">historico.json not found — place the file in the same folder</td></tr>';
+    return;
+  }
+  allData = processData(raw);
+  updateLastAlert(allData);
+  renderForm(allData);
+  render(filterData(allData, currentFilter));
+}
+
+init();
+setInterval(init, 60000);
+</script>
+</body>
+</html>
