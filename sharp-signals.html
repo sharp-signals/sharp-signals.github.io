@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Match Value Elite — Elite Sports Intelligence</title>
+<meta name="description" content="Data-driven betting signals. Real edge, fair odds, in-play intelligence. Match Value Elite.">
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;900&family=Raleway:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --navy:#060d1a;--navy2:#0a1628;--navy3:#0f2040;
+  --gold:#c9a227;--gold-l:#e8c96e;--gold-b:rgba(201,162,39,0.2);
+  --white:#f8f4ed;--white2:rgba(248,244,237,0.6);--white3:rgba(248,244,237,0.35);
+  --green:#2ecc71;--red:#e74c3c;--orange:#e67e22;--yellow:#f1c40f;--blue:#5dade2;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{background:var(--navy);color:var(--white);font-family:'Raleway',sans-serif;font-weight:300;overflow-x:hidden;line-height:1.6}
+a{color:inherit;text-decoration:none}
+.wrap{max-width:1140px;margin:0 auto;padding:0 2rem}
+.gold{color:var(--gold-l)} .pos{color:var(--green)} .neg{color:var(--red)}
+.aurora{position:fixed;inset:0;z-index:-2;background:
+  radial-gradient(900px 500px at 12% -8%,rgba(201,162,39,.08),transparent 60%),
+  radial-gradient(1000px 600px at 88% 0%,rgba(93,173,226,.07),transparent 55%),
+  radial-gradient(1200px 800px at 50% 120%,rgba(201,162,39,.05),transparent 60%),
+  var(--navy)}
+.grain{position:fixed;inset:0;z-index:-1;opacity:.04;pointer-events:none;
+  background-image:radial-gradient(#fff 1px,transparent 1px);background-size:3px 3px}
+.sidelogo{position:fixed;z-index:-2;left:-140px;top:50%;transform:translateY(-50%);width:560px;height:560px;
+  opacity:.06;pointer-events:none;background:url('logo_mv.png?v=2') center/contain no-repeat}
+@media(max-width:900px){.sidelogo{left:-220px;width:420px;height:420px;opacity:.04}}
+nav{position:fixed;top:0;left:0;right:0;z-index:100;padding:1rem 2rem;display:flex;align-items:center;justify-content:space-between;background:rgba(6,13,26,0.85);backdrop-filter:blur(12px);border-bottom:1px solid var(--gold-b)}
+.nav-logo{display:flex;align-items:center;gap:0.6rem}
+.nav-logo .mark{width:36px;height:36px;border-radius:50%;border:1px solid var(--gold-b);background:url('logo_mv.png?v=2') center/contain no-repeat}
+.nav-brand{font-family:'Cinzel',serif;font-size:0.95rem;font-weight:700;color:var(--gold-l);letter-spacing:2px}
+.nav-links{display:flex;gap:1.6rem}
+.nav-link{font-size:12px;letter-spacing:1px;color:var(--white2);transition:color 0.2s}
+.nav-link:hover{color:var(--gold)}
+.nav-cta{background:transparent;border:1px solid var(--gold);color:var(--gold);padding:0.45rem 1.1rem;font-size:11px;letter-spacing:2px;font-family:'Cinzel',serif;cursor:pointer;text-decoration:none;text-transform:uppercase;transition:all 0.2s}
+.nav-cta:hover{background:rgba(201,162,39,0.1);color:var(--gold-l)}
+@media(max-width:980px){.nav-links{display:none}}
+.btn-primary{display:inline-block;background:linear-gradient(135deg,var(--gold),var(--gold-l));color:var(--navy);padding:0.85rem 2rem;font-size:12px;letter-spacing:3px;font-family:'Cinzel',serif;font-weight:700;text-decoration:none;text-transform:uppercase;transition:all 0.2s;border:none;cursor:pointer}
+.btn-primary:hover{transform:translateY(-2px);box-shadow:0 10px 28px rgba(201,162,39,0.3)}
+.btn-secondary{display:inline-block;background:transparent;border:1px solid var(--gold-b);color:var(--white2);padding:0.85rem 2rem;font-size:12px;letter-spacing:3px;font-family:'Cinzel',serif;text-decoration:none;text-transform:uppercase;transition:all 0.2s}
+.btn-secondary:hover{border-color:var(--gold);color:var(--gold)}
+.hero{padding:9rem 2rem 5rem;text-align:center;position:relative}
+.hero-eyebrow{display:inline-flex;align-items:center;gap:9px;font-size:10px;letter-spacing:5px;color:var(--gold);text-transform:uppercase;margin-bottom:1.5rem}
+.dot{width:8px;height:8px;border-radius:50%;background:var(--green);box-shadow:0 0 0 0 rgba(46,204,113,.6);animation:pulse 2s infinite}
+@keyframes pulse{0%{box-shadow:0 0 0 0 rgba(46,204,113,.5)}70%{box-shadow:0 0 0 9px rgba(46,204,113,0)}100%{box-shadow:0 0 0 0 rgba(46,204,113,0)}}
+.hero-title{font-family:'Cinzel',serif;font-size:clamp(2.5rem,6vw,4.5rem);font-weight:900;line-height:1.1;margin-bottom:1.25rem}
+.hero-title span{background:linear-gradient(135deg,var(--gold-l),var(--gold));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+.hero-sub{font-size:clamp(1rem,2vw,1.2rem);color:var(--white2);max-width:680px;margin:0 auto 2.5rem;line-height:1.7}
+.hero-sub b{color:var(--white);font-weight:500}
+.hero-btns{display:flex;gap:1rem;justify-content:center;flex-wrap:wrap;margin-bottom:2rem}
+.trust{color:var(--white3);font-size:11px;letter-spacing:2px;text-transform:uppercase}
+.kstrip{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--gold-b);margin-top:3rem}
+.kbox{background:var(--navy2);padding:1.75rem 1rem;text-align:center;position:relative}
+.kbox::before{content:"";position:absolute;top:0;left:0;right:0;height:2px;background:linear-gradient(90deg,transparent,var(--gold),transparent)}
+.kbox .v{font-family:'Cinzel',serif;font-size:2.2rem;font-weight:700;color:var(--gold-l);display:block;line-height:1}
+.kbox .v.pos{color:var(--green)} .kbox .v.neg{color:var(--red)}
+.kbox .l{color:var(--white3);font-size:9px;text-transform:uppercase;letter-spacing:2px;margin-top:0.6rem}
+@media(max-width:760px){.kstrip{grid-template-columns:repeat(2,1fr)}}
+section{padding:5rem 2rem}
+.section-label{font-size:10px;letter-spacing:5px;color:var(--gold);text-transform:uppercase;text-align:center;margin-bottom:0.75rem}
+.section-title{font-family:'Cinzel',serif;font-size:clamp(1.5rem,3vw,2.2rem);font-weight:700;text-align:center;margin-bottom:1rem;line-height:1.3}
+.section-sub{text-align:center;color:var(--white2);max-width:640px;margin:0 auto;font-size:14px;line-height:1.8}
+.gold-line{width:60px;height:1px;background:linear-gradient(90deg,transparent,var(--gold),transparent);margin:1rem auto 2.5rem}
+.pillars{display:grid;grid-template-columns:repeat(4,1fr);gap:1rem;max-width:1100px;margin:0 auto}
+.pillar{background:rgba(255,255,255,0.02);border:1px solid var(--gold-b);padding:2rem;position:relative;transition:border-color 0.2s}
+.pillar:hover{border-color:rgba(201,162,39,0.5)}
+.pillar::before{content:'';position:absolute;top:0;left:0;width:3px;height:100%;background:linear-gradient(180deg,var(--gold),transparent)}
+.pillar .ic{font-size:1.8rem;margin-bottom:1rem}
+.pillar h3{font-family:'Cinzel',serif;font-size:0.95rem;color:var(--gold-l);margin-bottom:0.75rem;letter-spacing:0.5px}
+.pillar p{color:var(--white2);font-size:13px;line-height:1.75}
+.pillar p b{color:var(--white);font-weight:500}
+@media(max-width:900px){.pillars{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:520px){.pillars{grid-template-columns:1fr}}
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:1rem;max-width:1100px;margin:0 auto}
+.step{background:rgba(255,255,255,0.02);border:1px solid var(--gold-b);padding:2rem 1.5rem;transition:border-color 0.2s}
+.step:hover{border-color:rgba(201,162,39,0.5)}
+.step .num{width:40px;height:40px;display:grid;place-items:center;font-family:'Cinzel',serif;font-weight:700;color:var(--navy);background:linear-gradient(135deg,var(--gold),var(--gold-l));margin-bottom:1rem;font-size:1.1rem}
+.step h3{font-family:'Cinzel',serif;font-size:0.95rem;color:var(--gold-l);margin-bottom:0.6rem}
+.step p{color:var(--white2);font-size:13px;line-height:1.75}
+.step p b{color:var(--white);font-weight:500}
+@media(max-width:900px){.steps{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:520px){.steps{grid-template-columns:1fr}}
+.strats{display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem;max-width:1100px;margin:0 auto}
+.strat{position:relative;background:rgba(255,255,255,0.02);border:1px solid var(--gold-b);padding:2rem;overflow:hidden;transition:border-color 0.2s}
+.strat:hover{border-color:rgba(201,162,39,0.5)}
+.strat .tagline{font-size:10px;color:var(--gold);letter-spacing:3px;text-transform:uppercase;margin-bottom:0.5rem;display:block}
+.strat h3{font-family:'Cinzel',serif;font-size:1.3rem;color:var(--white);margin-bottom:0.75rem}
+.strat p{color:var(--white2);font-size:13.5px;line-height:1.75;min-height:90px}
+.strat .stat{margin-top:1.25rem;padding-top:1rem;border-top:1px solid var(--gold-b);display:flex;justify-content:space-between;align-items:baseline}
+.strat .stat b{font-family:'Cinzel',serif;font-size:1.5rem;font-weight:700;color:var(--gold-l)}
+.strat .stat span{color:var(--white3);font-size:11px}
+.flag{position:absolute;top:16px;right:-34px;transform:rotate(45deg);background:linear-gradient(135deg,var(--gold),var(--gold-l));color:var(--navy);font-size:10px;font-weight:700;font-family:'Cinzel',serif;letter-spacing:1px;padding:4px 40px}
+@media(max-width:900px){.strats{grid-template-columns:1fr}}
+.challenge-section{background:rgba(10,22,40,0.6)}
+.challenge{background:
+  radial-gradient(700px 320px at 80% 0%,rgba(201,162,39,.10),transparent 60%),
+  rgba(255,255,255,0.02);border:1px solid var(--gold);padding:3rem;display:grid;grid-template-columns:1.1fr .9fr;gap:2.5rem;align-items:center;max-width:1100px;margin:0 auto}
+.challenge .section-label{text-align:left}
+.challenge h2{font-family:'Cinzel',serif;font-size:clamp(1.6rem,4vw,2.4rem);font-weight:900;line-height:1.2}
+.challenge h2 span{background:linear-gradient(135deg,var(--gold-l),var(--gold));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+.challenge p{color:var(--white2);margin:1rem 0 1.5rem;font-size:14px;line-height:1.8}
+.ladder{display:flex;flex-direction:column;gap:0.6rem}
+.rung{display:flex;align-items:center;gap:0.9rem;background:rgba(6,13,26,0.7);border:1px solid var(--gold-b);padding:0.8rem 1rem}
+.rung .n{width:30px;height:30px;display:grid;place-items:center;font-family:'Cinzel',serif;font-weight:700;background:rgba(201,162,39,.14);color:var(--gold-l);font-size:14px}
+.rung .t{flex:1;font-size:13px;color:var(--white2)}
+.rung .o{color:var(--gold-l);font-weight:600;font-family:'Cinzel',serif}
+.rung.win{border-color:rgba(46,204,113,.4)} .rung.win .n{background:rgba(46,204,113,.16);color:var(--green)}
+.ch-stats{display:flex;gap:1.5rem;margin-top:1.5rem}
+.ch-stats .v{font-family:'Cinzel',serif;font-size:1.8rem;font-weight:700} .ch-stats .l{color:var(--white3);font-size:10px;letter-spacing:1px;text-transform:uppercase;margin-top:0.25rem}
+@media(max-width:860px){.challenge{grid-template-columns:1fr;padding:2rem 1.5rem}}
+.perf-cta{text-align:center;margin-top:2.5rem}
+.perf-note{color:var(--white3);font-size:11px;letter-spacing:1px;margin-top:1rem}
+.membership-section{background:rgba(10,22,40,0.6)}
+.planos{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem;align-items:stretch;max-width:1000px;margin:0 auto}
+.plano{background:var(--navy2);border:1px solid var(--gold-b);padding:2rem 1.75rem;display:flex;flex-direction:column;transition:border-color 0.2s;position:relative}
+.plano:hover{border-color:rgba(201,162,39,0.5)}
+.plano.pop{border-color:var(--gold);background:rgba(201,162,39,0.06)}
+.plano .ptag{position:absolute;top:-12px;left:50%;transform:translateX(-50%);background:var(--gold);color:var(--navy);font-family:'Cinzel',serif;font-weight:700;font-size:9px;padding:3px 14px;letter-spacing:2px;white-space:nowrap}
+.plano .pname{font-family:'Cinzel',serif;font-size:13px;letter-spacing:2px;text-transform:uppercase;color:var(--gold-l);font-weight:700}
+.plano .price{font-family:'Cinzel',serif;font-size:2.5rem;font-weight:700;color:var(--white);margin:0.75rem 0 0.25rem;line-height:1}
+.plano .price span{font-size:13px;color:var(--white3);font-weight:300;font-family:'Raleway',sans-serif}
+.plano ul{list-style:none;margin:1.25rem 0;flex:1;padding:0}
+.plano li{padding:0.55rem 0;border-top:0.5px solid rgba(255,255,255,0.06);color:var(--white2);font-size:13px;display:flex;align-items:center;gap:0.5rem}
+.plano li::before{content:"✓";color:var(--green);font-weight:700;flex-shrink:0}
+.plano li.no{color:var(--white3)}.plano li.no::before{content:"–";color:var(--white3)}
+.plano .pbtn{display:block;text-align:center;padding:0.7rem 1rem;font-size:11px;letter-spacing:2px;font-family:'Cinzel',serif;text-transform:uppercase;transition:all 0.2s;border:1px solid var(--gold-b);color:var(--white2);cursor:pointer}
+.plano .pbtn:hover{border-color:var(--gold);color:var(--gold)}
+.plano .pbtn.gold{background:linear-gradient(135deg,var(--gold),var(--gold-l));color:var(--navy);border:none;font-weight:700}
+.plano .pbtn.gold:hover{transform:translateY(-2px);box-shadow:0 6px 20px rgba(201,162,39,0.3)}
+.plans-note{text-align:center;color:var(--white3);font-size:11px;margin-top:1.5rem}
+@media(max-width:860px){.planos{grid-template-columns:1fr;max-width:400px}}
+.cta-band{text-align:center;background:rgba(255,255,255,0.02);border:1px solid var(--gold-b);padding:4rem 2rem;position:relative;overflow:hidden;max-width:900px;margin:0 auto}
+.cta-band::after{content:"";position:absolute;inset:0;background:radial-gradient(500px 200px at 50% 0,rgba(201,162,39,.12),transparent 60%);pointer-events:none}
+.cta-band h2{font-family:'Cinzel',serif;font-size:clamp(1.8rem,4vw,2.8rem);font-weight:700;position:relative;margin-bottom:1rem}
+.cta-band p{color:var(--white2);max-width:540px;margin:0 auto 2rem;position:relative;font-size:14px;line-height:1.8}
+footer{border-top:1px solid var(--gold-b);padding:2.5rem 2rem;text-align:center}
+.footer-logo{font-family:'Cinzel',serif;font-size:1rem;color:var(--gold);letter-spacing:4px;margin-bottom:0.75rem}
+.footer-disc{font-size:10px;letter-spacing:1px;color:var(--white3);max-width:700px;margin:0 auto;line-height:1.7}
+.plans-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem;margin-bottom:2rem;max-width:1000px;margin-left:auto;margin-right:auto}
+.plan-card{background:var(--navy2);border:1px solid var(--gold-b);padding:1.5rem;position:relative;transition:border-color 0.2s}
+.plan-card:hover{border-color:rgba(201,162,39,0.5)}
+.plan-card.featured{border-color:var(--gold);background:rgba(201,162,39,0.06)}
+.plan-card.featured::before{content:'MOST POPULAR';position:absolute;top:-12px;left:50%;transform:translateX(-50%);background:var(--gold);color:var(--navy);font-size:9px;font-weight:700;padding:3px 12px;letter-spacing:2px;white-space:nowrap;font-family:'Cinzel',serif}
+.plan-icon{font-size:2rem;margin-bottom:0.75rem}
+.plan-name{font-family:'Cinzel',serif;font-size:13px;color:var(--gold-l);letter-spacing:1px;margin-bottom:0.5rem}
+.plan-price{font-family:'Cinzel',serif;font-size:2rem;font-weight:700;color:var(--white);margin-bottom:0.25rem}
+.plan-price span{font-size:12px;color:var(--white3);font-family:'Raleway',sans-serif;font-weight:300}
+.plan-features{list-style:none;margin:1rem 0 1.5rem;padding:0}
+.plan-features li{font-size:12px;color:var(--white2);padding:5px 0;border-bottom:0.5px solid rgba(255,255,255,0.05);display:flex;align-items:center;gap:0.5rem}
+.plan-features li::before{content:'✓';color:var(--green);font-weight:700;flex-shrink:0}
+.plan-features li.missing{color:var(--white3)}
+.plan-features li.missing::before{content:'–';color:var(--white3)}
+.plan-btn{display:block;text-align:center;padding:0.6rem 1rem;font-size:11px;letter-spacing:2px;font-family:'Cinzel',serif;text-decoration:none;text-transform:uppercase;transition:all 0.2s;border:1px solid var(--gold-b);color:var(--white2)}
+.plan-btn:hover{border-color:var(--gold);color:var(--gold)}
+.plan-btn.featured-btn{background:linear-gradient(135deg,var(--gold),var(--gold-l));color:var(--navy);border:none;font-weight:700}
+.plan-btn.featured-btn:hover{transform:translateY(-2px);box-shadow:0 6px 20px rgba(201,162,39,0.3)}
+.plan-billing{margin:0.75rem 0 1rem;padding-top:0.75rem;border-top:0.5px solid rgba(201,162,39,0.25)}
+.plan-billing-title{font-size:9px;letter-spacing:1.5px;text-transform:uppercase;color:var(--gold);font-family:'Cinzel',serif;margin-bottom:0.5rem}
+.plan-billing-row{display:flex;justify-content:space-between;align-items:baseline;font-size:11px;color:var(--white2);padding:3px 0}
+.plan-billing-row .bo-price{color:var(--white);font-weight:700}
+.plan-billing-row .bo-save{font-size:9px;color:var(--green);margin-left:4px}
+.skrill-note{text-align:center;font-size:12px;color:var(--white3);margin-top:1rem}
+.skrill-note strong{color:var(--white2)}
+@media(max-width:900px){.plans-grid{grid-template-columns:1fr;max-width:400px}}
+.reveal{opacity:0;transform:translateY(26px);transition:.7s cubic-bezier(.2,.7,.2,1)}
+.reveal.in{opacity:1;transform:none}
+.langswitch{position:fixed;bottom:18px;right:18px;z-index:200;display:flex;gap:4px;background:rgba(6,13,26,0.9);border:1px solid var(--gold-b);border-radius:30px;padding:4px;backdrop-filter:blur(8px)}
+.langswitch a{font-family:'Cinzel',serif;font-size:10px;letter-spacing:1px;padding:5px 11px;border-radius:30px;color:var(--white2);transition:all 0.2s}
+.langswitch a.on{background:var(--gold);color:var(--navy);font-weight:700}
+</style>
+</head>
+<body>
+<div class="aurora"></div><div class="sidelogo"></div><div class="grain"></div>
+
+<nav>
+  <div class="nav-logo"><span class="mark"></span><span class="nav-brand">MATCH VALUE ELITE</span></div>
+  <div class="nav-links">
+    <a href="#how" class="nav-link">How It Works</a>
+    <a href="#offer" class="nav-link">What You Get</a>
+    <a href="#challenge" class="nav-link">Challenge</a>
+    <a href="#plans" class="nav-link">Plans</a>
+    <a href="#performance" class="nav-link">Performance</a>
+  </div>
+  <a href="index.html" class="nav-cta" style="margin-right:0.5rem;border-color:rgba(201,162,39,0.4);color:var(--white2)">← Home</a><a href="#plans" class="nav-cta">View Plans</a>
+</nav>
+
+<header class="hero">
+  <div class="hero-eyebrow"><span class="dot"></span> Elite Sports Intelligence</div>
+  <h1 class="hero-title">Bet with a <span>real edge</span>,<br>not with hunches.</h1>
+  <p class="hero-sub">Data-driven signals, validated game by game (walk-forward), with the
+    <b>fair odds</b> on every tip. We pick the right leagues, read the game live, and only
+    enter where there's <b>value</b>. Discipline, transparency, results.</p>
+  <div class="hero-btns">
+    <a class="btn-primary" href="#join">⚡ Get the Signals</a>
+    <a class="btn-secondary" href="#performance">View Live Performance</a>
+  </div>
+  <div class="trust">18+ · Bet Responsibly · Bankroll Management 1–2%</div>
+  <div class="kstrip">
+    <div class="kbox"><span class="v gold" data-k="wr">—</span><span class="l">Win Rate</span></div>
+    <div class="kbox"><span class="v" data-k="roi">—</span><span class="l">ROI</span></div>
+    <div class="kbox"><span class="v" data-k="lucro">—</span><span class="l">Profit (units)</span></div>
+    <div class="kbox"><span class="v" data-k="sinais">—</span><span class="l">Signals Sent</span></div>
+  </div>
+</header>
+
+<section id="edge">
+  <div class="section-label reveal">Why We Win</div>
+  <div class="section-title reveal">The market is efficient. We are surgical.</div>
+  <div class="gold-line"></div>
+  <p class="section-sub reveal" style="margin-bottom:3rem">We don't try to predict everything. We attack the niches where we hold a proven
+    advantage and wait for the odds that pay.</p>
+  <div class="pillars">
+    <div class="pillar reveal"><div class="ic">🎯</div><h3>League Selection</h3>
+      <p>Every league is walk-forward tested across thousands of matches. We only fire where the edge
+        persists — no betting for the sake of betting.</p></div>
+    <div class="pillar reveal"><div class="ic">💰</div><h3>Fair Odds</h3>
+      <p>Every signal carries its minimum value odds. If the bookmaker won't pay above it, there's no bet.
+        Value is your cushion.</p></div>
+    <div class="pillar reveal"><div class="ic">⚡</div><h3>In-Play Intelligence</h3>
+      <p>Live, we read the real state: goals, profile, momentum and each team's <b>need to win</b>.
+        The edge comes from in-game information.</p></div>
+    <div class="pillar reveal"><div class="ic">🔍</div><h3>Full Transparency</h3>
+      <p>Every signal is logged and settled. Performance is open, updated to the minute.
+        No cherry-picking.</p></div>
+  </div>
+</section>
+
+<section id="how">
+  <div class="section-label reveal">How It Works</div>
+  <div class="section-title reveal">From data to signal — in 4 steps</div>
+  <div class="gold-line"></div>
+  <p class="section-sub reveal" style="margin-bottom:3rem">We don't reveal our method (that's our edge). But we show exactly the process
+    behind every signal.</p>
+  <div class="steps">
+    <div class="step reveal"><div class="num">1</div><h3>Proprietary Models</h3>
+      <p>Algorithms analyse thousands of matches per season — team strength, tempo,
+        context. Data, not hunches.</p></div>
+    <div class="step reveal"><div class="num">2</div><h3>Value Detection</h3>
+      <p>We compare the true probability against the bookmaker's odds. There's only a signal when the
+        book is paying <b>above</b> fair value.</p></div>
+    <div class="step reveal"><div class="num">3</div><h3>Signal With Min Odds</h3>
+      <p>You get the match, the market and the <b>minimum odds</b> to respect — in real time, on
+        Telegram. No noise.</p></div>
+    <div class="step reveal"><div class="num">4</div><h3>Logged &amp; Proven</h3>
+      <p>Every signal is recorded and settled. Performance stays <b>open</b> and updated
+        every day. No cherry-picking.</p></div>
+  </div>
+</section>
+
+<section id="offer">
+  <div class="section-label reveal">What You Get</div>
+  <div class="section-title reveal">Signals for every profile</div>
+  <div class="gold-line"></div>
+  <p class="section-sub reveal" style="margin-bottom:3rem">Different formats, the same principle: we only enter where there's value.</p>
+  <div class="strats">
+    <div class="strat reveal"><div class="flag">Core</div>
+      <span class="tagline">Real Time</span><h3>Live Signals</h3>
+      <p>We read the game as it unfolds and catch the exact moment the odds pay off.
+        You get the signal during the match, already with the minimum odds.</p>
+      <div class="stat"><b>Real time</b><span>several per day</span></div></div>
+    <div class="strat reveal">
+      <span class="tagline">Before Kickoff</span><h3>Pre-Match Signals</h3>
+      <p>The models sweep the day's fixtures and select only the value plays, before they start.
+        For those not always live — you get them with time to spare.</p>
+      <div class="stat"><b>Daily</b><span>time to place</span></div></div>
+    <div class="strat reveal"><div class="flag">Thrill</div>
+      <span class="tagline">Accumulator</span><h3>The Challenge</h3>
+      <p>Our signature accumulator: 4 value matches chained together, with the odds
+        multiplying. Win all four and close the prize. Adrenaline with method.</p>
+      <div class="stat"><b>up to ~10×</b><span>4 games · 1 prize</span></div></div>
+  </div>
+</section>
+
+<section id="challenge" class="challenge-section">
+  <div class="challenge reveal">
+    <div>
+      <div class="section-label">🏆 The Challenge</div>
+      <h2>Four matches.<br>One <span>ladder</span> to ~10×.</h2>
+      <p>Our signature tip, launched personally. Each leg is "one more goal",
+        with the odds multiplying. Win all four and close the Challenge.</p>
+      <div class="ch-stats">
+        <div><div class="v pos" data-ch="completos">0</div><div class="l">🏆 Completed</div></div>
+        <div><div class="v neg" data-ch="falhados">0</div><div class="l">❌ Missed</div></div>
+        <div><div class="v gold" data-ch="odd">1.00×</div><div class="l">Accumulated Odds</div></div>
+      </div>
+    </div>
+    <div class="ladder" id="ladder">
+      <div class="rung win"><div class="n">1</div><div class="t">Game 1 · won</div><div class="o">@1.80</div></div>
+      <div class="rung win"><div class="n">2</div><div class="t">Game 2 · won</div><div class="o">@1.75</div></div>
+      <div class="rung"><div class="n">3</div><div class="t">Game 3 · in play</div><div class="o">@1.60</div></div>
+      <div class="rung"><div class="n">4</div><div class="t">Game 4 · waiting</div><div class="o">—</div></div>
+    </div>
+  </div>
+</section>
+
+<section id="performance">
+  <div class="section-label reveal">Proof</div>
+  <div class="section-title reveal">Live performance, no filters</div>
+  <div class="gold-line"></div>
+  <p class="section-sub reveal">The numbers below come straight from the engine. Updated automatically on every settlement.</p>
+  <div class="kstrip reveal">
+    <div class="kbox"><span class="v gold" data-k="wr">—</span><span class="l">Win Rate</span></div>
+    <div class="kbox"><span class="v" data-k="roi">—</span><span class="l">ROI</span></div>
+    <div class="kbox"><span class="v" data-k="lucro">—</span><span class="l">Cumulative Profit</span></div>
+    <div class="kbox"><span class="v" data-k="sinais">—</span><span class="l">Signals</span></div>
+  </div>
+  <div class="perf-cta reveal">
+    <a class="btn-primary" href="dashboard_mv.html" style="font-size:13px;padding:1rem 2.5rem">📊 View Full Live Dashboard →</a>
+    <div class="perf-note">Detailed performance · history · bankroll evolution · updated daily</div>
+  </div>
+</section>
+
+<section id="plans" class="membership-section">
+  <div class="section-label reveal">Membership</div>
+  <div class="section-title reveal">Choose Your Plan</div>
+  <p class="section-sub reveal">All plans include access to our private Telegram channel. Cancel anytime.</p>
+  <div class="gold-line"></div>
+
+  <div class="plans-grid">
+
+    <!-- Corners Only -->
+    <div class="plan-card reveal">
+      <div class="plan-icon">⚑</div>
+      <div class="plan-name">Corners Only</div>
+      <div class="plan-price">€27.90 <span>/ month</span></div>
+      <ul class="plan-features">
+        <li>ZI Corner Pro bot alerts</li>
+        <li>4 precision windows</li>
+        <li>Confidence score 0–10</li>
+        <li>Automatic follow-up</li>
+        <li class="missing">Goals pre-live alerts</li>
+        <li class="missing">Personal tips</li>
+      </ul>
+      <a href="https://t.me/great_ziii" target="_blank" class="plan-btn">Get Access</a>
+    </div>
+
+    <!-- Goals Only — featured here -->
+    <div class="plan-card featured reveal">
+      <div class="plan-icon">⚽</div>
+      <div class="plan-name">Goals Only</div>
+      <div class="plan-price">€27.90 <span>/ month</span></div>
+      <ul class="plan-features">
+        <li>Goals pre-live alerts</li>
+        <li>Verified performance data</li>
+        <li>Daily summary</li>
+        <li class="missing">Corner bot alerts</li>
+        <li class="missing">Personal tips</li>
+      </ul>
+      <a href="https://t.me/great_ziii" target="_blank" class="plan-btn featured-btn">Get Access</a>
+    </div>
+
+    <!-- Elite Pack -->
+    <div class="plan-card reveal">
+      <div class="plan-icon">👑</div>
+      <div class="plan-name">Elite Pack</div>
+      <div class="plan-price">€39.90 <span>/ month</span></div>
+      <ul class="plan-features">
+        <li>ZI Corner Pro bot alerts</li>
+        <li>Goals pre-live alerts</li>
+        <li>Full performance dashboard</li>
+        <li>Daily summary</li>
+        <li>Personal tips — live stream analysis</li>
+        <li>🔒 Exclusive bonus strategy — Elite only</li>
+        <li>Direct access to the creator</li>
+      </ul>
+      <div class="plan-billing">
+        <div class="plan-billing-title">Save with a longer plan</div>
+        <div class="plan-billing-row"><span>6 months</span><span><span class="bo-price">€199.90</span><span class="bo-save">1 month free</span></span></div>
+        <div class="plan-billing-row"><span>12 months</span><span><span class="bo-price">€344.90</span><span class="bo-save">save ~28%</span></span></div>
+      </div>
+      <a href="https://t.me/great_ziii" target="_blank" class="plan-btn featured-btn">Get Elite Access</a>
+    </div>
+
+  </div>
+
+  <div class="skrill-note reveal">
+    💳 Payment via <strong>Skrill</strong> — contact us on Telegram to subscribe. Secure and instant.
+  </div>
+</section>
+
+
+<section id="join">
+  <div class="cta-band reveal">
+    <h2>Ready to bet with an <span class="gold">edge</span>?</h2>
+    <p>Join the channel and get the signals with fair odds, in real time. No noise, only value.</p>
+    <a class="btn-primary" id="cta-final" href="#" style="font-size:13px;padding:1rem 2.5rem">⚡ Join the Telegram Channel</a>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-logo">MATCH VALUE ELITE</div>
+  <div class="footer-disc">© <span id="yr"></span> Match Value Elite · Elite Sports Intelligence · 18+ · Bet responsibly. Past performance does not guarantee future results.</div>
+</footer>
+
+<div class="langswitch">
+  <a href="sharp-signals.html" class="on">EN</a>
+  <a href="sharp-signals-pt.html">PT</a>
+</div>
+
+<script>
+const TELEGRAM = "https://t.me/sharpsignals";
+document.querySelectorAll('#cta-final').forEach(a=>a.href=TELEGRAM);
+document.getElementById('yr').textContent=new Date().getFullYear();
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)e.target.classList.add('in')}),{threshold:.12});
+document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+function animate(el,to,fmt){
+  const dur=1100,t0=performance.now();
+  (function step(t){const k=Math.min((t-t0)/dur,1);const e=1-Math.pow(1-k,3);
+    el.textContent=fmt(to*e); if(k<1)requestAnimationFrame(step);})(t0);
+}
+fetch('dashboard.json?'+Date.now()).then(r=>r.json()).then(d=>{
+  const g=d.geral||{}, c=d.challenge||{};
+  const set=(k,to,fmt)=>document.querySelectorAll(`[data-k="${k}"]`).forEach(el=>animate(el,to,fmt));
+  set('wr', g.wr||0, v=>v.toFixed(0)+'%');
+  set('roi',(g.roi||0), v=>(v>=0?'+':'')+v.toFixed(1)+'%');
+  set('lucro',(g.lucro_u||0), v=>(v>=0?'+':'')+v.toFixed(1)+'u');
+  set('sinais', g.sinais||0, v=>Math.round(v));
+  document.querySelectorAll('[data-k="roi"],[data-k="lucro"]').forEach(el=>{
+    const neg=(el.dataset.k==='roi'?(g.roi||0):(g.lucro_u||0))<0; el.classList.add(neg?'neg':'pos');});
+  document.querySelector('[data-ch="completos"]').textContent='🏆 '+(c.completos||0);
+  document.querySelector('[data-ch="falhados"]').textContent='❌ '+(c.falhados||0);
+  document.querySelector('[data-ch="odd"]').textContent=Number(c.odd_acumulada||1).toFixed(2)+'×';
+  if(c.escada && c.escada.length){
+    const ic=r=>r==='ganho'?'win':'';
+    const lab=r=>r==='ganho'?'won':r==='perdido'?'lost':'in play';
+    document.getElementById('ladder').innerHTML=c.escada.map((l,i)=>
+      `<div class="rung ${ic(l.resultado)}"><div class="n">${i+1}</div>
+       <div class="t">Game ${i+1} · ${lab(l.resultado)}</div><div class="o">${l.odd?'@'+Number(l.odd).toFixed(2):'—'}</div></div>`
+    ).join('')+Array.from({length:Math.max(0,(c.total||4)-c.escada.length)},(_,i)=>
+      `<div class="rung"><div class="n">${c.escada.length+i+1}</div><div class="t">Game ${c.escada.length+i+1} · waiting</div><div class="o">—</div></div>`).join('');
+  }
+}).catch(()=>{});
+</script>
+</body>
+</html>
