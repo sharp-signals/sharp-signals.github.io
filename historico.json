@@ -83,5 +83,22 @@
       "golos_apos_casa": 1,
       "golos_apos_fora": 0
     }
+  ],
+  "2026-06-21": [
+    {
+      "timestamp": "2026-06-21T20:55:58.311517",
+      "jogo": "Belgium vs Iran",
+      "liga": "World Cup",
+      "janela": "HT ATTACK",
+      "tempo_alerta": 26,
+      "estrelas": 10,
+      "cantos_no_ref": 3,
+      "cantos_final": 3,
+      "cantos_apos_alerta": 0,
+      "meta_cantos": 2,
+      "resultado": "LOSS",
+      "golos_apos_casa": 0,
+      "golos_apos_fora": -1
+    }
   ]
 }
