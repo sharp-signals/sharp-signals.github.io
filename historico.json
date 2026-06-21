@@ -99,6 +99,21 @@
       "resultado": "LOSS",
       "golos_apos_casa": 0,
       "golos_apos_fora": -1
+    },
+    {
+      "timestamp": "2026-06-21T23:57:02.892311",
+      "jogo": "Uruguay vs Cape Verde Islands",
+      "liga": "World Cup",
+      "janela": "HT ATTACK",
+      "tempo_alerta": 30,
+      "estrelas": 7.5,
+      "cantos_no_ref": 4,
+      "cantos_final": 5,
+      "cantos_apos_alerta": 1,
+      "meta_cantos": 2,
+      "resultado": "LOSS",
+      "golos_apos_casa": 2,
+      "golos_apos_fora": 0
     }
   ]
 }
