@@ -288,11 +288,7 @@ footer{border-top:1px solid var(--gold-b);padding:2.5rem 2rem;text-align:center}
       <h2>Quatro jogos.<br>Uma <span>escada</span> até ~10×.</h2>
       <p>A nossa tip de assinatura, lançada pessoalmente. Cada etapa é "mais um golo",
         com as odds a multiplicar. Ganha os quatro e fecha o Challenge.</p>
-      <div class="ch-stats">
-        <div><div class="v pos" data-ch="completos">0</div><div class="l">🏆 Completos</div></div>
-        <div><div class="v neg" data-ch="falhados">0</div><div class="l">❌ Falhados</div></div>
-        <div><div class="v gold" data-ch="odd">1.00×</div><div class="l">Odd Acumulada</div></div>
-      </div>
+      <div class="ch-stats"><div style="grid-column:1/-1;text-align:center;padding:.6rem 0"><div class="v gold">🔒 Elite</div><div class="l">Registo e escada completos exclusivos para membros Elite</div></div></div>
     </div>
     <div class="ladder" id="ladder">
       <div class="rung win"><div class="n">1</div><div class="t">Jogo 1 · ganho</div><div class="o">@1.80</div></div>
@@ -433,9 +429,9 @@ fetch('dashboard.json?'+Date.now()).then(r=>r.json()).then(d=>{
   set('sinais', g.sinais||0, v=>Math.round(v));
   document.querySelectorAll('[data-k="roi"],[data-k="lucro"]').forEach(el=>{
     const neg=(el.dataset.k==='roi'?(g.roi||0):(g.lucro_u||0))<0; el.classList.add(neg?'neg':'pos');});
-  document.querySelector('[data-ch="completos"]').textContent='🏆 '+(c.completos||0);
-  document.querySelector('[data-ch="falhados"]').textContent='❌ '+(c.falhados||0);
-  document.querySelector('[data-ch="odd"]').textContent=Number(c.odd_acumulada||1).toFixed(2)+'×';
+  (document.querySelector('[data-ch="completos"]')||{}).textContent='🏆 '+(c.completos||0);
+  (document.querySelector('[data-ch="falhados"]')||{}).textContent='❌ '+(c.falhados||0);
+  (document.querySelector('[data-ch="odd"]')||{}).textContent=Number(c.odd_acumulada||1).toFixed(2)+'×';
   if(c.escada && c.escada.length){
     const ic=r=>r==='ganho'?'win':'';
     const lab=r=>r==='ganho'?'won':r==='perdido'?'lost':'in play';
