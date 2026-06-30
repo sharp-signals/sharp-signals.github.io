@@ -328,7 +328,7 @@ function tipDoDia(tips){
       <div><span class="mk">${t.mercado||'Ambas Marcam'}</span> ${t.odd?'@ <b class="gold">'+Number(t.odd).toFixed(2)+'</b>':''}</div></div>`;}).join('');
   return `<div class="card tipday">${head}${rows}</div>`;
 }
-function challengeBlock(c){ return '<div class="sec-t">🏆 The Challenge — 4-leg accumulator</div><div class="card ch"><div class="ch-od" style="color:var(--muted)">🔒 Exclusivo para membros Elite — resultados desbloqueados no pack Elite.</div></div>';
+function challengeBlock(c){ return '';
   if(!c) return '';
   const legs=(c.escada||[]).map(l=>{const ic=l.resultado==='ganho'?'✅':l.resultado==='perdido'?'❌':'⏳';
     return `<span class="ch-leg">${ic} ${l.mercado||''}${l.odd?' @'+Number(l.odd).toFixed(2):''}</span>`;}).join('');
