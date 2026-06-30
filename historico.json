@@ -1,19 +1,119 @@
 {
-  "2026-06-27": [
+  "2026-06-07": [
     {
-      "timestamp": "2026-06-27T04:55:00.841497",
-      "jogo": "New Zealand vs Belgium",
-      "liga": "World Cup",
+      "timestamp": "2026-06-07T12:00:00",
+      "jogo": "CRB vs São Bernardo",
+      "liga": "Serie B",
+      "janela": "MID PRESSURE",
+      "tempo_alerta": 67.0,
+      "estrelas": 8.0,
+      "cantos_no_ref": 4.0,
+      "cantos_final": 8.0,
+      "cantos_apos_alerta": 4.0,
+      "meta_cantos": 3,
+      "resultado": "WIN",
+      "golos_apos_casa": 0,
+      "golos_apos_fora": 0
+    }
+  ],
+  "2026-06-08": [
+    {
+      "timestamp": "2026-06-08T12:00:00",
+      "jogo": "Atletico Nacional vs Junior",
+      "liga": "Primera A",
       "janela": "HT ATTACK",
-      "tempo_alerta": 26,
-      "estrelas": 9.5,
-      "cantos_no_ref": 2,
-      "cantos_final": 5,
-      "cantos_apos_alerta": 3,
+      "tempo_alerta": 29.0,
+      "estrelas": 8.5,
+      "cantos_no_ref": 6.0,
+      "cantos_final": 11.0,
+      "cantos_apos_alerta": 5.0,
       "meta_cantos": 2,
       "resultado": "WIN",
       "golos_apos_casa": 0,
-      "golos_apos_fora": 1
+      "golos_apos_fora": 0
+    }
+  ],
+  "2026-06-12": [
+    {
+      "timestamp": "2026-06-12T12:00:00",
+      "jogo": "St Patrick's Athl. vs Drogheda United",
+      "liga": "Premier Division",
+      "janela": "HT ATTACK",
+      "tempo_alerta": 26.0,
+      "estrelas": 7.0,
+      "cantos_no_ref": 7.0,
+      "cantos_final": 8.0,
+      "cantos_apos_alerta": 1.0,
+      "meta_cantos": 2,
+      "resultado": "LOSS",
+      "golos_apos_casa": 0,
+      "golos_apos_fora": 0
+    }
+  ],
+  "2026-06-21": [
+    {
+      "timestamp": "2026-06-21T12:00:00",
+      "jogo": "Belgium vs Iran",
+      "liga": "World Cup",
+      "janela": "HT ATTACK",
+      "tempo_alerta": 26.0,
+      "estrelas": 10.0,
+      "cantos_no_ref": 3.0,
+      "cantos_final": 3.0,
+      "cantos_apos_alerta": 0.0,
+      "meta_cantos": 2,
+      "resultado": "LOSS",
+      "golos_apos_casa": 0,
+      "golos_apos_fora": 0
+    },
+    {
+      "timestamp": "2026-06-21T12:00:00",
+      "jogo": "Uruguay vs Cape Verde Islands",
+      "liga": "World Cup",
+      "janela": "HT ATTACK",
+      "tempo_alerta": 30.0,
+      "estrelas": 7.5,
+      "cantos_no_ref": 4.0,
+      "cantos_final": 5.0,
+      "cantos_apos_alerta": 1.0,
+      "meta_cantos": 2,
+      "resultado": "LOSS",
+      "golos_apos_casa": 0,
+      "golos_apos_fora": 0
+    }
+  ],
+  "2026-06-24": [
+    {
+      "timestamp": "2026-06-24T12:00:00",
+      "jogo": "Colombia x Congo",
+      "liga": "World Cup",
+      "janela": "HT ATTACK",
+      "tempo_alerta": 26.0,
+      "estrelas": 9.0,
+      "cantos_no_ref": -2.0,
+      "cantos_final": 2.0,
+      "cantos_apos_alerta": 4.0,
+      "meta_cantos": 2,
+      "resultado": "WIN",
+      "golos_apos_casa": 0,
+      "golos_apos_fora": 0
+    }
+  ],
+  "2026-06-27": [
+    {
+      "timestamp": "2026-06-27T12:00:00",
+      "jogo": "New Zealand vs Belgium",
+      "liga": "World Cup",
+      "janela": "HT ATTACK",
+      "tempo_alerta": 26.0,
+      "estrelas": 9.5,
+      "cantos_no_ref": 2.0,
+      "cantos_final": 5.0,
+      "cantos_apos_alerta": 3.0,
+      "meta_cantos": 2,
+      "resultado": "WIN",
+      "golos_apos_casa": 0,
+      "golos_apos_fora": 0
     }
   ]
 }
