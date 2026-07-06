@@ -3,18 +3,18 @@
   "nome": "Match Value Elite",
   "tagline": "Elite Sports Intelligence"
  },
- "atualizado": "2026-07-06T06:01:38",
+ "atualizado": "2026-07-07T00:31:08",
  "geral": {
   "inicio": "2026-06-06",
   "fim": "2026-07-05",
   "sinais": 87,
-  "ganhos": 44,
-  "perdidos": 29,
+  "ganhos": 51,
+  "perdidos": 31,
   "push": 5,
-  "pendentes": 9,
-  "wr": 60.3,
-  "lucro_u": 22.29,
-  "roi": 30.5,
+  "pendentes": 0,
+  "wr": 62.2,
+  "lucro_u": 26.7,
+  "roi": 32.6,
   "por_estrategia": {
    "Golos": {
     "n": 31,
@@ -25,30 +25,30 @@
    },
    "Sharp Pick": {
     "n": 21,
-    "g": 10,
-    "p": 5,
-    "lucro": 2.71,
-    "wr": 66.7
+    "g": 15,
+    "p": 6,
+    "lucro": 6.22,
+    "wr": 71.4
    },
    "LIVE": {
     "n": 25,
     "g": 11,
-    "p": 13,
-    "lucro": -3.85,
-    "wr": 45.8
+    "p": 14,
+    "lucro": -4.85,
+    "wr": 44.0
    },
    "Challenge": {
     "n": 10,
-    "g": 4,
+    "g": 6,
     "p": 4,
-    "lucro": 14.13,
-    "wr": 50.0
+    "lucro": 16.03,
+    "wr": 60.0
    }
   }
  },
  "diario": {
-  "inicio": "2026-07-06",
-  "fim": "2026-07-06",
+  "inicio": "2026-07-07",
+  "fim": "2026-07-07",
   "sinais": 0,
   "ganhos": 0,
   "perdidos": 0,
@@ -61,7 +61,7 @@
  },
  "semanal": {
   "inicio": "2026-07-06",
-  "fim": "2026-07-06",
+  "fim": "2026-07-07",
   "sinais": 0,
   "ganhos": 0,
   "perdidos": 0,
@@ -74,36 +74,36 @@
  },
  "mensal": {
   "inicio": "2026-07-01",
-  "fim": "2026-07-06",
+  "fim": "2026-07-07",
   "sinais": 11,
-  "ganhos": 2,
-  "perdidos": 0,
+  "ganhos": 9,
+  "perdidos": 2,
   "push": 0,
-  "pendentes": 9,
-  "wr": 100.0,
-  "lucro_u": 1.0,
-  "roi": 50.0,
+  "pendentes": 0,
+  "wr": 81.8,
+  "lucro_u": 5.41,
+  "roi": 49.2,
   "por_estrategia": {
    "LIVE": {
     "n": 3,
     "g": 2,
-    "p": 0,
-    "lucro": 1.0,
-    "wr": 100.0
+    "p": 1,
+    "lucro": 0.0,
+    "wr": 66.7
    },
    "Sharp Pick": {
     "n": 6,
-    "g": 0,
-    "p": 0,
-    "lucro": 0.0,
-    "wr": 0.0
+    "g": 5,
+    "p": 1,
+    "lucro": 3.51,
+    "wr": 83.3
    },
    "Challenge": {
     "n": 2,
-    "g": 0,
+    "g": 2,
     "p": 0,
-    "lucro": 0.0,
-    "wr": 0.0
+    "lucro": 1.9,
+    "wr": 100.0
    }
   }
  },
@@ -219,20 +219,20 @@
   {
    "data": "2026-07-03",
    "sinais": 4,
-   "lucro_dia": 0.0,
-   "lucro_acum": 22.29
+   "lucro_dia": -0.53,
+   "lucro_acum": 21.77
   },
   {
    "data": "2026-07-04",
    "sinais": 4,
-   "lucro_dia": 0.0,
-   "lucro_acum": 22.29
+   "lucro_dia": 4.29,
+   "lucro_acum": 26.05
   },
   {
    "data": "2026-07-05",
    "sinais": 1,
-   "lucro_dia": 0.0,
-   "lucro_acum": 22.29
+   "lucro_dia": 0.65,
+   "lucro_acum": 26.7
   }
  ],
  "serie_por_estrategia": {
@@ -348,20 +348,20 @@
    {
     "data": "2026-07-03",
     "sinais": 4,
-    "lucro_dia": 0.0,
-    "lucro_acum": 22.29
+    "lucro_dia": -0.53,
+    "lucro_acum": 21.77
    },
    {
     "data": "2026-07-04",
     "sinais": 4,
-    "lucro_dia": 0.0,
-    "lucro_acum": 22.29
+    "lucro_dia": 4.29,
+    "lucro_acum": 26.05
    },
    {
     "data": "2026-07-05",
     "sinais": 1,
-    "lucro_dia": 0.0,
-    "lucro_acum": 22.29
+    "lucro_dia": 0.65,
+    "lucro_acum": 26.7
    }
   ],
   "Challenge": [
@@ -398,14 +398,14 @@
    {
     "data": "2026-07-04",
     "sinais": 1,
-    "lucro_dia": 0.0,
-    "lucro_acum": 14.12
+    "lucro_dia": 1.25,
+    "lucro_acum": 15.38
    },
    {
     "data": "2026-07-05",
     "sinais": 1,
-    "lucro_dia": 0.0,
-    "lucro_acum": 14.12
+    "lucro_dia": 0.65,
+    "lucro_acum": 16.02
    }
   ],
   "Golos": [
@@ -492,8 +492,8 @@
    {
     "data": "2026-07-03",
     "sinais": 1,
-    "lucro_dia": 0.0,
-    "lucro_acum": -3.85
+    "lucro_dia": -1.0,
+    "lucro_acum": -4.85
    }
   ],
   "Sharp Pick": [
@@ -548,14 +548,14 @@
    {
     "data": "2026-07-03",
     "sinais": 3,
-    "lucro_dia": 0.0,
-    "lucro_acum": 2.71
+    "lucro_dia": 0.47,
+    "lucro_acum": 3.18
    },
    {
     "data": "2026-07-04",
     "sinais": 3,
-    "lucro_dia": 0.0,
-    "lucro_acum": 2.71
+    "lucro_dia": 3.04,
+    "lucro_acum": 6.22
    }
   ]
  },
@@ -565,13 +565,13 @@
     "inicio": "2026-06-06",
     "fim": "2026-07-05",
     "sinais": 87,
-    "ganhos": 44,
-    "perdidos": 29,
+    "ganhos": 51,
+    "perdidos": 31,
     "push": 5,
-    "pendentes": 9,
-    "wr": 60.3,
-    "lucro_u": 22.29,
-    "roi": 30.5,
+    "pendentes": 0,
+    "wr": 62.2,
+    "lucro_u": 26.7,
+    "roi": 32.6,
     "por_estrategia": {
      "Golos": {
       "n": 31,
@@ -582,30 +582,30 @@
      },
      "Sharp Pick": {
       "n": 21,
-      "g": 10,
-      "p": 5,
-      "lucro": 2.71,
-      "wr": 66.7
+      "g": 15,
+      "p": 6,
+      "lucro": 6.22,
+      "wr": 71.4
      },
      "LIVE": {
       "n": 25,
       "g": 11,
-      "p": 13,
-      "lucro": -3.85,
-      "wr": 45.8
+      "p": 14,
+      "lucro": -4.85,
+      "wr": 44.0
      },
      "Challenge": {
       "n": 10,
-      "g": 4,
+      "g": 6,
       "p": 4,
-      "lucro": 14.13,
-      "wr": 50.0
+      "lucro": 16.03,
+      "wr": 60.0
      }
     }
    },
    "diario": {
-    "inicio": "2026-07-06",
-    "fim": "2026-07-06",
+    "inicio": "2026-07-07",
+    "fim": "2026-07-07",
     "sinais": 0,
     "ganhos": 0,
     "perdidos": 0,
@@ -618,7 +618,7 @@
    },
    "semanal": {
     "inicio": "2026-07-06",
-    "fim": "2026-07-06",
+    "fim": "2026-07-07",
     "sinais": 0,
     "ganhos": 0,
     "perdidos": 0,
@@ -631,36 +631,36 @@
    },
    "mensal": {
     "inicio": "2026-07-01",
-    "fim": "2026-07-06",
+    "fim": "2026-07-07",
     "sinais": 11,
-    "ganhos": 2,
-    "perdidos": 0,
+    "ganhos": 9,
+    "perdidos": 2,
     "push": 0,
-    "pendentes": 9,
-    "wr": 100.0,
-    "lucro_u": 1.0,
-    "roi": 50.0,
+    "pendentes": 0,
+    "wr": 81.8,
+    "lucro_u": 5.41,
+    "roi": 49.2,
     "por_estrategia": {
      "LIVE": {
       "n": 3,
       "g": 2,
-      "p": 0,
-      "lucro": 1.0,
-      "wr": 100.0
+      "p": 1,
+      "lucro": 0.0,
+      "wr": 66.7
      },
      "Sharp Pick": {
       "n": 6,
-      "g": 0,
-      "p": 0,
-      "lucro": 0.0,
-      "wr": 0.0
+      "g": 5,
+      "p": 1,
+      "lucro": 3.51,
+      "wr": 83.3
      },
      "Challenge": {
       "n": 2,
-      "g": 0,
+      "g": 2,
       "p": 0,
-      "lucro": 0.0,
-      "wr": 0.0
+      "lucro": 1.9,
+      "wr": 100.0
      }
     }
    },
@@ -776,26 +776,26 @@
     {
      "data": "2026-07-03",
      "sinais": 4,
-     "lucro_dia": 0.0,
-     "lucro_acum": 22.29
+     "lucro_dia": -0.53,
+     "lucro_acum": 21.77
     },
     {
      "data": "2026-07-04",
      "sinais": 4,
-     "lucro_dia": 0.0,
-     "lucro_acum": 22.29
+     "lucro_dia": 4.29,
+     "lucro_acum": 26.05
     },
     {
      "data": "2026-07-05",
      "sinais": 1,
-     "lucro_dia": 0.0,
-     "lucro_acum": 22.29
+     "lucro_dia": 0.65,
+     "lucro_acum": 26.7
     }
    ],
-   "streak_atual": 5,
+   "streak_atual": 6,
    "streak_melhor": 10,
    "forma": [
-    "ganho",
+    "perdido",
     "ganho",
     "ganho",
     "ganho",
@@ -804,7 +804,7 @@
     "ganho",
     "perdido",
     "perdido",
-    "perdido",
+    "ganho",
     "ganho",
     "ganho",
     "ganho",
@@ -814,33 +814,33 @@
    "melhor_dia": 14.0,
    "melhor_dia_data": "2026-06-21",
    "maior_odd": 17.0,
-   "dias_verde_pct": 38.1
+   "dias_verde_pct": 47.6
   },
   "Challenge": {
    "geral": {
     "inicio": "2026-06-06",
     "fim": "2026-07-05",
     "sinais": 10,
-    "ganhos": 4,
+    "ganhos": 6,
     "perdidos": 4,
     "push": 0,
-    "pendentes": 2,
-    "wr": 50.0,
-    "lucro_u": 14.13,
-    "roi": 176.6,
+    "pendentes": 0,
+    "wr": 60.0,
+    "lucro_u": 16.03,
+    "roi": 160.3,
     "por_estrategia": {
      "Challenge": {
       "n": 10,
-      "g": 4,
+      "g": 6,
       "p": 4,
-      "lucro": 14.13,
-      "wr": 50.0
+      "lucro": 16.03,
+      "wr": 60.0
      }
     }
    },
    "diario": {
-    "inicio": "2026-07-06",
-    "fim": "2026-07-06",
+    "inicio": "2026-07-07",
+    "fim": "2026-07-07",
     "sinais": 0,
     "ganhos": 0,
     "perdidos": 0,
@@ -853,7 +853,7 @@
    },
    "semanal": {
     "inicio": "2026-07-06",
-    "fim": "2026-07-06",
+    "fim": "2026-07-07",
     "sinais": 0,
     "ganhos": 0,
     "perdidos": 0,
@@ -866,22 +866,22 @@
    },
    "mensal": {
     "inicio": "2026-07-01",
-    "fim": "2026-07-06",
+    "fim": "2026-07-07",
     "sinais": 2,
-    "ganhos": 0,
+    "ganhos": 2,
     "perdidos": 0,
     "push": 0,
-    "pendentes": 2,
-    "wr": 0.0,
-    "lucro_u": 0.0,
-    "roi": 0.0,
+    "pendentes": 0,
+    "wr": 100.0,
+    "lucro_u": 1.9,
+    "roi": 95.0,
     "por_estrategia": {
      "Challenge": {
       "n": 2,
-      "g": 0,
+      "g": 2,
       "p": 0,
-      "lucro": 0.0,
-      "wr": 0.0
+      "lucro": 1.9,
+      "wr": 100.0
      }
     }
    },
@@ -919,17 +919,17 @@
     {
      "data": "2026-07-04",
      "sinais": 1,
-     "lucro_dia": 0.0,
-     "lucro_acum": 14.12
+     "lucro_dia": 1.25,
+     "lucro_acum": 15.38
     },
     {
      "data": "2026-07-05",
      "sinais": 1,
-     "lucro_dia": 0.0,
-     "lucro_acum": 14.12
+     "lucro_dia": 0.65,
+     "lucro_acum": 16.02
     }
    ],
-   "streak_atual": 0,
+   "streak_atual": 2,
    "streak_melhor": 2,
    "forma": [
     "ganho",
@@ -939,12 +939,14 @@
     "perdido",
     "ganho",
     "ganho",
-    "perdido"
+    "perdido",
+    "ganho",
+    "ganho"
    ],
    "melhor_dia": 15.0,
    "melhor_dia_data": "2026-06-21",
    "maior_odd": 17.0,
-   "dias_verde_pct": 42.9
+   "dias_verde_pct": 71.4
   },
   "Golos": {
    "geral": {
@@ -969,8 +971,8 @@
     }
    },
    "diario": {
-    "inicio": "2026-07-06",
-    "fim": "2026-07-06",
+    "inicio": "2026-07-07",
+    "fim": "2026-07-07",
     "sinais": 0,
     "ganhos": 0,
     "perdidos": 0,
@@ -983,7 +985,7 @@
    },
    "semanal": {
     "inicio": "2026-07-06",
-    "fim": "2026-07-06",
+    "fim": "2026-07-07",
     "sinais": 0,
     "ganhos": 0,
     "perdidos": 0,
@@ -996,7 +998,7 @@
    },
    "mensal": {
     "inicio": "2026-07-01",
-    "fim": "2026-07-06",
+    "fim": "2026-07-07",
     "sinais": 0,
     "ganhos": 0,
     "perdidos": 0,
@@ -1057,25 +1059,25 @@
     "fim": "2026-07-05",
     "sinais": 25,
     "ganhos": 11,
-    "perdidos": 13,
+    "perdidos": 14,
     "push": 0,
-    "pendentes": 1,
-    "wr": 45.8,
-    "lucro_u": -3.85,
-    "roi": -16.0,
+    "pendentes": 0,
+    "wr": 44.0,
+    "lucro_u": -4.85,
+    "roi": -19.4,
     "por_estrategia": {
      "LIVE": {
       "n": 25,
       "g": 11,
-      "p": 13,
-      "lucro": -3.85,
-      "wr": 45.8
+      "p": 14,
+      "lucro": -4.85,
+      "wr": 44.0
      }
     }
    },
    "diario": {
-    "inicio": "2026-07-06",
-    "fim": "2026-07-06",
+    "inicio": "2026-07-07",
+    "fim": "2026-07-07",
     "sinais": 0,
     "ganhos": 0,
     "perdidos": 0,
@@ -1088,7 +1090,7 @@
    },
    "semanal": {
     "inicio": "2026-07-06",
-    "fim": "2026-07-06",
+    "fim": "2026-07-07",
     "sinais": 0,
     "ganhos": 0,
     "perdidos": 0,
@@ -1101,22 +1103,22 @@
    },
    "mensal": {
     "inicio": "2026-07-01",
-    "fim": "2026-07-06",
+    "fim": "2026-07-07",
     "sinais": 3,
     "ganhos": 2,
-    "perdidos": 0,
+    "perdidos": 1,
     "push": 0,
-    "pendentes": 1,
-    "wr": 100.0,
-    "lucro_u": 1.0,
-    "roi": 50.0,
+    "pendentes": 0,
+    "wr": 66.7,
+    "lucro_u": 0.0,
+    "roi": 0.0,
     "por_estrategia": {
      "LIVE": {
       "n": 3,
       "g": 2,
-      "p": 0,
-      "lucro": 1.0,
-      "wr": 100.0
+      "p": 1,
+      "lucro": 0.0,
+      "wr": 66.7
      }
     }
    },
@@ -1184,17 +1186,16 @@
     {
      "data": "2026-07-03",
      "sinais": 1,
-     "lucro_dia": 0.0,
-     "lucro_acum": -3.85
+     "lucro_dia": -1.0,
+     "lucro_acum": -4.85
     }
    ],
-   "streak_atual": 4,
+   "streak_atual": 0,
    "streak_melhor": 4,
    "forma": [
     "perdido",
     "perdido",
     "perdido",
-    "perdido",
     "ganho",
     "ganho",
     "perdido",
@@ -1205,7 +1206,8 @@
     "ganho",
     "ganho",
     "ganho",
-    "ganho"
+    "ganho",
+    "perdido"
    ],
    "melhor_dia": 1.0,
    "melhor_dia_data": "2026-07-02",
@@ -1217,26 +1219,26 @@
     "inicio": "2026-06-06",
     "fim": "2026-07-05",
     "sinais": 21,
-    "ganhos": 10,
-    "perdidos": 5,
+    "ganhos": 15,
+    "perdidos": 6,
     "push": 0,
-    "pendentes": 6,
-    "wr": 66.7,
-    "lucro_u": 2.71,
-    "roi": 18.1,
+    "pendentes": 0,
+    "wr": 71.4,
+    "lucro_u": 6.22,
+    "roi": 29.6,
     "por_estrategia": {
      "Sharp Pick": {
       "n": 21,
-      "g": 10,
-      "p": 5,
-      "lucro": 2.71,
-      "wr": 66.7
+      "g": 15,
+      "p": 6,
+      "lucro": 6.22,
+      "wr": 71.4
      }
     }
    },
    "diario": {
-    "inicio": "2026-07-06",
-    "fim": "2026-07-06",
+    "inicio": "2026-07-07",
+    "fim": "2026-07-07",
     "sinais": 0,
     "ganhos": 0,
     "perdidos": 0,
@@ -1249,7 +1251,7 @@
    },
    "semanal": {
     "inicio": "2026-07-06",
-    "fim": "2026-07-06",
+    "fim": "2026-07-07",
     "sinais": 0,
     "ganhos": 0,
     "perdidos": 0,
@@ -1262,22 +1264,22 @@
    },
    "mensal": {
     "inicio": "2026-07-01",
-    "fim": "2026-07-06",
+    "fim": "2026-07-07",
     "sinais": 6,
-    "ganhos": 0,
-    "perdidos": 0,
+    "ganhos": 5,
+    "perdidos": 1,
     "push": 0,
-    "pendentes": 6,
-    "wr": 0.0,
-    "lucro_u": 0.0,
-    "roi": 0.0,
+    "pendentes": 0,
+    "wr": 83.3,
+    "lucro_u": 3.51,
+    "roi": 58.5,
     "por_estrategia": {
      "Sharp Pick": {
       "n": 6,
-      "g": 0,
-      "p": 0,
-      "lucro": 0.0,
-      "wr": 0.0
+      "g": 5,
+      "p": 1,
+      "lucro": 3.51,
+      "wr": 83.3
      }
     }
    },
@@ -1333,27 +1335,27 @@
     {
      "data": "2026-07-03",
      "sinais": 3,
-     "lucro_dia": 0.0,
-     "lucro_acum": 2.71
+     "lucro_dia": 0.47,
+     "lucro_acum": 3.18
     },
     {
      "data": "2026-07-04",
      "sinais": 3,
-     "lucro_dia": 0.0,
-     "lucro_acum": 2.71
+     "lucro_dia": 3.04,
+     "lucro_acum": 6.22
     }
    ],
    "streak_atual": 4,
-   "streak_melhor": 4,
+   "streak_melhor": 5,
    "forma": [
-    "perdido",
-    "perdido",
-    "ganho",
     "ganho",
     "perdido",
     "ganho",
     "ganho",
     "perdido",
+    "ganho",
+    "ganho",
+    "ganho",
     "ganho",
     "ganho",
     "perdido",
@@ -1362,10 +1364,10 @@
     "ganho",
     "ganho"
    ],
-   "melhor_dia": 2.27,
-   "melhor_dia_data": "2026-06-27",
-   "maior_odd": 2.42,
-   "dias_verde_pct": 40.0
+   "melhor_dia": 3.04,
+   "melhor_dia_data": "2026-07-04",
+   "maior_odd": 2.67,
+   "dias_verde_pct": 60.0
   }
  },
  "tip_do_dia": [],
@@ -1379,24 +1381,24 @@
   },
   "Sharp Pick": {
    "n": 21,
-   "g": 10,
-   "p": 5,
-   "lucro": 2.71,
-   "wr": 66.7
+   "g": 15,
+   "p": 6,
+   "lucro": 6.22,
+   "wr": 71.4
   },
   "LIVE": {
    "n": 25,
    "g": 11,
-   "p": 13,
-   "lucro": -3.85,
-   "wr": 45.8
+   "p": 14,
+   "lucro": -4.85,
+   "wr": 44.0
   },
   "Challenge": {
    "n": 10,
-   "g": 4,
+   "g": 6,
    "p": 4,
-   "lucro": 14.13,
-   "wr": 50.0
+   "lucro": 16.03,
+   "wr": 60.0
   }
  },
  "challenge": {
@@ -2209,7 +2211,7 @@
    "jogo": "Yunnan Yukun 0-1 Henan Jianye",
    "mercado": "Over 2.5 FT",
    "odd": 1.65,
-   "resultado": null
+   "resultado": "ganho"
   },
   {
    "data": "2026-07-03",
@@ -2219,7 +2221,7 @@
    "jogo": "JäPS 0-0 SJK Akatemia",
    "mercado": "Over 1.5 FT",
    "odd": 1.95,
-   "resultado": null
+   "resultado": "perdido"
   },
   {
    "data": "2026-07-03",
@@ -2229,7 +2231,7 @@
    "jogo": "Kongsvinger vs Sogndal",
    "mercado": "Over 6.5 FT",
    "odd": 1.68,
-   "resultado": null
+   "resultado": "perdido"
   },
   {
    "data": "2026-07-03",
@@ -2239,7 +2241,7 @@
    "jogo": "Sirius 1-0 Mjallby AIF",
    "mercado": "Over 2.5 FT",
    "odd": 1.825,
-   "resultado": null
+   "resultado": "ganho"
   },
   {
    "data": "2026-07-04",
@@ -2249,7 +2251,7 @@
    "jogo": "FC Anyang 1-1 Pohang Steelers",
    "mercado": "Over 3.5 FT",
    "odd": 2.675,
-   "resultado": null
+   "resultado": "ganho"
   },
   {
    "data": "2026-07-04",
@@ -2259,7 +2261,7 @@
    "jogo": "Jeonbuk Motors 0-1 Gangwon FC",
    "mercado": "Over 2.5 FT",
    "odd": 2.25,
-   "resultado": null
+   "resultado": "ganho"
   },
   {
    "data": "2026-07-04",
@@ -2269,7 +2271,7 @@
    "jogo": "Beijing Guoan 0-0 Shandong Luneng",
    "mercado": "Over 1.5 FT",
    "odd": 1.11,
-   "resultado": null
+   "resultado": "ganho"
   },
   {
    "data": "2026-07-04",
@@ -2279,7 +2281,7 @@
    "jogo": "Goias 1-0 Ceara",
    "mercado": "Over 1.5 FT",
    "odd": 2.25,
-   "resultado": null
+   "resultado": "ganho"
   },
   {
    "data": "2026-07-05",
@@ -2289,7 +2291,7 @@
    "jogo": "IFK Goteborg 1-1 AIK Stockholm",
    "mercado": "Over 2.5 FT",
    "odd": 1.65,
-   "resultado": null
+   "resultado": "ganho"
   }
  ]
 }
