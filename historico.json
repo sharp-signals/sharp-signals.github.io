@@ -115,5 +115,22 @@
       "golos_apos_casa": 0,
       "golos_apos_fora": 0
     }
+  ],
+  "2026-07-06": [
+    {
+      "timestamp": "2026-07-06T22:26:29.145394",
+      "jogo": "Portugal vs Spain",
+      "liga": "World Cup",
+      "janela": "FINAL PUSH",
+      "tempo_alerta": 81,
+      "estrelas": 8.5,
+      "cantos_no_ref": 10,
+      "cantos_final": 10,
+      "cantos_apos_alerta": 0,
+      "meta_cantos": 2,
+      "resultado": "LOSS",
+      "golos_apos_casa": 0,
+      "golos_apos_fora": 1
+    }
   ]
 }
