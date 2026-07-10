@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Sharp Signals — Performance</title>
+<title>Goal Sharp Elite — Performance</title>
 <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Raleway:wght@300;400;600&display=swap" rel="stylesheet">
 <style>
 :root{
@@ -206,7 +206,7 @@ svg polyline{filter:drop-shadow(0 0 7px rgba(201,162,39,.6));stroke-dasharray:40
 <div class="aurora"></div><div class="sidelogo"></div><div class="grain"></div>
 
 <nav><div class="wrap">
-  <div class="logo"><span class="mark"></span>Sharp Signals</div>
+  <div class="logo"><span class="mark"></span>Goal Sharp Elite</div>
   <div class="nav-links"><a href="#kpis">Performance</a><a href="#banca">Banca</a>
     <a href="#estrat">Estratégias</a><a href="#hist">Histórico</a></div>
   <a class="btn" href="sharp-signals.html">← Início</a>
@@ -214,7 +214,7 @@ svg polyline{filter:drop-shadow(0 0 7px rgba(201,162,39,.6));stroke-dasharray:40
 
 <header class="top"><div class="wrap">
   <img class="hcoin" src="logo_ss_sq.png?v=1" alt="Sharp Signals">
-  <div class="brand" id="brand">SHARP SIGNALS</div>
+  <div class="brand" id="brand">GOAL SHARP ELITE</div>
   <div class="tag" id="tag">Elite Sports Intelligence</div>
   <div><span class="trust"><span class="dot"></span> Cada sinal registado e apurado · sem cherry-picking</span></div>
   <div class="upd" id="upd"></div>
@@ -225,7 +225,7 @@ svg polyline{filter:drop-shadow(0 0 7px rgba(201,162,39,.6));stroke-dasharray:40
 <div class="wrap"><div id="app"><div class="err">A carregar dados…</div></div></div>
 
 <footer><div class="wrap">
-  <div class="logo"><span class="mark"></span>Sharp Signals</div>
+  <div class="logo"><span class="mark"></span>Goal Sharp Elite</div>
   <div>© <span id="yr"></span> Sharp Signals · stake plana 1u · +18 · joga com responsabilidade</div>
 </div></footer>
 
@@ -369,7 +369,7 @@ function render(){
   const g=p.geral||{lucro_u:0,roi:0,wr:0,sinais:0,ganhos:0,perdidos:0};
   const nome=STRAT==='Total'?'Tudo':STRAT;
   const histRows=(STRAT==='Total')?(d.historico_sinais||[]):(d.historico_sinais||[]).filter(s=>s.estrategia===STRAT);
-  document.getElementById('brand').textContent=(d.marca&&d.marca.nome)?d.marca.nome.toUpperCase():'SHARP SIGNALS';
+  document.getElementById('brand').textContent=(d.marca&&d.marca.nome)?d.marca.nome.toUpperCase():'GOAL SHARP ELITE';
   document.getElementById('tag').textContent=(d.marca&&d.marca.tagline)||'';
   document.getElementById('upd').textContent='Atualizado: '+(d.atualizado||'').replace('T',' ');
   document.getElementById('app').innerHTML=
