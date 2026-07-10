@@ -273,6 +273,40 @@ footer{border-top:1px solid var(--gold-b);padding:2rem;text-align:center}
   </div>
 </section>
 
+<!-- COMBINADA DO DIA (grátis — visível a todos; lê o dashboard.json publicado) -->
+<section id="daily-acca" style="padding:4.5rem 2rem;background:rgba(10,22,40,0.35)">
+  <div class="container" style="max-width:880px">
+    <div style="text-align:center;margin-bottom:2rem">
+      <span style="font-size:11px;letter-spacing:6px;color:#ffbd00;font-weight:700;text-transform:uppercase;display:inline-block;padding:5px 15px;background:rgba(255,189,0,0.1);border-radius:50px;border:1px solid rgba(255,189,0,0.25);margin-bottom:1rem;text-shadow:0 0 10px rgba(255,189,0,0.5)">🎟️ GRÁTIS — TODOS OS DIAS</span>
+      <h2 class="sec-title">Combinada do Dia</h2>
+      <p class="sec-sub" style="font-size:15px;max-width:660px;margin:0.5rem auto 0">Over 1.5 · 2ª parte — as pernas escolhidas do dia, publicadas todas as manhãs e apuradas em público. Sem cherry-picking.</p>
+    </div>
+    <div style="border:1px solid rgba(232,201,110,0.25);border-radius:16px;background:linear-gradient(180deg,rgba(16,28,52,.85),rgba(12,23,48,.85));padding:1.1rem 1.4rem;box-shadow:0 10px 40px rgba(0,0,0,.35)">
+      <div id="acca-body" style="color:#8ea0b8;text-align:center;padding:.6rem 0">A carregar a combinada de hoje… ⏳</div>
+    </div>
+    <div style="text-align:center;margin-top:1.6rem">
+      <a href="dashboard_mv-pt.html" class="product-btn" style="display:inline-block;padding:.8rem 2.2rem">Ver o track record verificado →</a>
+    </div>
+  </div>
+  <script>
+  (function(){
+    var IC={ganho:'\u2705',perdido:'\u274C'};
+    fetch('dashboard.json?'+Date.now()).then(function(r){return r.json()}).then(function(d){
+      var tips=(d&&d.tip_do_dia)||[]; var el=document.getElementById('acca-body');
+      if(!tips.length){el.innerHTML='A combinada de hoje sai de manhã — volta daqui a pouco. ⏳';return;}
+      var odd=1,temOdds=true;
+      var rows=tips.map(function(t){
+        if(t.odd){odd*=t.odd}else{temOdds=false}
+        return '<div style="display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;padding:9px 2px;border-bottom:1px solid rgba(232,201,110,0.12);font-size:14px;text-align:left">'
+          +'<div>'+(IC[t.resultado]||'\uD83D\uDFE1')+' <b style="color:#fff">'+(t.jogo||'')+'</b> <span style="color:#8ea0b8">\u00b7 '+(t.liga||'')+(t.hora?' \u00b7 '+t.hora:'')+'</span></div>'
+          +'<div><span style="color:#e8c96e">'+(t.mercado||'Over 1.5 · 2ª parte')+'</span>'+(t.odd?' @ <b style="color:#ffbd00">'+Number(t.odd).toFixed(2)+'</b>':'')+'</div></div>';
+      }).join('');
+      el.innerHTML=rows+((temOdds&&tips.length>1)?'<div style="text-align:right;padding-top:10px;font-size:14px;color:#8ea0b8">Odd combinada <b style="color:#ffbd00">'+odd.toFixed(2)+'\u00d7</b></div>':'');
+    }).catch(function(){document.getElementById('acca-body').textContent='\u2014'});
+  })();
+  </script>
+</section>
+
 <!-- PERSONAL TIPS -->
 <section class="tips-section" id="tips">
   <div class="container">
