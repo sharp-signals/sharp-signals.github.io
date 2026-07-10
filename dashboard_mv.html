@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Match Value Elite — Performance</title>
+<title>Sharp Signals — Performance</title>
 <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Raleway:wght@300;400;600&display=swap" rel="stylesheet">
 <style>
 :root{
@@ -26,10 +26,10 @@ a{color:inherit;text-decoration:none}
   radial-gradient(1200px 800px at 50% 120%,rgba(201,162,39,.05),transparent 60%),var(--bg)}
 .grain{position:fixed;inset:0;z-index:-1;opacity:.04;pointer-events:none;
   background-image:radial-gradient(#fff 1px,transparent 1px);background-size:3px 3px}
-/* moeda Match Value Elite como marca-d'água DISCRETA, ao lado (não no meio) */
+/* lockup Sharp Signals como marca-d'água DISCRETA, ao lado (não no meio) */
 .sidelogo{position:fixed;z-index:-2;left:-120px;top:50%;transform:translateY(-50%);
   width:560px;height:560px;opacity:.13;pointer-events:none;
-  background:url('logo_mv.png?v=2') center/contain no-repeat}
+  background:url('logo_ss_sq.png?v=1') center/contain no-repeat}
 @media(max-width:900px){.sidelogo{left:-200px;width:420px;height:420px;opacity:.08}}
 
 /* nav */
@@ -38,7 +38,7 @@ nav{position:sticky;top:0;z-index:50;backdrop-filter:blur(10px);
 nav .wrap{display:flex;align-items:center;justify-content:space-between;height:62px}
 .logo{display:flex;align-items:center;gap:10px;font-weight:700;letter-spacing:3px;text-transform:uppercase;font-family:'Cinzel',serif}
 .logo .mark{width:36px;height:36px;border-radius:50%;
-  background:url('logo_mv.png?v=2') center/contain no-repeat;
+  background:url('logo_ss_sq.png?v=1') center/contain no-repeat;
   box-shadow:0 4px 14px rgba(201,162,39,.35)}
 .nav-links{display:flex;gap:22px;font-size:14px;color:var(--muted)}
 .nav-links a:hover{color:var(--gold)}
@@ -129,7 +129,7 @@ svg{width:100%;height:250px;display:block}
 .bar > div{height:100%;background:linear-gradient(90deg,var(--gold2),var(--gold))}
 .est .e-bot{display:flex;justify-content:space-between;margin-top:9px;font-size:12.5px;color:var(--muted)}
 
-/* tip do dia (isca BTTS) */
+/* combinada do dia (grátis) */
 .tipday{margin:6px 0 4px;border:1px solid var(--gold2);background:
   radial-gradient(600px 220px at 92% 0,rgba(201,162,39,.13),transparent 60%),
   linear-gradient(180deg,var(--panel),var(--panel2))}
@@ -206,15 +206,15 @@ svg polyline{filter:drop-shadow(0 0 7px rgba(201,162,39,.6));stroke-dasharray:40
 <div class="aurora"></div><div class="sidelogo"></div><div class="grain"></div>
 
 <nav><div class="wrap">
-  <div class="logo"><span class="mark"></span>Match Value Elite</div>
+  <div class="logo"><span class="mark"></span>Sharp Signals</div>
   <div class="nav-links"><a href="#kpis">Performance</a><a href="#banca">Bankroll</a>
     <a href="#estrat">Strategies</a><a href="#hist">History</a></div>
   <a class="btn" href="sharp-signals.html">← Home</a>
 </div></nav>
 
 <header class="top"><div class="wrap">
-  <img class="hcoin" src="logo_mv.png?v=2" alt="Match Value Elite">
-  <div class="brand" id="brand">MATCH VALUE ELITE</div>
+  <img class="hcoin" src="logo_ss_sq.png?v=1" alt="Sharp Signals">
+  <div class="brand" id="brand">SHARP SIGNALS</div>
   <div class="tag" id="tag">Elite Sports Intelligence</div>
   <div><span class="trust"><span class="dot"></span> Every signal logged and settled · no cherry-picking</span></div>
   <div class="upd" id="upd"></div>
@@ -225,8 +225,8 @@ svg polyline{filter:drop-shadow(0 0 7px rgba(201,162,39,.6));stroke-dasharray:40
 <div class="wrap"><div id="app"><div class="err">Loading data…</div></div></div>
 
 <footer><div class="wrap">
-  <div class="logo"><span class="mark"></span>Match Value Elite</div>
-  <div>© <span id="yr"></span> Match Value Elite · flat stake 1u · 18+ · bet responsibly</div>
+  <div class="logo"><span class="mark"></span>Sharp Signals</div>
+  <div>© <span id="yr"></span> Sharp Signals · flat stake 1u · 18+ · bet responsibly</div>
 </div></footer>
 
 <div class="langswitch">
@@ -310,8 +310,8 @@ function chart(serie){
   </svg></div>`;
 }
 function segs(painel){
-  const pref=['Total','Golos','Cantos','LIVE','BTTS','Sharp Pick'];
-  const lbls={'Total':'All','Golos':'Goals','Cantos':'Corners'};
+  const pref=['Total','Golos 2ª Parte','Combinada do Dia','Cantos','Golos (arquivo)','Sharp Pick'];
+  const lbls={'Total':'All','Golos 2ª Parte':'2nd-Half Goals','Combinada do Dia':'Daily Acca','Cantos':'Corners','Golos (arquivo)':'Goals (archive)'};
   const keys=Object.keys(painel).sort((a,b)=>{const ia=pref.indexOf(a),ib=pref.indexOf(b);
     return (ia<0?99:ia)-(ib<0?99:ib);});
   return `<div class="segwrap"><div class="segs">${keys.map(k=>
@@ -319,13 +319,13 @@ function segs(painel){
 }
 
 function tipDoDia(tips){
-  const head=`<div class="hd">🎯 <b>Tip of the Day</b> <span class="free">BTTS · FREE</span></div>`;
+  const head=`<div class="hd">🎟️ <b>Daily Acca</b> <span class="free">Over 1.5 · 2nd half · FREE</span></div>`;
   if(!tips||!tips.length)
     return `<div class="card tipday">${head}<div style="color:var(--muted);padding:8px 0">
-      Today's tips (Both Teams To Score) show up here as soon as they're out — updated daily. ⏳</div></div>`;
+      Today's acca (Over 1.5 · 2nd-half goals) shows up here every morning — updated daily. ⏳</div></div>`;
   const rows=tips.map(t=>{const ic=t.resultado==='ganho'?'✅':t.resultado==='perdido'?'❌':'🟡';
     return `<div class="tiprow"><div>${ic} <b>${t.jogo||''}</b> <span style="color:var(--muted)">· ${t.liga||''}${t.hora?' · '+t.hora:''}</span></div>
-      <div><span class="mk">${t.mercado||'Both Teams To Score'}</span> ${t.odd?'@ <b class="gold">'+Number(t.odd).toFixed(2)+'</b>':''}</div></div>`;}).join('');
+      <div><span class="mk">${t.mercado||'Over 1.5 · 2nd half'}</span> ${t.odd?'@ <b class="gold">'+Number(t.odd).toFixed(2)+'</b>':''}</div></div>`;}).join('');
   return `<div class="card tipday">${head}${rows}</div>`;
 }
 function challengeBlock(c){ return '';
@@ -369,14 +369,14 @@ function render(){
   const g=p.geral||{lucro_u:0,roi:0,wr:0,sinais:0,ganhos:0,perdidos:0};
   const nome=STRAT==='Total'?'All':STRAT==='Golos'?'Goals':STRAT==='Cantos'?'Corners':STRAT;
   const histRows=(STRAT==='Total')?(d.historico_sinais||[]):(d.historico_sinais||[]).filter(s=>s.estrategia===STRAT);
-  document.getElementById('brand').textContent=(d.marca&&d.marca.nome)?d.marca.nome.toUpperCase():'MATCH VALUE ELITE';
+  document.getElementById('brand').textContent=(d.marca&&d.marca.nome)?d.marca.nome.toUpperCase():'SHARP SIGNALS';
   document.getElementById('tag').textContent=(d.marca&&d.marca.tagline)||'';
   document.getElementById('upd').textContent='Updated: '+(d.atualizado||'').replace('T',' ');
   document.getElementById('app').innerHTML=
     `${Object.keys(painel).length>2?segs(painel):''}
      <div id="kpis">${kpisFor(g)}</div>
      ${formCard(p)}
-     <div class="sec-t">🎯 Tip of the Day — free, every day</div>
+     <div class="sec-t">🎟️ Daily Acca — free, every day</div>
      ${tipDoDia(d.tip_do_dia)}
      ${periodsFor(p)}
      <div class="sec-t" id="banca">Bankroll evolution — ${nome}</div>
@@ -393,7 +393,9 @@ function render(){
 stakeEl.addEventListener('input',()=>{STAKE=Math.max(1,+stakeEl.value||1); if(DATA) render();});
 
 // ?strat=LIVE no URL pré-seleciona a estratégia (o parceiro liga cada cliente à sua)
-const q=new URLSearchParams(location.search).get('strat'); if(q) STRAT=q;
+const q=new URLSearchParams(location.search).get('strat');
+const NOMES_ANTIGOS={'LIVE':'Golos 2ª Parte','Golos':'Golos (arquivo)'};
+if(q) STRAT=NOMES_ANTIGOS[q]||q;
 
 fetch('dashboard.json?'+Date.now()).then(r=>r.json()).then(d=>{DATA=d;render();})
   .catch(()=>{document.getElementById('app').innerHTML=
