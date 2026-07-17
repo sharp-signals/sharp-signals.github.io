@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ZI Corner Pro — Performance</title>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Raleway:wght@300;400;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#060d1a; --panel:#0a1628; --panel2:#0f2040; --line:rgba(201,162,39,0.25);
+  --gold:#c9a227; --gold2:#caa23e; --gold3:#e8c96e; --txt:#f8f4ed; --muted:rgba(248,244,237,0.6);
+  --green:#2ecc71; --red:#e74c3c; --grey:#6b7892;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:'Raleway',sans-serif;font-weight:300;background:var(--bg);color:var(--txt);
+  min-height:100vh;overflow-x:hidden;line-height:1.5}
+a{color:inherit;text-decoration:none}
+.wrap{max-width:1140px;margin:0 auto;padding:0 20px}
+.gold{color:var(--gold)} .pos{color:var(--green)} .neg{color:var(--red)}
+
+.aurora{position:fixed;inset:0;z-index:-3;background:
+  radial-gradient(900px 500px at 12% -8%,rgba(201,162,39,.08),transparent 60%),
+  radial-gradient(1000px 600px at 88% 0%,rgba(93,173,226,.07),transparent 55%),
+  radial-gradient(1200px 800px at 50% 120%,rgba(201,162,39,.05),transparent 60%),var(--bg)}
+.grain{position:fixed;inset:0;z-index:-1;opacity:.04;pointer-events:none;
+  background-image:radial-gradient(#fff 1px,transparent 1px);background-size:3px 3px}
+.sidelogo{position:fixed;z-index:-2;left:-140px;top:50%;transform:translateY(-50%);
+  width:560px;height:560px;opacity:.10;pointer-events:none;border-radius:50%;
+  border:3px solid var(--gold);display:flex;align-items:center;justify-content:center;
+  font-family:'Cinzel',serif;font-size:150px;color:var(--gold)}
+@media(max-width:900px){.sidelogo{display:none}}
+
+nav{position:sticky;top:0;z-index:50;backdrop-filter:blur(10px);
+  background:rgba(7,13,24,.72);border-bottom:1px solid var(--line)}
+nav .wrap{display:flex;align-items:center;justify-content:space-between;height:62px}
+.logo{display:flex;align-items:center;gap:10px;font-weight:700;letter-spacing:3px;
+  text-transform:uppercase;font-family:'Cinzel',serif;font-size:15px}
+.logo .mark{width:34px;height:34px;border-radius:50%;border:2px solid var(--gold);
+  display:flex;align-items:center;justify-content:center;font-size:12px;color:var(--gold3);
+  box-shadow:0 4px 14px rgba(201,162,39,.3)}
+.nav-links{display:flex;gap:22px;font-size:14px;color:var(--muted)}
+.nav-links a:hover{color:var(--gold)}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:9px 18px;border-radius:30px;font-weight:700;
+  font-size:13.5px;border:1px solid var(--line);transition:.2s;cursor:pointer;color:var(--txt)}
+.btn:hover{border-color:var(--gold);color:var(--gold)}
+@media(max-width:780px){.nav-links{display:none}}
+
+header.top{text-align:center;padding:34px 0 8px}
+.hcoin{width:86px;height:86px;margin:0 auto 14px;border-radius:50%;border:3px solid var(--gold);
+  display:flex;align-items:center;justify-content:center;font-family:'Cinzel',serif;
+  font-size:30px;color:var(--gold3);box-shadow:0 6px 22px rgba(201,162,39,.35)}
+.brand{font-size:32px;font-weight:700;letter-spacing:6px;text-transform:uppercase;font-family:'Cinzel',serif;
+  background:linear-gradient(180deg,var(--gold3),var(--gold2));-webkit-background-clip:text;
+  background-clip:text;color:transparent}
+@media(max-width:760px){.brand{font-size:22px;letter-spacing:3px}.hcoin{width:66px;height:66px;font-size:22px}}
+.tag{color:var(--gold2);letter-spacing:4px;font-size:12px;text-transform:uppercase;margin-top:4px}
+.upd{color:var(--muted);font-size:12px;margin-top:10px}
+.trust{display:inline-flex;align-items:center;gap:8px;margin-top:14px;padding:6px 14px;border-radius:30px;
+  border:1px solid var(--line);background:rgba(16,28,52,.5);color:var(--muted);font-size:12px}
+.trust .dot{width:7px;height:7px;border-radius:50%;background:var(--green)}
+
+.segwrap{display:flex;justify-content:center;margin:26px 0 4px}
+.segbar{display:inline-flex;gap:4px;padding:5px;border-radius:32px;border:1px solid var(--line);
+  background:rgba(16,28,52,.55);flex-wrap:wrap;justify-content:center}
+.seg{padding:10px 22px;border-radius:26px;font-size:13.5px;cursor:pointer;color:var(--muted);
+  transition:.18s;white-space:nowrap;font-weight:600}
+.seg:hover{color:var(--gold3)}
+.seg.on{background:linear-gradient(180deg,var(--gold3),var(--gold2));color:#0a0f1f;
+  box-shadow:0 4px 16px rgba(201,162,39,.35)}
+
+.sec-t{font-family:'Cinzel',serif;font-size:14px;letter-spacing:3px;text-transform:uppercase;
+  color:var(--gold2);margin:32px 0 14px;padding-bottom:8px;border-bottom:1px solid var(--line)}
+
+.grid{display:grid;gap:14px}
+.kpis3{grid-template-columns:repeat(3,1fr)}
+.kpis4{grid-template-columns:repeat(4,1fr)}
+@media(max-width:860px){.kpis3,.kpis4{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:520px){.kpis3,.kpis4{grid-template-columns:1fr}}
+.card{background:linear-gradient(160deg,var(--panel),var(--panel2));border:1px solid var(--line);
+  border-radius:14px;padding:20px}
+.kpi{text-align:center}
+.kpi .lbl{font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--muted)}
+.kpi .val{font-size:40px;font-weight:700;font-family:'Cinzel',serif;margin:8px 0 4px;line-height:1}
+@media(max-width:760px){.kpi .val{font-size:30px}}
+.kpi .sub{font-size:12.5px;color:var(--muted)}
+
+.formcard{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;
+  border-color:rgba(201,162,39,.45)}
+.fc-big{font-size:15px}
+.fc-big b{font-family:'Cinzel',serif;font-size:26px;color:var(--gold3)}
+.fc-sub{font-size:12.5px;color:var(--muted);margin-top:4px}
+.forma{display:flex;align-items:center;gap:6px;flex-wrap:wrap}
+.forma .lb{font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--muted);margin-right:6px}
+.dot{width:13px;height:13px;border-radius:50%;display:inline-block}
+.dot.g{background:var(--green)} .dot.p{background:var(--red)} .dot.x{background:var(--grey)}
+
+.meses{grid-template-columns:repeat(6,1fr)}
+@media(max-width:900px){.meses{grid-template-columns:repeat(3,1fr)}}
+@media(max-width:520px){.meses{grid-template-columns:repeat(2,1fr)}}
+.mes{text-align:center;padding:14px 8px}
+.mes .ml{font-size:11px;letter-spacing:1.5px;text-transform:uppercase;color:var(--muted)}
+.mes .mv{font-size:20px;font-weight:700;font-family:'Cinzel',serif;margin:6px 0 3px}
+.mes .ms{font-size:11px;color:var(--muted)}
+
+.bars{display:flex;align-items:flex-end;gap:10px;height:190px;padding:14px 4px 0}
+.bar{flex:1;display:flex;flex-direction:column;justify-content:flex-end;align-items:center;gap:6px;height:100%}
+.bar .col{width:100%;border-radius:6px 6px 0 0;min-height:3px;
+  background:linear-gradient(180deg,var(--gold3),var(--gold2))}
+.bar .col.neg{background:linear-gradient(180deg,#e57373,var(--red))}
+.bar .bl{font-size:10.5px;color:var(--muted)}
+.bar .bv{font-size:11px;font-weight:600}
+
+table{width:100%;border-collapse:collapse;font-size:13.5px}
+th,td{padding:11px 10px;text-align:left;border-bottom:1px solid rgba(201,162,39,.12)}
+th{font-size:11px;letter-spacing:1.5px;text-transform:uppercase;color:var(--gold2);font-weight:600}
+td.num,th.num{text-align:right;font-variant-numeric:tabular-nums}
+tr:hover td{background:rgba(201,162,39,.04)}
+.pill{display:inline-block;padding:2px 9px;border-radius:20px;font-size:11px;font-weight:600}
+.pill.g{background:rgba(46,204,113,.15);color:var(--green)}
+.pill.p{background:rgba(231,76,60,.15);color:var(--red)}
+.tbl-wrap{padding:6px 14px;max-height:520px;overflow-y:auto}
+
+.empty{text-align:center;padding:44px 20px;color:var(--muted);font-size:14px}
+.empty .big{font-size:15px;color:var(--gold2);font-family:'Cinzel',serif;letter-spacing:2px;margin-bottom:8px}
+
+footer{margin-top:56px;padding:26px 0;border-top:1px solid var(--line);text-align:center;color:var(--muted);font-size:12px}
+footer .logo{justify-content:center;margin-bottom:10px;font-size:13px}
+.disc{font-size:11px;color:rgba(248,244,237,.35);margin-top:8px;max-width:620px;margin-left:auto;margin-right:auto}
+.langswitch{position:fixed;bottom:18px;right:18px;z-index:200;display:flex;gap:4px;
+  background:rgba(6,13,26,0.9);border:1px solid var(--line);border-radius:30px;padding:4px;
+  backdrop-filter:blur(8px)}
+.langswitch a{font-family:'Cinzel',serif;font-size:10px;letter-spacing:1px;padding:5px 11px;
+  border-radius:30px;color:var(--muted);transition:all 0.2s}
+.langswitch a.on{background:var(--gold);color:var(--bg);font-weight:700}
+</style>
+</head>
+<body>
+<div class="aurora"></div><div class="sidelogo">SS</div><div class="grain"></div>
+
+<nav><div class="wrap">
+  <div class="logo"><span class="mark">SS</span>ZI Corner Pro</div>
+  <div class="nav-links"><a href="#kpis">Performance</a><a href="#detalhe">Detail</a><a href="#hist">Histórico</a></div>
+  <a class="btn" href="sharp-signals.html">← Home</a>
+</div></nav>
+
+<header class="top"><div class="wrap">
+  <div class="hcoin">SS</div>
+  <div class="brand">ZI Corner Pro</div>
+  <div class="tag">Elite Sports Intelligence</div>
+  <div><span class="trust"><span class="dot"></span> Every signal logged and settled · no cherry-picking</span></div>
+  <div class="upd" id="upd"></div>
+</div></header>
+
+<div class="wrap"><div id="app"><div class="empty">Loading data…</div></div></div>
+
+<footer><div class="wrap">
+  <div class="logo"><span class="mark">SS</span>Sharp Signals</div>
+  <div>Elite Sports Intelligence · <span id="yr"></span></div>
+  <div class="disc">Past results do not guarantee future results.
+    As Personal Tips resultam de análise manual; o ZI Corner Pro é o sistema automático de sinais.
+    +18 · Bet responsibly.</div>
+</div></footer>
+
+<div class="langswitch">
+  <a href="dashboard.html" class="on">EN</a>
+  <a href="dashboard-pt.html">PT</a>
+</div>
+
+<script>
+let DATA=null, CAT='tips';
+const f1=n=>(n>=0?'+':'')+n.toFixed(1);
+const cls=n=>n>0?'pos':(n<0?'neg':'');
+document.getElementById('yr').textContent=new Date().getFullYear();
+
+function forma(arr){
+  const d=(arr||[]).map(r=>`<span class="dot ${r==='ganho'?'g':r==='perdido'?'p':'x'}"></span>`).join('')
+    || '<span style="color:var(--muted);font-size:12px">no history yet</span>';
+  return `<div class="forma"><span class="lb">Form · last ${(arr||[]).length}</span>${d}</div>`;
+}
+function streak(arr){
+  if(!arr||!arr.length) return {n:0,tipo:''};
+  const last=arr[arr.length-1]; let n=0;
+  for(let i=arr.length-1;i>=0;i--){ if(arr[i]===last) n++; else break; }
+  return {n:n,tipo:last};
+}
+
+function vistaTips(d){
+  const s=streak(d.forma);
+  const emoji=s.tipo==='ganho'?'🔥':'❄️';
+  const txt=s.tipo==='ganho'?'greens in a row':'reds in a row';
+  let h=`<div class="sec-t" id="kpis">Performance — Personal Tips</div>
+  <div class="grid kpis3">
+    <div class="card kpi"><div class="lbl">Bankroll growth</div>
+      <div class="val ${cls(d.cresc_pct)}">${f1(d.cresc_pct)}%</div>
+      <div class="sub">Aug 25 → Jan 26 · 6 months</div></div>
+    <div class="card kpi"><div class="lbl">Win rate</div>
+      <div class="val gold">${d.wr}%</div>
+      <div class="sub">✅ ${d.ganhos} · ❌ ${d.perdidos}</div></div>
+    <div class="card kpi"><div class="lbl">Bets</div>
+      <div class="val">${d.apostas}</div>
+      <div class="sub">logged and settled</div></div>
+  </div>
+  <div class="card formcard" style="margin-top:14px">
+    <div><div class="fc-big">${emoji} <b>${s.n}</b> ${txt}</div>
+      <div class="fc-sub">Best month <b class="pos">+39.3%</b> (Out 25) · 4 of 6 months positive</div></div>
+    ${forma(d.forma)}
+  </div>`;
+
+  const max=Math.max(...d.meses.map(m=>Math.abs(m.cresc_pct)),1);
+  const bars=d.meses.map(m=>`<div class="bar">
+      <div class="bv ${cls(m.cresc_pct)}">${f1(m.cresc_pct)}%</div>
+      <div class="col ${m.cresc_pct<0?'neg':''}" style="height:${Math.max(Math.abs(m.cresc_pct)/max*100,2)}%"></div>
+      <div class="bl">${m.label}</div></div>`).join('');
+  const cards=d.meses.map(m=>`<div class="card mes">
+      <div class="ml">${m.label}</div>
+      <div class="mv ${cls(m.cresc_pct)}">${f1(m.cresc_pct)}%</div>
+      <div class="ms">${m.apostas} bets · WR ${m.wr}%</div></div>`).join('');
+  h+=`<div class="sec-t" id="detalhe">Monthly performance</div>
+    <div class="card"><div class="bars">${bars}</div></div>
+    <div class="grid meses" style="margin-top:14px">${cards}</div>`;
+
+  const rows=d.por_mercado.map(m=>`<tr><td>${m.mercado}</td>
+    <td class="num">${m.n}</td><td class="num">${m.wr}%</td>
+    <td class="num ${cls(m.roi)}">${f1(m.roi)}%</td></tr>`).join('');
+  h+=`<div class="sec-t">By market</div><div class="card tbl-wrap">
+    <table><thead><tr><th>Market</th><th class="num">Bets</th>
+    <th class="num">Win Rate</th><th class="num">ROI</th></tr></thead><tbody>${rows}</tbody></table></div>`;
+
+  const hr=d.historico.map(s=>`<tr><td>${s.data.split('-').reverse().join('/')}</td>
+    <td>${s.jogo}</td><td>${s.mercado}</td>
+    <td class="num">${s.odd?s.odd.toFixed(2):'—'}</td>
+    <td class="num"><span class="pill ${s.resultado==='ganho'?'g':'p'}">${s.resultado==='ganho'?'GREEN':'RED'}</span></td></tr>`).join('');
+  h+=`<div class="sec-t" id="hist">History — last ${d.historico.length}</div>
+    <div class="card tbl-wrap"><table><thead><tr><th>Date</th><th>Match</th><th>Market</th>
+    <th class="num">Odds</th><th class="num">Result</th></tr></thead><tbody>${hr}</tbody></table></div>`;
+  return h;
+}
+
+function vistaBot(d){
+  if(!d) return `<div class="card empty"><div class="big">Ainda no history yet</div>
+    ZI Corner Pro signals are starting to be logged now.<br>
+    This section will fill in as soon as results are settled.</div>`;
+  const s=streak(d.forma);
+  const emoji=s.tipo==='ganho'?'🔥':'❄️';
+  const txt=s.tipo==='ganho'?'greens in a row':'reds in a row';
+  let h=`<div class="sec-t" id="kpis">Performance — ZI Corner Pro</div>
+  <div class="grid kpis3">
+    <div class="card kpi"><div class="lbl">Win rate</div>
+      <div class="val gold">${d.wr}%</div>
+      <div class="sub">✅ ${d.ganhos} · ❌ ${d.perdidos}</div></div>
+    <div class="card kpi"><div class="lbl">Signals</div>
+      <div class="val">${d.apostas}</div>
+      <div class="sub">sent and settled</div></div>
+    <div class="card kpi"><div class="lbl">Period</div>
+      <div class="val" style="font-size:22px">${d.periodo.inicio.slice(5).split('-').reverse().join('/')}</div>
+      <div class="sub">since launch</div></div>
+  </div>
+  <div class="card formcard" style="margin-top:14px">
+    <div><div class="fc-big">${emoji} <b>${s.n}</b> ${txt}</div>
+      <div class="fc-sub">Signals generated automatically by real-time pressure analysis</div></div>
+    ${forma(d.forma)}
+  </div>`;
+
+  const rows=d.por_janela.map(j=>`<tr><td>${j.janela}</td>
+    <td class="num">${j.n}</td><td class="num">${j.wr}%</td></tr>`).join('');
+  h+=`<div class="sec-t" id="detalhe">By window</div><div class="card tbl-wrap">
+    <table><thead><tr><th>Window</th><th class="num">Signals</th>
+    <th class="num">Win Rate</th></tr></thead><tbody>${rows}</tbody></table></div>`;
+
+  const hr=d.historico.map(s=>`<tr><td>${s.data.split('-').reverse().join('/')}</td>
+    <td>${s.jogo}</td><td>${s.janela}</td>
+    <td class="num gold">${s.estrelas}</td>
+    <td class="num">+${s.cantos_apos}</td>
+    <td class="num"><span class="pill ${s.resultado==='ganho'?'g':'p'}">${s.resultado==='ganho'?'WIN':'LOSS'}</span></td></tr>`).join('');
+  h+=`<div class="sec-t" id="hist">Signal history</div>
+    <div class="card tbl-wrap"><table><thead><tr><th>Date</th><th>Match</th><th>Window</th>
+    <th class="num">Score</th><th class="num">Corners</th><th class="num">Result</th></tr></thead>
+    <tbody>${hr}</tbody></table></div>`;
+  return h;
+}
+
+
+function construirBot(H){
+  var bs=[];
+  Object.keys(H||{}).forEach(function(dia){
+    (H[dia]||[]).forEach(function(a){
+      var r=a.resultado;
+      bs.push({data:dia, jogo:a.jogo||'', liga:a.liga||'', janela:a.janela||'',
+        estrelas:a.estrelas||0, cantos_apos:a.cantos_apos_alerta||0,
+        resultado: r==='WIN'?'ganho':(r==='LOSS'?'perdido':'nulo')});
+    });
+  });
+  if(!bs.length) return null;
+  bs.sort(function(a,b){return a.data<b.data?-1:1;});
+  var apur=bs.filter(function(s){return s.resultado!=='nulo';});
+  var g=apur.filter(function(s){return s.resultado==='ganho';}).length;
+  var p=apur.filter(function(s){return s.resultado==='perdido';}).length;
+  var jan={};
+  apur.forEach(function(s){ jan[s.janela]=jan[s.janela]||{n:0,g:0,p:0};
+    jan[s.janela].n++; if(s.resultado==='ganho')jan[s.janela].g++; else jan[s.janela].p++; });
+  var pj=Object.keys(jan).map(function(k){return {janela:k,n:jan[k].n,
+      wr:(jan[k].g+jan[k].p)?Math.round(1000*jan[k].g/(jan[k].g+jan[k].p))/10:0};})
+    .sort(function(a,b){return b.n-a.n;});
+  return {nome:'ZI Corner Pro',
+    periodo:{inicio:bs[0].data, fim:bs[bs.length-1].data},
+    apostas:bs.length, ganhos:g, perdidos:p,
+    wr:(g+p)?Math.round(1000*g/(g+p))/10:0,
+    por_janela:pj,
+    forma:apur.slice(-15).map(function(s){return s.resultado;}),
+    historico:bs.slice().reverse().slice(0,60)};
+}
+
+function render(){
+  const app=document.getElementById('app');
+  if(!DATA){app.innerHTML='<div class="empty">No data.</div>';return;}
+  document.getElementById('upd').textContent='Updated: '+DATA.atualizado;
+  const cats=[['tips','Personal Tips'],['bot','ZI Corner Pro']];
+  const segs=cats.map(c=>`<span class="seg ${c[0]===CAT?'on':''}" data-cat="${c[0]}">${c[1]}</span>`).join('');
+  let html=`<div class="segwrap"><div class="segbar">${segs}</div></div>`;
+  html+= CAT==='tips' ? vistaTips(DATA.tips_pessoais) : vistaBot(DATA.bot);
+  app.innerHTML=html;
+  document.querySelectorAll('.seg').forEach(s=>s.onclick=()=>{CAT=s.dataset.cat;render();window.scrollTo({top:0,behavior:'smooth'});});
+}
+
+Promise.all([
+  fetch('dados.json?'+Date.now()).then(r=>r.json()).catch(()=>null),
+  fetch('historico.json?'+Date.now()).then(r=>r.json()).catch(()=>({}))
+]).then(function(res){
+  var d=res[0], h=res[1];
+  if(!d){document.getElementById('app').innerHTML=
+    '<div class="empty">Could not load <b>dados.json</b>.</div>';return;}
+  DATA=d;
+  DATA.bot=construirBot(h);
+  render();
+});
+</script>
+</body>
+</html>
