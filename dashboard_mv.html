@@ -318,15 +318,34 @@ function segs(painel){
     `<span class="seg ${k===STRAT?'on':''}" data-strat="${k}">${lbls[k]||k}</span>`).join('')}</div></div>`;
 }
 
-function tipDoDia(tips){
-  const head=`<div class="hd">🎟️ <b>Daily Acca</b> <span class="free">Over 1.5 · 2nd half · FREE</span></div>`;
-  if(!tips||!tips.length)
+function tipDoDia(c,hoje){
+  // REAL ticket of the day (d.combinada.ultimo), leg by leg: the slip fills in
+  // through the day as games finish (2-hourly refresh). If the latest slip is NOT
+  // from today we say so plainly — calling a two-day-old ticket "Daily" would mislead.
+  const b=c&&c.ultimo;
+  const deHoje=!!(b&&hoje&&b.data===hoje);
+  const head=`<div class="hd">🎟️ <b>Daily Acca</b> <span class="free">${
+    deHoje?'Over 1.5 · 2nd half · FREE':'latest slip'+(b&&b.data?' · '+b.data:'')}</span></div>`;
+  if(!b||!b.pernas||!b.pernas.length)
     return `<div class="card tipday">${head}<div style="color:var(--muted);padding:8px 0">
-      Today's acca (Over 1.5 · 2nd-half goals) shows up here every morning — updated daily. ⏳</div></div>`;
-  const rows=tips.map(t=>{const ic=t.resultado==='ganho'?'✅':t.resultado==='perdido'?'❌':'🟡';
-    return `<div class="tiprow"><div>${ic} <b>${t.jogo||''}</b> <span style="color:var(--muted)">· ${t.liga||''}${t.hora?' · '+t.hora:''}</span></div>
-      <div><span class="mk">${t.mercado||'Over 1.5 · 2nd half'}</span> ${t.odd?'@ <b class="gold">'+Number(t.odd).toFixed(2)+'</b>':''}</div></div>`;}).join('');
-  return `<div class="card tipday">${head}${rows}</div>`;
+      Today's acca shows up here as soon as it's out. Some days there's no slip: if the market
+      doesn't pay above fair odds, we don't post one. ⏳</div></div>`;
+  const aviso=deHoje?'':`<div style="color:var(--muted);padding:6px 0;font-size:13px">
+      No acca today yet — the market has to pay above fair odds. This is the latest slip.</div>`;
+  const rows=b.pernas.map(p=>{
+    const ic=p.resultado==='ganho'?'✅':p.resultado==='perdido'?'❌':'⏳';
+    const jogo=`${p.casa||''} vs ${p.fora||''}`;
+    return `<div class="tiprow"><div>${ic} <b>${jogo}</b> <span style="color:var(--muted)">${p.hora?'· '+p.hora:''}</span></div>
+      <div><span class="mk">Over 1.5 · 2nd half</span> ${p.odd?'@ <b class="gold">'+Number(p.odd).toFixed(2)+'</b>':''}</div></div>`;}).join('');
+  const porDecidir=(b.por_decidir!=null)?b.por_decidir:b.pernas.filter(p=>!p.resultado).length;
+  const estado = b.resultado==='green' ? '<b style="color:#5fd08a">GREEN ✅</b>'
+               : b.resultado==='red'   ? '<b style="color:#e07a7a">RED ❌</b>'
+               : (porDecidir?`<b class="gold">${porDecidir} to settle ⏳</b>`:'<b class="gold">settling…</b>');
+  const rodape=`<div class="tiprow" style="border-top:1px solid var(--gold2);margin-top:4px">
+      <div>${b.data||''} · Total odds <b class="gold">${Number(b.odd||1).toFixed(2)}×</b>
+      ${b.justa?`<span style="color:var(--muted)">· fair ${Number(b.justa).toFixed(2)}×</span>`:''}</div>
+      <div>${estado}</div></div>`;
+  return `<div class="card tipday">${head}${aviso}${rows}${rodape}</div>`;
 }
 function challengeBlock(c){ return '';
   if(!c) return '';
@@ -377,7 +396,7 @@ function render(){
      <div id="kpis">${kpisFor(g)}</div>
      ${formCard(p)}
      <div class="sec-t">🎟️ Daily Acca — free, every day</div>
-     ${tipDoDia(d.tip_do_dia)}
+     ${tipDoDia(d.combinada,(d.atualizado||'').slice(0,10))}
      ${periodsFor(p)}
      <div class="sec-t" id="banca">Bankroll evolution — ${nome}</div>
      <div id="chartbox">${chart(p.serie||[])}</div>
