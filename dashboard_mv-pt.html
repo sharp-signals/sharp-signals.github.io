@@ -318,15 +318,35 @@ function segs(painel){
     `<span class="seg ${k===STRAT?'on':''}" data-strat="${k}">${lbls[k]||k}</span>`).join('')}</div></div>`;
 }
 
-function tipDoDia(tips){
-  const head=`<div class="hd">🎟️ <b>Combinada do Dia</b> <span class="free">Over 1.5 · 2ª parte · GRÁTIS</span></div>`;
-  if(!tips||!tips.length)
+function tipDoDia(c,hoje){
+  // Bilhete REAL do dia (d.combinada.ultimo), com o estado perna a perna: o boletim
+  // vai-se preenchendo ao longo do dia à medida que os jogos acabam (refresh de 2h).
+  // Se o último boletim NÃO for de hoje, dizemos isso à cara — chamar "do Dia" a um
+  // bilhete de anteontem seria enganar. Há dias sem combinada, e isso faz parte.
+  const b=c&&c.ultimo;
+  const deHoje=!!(b&&hoje&&b.data===hoje);
+  const head=`<div class="hd">🎟️ <b>Combinada do Dia</b> <span class="free">${
+    deHoje?'Over 1.5 · 2ª parte · GRÁTIS':'último boletim'+(b&&b.data?' · '+b.data:'')}</span></div>`;
+  if(!b||!b.pernas||!b.pernas.length)
     return `<div class="card tipday">${head}<div style="color:var(--muted);padding:8px 0">
-      As tips de hoje (Ambas Marcam) aparecem aqui assim que saírem — atualizado todos os dias. ⏳</div></div>`;
-  const rows=tips.map(t=>{const ic=t.resultado==='ganho'?'✅':t.resultado==='perdido'?'❌':'🟡';
-    return `<div class="tiprow"><div>${ic} <b>${t.jogo||''}</b> <span style="color:var(--muted)">· ${t.liga||''}${t.hora?' · '+t.hora:''}</span></div>
-      <div><span class="mk">${t.mercado||'Ambas Marcam'}</span> ${t.odd?'@ <b class="gold">'+Number(t.odd).toFixed(2)+'</b>':''}</div></div>`;}).join('');
-  return `<div class="card tipday">${head}${rows}</div>`;
+      A combinada de hoje aparece aqui assim que sair. Há dias sem boletim: se o mercado
+      não pagar acima da odd justa, não há bilhete. ⏳</div></div>`;
+  const aviso=deHoje?'':`<div style="color:var(--muted);padding:6px 0;font-size:13px">
+      Hoje ainda não saiu combinada — o mercado tem de pagar acima da odd justa. Este é o último boletim.</div>`;
+  const rows=b.pernas.map(p=>{
+    const ic=p.resultado==='ganho'?'✅':p.resultado==='perdido'?'❌':'⏳';
+    const jogo=`${p.casa||''} vs ${p.fora||''}`;
+    return `<div class="tiprow"><div>${ic} <b>${jogo}</b> <span style="color:var(--muted)">${p.hora?'· '+p.hora:''}</span></div>
+      <div><span class="mk">Over 1.5 · 2ª parte</span> ${p.odd?'@ <b class="gold">'+Number(p.odd).toFixed(2)+'</b>':''}</div></div>`;}).join('');
+  const porDecidir=(b.por_decidir!=null)?b.por_decidir:b.pernas.filter(p=>!p.resultado).length;
+  const estado = b.resultado==='green' ? '<b style="color:#5fd08a">GREEN ✅</b>'
+               : b.resultado==='red'   ? '<b style="color:#e07a7a">RED ❌</b>'
+               : (porDecidir?`<b class="gold">${porDecidir} por decidir ⏳</b>`:'<b class="gold">a apurar…</b>');
+  const rodape=`<div class="tiprow" style="border-top:1px solid var(--gold2);margin-top:4px">
+      <div>${b.data||''} · Odd total <b class="gold">${Number(b.odd||1).toFixed(2)}×</b>
+      ${b.justa?`<span style="color:var(--muted)">· justa ${Number(b.justa).toFixed(2)}×</span>`:''}</div>
+      <div>${estado}</div></div>`;
+  return `<div class="card tipday">${head}${aviso}${rows}${rodape}</div>`;
 }
 function challengeBlock(c){ return '';
   if(!c) return '';
@@ -377,7 +397,7 @@ function render(){
      <div id="kpis">${kpisFor(g)}</div>
      ${formCard(p)}
      <div class="sec-t">🎟️ Combinada do Dia — grátis, todos os dias</div>
-     ${tipDoDia(d.tip_do_dia)}
+     ${tipDoDia(d.combinada,(d.atualizado||'').slice(0,10))}
      ${periodsFor(p)}
      <div class="sec-t" id="banca">Evolução da banca — ${nome}</div>
      <div id="chartbox">${chart(p.serie||[])}</div>
