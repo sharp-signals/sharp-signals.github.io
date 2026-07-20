@@ -3,7 +3,7 @@
   "nome": "Goal Sharp Elite",
   "tagline": "Pre-Live & Live Goal Intelligence"
  },
- "atualizado": "2026-07-20T06:02:19",
+ "atualizado": "2026-07-21T00:00:34",
  "geral": {
   "inicio": "2026-06-06",
   "fim": "2026-07-19",
@@ -62,8 +62,8 @@
   "desde": "2026-06-21"
  },
  "diario": {
-  "inicio": "2026-07-20",
-  "fim": "2026-07-20",
+  "inicio": "2026-07-21",
+  "fim": "2026-07-21",
   "sinais": 0,
   "ganhos": 0,
   "perdidos": 0,
@@ -76,7 +76,7 @@
  },
  "semanal": {
   "inicio": "2026-07-20",
-  "fim": "2026-07-20",
+  "fim": "2026-07-21",
   "sinais": 0,
   "ganhos": 0,
   "perdidos": 0,
@@ -89,7 +89,7 @@
  },
  "mensal": {
   "inicio": "2026-07-01",
-  "fim": "2026-07-20",
+  "fim": "2026-07-21",
   "sinais": 54,
   "ganhos": 38,
   "perdidos": 16,
@@ -609,8 +609,8 @@
     }
    },
    "diario": {
-    "inicio": "2026-07-20",
-    "fim": "2026-07-20",
+    "inicio": "2026-07-21",
+    "fim": "2026-07-21",
     "sinais": 0,
     "ganhos": 0,
     "perdidos": 0,
@@ -623,7 +623,7 @@
    },
    "semanal": {
     "inicio": "2026-07-20",
-    "fim": "2026-07-20",
+    "fim": "2026-07-21",
     "sinais": 0,
     "ganhos": 0,
     "perdidos": 0,
@@ -636,7 +636,7 @@
    },
    "mensal": {
     "inicio": "2026-07-01",
-    "fim": "2026-07-20",
+    "fim": "2026-07-21",
     "sinais": 54,
     "ganhos": 38,
     "perdidos": 16,
@@ -849,8 +849,8 @@
     }
    },
    "diario": {
-    "inicio": "2026-07-20",
-    "fim": "2026-07-20",
+    "inicio": "2026-07-21",
+    "fim": "2026-07-21",
     "sinais": 0,
     "ganhos": 0,
     "perdidos": 0,
@@ -863,7 +863,7 @@
    },
    "semanal": {
     "inicio": "2026-07-20",
-    "fim": "2026-07-20",
+    "fim": "2026-07-21",
     "sinais": 0,
     "ganhos": 0,
     "perdidos": 0,
@@ -876,7 +876,7 @@
    },
    "mensal": {
     "inicio": "2026-07-01",
-    "fim": "2026-07-20",
+    "fim": "2026-07-21",
     "sinais": 0,
     "ganhos": 0,
     "perdidos": 0,
@@ -954,8 +954,8 @@
     }
    },
    "diario": {
-    "inicio": "2026-07-20",
-    "fim": "2026-07-20",
+    "inicio": "2026-07-21",
+    "fim": "2026-07-21",
     "sinais": 0,
     "ganhos": 0,
     "perdidos": 0,
@@ -968,7 +968,7 @@
    },
    "semanal": {
     "inicio": "2026-07-20",
-    "fim": "2026-07-20",
+    "fim": "2026-07-21",
     "sinais": 0,
     "ganhos": 0,
     "perdidos": 0,
@@ -981,7 +981,7 @@
    },
    "mensal": {
     "inicio": "2026-07-01",
-    "fim": "2026-07-20",
+    "fim": "2026-07-21",
     "sinais": 5,
     "ganhos": 4,
     "perdidos": 1,
@@ -1097,8 +1097,8 @@
     }
    },
    "diario": {
-    "inicio": "2026-07-20",
-    "fim": "2026-07-20",
+    "inicio": "2026-07-21",
+    "fim": "2026-07-21",
     "sinais": 0,
     "ganhos": 0,
     "perdidos": 0,
@@ -1111,7 +1111,7 @@
    },
    "semanal": {
     "inicio": "2026-07-20",
-    "fim": "2026-07-20",
+    "fim": "2026-07-21",
     "sinais": 0,
     "ganhos": 0,
     "perdidos": 0,
@@ -1124,7 +1124,7 @@
    },
    "mensal": {
     "inicio": "2026-07-01",
-    "fim": "2026-07-20",
+    "fim": "2026-07-21",
     "sinais": 49,
     "ganhos": 34,
     "perdidos": 15,
@@ -1323,7 +1323,8 @@
      "fora": "Turku",
      "hora": "16:30",
      "odd": 1.91,
-     "odd_justa": 1.94
+     "odd_justa": 1.94,
+     "resultado": "perdido"
     },
     {
      "fixture_id": 1551048,
@@ -1332,12 +1333,14 @@
      "fora": "Varna",
      "hora": "17:30",
      "odd": 2.75,
-     "odd_justa": 2.8
+     "odd_justa": 2.8,
+     "resultado": "ganho"
     }
    ],
    "odd": 5.25,
    "justa": 5.43,
-   "resultado": "red"
+   "resultado": "red",
+   "por_decidir": 0
   }
  },
  "historico_sinais": [
