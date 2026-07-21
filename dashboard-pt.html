@@ -111,7 +111,7 @@ td.num,th.num{text-align:right;font-variant-numeric:tabular-nums}
 tr:hover td{background:rgba(201,162,39,.04)}
 .pill{display:inline-block;padding:2px 9px;border-radius:20px;font-size:11px;font-weight:600}
 .pill.g{background:rgba(46,204,113,.15);color:var(--green)}
-.pill.p{background:rgba(231,76,60,.15);color:var(--red)}
+.pill.p{background:rgba(231,76,60,.15);color:var(--red)}.pill.n{background:rgba(200,200,200,.15);color:#c9c9c9;border-color:rgba(200,200,200,.35)}
 .tbl-wrap{padding:6px 14px;max-height:520px;overflow-y:auto}
 
 .empty{text-align:center;padding:44px 20px;color:var(--muted);font-size:14px}
@@ -178,7 +178,7 @@ footer .logo{justify-content:center;margin-bottom:10px;font-size:13px}
   <div class="logo"><span class="mark">SS</span>Sharp Signals</div>
   <div>Elite Sports Intelligence · <span id="yr"></span></div>
   <div class="disc">Resultados passados não garantem resultados futuros.
-    O ZI Corner Pro é o sistema automático de sinais de cantos.
+    As Tips Pessoais resultam de análise manual; o ZI Corner Pro é o sistema automático de sinais.
     +18 · Investe com responsabilidade.</div>
 </div></footer>
 
@@ -188,7 +188,7 @@ footer .logo{justify-content:center;margin-bottom:10px;font-size:13px}
 </div>
 
 <script>
-let DATA=null, CAT='bot', PAG=1, PAGB=1;
+let DATA=null, CAT='tips', PAG=1, PAGB=1;
 
 // --- manter posicao/estado ao trocar de idioma ---
 (function(){
@@ -233,7 +233,7 @@ function vistaTips(d){
   <div class="grid kpis3">
     <div class="card kpi"><div class="lbl">Crescimento da banca</div>
       <div class="val ${cls(d.cresc_pct)}">${f1(d.cresc_pct)}%</div>
-      <div class="sub">Ago 25 → Jan 26 · 6 meses</div></div>
+      <div class="sub">${d.meses.length?d.meses[0].label+" → "+d.meses[d.meses.length-1].label:"—"} · ${d.meses.length} ${d.meses.length===1?"mês":"meses"}</div></div>
     <div class="card kpi"><div class="lbl">Taxa de acerto</div>
       <div class="val gold">${d.wr}%</div>
       <div class="sub">✅ ${d.ganhos} · ❌ ${d.perdidos}</div></div>
@@ -243,7 +243,7 @@ function vistaTips(d){
   </div>
   <div class="card formcard" style="margin-top:14px">
     <div><div class="fc-big">${emoji} <b>${s.n}</b> ${txt}</div>
-      <div class="fc-sub">Melhor mês <b class="pos">+39.3%</b> (Out 25) · 4 de 6 meses positivos</div></div>
+      <div class="fc-sub">${d.meses.length?`Melhor mês <b class="pos">${f1(Math.max(...d.meses.map(m=>m.cresc_pct)))}%</b> (${d.meses.reduce((a,b)=>b.cresc_pct>a.cresc_pct?b:a).label}) · ${d.meses.filter(m=>m.cresc_pct>0).length} de ${d.meses.length} meses positivos`:"Sem meses fechados"}</div></div>
     ${forma(d.forma)}
   </div>`;
 
@@ -276,7 +276,7 @@ function vistaTips(d){
   const hr=vis.map(s=>`<tr><td>${s.data.split('-').reverse().join('/')}</td>
     <td>${s.jogo}</td><td>${s.mercado}</td>
     <td class="num">${s.odd?s.odd.toFixed(2):'—'}</td>
-    <td class="num"><span class="pill ${s.resultado==='ganho'?'g':'p'}">${s.resultado==='ganho'?'GREEN':'RED'}</span></td></tr>`).join('');
+    <td class="num"><span class="pill ${s.resultado==='ganho'?'g':(s.resultado==='perdido'?'p':'n')}">${s.resultado==='ganho'?'GREEN':(s.resultado==='perdido'?'RED':'ANULADA')}</span></td></tr>`).join('');
   const nP=Math.ceil(d.historico.length/POR_PAG);
   h+=`<div class="sec-t" id="hist">Histórico &mdash; ${d.historico.length} entradas</div>
     <div class="card tbl-wrap"><table><thead><tr><th>Data</th><th>Jogo</th><th>Mercado</th><th class="num">Odd</th><th class="num">Resultado</th></tr></thead><tbody>${hr}</tbody></table></div>`
@@ -385,10 +385,7 @@ function render(){
   const app=document.getElementById('app');
   if(!DATA){app.innerHTML='<div class="empty">Sem dados.</div>';return;}
   document.getElementById('upd').textContent='Atualizado a '+DATA.atualizado;
-  // Tips Pessoais retiradas do público a pedido do dono (2026-07-21): fica só o
-  // registo do sistema automático. `vistaTips` não é chamada; se voltar a ser
-  // preciso, repor a entrada ['tips','Tips Pessoais'] aqui e CAT='tips' acima.
-  const cats=[['bot','ZI Corner Pro']];
+  const cats=[['tips','Tips Pessoais'],['bot','ZI Corner Pro']];
   const segs=cats.map(c=>`<span class="seg ${c[0]===CAT?'on':''}" data-cat="${c[0]}">${c[1]}</span>`).join('');
   let html=`<div class="segwrap"><div class="segbar">${segs}</div></div>`;
   html+= CAT==='tips' ? vistaTips(DATA.tips_pessoais) : vistaBot(DATA.bot);
@@ -407,7 +404,7 @@ Promise.all([
   DATA.bot=construirBot(h);
   if(window.__estado){
     var _e = window.__estado; window.__estado = null;
-    if(_e.c === 'bot') CAT = _e.c;   // links/estado antigos com c=tips não reabrem as Tips
+    if(_e.c) CAT = _e.c;
     if(_e.p) PAG = parseInt(_e.p) || 1;
     if(_e.pb) PAGB = parseInt(_e.pb) || 1;
     render();
