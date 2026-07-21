@@ -178,7 +178,7 @@ footer .logo{justify-content:center;margin-bottom:10px;font-size:13px}
   <div class="logo"><span class="mark">SS</span>Sharp Signals</div>
   <div>Elite Sports Intelligence · <span id="yr"></span></div>
   <div class="disc">Past results do not guarantee future results.
-    Personal Tips come from manual analysis; ZI Corner Pro is the automated signal system.
+    ZI Corner Pro is the automated corner-signal system.
     +18 · Bet responsibly.</div>
 </div></footer>
 
@@ -188,7 +188,7 @@ footer .logo{justify-content:center;margin-bottom:10px;font-size:13px}
 </div>
 
 <script>
-let DATA=null, CAT='tips', PAG=1, PAGB=1;
+let DATA=null, CAT='bot', PAG=1, PAGB=1;
 
 // --- manter posicao/estado ao trocar de idioma ---
 (function(){
@@ -385,7 +385,10 @@ function render(){
   const app=document.getElementById('app');
   if(!DATA){app.innerHTML='<div class="empty">No data.</div>';return;}
   document.getElementById('upd').textContent='Updated: '+DATA.atualizado;
-  const cats=[['tips','Personal Tips'],['bot','ZI Corner Pro']];
+  // Personal Tips pulled from the public page at the owner's request (2026-07-21):
+  // only the automated system's record stays. `vistaTips` is no longer called; to
+  // bring it back, restore ['tips','Personal Tips'] here and CAT='tips' above.
+  const cats=[['bot','ZI Corner Pro']];
   const segs=cats.map(c=>`<span class="seg ${c[0]===CAT?'on':''}" data-cat="${c[0]}">${c[1]}</span>`).join('');
   let html=`<div class="segwrap"><div class="segbar">${segs}</div></div>`;
   html+= CAT==='tips' ? vistaTips(DATA.tips_pessoais) : vistaBot(DATA.bot);
@@ -404,7 +407,7 @@ Promise.all([
   DATA.bot=construirBot(h);
   if(window.__estado){
     var _e = window.__estado; window.__estado = null;
-    if(_e.c) CAT = _e.c;
+    if(_e.c === 'bot') CAT = _e.c;   // old links/state with c=tips must not reopen Tips
     if(_e.p) PAG = parseInt(_e.p) || 1;
     if(_e.pb) PAGB = parseInt(_e.pb) || 1;
     render();
