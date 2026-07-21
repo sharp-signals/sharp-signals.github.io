@@ -154,6 +154,17 @@ table{width:100%;border-collapse:collapse;font-size:13px}
 th{color:var(--muted);text-transform:uppercase;font-size:11px;letter-spacing:1px;text-align:left;
   padding:10px 8px;border-bottom:1px solid var(--line)}
 td{padding:9px 8px;border-bottom:1px solid #16223c}
+/* Histórico: são 7 colunas e num telemóvel de 375px a tabela mede ~574px. Como o .card tem
+   overflow:hidden, Jogo/Mercado/Odd/Resultado ficavam cortados SEM maneira de lá chegar.
+   Passa a arrastar-se na horizontal — é o que a página dos cantos já fazia bem. */
+.tbl{overflow-x:auto;-webkit-overflow-scrolling:touch}
+.tblhint{display:none}
+@media(max-width:620px){
+  .tbl table{font-size:12px}
+  .tbl th{padding:9px 5px}
+  .tbl td{padding:8px 5px}
+  .tblhint{display:block;color:var(--muted);font-size:11.5px;margin:0 4px 7px;letter-spacing:.3px}
+}
 tr:hover td{background:#0d1830}
 .badge{padding:2px 9px;border-radius:20px;font-size:11px;font-weight:700}
 .b-g{background:rgba(46,204,113,.15);color:var(--green)}
@@ -375,7 +386,8 @@ function hist(rows){
   const tr=rows.slice().sort((a,b)=>(b.data+(b.hora||'')).localeCompare(a.data+(a.hora||''))).slice(0,40).map(s=>`<tr><td>${s.data}</td><td>${s.estrategia}</td>
     <td style="color:var(--muted)">${s.liga||''}</td><td>${s.jogo||''}</td><td>${s.mercado||''}</td>
     <td class="gold">${s.odd?Number(s.odd).toFixed(2):'—'}</td><td>${bd(s.resultado)}</td></tr>`).join('');
-  return `<div class="card" style="padding:6px 10px"><table>
+  return `<div class="tblhint">→ arrasta a tabela para o lado para veres a odd e o resultado</div>
+    <div class="card tbl" style="padding:6px 10px"><table>
     <tr><th>Data</th><th>Estratégia</th><th>Liga</th><th>Jogo</th><th>Mercado</th><th>Odd</th><th>Resultado</th></tr>
     ${tr}</table></div>`;
 }
