@@ -178,7 +178,7 @@ footer .logo{justify-content:center;margin-bottom:10px;font-size:13px}
   <div class="logo"><span class="mark">SS</span>Sharp Signals</div>
   <div>Elite Sports Intelligence · <span id="yr"></span></div>
   <div class="disc">Resultados passados não garantem resultados futuros.
-    As Tips Pessoais resultam de análise manual; o ZI Corner Pro é o sistema automático de sinais.
+    O ZI Corner Pro é o sistema automático de sinais de cantos.
     +18 · Investe com responsabilidade.</div>
 </div></footer>
 
@@ -188,7 +188,7 @@ footer .logo{justify-content:center;margin-bottom:10px;font-size:13px}
 </div>
 
 <script>
-let DATA=null, CAT='tips', PAG=1, PAGB=1;
+let DATA=null, CAT='bot', PAG=1, PAGB=1;
 
 // --- manter posicao/estado ao trocar de idioma ---
 (function(){
@@ -385,7 +385,10 @@ function render(){
   const app=document.getElementById('app');
   if(!DATA){app.innerHTML='<div class="empty">Sem dados.</div>';return;}
   document.getElementById('upd').textContent='Atualizado a '+DATA.atualizado;
-  const cats=[['tips','Tips Pessoais'],['bot','ZI Corner Pro']];
+  // Tips Pessoais retiradas do público a pedido do dono (2026-07-21): fica só o
+  // registo do sistema automático. `vistaTips` não é chamada; se voltar a ser
+  // preciso, repor a entrada ['tips','Tips Pessoais'] aqui e CAT='tips' acima.
+  const cats=[['bot','ZI Corner Pro']];
   const segs=cats.map(c=>`<span class="seg ${c[0]===CAT?'on':''}" data-cat="${c[0]}">${c[1]}</span>`).join('');
   let html=`<div class="segwrap"><div class="segbar">${segs}</div></div>`;
   html+= CAT==='tips' ? vistaTips(DATA.tips_pessoais) : vistaBot(DATA.bot);
@@ -404,7 +407,7 @@ Promise.all([
   DATA.bot=construirBot(h);
   if(window.__estado){
     var _e = window.__estado; window.__estado = null;
-    if(_e.c) CAT = _e.c;
+    if(_e.c === 'bot') CAT = _e.c;   // links/estado antigos com c=tips não reabrem as Tips
     if(_e.p) PAG = parseInt(_e.p) || 1;
     if(_e.pb) PAGB = parseInt(_e.pb) || 1;
     render();
