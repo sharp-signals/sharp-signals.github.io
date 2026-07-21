@@ -215,8 +215,8 @@ document.getElementById('yr').textContent=new Date().getFullYear();
 
 function forma(arr){
   const d=(arr||[]).map(r=>`<span class="dot ${r==='ganho'?'g':r==='perdido'?'p':'x'}"></span>`).join('')
-    || '<span style="color:var(--muted);font-size:12px">sem histórico</span>';
-  return `<div class="forma"><span class="lb">Form · últimos ${(arr||[]).length}</span>${d}</div>`;
+    || '<span style="color:var(--muted);font-size:12px">no history yet</span>';
+  return `<div class="forma"><span class="lb">Form · last ${(arr||[]).length}</span>${d}</div>`;
 }
 function streak(arr){
   if(!arr||!arr.length) return {n:0,tipo:''};
@@ -286,7 +286,7 @@ function vistaTips(d){
 }
 
 function vistaBot(d){
-  if(!d) return `<div class="card empty"><div class="big">Ainda sem histórico</div>
+  if(!d) return `<div class="card empty"><div class="big">No history yet</div>
     ZI Corner Pro signals are starting to be logged now.<br>
     This section will fill in as soon as results are settled.</div>`;
   const s=streak(d.forma);
@@ -300,7 +300,7 @@ function vistaBot(d){
     <div class="card kpi"><div class="lbl">Signals</div>
       <div class="val">${d.apostas}</div>
       <div class="sub">sent and settled</div></div>
-    <div class="card kpi"><div class="lbl">Período</div>
+    <div class="card kpi"><div class="lbl">Period</div>
       <div class="val" style="font-size:22px">${d.periodo.inicio.slice(5).split('-').reverse().join('/')}</div>
       <div class="sub">since launch</div></div>
   </div>
@@ -352,7 +352,7 @@ function construirBot(H){
     .sort(function(a,b){return b.n-a.n;});
   return {nome:'ZI Corner Pro',
     periodo:{inicio:bs[0].data, fim:bs[bs.length-1].data},
-    bets:bs.length, ganhos:g, perdidos:p,
+    apostas:bs.length, ganhos:g, perdidos:p,
     wr:(g+p)?Math.round(1000*g/(g+p))/10:0,
     por_janela:pj,
     forma:apur.slice(-15).map(function(s){return s.resultado;}),
