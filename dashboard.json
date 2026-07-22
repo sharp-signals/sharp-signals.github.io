@@ -3,7 +3,7 @@
   "nome": "Goal Sharp Elite",
   "tagline": "Pre-Live & Live Goal Intelligence"
  },
- "atualizado": "2026-07-22T01:23:54",
+ "atualizado": "2026-07-22T06:01:31",
  "geral": {
   "inicio": "2026-06-06",
   "fim": "2026-07-21",
@@ -62,29 +62,21 @@
   "desde": "2026-06-21"
  },
  "diario": {
-  "inicio": "2026-07-21",
-  "fim": "2026-07-21",
-  "sinais": 4,
-  "ganhos": 2,
-  "perdidos": 2,
+  "inicio": "2026-07-22",
+  "fim": "2026-07-22",
+  "sinais": 0,
+  "ganhos": 0,
+  "perdidos": 0,
   "push": 0,
   "pendentes": 0,
-  "wr": 50.0,
-  "lucro_u": -0.3,
-  "roi": -7.5,
-  "por_estrategia": {
-   "Sharp Pick": {
-    "n": 4,
-    "g": 2,
-    "p": 2,
-    "lucro": -0.3,
-    "wr": 50.0
-   }
-  }
+  "wr": 0.0,
+  "lucro_u": 0.0,
+  "roi": 0.0,
+  "por_estrategia": {}
  },
  "semanal": {
   "inicio": "2026-07-20",
-  "fim": "2026-07-21",
+  "fim": "2026-07-22",
   "sinais": 4,
   "ganhos": 2,
   "perdidos": 2,
@@ -105,7 +97,7 @@
  },
  "mensal": {
   "inicio": "2026-07-01",
-  "fim": "2026-07-21",
+  "fim": "2026-07-22",
   "sinais": 58,
   "ganhos": 40,
   "perdidos": 18,
@@ -643,29 +635,21 @@
     }
    },
    "diario": {
-    "inicio": "2026-07-21",
-    "fim": "2026-07-21",
-    "sinais": 4,
-    "ganhos": 2,
-    "perdidos": 2,
+    "inicio": "2026-07-22",
+    "fim": "2026-07-22",
+    "sinais": 0,
+    "ganhos": 0,
+    "perdidos": 0,
     "push": 0,
     "pendentes": 0,
-    "wr": 50.0,
-    "lucro_u": -0.3,
-    "roi": -7.5,
-    "por_estrategia": {
-     "Sharp Pick": {
-      "n": 4,
-      "g": 2,
-      "p": 2,
-      "lucro": -0.3,
-      "wr": 50.0
-     }
-    }
+    "wr": 0.0,
+    "lucro_u": 0.0,
+    "roi": 0.0,
+    "por_estrategia": {}
    },
    "semanal": {
     "inicio": "2026-07-20",
-    "fim": "2026-07-21",
+    "fim": "2026-07-22",
     "sinais": 4,
     "ganhos": 2,
     "perdidos": 2,
@@ -686,7 +670,7 @@
    },
    "mensal": {
     "inicio": "2026-07-01",
-    "fim": "2026-07-21",
+    "fim": "2026-07-22",
     "sinais": 58,
     "ganhos": 40,
     "perdidos": 18,
@@ -905,8 +889,8 @@
     }
    },
    "diario": {
-    "inicio": "2026-07-21",
-    "fim": "2026-07-21",
+    "inicio": "2026-07-22",
+    "fim": "2026-07-22",
     "sinais": 0,
     "ganhos": 0,
     "perdidos": 0,
@@ -919,7 +903,7 @@
    },
    "semanal": {
     "inicio": "2026-07-20",
-    "fim": "2026-07-21",
+    "fim": "2026-07-22",
     "sinais": 0,
     "ganhos": 0,
     "perdidos": 0,
@@ -932,7 +916,7 @@
    },
    "mensal": {
     "inicio": "2026-07-01",
-    "fim": "2026-07-21",
+    "fim": "2026-07-22",
     "sinais": 0,
     "ganhos": 0,
     "perdidos": 0,
@@ -1010,8 +994,8 @@
     }
    },
    "diario": {
-    "inicio": "2026-07-21",
-    "fim": "2026-07-21",
+    "inicio": "2026-07-22",
+    "fim": "2026-07-22",
     "sinais": 0,
     "ganhos": 0,
     "perdidos": 0,
@@ -1024,7 +1008,7 @@
    },
    "semanal": {
     "inicio": "2026-07-20",
-    "fim": "2026-07-21",
+    "fim": "2026-07-22",
     "sinais": 0,
     "ganhos": 0,
     "perdidos": 0,
@@ -1037,7 +1021,7 @@
    },
    "mensal": {
     "inicio": "2026-07-01",
-    "fim": "2026-07-21",
+    "fim": "2026-07-22",
     "sinais": 5,
     "ganhos": 4,
     "perdidos": 1,
@@ -1153,29 +1137,21 @@
     }
    },
    "diario": {
-    "inicio": "2026-07-21",
-    "fim": "2026-07-21",
-    "sinais": 4,
-    "ganhos": 2,
-    "perdidos": 2,
+    "inicio": "2026-07-22",
+    "fim": "2026-07-22",
+    "sinais": 0,
+    "ganhos": 0,
+    "perdidos": 0,
     "push": 0,
     "pendentes": 0,
-    "wr": 50.0,
-    "lucro_u": -0.3,
-    "roi": -7.5,
-    "por_estrategia": {
-     "Sharp Pick": {
-      "n": 4,
-      "g": 2,
-      "p": 2,
-      "lucro": -0.3,
-      "wr": 50.0
-     }
-    }
+    "wr": 0.0,
+    "lucro_u": 0.0,
+    "roi": 0.0,
+    "por_estrategia": {}
    },
    "semanal": {
     "inicio": "2026-07-20",
-    "fim": "2026-07-21",
+    "fim": "2026-07-22",
     "sinais": 4,
     "ganhos": 2,
     "perdidos": 2,
@@ -1196,7 +1172,7 @@
    },
    "mensal": {
     "inicio": "2026-07-01",
-    "fim": "2026-07-21",
+    "fim": "2026-07-22",
     "sinais": 53,
     "ganhos": 36,
     "perdidos": 17,
