@@ -126,6 +126,49 @@
   ],
   "historico": [
    {
+    "data": "2026-07-21",
+    "mes": "2026-07",
+    "jogo": "Potosi x Oruro",
+    "mercado": "⛳ Over 2 corners · 1st half",
+    "odd": null,
+    "pl_pct": 0.0,
+    "resultado": "void",
+    "confianca": 8
+   },
+   {
+    "data": "2026-07-21",
+    "mes": "2026-07",
+    "jogo": "Wuhan x Shandong",
+    "mercado": "⛳ Over 11 corners · FT",
+    "odd": null,
+    "pl_pct": null,
+    "stake_pct": 1.0,
+    "resultado": "pendente",
+    "confianca": 8
+   },
+   {
+    "data": "2026-07-21",
+    "mes": "2026-07",
+    "jogo": "Wuhan x Shandong",
+    "mercado": "⛳ Over 14 corners · FT",
+    "odd": null,
+    "pl_pct": 0.0,
+    "stake_pct": 1.0,
+    "resultado": "void",
+    "confianca": 8
+   },
+   {
+    "data": "2026-07-22",
+    "mes": "2026-07",
+    "jogo": "Lanus F x San Lorenzo F",
+    "mercado": "⛳ Over 9 corners · FT",
+    "odd": null,
+    "pl_pct": 0.0,
+    "stake_pct": 0.75,
+    "resultado": "void",
+    "confianca": 7
+   },
+   {
     "data": "2026-12-01",
     "mes": "2026-01",
     "jogo": "Petah Tikva x Ramat Gan",
@@ -8908,49 +8951,6 @@
     "odd": 1.88,
     "pl_pct": 0.632,
     "resultado": "ganho"
-   },
-   {
-    "data": "2026-07-21",
-    "mes": "2026-07",
-    "jogo": "Potosi x Oruro",
-    "mercado": "⛳ Over 2 corners · 1st half",
-    "odd": null,
-    "pl_pct": 0.0,
-    "resultado": "void",
-    "confianca": 8
-   },
-   {
-    "data": "2026-07-21",
-    "mes": "2026-07",
-    "jogo": "Wuhan x Shandong",
-    "mercado": "⛳ Over 11 corners · FT",
-    "odd": null,
-    "pl_pct": null,
-    "stake_pct": 1.0,
-    "resultado": "pendente",
-    "confianca": 8
-   },
-   {
-    "data": "2026-07-21",
-    "mes": "2026-07",
-    "jogo": "Wuhan x Shandong",
-    "mercado": "⛳ Over 14 corners · FT",
-    "odd": null,
-    "pl_pct": 0.0,
-    "stake_pct": 1.0,
-    "resultado": "void",
-    "confianca": 8
-   },
-   {
-    "data": "2026-07-22",
-    "mes": "2026-07",
-    "jogo": "Lanus F x San Lorenzo F",
-    "mercado": "⛳ Over 9 corners · FT",
-    "odd": null,
-    "pl_pct": 0.0,
-    "stake_pct": 0.75,
-    "resultado": "void",
-    "confianca": 7
    }
   ],
   "nota_cashout": {
