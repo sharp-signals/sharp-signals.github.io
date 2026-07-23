@@ -63,6 +63,21 @@
       "resultado": "WIN",
       "golos_apos_casa": 0,
       "golos_apos_fora": 0
+    },
+    {
+      "timestamp": "2026-07-23T20:18:01.189211",
+      "jogo": "FC Lugano vs Dukagjini",
+      "liga": "UEFA Europa Conference League",
+      "janela": "HT ATTACK",
+      "tempo_alerta": 27,
+      "estrelas": 8.0,
+      "cantos_no_ref": 3,
+      "cantos_final": 4,
+      "cantos_apos_alerta": 1,
+      "meta_cantos": 2,
+      "resultado": "LOSS",
+      "golos_apos_casa": 1,
+      "golos_apos_fora": 0
     }
   ]
 }
