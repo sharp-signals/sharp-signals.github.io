@@ -47,5 +47,22 @@
       "golos_apos_casa": 0,
       "golos_apos_fora": 1
     }
+  ],
+  "2026-07-23": [
+    {
+      "timestamp": "2026-07-23T03:48:06.905974",
+      "jogo": "Sporting Kansas City vs Minnesota United FC",
+      "liga": "Major League Soccer",
+      "janela": "FINAL PUSH",
+      "tempo_alerta": 77,
+      "estrelas": 8.0,
+      "cantos_no_ref": 4,
+      "cantos_final": 8,
+      "cantos_apos_alerta": 4,
+      "meta_cantos": 2,
+      "resultado": "WIN",
+      "golos_apos_casa": 0,
+      "golos_apos_fora": 0
+    }
   ]
 }
