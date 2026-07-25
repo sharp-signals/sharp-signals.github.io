@@ -276,7 +276,7 @@ function vistaTips(d){
   const hr=vis.map(s=>`<tr><td>${s.data.split('-').reverse().join('/')}</td>
     <td>${s.jogo}</td><td>${s.mercado}${s.categoria?`<br><span style="opacity:.6;font-size:.85em">${s.categoria}</span>`:''}</td>
     <td class="num">${s.odd?s.odd.toFixed(2):'—'}</td>
-    <td class="num"><span class="pill ${s.resultado==='ganho'?'g':(s.resultado==='perdido'?'p':'n')}">${s.resultado==='ganho'?'GREEN':(s.resultado==='perdido'?'RED':'ANULADA')}</span></td></tr>`).join('');
+    <td class="num"><span class="pill ${s.resultado==='ganho'?'g':((s.resultado==='perdido'||s.resultado==='perda')?'p':'n')}">${s.resultado==='ganho'?'GREEN':((s.resultado==='perdido'||s.resultado==='perda')?'RED':'ANULADA')}</span></td></tr>`).join('');
   const nP=Math.ceil(d.historico.length/POR_PAG);
   h+=`<div class="sec-t" id="hist">Histórico &mdash; ${d.historico.length} entradas</div>
     <div class="card tbl-wrap"><table><thead><tr><th>Data</th><th>Jogo</th><th>Mercado</th><th class="num">Odd</th><th class="num">Resultado</th></tr></thead><tbody>${hr}</tbody></table></div>`
