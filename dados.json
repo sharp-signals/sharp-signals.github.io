@@ -8,10 +8,10 @@
    "fim": "2026-01-31"
   },
   "cresc_pct": 56.91,
-  "apostas": 980,
-  "ganhos": 557,
+  "apostas": 981,
+  "ganhos": 558,
   "perdidos": 423,
-  "wr": 56.8,
+  "wr": 56.9,
   "meses": [
    {
     "mes": "2025-08",
@@ -59,15 +59,15 @@
     "mes": "2026-07",
     "label": "Jul 26",
     "cresc_pct": 0.51,
-    "apostas": 4,
-    "wr": 50.0
+    "apostas": 5,
+    "wr": 60.0
    }
   ],
   "por_mercado": [
    {
     "mercado": "Over Cantos FT",
-    "n": 524,
-    "wr": 58.0,
+    "n": 525,
+    "wr": 58.1,
     "roi": 26.17,
     "pl_eur": 1369.94
    },
@@ -141,7 +141,7 @@
     "odd": null,
     "pl_pct": null,
     "stake_pct": 0.75,
-    "resultado": "pendente",
+    "resultado": "ganho",
     "confianca": 7
    },
    {
