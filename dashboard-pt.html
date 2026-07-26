@@ -91,10 +91,30 @@ header.top{text-align:center;padding:34px 0 8px}
 .meses{grid-template-columns:repeat(6,1fr)}
 @media(max-width:900px){.meses{grid-template-columns:repeat(3,1fr)}}
 @media(max-width:520px){.meses{grid-template-columns:repeat(2,1fr)}}
-.mes{text-align:center;padding:14px 8px}
-.mes .ml{font-size:11px;letter-spacing:1.5px;text-transform:uppercase;color:var(--muted)}
-.mes .mv{font-size:20px;font-weight:700;font-family:'Cinzel',serif;margin:6px 0 3px}
-.mes .ms{font-size:11px;color:var(--muted)}
+.mes{text-align:center;padding:8px 4px}
+.mes .ml{font-size:9px;letter-spacing:1px;text-transform:uppercase;color:var(--muted)}
+.mes .mv{font-size:15px;font-weight:700;font-family:'Cinzel',serif;margin:3px 0 1px}
+.mes .ms{font-size:9.5px;color:var(--muted)}
+
+.hbars{display:flex;flex-direction:column;gap:14px}
+.hbar-row{display:flex;flex-direction:column;gap:5px}
+.hbar-top{display:flex;justify-content:space-between;align-items:baseline;font-size:13px}
+.hbar-top .hb-label{color:var(--txt);font-weight:600}
+.hbar-top .hb-stats{color:var(--muted);font-size:12px}
+.hbar-track{width:100%;height:10px;border-radius:6px;background:rgba(255,255,255,.06);overflow:hidden}
+.hbar-fill{height:100%;border-radius:6px;background:linear-gradient(90deg,var(--gold2),var(--gold3))}
+.hbar-fill.bad{background:linear-gradient(90deg,#7a3030,var(--red))}
+
+.simcard{border-color:rgba(201,162,39,.45)}
+.sim-row{display:flex;gap:16px;flex-wrap:wrap;margin-top:10px}
+.sim-field{flex:1;min-width:140px}
+.sim-field label{font-size:11px;letter-spacing:1.5px;text-transform:uppercase;color:var(--muted);display:block;margin-bottom:6px}
+.sim-field input{width:100%;background:rgba(255,255,255,.05);border:1px solid var(--line);border-radius:8px;
+  color:var(--txt);padding:10px 12px;font-size:15px;font-family:inherit}
+.sim-out{display:flex;gap:20px;flex-wrap:wrap;margin-top:16px;padding-top:16px;border-top:1px solid var(--line)}
+.sim-out .so-item{flex:1;min-width:120px;text-align:center}
+.sim-out .so-l{font-size:10.5px;letter-spacing:1.5px;text-transform:uppercase;color:var(--muted)}
+.sim-out .so-v{font-size:24px;font-weight:700;font-family:'Cinzel',serif;margin-top:4px}
 
 .bars{display:flex;align-items:flex-end;gap:10px;height:190px;padding:14px 4px 0}
 .bar{flex:1;display:flex;flex-direction:column;justify-content:flex-end;align-items:center;gap:6px;height:100%}
@@ -225,6 +245,24 @@ function streak(arr){
   return {n:n,tipo:last};
 }
 
+function calcularSimulador(){
+  const bEl=document.getElementById('sim-bankroll'), sEl=document.getElementById('sim-stake');
+  const gEl=document.getElementById('sim-out-growth'), fEl=document.getElementById('sim-out-final'), pEl=document.getElementById('sim-out-profit');
+  if(!bEl||!sEl||!DATA) return;
+  const bankroll=parseFloat(bEl.value)||0, stake=parseFloat(sEl.value)||0;
+  const hist=(DATA.tips_pessoais.historico||[]).filter(x=>x.resultado==='ganho'||x.resultado==='perdido');
+  let somaPct=0;
+  hist.forEach(x=>{
+    if(x.resultado==='ganho'){ somaPct += stake*((x.odd||1.84)-1); }
+    else { somaPct -= stake; }
+  });
+  const bankrollFinal=bankroll*(1+somaPct/100), lucro=bankrollFinal-bankroll;
+  gEl.textContent=(somaPct>=0?'+':'')+somaPct.toFixed(1)+'%'; gEl.className='so-v '+cls(somaPct);
+  fEl.textContent='€'+bankrollFinal.toLocaleString(undefined,{minimumFractionDigits:2,maximumFractionDigits:2});
+  pEl.textContent=(lucro>=0?'+€':'-€')+Math.abs(lucro).toLocaleString(undefined,{minimumFractionDigits:2,maximumFractionDigits:2});
+  pEl.className='so-v '+cls(lucro);
+}
+
 function vistaTips(d){
   const s=streak(d.forma);
   const emoji=s.tipo==='ganho'?'🔥':'❄️';
@@ -245,6 +283,22 @@ function vistaTips(d){
     <div><div class="fc-big">${emoji} <b>${s.n}</b> ${txt}</div>
       <div class="fc-sub">${d.meses.length?`Melhor mês <b class="pos">${f1(Math.max(...d.meses.map(m=>m.cresc_pct)))}%</b> (${d.meses.reduce((a,b)=>b.cresc_pct>a.cresc_pct?b:a).label}) · ${d.meses.filter(m=>m.cresc_pct>0).length} de ${d.meses.length} meses positivos`:"Sem meses fechados"}</div></div>
     ${forma(d.forma)}
+  </div>
+
+  <div class="sec-t">Simulador de Stake e Banca</div>
+  <div class="card simcard">
+    <div class="fc-sub">Aplica uma stake % fixa a todas as apostas resolvidas do histórico (${d.apostas} apostas). Onde não há odd registada, usa a média histórica (1.84).</div>
+    <div class="sim-row">
+      <div class="sim-field"><label>Banca inicial (€)</label>
+        <input type="number" id="sim-bankroll" value="1000" min="0" step="50" oninput="calcularSimulador()"></div>
+      <div class="sim-field"><label>Stake por aposta (%)</label>
+        <input type="number" id="sim-stake" value="1" min="0" max="10" step="0.25" oninput="calcularSimulador()"></div>
+    </div>
+    <div class="sim-out">
+      <div class="so-item"><div class="so-l">Crescimento</div><div class="so-v" id="sim-out-growth">—</div></div>
+      <div class="so-item"><div class="so-l">Banca final</div><div class="so-v gold" id="sim-out-final">—</div></div>
+      <div class="so-item"><div class="so-l">Lucro / Prejuízo</div><div class="so-v" id="sim-out-profit">—</div></div>
+    </div>
   </div>`;
 
   const max=Math.max(...d.meses.map(m=>Math.abs(m.cresc_pct)),1);
@@ -265,7 +319,15 @@ function vistaTips(d){
     <td class="num">${m.n}</td>
     <td class="num ${cls(m.pl_eur)}">${eur(m.pl_eur)}</td>
     <td class="num ${cls(m.roi)}">${f1(m.roi)}%</td></tr>`).join('');
-  h+=`<div class="sec-t">Forma de trabalho</div><div class="card tbl-wrap">
+  const barsMkt=d.por_mercado.slice().sort((a,b)=>b.wr-a.wr).map(m=>`
+    <div class="hbar-row">
+      <div class="hbar-top"><span class="hb-label">${m.mercado}</span>
+        <span class="hb-stats">${m.n} apostas · ${m.wr}% WR · <span class="${cls(m.roi)}">${f1(m.roi)}%</span></span></div>
+      <div class="hbar-track"><div class="hbar-fill ${m.wr<50?'bad':''}" style="width:${m.wr}%"></div></div>
+    </div>`).join('');
+  h+=`<div class="sec-t">Forma de trabalho</div>
+    <div class="card"><div class="hbars">${barsMkt}</div></div>
+    <div class="card tbl-wrap" style="margin-top:14px">
     <table><thead><tr><th>Forma de trabalho</th><th class="num">Mercados</th>
     <th class="num">Profit/Loss</th><th class="num">P/L %</th></tr></thead><tbody>${rows}</tbody></table></div>
     <div class="pgnote" style="margin-top:8px;line-height:1.5">
@@ -315,7 +377,15 @@ function vistaBot(d){
 
   const rows=d.por_janela.map(j=>`<tr><td>${j.janela}</td>
     <td class="num">${j.n}</td><td class="num">${j.wr}%</td></tr>`).join('');
-  h+=`<div class="sec-t" id="detalhe">Por janela</div><div class="card tbl-wrap">
+  const barsJan=d.por_janela.slice().sort((a,b)=>b.wr-a.wr).map(j=>`
+    <div class="hbar-row">
+      <div class="hbar-top"><span class="hb-label">${j.janela}</span>
+        <span class="hb-stats">${j.n} sinais · ${j.wr}% WR</span></div>
+      <div class="hbar-track"><div class="hbar-fill ${j.wr<50?'bad':''}" style="width:${j.wr}%"></div></div>
+    </div>`).join('');
+  h+=`<div class="sec-t" id="detalhe">Por janela</div>
+    <div class="card"><div class="hbars">${barsJan}</div></div>
+    <div class="card tbl-wrap" style="margin-top:14px">
     <table><thead><tr><th>Janela</th><th class="num">Sinais</th>
     <th class="num">Win Rate</th></tr></thead><tbody>${rows}</tbody></table></div>`;
 
@@ -394,6 +464,7 @@ function render(){
   html+= CAT==='tips' ? vistaTips(DATA.tips_pessoais) : vistaBot(DATA.bot);
   app.innerHTML=html;
   document.querySelectorAll('.seg').forEach(s=>s.onclick=()=>{CAT=s.dataset.cat;PAG=1;PAGB=1;render();window.scrollTo({top:0,behavior:'smooth'});});
+  if(CAT==='tips') calcularSimulador();
 }
 
 Promise.all([
