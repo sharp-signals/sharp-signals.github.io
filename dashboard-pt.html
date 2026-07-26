@@ -307,16 +307,25 @@ function vistaTips(d){
     </div>
   </div>`;
 
-  const max=Math.max(...d.meses.map(m=>Math.abs(m.cresc_pct)),1);
+  const maxPos=Math.max(...d.meses.map(m=>Math.max(m.cresc_pct,0)),0);
+  const maxNeg=Math.max(...d.meses.map(m=>Math.max(-m.cresc_pct,0)),0);
+  const totRange=(maxPos+maxNeg)||1;
+  const MINF=0.16;
+  let posFlex=maxPos/totRange, negFlex=maxNeg/totRange;
+  if(maxNeg<=0){posFlex=1;negFlex=0.001;}
+  else if(maxPos<=0){negFlex=1;posFlex=0.001;}
+  else if(negFlex<MINF){negFlex=MINF;posFlex=1-MINF;}
+  else if(posFlex<MINF){posFlex=MINF;negFlex=1-MINF;}
   const bars=d.meses.map(m=>{
-    const alt=Math.max(Math.abs(m.cresc_pct)/max*100,4);
-    const barPos=m.cresc_pct>=0?`<div class="col" style="height:${alt}%"></div>`:'';
-    const barNeg=m.cresc_pct<0?`<div class="col" style="height:${alt}%"></div>`:'';
+    const altP=maxPos?Math.max(m.cresc_pct/maxPos*100,4):4;
+    const altN=maxNeg?Math.max(-m.cresc_pct/maxNeg*100,4):4;
+    const barPos=m.cresc_pct>=0?`<div class="col" style="height:${altP}%"></div>`:'';
+    const barNeg=m.cresc_pct<0?`<div class="col" style="height:${altN}%"></div>`:'';
     return `<div class="bar">
       <div class="bv ${cls(m.cresc_pct)}">${f1(m.cresc_pct)}%</div>
       <div class="barzone">
-        <div class="zone-pos">${barPos}</div>
-        <div class="zone-neg">${barNeg}</div>
+        <div class="zone-pos" style="flex:${posFlex}">${barPos}</div>
+        <div class="zone-neg" style="flex:${negFlex}">${barNeg}</div>
       </div>
       <div class="bl">${m.label}</div></div>`;
   }).join('');
@@ -339,8 +348,33 @@ function vistaTips(d){
         <span class="hb-stats">${m.n} apostas · ${m.wr}% WR · <span class="${cls(m.roi)}">${f1(m.roi)}%</span></span></div>
       <div class="hbar-track"><div class="hbar-fill ${m.wr<50?'bad':''}" style="width:${m.wr}%"></div></div>
     </div>`).join('');
+
+  const mktSorted=d.por_mercado.slice().sort((a,b)=>b.roi-a.roi);
+  const mktMaxPos=Math.max(...mktSorted.map(m=>Math.max(m.roi,0)),0);
+  const mktMaxNeg=Math.max(...mktSorted.map(m=>Math.max(-m.roi,0)),0);
+  const mktTot=(mktMaxPos+mktMaxNeg)||1;
+  let mktPosFlex=mktMaxPos/mktTot, mktNegFlex=mktMaxNeg/mktTot;
+  if(mktMaxNeg<=0){mktPosFlex=1;mktNegFlex=0.001;}
+  else if(mktMaxPos<=0){mktNegFlex=1;mktPosFlex=0.001;}
+  else if(mktNegFlex<0.16){mktNegFlex=0.16;mktPosFlex=0.84;}
+  else if(mktPosFlex<0.16){mktPosFlex=0.16;mktNegFlex=0.84;}
+  const barsMktPL=mktSorted.map(m=>{
+    const altP=mktMaxPos?Math.max(m.roi/mktMaxPos*100,4):4;
+    const altN=mktMaxNeg?Math.max(-m.roi/mktMaxNeg*100,4):4;
+    const bp=m.roi>=0?`<div class="col" style="height:${altP}%"></div>`:'';
+    const bn=m.roi<0?`<div class="col" style="height:${altN}%"></div>`:'';
+    return `<div class="bar">
+      <div class="bv ${cls(m.roi)}">${f1(m.roi)}%</div>
+      <div class="barzone">
+        <div class="zone-pos" style="flex:${mktPosFlex}">${bp}</div>
+        <div class="zone-neg" style="flex:${mktNegFlex}">${bn}</div>
+      </div>
+      <div class="bl">${m.mercado}</div></div>`;
+  }).join('');
+
   h+=`<div class="sec-t">Forma de trabalho</div>
-    <div class="card"><div class="hbars">${barsMkt}</div></div>
+    <div class="card"><div class="bars">${barsMktPL}</div></div>
+    <div class="card" style="margin-top:14px"><div class="hbars">${barsMkt}</div></div>
     <div class="card tbl-wrap" style="margin-top:14px">
     <table><thead><tr><th>Forma de trabalho</th><th class="num">Mercados</th>
     <th class="num">Profit/Loss</th><th class="num">P/L %</th></tr></thead><tbody>${rows}</tbody></table></div>
