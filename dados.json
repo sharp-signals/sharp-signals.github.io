@@ -58,7 +58,7 @@
    {
     "mes": "2026-07",
     "label": "Jul 26",
-    "cresc_pct": -0.24,
+    "cresc_pct": 2.07,
     "apostas": 6,
     "wr": 66.7
    }
@@ -68,7 +68,7 @@
     "mercado": "Over Cantos FT",
     "n": 526,
     "wr": 58.2,
-    "roi": 25.42,
+    "roi": 27.73,
     "pl_eur": 1369.94
    },
    {
@@ -115,12 +115,6 @@
    }
   ],
   "forma": [
-   "perdido",
-   "ganho",
-   "ganho",
-   "perdido",
-   "ganho",
-   "perdido",
    "ganho",
    "ganho",
    "perdido",
@@ -128,6 +122,12 @@
    "perdido",
    "perdido",
    "ganho",
+   "ganho",
+   "ganho",
+   "ganho",
+   "ganho",
+   "perdido",
+   "perdido",
    "ganho",
    "ganho"
   ],
@@ -138,8 +138,8 @@
     "jogo": "Macva x Partizan",
     "mercado": "⛳ Over 6.5 corners · FT",
     "categoria": "Over Cantos FT",
-    "odd": null,
-    "pl_pct": null,
+    "odd": 1.84,
+    "pl_pct": 1.68,
     "stake_pct": 2.0,
     "resultado": "ganho",
     "confianca": 9
@@ -150,8 +150,8 @@
     "jogo": "Vasas x Gyor",
     "mercado": "⛳ Over 7.5 corners · FT",
     "categoria": "Over Cantos FT",
-    "odd": null,
-    "pl_pct": null,
+    "odd": 1.84,
+    "pl_pct": 0.63,
     "stake_pct": 0.75,
     "resultado": "ganho",
     "confianca": 7
