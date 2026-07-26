@@ -79,5 +79,22 @@
       "golos_apos_casa": 1,
       "golos_apos_fora": 0
     }
+  ],
+  "2026-07-26": [
+    {
+      "timestamp": "2026-07-26T03:53:31.497911",
+      "jogo": "St. Louis City vs Colorado Rapids",
+      "liga": "Major League Soccer",
+      "janela": "MID PRESSURE",
+      "tempo_alerta": 65,
+      "estrelas": 7.5,
+      "cantos_no_ref": 7,
+      "cantos_final": 10,
+      "cantos_apos_alerta": 3,
+      "meta_cantos": 3,
+      "resultado": "WIN",
+      "golos_apos_casa": 1,
+      "golos_apos_fora": 0
+    }
   ]
 }
