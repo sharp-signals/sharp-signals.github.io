@@ -116,11 +116,17 @@ header.top{text-align:center;padding:34px 0 8px}
 .sim-out .so-l{font-size:10.5px;letter-spacing:1.5px;text-transform:uppercase;color:var(--muted)}
 .sim-out .so-v{font-size:24px;font-weight:700;font-family:'Cinzel',serif;margin-top:4px}
 
-.bars{display:flex;align-items:flex-end;gap:10px;height:190px;padding:14px 4px 0}
-.bar{flex:1;display:flex;flex-direction:column;justify-content:flex-end;align-items:center;gap:6px;height:100%}
-.bar .col{width:100%;border-radius:6px 6px 0 0;min-height:3px;
-  background:linear-gradient(180deg,var(--gold3),var(--gold2))}
-.bar .col.neg{background:linear-gradient(180deg,#e57373,var(--red))}
+.bars{display:flex;align-items:stretch;gap:10px;height:210px;padding:14px 4px 0}
+.bar{flex:1;display:flex;flex-direction:column;align-items:center;gap:4px;height:100%}
+.bar .barzone{width:100%;height:150px;display:flex;flex-direction:column}
+.bar .zone-pos{flex:1;display:flex;align-items:flex-end;justify-content:center}
+.bar .zone-neg{flex:1;display:flex;align-items:flex-start;justify-content:center;position:relative}
+.bar .zone-neg::before{content:'';position:absolute;top:0;left:0;right:0;height:1px;background:rgba(255,255,255,.15)}
+.bar .col{width:60%;min-height:3px;
+  background:linear-gradient(0deg,var(--gold3),var(--gold2))}
+.bar .zone-pos .col{border-radius:6px 6px 0 0}
+.bar .zone-neg .col{border-radius:0 0 6px 6px;
+  background:linear-gradient(180deg,var(--red),#e57373) !important}
 .bar .bl{font-size:10.5px;color:var(--muted)}
 .bar .bv{font-size:11px;font-weight:600}
 
@@ -302,10 +308,18 @@ function vistaTips(d){
   </div>`;
 
   const max=Math.max(...d.meses.map(m=>Math.abs(m.cresc_pct)),1);
-  const bars=d.meses.map(m=>`<div class="bar">
+  const bars=d.meses.map(m=>{
+    const alt=Math.max(Math.abs(m.cresc_pct)/max*100,4);
+    const barPos=m.cresc_pct>=0?`<div class="col" style="height:${alt}%"></div>`:'';
+    const barNeg=m.cresc_pct<0?`<div class="col" style="height:${alt}%"></div>`:'';
+    return `<div class="bar">
       <div class="bv ${cls(m.cresc_pct)}">${f1(m.cresc_pct)}%</div>
-      <div class="col ${m.cresc_pct<0?'neg':''}" style="height:${Math.max(Math.abs(m.cresc_pct)/max*100,2)}%"></div>
-      <div class="bl">${m.label}</div></div>`).join('');
+      <div class="barzone">
+        <div class="zone-pos">${barPos}</div>
+        <div class="zone-neg">${barNeg}</div>
+      </div>
+      <div class="bl">${m.label}</div></div>`;
+  }).join('');
   const cards=d.meses.map(m=>`<div class="card mes">
       <div class="ml">${m.label}</div>
       <div class="mv ${cls(m.cresc_pct)}">${f1(m.cresc_pct)}%</div>
@@ -341,10 +355,12 @@ function vistaTips(d){
   const hr=vis.map(s=>`<tr><td>${s.data.split('-').reverse().join('/')}</td>
     <td>${s.jogo}</td><td>${s.mercado}${s.categoria?`<br><span style="opacity:.6;font-size:.85em">${s.categoria}</span>`:''}</td>
     <td class="num">${s.odd?s.odd.toFixed(2):'—'}</td>
+    <td class="num">${s.stake_pct?f1(s.stake_pct)+'%':'—'}</td>
+    <td class="num ${s.pl_pct!=null?cls(s.pl_pct):''}">${s.pl_pct!=null?f1(s.pl_pct)+'%':'—'}</td>
     <td class="num"><span class="pill ${s.resultado==='ganho'?'g':((s.resultado==='perdido'||s.resultado==='perda'||s.resultado==='cashout')?'p':'n')}">${s.resultado==='ganho'?'GREEN':((s.resultado==='perdido'||s.resultado==='perda')?'RED':(s.resultado==='cashout'?'CASHOUT':'VOID'))}</span></td></tr>`).join('');
   const nP=Math.ceil(d.historico.length/POR_PAG);
   h+=`<div class="sec-t" id="hist">History &mdash; ${d.historico.length} entries</div>
-    <div class="card tbl-wrap"><table><thead><tr><th>Date</th><th>Match</th><th>Market</th><th class="num">Odds</th><th class="num">Result</th></tr></thead><tbody>${hr}</tbody></table></div>`
+    <div class="card tbl-wrap"><table><thead><tr><th>Date</th><th>Match</th><th>Market</th><th class="num">Odds</th><th class="num">Stake</th><th class="num">P/L</th><th class="num">Result</th></tr></thead><tbody>${hr}</tbody></table></div>`
     + pager(d.historico.length, PAG, "irPagTips")
     + `<div class="pgnote">Page ${PAG} of ${nP}</div>`;
   return h;
