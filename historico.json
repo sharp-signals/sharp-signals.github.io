@@ -95,6 +95,21 @@
       "resultado": "WIN",
       "golos_apos_casa": 1,
       "golos_apos_fora": 0
+    },
+    {
+      "timestamp": "2026-07-26T15:15:12.321018",
+      "jogo": "IF Brommapojkarna vs Hammarby FF",
+      "liga": "Allsvenskan",
+      "janela": "SHARK ATTACK",
+      "tempo_alerta": 55,
+      "estrelas": 8.0,
+      "cantos_no_ref": 9,
+      "cantos_final": 11,
+      "cantos_apos_alerta": 2,
+      "meta_cantos": 4,
+      "resultado": "LOSS",
+      "golos_apos_casa": 1,
+      "golos_apos_fora": 1
     }
   ]
 }
