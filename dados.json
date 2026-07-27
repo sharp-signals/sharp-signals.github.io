@@ -58,7 +58,7 @@
    {
     "mes": "2026-07",
     "label": "Jul 26",
-    "cresc_pct": 1.32,
+    "cresc_pct": 1.95,
     "apostas": 8,
     "wr": 62.5
    }
@@ -68,7 +68,7 @@
     "mercado": "Over Cantos FT",
     "n": 528,
     "wr": 58.1,
-    "roi": 26.98,
+    "roi": 27.61,
     "pl_eur": 1369.94
    },
    {
@@ -115,8 +115,6 @@
    }
   ],
   "forma": [
-   "ganho",
-   "ganho",
    "perdido",
    "perdido",
    "perdido",
@@ -129,7 +127,9 @@
    "perdido",
    "perdido",
    "ganho",
-   "ganho"
+   "ganho",
+   "ganho",
+   "perdido"
   ],
   "historico": [
    {
@@ -138,8 +138,8 @@
     "jogo": "OKMK x Mubarek",
     "mercado": "⛳ Over 13.5 corners · FT",
     "categoria": "Over Cantos FT",
-    "odd": null,
-    "pl_pct": null,
+    "odd": 1.84,
+    "pl_pct": 0.63,
     "stake_pct": 0.75,
     "resultado": "ganho",
     "confianca": 7
