@@ -3,10 +3,10 @@
   "nome": "Goal Sharp Elite",
   "tagline": "Pre-Live & Live Goal Intelligence"
  },
- "atualizado": "2026-07-28T02:02:47",
+ "atualizado": "2026-07-28T06:03:11",
  "geral": {
   "inicio": "2026-06-06",
-  "fim": "2026-07-27",
+  "fim": "2026-07-28",
   "sinais": 130,
   "ganhos": 85,
   "perdidos": 40,
@@ -62,36 +62,21 @@
   "desde": "2026-06-21"
  },
  "diario": {
-  "inicio": "2026-07-27",
-  "fim": "2026-07-27",
-  "sinais": 5,
-  "ganhos": 5,
+  "inicio": "2026-07-28",
+  "fim": "2026-07-28",
+  "sinais": 0,
+  "ganhos": 0,
   "perdidos": 0,
   "push": 0,
   "pendentes": 0,
-  "wr": 100.0,
-  "lucro_u": 6.14,
-  "roi": 122.8,
-  "por_estrategia": {
-   "Sharp Pick": {
-    "n": 4,
-    "g": 4,
-    "p": 0,
-    "lucro": 5.02,
-    "wr": 100.0
-   },
-   "Golos 2ª Parte": {
-    "n": 1,
-    "g": 1,
-    "p": 0,
-    "lucro": 1.12,
-    "wr": 100.0
-   }
-  }
+  "wr": 0.0,
+  "lucro_u": 0.0,
+  "roi": 0.0,
+  "por_estrategia": {}
  },
  "semanal": {
   "inicio": "2026-07-27",
-  "fim": "2026-07-27",
+  "fim": "2026-07-28",
   "sinais": 5,
   "ganhos": 5,
   "perdidos": 0,
@@ -119,7 +104,7 @@
  },
  "mensal": {
   "inicio": "2026-07-01",
-  "fim": "2026-07-27",
+  "fim": "2026-07-28",
   "sinais": 73,
   "ganhos": 50,
   "perdidos": 23,
@@ -717,36 +702,21 @@
     }
    },
    "diario": {
-    "inicio": "2026-07-27",
-    "fim": "2026-07-27",
-    "sinais": 5,
-    "ganhos": 5,
+    "inicio": "2026-07-28",
+    "fim": "2026-07-28",
+    "sinais": 0,
+    "ganhos": 0,
     "perdidos": 0,
     "push": 0,
     "pendentes": 0,
-    "wr": 100.0,
-    "lucro_u": 6.14,
-    "roi": 122.8,
-    "por_estrategia": {
-     "Sharp Pick": {
-      "n": 4,
-      "g": 4,
-      "p": 0,
-      "lucro": 5.02,
-      "wr": 100.0
-     },
-     "Golos 2ª Parte": {
-      "n": 1,
-      "g": 1,
-      "p": 0,
-      "lucro": 1.12,
-      "wr": 100.0
-     }
-    }
+    "wr": 0.0,
+    "lucro_u": 0.0,
+    "roi": 0.0,
+    "por_estrategia": {}
    },
    "semanal": {
     "inicio": "2026-07-27",
-    "fim": "2026-07-27",
+    "fim": "2026-07-28",
     "sinais": 5,
     "ganhos": 5,
     "perdidos": 0,
@@ -774,7 +744,7 @@
    },
    "mensal": {
     "inicio": "2026-07-01",
-    "fim": "2026-07-27",
+    "fim": "2026-07-28",
     "sinais": 73,
     "ganhos": 50,
     "perdidos": 23,
@@ -1011,8 +981,8 @@
     }
    },
    "diario": {
-    "inicio": "2026-07-27",
-    "fim": "2026-07-27",
+    "inicio": "2026-07-28",
+    "fim": "2026-07-28",
     "sinais": 0,
     "ganhos": 0,
     "perdidos": 0,
@@ -1025,7 +995,7 @@
    },
    "semanal": {
     "inicio": "2026-07-27",
-    "fim": "2026-07-27",
+    "fim": "2026-07-28",
     "sinais": 0,
     "ganhos": 0,
     "perdidos": 0,
@@ -1038,7 +1008,7 @@
    },
    "mensal": {
     "inicio": "2026-07-01",
-    "fim": "2026-07-27",
+    "fim": "2026-07-28",
     "sinais": 0,
     "ganhos": 0,
     "perdidos": 0,
@@ -1116,29 +1086,21 @@
     }
    },
    "diario": {
-    "inicio": "2026-07-27",
-    "fim": "2026-07-27",
-    "sinais": 1,
-    "ganhos": 1,
+    "inicio": "2026-07-28",
+    "fim": "2026-07-28",
+    "sinais": 0,
+    "ganhos": 0,
     "perdidos": 0,
     "push": 0,
     "pendentes": 0,
-    "wr": 100.0,
-    "lucro_u": 1.12,
-    "roi": 112.0,
-    "por_estrategia": {
-     "Golos 2ª Parte": {
-      "n": 1,
-      "g": 1,
-      "p": 0,
-      "lucro": 1.12,
-      "wr": 100.0
-     }
-    }
+    "wr": 0.0,
+    "lucro_u": 0.0,
+    "roi": 0.0,
+    "por_estrategia": {}
    },
    "semanal": {
     "inicio": "2026-07-27",
-    "fim": "2026-07-27",
+    "fim": "2026-07-28",
     "sinais": 1,
     "ganhos": 1,
     "perdidos": 0,
@@ -1159,7 +1121,7 @@
    },
    "mensal": {
     "inicio": "2026-07-01",
-    "fim": "2026-07-27",
+    "fim": "2026-07-28",
     "sinais": 6,
     "ganhos": 5,
     "perdidos": 1,
@@ -1281,29 +1243,21 @@
     }
    },
    "diario": {
-    "inicio": "2026-07-27",
-    "fim": "2026-07-27",
-    "sinais": 4,
-    "ganhos": 4,
+    "inicio": "2026-07-28",
+    "fim": "2026-07-28",
+    "sinais": 0,
+    "ganhos": 0,
     "perdidos": 0,
     "push": 0,
     "pendentes": 0,
-    "wr": 100.0,
-    "lucro_u": 5.02,
-    "roi": 125.5,
-    "por_estrategia": {
-     "Sharp Pick": {
-      "n": 4,
-      "g": 4,
-      "p": 0,
-      "lucro": 5.02,
-      "wr": 100.0
-     }
-    }
+    "wr": 0.0,
+    "lucro_u": 0.0,
+    "roi": 0.0,
+    "por_estrategia": {}
    },
    "semanal": {
     "inicio": "2026-07-27",
-    "fim": "2026-07-27",
+    "fim": "2026-07-28",
     "sinais": 4,
     "ganhos": 4,
     "perdidos": 0,
@@ -1324,7 +1278,7 @@
    },
    "mensal": {
     "inicio": "2026-07-01",
-    "fim": "2026-07-27",
+    "fim": "2026-07-28",
     "sinais": 67,
     "ganhos": 45,
     "perdidos": 22,
@@ -1496,7 +1450,24 @@
    "dias_verde_pct": 47.6
   }
  },
- "tip_do_dia": [],
+ "tip_do_dia": [
+  {
+   "hora": "23:00",
+   "liga": "Liga Profesional",
+   "jogo": "Banfield vs Sarmiento",
+   "mercado": "Over 1.5 · 2ª parte",
+   "odd": 3.0,
+   "resultado": null
+  },
+  {
+   "hora": "23:00",
+   "liga": "Liga Profesional",
+   "jogo": "San Lorenzo vs Gimnasia",
+   "mercado": "Over 1.5 · 2ª parte",
+   "odd": 3.0,
+   "resultado": null
+  }
+ ],
  "por_estrategia": {
   "Golos (arquivo)": {
    "n": 31,
@@ -1531,30 +1502,40 @@
   "escada": []
  },
  "combinada": {
-  "boletins": 3,
+  "boletins": 4,
   "greens": 1,
   "reds": 2,
-  "pendentes": 0,
+  "pendentes": 1,
   "lucro": 0.0,
   "ultimo": {
-   "data": "2026-07-23",
-   "hora": "06:01",
+   "data": "2026-07-28",
+   "hora": "06:02",
    "pernas": [
     {
-     "fixture_id": 1493003,
+     "fixture_id": 1493018,
      "liga_id": 128,
-     "casa": "Belgrano",
-     "fora": "Rosario Central",
-     "hora": "23:30",
+     "casa": "Banfield",
+     "fora": "Sarmiento",
+     "hora": "23:00",
      "odd": 3.0,
-     "odd_justa": 2.94,
-     "resultado": "ganho"
+     "odd_justa": 2.9,
+     "resultado": null
+    },
+    {
+     "fixture_id": 1493028,
+     "liga_id": 128,
+     "casa": "San Lorenzo",
+     "fora": "Gimnasia",
+     "hora": "23:00",
+     "odd": 3.0,
+     "odd_justa": 2.98,
+     "resultado": null
     }
    ],
-   "odd": 3.0,
-   "justa": 2.94,
-   "resultado": "green",
-   "por_decidir": 0
+   "odd": 9.0,
+   "justa": 8.64,
+   "resultado": null,
+   "por_decidir": 2
   }
  },
  "historico_sinais": [
@@ -3097,6 +3078,26 @@
    "mercado": "Over 1.5 FT",
    "odd": 2.656,
    "resultado": "ganho"
+  },
+  {
+   "data": "2026-07-28",
+   "hora": "06:02",
+   "estrategia": "Combinada do Dia",
+   "liga": "Liga Profesional",
+   "jogo": "Banfield vs Sarmiento",
+   "mercado": "Over 1.5 2ª Parte",
+   "odd": 3.0,
+   "resultado": null
+  },
+  {
+   "data": "2026-07-28",
+   "hora": "06:02",
+   "estrategia": "Combinada do Dia",
+   "liga": "Liga Profesional",
+   "jogo": "San Lorenzo vs Gimnasia",
+   "mercado": "Over 1.5 2ª Parte",
+   "odd": 3.0,
+   "resultado": null
   }
  ]
 }
