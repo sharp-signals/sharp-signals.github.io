@@ -3,10 +3,10 @@
   "nome": "Goal Sharp Elite",
   "tagline": "Pre-Live & Live Goal Intelligence"
  },
- "atualizado": "2026-07-29T04:24:40",
+ "atualizado": "2026-07-29T06:02:21",
  "geral": {
   "inicio": "2026-06-06",
-  "fim": "2026-07-28",
+  "fim": "2026-07-29",
   "sinais": 132,
   "ganhos": 85,
   "perdidos": 42,
@@ -62,29 +62,21 @@
   "desde": "2026-06-21"
  },
  "diario": {
-  "inicio": "2026-07-28",
-  "fim": "2026-07-28",
-  "sinais": 2,
+  "inicio": "2026-07-29",
+  "fim": "2026-07-29",
+  "sinais": 0,
   "ganhos": 0,
-  "perdidos": 2,
+  "perdidos": 0,
   "push": 0,
   "pendentes": 0,
   "wr": 0.0,
-  "lucro_u": -2.0,
-  "roi": -100.0,
-  "por_estrategia": {
-   "Sharp Pick": {
-    "n": 2,
-    "g": 0,
-    "p": 2,
-    "lucro": -2.0,
-    "wr": 0.0
-   }
-  }
+  "lucro_u": 0.0,
+  "roi": 0.0,
+  "por_estrategia": {}
  },
  "semanal": {
   "inicio": "2026-07-27",
-  "fim": "2026-07-28",
+  "fim": "2026-07-29",
   "sinais": 7,
   "ganhos": 5,
   "perdidos": 2,
@@ -112,7 +104,7 @@
  },
  "mensal": {
   "inicio": "2026-07-01",
-  "fim": "2026-07-28",
+  "fim": "2026-07-29",
   "sinais": 75,
   "ganhos": 50,
   "perdidos": 25,
@@ -728,29 +720,21 @@
     }
    },
    "diario": {
-    "inicio": "2026-07-28",
-    "fim": "2026-07-28",
-    "sinais": 2,
+    "inicio": "2026-07-29",
+    "fim": "2026-07-29",
+    "sinais": 0,
     "ganhos": 0,
-    "perdidos": 2,
+    "perdidos": 0,
     "push": 0,
     "pendentes": 0,
     "wr": 0.0,
-    "lucro_u": -2.0,
-    "roi": -100.0,
-    "por_estrategia": {
-     "Sharp Pick": {
-      "n": 2,
-      "g": 0,
-      "p": 2,
-      "lucro": -2.0,
-      "wr": 0.0
-     }
-    }
+    "lucro_u": 0.0,
+    "roi": 0.0,
+    "por_estrategia": {}
    },
    "semanal": {
     "inicio": "2026-07-27",
-    "fim": "2026-07-28",
+    "fim": "2026-07-29",
     "sinais": 7,
     "ganhos": 5,
     "perdidos": 2,
@@ -778,7 +762,7 @@
    },
    "mensal": {
     "inicio": "2026-07-01",
-    "fim": "2026-07-28",
+    "fim": "2026-07-29",
     "sinais": 75,
     "ganhos": 50,
     "perdidos": 25,
@@ -1021,8 +1005,8 @@
     }
    },
    "diario": {
-    "inicio": "2026-07-28",
-    "fim": "2026-07-28",
+    "inicio": "2026-07-29",
+    "fim": "2026-07-29",
     "sinais": 0,
     "ganhos": 0,
     "perdidos": 0,
@@ -1035,7 +1019,7 @@
    },
    "semanal": {
     "inicio": "2026-07-27",
-    "fim": "2026-07-28",
+    "fim": "2026-07-29",
     "sinais": 0,
     "ganhos": 0,
     "perdidos": 0,
@@ -1048,7 +1032,7 @@
    },
    "mensal": {
     "inicio": "2026-07-01",
-    "fim": "2026-07-28",
+    "fim": "2026-07-29",
     "sinais": 0,
     "ganhos": 0,
     "perdidos": 0,
@@ -1126,8 +1110,8 @@
     }
    },
    "diario": {
-    "inicio": "2026-07-28",
-    "fim": "2026-07-28",
+    "inicio": "2026-07-29",
+    "fim": "2026-07-29",
     "sinais": 0,
     "ganhos": 0,
     "perdidos": 0,
@@ -1140,7 +1124,7 @@
    },
    "semanal": {
     "inicio": "2026-07-27",
-    "fim": "2026-07-28",
+    "fim": "2026-07-29",
     "sinais": 1,
     "ganhos": 1,
     "perdidos": 0,
@@ -1161,7 +1145,7 @@
    },
    "mensal": {
     "inicio": "2026-07-01",
-    "fim": "2026-07-28",
+    "fim": "2026-07-29",
     "sinais": 6,
     "ganhos": 5,
     "perdidos": 1,
@@ -1283,29 +1267,21 @@
     }
    },
    "diario": {
-    "inicio": "2026-07-28",
-    "fim": "2026-07-28",
-    "sinais": 2,
+    "inicio": "2026-07-29",
+    "fim": "2026-07-29",
+    "sinais": 0,
     "ganhos": 0,
-    "perdidos": 2,
+    "perdidos": 0,
     "push": 0,
     "pendentes": 0,
     "wr": 0.0,
-    "lucro_u": -2.0,
-    "roi": -100.0,
-    "por_estrategia": {
-     "Sharp Pick": {
-      "n": 2,
-      "g": 0,
-      "p": 2,
-      "lucro": -2.0,
-      "wr": 0.0
-     }
-    }
+    "lucro_u": 0.0,
+    "roi": 0.0,
+    "por_estrategia": {}
    },
    "semanal": {
     "inicio": "2026-07-27",
-    "fim": "2026-07-28",
+    "fim": "2026-07-29",
     "sinais": 6,
     "ganhos": 4,
     "perdidos": 2,
@@ -1326,7 +1302,7 @@
    },
    "mensal": {
     "inicio": "2026-07-01",
-    "fim": "2026-07-28",
+    "fim": "2026-07-29",
     "sinais": 69,
     "ganhos": 45,
     "perdidos": 24,
@@ -1506,20 +1482,12 @@
  },
  "tip_do_dia": [
   {
-   "hora": "23:00",
+   "hora": "18:30",
    "liga": "Liga Profesional",
-   "jogo": "Banfield vs Sarmiento",
+   "jogo": "Barracas Central vs Aldosivi",
    "mercado": "Over 1.5 · 2ª parte",
-   "odd": 3.0,
-   "resultado": "ganho"
-  },
-  {
-   "hora": "23:00",
-   "liga": "Liga Profesional",
-   "jogo": "San Lorenzo vs Gimnasia",
-   "mercado": "Over 1.5 · 2ª parte",
-   "odd": 3.0,
-   "resultado": "perdido"
+   "odd": 3.2,
+   "resultado": null
   }
  ],
  "por_estrategia": {
@@ -1556,40 +1524,30 @@
   "escada": []
  },
  "combinada": {
-  "boletins": 4,
+  "boletins": 5,
   "greens": 1,
   "reds": 3,
-  "pendentes": 0,
+  "pendentes": 1,
   "lucro": -1.0,
   "ultimo": {
-   "data": "2026-07-28",
-   "hora": "06:02",
+   "data": "2026-07-29",
+   "hora": "06:01",
    "pernas": [
     {
-     "fixture_id": 1493018,
+     "fixture_id": 1493019,
      "liga_id": 128,
-     "casa": "Banfield",
-     "fora": "Sarmiento",
-     "hora": "23:00",
-     "odd": 3.0,
-     "odd_justa": 2.9,
-     "resultado": "ganho"
-    },
-    {
-     "fixture_id": 1493028,
-     "liga_id": 128,
-     "casa": "San Lorenzo",
-     "fora": "Gimnasia",
-     "hora": "23:00",
-     "odd": 3.0,
-     "odd_justa": 2.98,
-     "resultado": "perdido"
+     "casa": "Barracas Central",
+     "fora": "Aldosivi",
+     "hora": "18:30",
+     "odd": 3.2,
+     "odd_justa": 3.14,
+     "resultado": null
     }
    ],
-   "odd": 9.0,
-   "justa": 8.64,
-   "resultado": "red",
-   "por_decidir": 0
+   "odd": 3.2,
+   "justa": 3.14,
+   "resultado": null,
+   "por_decidir": 1
   }
  },
  "historico_sinais": [
@@ -3172,6 +3130,16 @@
    "mercado": "Over 3.5 FT",
    "odd": 2.19,
    "resultado": "perdido"
+  },
+  {
+   "data": "2026-07-29",
+   "hora": "06:01",
+   "estrategia": "Combinada do Dia",
+   "liga": "Liga Profesional",
+   "jogo": "Barracas Central vs Aldosivi",
+   "mercado": "Over 1.5 2ª Parte",
+   "odd": 3.2,
+   "resultado": null
   }
  ]
 }
