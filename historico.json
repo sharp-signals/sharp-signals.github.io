@@ -120,11 +120,11 @@
       "janela": "FINAL PUSH",
       "tempo_alerta": 80,
       "estrelas": 7.5,
-      "cantos_no_ref": 9,
-      "cantos_final": 15,
-      "cantos_apos_alerta": 6,
+      "cantos_no_ref": 10,
+      "cantos_final": 11,
+      "cantos_apos_alerta": 1,
       "meta_cantos": 2,
-      "resultado": "WIN",
+      "resultado": "LOSS",
       "golos_apos_casa": 1,
       "golos_apos_fora": 0
     }
@@ -141,7 +141,7 @@
       "cantos_final": 16,
       "cantos_apos_alerta": 3,
       "meta_cantos": 4,
-      "resultado": "LOSS",
+      "resultado": "VOID",
       "golos_apos_casa": 1,
       "golos_apos_fora": 0
     }
