@@ -3,10 +3,10 @@
   "nome": "Goal Sharp Elite",
   "tagline": "Pre-Live & Live Goal Intelligence"
  },
- "atualizado": "2026-07-30T04:02:03",
+ "atualizado": "2026-07-30T06:02:25",
  "geral": {
   "inicio": "2026-06-06",
-  "fim": "2026-07-29",
+  "fim": "2026-07-30",
   "sinais": 135,
   "ganhos": 85,
   "perdidos": 45,
@@ -62,29 +62,21 @@
   "desde": "2026-06-21"
  },
  "diario": {
-  "inicio": "2026-07-29",
-  "fim": "2026-07-29",
-  "sinais": 3,
+  "inicio": "2026-07-30",
+  "fim": "2026-07-30",
+  "sinais": 0,
   "ganhos": 0,
-  "perdidos": 3,
+  "perdidos": 0,
   "push": 0,
   "pendentes": 0,
   "wr": 0.0,
-  "lucro_u": -3.0,
-  "roi": -100.0,
-  "por_estrategia": {
-   "Sharp Pick": {
-    "n": 3,
-    "g": 0,
-    "p": 3,
-    "lucro": -3.0,
-    "wr": 0.0
-   }
-  }
+  "lucro_u": 0.0,
+  "roi": 0.0,
+  "por_estrategia": {}
  },
  "semanal": {
   "inicio": "2026-07-27",
-  "fim": "2026-07-29",
+  "fim": "2026-07-30",
   "sinais": 10,
   "ganhos": 5,
   "perdidos": 5,
@@ -112,7 +104,7 @@
  },
  "mensal": {
   "inicio": "2026-07-01",
-  "fim": "2026-07-29",
+  "fim": "2026-07-30",
   "sinais": 78,
   "ganhos": 50,
   "perdidos": 28,
@@ -746,29 +738,21 @@
     }
    },
    "diario": {
-    "inicio": "2026-07-29",
-    "fim": "2026-07-29",
-    "sinais": 3,
+    "inicio": "2026-07-30",
+    "fim": "2026-07-30",
+    "sinais": 0,
     "ganhos": 0,
-    "perdidos": 3,
+    "perdidos": 0,
     "push": 0,
     "pendentes": 0,
     "wr": 0.0,
-    "lucro_u": -3.0,
-    "roi": -100.0,
-    "por_estrategia": {
-     "Sharp Pick": {
-      "n": 3,
-      "g": 0,
-      "p": 3,
-      "lucro": -3.0,
-      "wr": 0.0
-     }
-    }
+    "lucro_u": 0.0,
+    "roi": 0.0,
+    "por_estrategia": {}
    },
    "semanal": {
     "inicio": "2026-07-27",
-    "fim": "2026-07-29",
+    "fim": "2026-07-30",
     "sinais": 10,
     "ganhos": 5,
     "perdidos": 5,
@@ -796,7 +780,7 @@
    },
    "mensal": {
     "inicio": "2026-07-01",
-    "fim": "2026-07-29",
+    "fim": "2026-07-30",
     "sinais": 78,
     "ganhos": 50,
     "perdidos": 28,
@@ -1045,8 +1029,8 @@
     }
    },
    "diario": {
-    "inicio": "2026-07-29",
-    "fim": "2026-07-29",
+    "inicio": "2026-07-30",
+    "fim": "2026-07-30",
     "sinais": 0,
     "ganhos": 0,
     "perdidos": 0,
@@ -1059,7 +1043,7 @@
    },
    "semanal": {
     "inicio": "2026-07-27",
-    "fim": "2026-07-29",
+    "fim": "2026-07-30",
     "sinais": 0,
     "ganhos": 0,
     "perdidos": 0,
@@ -1072,7 +1056,7 @@
    },
    "mensal": {
     "inicio": "2026-07-01",
-    "fim": "2026-07-29",
+    "fim": "2026-07-30",
     "sinais": 0,
     "ganhos": 0,
     "perdidos": 0,
@@ -1150,8 +1134,8 @@
     }
    },
    "diario": {
-    "inicio": "2026-07-29",
-    "fim": "2026-07-29",
+    "inicio": "2026-07-30",
+    "fim": "2026-07-30",
     "sinais": 0,
     "ganhos": 0,
     "perdidos": 0,
@@ -1164,7 +1148,7 @@
    },
    "semanal": {
     "inicio": "2026-07-27",
-    "fim": "2026-07-29",
+    "fim": "2026-07-30",
     "sinais": 1,
     "ganhos": 1,
     "perdidos": 0,
@@ -1185,7 +1169,7 @@
    },
    "mensal": {
     "inicio": "2026-07-01",
-    "fim": "2026-07-29",
+    "fim": "2026-07-30",
     "sinais": 6,
     "ganhos": 5,
     "perdidos": 1,
@@ -1307,29 +1291,21 @@
     }
    },
    "diario": {
-    "inicio": "2026-07-29",
-    "fim": "2026-07-29",
-    "sinais": 3,
+    "inicio": "2026-07-30",
+    "fim": "2026-07-30",
+    "sinais": 0,
     "ganhos": 0,
-    "perdidos": 3,
+    "perdidos": 0,
     "push": 0,
     "pendentes": 0,
     "wr": 0.0,
-    "lucro_u": -3.0,
-    "roi": -100.0,
-    "por_estrategia": {
-     "Sharp Pick": {
-      "n": 3,
-      "g": 0,
-      "p": 3,
-      "lucro": -3.0,
-      "wr": 0.0
-     }
-    }
+    "lucro_u": 0.0,
+    "roi": 0.0,
+    "por_estrategia": {}
    },
    "semanal": {
     "inicio": "2026-07-27",
-    "fim": "2026-07-29",
+    "fim": "2026-07-30",
     "sinais": 9,
     "ganhos": 4,
     "perdidos": 5,
@@ -1350,7 +1326,7 @@
    },
    "mensal": {
     "inicio": "2026-07-01",
-    "fim": "2026-07-29",
+    "fim": "2026-07-30",
     "sinais": 72,
     "ganhos": 45,
     "perdidos": 27,
@@ -1536,12 +1512,12 @@
  },
  "tip_do_dia": [
   {
-   "hora": "18:30",
+   "hora": "23:00",
    "liga": "Liga Profesional",
-   "jogo": "Barracas Central vs Aldosivi",
+   "jogo": "Ind. Rivadavia vs Huracan",
    "mercado": "Over 1.5 · 2ª parte",
-   "odd": 3.2,
-   "resultado": "perdido"
+   "odd": 3.1,
+   "resultado": null
   }
  ],
  "por_estrategia": {
@@ -1578,30 +1554,30 @@
   "escada": []
  },
  "combinada": {
-  "boletins": 5,
+  "boletins": 6,
   "greens": 1,
   "reds": 4,
-  "pendentes": 0,
+  "pendentes": 1,
   "lucro": -2.0,
   "ultimo": {
-   "data": "2026-07-29",
+   "data": "2026-07-30",
    "hora": "06:01",
    "pernas": [
     {
-     "fixture_id": 1493019,
+     "fixture_id": 1493025,
      "liga_id": 128,
-     "casa": "Barracas Central",
-     "fora": "Aldosivi",
-     "hora": "18:30",
-     "odd": 3.2,
-     "odd_justa": 3.14,
-     "resultado": "perdido"
+     "casa": "Ind. Rivadavia",
+     "fora": "Huracan",
+     "hora": "23:00",
+     "odd": 3.1,
+     "odd_justa": 3.05,
+     "resultado": null
     }
    ],
-   "odd": 3.2,
-   "justa": 3.14,
-   "resultado": "red",
-   "por_decidir": 0
+   "odd": 3.1,
+   "justa": 3.05,
+   "resultado": null,
+   "por_decidir": 1
   }
  },
  "historico_sinais": [
@@ -3224,6 +3200,16 @@
    "mercado": "Over 1.5 FT",
    "odd": 2.58,
    "resultado": "perdido"
+  },
+  {
+   "data": "2026-07-30",
+   "hora": "06:01",
+   "estrategia": "Combinada do Dia",
+   "liga": "Liga Profesional",
+   "jogo": "Ind. Rivadavia vs Huracan",
+   "mercado": "Over 1.5 2ª Parte",
+   "odd": 3.1,
+   "resultado": null
   }
  ]
 }
