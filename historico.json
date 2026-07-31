@@ -193,6 +193,21 @@
       "resultado": "LOSS",
       "golos_apos_casa": 0,
       "golos_apos_fora": 0
+    },
+    {
+      "timestamp": "2026-07-31T18:50:08.808878",
+      "jogo": "Arges Pitesti vs Csikszereda",
+      "liga": "Liga I",
+      "janela": "MID PRESSURE",
+      "tempo_alerta": 68,
+      "estrelas": 10.0,
+      "cantos_no_ref": 5,
+      "cantos_final": 5,
+      "cantos_apos_alerta": 0,
+      "meta_cantos": 3,
+      "resultado": "LOSS",
+      "golos_apos_casa": 1,
+      "golos_apos_fora": 0
     }
   ]
 }
