@@ -8,9 +8,9 @@
    "fim": "2026-01-31"
   },
   "cresc_pct": 56.91,
-  "apostas": 991,
+  "apostas": 992,
   "ganhos": 563,
-  "perdidos": 428,
+  "perdidos": 429,
   "wr": 56.8,
   "meses": [
    {
@@ -65,17 +65,17 @@
    {
     "mes": "2026-08",
     "label": "Ago 26",
-    "cresc_pct": -0.37,
-    "apostas": 2,
-    "wr": 50.0
+    "cresc_pct": -1.12,
+    "apostas": 3,
+    "wr": 33.3
    }
   ],
   "por_mercado": [
    {
     "mercado": "Over Cantos FT",
-    "n": 533,
-    "wr": 58.2,
-    "roi": 26.49,
+    "n": 534,
+    "wr": 58.1,
+    "roi": 25.74,
     "pl_eur": 1369.94
    },
    {
@@ -123,7 +123,6 @@
   ],
   "forma": [
    "perdido",
-   "perdido",
    "ganho",
    "ganho",
    "ganho",
@@ -136,7 +135,8 @@
    "ganho",
    "perdido",
    "perdido",
-   "ganho"
+   "ganho",
+   "perdido"
   ],
   "historico": [
    {
@@ -145,10 +145,10 @@
     "jogo": "Chengdu x Wuhan",
     "mercado": "⛳ Over 12.5 corners · FT",
     "categoria": "Over Cantos FT",
-    "odd": null,
-    "pl_pct": null,
+    "odd": 12.5,
+    "pl_pct": -0.75,
     "stake_pct": 0.75,
-    "resultado": "pendente",
+    "resultado": "perdido",
     "confianca": 7
    },
    {
