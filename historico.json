@@ -225,6 +225,21 @@
       "resultado": "LOSS",
       "golos_apos_casa": 0,
       "golos_apos_fora": 1
+    },
+    {
+      "timestamp": "2026-08-01T04:21:06.551716",
+      "jogo": "Fortaleza FC vs Deportivo Pereira",
+      "liga": "Primera A",
+      "janela": "SHARK ATTACK",
+      "tempo_alerta": 56,
+      "estrelas": 7.0,
+      "cantos_no_ref": 6,
+      "cantos_final": 9,
+      "cantos_apos_alerta": 3,
+      "meta_cantos": 4,
+      "resultado": "LOSS",
+      "golos_apos_casa": 0,
+      "golos_apos_fora": 0
     }
   ]
 }
