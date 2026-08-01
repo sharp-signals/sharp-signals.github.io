@@ -270,6 +270,21 @@
       "resultado": "LOSS",
       "golos_apos_casa": 1,
       "golos_apos_fora": 0
+    },
+    {
+      "timestamp": "2026-08-01T16:18:47.945253",
+      "jogo": "Golden Arrows vs Chippa United",
+      "liga": "Premier Soccer League",
+      "janela": "MID PRESSURE",
+      "tempo_alerta": 66,
+      "estrelas": 7.5,
+      "cantos_no_ref": 13,
+      "cantos_final": 15,
+      "cantos_apos_alerta": 2,
+      "meta_cantos": 3,
+      "resultado": "LOSS",
+      "golos_apos_casa": 0,
+      "golos_apos_fora": 0
     }
   ]
 }
