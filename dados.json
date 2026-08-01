@@ -8,9 +8,9 @@
    "fim": "2026-01-31"
   },
   "cresc_pct": 56.91,
-  "apostas": 989,
+  "apostas": 990,
   "ganhos": 562,
-  "perdidos": 427,
+  "perdidos": 428,
   "wr": 56.8,
   "meses": [
    {
@@ -61,14 +61,21 @@
     "cresc_pct": 0.9,
     "apostas": 13,
     "wr": 53.8
+   },
+   {
+    "mes": "2026-08",
+    "label": "Ago 26",
+    "cresc_pct": -1.0,
+    "apostas": 1,
+    "wr": 0.0
    }
   ],
   "por_mercado": [
    {
     "mercado": "Over Cantos FT",
-    "n": 531,
-    "wr": 58.2,
-    "roi": 26.86,
+    "n": 532,
+    "wr": 58.1,
+    "roi": 25.86,
     "pl_eur": 1369.94
    },
    {
@@ -118,7 +125,6 @@
    "perdido",
    "perdido",
    "perdido",
-   "perdido",
    "ganho",
    "ganho",
    "ganho",
@@ -129,6 +135,7 @@
    "ganho",
    "ganho",
    "ganho",
+   "perdido",
    "perdido"
   ],
   "historico": [
@@ -138,10 +145,10 @@
     "jogo": "Chungbuk x Suwon",
     "mercado": "⛳ Over 10 corners · FT",
     "categoria": "Over Cantos FT",
-    "odd": null,
-    "pl_pct": null,
+    "odd": 1.84,
+    "pl_pct": -1.0,
     "stake_pct": 1.0,
-    "resultado": "pendente",
+    "resultado": "perdido",
     "confianca": 8
    },
    {
