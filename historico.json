@@ -209,5 +209,22 @@
       "golos_apos_casa": 1,
       "golos_apos_fora": 0
     }
+  ],
+  "2026-08-01": [
+    {
+      "timestamp": "2026-08-01T04:17:54.426320",
+      "jogo": "Puebla vs Guadalajara Chivas",
+      "liga": "Liga MX",
+      "janela": "SHARK ATTACK",
+      "tempo_alerta": 55,
+      "estrelas": 7.0,
+      "cantos_no_ref": 5,
+      "cantos_final": 8,
+      "cantos_apos_alerta": 3,
+      "meta_cantos": 4,
+      "resultado": "LOSS",
+      "golos_apos_casa": 0,
+      "golos_apos_fora": 1
+    }
   ]
 }
