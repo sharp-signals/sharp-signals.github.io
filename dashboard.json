@@ -3,10 +3,10 @@
   "nome": "Goal Sharp Elite",
   "tagline": "Pre-Live & Live Goal Intelligence"
  },
- "atualizado": "2026-08-02T01:21:57",
+ "atualizado": "2026-08-02T06:06:24",
  "geral": {
   "inicio": "2026-06-06",
-  "fim": "2026-08-01",
+  "fim": "2026-08-02",
   "sinais": 162,
   "ganhos": 99,
   "perdidos": 58,
@@ -62,36 +62,21 @@
   "desde": "2026-06-21"
  },
  "diario": {
-  "inicio": "2026-08-01",
-  "fim": "2026-08-01",
-  "sinais": 10,
-  "ganhos": 4,
-  "perdidos": 6,
+  "inicio": "2026-08-02",
+  "fim": "2026-08-02",
+  "sinais": 0,
+  "ganhos": 0,
+  "perdidos": 0,
   "push": 0,
   "pendentes": 0,
-  "wr": 40.0,
-  "lucro_u": -2.07,
-  "roi": -20.7,
-  "por_estrategia": {
-   "Sharp Pick": {
-    "n": 9,
-    "g": 4,
-    "p": 5,
-    "lucro": -1.07,
-    "wr": 44.4
-   },
-   "Golos 2ª Parte": {
-    "n": 1,
-    "g": 0,
-    "p": 1,
-    "lucro": -1.0,
-    "wr": 0.0
-   }
-  }
+  "wr": 0.0,
+  "lucro_u": 0.0,
+  "roi": 0.0,
+  "por_estrategia": {}
  },
  "semanal": {
   "inicio": "2026-07-27",
-  "fim": "2026-08-01",
+  "fim": "2026-08-02",
   "sinais": 37,
   "ganhos": 19,
   "perdidos": 18,
@@ -119,7 +104,7 @@
  },
  "mensal": {
   "inicio": "2026-08-01",
-  "fim": "2026-08-01",
+  "fim": "2026-08-02",
   "sinais": 10,
   "ganhos": 4,
   "perdidos": 6,
@@ -819,36 +804,21 @@
     }
    },
    "diario": {
-    "inicio": "2026-08-01",
-    "fim": "2026-08-01",
-    "sinais": 10,
-    "ganhos": 4,
-    "perdidos": 6,
+    "inicio": "2026-08-02",
+    "fim": "2026-08-02",
+    "sinais": 0,
+    "ganhos": 0,
+    "perdidos": 0,
     "push": 0,
     "pendentes": 0,
-    "wr": 40.0,
-    "lucro_u": -2.07,
-    "roi": -20.7,
-    "por_estrategia": {
-     "Sharp Pick": {
-      "n": 9,
-      "g": 4,
-      "p": 5,
-      "lucro": -1.07,
-      "wr": 44.4
-     },
-     "Golos 2ª Parte": {
-      "n": 1,
-      "g": 0,
-      "p": 1,
-      "lucro": -1.0,
-      "wr": 0.0
-     }
-    }
+    "wr": 0.0,
+    "lucro_u": 0.0,
+    "roi": 0.0,
+    "por_estrategia": {}
    },
    "semanal": {
     "inicio": "2026-07-27",
-    "fim": "2026-08-01",
+    "fim": "2026-08-02",
     "sinais": 37,
     "ganhos": 19,
     "perdidos": 18,
@@ -876,7 +846,7 @@
    },
    "mensal": {
     "inicio": "2026-08-01",
-    "fim": "2026-08-01",
+    "fim": "2026-08-02",
     "sinais": 10,
     "ganhos": 4,
     "perdidos": 6,
@@ -1143,8 +1113,8 @@
     }
    },
    "diario": {
-    "inicio": "2026-08-01",
-    "fim": "2026-08-01",
+    "inicio": "2026-08-02",
+    "fim": "2026-08-02",
     "sinais": 0,
     "ganhos": 0,
     "perdidos": 0,
@@ -1157,7 +1127,7 @@
    },
    "semanal": {
     "inicio": "2026-07-27",
-    "fim": "2026-08-01",
+    "fim": "2026-08-02",
     "sinais": 0,
     "ganhos": 0,
     "perdidos": 0,
@@ -1170,7 +1140,7 @@
    },
    "mensal": {
     "inicio": "2026-08-01",
-    "fim": "2026-08-01",
+    "fim": "2026-08-02",
     "sinais": 0,
     "ganhos": 0,
     "perdidos": 0,
@@ -1248,29 +1218,21 @@
     }
    },
    "diario": {
-    "inicio": "2026-08-01",
-    "fim": "2026-08-01",
-    "sinais": 1,
+    "inicio": "2026-08-02",
+    "fim": "2026-08-02",
+    "sinais": 0,
     "ganhos": 0,
-    "perdidos": 1,
+    "perdidos": 0,
     "push": 0,
     "pendentes": 0,
     "wr": 0.0,
-    "lucro_u": -1.0,
-    "roi": -100.0,
-    "por_estrategia": {
-     "Golos 2ª Parte": {
-      "n": 1,
-      "g": 0,
-      "p": 1,
-      "lucro": -1.0,
-      "wr": 0.0
-     }
-    }
+    "lucro_u": 0.0,
+    "roi": 0.0,
+    "por_estrategia": {}
    },
    "semanal": {
     "inicio": "2026-07-27",
-    "fim": "2026-08-01",
+    "fim": "2026-08-02",
     "sinais": 5,
     "ganhos": 4,
     "perdidos": 1,
@@ -1291,7 +1253,7 @@
    },
    "mensal": {
     "inicio": "2026-08-01",
-    "fim": "2026-08-01",
+    "fim": "2026-08-02",
     "sinais": 1,
     "ganhos": 0,
     "perdidos": 1,
@@ -1425,29 +1387,21 @@
     }
    },
    "diario": {
-    "inicio": "2026-08-01",
-    "fim": "2026-08-01",
-    "sinais": 9,
-    "ganhos": 4,
-    "perdidos": 5,
+    "inicio": "2026-08-02",
+    "fim": "2026-08-02",
+    "sinais": 0,
+    "ganhos": 0,
+    "perdidos": 0,
     "push": 0,
     "pendentes": 0,
-    "wr": 44.4,
-    "lucro_u": -1.07,
-    "roi": -11.9,
-    "por_estrategia": {
-     "Sharp Pick": {
-      "n": 9,
-      "g": 4,
-      "p": 5,
-      "lucro": -1.07,
-      "wr": 44.4
-     }
-    }
+    "wr": 0.0,
+    "lucro_u": 0.0,
+    "roi": 0.0,
+    "por_estrategia": {}
    },
    "semanal": {
     "inicio": "2026-07-27",
-    "fim": "2026-08-01",
+    "fim": "2026-08-02",
     "sinais": 32,
     "ganhos": 15,
     "perdidos": 17,
@@ -1468,7 +1422,7 @@
    },
    "mensal": {
     "inicio": "2026-08-01",
-    "fim": "2026-08-01",
+    "fim": "2026-08-02",
     "sinais": 9,
     "ganhos": 4,
     "perdidos": 5,
@@ -1672,54 +1626,54 @@
  },
  "tip_do_dia": [
   {
+   "hora": "14:30",
+   "liga": "Premier League",
+   "jogo": "Connah`s Quay vs Caernarfon",
+   "mercado": "Over 1.5 · 2ª parte",
+   "odd": 2.0,
+   "bilhete": "tripla",
+   "fire": true,
+   "resultado": null
+  },
+  {
    "hora": "16:00",
    "liga": "1. Division",
-   "jogo": "Bryne FK vs Stromsgodset",
+   "jogo": "Egersund vs Sandnes",
    "mercado": "Over 1.5 · 2ª parte",
-   "odd": 1.63,
+   "odd": 1.76,
    "bilhete": "tripla",
    "fire": true,
-   "resultado": "ganho"
+   "resultado": null
   },
   {
-   "hora": "12:00",
-   "liga": "Chinese Super League",
-   "jogo": "Tianjin Teda vs Yunnan Yukun",
+   "hora": "13:00",
+   "liga": "Superliga",
+   "jogo": "Midtjylland vs Odense",
    "mercado": "Over 1.5 · 2ª parte",
-   "odd": 1.87,
+   "odd": 1.83,
    "bilhete": "tripla",
    "fire": true,
-   "resultado": "ganho"
+   "resultado": null
   },
   {
-   "hora": "15:00",
-   "liga": "Eliteserien",
-   "jogo": "Fredrikstad vs Sandefjord",
+   "hora": "17:00",
+   "liga": "1. SNL",
+   "jogo": "Radomlje vs Bravo",
+   "mercado": "Over 1.5 · 2ª parte",
+   "odd": 1.83,
+   "bilhete": "dupla",
+   "fire": true,
+   "resultado": null
+  },
+  {
+   "hora": "14:30",
+   "liga": "Premier League",
+   "jogo": "Penybont vs New Saints",
    "mercado": "Over 1.5 · 2ª parte",
    "odd": 1.95,
-   "bilhete": "tripla",
-   "fire": true,
-   "resultado": "perdido"
-  },
-  {
-   "hora": "19:30",
-   "liga": "Super League",
-   "jogo": "Thun vs Young Boys Bern",
-   "mercado": "Over 1.5 · 2ª parte",
-   "odd": 1.63,
    "bilhete": "dupla",
    "fire": true,
-   "resultado": "ganho"
-  },
-  {
-   "hora": "12:35",
-   "liga": "Chinese Super League",
-   "jogo": "Shanghai SIPG vs Shandong Luneng",
-   "mercado": "Over 1.5 · 2ª parte",
-   "odd": 1.58,
-   "bilhete": "dupla",
-   "fire": true,
-   "resultado": "perdido"
+   "resultado": null
   }
  ],
  "por_estrategia": {
@@ -1756,158 +1710,128 @@
   "escada": []
  },
  "combinada": {
-  "boletins": 8,
+  "boletins": 10,
   "greens": 1,
   "reds": 7,
-  "pendentes": 0,
+  "pendentes": 2,
   "lucro": -4.0,
   "ultimos": [
    {
-    "data": "2026-08-01",
+    "data": "2026-08-02",
     "tipo": "tripla",
-    "hora": "06:02",
+    "hora": "06:04",
     "pernas": [
      {
-      "fixture_id": 1495895,
+      "fixture_id": 1575890,
+      "liga_id": 110,
+      "casa": "Connah`s Quay",
+      "fora": "Caernarfon",
+      "hora": "14:30",
+      "odd": 2.0,
+      "odd_justa": 1.97,
+      "fire": true,
+      "resultado": null
+     },
+     {
+      "fixture_id": 1495896,
       "liga_id": 104,
-      "casa": "Bryne FK",
-      "fora": "Stromsgodset",
+      "casa": "Egersund",
+      "fora": "Sandnes",
       "hora": "16:00",
-      "odd": 1.63,
-      "odd_justa": 1.68,
+      "odd": 1.76,
+      "odd_justa": 1.9,
       "fire": true,
-      "resultado": "ganho"
+      "resultado": null
      },
      {
-      "fixture_id": 1523220,
-      "liga_id": 169,
-      "casa": "Tianjin Teda",
-      "fora": "Yunnan Yukun",
-      "hora": "12:00",
-      "odd": 1.87,
-      "odd_justa": 1.98,
+      "fixture_id": 1548981,
+      "liga_id": 119,
+      "casa": "Midtjylland",
+      "fora": "Odense",
+      "hora": "13:00",
+      "odd": 1.83,
+      "odd_justa": 1.91,
       "fire": true,
-      "resultado": "ganho"
-     },
-     {
-      "fixture_id": 1494719,
-      "liga_id": 103,
-      "casa": "Fredrikstad",
-      "fora": "Sandefjord",
-      "hora": "15:00",
-      "odd": 1.95,
-      "odd_justa": 2.01,
-      "fire": true,
-      "resultado": "perdido"
+      "resultado": null
      }
     ],
-    "odd": 5.94,
-    "justa": 6.69,
+    "odd": 6.44,
+    "justa": 7.15,
     "u": 0.5,
-    "resultado": "red",
-    "por_decidir": 0
+    "resultado": null,
+    "por_decidir": 3
    },
    {
-    "data": "2026-08-01",
+    "data": "2026-08-02",
     "tipo": "dupla",
-    "hora": "06:02",
+    "hora": "06:04",
     "pernas": [
      {
-      "fixture_id": 1555355,
-      "liga_id": 207,
-      "casa": "Thun",
-      "fora": "Young Boys Bern",
-      "hora": "19:30",
-      "odd": 1.63,
-      "odd_justa": 1.73,
+      "fixture_id": 1557983,
+      "liga_id": 373,
+      "casa": "Radomlje",
+      "fora": "Bravo",
+      "hora": "17:00",
+      "odd": 1.83,
+      "odd_justa": 2.02,
       "fire": true,
-      "resultado": "ganho"
+      "resultado": null
      },
      {
-      "fixture_id": 1523222,
-      "liga_id": 169,
-      "casa": "Shanghai SIPG",
-      "fora": "Shandong Luneng",
-      "hora": "12:35",
-      "odd": 1.58,
-      "odd_justa": 1.72,
+      "fixture_id": 1575891,
+      "liga_id": 110,
+      "casa": "Penybont",
+      "fora": "New Saints",
+      "hora": "14:30",
+      "odd": 1.95,
+      "odd_justa": 2.04,
       "fire": true,
-      "resultado": "perdido"
+      "resultado": null
      }
     ],
-    "odd": 2.58,
-    "justa": 2.98,
+    "odd": 3.57,
+    "justa": 4.12,
     "u": 0.5,
-    "resultado": "red",
-    "por_decidir": 0
+    "resultado": null,
+    "por_decidir": 2
    }
   ],
   "ultimo": {
-   "data": "2026-08-01",
+   "data": "2026-08-02",
    "tipo": "dupla",
-   "hora": "06:02",
+   "hora": "06:04",
    "pernas": [
     {
-     "fixture_id": 1555355,
-     "liga_id": 207,
-     "casa": "Thun",
-     "fora": "Young Boys Bern",
-     "hora": "19:30",
-     "odd": 1.63,
-     "odd_justa": 1.73,
+     "fixture_id": 1557983,
+     "liga_id": 373,
+     "casa": "Radomlje",
+     "fora": "Bravo",
+     "hora": "17:00",
+     "odd": 1.83,
+     "odd_justa": 2.02,
      "fire": true,
-     "resultado": "ganho"
+     "resultado": null
     },
     {
-     "fixture_id": 1523222,
-     "liga_id": 169,
-     "casa": "Shanghai SIPG",
-     "fora": "Shandong Luneng",
-     "hora": "12:35",
-     "odd": 1.58,
-     "odd_justa": 1.72,
+     "fixture_id": 1575891,
+     "liga_id": 110,
+     "casa": "Penybont",
+     "fora": "New Saints",
+     "hora": "14:30",
+     "odd": 1.95,
+     "odd_justa": 2.04,
      "fire": true,
-     "resultado": "perdido"
+     "resultado": null
     }
    ],
-   "odd": 2.58,
-   "justa": 2.98,
+   "odd": 3.57,
+   "justa": 4.12,
    "u": 0.5,
-   "resultado": "red",
-   "por_decidir": 0
+   "resultado": null,
+   "por_decidir": 2
   }
  },
  "historico_sinais": [
-  {
-   "data": "2026-06-06",
-   "hora": "00:50",
-   "estrategia": "Golos (arquivo)",
-   "liga": "Campeonato do Brasil. Série B",
-   "jogo": "Operário Ferroviário - Esporte Clube Juventude",
-   "mercado": "Over 2",
-   "odd": 1.79,
-   "resultado": "ganho"
-  },
-  {
-   "data": "2026-06-06",
-   "hora": "00:50",
-   "estrategia": "Golos (arquivo)",
-   "liga": "Campeonato do Brasil. Série B",
-   "jogo": "Operário Ferroviário - Esporte Clube Juventude",
-   "mercado": "Over 2.5",
-   "odd": 2.66,
-   "resultado": "ganho"
-  },
-  {
-   "data": "2026-06-06",
-   "hora": "01:45",
-   "estrategia": "Golos (arquivo)",
-   "liga": "Amigáveis. Seleções Nacionais",
-   "jogo": "Canadá - República da Irlanda",
-   "mercado": "Over 2.5",
-   "odd": 2.47,
-   "resultado": "perdido"
-  },
   {
    "data": "2026-06-06",
    "hora": "01:45",
@@ -3857,6 +3781,56 @@
    "mercado": "Over 3.5 FT",
    "odd": 2.3,
    "resultado": "perdido"
+  },
+  {
+   "data": "2026-08-02",
+   "hora": "06:04",
+   "estrategia": "Combinada do Dia",
+   "liga": "Premier League",
+   "jogo": "Connah`s Quay vs Caernarfon",
+   "mercado": "Over 1.5 2ª Parte",
+   "odd": 2.0,
+   "resultado": null
+  },
+  {
+   "data": "2026-08-02",
+   "hora": "06:04",
+   "estrategia": "Combinada do Dia",
+   "liga": "1. Division",
+   "jogo": "Egersund vs Sandnes",
+   "mercado": "Over 1.5 2ª Parte",
+   "odd": 1.76,
+   "resultado": null
+  },
+  {
+   "data": "2026-08-02",
+   "hora": "06:04",
+   "estrategia": "Combinada do Dia",
+   "liga": "Superliga",
+   "jogo": "Midtjylland vs Odense",
+   "mercado": "Over 1.5 2ª Parte",
+   "odd": 1.83,
+   "resultado": null
+  },
+  {
+   "data": "2026-08-02",
+   "hora": "06:04",
+   "estrategia": "Combinada do Dia",
+   "liga": "1. SNL",
+   "jogo": "Radomlje vs Bravo",
+   "mercado": "Over 1.5 2ª Parte",
+   "odd": 1.83,
+   "resultado": null
+  },
+  {
+   "data": "2026-08-02",
+   "hora": "06:04",
+   "estrategia": "Combinada do Dia",
+   "liga": "Premier League",
+   "jogo": "Penybont vs New Saints",
+   "mercado": "Over 1.5 2ª Parte",
+   "odd": 1.95,
+   "resultado": null
   }
  ]
 }
