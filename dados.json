@@ -8,8 +8,8 @@
    "fim": "2026-01-31"
   },
   "cresc_pct": 56.91,
-  "apostas": 993,
-  "ganhos": 564,
+  "apostas": 994,
+  "ganhos": 565,
   "perdidos": 429,
   "wr": 56.8,
   "meses": [
@@ -65,17 +65,17 @@
    {
     "mes": "2026-08",
     "label": "Ago 26",
-    "cresc_pct": -0.49,
-    "apostas": 4,
-    "wr": 50.0
+    "cresc_pct": 0.14,
+    "apostas": 5,
+    "wr": 60.0
    }
   ],
   "por_mercado": [
    {
     "mercado": "Over Cantos FT",
-    "n": 534,
+    "n": 535,
     "wr": 58.1,
-    "roi": 25.74,
+    "roi": 26.37,
     "pl_eur": 1369.94
    },
    {
@@ -126,7 +126,6 @@
    "ganho",
    "ganho",
    "ganho",
-   "ganho",
    "perdido",
    "perdido",
    "ganho",
@@ -136,6 +135,7 @@
    "perdido",
    "ganho",
    "perdido",
+   "ganho",
    "ganho"
   ],
   "historico": [
@@ -145,10 +145,10 @@
     "jogo": "Zemun x Radnicki",
     "mercado": "⛳ Over 7.5 corners · FT",
     "categoria": "Over Cantos FT",
-    "odd": null,
-    "pl_pct": null,
+    "odd": 1.84,
+    "pl_pct": 0.63,
     "stake_pct": 0.75,
-    "resultado": "pendente",
+    "resultado": "ganho",
     "confianca": 7
    },
    {
