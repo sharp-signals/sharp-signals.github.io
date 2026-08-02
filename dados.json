@@ -8,10 +8,10 @@
    "fim": "2026-01-31"
   },
   "cresc_pct": 56.91,
-  "apostas": 994,
-  "ganhos": 565,
+  "apostas": 995,
+  "ganhos": 566,
   "perdidos": 429,
-  "wr": 56.8,
+  "wr": 56.9,
   "meses": [
    {
     "mes": "2025-08",
@@ -65,17 +65,17 @@
    {
     "mes": "2026-08",
     "label": "Ago 26",
-    "cresc_pct": 0.14,
-    "apostas": 5,
-    "wr": 60.0
+    "cresc_pct": 0.77,
+    "apostas": 6,
+    "wr": 66.7
    }
   ],
   "por_mercado": [
    {
     "mercado": "Over Cantos FT",
-    "n": 535,
-    "wr": 58.1,
-    "roi": 26.37,
+    "n": 536,
+    "wr": 58.2,
+    "roi": 27.0,
     "pl_eur": 1369.94
    },
    {
@@ -125,7 +125,6 @@
    "ganho",
    "ganho",
    "ganho",
-   "ganho",
    "perdido",
    "perdido",
    "ganho",
@@ -135,6 +134,7 @@
    "perdido",
    "ganho",
    "perdido",
+   "ganho",
    "ganho",
    "ganho"
   ],
@@ -145,10 +145,10 @@
     "jogo": "Brinje x Koper",
     "mercado": "⛳ Over 11 corners · FT",
     "categoria": "Over Cantos FT",
-    "odd": null,
-    "pl_pct": null,
+    "odd": 1.84,
+    "pl_pct": 0.63,
     "stake_pct": 0.75,
-    "resultado": "pendente",
+    "resultado": "ganho",
     "confianca": 7
    },
    {
