@@ -331,5 +331,22 @@
       "golos_apos_casa": 1,
       "golos_apos_fora": 0
     }
+  ],
+  "2026-08-03": [
+    {
+      "timestamp": "2026-08-03T01:33:45.343592",
+      "jogo": "River Plate vs Rosario Central",
+      "liga": "Liga Profesional Argentina",
+      "janela": "SHARK ATTACK",
+      "tempo_alerta": 58,
+      "estrelas": 7.5,
+      "cantos_no_ref": 7,
+      "cantos_final": 14,
+      "cantos_apos_alerta": 7,
+      "meta_cantos": 4,
+      "resultado": "WIN",
+      "golos_apos_casa": 0,
+      "golos_apos_fora": 0
+    }
   ]
 }
