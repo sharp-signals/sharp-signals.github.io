@@ -3,7 +3,7 @@
   "nome": "Goal Sharp Elite",
   "tagline": "Pre-Live & Live Goal Intelligence"
  },
- "atualizado": "2026-08-04T02:18:49",
+ "atualizado": "2026-08-04T06:02:31",
  "geral": {
   "inicio": "2026-06-06",
   "fim": "2026-08-03",
@@ -62,29 +62,21 @@
   "desde": "2026-06-21"
  },
  "diario": {
-  "inicio": "2026-08-03",
-  "fim": "2026-08-03",
-  "sinais": 1,
-  "ganhos": 1,
+  "inicio": "2026-08-04",
+  "fim": "2026-08-04",
+  "sinais": 0,
+  "ganhos": 0,
   "perdidos": 0,
   "push": 0,
   "pendentes": 0,
-  "wr": 100.0,
-  "lucro_u": 1.0,
-  "roi": 100.0,
-  "por_estrategia": {
-   "Golos 2ª Parte": {
-    "n": 1,
-    "g": 1,
-    "p": 0,
-    "lucro": 1.0,
-    "wr": 100.0
-   }
-  }
+  "wr": 0.0,
+  "lucro_u": 0.0,
+  "roi": 0.0,
+  "por_estrategia": {}
  },
  "semanal": {
   "inicio": "2026-08-03",
-  "fim": "2026-08-03",
+  "fim": "2026-08-04",
   "sinais": 1,
   "ganhos": 1,
   "perdidos": 0,
@@ -105,7 +97,7 @@
  },
  "mensal": {
   "inicio": "2026-08-01",
-  "fim": "2026-08-03",
+  "fim": "2026-08-04",
   "sinais": 26,
   "ganhos": 11,
   "perdidos": 15,
@@ -847,29 +839,21 @@
     }
    },
    "diario": {
-    "inicio": "2026-08-03",
-    "fim": "2026-08-03",
-    "sinais": 1,
-    "ganhos": 1,
+    "inicio": "2026-08-04",
+    "fim": "2026-08-04",
+    "sinais": 0,
+    "ganhos": 0,
     "perdidos": 0,
     "push": 0,
     "pendentes": 0,
-    "wr": 100.0,
-    "lucro_u": 1.0,
-    "roi": 100.0,
-    "por_estrategia": {
-     "Golos 2ª Parte": {
-      "n": 1,
-      "g": 1,
-      "p": 0,
-      "lucro": 1.0,
-      "wr": 100.0
-     }
-    }
+    "wr": 0.0,
+    "lucro_u": 0.0,
+    "roi": 0.0,
+    "por_estrategia": {}
    },
    "semanal": {
     "inicio": "2026-08-03",
-    "fim": "2026-08-03",
+    "fim": "2026-08-04",
     "sinais": 1,
     "ganhos": 1,
     "perdidos": 0,
@@ -890,7 +874,7 @@
    },
    "mensal": {
     "inicio": "2026-08-01",
-    "fim": "2026-08-03",
+    "fim": "2026-08-04",
     "sinais": 26,
     "ganhos": 11,
     "perdidos": 15,
@@ -1169,8 +1153,8 @@
     }
    },
    "diario": {
-    "inicio": "2026-08-03",
-    "fim": "2026-08-03",
+    "inicio": "2026-08-04",
+    "fim": "2026-08-04",
     "sinais": 0,
     "ganhos": 0,
     "perdidos": 0,
@@ -1183,7 +1167,7 @@
    },
    "semanal": {
     "inicio": "2026-08-03",
-    "fim": "2026-08-03",
+    "fim": "2026-08-04",
     "sinais": 0,
     "ganhos": 0,
     "perdidos": 0,
@@ -1196,7 +1180,7 @@
    },
    "mensal": {
     "inicio": "2026-08-01",
-    "fim": "2026-08-03",
+    "fim": "2026-08-04",
     "sinais": 0,
     "ganhos": 0,
     "perdidos": 0,
@@ -1274,29 +1258,21 @@
     }
    },
    "diario": {
-    "inicio": "2026-08-03",
-    "fim": "2026-08-03",
-    "sinais": 1,
-    "ganhos": 1,
+    "inicio": "2026-08-04",
+    "fim": "2026-08-04",
+    "sinais": 0,
+    "ganhos": 0,
     "perdidos": 0,
     "push": 0,
     "pendentes": 0,
-    "wr": 100.0,
-    "lucro_u": 1.0,
-    "roi": 100.0,
-    "por_estrategia": {
-     "Golos 2ª Parte": {
-      "n": 1,
-      "g": 1,
-      "p": 0,
-      "lucro": 1.0,
-      "wr": 100.0
-     }
-    }
+    "wr": 0.0,
+    "lucro_u": 0.0,
+    "roi": 0.0,
+    "por_estrategia": {}
    },
    "semanal": {
     "inicio": "2026-08-03",
-    "fim": "2026-08-03",
+    "fim": "2026-08-04",
     "sinais": 1,
     "ganhos": 1,
     "perdidos": 0,
@@ -1317,7 +1293,7 @@
    },
    "mensal": {
     "inicio": "2026-08-01",
-    "fim": "2026-08-03",
+    "fim": "2026-08-04",
     "sinais": 4,
     "ganhos": 2,
     "perdidos": 2,
@@ -1463,8 +1439,8 @@
     }
    },
    "diario": {
-    "inicio": "2026-08-03",
-    "fim": "2026-08-03",
+    "inicio": "2026-08-04",
+    "fim": "2026-08-04",
     "sinais": 0,
     "ganhos": 0,
     "perdidos": 0,
@@ -1477,7 +1453,7 @@
    },
    "semanal": {
     "inicio": "2026-08-03",
-    "fim": "2026-08-03",
+    "fim": "2026-08-04",
     "sinais": 0,
     "ganhos": 0,
     "perdidos": 0,
@@ -1490,7 +1466,7 @@
    },
    "mensal": {
     "inicio": "2026-08-01",
-    "fim": "2026-08-03",
+    "fim": "2026-08-04",
     "sinais": 22,
     "ganhos": 9,
     "perdidos": 13,
@@ -1698,58 +1674,7 @@
    "dias_verde_pct": 44.4
   }
  },
- "tip_do_dia": [
-  {
-   "hora": "18:00",
-   "liga": "Superliga",
-   "jogo": "Odense vs SonderjyskE",
-   "mercado": "Over 1.5 · 2ª parte",
-   "odd": 1.85,
-   "bilhete": "tripla",
-   "fire": false,
-   "resultado": "perdido"
-  },
-  {
-   "hora": "18:00",
-   "liga": "Allsvenskan",
-   "jogo": "Halmstad vs Sirius",
-   "mercado": "Over 1.5 · 2ª parte",
-   "odd": 1.73,
-   "bilhete": "tripla",
-   "fire": false,
-   "resultado": "perdido"
-  },
-  {
-   "hora": "17:00",
-   "liga": "First Division",
-   "jogo": "Wexford vs Bray Wanderers",
-   "mercado": "Over 1.5 · 2ª parte",
-   "odd": 1.92,
-   "bilhete": "tripla",
-   "fire": false,
-   "resultado": "perdido"
-  },
-  {
-   "hora": "16:30",
-   "liga": "NB I",
-   "jogo": "Zalaegerszeg vs Paksi",
-   "mercado": "Over 1.5 · 2ª parte",
-   "odd": 1.8,
-   "bilhete": "dupla",
-   "fire": false,
-   "resultado": "ganho"
-  },
-  {
-   "hora": "17:00",
-   "liga": "First Division",
-   "jogo": "Longford Town vs Finn Harps",
-   "mercado": "Over 1.5 · 2ª parte",
-   "odd": 2.2,
-   "bilhete": "dupla",
-   "fire": false,
-   "resultado": "ganho"
-  }
- ],
+ "tip_do_dia": [],
  "por_estrategia": {
   "Golos (arquivo)": {
    "n": 31,
