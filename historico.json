@@ -378,5 +378,22 @@
       "golos_apos_casa": 0,
       "golos_apos_fora": 1
     }
+  ],
+  "2026-08-04": [
+    {
+      "timestamp": "2026-08-04T03:23:12.240429",
+      "jogo": "LDU de Quito vs Delfin SC",
+      "liga": "Liga Pro",
+      "janela": "FINAL PUSH",
+      "tempo_alerta": 80,
+      "estrelas": 8.5,
+      "cantos_no_ref": 6,
+      "cantos_final": 9,
+      "cantos_apos_alerta": 3,
+      "meta_cantos": 2,
+      "resultado": "WIN",
+      "golos_apos_casa": 2,
+      "golos_apos_fora": 0
+    }
   ]
 }
