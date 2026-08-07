@@ -3,10 +3,10 @@
   "nome": "Goal Sharp Elite",
   "tagline": "Pre-Live & Live Goal Intelligence"
  },
- "atualizado": "2026-08-07T04:30:24",
+ "atualizado": "2026-08-07T06:04:25",
  "geral": {
   "inicio": "2026-06-06",
-  "fim": "2026-08-03",
+  "fim": "2026-08-07",
   "sinais": 178,
   "ganhos": 106,
   "perdidos": 67,
@@ -62,8 +62,8 @@
   "desde": "2026-06-21"
  },
  "diario": {
-  "inicio": "2026-08-06",
-  "fim": "2026-08-06",
+  "inicio": "2026-08-07",
+  "fim": "2026-08-07",
   "sinais": 0,
   "ganhos": 0,
   "perdidos": 0,
@@ -76,7 +76,7 @@
  },
  "semanal": {
   "inicio": "2026-08-03",
-  "fim": "2026-08-06",
+  "fim": "2026-08-07",
   "sinais": 1,
   "ganhos": 1,
   "perdidos": 0,
@@ -97,7 +97,7 @@
  },
  "mensal": {
   "inicio": "2026-08-01",
-  "fim": "2026-08-06",
+  "fim": "2026-08-07",
   "sinais": 26,
   "ganhos": 11,
   "perdidos": 15,
@@ -839,8 +839,8 @@
     }
    },
    "diario": {
-    "inicio": "2026-08-06",
-    "fim": "2026-08-06",
+    "inicio": "2026-08-07",
+    "fim": "2026-08-07",
     "sinais": 0,
     "ganhos": 0,
     "perdidos": 0,
@@ -853,7 +853,7 @@
    },
    "semanal": {
     "inicio": "2026-08-03",
-    "fim": "2026-08-06",
+    "fim": "2026-08-07",
     "sinais": 1,
     "ganhos": 1,
     "perdidos": 0,
@@ -874,7 +874,7 @@
    },
    "mensal": {
     "inicio": "2026-08-01",
-    "fim": "2026-08-06",
+    "fim": "2026-08-07",
     "sinais": 26,
     "ganhos": 11,
     "perdidos": 15,
@@ -1153,8 +1153,8 @@
     }
    },
    "diario": {
-    "inicio": "2026-08-06",
-    "fim": "2026-08-06",
+    "inicio": "2026-08-07",
+    "fim": "2026-08-07",
     "sinais": 0,
     "ganhos": 0,
     "perdidos": 0,
@@ -1167,7 +1167,7 @@
    },
    "semanal": {
     "inicio": "2026-08-03",
-    "fim": "2026-08-06",
+    "fim": "2026-08-07",
     "sinais": 0,
     "ganhos": 0,
     "perdidos": 0,
@@ -1180,7 +1180,7 @@
    },
    "mensal": {
     "inicio": "2026-08-01",
-    "fim": "2026-08-06",
+    "fim": "2026-08-07",
     "sinais": 0,
     "ganhos": 0,
     "perdidos": 0,
@@ -1258,8 +1258,8 @@
     }
    },
    "diario": {
-    "inicio": "2026-08-06",
-    "fim": "2026-08-06",
+    "inicio": "2026-08-07",
+    "fim": "2026-08-07",
     "sinais": 0,
     "ganhos": 0,
     "perdidos": 0,
@@ -1272,7 +1272,7 @@
    },
    "semanal": {
     "inicio": "2026-08-03",
-    "fim": "2026-08-06",
+    "fim": "2026-08-07",
     "sinais": 1,
     "ganhos": 1,
     "perdidos": 0,
@@ -1293,7 +1293,7 @@
    },
    "mensal": {
     "inicio": "2026-08-01",
-    "fim": "2026-08-06",
+    "fim": "2026-08-07",
     "sinais": 4,
     "ganhos": 2,
     "perdidos": 2,
@@ -1439,8 +1439,8 @@
     }
    },
    "diario": {
-    "inicio": "2026-08-06",
-    "fim": "2026-08-06",
+    "inicio": "2026-08-07",
+    "fim": "2026-08-07",
     "sinais": 0,
     "ganhos": 0,
     "perdidos": 0,
@@ -1453,7 +1453,7 @@
    },
    "semanal": {
     "inicio": "2026-08-03",
-    "fim": "2026-08-06",
+    "fim": "2026-08-07",
     "sinais": 0,
     "ganhos": 0,
     "perdidos": 0,
@@ -1466,7 +1466,7 @@
    },
    "mensal": {
     "inicio": "2026-08-01",
-    "fim": "2026-08-06",
+    "fim": "2026-08-07",
     "sinais": 22,
     "ganhos": 9,
     "perdidos": 13,
@@ -1674,7 +1674,58 @@
    "dias_verde_pct": 44.4
   }
  },
- "tip_do_dia": [],
+ "tip_do_dia": [
+  {
+   "hora": "19:45",
+   "liga": "Premier League",
+   "jogo": "Caernarfon vs Penybont",
+   "mercado": "Over 1.5 · 2ª parte",
+   "odd": 2.0,
+   "bilhete": "tripla",
+   "fire": true,
+   "resultado": null
+  },
+  {
+   "hora": "19:45",
+   "liga": "Premier League",
+   "jogo": "New Saints vs Haverfordwest",
+   "mercado": "Over 1.5 · 2ª parte",
+   "odd": 1.85,
+   "bilhete": "tripla",
+   "fire": true,
+   "resultado": null
+  },
+  {
+   "hora": "19:00",
+   "liga": "Eerste Divisie",
+   "jogo": "Dordrecht vs Jong Alkmaar",
+   "mercado": "Over 1.5 · 2ª parte",
+   "odd": 1.7,
+   "bilhete": "tripla",
+   "fire": true,
+   "resultado": null
+  },
+  {
+   "hora": "19:30",
+   "liga": "1. Lig",
+   "jogo": "Boluspor vs Manisaspor",
+   "mercado": "Over 1.5 · 2ª parte",
+   "odd": 1.95,
+   "bilhete": "dupla",
+   "fire": false,
+   "resultado": null
+  },
+  {
+   "hora": "19:00",
+   "liga": "Eerste Divisie",
+   "jogo": "Emmen vs Roda",
+   "mercado": "Over 1.5 · 2ª parte",
+   "odd": 1.7,
+   "bilhete": "dupla",
+   "fire": false,
+   "resultado": null
+  }
+ ],
  "por_estrategia": {
   "Golos (arquivo)": {
    "n": 31,
@@ -1709,178 +1760,128 @@
   "escada": []
  },
  "combinada": {
-  "boletins": 12,
+  "boletins": 14,
   "greens": 2,
   "reds": 10,
-  "pendentes": 0,
+  "pendentes": 2,
   "lucro": -4.02,
   "ultimos": [
    {
-    "data": "2026-08-03",
+    "data": "2026-08-07",
     "tipo": "tripla",
-    "hora": "06:02",
+    "hora": "06:03",
     "pernas": [
      {
-      "fixture_id": 1548985,
-      "liga_id": 119,
-      "casa": "Odense",
-      "fora": "SonderjyskE",
-      "hora": "18:00",
+      "fixture_id": 1575894,
+      "liga_id": 110,
+      "casa": "Caernarfon",
+      "fora": "Penybont",
+      "hora": "19:45",
+      "odd": 2.0,
+      "odd_justa": 2.1,
+      "fire": true,
+      "resultado": null
+     },
+     {
+      "fixture_id": 1575898,
+      "liga_id": 110,
+      "casa": "New Saints",
+      "fora": "Haverfordwest",
+      "hora": "19:45",
       "odd": 1.85,
-      "odd_justa": 2.03,
-      "fire": false,
-      "resultado": "perdido"
+      "odd_justa": 1.97,
+      "fire": true,
+      "resultado": null
      },
      {
-      "fixture_id": 1494232,
-      "liga_id": 113,
-      "casa": "Halmstad",
-      "fora": "Sirius",
-      "hora": "18:00",
-      "odd": 1.73,
-      "odd_justa": 1.77,
-      "fire": false,
-      "resultado": "perdido"
-     },
-     {
-      "fixture_id": 1492949,
-      "liga_id": 358,
-      "casa": "Wexford",
-      "fora": "Bray Wanderers",
-      "hora": "17:00",
-      "odd": 1.92,
-      "odd_justa": 2.03,
-      "fire": false,
-      "resultado": "perdido"
+      "fixture_id": 1551737,
+      "liga_id": 89,
+      "casa": "Dordrecht",
+      "fora": "Jong Alkmaar",
+      "hora": "19:00",
+      "odd": 1.7,
+      "odd_justa": 1.75,
+      "fire": true,
+      "resultado": null
      }
     ],
-    "odd": 6.14,
-    "justa": 7.29,
+    "odd": 6.29,
+    "justa": 7.24,
     "u": 0.5,
-    "resultado": "red",
-    "por_decidir": 0
+    "resultado": null,
+    "por_decidir": 3
    },
    {
-    "data": "2026-08-03",
+    "data": "2026-08-07",
     "tipo": "dupla",
-    "hora": "06:02",
+    "hora": "06:03",
     "pernas": [
      {
-      "fixture_id": 1560212,
-      "liga_id": 271,
-      "casa": "Zalaegerszeg",
-      "fora": "Paksi",
-      "hora": "16:30",
-      "odd": 1.8,
-      "odd_justa": 2.0,
+      "fixture_id": 1585692,
+      "liga_id": 204,
+      "casa": "Boluspor",
+      "fora": "Manisaspor",
+      "hora": "19:30",
+      "odd": 1.95,
+      "odd_justa": 2.01,
       "fire": false,
-      "resultado": "ganho"
+      "resultado": null
      },
      {
-      "fixture_id": 1492947,
-      "liga_id": 358,
-      "casa": "Longford Town",
-      "fora": "Finn Harps",
-      "hora": "17:00",
-      "odd": 2.2,
-      "odd_justa": 2.18,
+      "fixture_id": 1551738,
+      "liga_id": 89,
+      "casa": "Emmen",
+      "fora": "Roda",
+      "hora": "19:00",
+      "odd": 1.7,
+      "odd_justa": 1.96,
       "fire": false,
-      "resultado": "ganho"
+      "resultado": null
      }
     ],
-    "odd": 3.96,
-    "justa": 4.36,
+    "odd": 3.31,
+    "justa": 3.94,
     "u": 0.5,
-    "resultado": "green",
-    "por_decidir": 0
+    "resultado": null,
+    "por_decidir": 2
    }
   ],
   "ultimo": {
-   "data": "2026-08-03",
+   "data": "2026-08-07",
    "tipo": "dupla",
-   "hora": "06:02",
+   "hora": "06:03",
    "pernas": [
     {
-     "fixture_id": 1560212,
-     "liga_id": 271,
-     "casa": "Zalaegerszeg",
-     "fora": "Paksi",
-     "hora": "16:30",
-     "odd": 1.8,
-     "odd_justa": 2.0,
+     "fixture_id": 1585692,
+     "liga_id": 204,
+     "casa": "Boluspor",
+     "fora": "Manisaspor",
+     "hora": "19:30",
+     "odd": 1.95,
+     "odd_justa": 2.01,
      "fire": false,
-     "resultado": "ganho"
+     "resultado": null
     },
     {
-     "fixture_id": 1492947,
-     "liga_id": 358,
-     "casa": "Longford Town",
-     "fora": "Finn Harps",
-     "hora": "17:00",
-     "odd": 2.2,
-     "odd_justa": 2.18,
+     "fixture_id": 1551738,
+     "liga_id": 89,
+     "casa": "Emmen",
+     "fora": "Roda",
+     "hora": "19:00",
+     "odd": 1.7,
+     "odd_justa": 1.96,
      "fire": false,
-     "resultado": "ganho"
+     "resultado": null
     }
    ],
-   "odd": 3.96,
-   "justa": 4.36,
+   "odd": 3.31,
+   "justa": 3.94,
    "u": 0.5,
-   "resultado": "green",
-   "por_decidir": 0
+   "resultado": null,
+   "por_decidir": 2
   }
  },
  "historico_sinais": [
-  {
-   "data": "2026-06-07",
-   "hora": "23:08",
-   "estrategia": "Golos (arquivo)",
-   "liga": "Campeonato do Uruguai. 2ª Divisão",
-   "jogo": "Tacuarembo - Uruguay Montevideo",
-   "mercado": "Over 1.5",
-   "odd": 2.95,
-   "resultado": "perdido"
-  },
-  {
-   "data": "2026-06-07",
-   "hora": "23:08",
-   "estrategia": "Golos (arquivo)",
-   "liga": "Campeonato do Uruguai. 2ª Divisão",
-   "jogo": "Tacuarembo - Uruguay Montevideo",
-   "mercado": "Over 1",
-   "odd": 1.0,
-   "resultado": "push"
-  },
-  {
-   "data": "2026-06-07",
-   "hora": "23:18",
-   "estrategia": "Golos (arquivo)",
-   "liga": "Campeonato do Uruguai. 1ª Divisão",
-   "jogo": "Defensor Sporting - Club Atletico Boston River",
-   "mercado": "Over 1.5",
-   "odd": 2.21,
-   "resultado": "ganho"
-  },
-  {
-   "data": "2026-06-07",
-   "hora": "23:18",
-   "estrategia": "Golos (arquivo)",
-   "liga": "Campeonato do Uruguai. 1ª Divisão",
-   "jogo": "Defensor Sporting - Club Atletico Boston River",
-   "mercado": "Over 1",
-   "odd": 1.44,
-   "resultado": "ganho"
-  },
-  {
-   "data": "2026-06-09",
-   "hora": "00:55",
-   "estrategia": "Golos (arquivo)",
-   "liga": "Campeonato do Brasil. Série B",
-   "jogo": "America Minas Gerais - Clube Atlético de Goianiense",
-   "mercado": "Over 3.5",
-   "odd": 2.65,
-   "resultado": "perdido"
-  },
   {
    "data": "2026-06-09",
    "hora": "00:55",
@@ -3830,6 +3831,56 @@
    "mercado": "Over 1.5 · 2ª parte",
    "odd": 2.0,
    "resultado": "ganho"
+  },
+  {
+   "data": "2026-08-07",
+   "hora": "06:03",
+   "estrategia": "Combinada do Dia",
+   "liga": "Premier League",
+   "jogo": "Caernarfon vs Penybont",
+   "mercado": "Over 1.5 2ª Parte",
+   "odd": 2.0,
+   "resultado": null
+  },
+  {
+   "data": "2026-08-07",
+   "hora": "06:03",
+   "estrategia": "Combinada do Dia",
+   "liga": "Premier League",
+   "jogo": "New Saints vs Haverfordwest",
+   "mercado": "Over 1.5 2ª Parte",
+   "odd": 1.85,
+   "resultado": null
+  },
+  {
+   "data": "2026-08-07",
+   "hora": "06:03",
+   "estrategia": "Combinada do Dia",
+   "liga": "Eerste Divisie",
+   "jogo": "Dordrecht vs Jong Alkmaar",
+   "mercado": "Over 1.5 2ª Parte",
+   "odd": 1.7,
+   "resultado": null
+  },
+  {
+   "data": "2026-08-07",
+   "hora": "06:03",
+   "estrategia": "Combinada do Dia",
+   "liga": "1. Lig",
+   "jogo": "Boluspor vs Manisaspor",
+   "mercado": "Over 1.5 2ª Parte",
+   "odd": 1.95,
+   "resultado": null
+  },
+  {
+   "data": "2026-08-07",
+   "hora": "06:03",
+   "estrategia": "Combinada do Dia",
+   "liga": "Eerste Divisie",
+   "jogo": "Emmen vs Roda",
+   "mercado": "Over 1.5 2ª Parte",
+   "odd": 1.7,
+   "resultado": null
   }
  ]
 }
