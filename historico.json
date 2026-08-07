@@ -443,6 +443,21 @@
       "resultado": "WIN",
       "golos_apos_casa": 0,
       "golos_apos_fora": 0
+    },
+    {
+      "timestamp": "2026-08-07T21:18:37.049054",
+      "jogo": "FC OSS vs NAC Breda",
+      "liga": "Eerste Divisie",
+      "janela": "FINAL PUSH",
+      "tempo_alerta": 77,
+      "estrelas": 7.0,
+      "cantos_no_ref": 11,
+      "cantos_final": 11,
+      "cantos_apos_alerta": 0,
+      "meta_cantos": 2,
+      "resultado": "LOSS",
+      "golos_apos_casa": 0,
+      "golos_apos_fora": 1
     }
   ]
 }
