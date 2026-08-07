@@ -3,15 +3,15 @@
   "nome": "Goal Sharp Elite",
   "tagline": "Pre-Live & Live Goal Intelligence"
  },
- "atualizado": "2026-08-07T06:04:25",
+ "atualizado": "2026-08-07T22:16:34",
  "geral": {
   "inicio": "2026-06-06",
   "fim": "2026-08-07",
-  "sinais": 178,
+  "sinais": 182,
   "ganhos": 106,
   "perdidos": 67,
   "push": 5,
-  "pendentes": 0,
+  "pendentes": 4,
   "wr": 61.3,
   "lucro_u": 30.77,
   "roi": 17.8,
@@ -31,7 +31,7 @@
     "wr": 57.7
    },
    "Golos 2ª Parte": {
-    "n": 24,
+    "n": 28,
     "g": 16,
     "p": 8,
     "lucro": 7.13,
@@ -41,18 +41,18 @@
  },
  "verificado": {
   "inicio": "2026-06-21",
-  "fim": "2026-08-03",
-  "sinais": 24,
+  "fim": "2026-08-07",
+  "sinais": 28,
   "ganhos": 16,
   "perdidos": 8,
   "push": 0,
-  "pendentes": 0,
+  "pendentes": 4,
   "wr": 66.7,
   "lucro_u": 7.13,
   "roi": 29.7,
   "por_estrategia": {
    "Golos 2ª Parte": {
-    "n": 24,
+    "n": 28,
     "g": 16,
     "p": 8,
     "lucro": 7.13,
@@ -64,30 +64,38 @@
  "diario": {
   "inicio": "2026-08-07",
   "fim": "2026-08-07",
-  "sinais": 0,
+  "sinais": 4,
   "ganhos": 0,
   "perdidos": 0,
   "push": 0,
-  "pendentes": 0,
+  "pendentes": 4,
   "wr": 0.0,
   "lucro_u": 0.0,
   "roi": 0.0,
-  "por_estrategia": {}
+  "por_estrategia": {
+   "Golos 2ª Parte": {
+    "n": 4,
+    "g": 0,
+    "p": 0,
+    "lucro": 0.0,
+    "wr": 0.0
+   }
+  }
  },
  "semanal": {
   "inicio": "2026-08-03",
   "fim": "2026-08-07",
-  "sinais": 1,
+  "sinais": 5,
   "ganhos": 1,
   "perdidos": 0,
   "push": 0,
-  "pendentes": 0,
+  "pendentes": 4,
   "wr": 100.0,
   "lucro_u": 1.0,
   "roi": 100.0,
   "por_estrategia": {
    "Golos 2ª Parte": {
-    "n": 1,
+    "n": 5,
     "g": 1,
     "p": 0,
     "lucro": 1.0,
@@ -98,11 +106,11 @@
  "mensal": {
   "inicio": "2026-08-01",
   "fim": "2026-08-07",
-  "sinais": 26,
+  "sinais": 30,
   "ganhos": 11,
   "perdidos": 15,
   "push": 0,
-  "pendentes": 0,
+  "pendentes": 4,
   "wr": 42.3,
   "lucro_u": -4.52,
   "roi": -17.4,
@@ -115,7 +123,7 @@
     "wr": 40.9
    },
    "Golos 2ª Parte": {
-    "n": 4,
+    "n": 8,
     "g": 2,
     "p": 2,
     "lucro": 0.15,
@@ -327,6 +335,12 @@
    "sinais": 1,
    "lucro_dia": 1.0,
    "lucro_acum": 30.77
+  },
+  {
+   "data": "2026-08-07",
+   "sinais": 4,
+   "lucro_dia": 0.0,
+   "lucro_acum": 30.77
   }
  ],
  "serie_por_estrategia": {
@@ -534,6 +548,12 @@
     "sinais": 1,
     "lucro_dia": 1.0,
     "lucro_acum": 30.77
+   },
+   {
+    "data": "2026-08-07",
+    "sinais": 4,
+    "lucro_dia": 0.0,
+    "lucro_acum": 30.77
    }
   ],
   "Golos (arquivo)": [
@@ -633,6 +653,12 @@
     "data": "2026-08-03",
     "sinais": 1,
     "lucro_dia": 1.0,
+    "lucro_acum": 7.13
+   },
+   {
+    "data": "2026-08-07",
+    "sinais": 4,
+    "lucro_dia": 0.0,
     "lucro_acum": 7.13
    }
   ],
@@ -805,12 +831,12 @@
   "Total": {
    "geral": {
     "inicio": "2026-06-06",
-    "fim": "2026-08-03",
-    "sinais": 178,
+    "fim": "2026-08-07",
+    "sinais": 182,
     "ganhos": 106,
     "perdidos": 67,
     "push": 5,
-    "pendentes": 0,
+    "pendentes": 4,
     "wr": 61.3,
     "lucro_u": 30.77,
     "roi": 17.8,
@@ -830,7 +856,7 @@
       "wr": 57.7
      },
      "Golos 2ª Parte": {
-      "n": 24,
+      "n": 28,
       "g": 16,
       "p": 8,
       "lucro": 7.13,
@@ -841,30 +867,38 @@
    "diario": {
     "inicio": "2026-08-07",
     "fim": "2026-08-07",
-    "sinais": 0,
+    "sinais": 4,
     "ganhos": 0,
     "perdidos": 0,
     "push": 0,
-    "pendentes": 0,
+    "pendentes": 4,
     "wr": 0.0,
     "lucro_u": 0.0,
     "roi": 0.0,
-    "por_estrategia": {}
+    "por_estrategia": {
+     "Golos 2ª Parte": {
+      "n": 4,
+      "g": 0,
+      "p": 0,
+      "lucro": 0.0,
+      "wr": 0.0
+     }
+    }
    },
    "semanal": {
     "inicio": "2026-08-03",
     "fim": "2026-08-07",
-    "sinais": 1,
+    "sinais": 5,
     "ganhos": 1,
     "perdidos": 0,
     "push": 0,
-    "pendentes": 0,
+    "pendentes": 4,
     "wr": 100.0,
     "lucro_u": 1.0,
     "roi": 100.0,
     "por_estrategia": {
      "Golos 2ª Parte": {
-      "n": 1,
+      "n": 5,
       "g": 1,
       "p": 0,
       "lucro": 1.0,
@@ -875,11 +909,11 @@
    "mensal": {
     "inicio": "2026-08-01",
     "fim": "2026-08-07",
-    "sinais": 26,
+    "sinais": 30,
     "ganhos": 11,
     "perdidos": 15,
     "push": 0,
-    "pendentes": 0,
+    "pendentes": 4,
     "wr": 42.3,
     "lucro_u": -4.52,
     "roi": -17.4,
@@ -892,7 +926,7 @@
       "wr": 40.9
      },
      "Golos 2ª Parte": {
-      "n": 4,
+      "n": 8,
       "g": 2,
       "p": 2,
       "lucro": 0.15,
@@ -1104,6 +1138,12 @@
      "sinais": 1,
      "lucro_dia": 1.0,
      "lucro_acum": 30.77
+    },
+    {
+     "data": "2026-08-07",
+     "sinais": 4,
+     "lucro_dia": 0.0,
+     "lucro_acum": 30.77
     }
    ],
    "streak_atual": 1,
@@ -1128,12 +1168,12 @@
    "melhor_dia": 8.35,
    "melhor_dia_data": "2026-06-07",
    "maior_odd": 3.1,
-   "dias_verde_pct": 50.0
+   "dias_verde_pct": 48.6
   },
   "Golos (arquivo)": {
    "geral": {
     "inicio": "2026-06-06",
-    "fim": "2026-08-03",
+    "fim": "2026-08-07",
     "sinais": 31,
     "ganhos": 19,
     "perdidos": 7,
@@ -1238,18 +1278,18 @@
   "Golos 2ª Parte": {
    "geral": {
     "inicio": "2026-06-06",
-    "fim": "2026-08-03",
-    "sinais": 24,
+    "fim": "2026-08-07",
+    "sinais": 28,
     "ganhos": 16,
     "perdidos": 8,
     "push": 0,
-    "pendentes": 0,
+    "pendentes": 4,
     "wr": 66.7,
     "lucro_u": 7.13,
     "roi": 29.7,
     "por_estrategia": {
      "Golos 2ª Parte": {
-      "n": 24,
+      "n": 28,
       "g": 16,
       "p": 8,
       "lucro": 7.13,
@@ -1260,30 +1300,38 @@
    "diario": {
     "inicio": "2026-08-07",
     "fim": "2026-08-07",
-    "sinais": 0,
+    "sinais": 4,
     "ganhos": 0,
     "perdidos": 0,
     "push": 0,
-    "pendentes": 0,
+    "pendentes": 4,
     "wr": 0.0,
     "lucro_u": 0.0,
     "roi": 0.0,
-    "por_estrategia": {}
+    "por_estrategia": {
+     "Golos 2ª Parte": {
+      "n": 4,
+      "g": 0,
+      "p": 0,
+      "lucro": 0.0,
+      "wr": 0.0
+     }
+    }
    },
    "semanal": {
     "inicio": "2026-08-03",
     "fim": "2026-08-07",
-    "sinais": 1,
+    "sinais": 5,
     "ganhos": 1,
     "perdidos": 0,
     "push": 0,
-    "pendentes": 0,
+    "pendentes": 4,
     "wr": 100.0,
     "lucro_u": 1.0,
     "roi": 100.0,
     "por_estrategia": {
      "Golos 2ª Parte": {
-      "n": 1,
+      "n": 5,
       "g": 1,
       "p": 0,
       "lucro": 1.0,
@@ -1294,17 +1342,17 @@
    "mensal": {
     "inicio": "2026-08-01",
     "fim": "2026-08-07",
-    "sinais": 4,
+    "sinais": 8,
     "ganhos": 2,
     "perdidos": 2,
     "push": 0,
-    "pendentes": 0,
+    "pendentes": 4,
     "wr": 50.0,
     "lucro_u": 0.15,
     "roi": 3.7,
     "por_estrategia": {
      "Golos 2ª Parte": {
-      "n": 4,
+      "n": 8,
       "g": 2,
       "p": 2,
       "lucro": 0.15,
@@ -1390,6 +1438,12 @@
      "sinais": 1,
      "lucro_dia": 1.0,
      "lucro_acum": 7.13
+    },
+    {
+     "data": "2026-08-07",
+     "sinais": 4,
+     "lucro_dia": 0.0,
+     "lucro_acum": 7.13
     }
    ],
    "streak_atual": 2,
@@ -1414,12 +1468,12 @@
    "melhor_dia": 4.11,
    "melhor_dia_data": "2026-07-31",
    "maior_odd": 2.65,
-   "dias_verde_pct": 61.5
+   "dias_verde_pct": 57.1
   },
   "Sharp Pick": {
    "geral": {
     "inicio": "2026-06-06",
-    "fim": "2026-08-03",
+    "fim": "2026-08-07",
     "sinais": 123,
     "ganhos": 71,
     "perdidos": 52,
@@ -1683,7 +1737,7 @@
    "odd": 2.0,
    "bilhete": "tripla",
    "fire": true,
-   "resultado": null
+   "resultado": "perdido"
   },
   {
    "hora": "19:45",
@@ -1693,7 +1747,7 @@
    "odd": 1.85,
    "bilhete": "tripla",
    "fire": true,
-   "resultado": null
+   "resultado": "perdido"
   },
   {
    "hora": "19:00",
@@ -1703,7 +1757,7 @@
    "odd": 1.7,
    "bilhete": "tripla",
    "fire": true,
-   "resultado": null
+   "resultado": "perdido"
   },
   {
    "hora": "19:30",
@@ -1713,7 +1767,7 @@
    "odd": 1.95,
    "bilhete": "dupla",
    "fire": false,
-   "resultado": null
+   "resultado": "perdido"
   },
   {
    "hora": "19:00",
@@ -1723,7 +1777,7 @@
    "odd": 1.7,
    "bilhete": "dupla",
    "fire": false,
-   "resultado": null
+   "resultado": "perdido"
   }
  ],
  "por_estrategia": {
@@ -1742,7 +1796,7 @@
    "wr": 57.7
   },
   "Golos 2ª Parte": {
-   "n": 24,
+   "n": 28,
    "g": 16,
    "p": 8,
    "lucro": 7.13,
@@ -1762,9 +1816,9 @@
  "combinada": {
   "boletins": 14,
   "greens": 2,
-  "reds": 10,
-  "pendentes": 2,
-  "lucro": -4.02,
+  "reds": 12,
+  "pendentes": 0,
+  "lucro": -5.02,
   "ultimos": [
    {
     "data": "2026-08-07",
@@ -1780,7 +1834,7 @@
       "odd": 2.0,
       "odd_justa": 2.1,
       "fire": true,
-      "resultado": null
+      "resultado": "perdido"
      },
      {
       "fixture_id": 1575898,
@@ -1791,7 +1845,7 @@
       "odd": 1.85,
       "odd_justa": 1.97,
       "fire": true,
-      "resultado": null
+      "resultado": "perdido"
      },
      {
       "fixture_id": 1551737,
@@ -1802,14 +1856,14 @@
       "odd": 1.7,
       "odd_justa": 1.75,
       "fire": true,
-      "resultado": null
+      "resultado": "perdido"
      }
     ],
     "odd": 6.29,
     "justa": 7.24,
     "u": 0.5,
-    "resultado": null,
-    "por_decidir": 3
+    "resultado": "red",
+    "por_decidir": 0
    },
    {
     "data": "2026-08-07",
@@ -1825,7 +1879,7 @@
       "odd": 1.95,
       "odd_justa": 2.01,
       "fire": false,
-      "resultado": null
+      "resultado": "perdido"
      },
      {
       "fixture_id": 1551738,
@@ -1836,14 +1890,14 @@
       "odd": 1.7,
       "odd_justa": 1.96,
       "fire": false,
-      "resultado": null
+      "resultado": "perdido"
      }
     ],
     "odd": 3.31,
     "justa": 3.94,
     "u": 0.5,
-    "resultado": null,
-    "por_decidir": 2
+    "resultado": "red",
+    "por_decidir": 0
    }
   ],
   "ultimo": {
@@ -1860,7 +1914,7 @@
      "odd": 1.95,
      "odd_justa": 2.01,
      "fire": false,
-     "resultado": null
+     "resultado": "perdido"
     },
     {
      "fixture_id": 1551738,
@@ -1871,57 +1925,17 @@
      "odd": 1.7,
      "odd_justa": 1.96,
      "fire": false,
-     "resultado": null
+     "resultado": "perdido"
     }
    ],
    "odd": 3.31,
    "justa": 3.94,
    "u": 0.5,
-   "resultado": null,
-   "por_decidir": 2
+   "resultado": "red",
+   "por_decidir": 0
   }
  },
  "historico_sinais": [
-  {
-   "data": "2026-06-09",
-   "hora": "00:55",
-   "estrategia": "Golos (arquivo)",
-   "liga": "Campeonato do Brasil. Série B",
-   "jogo": "America Minas Gerais - Clube Atlético de Goianiense",
-   "mercado": "Over 3",
-   "odd": 1.0,
-   "resultado": "push"
-  },
-  {
-   "data": "2026-06-10",
-   "hora": "15:49",
-   "estrategia": "Sharp Pick",
-   "liga": "Suomen Cup",
-   "jogo": "KuPS 0-0 VPS",
-   "mercado": "Over 1.5 FT",
-   "odd": 1.25,
-   "resultado": "perdido"
-  },
-  {
-   "data": "2026-06-13",
-   "hora": "14:49",
-   "estrategia": "Sharp Pick",
-   "liga": "Premier League",
-   "jogo": "Kairat Almaty 1-0 Atyrau",
-   "mercado": "Over 2.5 FT",
-   "odd": 1.9,
-   "resultado": "perdido"
-  },
-  {
-   "data": "2026-06-13",
-   "hora": "14:54",
-   "estrategia": "Sharp Pick",
-   "liga": "1. Division",
-   "jogo": "Molodechno-DYuSSh 4 1-0 FC Energetik-Bgu Minsk",
-   "mercado": "Over 2.5 FT",
-   "odd": null,
-   "resultado": "ganho"
-  },
   {
    "data": "2026-06-13",
    "hora": "16:01",
@@ -3840,7 +3854,7 @@
    "jogo": "Caernarfon vs Penybont",
    "mercado": "Over 1.5 2ª Parte",
    "odd": 2.0,
-   "resultado": null
+   "resultado": "perdido"
   },
   {
    "data": "2026-08-07",
@@ -3850,7 +3864,7 @@
    "jogo": "New Saints vs Haverfordwest",
    "mercado": "Over 1.5 2ª Parte",
    "odd": 1.85,
-   "resultado": null
+   "resultado": "perdido"
   },
   {
    "data": "2026-08-07",
@@ -3860,7 +3874,7 @@
    "jogo": "Dordrecht vs Jong Alkmaar",
    "mercado": "Over 1.5 2ª Parte",
    "odd": 1.7,
-   "resultado": null
+   "resultado": "perdido"
   },
   {
    "data": "2026-08-07",
@@ -3870,7 +3884,7 @@
    "jogo": "Boluspor vs Manisaspor",
    "mercado": "Over 1.5 2ª Parte",
    "odd": 1.95,
-   "resultado": null
+   "resultado": "perdido"
   },
   {
    "data": "2026-08-07",
@@ -3880,6 +3894,46 @@
    "jogo": "Emmen vs Roda",
    "mercado": "Over 1.5 2ª Parte",
    "odd": 1.7,
+   "resultado": "perdido"
+  },
+  {
+   "data": "2026-08-07",
+   "hora": "19:49",
+   "estrategia": "Golos 2ª Parte",
+   "liga": "Eerste Divisie",
+   "jogo": "Dordrecht vs Jong Ajax",
+   "mercado": "Over 1.5 · 2ª parte",
+   "odd": 1.825,
+   "resultado": null
+  },
+  {
+   "data": "2026-08-07",
+   "hora": "19:50",
+   "estrategia": "Golos 2ª Parte",
+   "liga": "Eerste Divisie",
+   "jogo": "Vitesse vs Waalwijk",
+   "mercado": "Over 1.5 · 2ª parte",
+   "odd": 2.15,
+   "resultado": null
+  },
+  {
+   "data": "2026-08-07",
+   "hora": "20:20",
+   "estrategia": "Golos 2ª Parte",
+   "liga": "2. Liga",
+   "jogo": "FC BW Linz vs Wacker Innsbruck",
+   "mercado": "Over 1.5 · 2ª parte",
+   "odd": 2.0,
+   "resultado": null
+  },
+  {
+   "data": "2026-08-07",
+   "hora": "20:21",
+   "estrategia": "Golos 2ª Parte",
+   "liga": "1. Lig",
+   "jogo": "Boluspor vs Manisa F.K.",
+   "mercado": "Over 1.5 · 2ª parte",
+   "odd": 2.1,
    "resultado": null
   }
  ]
