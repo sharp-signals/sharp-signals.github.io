@@ -474,5 +474,22 @@
       "golos_apos_casa": 0,
       "golos_apos_fora": 0
     }
+  ],
+  "2026-08-08": [
+    {
+      "timestamp": "2026-08-08T17:11:09.488250",
+      "jogo": "Burton Albion vs Blackburn",
+      "liga": "League Cup",
+      "janela": "MID PRESSURE",
+      "tempo_alerta": 67,
+      "estrelas": 7.5,
+      "cantos_no_ref": 10,
+      "cantos_final": 13,
+      "cantos_apos_alerta": 3,
+      "meta_cantos": 3,
+      "resultado": "WIN",
+      "golos_apos_casa": 0,
+      "golos_apos_fora": 2
+    }
   ]
 }
