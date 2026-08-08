@@ -505,6 +505,21 @@
       "resultado": "LOSS",
       "golos_apos_casa": 1,
       "golos_apos_fora": 0
+    },
+    {
+      "timestamp": "2026-08-08T17:41:24.197561",
+      "jogo": "NEC Nijmegen vs Telstar",
+      "liga": "Eredivisie",
+      "janela": "MID PRESSURE",
+      "tempo_alerta": 68,
+      "estrelas": 8.0,
+      "cantos_no_ref": 11,
+      "cantos_final": 16,
+      "cantos_apos_alerta": 5,
+      "meta_cantos": 3,
+      "resultado": "WIN",
+      "golos_apos_casa": 1,
+      "golos_apos_fora": 0
     }
   ]
 }
