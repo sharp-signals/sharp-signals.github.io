@@ -8,8 +8,8 @@
    "fim": "2026-01-31"
   },
   "cresc_pct": 56.91,
-  "apostas": 1004,
-  "ganhos": 570,
+  "apostas": 1005,
+  "ganhos": 571,
   "perdidos": 434,
   "wr": 56.8,
   "meses": [
@@ -65,17 +65,17 @@
    {
     "mes": "2026-08",
     "label": "Ago 26",
-    "cresc_pct": 0.34,
-    "apostas": 15,
-    "wr": 53.3
+    "cresc_pct": 0.97,
+    "apostas": 16,
+    "wr": 56.2
    }
   ],
   "por_mercado": [
    {
     "mercado": "Over Cantos FT",
-    "n": 540,
-    "wr": 58.1,
-    "roi": 26.51,
+    "n": 541,
+    "wr": 58.2,
+    "roi": 27.14,
     "pl_eur": 1369.94
    },
    {
@@ -122,7 +122,6 @@
    }
   ],
   "forma": [
-   "perdido",
    "ganho",
    "perdido",
    "ganho",
@@ -136,7 +135,8 @@
    "ganho",
    "perdido",
    "ganho",
-   "perdido"
+   "perdido",
+   "ganho"
   ],
   "historico": [
    {
@@ -145,10 +145,10 @@
     "jogo": "Nacional x Boston River",
     "mercado": "⛳ Over 10.5 corners · FT",
     "categoria": "Over Cantos FT",
-    "odd": null,
-    "pl_pct": null,
+    "odd": 1.84,
+    "pl_pct": 0.63,
     "stake_pct": 0.75,
-    "resultado": "pendente",
+    "resultado": "ganho",
     "confianca": 7
    },
    {
