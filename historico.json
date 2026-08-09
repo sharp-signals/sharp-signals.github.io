@@ -551,5 +551,22 @@
       "golos_apos_casa": 0,
       "golos_apos_fora": 2
     }
+  ],
+  "2026-08-09": [
+    {
+      "timestamp": "2026-08-09T03:47:48.806036",
+      "jogo": "Independiente vs Platense",
+      "liga": "Liga Profesional Argentina",
+      "janela": "MID PRESSURE",
+      "tempo_alerta": 65,
+      "estrelas": 9.5,
+      "cantos_no_ref": 8,
+      "cantos_final": 14,
+      "cantos_apos_alerta": 6,
+      "meta_cantos": 3,
+      "resultado": "WIN",
+      "golos_apos_casa": 0,
+      "golos_apos_fora": 0
+    }
   ]
 }
