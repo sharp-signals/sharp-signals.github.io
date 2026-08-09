@@ -8,8 +8,8 @@
    "fim": "2026-01-31"
   },
   "cresc_pct": 56.91,
-  "apostas": 999,
-  "ganhos": 567,
+  "apostas": 1000,
+  "ganhos": 568,
   "perdidos": 432,
   "wr": 56.8,
   "meses": [
@@ -65,17 +65,17 @@
    {
     "mes": "2026-08",
     "label": "Ago 26",
-    "cresc_pct": -0.05,
-    "apostas": 10,
-    "wr": 50.0
+    "cresc_pct": 0.58,
+    "apostas": 11,
+    "wr": 54.5
    }
   ],
   "por_mercado": [
    {
     "mercado": "Over Cantos FT",
-    "n": 537,
-    "wr": 58.1,
-    "roi": 26.0,
+    "n": 538,
+    "wr": 58.2,
+    "roi": 26.63,
     "pl_eur": 1369.94
    },
    {
@@ -122,7 +122,6 @@
    }
   ],
   "forma": [
-   "perdido",
    "ganho",
    "ganho",
    "ganho",
@@ -136,7 +135,8 @@
    "ganho",
    "perdido",
    "perdido",
-   "perdido"
+   "perdido",
+   "ganho"
   ],
   "historico": [
    {
@@ -157,10 +157,10 @@
     "jogo": "Helmond x Graafshap",
     "mercado": "⛳ Over 4.5 corners · FT",
     "categoria": "Over Cantos FT",
-    "odd": null,
-    "pl_pct": null,
+    "odd": 1.84,
+    "pl_pct": 0.63,
     "stake_pct": 0.75,
-    "resultado": "pendente",
+    "resultado": "ganho",
     "confianca": 7
    },
    {
