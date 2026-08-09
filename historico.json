@@ -642,6 +642,21 @@
       "resultado": "LOSS",
       "golos_apos_casa": 0,
       "golos_apos_fora": 0
+    },
+    {
+      "timestamp": "2026-08-09T20:41:11.253502",
+      "jogo": "Kristiansund BK vs Molde",
+      "liga": "Eliteserien",
+      "janela": "SHARK ATTACK",
+      "tempo_alerta": 56,
+      "estrelas": 9.0,
+      "cantos_no_ref": 10,
+      "cantos_final": 13,
+      "cantos_apos_alerta": 3,
+      "meta_cantos": 4,
+      "resultado": "LOSS",
+      "golos_apos_casa": 1,
+      "golos_apos_fora": 1
     }
   ]
 }
