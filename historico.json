@@ -597,6 +597,21 @@
       "resultado": "WIN",
       "golos_apos_casa": 0,
       "golos_apos_fora": 0
+    },
+    {
+      "timestamp": "2026-08-09T15:57:00.813098",
+      "jogo": "PEC Zwolle vs Ajax",
+      "liga": "Eredivisie",
+      "janela": "MID PRESSURE",
+      "tempo_alerta": 68,
+      "estrelas": 7.0,
+      "cantos_no_ref": 12,
+      "cantos_final": 12,
+      "cantos_apos_alerta": 0,
+      "meta_cantos": 3,
+      "resultado": "LOSS",
+      "golos_apos_casa": 0,
+      "golos_apos_fora": 2
     }
   ]
 }
