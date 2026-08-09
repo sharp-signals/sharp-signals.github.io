@@ -627,6 +627,21 @@
       "resultado": "WIN",
       "golos_apos_casa": 0,
       "golos_apos_fora": 2
+    },
+    {
+      "timestamp": "2026-08-09T18:33:00.635302",
+      "jogo": "Anderlecht vs RAAL La Louvière",
+      "liga": "Jupiler Pro League",
+      "janela": "HT ATTACK",
+      "tempo_alerta": 26,
+      "estrelas": 8.0,
+      "cantos_no_ref": 2,
+      "cantos_final": 3,
+      "cantos_apos_alerta": 1,
+      "meta_cantos": 2,
+      "resultado": "LOSS",
+      "golos_apos_casa": 0,
+      "golos_apos_fora": 0
     }
   ]
 }
