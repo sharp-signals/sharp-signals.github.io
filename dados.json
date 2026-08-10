@@ -8,9 +8,9 @@
    "fim": "2026-01-31"
   },
   "cresc_pct": 56.91,
-  "apostas": 1005,
+  "apostas": 1006,
   "ganhos": 571,
-  "perdidos": 434,
+  "perdidos": 435,
   "wr": 56.8,
   "meses": [
    {
@@ -65,17 +65,17 @@
    {
     "mes": "2026-08",
     "label": "Ago 26",
-    "cresc_pct": 0.97,
-    "apostas": 16,
-    "wr": 56.2
+    "cresc_pct": 0.22,
+    "apostas": 17,
+    "wr": 52.9
    }
   ],
   "por_mercado": [
    {
     "mercado": "Over Cantos FT",
-    "n": 541,
-    "wr": 58.2,
-    "roi": 27.14,
+    "n": 542,
+    "wr": 58.1,
+    "roi": 26.39,
     "pl_eur": 1369.94
    },
    {
@@ -122,7 +122,6 @@
    }
   ],
   "forma": [
-   "ganho",
    "perdido",
    "ganho",
    "ganho",
@@ -136,7 +135,8 @@
    "perdido",
    "ganho",
    "perdido",
-   "ganho"
+   "ganho",
+   "perdido"
   ],
   "historico": [
    {
@@ -145,10 +145,10 @@
     "jogo": "Vasteras x Djurgardens",
     "mercado": "⛳ Over 12.5 corners · FT",
     "categoria": "Over Cantos FT",
-    "odd": null,
-    "pl_pct": null,
+    "odd": 1.84,
+    "pl_pct": -0.75,
     "stake_pct": 0.75,
-    "resultado": "pendente",
+    "resultado": "perdido",
     "confianca": 7
    },
    {
