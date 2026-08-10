@@ -658,5 +658,22 @@
       "golos_apos_casa": 1,
       "golos_apos_fora": 1
     }
+  ],
+  "2026-08-10": [
+    {
+      "timestamp": "2026-08-10T22:09:33.384815",
+      "jogo": "Plymouth vs Exeter City",
+      "liga": "League Cup",
+      "janela": "SHARK ATTACK",
+      "tempo_alerta": 56,
+      "estrelas": 7.5,
+      "cantos_no_ref": 4,
+      "cantos_final": 12,
+      "cantos_apos_alerta": 8,
+      "meta_cantos": 4,
+      "resultado": "WIN",
+      "golos_apos_casa": 2,
+      "golos_apos_fora": 0
+    }
   ]
 }
