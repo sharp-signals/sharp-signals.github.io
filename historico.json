@@ -691,6 +691,21 @@
       "resultado": "LOSS",
       "golos_apos_casa": 0,
       "golos_apos_fora": 1
+    },
+    {
+      "timestamp": "2026-08-11T03:35:16.408047",
+      "jogo": "Union Santa Fe vs Central Cordoba de Santiago",
+      "liga": "Liga Profesional Argentina",
+      "janela": "FINAL PUSH",
+      "tempo_alerta": 77,
+      "estrelas": 8.0,
+      "cantos_no_ref": 10,
+      "cantos_final": 12,
+      "cantos_apos_alerta": 2,
+      "meta_cantos": 2,
+      "resultado": "WIN",
+      "golos_apos_casa": 0,
+      "golos_apos_fora": 0
     }
   ]
 }
