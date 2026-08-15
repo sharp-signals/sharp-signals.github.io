@@ -17,15 +17,15 @@
    "pode_nao_publicar": true
   }
  },
- "atualizado": "2026-08-15T06:04:38",
+ "atualizado": "2026-08-15T12:50:57",
  "geral": {
   "inicio": "2026-06-06",
-  "fim": "2026-08-13",
-  "sinais": 205,
+  "fim": "2026-08-15",
+  "sinais": 206,
   "ganhos": 113,
   "perdidos": 87,
   "push": 5,
-  "pendentes": 0,
+  "pendentes": 1,
   "wr": 56.5,
   "lucro_u": 18.67,
   "roi": 9.3,
@@ -45,7 +45,7 @@
     "wr": 56.1
    },
    "Golos 2ª Parte": {
-    "n": 42,
+    "n": 43,
     "g": 20,
     "p": 22,
     "lucro": -2.24,
@@ -55,18 +55,18 @@
  },
  "verificado": {
   "inicio": "2026-06-21",
-  "fim": "2026-08-10",
-  "sinais": 42,
+  "fim": "2026-08-15",
+  "sinais": 43,
   "ganhos": 20,
   "perdidos": 22,
   "push": 0,
-  "pendentes": 0,
+  "pendentes": 1,
   "wr": 47.6,
   "lucro_u": -2.24,
   "roi": -5.3,
   "por_estrategia": {
    "Golos 2ª Parte": {
-    "n": 42,
+    "n": 43,
     "g": 20,
     "p": 22,
     "lucro": -2.24,
@@ -78,30 +78,38 @@
  "diario": {
   "inicio": "2026-08-15",
   "fim": "2026-08-15",
-  "sinais": 0,
+  "sinais": 1,
   "ganhos": 0,
   "perdidos": 0,
   "push": 0,
-  "pendentes": 0,
+  "pendentes": 1,
   "wr": 0.0,
   "lucro_u": 0.0,
   "roi": 0.0,
-  "por_estrategia": {}
+  "por_estrategia": {
+   "Golos 2ª Parte": {
+    "n": 1,
+    "g": 0,
+    "p": 0,
+    "lucro": 0.0,
+    "wr": 0.0
+   }
+  }
  },
  "semanal": {
   "inicio": "2026-08-10",
   "fim": "2026-08-15",
-  "sinais": 7,
+  "sinais": 8,
   "ganhos": 4,
   "perdidos": 3,
   "push": 0,
-  "pendentes": 0,
+  "pendentes": 1,
   "wr": 57.1,
   "lucro_u": 1.43,
   "roi": 20.4,
   "por_estrategia": {
    "Golos 2ª Parte": {
-    "n": 2,
+    "n": 3,
     "g": 2,
     "p": 0,
     "lucro": 2.46,
@@ -119,11 +127,11 @@
  "mensal": {
   "inicio": "2026-08-01",
   "fim": "2026-08-15",
-  "sinais": 53,
+  "sinais": 54,
   "ganhos": 18,
   "perdidos": 35,
   "push": 0,
-  "pendentes": 0,
+  "pendentes": 1,
   "wr": 34.0,
   "lucro_u": -16.62,
   "roi": -31.4,
@@ -136,7 +144,7 @@
     "wr": 38.7
    },
    "Golos 2ª Parte": {
-    "n": 22,
+    "n": 23,
     "g": 6,
     "p": 16,
     "lucro": -9.22,
@@ -384,6 +392,12 @@
    "sinais": 3,
    "lucro_dia": -3.0,
    "lucro_acum": 18.67
+  },
+  {
+   "data": "2026-08-15",
+   "sinais": 1,
+   "lucro_dia": 0.0,
+   "lucro_acum": 18.67
   }
  ],
  "serie_por_estrategia": {
@@ -627,6 +641,12 @@
     "sinais": 3,
     "lucro_dia": -3.0,
     "lucro_acum": 18.67
+   },
+   {
+    "data": "2026-08-15",
+    "sinais": 1,
+    "lucro_dia": 0.0,
+    "lucro_acum": 18.67
    }
   ],
   "Golos (arquivo)": [
@@ -750,6 +770,12 @@
     "data": "2026-08-10",
     "sinais": 2,
     "lucro_dia": 2.46,
+    "lucro_acum": -2.24
+   },
+   {
+    "data": "2026-08-15",
+    "sinais": 1,
+    "lucro_dia": 0.0,
     "lucro_acum": -2.24
    }
   ],
@@ -946,12 +972,12 @@
   "Total": {
    "geral": {
     "inicio": "2026-06-06",
-    "fim": "2026-08-13",
-    "sinais": 205,
+    "fim": "2026-08-15",
+    "sinais": 206,
     "ganhos": 113,
     "perdidos": 87,
     "push": 5,
-    "pendentes": 0,
+    "pendentes": 1,
     "wr": 56.5,
     "lucro_u": 18.67,
     "roi": 9.3,
@@ -971,7 +997,7 @@
       "wr": 56.1
      },
      "Golos 2ª Parte": {
-      "n": 42,
+      "n": 43,
       "g": 20,
       "p": 22,
       "lucro": -2.24,
@@ -982,30 +1008,38 @@
    "diario": {
     "inicio": "2026-08-15",
     "fim": "2026-08-15",
-    "sinais": 0,
+    "sinais": 1,
     "ganhos": 0,
     "perdidos": 0,
     "push": 0,
-    "pendentes": 0,
+    "pendentes": 1,
     "wr": 0.0,
     "lucro_u": 0.0,
     "roi": 0.0,
-    "por_estrategia": {}
+    "por_estrategia": {
+     "Golos 2ª Parte": {
+      "n": 1,
+      "g": 0,
+      "p": 0,
+      "lucro": 0.0,
+      "wr": 0.0
+     }
+    }
    },
    "semanal": {
     "inicio": "2026-08-10",
     "fim": "2026-08-15",
-    "sinais": 7,
+    "sinais": 8,
     "ganhos": 4,
     "perdidos": 3,
     "push": 0,
-    "pendentes": 0,
+    "pendentes": 1,
     "wr": 57.1,
     "lucro_u": 1.43,
     "roi": 20.4,
     "por_estrategia": {
      "Golos 2ª Parte": {
-      "n": 2,
+      "n": 3,
       "g": 2,
       "p": 0,
       "lucro": 2.46,
@@ -1023,11 +1057,11 @@
    "mensal": {
     "inicio": "2026-08-01",
     "fim": "2026-08-15",
-    "sinais": 53,
+    "sinais": 54,
     "ganhos": 18,
     "perdidos": 35,
     "push": 0,
-    "pendentes": 0,
+    "pendentes": 1,
     "wr": 34.0,
     "lucro_u": -16.62,
     "roi": -31.4,
@@ -1040,7 +1074,7 @@
       "wr": 38.7
      },
      "Golos 2ª Parte": {
-      "n": 22,
+      "n": 23,
       "g": 6,
       "p": 16,
       "lucro": -9.22,
@@ -1288,6 +1322,12 @@
      "sinais": 3,
      "lucro_dia": -3.0,
      "lucro_acum": 18.67
+    },
+    {
+     "data": "2026-08-15",
+     "sinais": 1,
+     "lucro_dia": 0.0,
+     "lucro_acum": 18.67
     }
    ],
    "streak_atual": 0,
@@ -1312,12 +1352,12 @@
    "melhor_dia": 8.35,
    "melhor_dia_data": "2026-06-07",
    "maior_odd": 3.1,
-   "dias_verde_pct": 47.5
+   "dias_verde_pct": 46.3
   },
   "Golos (arquivo)": {
    "geral": {
     "inicio": "2026-06-06",
-    "fim": "2026-08-13",
+    "fim": "2026-08-15",
     "sinais": 31,
     "ganhos": 19,
     "perdidos": 7,
@@ -1422,18 +1462,18 @@
   "Golos 2ª Parte": {
    "geral": {
     "inicio": "2026-06-06",
-    "fim": "2026-08-13",
-    "sinais": 42,
+    "fim": "2026-08-15",
+    "sinais": 43,
     "ganhos": 20,
     "perdidos": 22,
     "push": 0,
-    "pendentes": 0,
+    "pendentes": 1,
     "wr": 47.6,
     "lucro_u": -2.24,
     "roi": -5.3,
     "por_estrategia": {
      "Golos 2ª Parte": {
-      "n": 42,
+      "n": 43,
       "g": 20,
       "p": 22,
       "lucro": -2.24,
@@ -1444,30 +1484,38 @@
    "diario": {
     "inicio": "2026-08-15",
     "fim": "2026-08-15",
-    "sinais": 0,
+    "sinais": 1,
     "ganhos": 0,
     "perdidos": 0,
     "push": 0,
-    "pendentes": 0,
+    "pendentes": 1,
     "wr": 0.0,
     "lucro_u": 0.0,
     "roi": 0.0,
-    "por_estrategia": {}
+    "por_estrategia": {
+     "Golos 2ª Parte": {
+      "n": 1,
+      "g": 0,
+      "p": 0,
+      "lucro": 0.0,
+      "wr": 0.0
+     }
+    }
    },
    "semanal": {
     "inicio": "2026-08-10",
     "fim": "2026-08-15",
-    "sinais": 2,
+    "sinais": 3,
     "ganhos": 2,
     "perdidos": 0,
     "push": 0,
-    "pendentes": 0,
+    "pendentes": 1,
     "wr": 100.0,
     "lucro_u": 2.46,
     "roi": 123.0,
     "por_estrategia": {
      "Golos 2ª Parte": {
-      "n": 2,
+      "n": 3,
       "g": 2,
       "p": 0,
       "lucro": 2.46,
@@ -1478,17 +1526,17 @@
    "mensal": {
     "inicio": "2026-08-01",
     "fim": "2026-08-15",
-    "sinais": 22,
+    "sinais": 23,
     "ganhos": 6,
     "perdidos": 16,
     "push": 0,
-    "pendentes": 0,
+    "pendentes": 1,
     "wr": 27.3,
     "lucro_u": -9.22,
     "roi": -41.9,
     "por_estrategia": {
      "Golos 2ª Parte": {
-      "n": 22,
+      "n": 23,
       "g": 6,
       "p": 16,
       "lucro": -9.22,
@@ -1598,6 +1646,12 @@
      "sinais": 2,
      "lucro_dia": 2.46,
      "lucro_acum": -2.24
+    },
+    {
+     "data": "2026-08-15",
+     "sinais": 1,
+     "lucro_dia": 0.0,
+     "lucro_acum": -2.24
     }
    ],
    "streak_atual": 2,
@@ -1622,12 +1676,12 @@
    "melhor_dia": 4.11,
    "melhor_dia_data": "2026-07-31",
    "maior_odd": 2.65,
-   "dias_verde_pct": 52.9
+   "dias_verde_pct": 50.0
   },
   "Sharp Pick": {
    "geral": {
     "inicio": "2026-06-06",
-    "fim": "2026-08-13",
+    "fim": "2026-08-15",
     "sinais": 132,
     "ganhos": 74,
     "perdidos": 58,
@@ -1931,7 +1985,7 @@
    "wr": 56.1
   },
   "Golos 2ª Parte": {
-   "n": 42,
+   "n": 43,
    "g": 20,
    "p": 22,
    "lucro": -2.24,
@@ -1958,16 +2012,6 @@
   }
  },
  "historico_sinais": [
-  {
-   "data": "2026-06-06",
-   "hora": "07:01",
-   "estrategia": "Golos (arquivo)",
-   "liga": "Campeonato do Japão",
-   "jogo": "Kashima Antlers - Vissel Kobe",
-   "mercado": "Over 1.5",
-   "odd": 2.12,
-   "resultado": "ganho"
-  },
   {
    "data": "2026-06-06",
    "hora": "07:09",
@@ -3957,6 +4001,16 @@
    "mercado": "Over 1.5 FT",
    "odd": 2.5,
    "resultado": "perdido"
+  },
+  {
+   "data": "2026-08-15",
+   "hora": "12:49",
+   "estrategia": "Golos 2ª Parte",
+   "liga": "Chinese Super League",
+   "jogo": "Shenyang Urban vs Sichuan Jiuniu",
+   "mercado": "Over 1.5 · 2ª parte",
+   "odd": 2.1,
+   "resultado": null
   }
  ]
 }
