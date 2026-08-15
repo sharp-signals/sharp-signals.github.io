@@ -801,5 +801,24 @@
       "golos_apos_casa": 0,
       "golos_apos_fora": 2
     }
+  ],
+  "2026-08-15": [
+    {
+      "alerta_id": "ce1:1520817:mid",
+      "fixture_id": 1520817,
+      "timestamp": "2026-08-15T01:43:09.251351",
+      "jogo": "Ponte Preta vs Nautico Recife",
+      "liga": "Serie B",
+      "janela": "MID PRESSURE",
+      "tempo_alerta": 68,
+      "estrelas": 8.5,
+      "cantos_no_ref": 8,
+      "cantos_final": 12,
+      "cantos_apos_alerta": 4,
+      "meta_cantos": 3,
+      "resultado": "WIN",
+      "golos_apos_casa": 0,
+      "golos_apos_fora": 0
+    }
   ]
 }
