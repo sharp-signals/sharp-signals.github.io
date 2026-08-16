@@ -8,10 +8,10 @@
    "fim": "2026-01-31"
   },
   "cresc_pct": 56.91,
-  "apostas": 1007,
+  "apostas": 1008,
   "ganhos": 572,
-  "perdidos": 435,
-  "wr": 56.8,
+  "perdidos": 436,
+  "wr": 56.7,
   "meses": [
    {
     "mes": "2025-08",
@@ -65,17 +65,17 @@
    {
     "mes": "2026-08",
     "label": "Ago 26",
-    "cresc_pct": 0.22,
-    "apostas": 18,
-    "wr": 55.6
+    "cresc_pct": -0.78,
+    "apostas": 19,
+    "wr": 52.6
    }
   ],
   "por_mercado": [
    {
     "mercado": "Over Cantos FT",
-    "n": 543,
-    "wr": 58.2,
-    "roi": 26.39,
+    "n": 544,
+    "wr": 58.1,
+    "roi": 25.39,
     "pl_eur": 1369.94
    },
    {
@@ -146,9 +146,9 @@
     "mercado": "⛳ Over 4 corners · FT",
     "categoria": "Over Cantos FT",
     "odd": null,
-    "pl_pct": null,
+    "pl_pct": -1.0,
     "stake_pct": 1.0,
-    "resultado": "pendente",
+    "resultado": "perdido",
     "confianca": 8
    },
    {
