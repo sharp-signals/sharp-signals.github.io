@@ -8,10 +8,10 @@
    "fim": "2026-01-31"
   },
   "cresc_pct": 56.91,
-  "apostas": 1012,
-  "ganhos": 575,
+  "apostas": 1013,
+  "ganhos": 576,
   "perdidos": 437,
-  "wr": 56.8,
+  "wr": 56.9,
   "meses": [
    {
     "mes": "2025-08",
@@ -65,9 +65,9 @@
    {
     "mes": "2026-08",
     "label": "Ago 26",
-    "cresc_pct": 0.99,
-    "apostas": 23,
-    "wr": 56.5
+    "cresc_pct": 1.62,
+    "apostas": 24,
+    "wr": 58.3
    }
   ],
   "por_mercado": [
@@ -101,9 +101,9 @@
    },
    {
     "mercado": "Race to X corners",
-    "n": 39,
-    "wr": 64.1,
-    "roi": 5.9,
+    "n": 40,
+    "wr": 65.0,
+    "roi": 6.53,
     "pl_eur": 324.76
    },
    {
@@ -125,7 +125,6 @@
    "ganho",
    "ganho",
    "ganho",
-   "ganho",
    "perdido",
    "perdido",
    "perdido",
@@ -136,6 +135,7 @@
    "perdido",
    "ganho",
    "perdido",
+   "ganho",
    "ganho"
   ],
   "historico": [
@@ -157,10 +157,10 @@
     "jogo": "Novi Pazar x Vojvodina",
     "mercado": "🏁 Race to 9 corners · Vojvodina",
     "categoria": "Race to X corners",
-    "odd": null,
-    "pl_pct": null,
+    "odd": 1.84,
+    "pl_pct": 0.63,
     "stake_pct": 0.75,
-    "resultado": "pendente",
+    "resultado": "ganho",
     "confianca": 7
    },
    {
