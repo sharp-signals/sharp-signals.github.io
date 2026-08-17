@@ -8,8 +8,8 @@
    "fim": "2026-01-31"
   },
   "cresc_pct": 56.91,
-  "apostas": 1011,
-  "ganhos": 574,
+  "apostas": 1012,
+  "ganhos": 575,
   "perdidos": 437,
   "wr": 56.8,
   "meses": [
@@ -65,17 +65,17 @@
    {
     "mes": "2026-08",
     "label": "Ago 26",
-    "cresc_pct": 0.36,
-    "apostas": 22,
-    "wr": 54.5
+    "cresc_pct": 0.99,
+    "apostas": 23,
+    "wr": 56.5
    }
   ],
   "por_mercado": [
    {
     "mercado": "Over Cantos FT",
-    "n": 545,
+    "n": 546,
     "wr": 58.2,
-    "roi": 26.65,
+    "roi": 27.28,
     "pl_eur": 1369.94
    },
    {
@@ -122,7 +122,6 @@
    }
   ],
   "forma": [
-   "perdido",
    "ganho",
    "ganho",
    "ganho",
@@ -136,7 +135,8 @@
    "ganho",
    "perdido",
    "ganho",
-   "perdido"
+   "perdido",
+   "ganho"
   ],
   "historico": [
    {
@@ -145,10 +145,10 @@
     "jogo": "Gagra x Spaeri",
     "mercado": "⛳ Over 6.5 corners · FT",
     "categoria": "Over Cantos FT",
-    "odd": null,
-    "pl_pct": null,
+    "odd": 1.84,
+    "pl_pct": 0.63,
     "stake_pct": 0.75,
-    "resultado": "pendente",
+    "resultado": "ganho",
     "confianca": 7
    },
    {
