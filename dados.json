@@ -65,7 +65,7 @@
    {
     "mes": "2026-08",
     "label": "Ago 26",
-    "cresc_pct": -0.27,
+    "cresc_pct": 0.36,
     "apostas": 22,
     "wr": 54.5
    }
@@ -75,7 +75,7 @@
     "mercado": "Over Cantos FT",
     "n": 545,
     "wr": 58.2,
-    "roi": 26.02,
+    "roi": 26.65,
     "pl_eur": 1369.94
    },
    {
@@ -145,7 +145,7 @@
     "jogo": "Plovdiv x Dunav Ruse",
     "mercado": "10.5. 7",
     "categoria": null,
-    "odd": null,
+    "odd": 1.84,
     "pl_pct": 0.0,
     "stake_pct": null,
     "resultado": "void"
@@ -156,8 +156,8 @@
     "jogo": "H. Kyriat x H. Tel Aviv",
     "mercado": "⛳ Over 7.5 corners · FT",
     "categoria": "Over Cantos FT",
-    "odd": null,
-    "pl_pct": null,
+    "odd": 1.84,
+    "pl_pct": 0.63,
     "stake_pct": 0.75,
     "resultado": "ganho",
     "confianca": 7
@@ -168,7 +168,7 @@
     "jogo": "Kiev x Kolos",
     "mercado": "⛳ Over 5.5 corners · FT",
     "categoria": "Over Cantos FT",
-    "odd": null,
+    "odd": 1.84,
     "pl_pct": 0.0,
     "stake_pct": 1.0,
     "resultado": "void",
@@ -180,7 +180,7 @@
     "jogo": "Kiev x Kolos",
     "mercado": "⛳ Over 2 corners · 1st half",
     "categoria": "Over Cantos HT",
-    "odd": null,
+    "odd": 1.84,
     "pl_pct": 0.0,
     "stake_pct": 0.75,
     "resultado": "void",
@@ -192,7 +192,7 @@
     "jogo": "Kiev x Kolos",
     "mercado": "⛳ Over 2.5 corners · 1st half",
     "categoria": "Over Cantos HT",
-    "odd": null,
+    "odd": 1.84,
     "pl_pct": -0.75,
     "stake_pct": 0.75,
     "resultado": "perdido",
