@@ -8,8 +8,8 @@
    "fim": "2026-01-31"
   },
   "cresc_pct": 56.91,
-  "apostas": 1013,
-  "ganhos": 576,
+  "apostas": 1014,
+  "ganhos": 577,
   "perdidos": 437,
   "wr": 56.9,
   "meses": [
@@ -65,17 +65,17 @@
    {
     "mes": "2026-08",
     "label": "Ago 26",
-    "cresc_pct": 1.62,
-    "apostas": 24,
-    "wr": 58.3
+    "cresc_pct": 2.25,
+    "apostas": 25,
+    "wr": 60.0
    }
   ],
   "por_mercado": [
    {
     "mercado": "Over Cantos FT",
-    "n": 546,
-    "wr": 58.2,
-    "roi": 27.28,
+    "n": 547,
+    "wr": 58.3,
+    "roi": 27.91,
     "pl_eur": 1369.94
    },
    {
@@ -124,7 +124,6 @@
   "forma": [
    "ganho",
    "ganho",
-   "ganho",
    "perdido",
    "perdido",
    "perdido",
@@ -135,6 +134,7 @@
    "perdido",
    "ganho",
    "perdido",
+   "ganho",
    "ganho",
    "ganho"
   ],
@@ -145,10 +145,10 @@
     "jogo": "Pama x Leitha",
     "mercado": "⛳ Over 2.5 corners · FT",
     "categoria": "Over Cantos FT",
-    "odd": null,
-    "pl_pct": null,
+    "odd": 1.84,
+    "pl_pct": 0.63,
     "stake_pct": 0.75,
-    "resultado": "pendente",
+    "resultado": "ganho",
     "confianca": 7
    },
    {
