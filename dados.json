@@ -8,10 +8,10 @@
    "fim": "2026-01-31"
   },
   "cresc_pct": 56.91,
-  "apostas": 1014,
+  "apostas": 1015,
   "ganhos": 577,
-  "perdidos": 437,
-  "wr": 56.9,
+  "perdidos": 438,
+  "wr": 56.8,
   "meses": [
    {
     "mes": "2025-08",
@@ -65,9 +65,9 @@
    {
     "mes": "2026-08",
     "label": "Ago 26",
-    "cresc_pct": 2.25,
-    "apostas": 25,
-    "wr": 60.0
+    "cresc_pct": 1.5,
+    "apostas": 26,
+    "wr": 57.7
    }
   ],
   "por_mercado": [
@@ -80,9 +80,9 @@
    },
    {
     "mercado": "Over Cantos HT",
-    "n": 159,
-    "wr": 56.6,
-    "roi": 5.91,
+    "n": 160,
+    "wr": 56.2,
+    "roi": 5.16,
     "pl_eur": 417.66
    },
    {
@@ -123,7 +123,6 @@
   ],
   "forma": [
    "ganho",
-   "ganho",
    "perdido",
    "perdido",
    "perdido",
@@ -136,7 +135,8 @@
    "perdido",
    "ganho",
    "ganho",
-   "ganho"
+   "ganho",
+   "perdido"
   ],
   "historico": [
    {
@@ -157,10 +157,10 @@
     "jogo": "Mamelodi x Marumo",
     "mercado": "⛳ Over 2.5 corners · 1st half",
     "categoria": "Over Cantos HT",
-    "odd": null,
-    "pl_pct": null,
+    "odd": 1.84,
+    "pl_pct": -0.75,
     "stake_pct": 0.75,
-    "resultado": "pendente",
+    "resultado": "perdido",
     "confianca": 7
    },
    {
