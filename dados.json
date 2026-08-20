@@ -8,9 +8,9 @@
    "fim": "2026-01-31"
   },
   "cresc_pct": 56.91,
-  "apostas": 1015,
+  "apostas": 1016,
   "ganhos": 577,
-  "perdidos": 438,
+  "perdidos": 439,
   "wr": 56.8,
   "meses": [
    {
@@ -65,17 +65,17 @@
    {
     "mes": "2026-08",
     "label": "Ago 26",
-    "cresc_pct": 1.5,
-    "apostas": 26,
-    "wr": 57.7
+    "cresc_pct": 0.75,
+    "apostas": 27,
+    "wr": 55.6
    }
   ],
   "por_mercado": [
    {
     "mercado": "Over Cantos FT",
-    "n": 547,
-    "wr": 58.3,
-    "roi": 27.91,
+    "n": 548,
+    "wr": 58.2,
+    "roi": 27.16,
     "pl_eur": 1369.94
    },
    {
@@ -122,7 +122,6 @@
    }
   ],
   "forma": [
-   "ganho",
    "perdido",
    "perdido",
    "perdido",
@@ -136,6 +135,7 @@
    "ganho",
    "ganho",
    "ganho",
+   "perdido",
    "perdido"
   ],
   "historico": [
@@ -157,10 +157,10 @@
     "jogo": "Atalanta x H. Tel Aviv",
     "mercado": "⛳ Over 4.5 corners · FT",
     "categoria": "Over Cantos FT",
-    "odd": null,
-    "pl_pct": null,
+    "odd": 1.84,
+    "pl_pct": -0.75,
     "stake_pct": 0.75,
-    "resultado": "pendente",
+    "resultado": "perdido",
     "confianca": 7
    },
    {
