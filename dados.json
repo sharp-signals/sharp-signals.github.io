@@ -8,10 +8,10 @@
    "fim": "2026-01-31"
   },
   "cresc_pct": 56.91,
-  "apostas": 1017,
-  "ganhos": 578,
+  "apostas": 1018,
+  "ganhos": 579,
   "perdidos": 439,
-  "wr": 56.8,
+  "wr": 56.9,
   "meses": [
    {
     "mes": "2025-08",
@@ -65,9 +65,9 @@
    {
     "mes": "2026-08",
     "label": "Ago 26",
-    "cresc_pct": 1.59,
-    "apostas": 28,
-    "wr": 57.1
+    "cresc_pct": 2.43,
+    "apostas": 29,
+    "wr": 58.6
    }
   ],
   "por_mercado": [
@@ -80,9 +80,9 @@
    },
    {
     "mercado": "Over Cantos HT",
-    "n": 160,
-    "wr": 56.2,
-    "roi": 5.16,
+    "n": 161,
+    "wr": 56.5,
+    "roi": 6.0,
     "pl_eur": 417.66
    },
    {
@@ -123,7 +123,6 @@
   ],
   "forma": [
    "perdido",
-   "perdido",
    "ganho",
    "ganho",
    "perdido",
@@ -136,6 +135,7 @@
    "ganho",
    "perdido",
    "perdido",
+   "ganho",
    "ganho"
   ],
   "historico": [
@@ -157,10 +157,10 @@
     "jogo": "Sarajevo x Banja Luka",
     "mercado": "⛳ Over 2.5 corners · 1st half",
     "categoria": "Over Cantos HT",
-    "odd": null,
-    "pl_pct": null,
+    "odd": 1.84,
+    "pl_pct": 0.84,
     "stake_pct": 1.0,
-    "resultado": "pendente",
+    "resultado": "ganho",
     "confianca": 8
    },
    {
