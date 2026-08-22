@@ -920,5 +920,24 @@
       "golos_apos_casa": 1,
       "golos_apos_fora": 0
     }
+  ],
+  "2026-08-22": [
+    {
+      "alerta_id": "ce1:1557368:final",
+      "fixture_id": 1557368,
+      "timestamp": "2026-08-22T14:50:08.731618",
+      "jogo": "Hull City vs Manchester United",
+      "liga": "Premier League",
+      "janela": "FINAL PUSH",
+      "tempo_alerta": 77,
+      "estrelas": 10,
+      "cantos_no_ref": 4,
+      "cantos_final": 5,
+      "cantos_apos_alerta": 1,
+      "meta_cantos": 2,
+      "resultado": "LOSS",
+      "golos_apos_casa": 0,
+      "golos_apos_fora": 0
+    }
   ]
 }
