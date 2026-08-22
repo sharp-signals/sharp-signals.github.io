@@ -955,6 +955,23 @@
       "resultado": "LOSS",
       "golos_apos_casa": 1,
       "golos_apos_fora": 0
+    },
+    {
+      "alerta_id": "ce1:1561913:final",
+      "fixture_id": 1561913,
+      "timestamp": "2026-08-22T18:16:03.697941",
+      "jogo": "SCR Altach vs TSV Hartberg",
+      "liga": "Bundesliga",
+      "janela": "FINAL PUSH",
+      "tempo_alerta": 78,
+      "estrelas": 10,
+      "cantos_no_ref": 12,
+      "cantos_final": 12,
+      "cantos_apos_alerta": 0,
+      "meta_cantos": 2,
+      "resultado": "LOSS",
+      "golos_apos_casa": 0,
+      "golos_apos_fora": 1
     }
   ]
 }
