@@ -972,6 +972,23 @@
       "resultado": "LOSS",
       "golos_apos_casa": 0,
       "golos_apos_fora": 1
+    },
+    {
+      "alerta_id": "ce1:1569891:final",
+      "fixture_id": 1569891,
+      "timestamp": "2026-08-22T18:22:59.575338",
+      "jogo": "Oviedo vs Leganes",
+      "liga": "Segunda División",
+      "janela": "FINAL PUSH",
+      "tempo_alerta": 77,
+      "estrelas": 8.5,
+      "cantos_no_ref": 4,
+      "cantos_final": 4,
+      "cantos_apos_alerta": 0,
+      "meta_cantos": 2,
+      "resultado": "LOSS",
+      "golos_apos_casa": 0,
+      "golos_apos_fora": 0
     }
   ]
 }
