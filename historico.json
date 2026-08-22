@@ -938,6 +938,23 @@
       "resultado": "LOSS",
       "golos_apos_casa": 0,
       "golos_apos_fora": 0
+    },
+    {
+      "alerta_id": "ce1:1564256:final",
+      "fixture_id": 1564256,
+      "timestamp": "2026-08-22T17:19:00.652421",
+      "jogo": "Stockport County vs Blackpool",
+      "liga": "League One",
+      "janela": "FINAL PUSH",
+      "tempo_alerta": 77,
+      "estrelas": 10.0,
+      "cantos_no_ref": 7,
+      "cantos_final": 7,
+      "cantos_apos_alerta": 0,
+      "meta_cantos": 2,
+      "resultado": "LOSS",
+      "golos_apos_casa": 1,
+      "golos_apos_fora": 0
     }
   ]
 }
