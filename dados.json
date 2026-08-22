@@ -8,10 +8,10 @@
    "fim": "2026-01-31"
   },
   "cresc_pct": 56.91,
-  "apostas": 1019,
-  "ganhos": 580,
+  "apostas": 1020,
+  "ganhos": 581,
   "perdidos": 439,
-  "wr": 56.9,
+  "wr": 57.0,
   "meses": [
    {
     "mes": "2025-08",
@@ -65,17 +65,17 @@
    {
     "mes": "2026-08",
     "label": "Ago 26",
-    "cresc_pct": 3.27,
-    "apostas": 30,
-    "wr": 60.0
+    "cresc_pct": 4.11,
+    "apostas": 31,
+    "wr": 61.3
    }
   ],
   "por_mercado": [
    {
     "mercado": "Over Cantos FT",
-    "n": 550,
+    "n": 551,
     "wr": 58.4,
-    "roi": 28.84,
+    "roi": 29.68,
     "pl_eur": 1369.94
    },
    {
@@ -123,7 +123,6 @@
   ],
   "forma": [
    "ganho",
-   "ganho",
    "perdido",
    "ganho",
    "perdido",
@@ -134,6 +133,7 @@
    "ganho",
    "perdido",
    "perdido",
+   "ganho",
    "ganho",
    "ganho",
    "ganho"
@@ -145,10 +145,10 @@
     "jogo": "Olympiakos x Atromitos",
     "mercado": "⛳ Over 9.5 corners · FT",
     "categoria": "Over Cantos FT",
-    "odd": null,
-    "pl_pct": null,
+    "odd": 1.84,
+    "pl_pct": 0.84,
     "stake_pct": 1.0,
-    "resultado": "pendente",
+    "resultado": "ganho",
     "confianca": 8
    },
    {
