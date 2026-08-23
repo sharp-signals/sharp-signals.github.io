@@ -1042,6 +1042,23 @@
       "resultado": "WIN",
       "golos_apos_casa": 0,
       "golos_apos_fora": 1
+    },
+    {
+      "alerta_id": "ce1:1612207:final",
+      "fixture_id": 1612207,
+      "timestamp": "2026-08-23T20:18:48.387937",
+      "jogo": "Al Ahly vs Enppi",
+      "liga": "Premier League",
+      "janela": "FINAL PUSH",
+      "tempo_alerta": 77,
+      "estrelas": 8.5,
+      "cantos_no_ref": 4,
+      "cantos_final": 8,
+      "cantos_apos_alerta": 4,
+      "meta_cantos": 2,
+      "resultado": "WIN",
+      "golos_apos_casa": 1,
+      "golos_apos_fora": 0
     }
   ]
 }
