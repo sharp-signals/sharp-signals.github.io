@@ -1008,6 +1008,23 @@
       "resultado": "LOSS",
       "golos_apos_casa": -1,
       "golos_apos_fora": 0
+    },
+    {
+      "alerta_id": "ce1:1557375:mid",
+      "fixture_id": 1557375,
+      "timestamp": "2026-08-23T18:53:28.412868",
+      "jogo": "Newcastle vs Liverpool",
+      "liga": "Premier League",
+      "janela": "MID PRESSURE",
+      "tempo_alerta": 65,
+      "estrelas": 8.0,
+      "cantos_no_ref": 7,
+      "cantos_final": 8,
+      "cantos_apos_alerta": 1,
+      "meta_cantos": 3,
+      "resultado": "LOSS",
+      "golos_apos_casa": 0,
+      "golos_apos_fora": 1
     }
   ]
 }
