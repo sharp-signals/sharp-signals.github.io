@@ -8,10 +8,10 @@
    "fim": "2026-01-31"
   },
   "cresc_pct": 56.91,
-  "apostas": 1020,
+  "apostas": 1021,
   "ganhos": 581,
-  "perdidos": 439,
-  "wr": 57.0,
+  "perdidos": 440,
+  "wr": 56.9,
   "meses": [
    {
     "mes": "2025-08",
@@ -65,17 +65,17 @@
    {
     "mes": "2026-08",
     "label": "Ago 26",
-    "cresc_pct": 4.11,
-    "apostas": 31,
-    "wr": 61.3
+    "cresc_pct": 3.36,
+    "apostas": 32,
+    "wr": 59.4
    }
   ],
   "por_mercado": [
    {
     "mercado": "Over Cantos FT",
-    "n": 551,
-    "wr": 58.4,
-    "roi": 29.68,
+    "n": 552,
+    "wr": 58.3,
+    "roi": 28.93,
     "pl_eur": 1369.94
    },
    {
@@ -122,7 +122,6 @@
    }
   ],
   "forma": [
-   "ganho",
    "perdido",
    "ganho",
    "perdido",
@@ -136,7 +135,8 @@
    "ganho",
    "ganho",
    "ganho",
-   "ganho"
+   "ganho",
+   "perdido"
   ],
   "historico": [
    {
@@ -156,10 +156,10 @@
     "jogo": "Din. Bucarest x U. Cluj",
     "mercado": "⛳ Over 10.5 corners · FT",
     "categoria": "Over Cantos FT",
-    "odd": null,
-    "pl_pct": null,
+    "odd": 1.84,
+    "pl_pct": -0.75,
     "stake_pct": 0.75,
-    "resultado": "pendente",
+    "resultado": "perdido",
     "confianca": 7
    },
    {
