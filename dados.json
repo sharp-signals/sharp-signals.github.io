@@ -8,8 +8,8 @@
    "fim": "2026-01-31"
   },
   "cresc_pct": 56.91,
-  "apostas": 1025,
-  "ganhos": 585,
+  "apostas": 1026,
+  "ganhos": 586,
   "perdidos": 440,
   "wr": 57.1,
   "meses": [
@@ -65,17 +65,17 @@
    {
     "mes": "2026-08",
     "label": "Ago 26",
-    "cresc_pct": 5.46,
-    "apostas": 36,
-    "wr": 63.9
+    "cresc_pct": 6.09,
+    "apostas": 37,
+    "wr": 64.9
    }
   ],
   "por_mercado": [
    {
     "mercado": "Over Cantos FT",
-    "n": 554,
-    "wr": 58.5,
-    "roi": 30.4,
+    "n": 555,
+    "wr": 58.6,
+    "roi": 31.03,
     "pl_eur": 1369.94
    },
    {
@@ -122,7 +122,6 @@
    }
   ],
   "forma": [
-   "ganho",
    "perdido",
    "ganho",
    "ganho",
@@ -134,6 +133,7 @@
    "ganho",
    "ganho",
    "perdido",
+   "ganho",
    "ganho",
    "ganho",
    "ganho"
@@ -145,10 +145,10 @@
     "jogo": "Cleopatra x Al Qanah",
     "mercado": "⛳ Over 7.5 corners · FT",
     "categoria": "Over Cantos FT",
-    "odd": null,
-    "pl_pct": null,
+    "odd": 1.84,
+    "pl_pct": 0.63,
     "stake_pct": 0.75,
-    "resultado": "pendente",
+    "resultado": "ganho",
     "confianca": 7
    },
    {
