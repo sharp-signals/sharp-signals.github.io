@@ -8,8 +8,8 @@
    "fim": "2026-01-31"
   },
   "cresc_pct": 56.91,
-  "apostas": 1023,
-  "ganhos": 583,
+  "apostas": 1024,
+  "ganhos": 584,
   "perdidos": 440,
   "wr": 57.0,
   "meses": [
@@ -65,17 +65,17 @@
    {
     "mes": "2026-08",
     "label": "Ago 26",
-    "cresc_pct": 3.99,
-    "apostas": 34,
-    "wr": 61.8
+    "cresc_pct": 4.62,
+    "apostas": 35,
+    "wr": 62.9
    }
   ],
   "por_mercado": [
    {
     "mercado": "Over Cantos FT",
-    "n": 552,
-    "wr": 58.3,
-    "roi": 28.93,
+    "n": 553,
+    "wr": 58.4,
+    "roi": 29.56,
     "pl_eur": 1369.94
    },
    {
@@ -155,12 +155,13 @@
     "data": "2026-08-23",
     "mes": "2026-08",
     "jogo": "Chungbuk x Gyeognam",
-    "mercado": "7.5. 7",
-    "categoria": null,
+    "mercado": "⛳ Over 7.5 corners · FT",
+    "categoria": "Over Cantos FT",
     "odd": 1.84,
-    "pl_pct": null,
-    "stake_pct": null,
-    "resultado": "ganho"
+    "pl_pct": 0.63,
+    "stake_pct": 0.75,
+    "resultado": "ganho",
+    "confianca": 7
    },
    {
     "data": "2026-08-22",
