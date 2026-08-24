@@ -1095,6 +1095,23 @@
       "resultado": "WIN",
       "golos_apos_casa": 0,
       "golos_apos_fora": 1
+    },
+    {
+      "alerta_id": "ce1:1550674:ht",
+      "fixture_id": 1550674,
+      "timestamp": "2026-08-24T18:02:34.016251",
+      "jogo": "Altglienicke vs VfL Wolfsburg",
+      "liga": "DFB Pokal",
+      "janela": "HT ATTACK",
+      "tempo_alerta": 26,
+      "estrelas": 8.0,
+      "cantos_no_ref": 5,
+      "cantos_final": 5,
+      "cantos_apos_alerta": 0,
+      "meta_cantos": 2,
+      "resultado": "LOSS",
+      "golos_apos_casa": 0,
+      "golos_apos_fora": 0
     }
   ]
 }
