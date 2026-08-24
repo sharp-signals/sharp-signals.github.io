@@ -1112,6 +1112,23 @@
       "resultado": "LOSS",
       "golos_apos_casa": 0,
       "golos_apos_fora": 0
+    },
+    {
+      "alerta_id": "ce1:1565225:mid",
+      "fixture_id": 1565225,
+      "timestamp": "2026-08-24T18:48:19.625178",
+      "jogo": "FC Botosani vs Csikszereda",
+      "liga": "Liga I",
+      "janela": "MID PRESSURE",
+      "tempo_alerta": 69,
+      "estrelas": 10,
+      "cantos_no_ref": 8,
+      "cantos_final": 10,
+      "cantos_apos_alerta": 2,
+      "meta_cantos": 3,
+      "resultado": "LOSS",
+      "golos_apos_casa": 1,
+      "golos_apos_fora": 0
     }
   ]
 }
