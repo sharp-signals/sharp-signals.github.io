@@ -8,9 +8,9 @@
    "fim": "2026-01-31"
   },
   "cresc_pct": 56.91,
-  "apostas": 1029,
+  "apostas": 1030,
   "ganhos": 587,
-  "perdidos": 442,
+  "perdidos": 443,
   "wr": 57.0,
   "meses": [
    {
@@ -65,17 +65,17 @@
    {
     "mes": "2026-08",
     "label": "Ago 26",
-    "cresc_pct": 5.22,
-    "apostas": 40,
-    "wr": 62.5
+    "cresc_pct": 4.47,
+    "apostas": 41,
+    "wr": 61.0
    }
   ],
   "por_mercado": [
    {
     "mercado": "Over Cantos FT",
-    "n": 558,
-    "wr": 58.4,
-    "roi": 30.16,
+    "n": 559,
+    "wr": 58.3,
+    "roi": 29.41,
     "pl_eur": 1369.94
    },
    {
@@ -122,7 +122,6 @@
    }
   ],
   "forma": [
-   "ganho",
    "perdido",
    "perdido",
    "ganho",
@@ -135,6 +134,7 @@
    "ganho",
    "ganho",
    "ganho",
+   "perdido",
    "perdido",
    "perdido"
   ],
@@ -145,10 +145,10 @@
     "jogo": "Druzhba x Neftyanik",
     "mercado": "⛳ Over 6 corners · FT",
     "categoria": "Over Cantos FT",
-    "odd": null,
-    "pl_pct": null,
+    "odd": 1.84,
+    "pl_pct": -0.75,
     "stake_pct": 0.75,
-    "resultado": "pendente",
+    "resultado": "perdido",
     "confianca": 7
    },
    {
