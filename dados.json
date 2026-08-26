@@ -8,10 +8,10 @@
    "fim": "2026-01-31"
   },
   "cresc_pct": 56.91,
-  "apostas": 1030,
+  "apostas": 1031,
   "ganhos": 587,
-  "perdidos": 443,
-  "wr": 57.0,
+  "perdidos": 444,
+  "wr": 56.9,
   "meses": [
    {
     "mes": "2025-08",
@@ -65,9 +65,9 @@
    {
     "mes": "2026-08",
     "label": "Ago 26",
-    "cresc_pct": 4.47,
-    "apostas": 41,
-    "wr": 61.0
+    "cresc_pct": 3.72,
+    "apostas": 42,
+    "wr": 59.5
    }
   ],
   "por_mercado": [
@@ -80,9 +80,9 @@
    },
    {
     "mercado": "Over Cantos HT",
-    "n": 162,
-    "wr": 56.8,
-    "roi": 6.63,
+    "n": 163,
+    "wr": 56.4,
+    "roi": 5.88,
     "pl_eur": 417.66
    },
    {
@@ -123,7 +123,6 @@
   ],
   "forma": [
    "perdido",
-   "perdido",
    "ganho",
    "ganho",
    "ganho",
@@ -134,6 +133,7 @@
    "ganho",
    "ganho",
    "ganho",
+   "perdido",
    "perdido",
    "perdido",
    "perdido"
@@ -145,10 +145,10 @@
     "jogo": "Mamelodi x Amazulu",
     "mercado": "⛳ Over 3 corners · 1st half",
     "categoria": "Over Cantos HT",
-    "odd": null,
-    "pl_pct": null,
+    "odd": 1.84,
+    "pl_pct": -0.75,
     "stake_pct": 0.75,
-    "resultado": "pendente",
+    "resultado": "perdido",
     "confianca": 7
    },
    {
