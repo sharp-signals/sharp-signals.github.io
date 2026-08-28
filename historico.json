@@ -1167,6 +1167,23 @@
       "resultado": "WIN",
       "golos_apos_casa": 0,
       "golos_apos_fora": 1
+    },
+    {
+      "alerta_id": "ce1:1492758:final",
+      "fixture_id": 1492758,
+      "timestamp": "2026-08-28T22:21:03.462567",
+      "jogo": "Drogheda United vs Dundalk",
+      "liga": "Premier Division",
+      "janela": "FINAL PUSH",
+      "tempo_alerta": 79,
+      "estrelas": 8.0,
+      "cantos_no_ref": 6,
+      "cantos_final": 7,
+      "cantos_apos_alerta": 1,
+      "meta_cantos": 2,
+      "resultado": "LOSS",
+      "golos_apos_casa": 0,
+      "golos_apos_fora": 1
     }
   ]
 }
