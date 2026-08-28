@@ -1184,6 +1184,23 @@
       "resultado": "LOSS",
       "golos_apos_casa": 0,
       "golos_apos_fora": 1
+    },
+    {
+      "alerta_id": "ce1:1570353:final",
+      "fixture_id": 1570353,
+      "timestamp": "2026-08-28T22:37:23.825577",
+      "jogo": "Alaves vs Villarreal",
+      "liga": "La Liga",
+      "janela": "FINAL PUSH",
+      "tempo_alerta": 80,
+      "estrelas": 7.5,
+      "cantos_no_ref": 11,
+      "cantos_final": 14,
+      "cantos_apos_alerta": 3,
+      "meta_cantos": 2,
+      "resultado": "WIN",
+      "golos_apos_casa": 0,
+      "golos_apos_fora": 0
     }
   ]
 }
