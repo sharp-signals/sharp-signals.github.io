@@ -1149,5 +1149,24 @@
       "golos_apos_casa": 0,
       "golos_apos_fora": 0
     }
+  ],
+  "2026-08-28": [
+    {
+      "alerta_id": "ce1:1551772:final",
+      "fixture_id": 1551772,
+      "timestamp": "2026-08-28T21:08:33.776660",
+      "jogo": "Roda vs NAC Breda",
+      "liga": "Eerste Divisie",
+      "janela": "FINAL PUSH",
+      "tempo_alerta": 77,
+      "estrelas": 7.0,
+      "cantos_no_ref": 5,
+      "cantos_final": 8,
+      "cantos_apos_alerta": 3,
+      "meta_cantos": 2,
+      "resultado": "WIN",
+      "golos_apos_casa": 0,
+      "golos_apos_fora": 1
+    }
   ]
 }
