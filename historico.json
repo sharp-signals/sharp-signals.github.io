@@ -1254,6 +1254,23 @@
       "resultado": "WIN",
       "golos_apos_casa": 2,
       "golos_apos_fora": 0
+    },
+    {
+      "alerta_id": "ce1:1550100:ht",
+      "fixture_id": 1550100,
+      "timestamp": "2026-08-29T18:34:42.145995",
+      "jogo": "Fiorentina vs Frosinone",
+      "liga": "Serie A",
+      "janela": "HT ATTACK",
+      "tempo_alerta": 26,
+      "estrelas": 7.5,
+      "cantos_no_ref": 3,
+      "cantos_final": 6,
+      "cantos_apos_alerta": 3,
+      "meta_cantos": 2,
+      "resultado": "WIN",
+      "golos_apos_casa": 0,
+      "golos_apos_fora": 2
     }
   ]
 }
