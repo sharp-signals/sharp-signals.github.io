@@ -8,9 +8,9 @@
    "fim": "2026-01-31"
   },
   "cresc_pct": 56.91,
-  "apostas": 1035,
+  "apostas": 1036,
   "ganhos": 588,
-  "perdidos": 447,
+  "perdidos": 448,
   "wr": 56.8,
   "meses": [
    {
@@ -65,17 +65,17 @@
    {
     "mes": "2026-08",
     "label": "Ago 26",
-    "cresc_pct": 2.06,
-    "apostas": 46,
-    "wr": 56.5
+    "cresc_pct": 1.06,
+    "apostas": 47,
+    "wr": 55.3
    }
   ],
   "por_mercado": [
    {
     "mercado": "Over Cantos FT",
-    "n": 562,
-    "wr": 58.0,
-    "roi": 26.91,
+    "n": 563,
+    "wr": 57.9,
+    "roi": 25.91,
     "pl_eur": 1369.94
    },
    {
@@ -122,7 +122,6 @@
    }
   ],
   "forma": [
-   "ganho",
    "perdido",
    "ganho",
    "ganho",
@@ -134,6 +133,7 @@
    "perdido",
    "perdido",
    "ganho",
+   "perdido",
    "perdido",
    "perdido",
    "perdido"
@@ -181,10 +181,10 @@
     "jogo": "Volos x Iraklis",
     "mercado": "⛳ Over 6 corners · FT",
     "categoria": "Over Cantos FT",
-    "odd": null,
-    "pl_pct": null,
+    "odd": 1.84,
+    "pl_pct": -1.0,
     "stake_pct": 1.0,
-    "resultado": "pendente",
+    "resultado": "perdido",
     "confianca": 8
    },
    {
