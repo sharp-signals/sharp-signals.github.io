@@ -1237,6 +1237,23 @@
       "resultado": "WIN",
       "golos_apos_casa": 1,
       "golos_apos_fora": 2
+    },
+    {
+      "alerta_id": "ce1:1564265:final",
+      "fixture_id": 1564265,
+      "timestamp": "2026-08-29T17:09:56.619490",
+      "jogo": "Notts County vs Burton Albion",
+      "liga": "League One",
+      "janela": "FINAL PUSH",
+      "tempo_alerta": 77,
+      "estrelas": 7.0,
+      "cantos_no_ref": 6,
+      "cantos_final": 8,
+      "cantos_apos_alerta": 2,
+      "meta_cantos": 2,
+      "resultado": "WIN",
+      "golos_apos_casa": 2,
+      "golos_apos_fora": 0
     }
   ]
 }
