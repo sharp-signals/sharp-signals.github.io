@@ -1202,5 +1202,24 @@
       "golos_apos_casa": 0,
       "golos_apos_fora": 0
     }
+  ],
+  "2026-08-29": [
+    {
+      "alerta_id": "ce1:1520847:mid",
+      "fixture_id": 1520847,
+      "timestamp": "2026-08-29T02:57:38.991066",
+      "jogo": "Nautico Recife vs Athletic Club",
+      "liga": "Serie B",
+      "janela": "MID PRESSURE",
+      "tempo_alerta": 69,
+      "estrelas": 7.0,
+      "cantos_no_ref": 6,
+      "cantos_final": 7,
+      "cantos_apos_alerta": 1,
+      "meta_cantos": 3,
+      "resultado": "LOSS",
+      "golos_apos_casa": 2,
+      "golos_apos_fora": 0
+    }
   ]
 }
