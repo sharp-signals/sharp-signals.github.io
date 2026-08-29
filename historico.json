@@ -1220,6 +1220,23 @@
       "resultado": "LOSS",
       "golos_apos_casa": 2,
       "golos_apos_fora": 0
+    },
+    {
+      "alerta_id": "ce1:1570357:ht",
+      "fixture_id": 1570357,
+      "timestamp": "2026-08-29T17:07:46.799634",
+      "jogo": "Levante vs Real Betis",
+      "liga": "La Liga",
+      "janela": "HT ATTACK",
+      "tempo_alerta": 29,
+      "estrelas": 9.5,
+      "cantos_no_ref": 6,
+      "cantos_final": 10,
+      "cantos_apos_alerta": 4,
+      "meta_cantos": 2,
+      "resultado": "WIN",
+      "golos_apos_casa": 1,
+      "golos_apos_fora": 2
     }
   ]
 }
