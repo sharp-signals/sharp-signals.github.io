@@ -1271,6 +1271,23 @@
       "resultado": "WIN",
       "golos_apos_casa": 0,
       "golos_apos_fora": 2
+    },
+    {
+      "alerta_id": "ce1:1555372:shark",
+      "fixture_id": 1555372,
+      "timestamp": "2026-08-29T19:07:43.635757",
+      "jogo": "Servette FC vs FC Luzern",
+      "liga": "Super League",
+      "janela": "SHARK ATTACK",
+      "tempo_alerta": 55,
+      "estrelas": 7.0,
+      "cantos_no_ref": 6,
+      "cantos_final": 14,
+      "cantos_apos_alerta": 8,
+      "meta_cantos": 4,
+      "resultado": "WIN",
+      "golos_apos_casa": 0,
+      "golos_apos_fora": 0
     }
   ]
 }
