@@ -1288,6 +1288,23 @@
       "resultado": "WIN",
       "golos_apos_casa": 0,
       "golos_apos_fora": 0
+    },
+    {
+      "alerta_id": "ce1:1565231:ht",
+      "fixture_id": 1565231,
+      "timestamp": "2026-08-29T20:31:00.344352",
+      "jogo": "Corvinul Hunedoara vs Dinamo Bucuresti",
+      "liga": "Liga I",
+      "janela": "HT ATTACK",
+      "tempo_alerta": 27,
+      "estrelas": 7.5,
+      "cantos_no_ref": 4,
+      "cantos_final": 5,
+      "cantos_apos_alerta": 1,
+      "meta_cantos": 2,
+      "resultado": "LOSS",
+      "golos_apos_casa": 0,
+      "golos_apos_fora": 0
     }
   ]
 }
