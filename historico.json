@@ -1375,6 +1375,23 @@
       "resultado": "WIN",
       "golos_apos_casa": 0,
       "golos_apos_fora": 1
+    },
+    {
+      "alerta_id": "ce1:1575145:ht",
+      "fixture_id": 1575145,
+      "timestamp": "2026-08-30T15:30:40.608521",
+      "jogo": "SC Freiburg vs Werder Bremen",
+      "liga": "Bundesliga",
+      "janela": "HT ATTACK",
+      "tempo_alerta": 27,
+      "estrelas": 7.0,
+      "cantos_no_ref": 2,
+      "cantos_final": 4,
+      "cantos_apos_alerta": 2,
+      "meta_cantos": 2,
+      "resultado": "WIN",
+      "golos_apos_casa": 2,
+      "golos_apos_fora": 0
     }
   ]
 }
