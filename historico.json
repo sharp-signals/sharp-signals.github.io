@@ -1494,6 +1494,23 @@
       "resultado": "WIN",
       "golos_apos_casa": 0,
       "golos_apos_fora": 0
+    },
+    {
+      "alerta_id": "ce1:1493092:ht",
+      "fixture_id": 1493092,
+      "timestamp": "2026-08-30T21:59:48.484958",
+      "jogo": "Argentinos JRS vs Aldosivi",
+      "liga": "Liga Profesional Argentina",
+      "janela": "HT ATTACK",
+      "tempo_alerta": 30,
+      "estrelas": 8.5,
+      "cantos_no_ref": 7,
+      "cantos_final": 11,
+      "cantos_apos_alerta": 4,
+      "meta_cantos": 2,
+      "resultado": "WIN",
+      "golos_apos_casa": 0,
+      "golos_apos_fora": 0
     }
   ]
 }
