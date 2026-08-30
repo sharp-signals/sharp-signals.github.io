@@ -1460,6 +1460,23 @@
       "resultado": "WIN",
       "golos_apos_casa": 0,
       "golos_apos_fora": 0
+    },
+    {
+      "alerta_id": "ce1:1493094:ht",
+      "fixture_id": 1493094,
+      "timestamp": "2026-08-30T19:59:37.410964",
+      "jogo": "Banfield vs River Plate",
+      "liga": "Liga Profesional Argentina",
+      "janela": "HT ATTACK",
+      "tempo_alerta": 30,
+      "estrelas": 9.0,
+      "cantos_no_ref": 1,
+      "cantos_final": 3,
+      "cantos_apos_alerta": 2,
+      "meta_cantos": 2,
+      "resultado": "WIN",
+      "golos_apos_casa": 0,
+      "golos_apos_fora": 2
     }
   ]
 }
