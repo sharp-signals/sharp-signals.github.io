@@ -1392,6 +1392,23 @@
       "resultado": "WIN",
       "golos_apos_casa": 2,
       "golos_apos_fora": 0
+    },
+    {
+      "alerta_id": "ce1:1552149:shark",
+      "fixture_id": 1552149,
+      "timestamp": "2026-08-30T15:41:20.899345",
+      "jogo": "Feyenoord vs ADO Den Haag",
+      "liga": "Eredivisie",
+      "janela": "SHARK ATTACK",
+      "tempo_alerta": 57,
+      "estrelas": 7.0,
+      "cantos_no_ref": 8,
+      "cantos_final": 14,
+      "cantos_apos_alerta": 6,
+      "meta_cantos": 4,
+      "resultado": "WIN",
+      "golos_apos_casa": 2,
+      "golos_apos_fora": 0
     }
   ]
 }
