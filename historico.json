@@ -1358,6 +1358,23 @@
       "resultado": "WIN",
       "golos_apos_casa": 0,
       "golos_apos_fora": 0
+    },
+    {
+      "alerta_id": "ce1:1552148:ht",
+      "fixture_id": 1552148,
+      "timestamp": "2026-08-30T12:16:17.354001",
+      "jogo": "Utrecht vs PSV Eindhoven",
+      "liga": "Eredivisie",
+      "janela": "HT ATTACK",
+      "tempo_alerta": 28,
+      "estrelas": 8.0,
+      "cantos_no_ref": 4,
+      "cantos_final": 7,
+      "cantos_apos_alerta": 3,
+      "meta_cantos": 2,
+      "resultado": "WIN",
+      "golos_apos_casa": 0,
+      "golos_apos_fora": 1
     }
   ]
 }
