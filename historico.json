@@ -1341,6 +1341,23 @@
       "resultado": "LOSS",
       "golos_apos_casa": 0,
       "golos_apos_fora": 1
+    },
+    {
+      "alerta_id": "ce1:1549465:mid",
+      "fixture_id": 1549465,
+      "timestamp": "2026-08-30T03:44:27.376032",
+      "jogo": "Alianza Lima vs Deportivo Garcilaso",
+      "liga": "Primera División",
+      "janela": "MID PRESSURE",
+      "tempo_alerta": 66,
+      "estrelas": 10.0,
+      "cantos_no_ref": 7,
+      "cantos_final": 10,
+      "cantos_apos_alerta": 3,
+      "meta_cantos": 3,
+      "resultado": "WIN",
+      "golos_apos_casa": 0,
+      "golos_apos_fora": 0
     }
   ]
 }
