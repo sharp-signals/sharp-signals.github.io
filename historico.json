@@ -1306,5 +1306,24 @@
       "golos_apos_casa": 0,
       "golos_apos_fora": 0
     }
+  ],
+  "2026-08-30": [
+    {
+      "alerta_id": "ce1:1558611:ht",
+      "fixture_id": 1558611,
+      "timestamp": "2026-08-30T01:17:04.737629",
+      "jogo": "Cercle Brugge vs Lommel United",
+      "liga": "Jupiler Pro League",
+      "janela": "HT ATTACK",
+      "tempo_alerta": 28,
+      "estrelas": 8.5,
+      "cantos_no_ref": 6,
+      "cantos_final": 13,
+      "cantos_apos_alerta": 7,
+      "meta_cantos": 2,
+      "resultado": "WIN",
+      "golos_apos_casa": 0,
+      "golos_apos_fora": 1
+    }
   ]
 }
