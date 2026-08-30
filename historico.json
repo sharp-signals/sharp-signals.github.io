@@ -1409,6 +1409,23 @@
       "resultado": "WIN",
       "golos_apos_casa": 2,
       "golos_apos_fora": 0
+    },
+    {
+      "alerta_id": "ce1:1557384:ht",
+      "fixture_id": 1557384,
+      "timestamp": "2026-08-30T17:30:56.317459",
+      "jogo": "Manchester United vs Ipswich",
+      "liga": "Premier League",
+      "janela": "HT ATTACK",
+      "tempo_alerta": 30,
+      "estrelas": 7.0,
+      "cantos_no_ref": 3,
+      "cantos_final": 6,
+      "cantos_apos_alerta": 3,
+      "meta_cantos": 2,
+      "resultado": "WIN",
+      "golos_apos_casa": 1,
+      "golos_apos_fora": 0
     }
   ]
 }
