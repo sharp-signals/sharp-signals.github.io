@@ -1426,6 +1426,23 @@
       "resultado": "WIN",
       "golos_apos_casa": 1,
       "golos_apos_fora": 0
+    },
+    {
+      "alerta_id": "ce1:1555375:final",
+      "fixture_id": 1555375,
+      "timestamp": "2026-08-30T17:43:21.442991",
+      "jogo": "FC ST. Gallen vs FC Thun",
+      "liga": "Super League",
+      "janela": "FINAL PUSH",
+      "tempo_alerta": 79,
+      "estrelas": 10,
+      "cantos_no_ref": 6,
+      "cantos_final": 8,
+      "cantos_apos_alerta": 2,
+      "meta_cantos": 2,
+      "resultado": "WIN",
+      "golos_apos_casa": 1,
+      "golos_apos_fora": 0
     }
   ]
 }
