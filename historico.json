@@ -1477,6 +1477,23 @@
       "resultado": "WIN",
       "golos_apos_casa": 0,
       "golos_apos_fora": 2
+    },
+    {
+      "alerta_id": "ce1:1520840:ht",
+      "fixture_id": 1520840,
+      "timestamp": "2026-08-30T21:05:54.956284",
+      "jogo": "America Mineiro vs Ponte Preta",
+      "liga": "Serie B",
+      "janela": "HT ATTACK",
+      "tempo_alerta": 26,
+      "estrelas": 8.0,
+      "cantos_no_ref": 2,
+      "cantos_final": 7,
+      "cantos_apos_alerta": 5,
+      "meta_cantos": 2,
+      "resultado": "WIN",
+      "golos_apos_casa": 0,
+      "golos_apos_fora": 0
     }
   ]
 }
