@@ -8,9 +8,9 @@
    "fim": "2026-01-31"
   },
   "cresc_pct": 56.91,
-  "apostas": 1038,
+  "apostas": 1039,
   "ganhos": 590,
-  "perdidos": 448,
+  "perdidos": 449,
   "wr": 56.8,
   "meses": [
    {
@@ -65,17 +65,17 @@
    {
     "mes": "2026-08",
     "label": "Ago 26",
-    "cresc_pct": 2.53,
-    "apostas": 49,
-    "wr": 57.1
+    "cresc_pct": 1.78,
+    "apostas": 50,
+    "wr": 56.0
    }
   ],
   "por_mercado": [
    {
     "mercado": "Over Cantos FT",
-    "n": 564,
-    "wr": 58.0,
-    "roi": 26.75,
+    "n": 565,
+    "wr": 57.9,
+    "roi": 26.0,
     "pl_eur": 1369.94
    },
    {
@@ -125,7 +125,6 @@
    "ganho",
    "ganho",
    "ganho",
-   "ganho",
    "perdido",
    "perdido",
    "perdido",
@@ -136,7 +135,8 @@
    "perdido",
    "perdido",
    "ganho",
-   "ganho"
+   "ganho",
+   "perdido"
   ],
   "historico": [
    {
@@ -145,10 +145,10 @@
     "jogo": "Kifisias x AEK",
     "mercado": "⛳ Over 6 corners · FT",
     "categoria": "Over Cantos FT",
-    "odd": null,
-    "pl_pct": null,
+    "odd": 1.84,
+    "pl_pct": -0.75,
     "stake_pct": 0.75,
-    "resultado": "pendente",
+    "resultado": "perdido",
     "confianca": 7
    },
    {
