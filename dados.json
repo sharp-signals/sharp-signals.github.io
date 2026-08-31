@@ -8,10 +8,10 @@
    "fim": "2026-01-31"
   },
   "cresc_pct": 56.91,
-  "apostas": 1042,
-  "ganhos": 591,
+  "apostas": 1043,
+  "ganhos": 592,
   "perdidos": 451,
-  "wr": 56.7,
+  "wr": 56.8,
   "meses": [
    {
     "mes": "2025-08",
@@ -65,17 +65,17 @@
    {
     "mes": "2026-08",
     "label": "Ago 26",
-    "cresc_pct": 1.12,
-    "apostas": 53,
-    "wr": 54.7
+    "cresc_pct": 1.96,
+    "apostas": 54,
+    "wr": 55.6
    }
   ],
   "por_mercado": [
    {
     "mercado": "Over Cantos FT",
-    "n": 567,
-    "wr": 57.8,
-    "roi": 26.09,
+    "n": 568,
+    "wr": 57.9,
+    "roi": 26.93,
     "pl_eur": 1369.94
    },
    {
@@ -125,7 +125,6 @@
    "perdido",
    "perdido",
    "perdido",
-   "perdido",
    "ganho",
    "perdido",
    "perdido",
@@ -136,7 +135,8 @@
    "perdido",
    "perdido",
    "ganho",
-   "perdido"
+   "perdido",
+   "ganho"
   ],
   "historico": [
    {
@@ -145,10 +145,10 @@
     "jogo": "Afula x Ra'anana",
     "mercado": "⛳ Over 7 corners · FT",
     "categoria": "Over Cantos FT",
-    "odd": null,
-    "pl_pct": null,
+    "odd": 1.84,
+    "pl_pct": 0.84,
     "stake_pct": 1.0,
-    "resultado": "pendente",
+    "resultado": "ganho",
     "confianca": 8
    },
    {
