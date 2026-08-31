@@ -1529,5 +1529,24 @@
       "golos_apos_casa": 0,
       "golos_apos_fora": 1
     }
+  ],
+  "2026-08-31": [
+    {
+      "alerta_id": "ce1:1552452:mid",
+      "fixture_id": 1552452,
+      "timestamp": "2026-08-31T22:06:01.158863",
+      "jogo": "Dijon vs Saint Etienne",
+      "liga": "Ligue 2",
+      "janela": "MID PRESSURE",
+      "tempo_alerta": 67,
+      "estrelas": 9.0,
+      "cantos_no_ref": 5,
+      "cantos_final": 6,
+      "cantos_apos_alerta": 1,
+      "meta_cantos": 3,
+      "resultado": "LOSS",
+      "golos_apos_casa": 0,
+      "golos_apos_fora": 1
+    }
   ]
 }
