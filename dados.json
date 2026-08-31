@@ -8,10 +8,10 @@
    "fim": "2026-01-31"
   },
   "cresc_pct": 56.91,
-  "apostas": 1040,
-  "ganhos": 590,
+  "apostas": 1041,
+  "ganhos": 591,
   "perdidos": 450,
-  "wr": 56.7,
+  "wr": 56.8,
   "meses": [
    {
     "mes": "2025-08",
@@ -65,17 +65,17 @@
    {
     "mes": "2026-08",
     "label": "Ago 26",
-    "cresc_pct": 1.03,
-    "apostas": 51,
-    "wr": 54.9
+    "cresc_pct": 1.87,
+    "apostas": 52,
+    "wr": 55.8
    }
   ],
   "por_mercado": [
    {
     "mercado": "Over Cantos FT",
-    "n": 565,
-    "wr": 57.9,
-    "roi": 26.0,
+    "n": 566,
+    "wr": 58.0,
+    "roi": 26.84,
     "pl_eur": 1369.94
    },
    {
@@ -123,7 +123,6 @@
   ],
   "forma": [
    "ganho",
-   "ganho",
    "perdido",
    "perdido",
    "perdido",
@@ -136,7 +135,8 @@
    "ganho",
    "ganho",
    "perdido",
-   "perdido"
+   "perdido",
+   "ganho"
   ],
   "historico": [
    {
@@ -145,10 +145,10 @@
     "jogo": "Tikvesh x Vardar",
     "mercado": "⛳ Over 2.5 corners · FT",
     "categoria": "Over Cantos FT",
-    "odd": null,
-    "pl_pct": null,
+    "odd": 1.84,
+    "pl_pct": 0.84,
     "stake_pct": 1.0,
-    "resultado": "pendente",
+    "resultado": "ganho",
     "confianca": 8
    },
    {
