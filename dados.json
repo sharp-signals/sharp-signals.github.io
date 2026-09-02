@@ -8,8 +8,8 @@
    "fim": "2026-01-31"
   },
   "cresc_pct": 56.91,
-  "apostas": 1044,
-  "ganhos": 593,
+  "apostas": 1045,
+  "ganhos": 594,
   "perdidos": 451,
   "wr": 56.8,
   "meses": [
@@ -72,17 +72,17 @@
    {
     "mes": "2026-09",
     "label": "Set 26",
-    "cresc_pct": 0.63,
-    "apostas": 1,
+    "cresc_pct": 1.26,
+    "apostas": 2,
     "wr": 100.0
    }
   ],
   "por_mercado": [
    {
     "mercado": "Over Cantos FT",
-    "n": 569,
-    "wr": 58.0,
-    "roi": 27.56,
+    "n": 570,
+    "wr": 58.1,
+    "roi": 28.19,
     "pl_eur": 1369.94
    },
    {
@@ -130,7 +130,6 @@
   ],
   "forma": [
    "perdido",
-   "perdido",
    "ganho",
    "perdido",
    "perdido",
@@ -142,6 +141,7 @@
    "perdido",
    "ganho",
    "perdido",
+   "ganho",
    "ganho",
    "ganho"
   ],
@@ -152,10 +152,10 @@
     "jogo": "PAOK x OFI",
     "mercado": "⛳ Over 8.5 corners · PAOK · FT",
     "categoria": "Over Cantos FT",
-    "odd": null,
-    "pl_pct": null,
+    "odd": 1.84,
+    "pl_pct": 0.63,
     "stake_pct": 0.75,
-    "resultado": "pendente",
+    "resultado": "ganho",
     "confianca": 7
    },
    {
