@@ -8,8 +8,8 @@
    "fim": "2026-01-31"
   },
   "cresc_pct": 56.91,
-  "apostas": 1046,
-  "ganhos": 594,
+  "apostas": 1047,
+  "ganhos": 595,
   "perdidos": 452,
   "wr": 56.8,
   "meses": [
@@ -72,9 +72,9 @@
    {
     "mes": "2026-09",
     "label": "Set 26",
-    "cresc_pct": 0.51,
-    "apostas": 3,
-    "wr": 66.7
+    "cresc_pct": 1.14,
+    "apostas": 4,
+    "wr": 75.0
    }
   ],
   "por_mercado": [
@@ -108,9 +108,9 @@
    },
    {
     "mercado": "Race to X corners",
-    "n": 40,
-    "wr": 65.0,
-    "roi": 6.53,
+    "n": 41,
+    "wr": 65.9,
+    "roi": 7.16,
     "pl_eur": 324.76
    },
    {
@@ -129,7 +129,6 @@
    }
   ],
   "forma": [
-   "ganho",
    "perdido",
    "perdido",
    "perdido",
@@ -143,7 +142,8 @@
    "ganho",
    "ganho",
    "ganho",
-   "perdido"
+   "perdido",
+   "ganho"
   ],
   "historico": [
    {
@@ -176,10 +176,10 @@
     "jogo": "Norrkoping x Ljungskile",
     "mercado": "🏁 Race to 9 corners · Norrkoping",
     "categoria": "Race to X corners",
-    "odd": null,
-    "pl_pct": null,
+    "odd": 1.84,
+    "pl_pct": 0.63,
     "stake_pct": 0.75,
-    "resultado": "pendente",
+    "resultado": "ganho",
     "confianca": 7
    },
    {
