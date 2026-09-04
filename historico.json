@@ -1651,6 +1651,24 @@
       "justificacao_void": "Não entrada — preço demasiado alto",
       "golos_apos_casa": 1,
       "golos_apos_fora": 1
+    },
+    {
+      "alerta_id": "ce1:1549010:mid",
+      "fixture_id": 1549010,
+      "timestamp": "2026-09-04T22:09:58.635922",
+      "jogo": "Viborg vs Lyngby",
+      "liga": "Superliga",
+      "janela": "MID PRESSURE",
+      "tempo_alerta": 65,
+      "estrelas": 7.5,
+      "cantos_no_ref": 9,
+      "cantos_final": 12,
+      "cantos_apos_alerta": 3,
+      "meta_cantos": 3,
+      "resultado": "VOID",
+      "justificacao_void": "Não entrada — preço demasiado alto",
+      "golos_apos_casa": 0,
+      "golos_apos_fora": 0
     }
   ]
 }
