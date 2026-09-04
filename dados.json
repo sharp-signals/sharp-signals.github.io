@@ -8,9 +8,9 @@
    "fim": "2026-01-31"
   },
   "cresc_pct": 56.91,
-  "apostas": 1045,
+  "apostas": 1046,
   "ganhos": 594,
-  "perdidos": 451,
+  "perdidos": 452,
   "wr": 56.8,
   "meses": [
    {
@@ -72,17 +72,17 @@
    {
     "mes": "2026-09",
     "label": "Set 26",
-    "cresc_pct": 1.26,
-    "apostas": 2,
-    "wr": 100.0
+    "cresc_pct": 0.51,
+    "apostas": 3,
+    "wr": 66.7
    }
   ],
   "por_mercado": [
    {
     "mercado": "Over Cantos FT",
-    "n": 570,
-    "wr": 58.1,
-    "roi": 28.19,
+    "n": 571,
+    "wr": 58.0,
+    "roi": 27.44,
     "pl_eur": 1369.94
    },
    {
@@ -129,7 +129,6 @@
    }
   ],
   "forma": [
-   "perdido",
    "ganho",
    "perdido",
    "perdido",
@@ -143,7 +142,8 @@
    "perdido",
    "ganho",
    "ganho",
-   "ganho"
+   "ganho",
+   "perdido"
   ],
   "historico": [
    {
@@ -164,10 +164,10 @@
     "jogo": "Bray Wanderers x Cork City",
     "mercado": "⛳ Over 3.5 corners · FT",
     "categoria": "Over Cantos FT",
-    "odd": null,
-    "pl_pct": null,
+    "odd": 1.84,
+    "pl_pct": -0.75,
     "stake_pct": 0.75,
-    "resultado": "pendente",
+    "resultado": "perdido",
     "confianca": 7
    },
    {
