@@ -1669,6 +1669,24 @@
       "justificacao_void": "Não entrada — preço demasiado alto",
       "golos_apos_casa": 0,
       "golos_apos_fora": 0
+    },
+    {
+      "alerta_id": "ce1:1549473:final",
+      "fixture_id": 1549473,
+      "timestamp": "2026-09-04T23:51:52.492921",
+      "jogo": "Alianza Atletico vs UTC Cajamarca",
+      "liga": "Primera División",
+      "janela": "FINAL PUSH",
+      "tempo_alerta": 79,
+      "estrelas": 10,
+      "cantos_no_ref": 6,
+      "cantos_final": 8,
+      "cantos_apos_alerta": 2,
+      "meta_cantos": 2,
+      "resultado": "WIN",
+      "justificacao_void": "",
+      "golos_apos_casa": 1,
+      "golos_apos_fora": 0
     }
   ]
 }
