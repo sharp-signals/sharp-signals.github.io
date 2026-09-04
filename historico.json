@@ -1616,6 +1616,23 @@
       "resultado": "VOID",
       "golos_apos_casa": 1,
       "golos_apos_fora": 0
+    },
+    {
+      "alerta_id": "ce1:1548526:final",
+      "fixture_id": 1548526,
+      "timestamp": "2026-09-04T21:20:49.536028",
+      "jogo": "NK Varazdin vs Istra 1961",
+      "liga": "HNL",
+      "janela": "FINAL PUSH",
+      "tempo_alerta": 80,
+      "estrelas": 7.5,
+      "cantos_no_ref": 12,
+      "cantos_final": 12,
+      "cantos_apos_alerta": 0,
+      "meta_cantos": 2,
+      "resultado": "LOSS",
+      "golos_apos_casa": 0,
+      "golos_apos_fora": 0
     }
   ]
 }
