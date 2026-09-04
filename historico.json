@@ -1598,5 +1598,24 @@
       "golos_apos_casa": 0,
       "golos_apos_fora": 0
     }
+  ],
+  "2026-09-04": [
+    {
+      "alerta_id": "ce1:1576163:ht",
+      "fixture_id": 1576163,
+      "timestamp": "2026-09-04T18:39:34.314586",
+      "jogo": "Hannover 96 vs Karlsruher SC",
+      "liga": "2. Bundesliga",
+      "janela": "HT ATTACK",
+      "tempo_alerta": 28,
+      "estrelas": 9.0,
+      "cantos_no_ref": 4,
+      "cantos_final": 5,
+      "cantos_apos_alerta": 1,
+      "meta_cantos": 2,
+      "resultado": "VOID",
+      "golos_apos_casa": 1,
+      "golos_apos_fora": 0
+    }
   ]
 }
