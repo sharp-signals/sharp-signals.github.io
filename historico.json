@@ -1761,6 +1761,24 @@
       "justificacao_void": "",
       "golos_apos_casa": 1,
       "golos_apos_fora": 0
+    },
+    {
+      "alerta_id": "ce1:1550113:shark",
+      "fixture_id": 1550113,
+      "timestamp": "2026-09-05T19:32:57.589073",
+      "jogo": "Inter vs Napoli",
+      "liga": "Serie A",
+      "janela": "SHARK ATTACK",
+      "tempo_alerta": 58,
+      "estrelas": 7.5,
+      "cantos_no_ref": 11,
+      "cantos_final": 15,
+      "cantos_apos_alerta": 4,
+      "meta_cantos": 4,
+      "resultado": "VOID",
+      "justificacao_void": "Não entrada — preço demasiado alto",
+      "golos_apos_casa": 2,
+      "golos_apos_fora": 0
     }
   ]
 }
