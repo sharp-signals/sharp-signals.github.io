@@ -1833,6 +1833,24 @@
       "justificacao_void": "",
       "golos_apos_casa": 0,
       "golos_apos_fora": 0
+    },
+    {
+      "alerta_id": "ce1:1550107:final",
+      "fixture_id": 1550107,
+      "timestamp": "2026-09-05T22:25:53.145089",
+      "jogo": "AS Roma vs Atalanta",
+      "liga": "Serie A",
+      "janela": "FINAL PUSH",
+      "tempo_alerta": 80,
+      "estrelas": 10.0,
+      "cantos_no_ref": 13,
+      "cantos_final": 15,
+      "cantos_apos_alerta": 2,
+      "meta_cantos": 2,
+      "resultado": "VOID",
+      "justificacao_void": "Não entrada — preço demasiado alto",
+      "golos_apos_casa": 2,
+      "golos_apos_fora": 0
     }
   ]
 }
