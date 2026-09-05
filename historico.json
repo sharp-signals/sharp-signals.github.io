@@ -1688,5 +1688,25 @@
       "golos_apos_casa": 1,
       "golos_apos_fora": 0
     }
+  ],
+  "2026-09-05": [
+    {
+      "alerta_id": "ce1:1561386:mid",
+      "fixture_id": 1561386,
+      "timestamp": "2026-09-05T16:57:53.960524",
+      "jogo": "Zenit vs CSKA Moscow",
+      "liga": "Premier League",
+      "janela": "MID PRESSURE",
+      "tempo_alerta": 66,
+      "estrelas": 7.5,
+      "cantos_no_ref": 7,
+      "cantos_final": 12,
+      "cantos_apos_alerta": 5,
+      "meta_cantos": 3,
+      "resultado": "WIN",
+      "justificacao_void": "",
+      "golos_apos_casa": 1,
+      "golos_apos_fora": 1
+    }
   ]
 }
