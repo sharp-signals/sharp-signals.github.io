@@ -1797,6 +1797,24 @@
       "justificacao_void": "Não entrada — preço demasiado alto",
       "golos_apos_casa": 2,
       "golos_apos_fora": 0
+    },
+    {
+      "alerta_id": "ce1:1560240:ht",
+      "fixture_id": 1560240,
+      "timestamp": "2026-09-05T20:01:28.709448",
+      "jogo": "Paks vs Debreceni VSC",
+      "liga": "NB I",
+      "janela": "HT ATTACK",
+      "tempo_alerta": 26,
+      "estrelas": 7.5,
+      "cantos_no_ref": 3,
+      "cantos_final": 5,
+      "cantos_apos_alerta": 2,
+      "meta_cantos": 2,
+      "resultado": "WIN",
+      "justificacao_void": "",
+      "golos_apos_casa": 0,
+      "golos_apos_fora": 1
     }
   ]
 }
