@@ -1779,6 +1779,24 @@
       "justificacao_void": "Não entrada — preço demasiado alto",
       "golos_apos_casa": 2,
       "golos_apos_fora": 0
+    },
+    {
+      "alerta_id": "ce1:1550113:mid",
+      "fixture_id": 1550113,
+      "timestamp": "2026-09-05T19:33:21.994396",
+      "jogo": "Inter vs Napoli",
+      "liga": "Serie A",
+      "janela": "MID PRESSURE",
+      "tempo_alerta": 67,
+      "estrelas": 9.5,
+      "cantos_no_ref": 12,
+      "cantos_final": 15,
+      "cantos_apos_alerta": 3,
+      "meta_cantos": 3,
+      "resultado": "VOID",
+      "justificacao_void": "Não entrada — preço demasiado alto",
+      "golos_apos_casa": 2,
+      "golos_apos_fora": 0
     }
   ]
 }
