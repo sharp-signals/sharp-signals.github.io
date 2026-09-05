@@ -8,10 +8,10 @@
    "fim": "2026-01-31"
   },
   "cresc_pct": 56.91,
-  "apostas": 1049,
-  "ganhos": 597,
+  "apostas": 1050,
+  "ganhos": 598,
   "perdidos": 452,
-  "wr": 56.9,
+  "wr": 57.0,
   "meses": [
    {
     "mes": "2025-08",
@@ -72,17 +72,17 @@
    {
     "mes": "2026-09",
     "label": "Set 26",
-    "cresc_pct": 2.4,
-    "apostas": 6,
-    "wr": 83.3
+    "cresc_pct": 3.24,
+    "apostas": 7,
+    "wr": 85.7
    }
   ],
   "por_mercado": [
    {
     "mercado": "Over Cantos FT",
-    "n": 572,
-    "wr": 58.0,
-    "roi": 28.07,
+    "n": 573,
+    "wr": 58.1,
+    "roi": 28.91,
     "pl_eur": 1369.94
    },
    {
@@ -130,7 +130,6 @@
   ],
   "forma": [
    "perdido",
-   "perdido",
    "ganho",
    "ganho",
    "perdido",
@@ -141,6 +140,7 @@
    "ganho",
    "ganho",
    "perdido",
+   "ganho",
    "ganho",
    "ganho",
    "ganho"
@@ -164,10 +164,10 @@
     "jogo": "The New Saints x Barry Town",
     "mercado": "⛳ Over 8.5 corners · FT",
     "categoria": "Over Cantos FT",
-    "odd": null,
-    "pl_pct": null,
+    "odd": 1.84,
+    "pl_pct": 0.84,
     "stake_pct": 1.0,
-    "resultado": "pendente",
+    "resultado": "ganho",
     "confianca": 8
    },
    {
