@@ -1707,6 +1707,24 @@
       "justificacao_void": "",
       "golos_apos_casa": 1,
       "golos_apos_fora": 1
+    },
+    {
+      "alerta_id": "ce1:1563733:mid",
+      "fixture_id": 1563733,
+      "timestamp": "2026-09-05T17:11:33.494796",
+      "jogo": "Cheltenham vs Grimsby",
+      "liga": "League Two",
+      "janela": "MID PRESSURE",
+      "tempo_alerta": 65,
+      "estrelas": 7.5,
+      "cantos_no_ref": 6,
+      "cantos_final": 10,
+      "cantos_apos_alerta": 4,
+      "meta_cantos": 3,
+      "resultado": "WIN",
+      "justificacao_void": "",
+      "golos_apos_casa": 0,
+      "golos_apos_fora": 1
     }
   ]
 }
