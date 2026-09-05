@@ -1725,6 +1725,24 @@
       "justificacao_void": "",
       "golos_apos_casa": 0,
       "golos_apos_fora": 1
+    },
+    {
+      "alerta_id": "ce1:1556659:final",
+      "fixture_id": 1556659,
+      "timestamp": "2026-09-05T17:23:01.714729",
+      "jogo": "Dundee Utd vs Falkirk",
+      "liga": "Premiership",
+      "janela": "FINAL PUSH",
+      "tempo_alerta": 81,
+      "estrelas": 8.5,
+      "cantos_no_ref": 18,
+      "cantos_final": 19,
+      "cantos_apos_alerta": 1,
+      "meta_cantos": 2,
+      "resultado": "LOSS",
+      "justificacao_void": "",
+      "golos_apos_casa": 1,
+      "golos_apos_fora": 0
     }
   ]
 }
