@@ -1815,6 +1815,24 @@
       "justificacao_void": "",
       "golos_apos_casa": 0,
       "golos_apos_fora": 1
+    },
+    {
+      "alerta_id": "ce1:1550107:ht",
+      "fixture_id": 1550107,
+      "timestamp": "2026-09-05T20:46:38.481681",
+      "jogo": "AS Roma vs Atalanta",
+      "liga": "Serie A",
+      "janela": "HT ATTACK",
+      "tempo_alerta": 26,
+      "estrelas": 10.0,
+      "cantos_no_ref": 4,
+      "cantos_final": 7,
+      "cantos_apos_alerta": 3,
+      "meta_cantos": 2,
+      "resultado": "WIN",
+      "justificacao_void": "",
+      "golos_apos_casa": 0,
+      "golos_apos_fora": 0
     }
   ]
 }
