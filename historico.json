@@ -1925,6 +1925,24 @@
       "justificacao_void": "",
       "golos_apos_casa": 0,
       "golos_apos_fora": 0
+    },
+    {
+      "alerta_id": "ce1:1560010:final",
+      "fixture_id": 1560010,
+      "timestamp": "2026-09-06T16:19:10.249391",
+      "jogo": "FK Jablonec vs Slovan Liberec",
+      "liga": "Czech Liga",
+      "janela": "FINAL PUSH",
+      "tempo_alerta": 81,
+      "estrelas": 7.5,
+      "cantos_no_ref": 5,
+      "cantos_final": 6,
+      "cantos_apos_alerta": 1,
+      "meta_cantos": 2,
+      "resultado": "LOSS",
+      "justificacao_void": "",
+      "golos_apos_casa": 0,
+      "golos_apos_fora": 0
     }
   ]
 }
