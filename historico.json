@@ -1997,6 +1997,24 @@
       "justificacao_void": "",
       "golos_apos_casa": 0,
       "golos_apos_fora": 0
+    },
+    {
+      "alerta_id": "ce1:1553863:mid",
+      "fixture_id": 1553863,
+      "timestamp": "2026-09-06T22:30:16.190819",
+      "jogo": "Vojvodina vs Zemun",
+      "liga": "Super Liga",
+      "janela": "MID PRESSURE",
+      "tempo_alerta": 69,
+      "estrelas": 7.5,
+      "cantos_no_ref": 6,
+      "cantos_final": 8,
+      "cantos_apos_alerta": 2,
+      "meta_cantos": 3,
+      "resultado": "VOID",
+      "justificacao_void": "Não entrada — preço demasiado alto",
+      "golos_apos_casa": 1,
+      "golos_apos_fora": 0
     }
   ]
 }
