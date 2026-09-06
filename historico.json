@@ -2033,6 +2033,24 @@
       "justificacao_void": "Não entrada — preço demasiado alto",
       "golos_apos_casa": 0,
       "golos_apos_fora": 0
+    },
+    {
+      "alerta_id": "ce1:1575486:final",
+      "fixture_id": 1575486,
+      "timestamp": "2026-09-06T22:50:22.743158",
+      "jogo": "GIL Vicente vs Academico Viseu",
+      "liga": "Primeira Liga",
+      "janela": "FINAL PUSH",
+      "tempo_alerta": 77,
+      "estrelas": 7.0,
+      "cantos_no_ref": 8,
+      "cantos_final": 8,
+      "cantos_apos_alerta": 0,
+      "meta_cantos": 2,
+      "resultado": "VOID",
+      "justificacao_void": "Não entrada — preço demasiado alto",
+      "golos_apos_casa": 0,
+      "golos_apos_fora": 0
     }
   ]
 }
