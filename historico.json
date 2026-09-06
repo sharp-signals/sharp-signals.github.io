@@ -1871,6 +1871,24 @@
       "justificacao_void": "Não entrada — preço demasiado alto",
       "golos_apos_casa": 2,
       "golos_apos_fora": 0
+    },
+    {
+      "alerta_id": "ce1:1561380:ht",
+      "fixture_id": 1561380,
+      "timestamp": "2026-09-06T15:22:01.890043",
+      "jogo": "Dinamo Makhachkala vs Rodina Moskva",
+      "liga": "Premier League",
+      "janela": "HT ATTACK",
+      "tempo_alerta": 30,
+      "estrelas": 7.5,
+      "cantos_no_ref": 3,
+      "cantos_final": 6,
+      "cantos_apos_alerta": 3,
+      "meta_cantos": 2,
+      "resultado": "WIN",
+      "justificacao_void": "",
+      "golos_apos_casa": 0,
+      "golos_apos_fora": 0
     }
   ]
 }
