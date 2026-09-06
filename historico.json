@@ -1852,5 +1852,25 @@
       "golos_apos_casa": 2,
       "golos_apos_fora": 0
     }
+  ],
+  "2026-09-06": [
+    {
+      "alerta_id": "ce1:1593127:final",
+      "fixture_id": 1593127,
+      "timestamp": "2026-09-06T15:21:46.628096",
+      "jogo": "VfL Wolfsburg W vs Werder Bremen W",
+      "liga": "Frauen Bundesliga",
+      "janela": "FINAL PUSH",
+      "tempo_alerta": 79,
+      "estrelas": 9.0,
+      "cantos_no_ref": 8,
+      "cantos_final": 9,
+      "cantos_apos_alerta": 1,
+      "meta_cantos": 2,
+      "resultado": "VOID",
+      "justificacao_void": "Não entrada — preço demasiado alto",
+      "golos_apos_casa": 2,
+      "golos_apos_fora": 0
+    }
   ]
 }
