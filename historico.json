@@ -1943,6 +1943,24 @@
       "justificacao_void": "",
       "golos_apos_casa": 0,
       "golos_apos_fora": 0
+    },
+    {
+      "alerta_id": "ce1:1557387:ht",
+      "fixture_id": 1557387,
+      "timestamp": "2026-09-06T17:36:24.660138",
+      "jogo": "Arsenal vs Chelsea",
+      "liga": "Premier League",
+      "janela": "HT ATTACK",
+      "tempo_alerta": 26,
+      "estrelas": 9.5,
+      "cantos_no_ref": 2,
+      "cantos_final": 2,
+      "cantos_apos_alerta": 0,
+      "meta_cantos": 2,
+      "resultado": "LOSS",
+      "justificacao_void": "",
+      "golos_apos_casa": 0,
+      "golos_apos_fora": 0
     }
   ]
 }
