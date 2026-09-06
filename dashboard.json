@@ -17,7 +17,7 @@
    "pode_nao_publicar": true
   }
  },
- "atualizado": "2026-09-06T04:30:07",
+ "atualizado": "2026-09-06T06:09:07",
  "geral": {
   "inicio": "2026-06-06",
   "fim": "2026-09-05",
@@ -76,29 +76,21 @@
   "desde": "2026-06-21"
  },
  "diario": {
-  "inicio": "2026-09-05",
-  "fim": "2026-09-05",
-  "sinais": 1,
-  "ganhos": 1,
+  "inicio": "2026-09-06",
+  "fim": "2026-09-06",
+  "sinais": 0,
+  "ganhos": 0,
   "perdidos": 0,
   "push": 0,
   "pendentes": 0,
-  "wr": 100.0,
-  "lucro_u": 1.14,
-  "roi": 114.0,
-  "por_estrategia": {
-   "Sharp Pick": {
-    "n": 1,
-    "g": 1,
-    "p": 0,
-    "lucro": 1.14,
-    "wr": 100.0
-   }
-  }
+  "wr": 0.0,
+  "lucro_u": 0.0,
+  "roi": 0.0,
+  "por_estrategia": {}
  },
  "semanal": {
   "inicio": "2026-08-31",
-  "fim": "2026-09-05",
+  "fim": "2026-09-06",
   "sinais": 2,
   "ganhos": 1,
   "perdidos": 1,
@@ -119,7 +111,7 @@
  },
  "mensal": {
   "inicio": "2026-09-01",
-  "fim": "2026-09-05",
+  "fim": "2026-09-06",
   "sinais": 2,
   "ganhos": 1,
   "perdidos": 1,
@@ -1148,29 +1140,21 @@
     }
    },
    "diario": {
-    "inicio": "2026-09-05",
-    "fim": "2026-09-05",
-    "sinais": 1,
-    "ganhos": 1,
+    "inicio": "2026-09-06",
+    "fim": "2026-09-06",
+    "sinais": 0,
+    "ganhos": 0,
     "perdidos": 0,
     "push": 0,
     "pendentes": 0,
-    "wr": 100.0,
-    "lucro_u": 1.14,
-    "roi": 114.0,
-    "por_estrategia": {
-     "Sharp Pick": {
-      "n": 1,
-      "g": 1,
-      "p": 0,
-      "lucro": 1.14,
-      "wr": 100.0
-     }
-    }
+    "wr": 0.0,
+    "lucro_u": 0.0,
+    "roi": 0.0,
+    "por_estrategia": {}
    },
    "semanal": {
     "inicio": "2026-08-31",
-    "fim": "2026-09-05",
+    "fim": "2026-09-06",
     "sinais": 2,
     "ganhos": 1,
     "perdidos": 1,
@@ -1191,7 +1175,7 @@
    },
    "mensal": {
     "inicio": "2026-09-01",
-    "fim": "2026-09-05",
+    "fim": "2026-09-06",
     "sinais": 2,
     "ganhos": 1,
     "perdidos": 1,
@@ -1553,8 +1537,8 @@
     }
    },
    "diario": {
-    "inicio": "2026-09-05",
-    "fim": "2026-09-05",
+    "inicio": "2026-09-06",
+    "fim": "2026-09-06",
     "sinais": 0,
     "ganhos": 0,
     "perdidos": 0,
@@ -1567,7 +1551,7 @@
    },
    "semanal": {
     "inicio": "2026-08-31",
-    "fim": "2026-09-05",
+    "fim": "2026-09-06",
     "sinais": 0,
     "ganhos": 0,
     "perdidos": 0,
@@ -1580,7 +1564,7 @@
    },
    "mensal": {
     "inicio": "2026-09-01",
-    "fim": "2026-09-05",
+    "fim": "2026-09-06",
     "sinais": 0,
     "ganhos": 0,
     "perdidos": 0,
@@ -1658,8 +1642,8 @@
     }
    },
    "diario": {
-    "inicio": "2026-09-05",
-    "fim": "2026-09-05",
+    "inicio": "2026-09-06",
+    "fim": "2026-09-06",
     "sinais": 0,
     "ganhos": 0,
     "perdidos": 0,
@@ -1672,7 +1656,7 @@
    },
    "semanal": {
     "inicio": "2026-08-31",
-    "fim": "2026-09-05",
+    "fim": "2026-09-06",
     "sinais": 0,
     "ganhos": 0,
     "perdidos": 0,
@@ -1685,7 +1669,7 @@
    },
    "mensal": {
     "inicio": "2026-09-01",
-    "fim": "2026-09-05",
+    "fim": "2026-09-06",
     "sinais": 0,
     "ganhos": 0,
     "perdidos": 0,
@@ -1883,29 +1867,21 @@
     }
    },
    "diario": {
-    "inicio": "2026-09-05",
-    "fim": "2026-09-05",
-    "sinais": 1,
-    "ganhos": 1,
+    "inicio": "2026-09-06",
+    "fim": "2026-09-06",
+    "sinais": 0,
+    "ganhos": 0,
     "perdidos": 0,
     "push": 0,
     "pendentes": 0,
-    "wr": 100.0,
-    "lucro_u": 1.14,
-    "roi": 114.0,
-    "por_estrategia": {
-     "Sharp Pick": {
-      "n": 1,
-      "g": 1,
-      "p": 0,
-      "lucro": 1.14,
-      "wr": 100.0
-     }
-    }
+    "wr": 0.0,
+    "lucro_u": 0.0,
+    "roi": 0.0,
+    "por_estrategia": {}
    },
    "semanal": {
     "inicio": "2026-08-31",
-    "fim": "2026-09-05",
+    "fim": "2026-09-06",
     "sinais": 2,
     "ganhos": 1,
     "perdidos": 1,
@@ -1926,7 +1902,7 @@
    },
    "mensal": {
     "inicio": "2026-09-01",
-    "fim": "2026-09-05",
+    "fim": "2026-09-06",
     "sinais": 2,
     "ganhos": 1,
     "perdidos": 1,
