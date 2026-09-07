@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-07T17:56:53Z",
-  "event_chain_head": "306ee6c9025092bbd5f630316611541acc61af6b5783250870a5ed6027a3ac13",
+  "generated_at": "2026-09-07T18:29:12Z",
+  "event_chain_head": "c3d78fc6142c96dc1d2851c0c6481ec6913f83d3086355627c4967e64163bfa5",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -10,9 +10,9 @@
   },
   "summary": {
     "total": 12,
-    "pending": 9,
+    "pending": 8,
     "signals_settled": 2,
-    "official_entries_settled": 1
+    "official_entries_settled": 2
   },
   "records": [
     {
@@ -45,11 +45,29 @@
     {
       "id": "official_entry:20260907T173136114467Z:2bca3ae9",
       "kind": "official_entry",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-09-07T17:31:36Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "bfc0dd13478d4ab38a88b502f65989f6c486ac33e33a26223814c89650008059",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-09-07T18:29:12Z",
+      "result": "WIN",
+      "outcome": {
+        "odds": null,
+        "profit_loss_percent": 0.63,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "official_personal_entry",
+        "confidence": 7,
+        "entry_id": "official_entry:20260907T173136114467Z:2bca3ae9",
+        "market": "⛳ Over 11.5 corners · FT",
+        "match": "Pafos x Olympiakos Nicosia",
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "official_entry:20260907T171725760210Z:f1f11df2",
