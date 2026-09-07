@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-07T15:42:18Z",
-  "event_chain_head": "2939c1efc09a349e30150966ab166f7b9ed8eb5286e372fa647b003d27d41783",
+  "generated_at": "2026-09-07T15:55:26Z",
+  "event_chain_head": "f1504848c00a8fb027e560e0a7bf4e48e1edac827eb8c00004a525405b7fbd04",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -10,19 +10,37 @@
   },
   "summary": {
     "total": 5,
-    "pending": 5,
+    "pending": 4,
     "signals_settled": 0,
-    "official_entries_settled": 0
+    "official_entries_settled": 1
   },
   "records": [
     {
       "id": "official_entry:20260907T154217887328Z:3d77ac0f",
       "kind": "official_entry",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-09-07T15:42:18Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "9bb2e378c5b06ffa66d07253121fe0ddb791948d27c39d98f2e8ddc27f1fef90",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-09-07T15:55:26Z",
+      "result": "VOID",
+      "outcome": {
+        "odds": null,
+        "profit_loss_percent": 0.0,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "official_personal_entry",
+        "confidence": 7,
+        "entry_id": "official_entry:20260907T154217887328Z:3d77ac0f",
+        "market": "⛳ Over 7.5 corners · Isloch · FT",
+        "match": "Isloch x Dzernhinsk",
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "official_entry:20260907T154138640393Z:8082e9e8",
