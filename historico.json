@@ -2071,6 +2071,24 @@
       "justificacao_void": "",
       "golos_apos_casa": 0,
       "golos_apos_fora": 0
+    },
+    {
+      "alerta_id": "ce1:1593305:shark",
+      "fixture_id": 1593305,
+      "timestamp": "2026-09-07T18:25:18.695655",
+      "jogo": "Asteras Tripolis vs Iraklis 1908",
+      "liga": "Super League 1",
+      "janela": "SHARK ATTACK",
+      "tempo_alerta": 55,
+      "estrelas": 7.5,
+      "cantos_no_ref": 6,
+      "cantos_final": 11,
+      "cantos_apos_alerta": 5,
+      "meta_cantos": 4,
+      "resultado": "WIN",
+      "justificacao_void": "",
+      "golos_apos_casa": 0,
+      "golos_apos_fora": 1
     }
   ]
 }
