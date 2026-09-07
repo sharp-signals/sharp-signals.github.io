@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-07T18:31:46Z",
-  "event_chain_head": "cab02f0360b8372c75bed8caf548d1e9603d53d1e4d31aa4505deca60058b346",
+  "generated_at": "2026-09-07T18:32:38Z",
+  "event_chain_head": "d4dc763a04b07ce2af8fb4370b9eb968fbb39d4da20b75f0d8b59de68d7b943c",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -10,9 +10,9 @@
   },
   "summary": {
     "total": 13,
-    "pending": 6,
+    "pending": 5,
     "signals_settled": 3,
-    "official_entries_settled": 4
+    "official_entries_settled": 5
   },
   "records": [
     {
@@ -141,11 +141,29 @@
     {
       "id": "official_entry:20260907T171725760210Z:f1f11df2",
       "kind": "official_entry",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-09-07T17:17:26Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "d894daa04f945e5b3285885b14b96c19a4fb015ab55f5ef77a22602295cbf912",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-09-07T18:32:38Z",
+      "result": "WIN",
+      "outcome": {
+        "odds": null,
+        "profit_loss_percent": 0.63,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "official_personal_entry",
+        "confidence": 7,
+        "entry_id": "official_entry:20260907T171725760210Z:f1f11df2",
+        "market": "⛳ Over 2.5 corners · 1st half",
+        "match": "H. Tel Aviv x H. Ramat Gan",
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "official_entry:20260907T171338613562Z:5b9dd7d7",
