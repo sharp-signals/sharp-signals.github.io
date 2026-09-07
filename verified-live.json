@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-07T18:32:38Z",
-  "event_chain_head": "d4dc763a04b07ce2af8fb4370b9eb968fbb39d4da20b75f0d8b59de68d7b943c",
+  "generated_at": "2026-09-07T18:32:48Z",
+  "event_chain_head": "7c618d7b15a08431b8fb5e42a1256b12031917379c7c0b982af6256d5ad6848b",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -10,9 +10,9 @@
   },
   "summary": {
     "total": 13,
-    "pending": 5,
+    "pending": 4,
     "signals_settled": 3,
-    "official_entries_settled": 5
+    "official_entries_settled": 6
   },
   "records": [
     {
@@ -168,11 +168,29 @@
     {
       "id": "official_entry:20260907T171338613562Z:5b9dd7d7",
       "kind": "official_entry",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-09-07T17:13:38Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "2b9eb6e625d63cb9ae843dee5fae93df5c9a68235ed85c6a882c136dfea0ccd4",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-09-07T18:32:48Z",
+      "result": "LOSS",
+      "outcome": {
+        "odds": null,
+        "profit_loss_percent": -0.75,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "official_personal_entry",
+        "confidence": 7,
+        "entry_id": "official_entry:20260907T171338613562Z:5b9dd7d7",
+        "market": "⛳ Over 2.5 corners · 1st half",
+        "match": "Vardar x Arsimi",
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "ce1:1593305:shark",
