@@ -3,7 +3,7 @@
   "nome": "Goal Sharp Elite",
   "tagline": "Live Goal Intelligence",
   "produto_pago": "Golos ao vivo · value e odd confirmada obrigatórios",
-  "prelive_gratis": "Tip ou Dupla experimental separada · máximo uma publicação por dia · pode não sair"
+  "prelive_gratis": "Simples, Dupla ou Tripla experimental separada · máximo uma publicação por dia · pode não sair"
  },
  "produtos": {
   "pago": {
@@ -12,12 +12,12 @@
   },
   "gratis": {
    "nome": "Pré-Live Grátis",
-   "tipo": "tip/dupla experimental",
+   "tipo": "simples/dupla/tripla experimental",
    "maximo_diario": 1,
    "pode_nao_publicar": true
   }
  },
- "atualizado": "2026-09-07T16:00:05",
+ "atualizado": "2026-09-07T16:16:16",
  "geral": {
   "inicio": "2026-06-06",
   "fim": "2026-09-07",
@@ -2244,7 +2244,7 @@
  },
  "combinada": {
   "nome": "Pré-Live Grátis",
-  "descricao": "Tip ou Dupla experimental · máximo uma publicação por dia · pode não haver seleção",
+  "descricao": "Simples, Dupla ou Tripla experimental · máximo uma publicação por dia · pode não haver seleção",
   "boletins": 0,
   "greens": 0,
   "reds": 0,
