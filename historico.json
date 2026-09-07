@@ -2107,6 +2107,24 @@
       "justificacao_void": "",
       "golos_apos_casa": 0,
       "golos_apos_fora": 0
+    },
+    {
+      "alerta_id": "ce1:1612232:mid",
+      "fixture_id": 1612232,
+      "timestamp": "2026-09-07T20:38:18.183228",
+      "jogo": "Petrojet vs AL Masry",
+      "liga": "Premier League",
+      "janela": "MID PRESSURE",
+      "tempo_alerta": 65,
+      "estrelas": 7.0,
+      "cantos_no_ref": 8,
+      "cantos_final": 12,
+      "cantos_apos_alerta": 4,
+      "meta_cantos": 3,
+      "resultado": "WIN",
+      "justificacao_void": "",
+      "golos_apos_casa": 0,
+      "golos_apos_fora": 0
     }
   ]
 }
