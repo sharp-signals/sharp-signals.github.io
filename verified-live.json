@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-07T18:30:58Z",
-  "event_chain_head": "d5dc855ef06a5e0cdf7f4f7390ccc64a220aab03a489f5c17640284e5ac044b0",
+  "generated_at": "2026-09-07T18:31:46Z",
+  "event_chain_head": "cab02f0360b8372c75bed8caf548d1e9603d53d1e4d31aa4505deca60058b346",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -10,8 +10,8 @@
   },
   "summary": {
     "total": 13,
-    "pending": 7,
-    "signals_settled": 2,
+    "pending": 6,
+    "signals_settled": 3,
     "official_entries_settled": 4
   },
   "records": [
@@ -27,11 +27,35 @@
     {
       "id": "ce1:1565245:ht",
       "kind": "signal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-09-07T17:56:52Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "bbc12e884f19600e042944f9565e9af1251ee07e8137ecda0317370632ee4ad0",
-      "telegram_message_count": 2
+      "telegram_message_count": 2,
+      "settled_at": "2026-09-07T18:31:46Z",
+      "result": "LOSS",
+      "outcome": {
+        "corners_reference": 3,
+        "corners_final": 3,
+        "corners_after": 0,
+        "target": 2,
+        "void_reason": "",
+        "approved_manually": true
+      },
+      "sealed_payload": {
+        "alert_id": "ce1:1565245:ht",
+        "classification": "scanner_signal_not_confirmed_bet",
+        "confidence": 7.5,
+        "corners_at_alert": 3,
+        "league": "Liga I",
+        "match": "Universitatea Craiova vs Universitatea Cluj",
+        "minimum_price": 1.75,
+        "minute": 26,
+        "score_at_alert": "0-0",
+        "suggestion": "🎯 ENTRADA SUGERIDA\nOver 4.5 cantos 1ª parte · odd mín. 1.75+\n↳ se sair +1 canto: sobe p/ Over 5.5 ou espera o Over 5",
+        "window": "HT ATTACK"
+      },
+      "commitment_valid": true
     },
     {
       "id": "official_entry:20260907T174106871799Z:3fa63473",
