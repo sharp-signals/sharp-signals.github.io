@@ -8,10 +8,10 @@
    "fim": "2026-01-31"
   },
   "cresc_pct": 56.91,
-  "apostas": 1052,
-  "ganhos": 599,
+  "apostas": 1053,
+  "ganhos": 600,
   "perdidos": 453,
-  "wr": 56.9,
+  "wr": 57.0,
   "meses": [
    {
     "mes": "2025-08",
@@ -72,17 +72,17 @@
    {
     "mes": "2026-09",
     "label": "Set 26",
-    "cresc_pct": 3.12,
-    "apostas": 9,
-    "wr": 77.8
+    "cresc_pct": 3.75,
+    "apostas": 10,
+    "wr": 80.0
    }
   ],
   "por_mercado": [
    {
     "mercado": "Over Cantos FT",
-    "n": 574,
-    "wr": 58.0,
-    "roi": 28.16,
+    "n": 575,
+    "wr": 58.1,
+    "roi": 28.79,
     "pl_eur": 1369.94
    },
    {
@@ -129,7 +129,6 @@
    }
   ],
   "forma": [
-   "ganho",
    "perdido",
    "perdido",
    "ganho",
@@ -143,6 +142,7 @@
    "ganho",
    "ganho",
    "perdido",
+   "ganho",
    "ganho"
   ],
   "historico": [
@@ -178,10 +178,10 @@
     "jogo": "Pafos x Olympiakos Nicosia",
     "mercado": "⛳ Over 11.5 corners · FT",
     "categoria": "Over Cantos FT",
-    "odd": null,
-    "pl_pct": null,
+    "odd": 1.84,
+    "pl_pct": 0.63,
     "stake_pct": 0.75,
-    "resultado": "pendente",
+    "resultado": "ganho",
     "verified_id": "official_entry:20260907T173136114467Z:2bca3ae9",
     "confianca": 7
    },
