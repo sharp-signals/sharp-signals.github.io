@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-07T18:32:48Z",
-  "event_chain_head": "7c618d7b15a08431b8fb5e42a1256b12031917379c7c0b982af6256d5ad6848b",
+  "generated_at": "2026-09-07T19:38:20Z",
+  "event_chain_head": "c12f55fe0e58518840d1a1fa958e12e910afeba00913c641c2f1b9f0a2ee96ad",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -10,19 +10,43 @@
   },
   "summary": {
     "total": 13,
-    "pending": 4,
-    "signals_settled": 3,
+    "pending": 3,
+    "signals_settled": 4,
     "official_entries_settled": 6
   },
   "records": [
     {
       "id": "ce1:1612232:mid",
       "kind": "signal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-09-07T18:29:18Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "000b9da8fe87bcf9800b25fd9e98b31324025a33b710f9a1201d786eea6abffc",
-      "telegram_message_count": 2
+      "telegram_message_count": 2,
+      "settled_at": "2026-09-07T19:38:20Z",
+      "result": "WIN",
+      "outcome": {
+        "corners_reference": 8,
+        "corners_final": 12,
+        "corners_after": 4,
+        "target": 3,
+        "void_reason": "",
+        "approved_manually": true
+      },
+      "sealed_payload": {
+        "alert_id": "ce1:1612232:mid",
+        "classification": "scanner_signal_not_confirmed_bet",
+        "confidence": 7.0,
+        "corners_at_alert": 7,
+        "league": "Premier League",
+        "match": "Petrojet vs AL Masry",
+        "minimum_price": 1.75,
+        "minute": 65,
+        "score_at_alert": "2-1",
+        "suggestion": "🎯 ENTRADA SUGERIDA\nOver 9.5 cantos · odd mín. 1.75+\n↳ se sair +1 canto: sobe p/ Over 10.5 ou espera o Over 10",
+        "window": "MID PRESSURE"
+      },
+      "commitment_valid": true
     },
     {
       "id": "ce1:1565245:ht",
