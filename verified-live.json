@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-07T15:55:26Z",
-  "event_chain_head": "f1504848c00a8fb027e560e0a7bf4e48e1edac827eb8c00004a525405b7fbd04",
+  "generated_at": "2026-09-07T16:12:39Z",
+  "event_chain_head": "2586a427c2412ee699d20757f3111cc441b71654484f12c82441327468071d63",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -10,8 +10,8 @@
   },
   "summary": {
     "total": 5,
-    "pending": 4,
-    "signals_settled": 0,
+    "pending": 3,
+    "signals_settled": 1,
     "official_entries_settled": 1
   },
   "records": [
@@ -72,11 +72,35 @@
     {
       "id": "ce1:1593305:ht",
       "kind": "signal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-09-07T15:29:14Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "2277f72c647adf40a22b18dfadb39e49f9ece177daee7ca409493414f83b142a",
-      "telegram_message_count": 2
+      "telegram_message_count": 2,
+      "settled_at": "2026-09-07T16:12:39Z",
+      "result": "WIN",
+      "outcome": {
+        "corners_reference": 3,
+        "corners_final": 5,
+        "corners_after": 2,
+        "target": 2,
+        "void_reason": "",
+        "approved_manually": true
+      },
+      "sealed_payload": {
+        "alert_id": "ce1:1593305:ht",
+        "classification": "scanner_signal_not_confirmed_bet",
+        "confidence": 7.0,
+        "corners_at_alert": 3,
+        "league": "Super League 1",
+        "match": "Asteras Tripolis vs Iraklis 1908",
+        "minimum_price": 1.75,
+        "minute": 27,
+        "score_at_alert": "0-1",
+        "suggestion": "🎯 ENTRADA SUGERIDA\nOver 4.5 cantos 1ª parte · odd mín. 1.75+\n↳ se sair +1 canto: sobe p/ Over 5.5 ou espera o Over 5",
+        "window": "HT ATTACK"
+      },
+      "commitment_valid": true
     }
   ]
 }
