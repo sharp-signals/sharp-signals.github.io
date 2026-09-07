@@ -8,10 +8,10 @@
    "fim": "2026-01-31"
   },
   "cresc_pct": 56.91,
-  "apostas": 1053,
+  "apostas": 1054,
   "ganhos": 600,
-  "perdidos": 453,
-  "wr": 57.0,
+  "perdidos": 454,
+  "wr": 56.9,
   "meses": [
    {
     "mes": "2025-08",
@@ -72,17 +72,17 @@
    {
     "mes": "2026-09",
     "label": "Set 26",
-    "cresc_pct": 3.75,
-    "apostas": 10,
-    "wr": 80.0
+    "cresc_pct": 3.0,
+    "apostas": 11,
+    "wr": 72.7
    }
   ],
   "por_mercado": [
    {
     "mercado": "Over Cantos FT",
-    "n": 575,
-    "wr": 58.1,
-    "roi": 28.79,
+    "n": 576,
+    "wr": 58.0,
+    "roi": 28.04,
     "pl_eur": 1369.94
    },
    {
@@ -130,7 +130,6 @@
   ],
   "forma": [
    "perdido",
-   "perdido",
    "ganho",
    "perdido",
    "ganho",
@@ -143,7 +142,8 @@
    "ganho",
    "perdido",
    "ganho",
-   "ganho"
+   "ganho",
+   "perdido"
   ],
   "historico": [
    {
@@ -152,10 +152,10 @@
     "jogo": "Riga x Daugavpils",
     "mercado": "⛳ Over 9 corners · FT",
     "categoria": "Over Cantos FT",
-    "odd": null,
-    "pl_pct": null,
+    "odd": 1.84,
+    "pl_pct": -0.75,
     "stake_pct": 0.75,
-    "resultado": "pendente",
+    "resultado": "perdido",
     "verified_id": "official_entry:20260907T174106871799Z:3fa63473",
     "confianca": 7
    },
