@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-09-07T15:03:25Z",
+  "event_chain_head": "0000000000000000000000000000000000000000000000000000000000000000",
+  "event_chain_algorithm": "SHA-256 linked events",
+  "methodology": {
+    "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
+    "official_entry": "Entrada pessoal publicada; pode entrar nas métricas financeiras quando tem odd e stake válidas.",
+    "pending_privacy": "Antes da liquidação são públicos apenas a hora, o tipo e o compromisso SHA-256."
+  },
+  "summary": {
+    "total": 0,
+    "pending": 0,
+    "signals_settled": 0,
+    "official_entries_settled": 0
+  },
+  "records": []
+}
