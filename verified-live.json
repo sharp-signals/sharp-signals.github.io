@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-07T18:29:18Z",
-  "event_chain_head": "b81e238b775e3570a97af321570e8c9c9373ae50af89bf61e3f51eed9883d96f",
+  "generated_at": "2026-09-07T18:30:29Z",
+  "event_chain_head": "c84223bdc90ff3a4a8e0ad31e94ef83122f785823ffb8405191c5507cf2cd198",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -10,9 +10,9 @@
   },
   "summary": {
     "total": 13,
-    "pending": 9,
+    "pending": 8,
     "signals_settled": 2,
-    "official_entries_settled": 2
+    "official_entries_settled": 3
   },
   "records": [
     {
@@ -45,11 +45,29 @@
     {
       "id": "official_entry:20260907T173442282324Z:384acfb5",
       "kind": "official_entry",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-09-07T17:34:42Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "1deb79008e8e965d7b64466fb72a82f832dbc388d1eea685203ff6182d9390d9",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-09-07T18:30:29Z",
+      "result": "VOID",
+      "outcome": {
+        "odds": null,
+        "profit_loss_percent": 0.0,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "official_personal_entry",
+        "confidence": 7,
+        "entry_id": "official_entry:20260907T173442282324Z:384acfb5",
+        "market": "⛳ Over 9.5 corners · FT",
+        "match": "Riga x Daugavpils",
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "official_entry:20260907T173136114467Z:2bca3ae9",
