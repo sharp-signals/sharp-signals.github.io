@@ -177,7 +177,18 @@ footer{border-top:1px solid var(--gold-b);padding:2.5rem 2rem;text-align:center}
 .langswitch{position:fixed;bottom:18px;right:18px;z-index:200;display:flex;gap:4px;background:rgba(6,13,26,0.9);border:1px solid var(--gold-b);border-radius:30px;padding:4px;backdrop-filter:blur(8px)}
 .langswitch a{font-family:'Cinzel',serif;font-size:10px;letter-spacing:1px;padding:5px 11px;border-radius:30px;color:var(--white2);transition:all 0.2s}
 .langswitch a.on{background:var(--gold);color:var(--navy);font-weight:700}
+/* Goal: leitura e adesão, sem alterar os cartões Corner ou Elite. */
+.hero .trust,.goal-data-note,.goal-data-status{font-size:.875rem;line-height:1.65;color:var(--white2)}
+.goal-data-note{max-width:760px;margin:1rem auto;text-align:center}
+.goal-data-status{margin:1rem auto;text-align:center;min-height:1.7em}
+.hero .btn-primary,.hero .btn-secondary,.goal-plan .plan-btn,#join .btn-primary{min-height:48px;display:inline-flex;align-items:center;justify-content:center;font-size:.875rem;letter-spacing:.06em}
+.goal-plan .plan-btn{display:flex}.goal-plan .plan-features li{font-size:1rem;line-height:1.6}
+#edge .pillar p,#how .step p,#offer .strat p{font-size:1rem;line-height:1.7}
+.hero a:focus-visible,.goal-plan a:focus-visible,#join a:focus-visible,#performance a:focus-visible{outline:3px solid var(--gold-l);outline-offset:5px}
+@media(max-width:600px){.hero{padding:8rem 1.25rem 3rem}.hero-btns{flex-direction:column}.hero-btns a{width:100%;padding:1rem}.goal-data-note{padding:0 .5rem}}
+@media(prefers-reduced-motion:reduce){.reveal{opacity:1;transform:none;transition:none}.aurora{animation:none}html{scroll-behavior:auto}}
 </style>
+<noscript><style>.reveal{opacity:1;transform:none}</style></noscript>
 </head>
 <body>
 <div class="aurora"></div><div class="sidelogo"></div><div class="grain"></div>
@@ -190,20 +201,21 @@ footer{border-top:1px solid var(--gold-b);padding:2.5rem 2rem;text-align:center}
     <a href="#plans" class="nav-link">Planos</a>
     <a href="#performance" class="nav-link">Performance</a>
   </div>
-  <a href="index-pt.html" class="nav-cta" style="margin-right:0.5rem;border-color:rgba(201,162,39,0.4);color:var(--white2)">← Início</a><a href="#plans" class="nav-cta">Ver Planos</a>
+  <a href="https://sharp-signals.github.io/index-pt.html" class="nav-cta" style="margin-right:0.5rem;border-color:rgba(201,162,39,0.4);color:var(--white2)">← Início</a><a href="#plans" class="nav-cta">Ver Planos</a>
 </nav>
 
 <header class="hero">
   <div class="hero-eyebrow"><span class="dot"></span> Inteligência de Golos Ao Vivo</div>
-  <h1 class="hero-title">Segue um <span>método medido</span>,<br>com registos transparentes.</h1>
-  <p class="hero-sub">Alertas live informados por dados, avaliados jogo a jogo. Probabilidades estimadas e
-    odds mínimas de mercado são apoio à decisão, nunca garantias. Novos modelos permanecem
-    em shadow até a evidência registada sustentar uma promoção.</p>
+  <h1 class="hero-title">O intervalo <span>não é o fim.</span><br>É uma nova leitura do jogo.</h1>
+  <p class="hero-sub">Golos na <b>2.ª parte</b> e <b>Late Goal</b>. Acompanha no Telegram os jogos
+    selecionados, com o mercado e a odd mínima de referência. Liga, marcador e momento
+    contam — nenhuma análise garante o resultado.</p>
   <div class="hero-btns">
-    <a class="btn-primary" href="#join">Ver os Alertas Live</a>
-    <a class="btn-secondary" href="#performance">Ver Performance ao Vivo</a>
+    <a class="btn-primary" href="https://t.me/Over75bot?start=goal" target="_blank" rel="noopener noreferrer">Pedir adesão ao Goal</a>
+    <a class="btn-secondary" href="#performance">Consultar o histórico</a>
   </div>
-  <div class="trust">18+ · Joga com Responsabilidade · Gestão de Banca 1–2%</div>
+  <div class="trust">€27,90 / mês · Adesão validada manualmente · 18+ · Apostas envolvem risco</div>
+  <p class="goal-data-note">Histórico público do Goal, não resultados isolados da versão atual. Consulta o período e o contexto abaixo.</p>
   <div class="kstrip">
     <div class="kbox"><span class="v gold" data-k="wr">—</span><span class="l">Taxa de Acerto</span></div>
     <div class="kbox"><span class="v" data-k="roi">—</span><span class="l">ROI</span></div>
@@ -216,18 +228,18 @@ footer{border-top:1px solid var(--gold-b);padding:2.5rem 2rem;text-align:center}
   <div class="section-label reveal">Método e Evidência</div>
   <div class="section-title reveal">O mercado é incerto. Documentamos cada decisão.</div>
   <div class="gold-line"></div>
-  <p class="section-sub reveal" style="margin-bottom:3rem">Focamo-nos em perfis definidos de liga e estado do jogo, avaliados out-of-sample,
-    e publicamos o registo apurado. Nenhum resultado é garantido.</p>
+  <p class="section-sub reveal" style="margin-bottom:3rem">A seleção começa no contexto: liga, marcador e momento do jogo.
+    Depois vem a comparação com a odd mínima. Não há obrigação de entrar em todos os jogos.</p>
   <div class="pillars">
     <div class="pillar reveal"><div class="ic">🎯</div><h3>Seleção de Ligas</h3>
-      <p>Os perfis de liga são avaliados em walk-forward em amostras históricas e monitorizados live.
-        Perfis fracos ou instáveis ficam excluídos ou em shadow.</p></div>
+      <p>As competições não são todas iguais. O histórico e o perfil da liga ajudam a definir
+        quais os jogos que merecem acompanhamento.</p></div>
     <div class="pillar reveal"><div class="ic">💰</div><h3>Odd Justa Estimada</h3>
-      <p>Cada alerta inclui uma odd mínima estimada pelo modelo como referência. A estimativa pode falhar,
-        e nenhum alerta é garantia nem instrução para apostar.</p></div>
+      <p>O alerta indica a odd mínima de referência. Confirma o preço disponível na tua casa;
+        se estiver abaixo, não corresponde às condições indicadas.</p></div>
     <div class="pillar reveal"><div class="ic">⚡</div><h3>Inteligência ao Vivo</h3>
-      <p>Ao vivo, observamos marcador, perfil do jogo, momentum e contexto de cada equipa.
-        Estas observações alimentam uma estimativa; não determinam o resultado.</p></div>
+      <p>Marcador e momento do jogo fazem parte da leitura. O contexto das equipas e as estatísticas
+        disponíveis complementam a análise; não tornam o golo certo.</p></div>
     <div class="pillar reveal"><div class="ic">🔍</div><h3>Transparência Total</h3>
       <p>Cada alerta pago é registado e apurado. O registo público atualiza quando os resultados são processados.
         Sem cherry-picking.</p></div>
@@ -236,51 +248,48 @@ footer{border-top:1px solid var(--gold-b);padding:2.5rem 2rem;text-align:center}
 
 <section id="how">
   <div class="section-label reveal">Como Funciona</div>
-  <div class="section-title reveal">Dos dados ao sinal — em 4 passos</div>
+  <div class="section-title reveal">Do alerta ao acompanhamento — em 4 passos</div>
   <div class="gold-line"></div>
-  <p class="section-sub reveal" style="margin-bottom:3rem">Os detalhes de implementação permanecem proprietários; o processo de decisão, a versão
-    do modelo e os resultados apurados ficam registados para revisão.</p>
+  <p class="section-sub reveal" style="margin-bottom:3rem">Um percurso simples no Telegram. A decisão de apostar continua a ser tua.</p>
   <div class="steps">
-    <div class="step reveal"><div class="num">1</div><h3>Modelos Versionados</h3>
-      <p>Os modelos usam features definidas e perfis de liga. Alterações materiais ficam em shadow
-        antes de poderem influenciar alertas pagos.</p></div>
-    <div class="step reveal"><div class="num">2</div><h3>Estimativa de Probabilidade</h3>
-      <p>Comparamos uma probabilidade estimada pelo modelo com as odds observadas na casa. É uma estimativa,
-        não uma verdade objetiva, garantia ou promessa de valor.</p></div>
-    <div class="step reveal"><div class="num">3</div><h3>Alerta Informativo</h3>
-      <p>Recebes o jogo, o mercado e a <b>odd mínima</b> estimada pelo modelo, em tempo real no
-        Telegram. A decisão final é tua.</p></div>
-    <div class="step reveal"><div class="num">4</div><h3>Registado e Revisto</h3>
-      <p>Cada sinal é registado e apurado. A performance fica <b>aberta</b> e atualizada
-        todos os dias. Sem cherry-picking.</p></div>
+    <div class="step reveal"><div class="num">1</div><h3>Recebe o Alerta</h3>
+      <p>Jogo, mercado e odd mínima de referência chegam ao Telegram quando os critérios da seleção são cumpridos.</p></div>
+    <div class="step reveal"><div class="num">2</div><h3>Confirma as Condições</h3>
+      <p>Verifica o mercado, o marcador e a odd disponível. Um preço mínimo indicado não é uma odd garantida na casa.</p></div>
+    <div class="step reveal"><div class="num">3</div><h3>Decide com Disciplina</h3>
+      <p>Não precisas de seguir todos os alertas. Respeita os teus limites e não aumentes a aposta para recuperar perdas.</p></div>
+    <div class="step reveal"><div class="num">4</div><h3>Acompanha o Resultado</h3>
+      <p>Consulta os resultados apurados e os resumos. Vitórias e derrotas fazem parte do mesmo registo.</p></div>
   </div>
 </section>
 
 <section id="offer">
   <div class="section-label reveal">O Que Recebes</div>
-  <div class="section-title reveal">Alertas live e perfis de liga</div>
+  <div class="section-title reveal">Duas janelas. Critérios próprios.</div>
   <div class="gold-line"></div>
-  <p class="section-sub reveal" style="margin-bottom:3rem">Um princípio: critérios definidos, odd de referência e registo público apurado.</p>
+  <p class="section-sub reveal" style="margin-bottom:3rem">Over 2.ª Parte e Late Goal fazem parte do Goal. O pré-live gratuito é acompanhado à parte.</p>
   <div class="strats">
     <div class="strat reveal"><div class="flag">Core</div>
-      <span class="tagline">Tempo Real</span><h3>Alertas ao Vivo</h3>
-      <p>Avaliamos o estado live e só emitimos um alerta informativo quando a odd observada cumpre
-        o mínimo estimado pelo modelo. Pode não haver alerta.</p>
-      <div class="stat"><b>Condicional</b><span>pode não haver alerta</span></div></div>
+      <span class="tagline">Intervalo</span><h3>Over 1.5 na 2.ª Parte</h3>
+      <p>Seleção centrada no intervalo, para acompanhar os golos da segunda parte.
+        O alerta identifica o mercado e a odd mínima; as reavaliações dependem das regras e do estado do jogo.</p>
+      <div class="stat"><b>2.ª parte</b><span>seleção por contexto</span></div></div>
     <div class="strat reveal">
-      <span class="tagline">Por Liga</span><h3>Perfis de Liga</h3>
-      <p>Os limiares e a validação de valor adaptam-se ao perfil de golos de cada competição.
-        O produto pago mantém-se live; pode sair no máximo uma dupla pré-live grátis por dia, quando aprovada, e pode não haver seleção.</p>
-      <div class="stat"><b>Adaptativo</b><span>competição a competição</span></div></div>
+      <span class="tagline">Reta Final</span><h3>Late Goal</h3>
+      <p>Outra leitura entre os 75 e os 82 minutos, para a possibilidade de mais um golo até ao fim.
+        Tem critérios e controlo de exposição próprios. Pode não haver entrada.</p>
+      <div class="stat"><b>75–82′</b><span>janela de análise, não promessa de golo</span></div></div>
     
   </div>
 </section>
 
 <section id="performance">
-  <div class="section-label reveal">Prova</div>
-  <div class="section-title reveal">Performance ao vivo, sem filtros</div>
+  <div class="section-label reveal">Registo Público</div>
+  <div class="section-title reveal">Histórico do Goal, com contexto</div>
   <div class="gold-line"></div>
-  <p class="section-sub reveal">Os números abaixo vêm diretamente do motor. Atualizados automaticamente a cada apuramento.</p>
+  <p class="section-sub reveal">Este histórico reúne sinais públicos de golos de diferentes versões. Não representa o resultado isolado do modelo atual.
+    Sharp Pick, arquivo importado, testes shadow e piloto privado não entram nestes cartões.</p>
+  <p id="goal-data-status" class="goal-data-status" role="status" aria-live="polite">A carregar o período e a amostra…</p>
   <div class="kstrip reveal">
     <div class="kbox"><span class="v gold" data-k="wr">—</span><span class="l">Taxa de Acerto</span></div>
     <div class="kbox"><span class="v" data-k="roi">—</span><span class="l">ROI</span></div>
@@ -288,8 +297,8 @@ footer{border-top:1px solid var(--gold-b);padding:2.5rem 2rem;text-align:center}
     <div class="kbox"><span class="v" data-k="sinais">—</span><span class="l">Alertas</span></div>
   </div>
   <div class="perf-cta reveal">
-    <a class="btn-primary" href="dashboard_mv-pt.html" style="font-size:13px;padding:1rem 2.5rem">📊 Ver Dashboard Completo ao Vivo →</a>
-    <div class="perf-note">Performance detalhada · histórico · evolução da banca · atualizado diariamente</div>
+    <a class="btn-primary" href="https://sharp-signals.github.io/dashboard_mv-pt.html?strat=LIVE" style="font-size:13px;padding:1rem 2.5rem">📊 Consultar o registo detalhado →</a>
+    <div class="goal-data-note">O dashboard completo contém outros separadores. Confirma a estratégia e o período antes de comparar resultados.</div>
   </div>
 </section>
 
@@ -297,9 +306,9 @@ footer{border-top:1px solid var(--gold-b);padding:2.5rem 2rem;text-align:center}
 <section class="challenge-section">
   <div class="challenge reveal" style="grid-template-columns:1fr;max-width:720px;text-align:center">
     <div>
-      <div class="section-label" style="text-align:center">ESTADO DO MODELO</div>
-      <h2>Observação em <span>shadow</span></h2>
-      <p>Modelos experimentais não afetam alertas pagos. A promoção exige evidência out-of-sample registada.</p>
+      <div class="section-label" style="text-align:center">COMO O GOAL EVOLUI</div>
+      <h2>Testar. <span>Medir. Rever.</span></h2>
+      <p>Comparamos novas regras em separado antes de decidir uma alteração. Um teste favorável não é uma promessa de desempenho futuro nem uma aposta executada.</p>
     </div>
   </div>
 </section>
@@ -307,7 +316,7 @@ footer{border-top:1px solid var(--gold-b);padding:2.5rem 2rem;text-align:center}
 <section id="plans" class="membership-section">
   <div class="section-label reveal">Subscrição</div>
   <div class="section-title reveal">Escolhe o Teu Plano</div>
-  <p class="section-sub reveal">Os planos pagos incluem alertas live no nosso canal privado de Telegram. Pode sair no máximo uma dupla pré-live grátis por dia no canal aberto, quando aprovada; pode não haver seleção. Cancela quando quiseres.</p>
+  <p class="section-sub reveal">Pede adesão ao Goal no Telegram e confirma as condições antes de pagar. O gratuito é separado: pode publicar um bilhete pré-live experimental por dia, simples ou combinado, e pode não haver seleção.</p>
   <div class="gold-line"></div>
 
   <div class="plans-grid">
@@ -329,18 +338,18 @@ footer{border-top:1px solid var(--gold-b);padding:2.5rem 2rem;text-align:center}
     </div>
 
     <!-- Goals Only — featured here -->
-    <div class="plan-card featured reveal">
+    <div class="plan-card featured reveal goal-plan">
       <div class="plan-icon">⚽</div>
       <div class="plan-name">Goal Sharp Live</div>
       <div class="plan-price">€27,90 <span>/ mês</span></div>
       <ul class="plan-features">
-        <li>Alertas Goal Sharp Elite ao vivo</li>
-        <li>Dados de performance verificados</li>
-        <li>Resumo diário</li>
+        <li>Over 2.ª Parte e Late Goal</li>
+        <li>Jogo, mercado e odd mínima de referência</li>
+        <li>Registo público e resumos de resultados</li>
         <li class="missing">Alertas do bot de cantos</li>
         <li class="missing">Tips pessoais</li>
       </ul>
-      <a href="https://t.me/Over75bot" target="_blank" class="plan-btn featured-btn">Subscrever</a>
+      <a href="https://t.me/Over75bot?start=goal" target="_blank" rel="noopener noreferrer" class="plan-btn featured-btn">Pedir adesão ao Goal</a>
     </div>
 
     <!-- Elite Pack -->
@@ -375,9 +384,9 @@ footer{border-top:1px solid var(--gold-b);padding:2.5rem 2rem;text-align:center}
 
 <section id="join">
   <div class="cta-band reveal">
-    <h2>Queres acompanhar os alertas live e o registo público?</h2>
-    <p>Entra no Telegram para receber alertas live informativos com odd mínima estimada pelo modelo. Nenhum resultado é garantido.</p>
-    <a class="btn-primary" id="cta-final" href="#" style="font-size:13px;padding:1rem 2.5rem">⚡ Entrar no Canal de Telegram</a>
+    <h2>Queres acompanhar o Goal?</h2>
+    <p>Abre o bot, consulta o plano e pede adesão. O clique não ativa uma subscrição: o pagamento e o acesso são validados manualmente.</p>
+    <a class="btn-primary" id="cta-final" href="https://t.me/Over75bot?start=goal" target="_blank" rel="noopener noreferrer" style="padding:1rem 2.5rem">Pedir adesão ao Goal no Telegram</a>
   </div>
 </section>
 
@@ -398,38 +407,75 @@ footer{border-top:1px solid var(--gold-b);padding:2.5rem 2rem;text-align:center}
 </div>
 
 <script>
-const TELEGRAM = "https://t.me/Over75bot";
-document.querySelectorAll('#cta-final').forEach(a=>a.href=TELEGRAM);
+const GOAL_TELEGRAM = "https://t.me/Over75bot?start=goal";
+const GOAL_PT = document.documentElement.lang.toLowerCase().startsWith('pt');
 document.getElementById('yr').textContent=new Date().getFullYear();
-const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)e.target.classList.add('in')}),{threshold:.12});
-document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
-function animate(el,to,fmt){
-  const dur=1100,t0=performance.now();
-  (function step(t){const k=Math.min((t-t0)/dur,1);const e=1-Math.pow(1-k,3);
-    el.textContent=fmt(to*e); if(k<1)requestAnimationFrame(step);})(t0);
+if ('IntersectionObserver' in window) {
+  const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)e.target.classList.add('in')}),{threshold:.12});
+  document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+} else {
+  document.querySelectorAll('.reveal').forEach(el=>el.classList.add('in'));
 }
-fetch('dashboard.json?'+Date.now()).then(r=>r.json()).then(d=>{
-  const g=d.geral||{}, c=d.challenge||{};
-  const set=(k,to,fmt)=>document.querySelectorAll(`[data-k="${k}"]`).forEach(el=>animate(el,to,fmt));
-  set('wr', g.wr||0, v=>v.toFixed(0)+'%');
-  set('roi',(g.roi||0), v=>(v>=0?'+':'')+v.toFixed(1)+'%');
-  set('lucro',(g.lucro_u||0), v=>(v>=0?'+':'')+v.toFixed(1)+'u');
-  set('sinais', g.sinais||0, v=>Math.round(v));
-  document.querySelectorAll('[data-k="roi"],[data-k="lucro"]').forEach(el=>{
-    const neg=(el.dataset.k==='roi'?(g.roi||0):(g.lucro_u||0))<0; el.classList.add(neg?'neg':'pos');});
-  (document.querySelector('[data-ch="completos"]')||{}).textContent='🏆 '+(c.completos||0);
-  (document.querySelector('[data-ch="falhados"]')||{}).textContent='❌ '+(c.falhados||0);
-  (document.querySelector('[data-ch="odd"]')||{}).textContent=Number(c.odd_acumulada||1).toFixed(2)+'×';
-  if(c.escada && c.escada.length){
-    const ic=r=>r==='ganho'?'win':'';
-    const lab=r=>r==='ganho'?'won':r==='perdido'?'lost':'in play';
-    document.getElementById('ladder').innerHTML=c.escada.map((l,i)=>
-      `<div class="rung ${ic(l.resultado)}"><div class="n">${i+1}</div>
-       <div class="t">Game ${i+1} · ${lab(l.resultado)}</div><div class="o">${l.odd?'@'+Number(l.odd).toFixed(2):'—'}</div></div>`
-    ).join('')+Array.from({length:Math.max(0,(c.total||4)-c.escada.length)},(_,i)=>
-      `<div class="rung"><div class="n">${c.escada.length+i+1}</div><div class="t">Game ${c.escada.length+i+1} · waiting</div><div class="o">—</div></div>`).join('');
-  }
-}).catch(()=>{});
+function goalNumber(value) {
+  return typeof value==='number' && Number.isFinite(value) ? value : null;
+}
+function goalISO(value) {
+  if(typeof value!=='string' || !/^\d{4}-\d{2}-\d{2}$/.test(value)) return false;
+  const parsed=new Date(value+'T00:00:00Z');
+  return Number.isFinite(parsed.getTime()) && parsed.toISOString().slice(0,10)===value;
+}
+function goalPublicStats(data) {
+  const g=data && data.verificado;
+  if(!g || typeof g!=='object' || Array.isArray(g)) return null;
+  const n=goalNumber(g.sinais);
+  if(n===null || !Number.isInteger(n) || n<0) return null;
+  const groups=g.por_estrategia;
+  if(!groups || typeof groups!=='object' || Array.isArray(groups)) return null;
+  const names=Object.keys(groups);
+  if((n>0 && names.length===0) || names.some(name=>name!=='Golos 2ª Parte')) return null;
+  const counts=['ganhos','perdidos','push','pendentes'].map(key=>goalNumber(g[key]));
+  if(counts.some(v=>v===null || !Number.isInteger(v) || v<0)) return null;
+  const [wins,losses,push,pending]=counts;
+  if(wins+losses+push+pending>n) return null;
+  const resolved=wins+losses;
+  const validDates=goalISO(g.inicio) && goalISO(g.fim) && g.inicio<=g.fim;
+  const wr=goalNumber(g.wr);
+  return {n,settled:resolved+push,pending,
+    wr:resolved>0 && wr!==null && wr>=0 && wr<=100 ? wr : null,
+    roi:resolved>0 ? goalNumber(g.roi) : null,
+    balance:resolved>0 ? goalNumber(g.lucro_u) : null,
+    start:validDates?g.inicio:null,end:validDates?g.fim:null};
+}
+function goalUnavailable() {
+  document.querySelectorAll('[data-k]').forEach(el=>{el.textContent='—';el.classList.remove('neg','pos');});
+  document.getElementById('goal-data-status').textContent=GOAL_PT
+    ? 'Histórico Goal indisponível neste momento. Não substituímos dados em falta por zeros ou totais de outros produtos.'
+    : 'Goal history is unavailable at the moment. Missing data is not replaced by zeros or totals from other products.';
+}
+function goalRender(data) {
+  const g=goalPublicStats(data);
+  if(!g){goalUnavailable();return;}
+  const decimal=v=>v.toLocaleString(GOAL_PT?'pt-PT':'en-GB',{minimumFractionDigits:1,maximumFractionDigits:1});
+  const signed=v=>(v>=0?'+':'')+decimal(v);
+  const values={wr:g.wr,roi:g.roi,lucro:g.balance,sinais:g.n};
+  document.querySelectorAll('[data-k]').forEach(el=>{
+    const key=el.dataset.k, value=values[key];
+    el.classList.remove('neg','pos');
+    el.textContent=value===null || value===undefined ? '—'
+      : key==='sinais' ? String(value)
+      : key==='wr' ? decimal(value)+'%'
+      : key==='roi' ? signed(value)+'%' : signed(value)+'u';
+    if(value!==null && value!==undefined && (key==='roi'||key==='lucro')) el.classList.add(value<0?'neg':'pos');
+  });
+  const fmt=date=>GOAL_PT ? date.split('-').reverse().join('/') : date;
+  const period=g.start ? fmt(g.start)+' – '+fmt(g.end) : (GOAL_PT?'Período indisponível':'Date range unavailable');
+  document.getElementById('goal-data-status').textContent=GOAL_PT
+    ? period+' · '+g.n+' sinais · '+g.settled+' apurados · '+g.pending+' pendentes. Saldo calculado a 1u por aposta.'
+    : period+' · '+g.n+' alerts · '+g.settled+' settled · '+g.pending+' pending. Balance calculated at 1u per bet.';
+}
+fetch('dashboard.json?'+Date.now(),{cache:'no-store'})
+  .then(response=>{if(!response.ok)throw new Error('public-data-unavailable');return response.json();})
+  .then(goalRender).catch(goalUnavailable);
 </script>
 </body>
 </html>
