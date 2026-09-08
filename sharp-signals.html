@@ -177,7 +177,18 @@ footer{border-top:1px solid var(--gold-b);padding:2.5rem 2rem;text-align:center}
 .langswitch{position:fixed;bottom:18px;right:18px;z-index:200;display:flex;gap:4px;background:rgba(6,13,26,0.9);border:1px solid var(--gold-b);border-radius:30px;padding:4px;backdrop-filter:blur(8px)}
 .langswitch a{font-family:'Cinzel',serif;font-size:10px;letter-spacing:1px;padding:5px 11px;border-radius:30px;color:var(--white2);transition:all 0.2s}
 .langswitch a.on{background:var(--gold);color:var(--navy);font-weight:700}
+/* Goal: readability and membership requests; Corner and Elite cards are preserved. */
+.hero .trust,.goal-data-note,.goal-data-status{font-size:.875rem;line-height:1.65;color:var(--white2)}
+.goal-data-note{max-width:760px;margin:1rem auto;text-align:center}
+.goal-data-status{margin:1rem auto;text-align:center;min-height:1.7em}
+.hero .btn-primary,.hero .btn-secondary,.goal-plan .plan-btn,#join .btn-primary{min-height:48px;display:inline-flex;align-items:center;justify-content:center;font-size:.875rem;letter-spacing:.06em}
+.goal-plan .plan-btn{display:flex}.goal-plan .plan-features li{font-size:1rem;line-height:1.6}
+#edge .pillar p,#how .step p,#offer .strat p{font-size:1rem;line-height:1.7}
+.hero a:focus-visible,.goal-plan a:focus-visible,#join a:focus-visible,#performance a:focus-visible{outline:3px solid var(--gold-l);outline-offset:5px}
+@media(max-width:600px){.hero{padding:8rem 1.25rem 3rem}.hero-btns{flex-direction:column}.hero-btns a{width:100%;padding:1rem}.goal-data-note{padding:0 .5rem}}
+@media(prefers-reduced-motion:reduce){.reveal{opacity:1;transform:none;transition:none}.aurora{animation:none}html{scroll-behavior:auto}}
 </style>
+<noscript><style>.reveal{opacity:1;transform:none}</style></noscript>
 </head>
 <body>
 <div class="aurora"></div><div class="sidelogo"></div><div class="grain"></div>
@@ -190,20 +201,21 @@ footer{border-top:1px solid var(--gold-b);padding:2.5rem 2rem;text-align:center}
     <a href="#plans" class="nav-link">Plans</a>
     <a href="#performance" class="nav-link">Performance</a>
   </div>
-  <a href="index.html" class="nav-cta" style="margin-right:0.5rem;border-color:rgba(201,162,39,0.4);color:var(--white2)">← Home</a><a href="#plans" class="nav-cta">View Plans</a>
+  <a href="https://sharp-signals.github.io/index.html" class="nav-cta" style="margin-right:0.5rem;border-color:rgba(201,162,39,0.4);color:var(--white2)">← Home</a><a href="#plans" class="nav-cta">View Plans</a>
 </nav>
 
 <header class="hero">
   <div class="hero-eyebrow"><span class="dot"></span> Live Goal Intelligence</div>
-  <h1 class="hero-title">Follow a <span>measured method</span>,<br>with transparent records.</h1>
-  <p class="hero-sub">Data-informed live alerts, evaluated game by game. Estimated probabilities and
-    minimum market odds are decision-support inputs, never guarantees. New models remain
-    in shadow until recorded evidence supports promotion.</p>
+  <h1 class="hero-title">Half-time <span>is not the end.</span><br>It is a new reading of the game.</h1>
+  <p class="hero-sub"><b>Second-half goals</b> and <b>Late Goal</b>. Follow selected matches on
+    Telegram, with the market and reference minimum odds. League, score and timing
+    matter — no analysis guarantees the outcome.</p>
   <div class="hero-btns">
-    <a class="btn-primary" href="#join">View the Live Alerts</a>
-    <a class="btn-secondary" href="#performance">View Live Performance</a>
+    <a class="btn-primary" href="https://t.me/Over75bot?start=goal" target="_blank" rel="noopener noreferrer">Request Goal membership</a>
+    <a class="btn-secondary" href="#performance">View the public record</a>
   </div>
-  <div class="trust">18+ · Bet Responsibly · Bankroll Management 1–2%</div>
+  <div class="trust">€27.90 / month · Membership confirmed manually · 18+ · Betting involves risk</div>
+  <p class="goal-data-note">Goal public history, not the standalone results of the current model. Check the dates and context below.</p>
   <div class="kstrip">
     <div class="kbox"><span class="v gold" data-k="wr">—</span><span class="l">Win Rate</span></div>
     <div class="kbox"><span class="v" data-k="roi">—</span><span class="l">ROI</span></div>
@@ -216,18 +228,18 @@ footer{border-top:1px solid var(--gold-b);padding:2.5rem 2rem;text-align:center}
   <div class="section-label reveal">Method &amp; Evidence</div>
   <div class="section-title reveal">The market is uncertain. We document every decision.</div>
   <div class="gold-line"></div>
-  <p class="section-sub reveal" style="margin-bottom:3rem">We focus on defined league and game-state profiles, evaluate them out of sample,
-    and publish the settled record. No outcome is guaranteed.</p>
+  <p class="section-sub reveal" style="margin-bottom:3rem">Selection starts with context: league, score and match timing.
+    Then comes the comparison with minimum odds. There is no obligation to enter every match.</p>
   <div class="pillars">
     <div class="pillar reveal"><div class="ic">🎯</div><h3>League Selection</h3>
-      <p>League profiles are evaluated walk-forward on historical samples and monitored live.
-        Weak or unstable profiles remain excluded or in shadow.</p></div>
+      <p>Competitions are not all alike. Historical records and league profiles help identify
+        the matches worth following.</p></div>
     <div class="pillar reveal"><div class="ic">💰</div><h3>Estimated Fair Odds</h3>
-      <p>Each alert carries model-estimated minimum odds for reference. The estimate may be wrong,
-        and no alert is a guarantee or instruction to bet.</p></div>
+      <p>The alert states reference minimum odds. Check the price at your bookmaker;
+        a lower price does not meet the conditions stated in the alert.</p></div>
     <div class="pillar reveal"><div class="ic">⚡</div><h3>In-Play Intelligence</h3>
-      <p>Live, we observe score, match profile, momentum and each team's context.
-        These observations feed an estimate; they do not determine the result.</p></div>
+      <p>Score and match timing inform the assessment. Team context and available statistics
+        complement the analysis; they do not make a goal certain.</p></div>
     <div class="pillar reveal"><div class="ic">🔍</div><h3>Full Transparency</h3>
       <p>Every paid alert is logged and settled. The public record updates as results are processed.
         No cherry-picking.</p></div>
@@ -236,51 +248,48 @@ footer{border-top:1px solid var(--gold-b);padding:2.5rem 2rem;text-align:center}
 
 <section id="how">
   <div class="section-label reveal">How It Works</div>
-  <div class="section-title reveal">From data to signal — in 4 steps</div>
+  <div class="section-title reveal">From alert to follow-up — in 4 steps</div>
   <div class="gold-line"></div>
-  <p class="section-sub reveal" style="margin-bottom:3rem">Implementation details remain proprietary, while the decision process, model version
-    and settled outcomes are recorded for review.</p>
+  <p class="section-sub reveal" style="margin-bottom:3rem">A straightforward process on Telegram. The decision to bet remains yours.</p>
   <div class="steps">
-    <div class="step reveal"><div class="num">1</div><h3>Versioned Models</h3>
-      <p>Models use defined features and league profiles. Material changes remain in shadow
-        before they can influence paid alerts.</p></div>
-    <div class="step reveal"><div class="num">2</div><h3>Probability Estimate</h3>
-      <p>We compare a model-estimated probability with observed bookmaker odds. It is an estimate,
-        not ground truth, a guarantee or a promise of value.</p></div>
-    <div class="step reveal"><div class="num">3</div><h3>Informational Alert</h3>
-      <p>You receive the match, market and model-estimated <b>minimum odds</b> in real time on
-        Telegram. The final decision remains yours.</p></div>
-    <div class="step reveal"><div class="num">4</div><h3>Logged &amp; Reviewed</h3>
-      <p>Every signal is recorded and settled. Performance stays <b>open</b> and updated
-        every day. No cherry-picking.</p></div>
+    <div class="step reveal"><div class="num">1</div><h3>Receive the Alert</h3>
+      <p>The match, market and reference minimum odds arrive on Telegram when the selection criteria are met.</p></div>
+    <div class="step reveal"><div class="num">2</div><h3>Check the Conditions</h3>
+      <p>Check the market, score and available price. Reference minimum odds are not a guaranteed bookmaker quote.</p></div>
+    <div class="step reveal"><div class="num">3</div><h3>Decide with Discipline</h3>
+      <p>You do not have to follow every alert. Respect your limits and do not increase stakes to chase losses.</p></div>
+    <div class="step reveal"><div class="num">4</div><h3>Follow the Result</h3>
+      <p>Review settled outcomes and summaries. Wins and losses belong in the same record.</p></div>
   </div>
 </section>
 
 <section id="offer">
   <div class="section-label reveal">What You Get</div>
-  <div class="section-title reveal">Live alerts and league profiles</div>
+  <div class="section-title reveal">Two windows. Distinct criteria.</div>
   <div class="gold-line"></div>
-  <p class="section-sub reveal" style="margin-bottom:3rem">One principle: defined criteria, reference odds and a public settled record.</p>
+  <p class="section-sub reveal" style="margin-bottom:3rem">Second-half Over and Late Goal are part of Goal. Free pre-live selections are tracked separately.</p>
   <div class="strats">
     <div class="strat reveal"><div class="flag">Core</div>
-      <span class="tagline">Real Time</span><h3>Live Alerts</h3>
-      <p>We evaluate the live state and issue an informational alert only when the observed odds meet
-        the model-estimated minimum. An alert may not be issued.</p>
-      <div class="stat"><b>Conditional</b><span>there may be no alert</span></div></div>
+      <span class="tagline">Half-Time</span><h3>Over 1.5 Second-Half Goals</h3>
+      <p>Selection focused on half-time, following goals in the second half.
+        The alert identifies the market and minimum odds; reassessment depends on the rules and match state.</p>
+      <div class="stat"><b>Second half</b><span>context-led selection</span></div></div>
     <div class="strat reveal">
-      <span class="tagline">League Aware</span><h3>League Profiles</h3>
-      <p>Thresholds and value checks adapt to each competition's scoring profile.
-        The paid product remains live; up to one separate pre-live double per day is free when approved, and some days there is no selection.</p>
-      <div class="stat"><b>Adaptive</b><span>competition by competition</span></div></div>
+      <span class="tagline">Closing Stages</span><h3>Late Goal</h3>
+      <p>A separate assessment between minutes 75 and 82, for the possibility of another goal before full-time.
+        It has its own criteria and exposure controls. There may be no entry.</p>
+      <div class="stat"><b>75–82′</b><span>an analysis window, not a goal promise</span></div></div>
     
   </div>
 </section>
 
 <section id="performance">
-  <div class="section-label reveal">Proof</div>
-  <div class="section-title reveal">Live performance, no filters</div>
+  <div class="section-label reveal">Public Record</div>
+  <div class="section-title reveal">Goal history, with context</div>
   <div class="gold-line"></div>
-  <p class="section-sub reveal">The numbers below come straight from the engine. Updated automatically on every settlement.</p>
+  <p class="section-sub reveal">This history includes public goal alerts from different model versions. It is not the standalone result of the current model.
+    Sharp Pick, imported archives, shadow tests and the private pilot are excluded from these cards.</p>
+  <p id="goal-data-status" class="goal-data-status" role="status" aria-live="polite">Loading the period and sample…</p>
   <div class="kstrip reveal">
     <div class="kbox"><span class="v gold" data-k="wr">—</span><span class="l">Win Rate</span></div>
     <div class="kbox"><span class="v" data-k="roi">—</span><span class="l">ROI</span></div>
@@ -288,8 +297,8 @@ footer{border-top:1px solid var(--gold-b);padding:2.5rem 2rem;text-align:center}
     <div class="kbox"><span class="v" data-k="sinais">—</span><span class="l">Alerts</span></div>
   </div>
   <div class="perf-cta reveal">
-    <a class="btn-primary" href="dashboard_mv.html" style="font-size:13px;padding:1rem 2.5rem">📊 View Full Live Dashboard →</a>
-    <div class="perf-note">Detailed performance · history · bankroll evolution · updated daily</div>
+    <a class="btn-primary" href="https://sharp-signals.github.io/dashboard_mv.html?strat=LIVE" style="font-size:13px;padding:1rem 2.5rem">📊 View the detailed record →</a>
+    <div class="goal-data-note">The full dashboard contains other tabs. Check the strategy and date range before comparing results.</div>
   </div>
 </section>
 
@@ -297,9 +306,9 @@ footer{border-top:1px solid var(--gold-b);padding:2.5rem 2rem;text-align:center}
 <section class="challenge-section">
   <div class="challenge reveal" style="grid-template-columns:1fr;max-width:720px;text-align:center">
     <div>
-      <div class="section-label" style="text-align:center">MODEL STATUS</div>
-      <h2>Shadow <span>observation</span></h2>
-      <p>Experimental models do not affect paid alerts. Promotion requires recorded out-of-sample evidence.</p>
+      <div class="section-label" style="text-align:center">HOW GOAL EVOLVES</div>
+      <h2>Test. <span>Measure. Review.</span></h2>
+      <p>We compare new rules separately before deciding on a change. A favourable test is not a promise of future performance or an executed bet.</p>
     </div>
   </div>
 </section>
@@ -307,7 +316,7 @@ footer{border-top:1px solid var(--gold-b);padding:2.5rem 2rem;text-align:center}
 <section id="plans" class="membership-section">
   <div class="section-label reveal">Membership</div>
   <div class="section-title reveal">Choose Your Plan</div>
-  <p class="section-sub reveal">Paid plans include live alerts in our private Telegram channel. Up to one pre-live double per day is free in the open channel when approved; some days there is no selection. Cancel anytime.</p>
+  <p class="section-sub reveal">Request Goal membership on Telegram and confirm the conditions before paying. The free channel is separate: it may publish one experimental pre-live ticket per day, single or combined, and some days there is no selection.</p>
   <div class="gold-line"></div>
 
   <div class="plans-grid">
@@ -329,18 +338,18 @@ footer{border-top:1px solid var(--gold-b);padding:2.5rem 2rem;text-align:center}
     </div>
 
     <!-- Goals Only — featured here -->
-    <div class="plan-card featured reveal">
+    <div class="plan-card featured reveal goal-plan">
       <div class="plan-icon">⚽</div>
       <div class="plan-name">Goal Sharp Live</div>
       <div class="plan-price">€27.90 <span>/ month</span></div>
       <ul class="plan-features">
-        <li>Goal Sharp Elite live alerts</li>
-        <li>Verified performance data</li>
-        <li>Daily summary</li>
+        <li>Second-half Over and Late Goal</li>
+        <li>Match, market and reference minimum odds</li>
+        <li>Public record and result summaries</li>
         <li class="missing">Corner bot alerts</li>
         <li class="missing">Personal tips</li>
       </ul>
-      <a href="https://t.me/Over75bot" target="_blank" class="plan-btn featured-btn">Get Access</a>
+      <a href="https://t.me/Over75bot?start=goal" target="_blank" rel="noopener noreferrer" class="plan-btn featured-btn">Request Goal membership</a>
     </div>
 
     <!-- Elite Pack -->
@@ -375,9 +384,9 @@ footer{border-top:1px solid var(--gold-b);padding:2.5rem 2rem;text-align:center}
 
 <section id="join">
   <div class="cta-band reveal">
-    <h2>Want to review the live alerts and public record?</h2>
-    <p>Join Telegram for informational live alerts with model-estimated minimum odds. No result is guaranteed.</p>
-    <a class="btn-primary" id="cta-final" href="#" style="font-size:13px;padding:1rem 2.5rem">⚡ Join the Telegram Channel</a>
+    <h2>Want to follow Goal?</h2>
+    <p>Open the bot, review the plan and request membership. Clicking does not activate a subscription: payment and access are confirmed manually.</p>
+    <a class="btn-primary" id="cta-final" href="https://t.me/Over75bot?start=goal" target="_blank" rel="noopener noreferrer" style="padding:1rem 2.5rem">Request Goal membership on Telegram</a>
   </div>
 </section>
 
@@ -398,38 +407,75 @@ footer{border-top:1px solid var(--gold-b);padding:2.5rem 2rem;text-align:center}
 </div>
 
 <script>
-const TELEGRAM = "https://t.me/Over75bot";
-document.querySelectorAll('#cta-final').forEach(a=>a.href=TELEGRAM);
+const GOAL_TELEGRAM = "https://t.me/Over75bot?start=goal";
+const GOAL_PT = document.documentElement.lang.toLowerCase().startsWith('pt');
 document.getElementById('yr').textContent=new Date().getFullYear();
-const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)e.target.classList.add('in')}),{threshold:.12});
-document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
-function animate(el,to,fmt){
-  const dur=1100,t0=performance.now();
-  (function step(t){const k=Math.min((t-t0)/dur,1);const e=1-Math.pow(1-k,3);
-    el.textContent=fmt(to*e); if(k<1)requestAnimationFrame(step);})(t0);
+if ('IntersectionObserver' in window) {
+  const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)e.target.classList.add('in')}),{threshold:.12});
+  document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+} else {
+  document.querySelectorAll('.reveal').forEach(el=>el.classList.add('in'));
 }
-fetch('dashboard.json?'+Date.now()).then(r=>r.json()).then(d=>{
-  const g=d.geral||{}, c=d.challenge||{};
-  const set=(k,to,fmt)=>document.querySelectorAll(`[data-k="${k}"]`).forEach(el=>animate(el,to,fmt));
-  set('wr', g.wr||0, v=>v.toFixed(0)+'%');
-  set('roi',(g.roi||0), v=>(v>=0?'+':'')+v.toFixed(1)+'%');
-  set('lucro',(g.lucro_u||0), v=>(v>=0?'+':'')+v.toFixed(1)+'u');
-  set('sinais', g.sinais||0, v=>Math.round(v));
-  document.querySelectorAll('[data-k="roi"],[data-k="lucro"]').forEach(el=>{
-    const neg=(el.dataset.k==='roi'?(g.roi||0):(g.lucro_u||0))<0; el.classList.add(neg?'neg':'pos');});
-  (document.querySelector('[data-ch="completos"]')||{}).textContent='🏆 '+(c.completos||0);
-  (document.querySelector('[data-ch="falhados"]')||{}).textContent='❌ '+(c.falhados||0);
-  (document.querySelector('[data-ch="odd"]')||{}).textContent=Number(c.odd_acumulada||1).toFixed(2)+'×';
-  if(c.escada && c.escada.length){
-    const ic=r=>r==='ganho'?'win':'';
-    const lab=r=>r==='ganho'?'won':r==='perdido'?'lost':'in play';
-    document.getElementById('ladder').innerHTML=c.escada.map((l,i)=>
-      `<div class="rung ${ic(l.resultado)}"><div class="n">${i+1}</div>
-       <div class="t">Game ${i+1} · ${lab(l.resultado)}</div><div class="o">${l.odd?'@'+Number(l.odd).toFixed(2):'—'}</div></div>`
-    ).join('')+Array.from({length:Math.max(0,(c.total||4)-c.escada.length)},(_,i)=>
-      `<div class="rung"><div class="n">${c.escada.length+i+1}</div><div class="t">Game ${c.escada.length+i+1} · waiting</div><div class="o">—</div></div>`).join('');
-  }
-}).catch(()=>{});
+function goalNumber(value) {
+  return typeof value==='number' && Number.isFinite(value) ? value : null;
+}
+function goalISO(value) {
+  if(typeof value!=='string' || !/^\d{4}-\d{2}-\d{2}$/.test(value)) return false;
+  const parsed=new Date(value+'T00:00:00Z');
+  return Number.isFinite(parsed.getTime()) && parsed.toISOString().slice(0,10)===value;
+}
+function goalPublicStats(data) {
+  const g=data && data.verificado;
+  if(!g || typeof g!=='object' || Array.isArray(g)) return null;
+  const n=goalNumber(g.sinais);
+  if(n===null || !Number.isInteger(n) || n<0) return null;
+  const groups=g.por_estrategia;
+  if(!groups || typeof groups!=='object' || Array.isArray(groups)) return null;
+  const names=Object.keys(groups);
+  if((n>0 && names.length===0) || names.some(name=>name!=='Golos 2ª Parte')) return null;
+  const counts=['ganhos','perdidos','push','pendentes'].map(key=>goalNumber(g[key]));
+  if(counts.some(v=>v===null || !Number.isInteger(v) || v<0)) return null;
+  const [wins,losses,push,pending]=counts;
+  if(wins+losses+push+pending>n) return null;
+  const resolved=wins+losses;
+  const validDates=goalISO(g.inicio) && goalISO(g.fim) && g.inicio<=g.fim;
+  const wr=goalNumber(g.wr);
+  return {n,settled:resolved+push,pending,
+    wr:resolved>0 && wr!==null && wr>=0 && wr<=100 ? wr : null,
+    roi:resolved>0 ? goalNumber(g.roi) : null,
+    balance:resolved>0 ? goalNumber(g.lucro_u) : null,
+    start:validDates?g.inicio:null,end:validDates?g.fim:null};
+}
+function goalUnavailable() {
+  document.querySelectorAll('[data-k]').forEach(el=>{el.textContent='—';el.classList.remove('neg','pos');});
+  document.getElementById('goal-data-status').textContent=GOAL_PT
+    ? 'Histórico Goal indisponível neste momento. Não substituímos dados em falta por zeros ou totais de outros produtos.'
+    : 'Goal history is unavailable at the moment. Missing data is not replaced by zeros or totals from other products.';
+}
+function goalRender(data) {
+  const g=goalPublicStats(data);
+  if(!g){goalUnavailable();return;}
+  const decimal=v=>v.toLocaleString(GOAL_PT?'pt-PT':'en-GB',{minimumFractionDigits:1,maximumFractionDigits:1});
+  const signed=v=>(v>=0?'+':'')+decimal(v);
+  const values={wr:g.wr,roi:g.roi,lucro:g.balance,sinais:g.n};
+  document.querySelectorAll('[data-k]').forEach(el=>{
+    const key=el.dataset.k, value=values[key];
+    el.classList.remove('neg','pos');
+    el.textContent=value===null || value===undefined ? '—'
+      : key==='sinais' ? String(value)
+      : key==='wr' ? decimal(value)+'%'
+      : key==='roi' ? signed(value)+'%' : signed(value)+'u';
+    if(value!==null && value!==undefined && (key==='roi'||key==='lucro')) el.classList.add(value<0?'neg':'pos');
+  });
+  const fmt=date=>GOAL_PT ? date.split('-').reverse().join('/') : date;
+  const period=g.start ? fmt(g.start)+' – '+fmt(g.end) : (GOAL_PT?'Período indisponível':'Date range unavailable');
+  document.getElementById('goal-data-status').textContent=GOAL_PT
+    ? period+' · '+g.n+' sinais · '+g.settled+' apurados · '+g.pending+' pendentes. Saldo calculado a 1u por aposta.'
+    : period+' · '+g.n+' alerts · '+g.settled+' settled · '+g.pending+' pending. Balance calculated at 1u per bet.';
+}
+fetch('dashboard.json?'+Date.now(),{cache:'no-store'})
+  .then(response=>{if(!response.ok)throw new Error('public-data-unavailable');return response.json();})
+  .then(goalRender).catch(goalUnavailable);
 </script>
 </body>
 </html>
