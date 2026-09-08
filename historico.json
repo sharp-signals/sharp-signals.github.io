@@ -2126,5 +2126,25 @@
       "golos_apos_casa": 0,
       "golos_apos_fora": 0
     }
+  ],
+  "2026-09-08": [
+    {
+      "alerta_id": "ce1:1635566:ht",
+      "fixture_id": 1635566,
+      "timestamp": "2026-09-08T21:04:47.701438",
+      "jogo": "Millwall vs Newcastle",
+      "liga": "League Cup",
+      "janela": "HT ATTACK",
+      "tempo_alerta": 26,
+      "estrelas": 8.5,
+      "cantos_no_ref": 3,
+      "cantos_final": 9,
+      "cantos_apos_alerta": 6,
+      "meta_cantos": 2,
+      "resultado": "WIN",
+      "justificacao_void": "",
+      "golos_apos_casa": 0,
+      "golos_apos_fora": 0
+    }
   ]
 }
