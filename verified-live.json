@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-08T22:43:56Z",
-  "event_chain_head": "0131e6261a8f70f2fe8f7d7b51ee3c13efcdfce55bf04fec4d150f0d6e03342e",
+  "generated_at": "2026-09-08T22:56:04Z",
+  "event_chain_head": "4532836069d904f778a7b68eaff0b3547146e6c7cd1d34e2da63476ea3a7c494",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -10,19 +10,37 @@
   },
   "summary": {
     "total": 16,
-    "pending": 4,
+    "pending": 3,
     "signals_settled": 6,
-    "official_entries_settled": 6
+    "official_entries_settled": 7
   },
   "records": [
     {
       "id": "official_entry:20260908T224355887141Z:4a977328",
       "kind": "official_entry",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-09-08T22:43:56Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "41d66236202154bde5c94ee678513ba0f781c91ed0d9b16a8e49d1fce3e552d3",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-09-08T22:56:04Z",
+      "result": "LOSS",
+      "outcome": {
+        "odds": null,
+        "profit_loss_percent": -0.75,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "official_personal_entry",
+        "confidence": 7,
+        "entry_id": "official_entry:20260908T224355887141Z:4a977328",
+        "market": "⛳ Over 5 corners · FT",
+        "match": "Puerto Montt x CSD Rangers",
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "ce1:1635654:ht",
