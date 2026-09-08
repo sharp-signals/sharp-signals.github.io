@@ -2145,6 +2145,24 @@
       "justificacao_void": "",
       "golos_apos_casa": 0,
       "golos_apos_fora": 0
+    },
+    {
+      "alerta_id": "ce1:1635654:ht",
+      "fixture_id": 1635654,
+      "timestamp": "2026-09-08T21:04:55.333409",
+      "jogo": "FC Porto vs Manchester City",
+      "liga": "UEFA Champions League",
+      "janela": "HT ATTACK",
+      "tempo_alerta": 29,
+      "estrelas": 7.5,
+      "cantos_no_ref": 1,
+      "cantos_final": 1,
+      "cantos_apos_alerta": 0,
+      "meta_cantos": 2,
+      "resultado": "LOSS",
+      "justificacao_void": "",
+      "golos_apos_casa": 0,
+      "golos_apos_fora": 0
     }
   ]
 }
