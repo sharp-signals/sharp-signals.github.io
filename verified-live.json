@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-08T19:31:26Z",
-  "event_chain_head": "d9d48adc5b0d52303fe8022240a78d606470af7bba641a914ca033f29f944502",
+  "generated_at": "2026-09-08T20:04:51Z",
+  "event_chain_head": "92cde2f3e9cb308701a32e9b98b0e721f6ccdc3f5347c1e6b062a6ec2b9ecc23",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -10,8 +10,8 @@
   },
   "summary": {
     "total": 15,
-    "pending": 5,
-    "signals_settled": 4,
+    "pending": 4,
+    "signals_settled": 5,
     "official_entries_settled": 6
   },
   "records": [
@@ -27,11 +27,35 @@
     {
       "id": "ce1:1635566:ht",
       "kind": "signal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-09-08T19:25:50Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "e89ef5cea07e9ec433dcacd9a8df50dde3451341fccf57751b36967d81a84991",
-      "telegram_message_count": 2
+      "telegram_message_count": 2,
+      "settled_at": "2026-09-08T20:04:51Z",
+      "result": "WIN",
+      "outcome": {
+        "corners_reference": 3,
+        "corners_final": 9,
+        "corners_after": 6,
+        "target": 2,
+        "void_reason": "",
+        "approved_manually": true
+      },
+      "sealed_payload": {
+        "alert_id": "ce1:1635566:ht",
+        "classification": "scanner_signal_not_confirmed_bet",
+        "confidence": 8.5,
+        "corners_at_alert": 3,
+        "league": "League Cup",
+        "match": "Millwall vs Newcastle",
+        "minimum_price": 1.75,
+        "minute": 26,
+        "score_at_alert": "0-0",
+        "suggestion": "🎯 ENTRADA SUGERIDA\nOver 4.5 cantos 1ª parte · odd mín. 1.75+\n↳ se sair +1 canto: sobe p/ Over 5.5 ou espera o Over 5",
+        "window": "HT ATTACK"
+      },
+      "commitment_valid": true
     },
     {
       "id": "ce1:1612232:mid",
