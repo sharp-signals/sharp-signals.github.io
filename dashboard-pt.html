@@ -261,10 +261,11 @@ function calcularSimulador(){
   const gEl=document.getElementById('sim-out-growth'), fEl=document.getElementById('sim-out-final'), pEl=document.getElementById('sim-out-profit');
   if(!bEl||!sEl||!DATA) return;
   const bankroll=parseFloat(bEl.value)||0, stake=parseFloat(sEl.value)||0;
-  const hist=(DATA.tips_pessoais.historico||[]).filter(x=>x.resultado==='ganho'||x.resultado==='perdido');
+  const hist=(DATA.tips_pessoais.historico||[]).filter(x=>['ganho','perdido','perda','cashout'].includes(x.resultado));
   let somaPct=0;
   hist.forEach(x=>{
     if(x.resultado==='ganho'){ somaPct += stake*((x.odd||1.84)-1); }
+    else if(x.resultado==='cashout'){ somaPct -= stake*0.15; }
     else { somaPct -= stake; }
   });
   const bankrollFinal=bankroll*(1+somaPct/100), lucro=bankrollFinal-bankroll;
@@ -381,10 +382,10 @@ function vistaTips(d){
     <div class="card"><div class="bars">${barsMktPL}</div></div>
     <div class="card" style="margin-top:14px"><div class="hbars">${barsMkt}</div></div>
     <div class="pgnote" style="margin-top:8px;line-height:1.5">
-      <b>Nota sobre o Cashout:</b> o Cashout não é propriamente uma estratégia — reflete as vezes em que saio da minha entrada através de uma contra-aposta, um mecanismo de defesa para quando o favorito se adianta no marcador. Se surge oportunidade de sair a uma odd boa (1.80+), faço o cashout.
+      <b>Nota sobre a contra-aposta:</b> é uma saída defensiva depois de uma entrada real. Não é VOID: fica registada como prejuízo e, quando não existe um valor exato, usa a referência histórica de 15% da stake original.
     </div>
     <div class="pgnote" style="margin-top:8px;line-height:1.5">
-      <b>Nota sobre as odds:</b> nem todas as entradas abaixo têm a odd registada individualmente. Onde falta, historicamente — em quase 1.000 entradas registadas — a minha odd média tem andado à volta de 1.84. Não é uma regra fixa, é só uma referência real do preço típico nestes mercados.
+      <b>Nota sobre as odds:</b> uma tip pode ser publicada antes de o mercado atingir o preço pretendido. A entrada só é confirmada com odd real registada; nas entradas do bot, a referência mínima é 1.81. A odd 1.84 permanece apenas como média histórica das tips pessoais antigas.
     </div>`;
 
   const vis=d.historico.slice((PAG-1)*POR_PAG, PAG*POR_PAG);
@@ -393,7 +394,7 @@ function vistaTips(d){
     <td class="num">${s.odd?s.odd.toFixed(2):'—'}</td>
     <td class="num">${s.stake_pct?f1(s.stake_pct)+'%':'—'}</td>
     <td class="num ${s.pl_pct!=null?cls(s.pl_pct):''}">${s.pl_pct!=null?f1(s.pl_pct)+'%':'—'}</td>
-    <td class="num"><span class="pill ${s.resultado==='ganho'?'g':((s.resultado==='perdido'||s.resultado==='perda'||s.resultado==='cashout')?'p':'n')}">${s.resultado==='ganho'?'GREEN':((s.resultado==='perdido'||s.resultado==='perda')?'RED':(s.resultado==='cashout'?'CASHOUT':'ANULADA'))}</span></td></tr>`).join('');
+    <td class="num"><span class="pill ${s.resultado==='ganho'?'g':((s.resultado==='perdido'||s.resultado==='perda'||s.resultado==='cashout')?'p':'n')}">${s.resultado==='ganho'?'GREEN':((s.resultado==='perdido'||s.resultado==='perda')?'RED':(s.resultado==='cashout'?'CONTRA-APOSTA':(s.resultado==='cancelada'?'CANCELADA':'VOID')))}</span></td></tr>`).join('');
   const nP=Math.ceil(d.historico.length/POR_PAG);
   h+=`<div class="sec-t" id="hist">Histórico &mdash; ${d.historico.length} entradas</div>
     <div class="card tbl-wrap"><table><thead><tr><th>Data</th><th>Jogo</th><th>Mercado</th><th class="num">Odd</th><th class="num">Stake</th><th class="num">P/L</th><th class="num">Resultado</th></tr></thead><tbody>${hr}</tbody></table></div>`
@@ -413,10 +414,10 @@ function vistaBot(d){
   <div class="grid kpis3">
     <div class="card kpi"><div class="lbl">Taxa de acerto</div>
       <div class="val gold">${d.wr}%</div>
-      <div class="sub">✅ ${d.ganhos} · ❌ ${d.perdidos}</div></div>
+      <div class="sub">Resultado técnico · ✅ ${d.ganhos} · ❌ ${d.perdidos}</div></div>
     <div class="card kpi"><div class="lbl">Sinais</div>
       <div class="val">${d.apostas}</div>
-      <div class="sub">enviados e apurados</div></div>
+      <div class="sub">${d.canceladas||0} cancelados · sem entrada</div></div>
     <div class="card kpi"><div class="lbl">Período</div>
       <div class="val" style="font-size:22px">${d.periodo.inicio.slice(5).split('-').reverse().join('/')}</div>
       <div class="sub">desde o arranque</div></div>
@@ -456,10 +457,11 @@ function vistaBot(d){
     <td>${s.jogo}</td><td>${s.janela}</td>
     <td class="num gold">${s.estrelas}</td>
     <td class="num">+${s.cantos_apos}</td>
-    <td class="num"><span class="pill ${s.resultado==='ganho'?'g':(s.resultado==='perdido'?'p':'n')}">${s.resultado==='ganho'?'WIN':(s.resultado==='perdido'?'LOSS':'VOID')}</span></td></tr>`).join('');
+    <td class="num"><span class="pill ${s.resultado_tecnico==='ganho'?'g':(s.resultado_tecnico==='perdido'?'p':'n')}">${s.resultado_tecnico==='ganho'?'WIN':(s.resultado_tecnico==='perdido'?'LOSS':'VOID')}</span></td>
+    <td class="num"><span class="pill ${s.resultado==='ganho'?'g':(s.resultado==='perdido'?'p':'n')}">${s.resultado==='cancelada'?'CANCELADA':(s.resultado==='ganho'?'CONFIRMADA':(s.resultado==='perdido'?'CONFIRMADA':'VOID'))}</span></td></tr>`).join('');
   h+=`<div class="sec-t" id="hist">Histórico de sinais</div>
     <div class="card tbl-wrap"><table><thead><tr><th>Data</th><th>Jogo</th><th>Janela</th>
-    <th class="num">Score</th><th class="num">Cantos</th><th class="num">Resultado</th></tr></thead>
+    <th class="num">Score</th><th class="num">Cantos</th><th class="num">Resultado técnico</th><th class="num">Entrada</th></tr></thead>
     <tbody>${hr}</tbody></table></div>`;
   return h;
 }
@@ -469,29 +471,34 @@ function construirBot(H){
   var bs=[];
   Object.keys(H||{}).forEach(function(dia){
     (H[dia]||[]).forEach(function(a){
-      var r=a.resultado;
+      var r=String(a.resultado||'').toUpperCase();
+      var rt=String(a.resultado_tecnico||r).toUpperCase();
+      var estado=String(a.estado_entrada||'').toUpperCase();
+      var cancelada=r==='CANCELADA'||estado.indexOf('CANCEL')>=0||estado.indexOf('SEM ENTRADA')>=0;
       bs.push({data:dia, jogo:a.jogo||'', liga:a.liga||'', janela:a.janela||'',
         estrelas:a.estrelas||0, cantos_apos:a.cantos_apos_alerta||0,
-        resultado: r==='WIN'?'ganho':(r==='LOSS'?'perdido':'nulo')});
+        resultado: cancelada?'cancelada':(r==='WIN'?'ganho':(r==='LOSS'?'perdido':'nulo')),
+        resultado_tecnico: rt==='WIN'?'ganho':(rt==='LOSS'?'perdido':'nulo')});
     });
   });
   if(!bs.length) return null;
   bs.sort(function(a,b){return a.data<b.data?-1:1;});
-  var apur=bs.filter(function(s){return s.resultado!=='nulo';});
-  var g=apur.filter(function(s){return s.resultado==='ganho';}).length;
-  var p=apur.filter(function(s){return s.resultado==='perdido';}).length;
+  var apur=bs.filter(function(s){return s.resultado_tecnico!=='nulo';});
+  var g=apur.filter(function(s){return s.resultado_tecnico==='ganho';}).length;
+  var p=apur.filter(function(s){return s.resultado_tecnico==='perdido';}).length;
   var jan={};
   apur.forEach(function(s){ jan[s.janela]=jan[s.janela]||{n:0,g:0,p:0};
-    jan[s.janela].n++; if(s.resultado==='ganho')jan[s.janela].g++; else jan[s.janela].p++; });
+    jan[s.janela].n++; if(s.resultado_tecnico==='ganho')jan[s.janela].g++; else jan[s.janela].p++; });
   var pj=Object.keys(jan).map(function(k){return {janela:k,n:jan[k].n,
       wr:(jan[k].g+jan[k].p)?Math.round(1000*jan[k].g/(jan[k].g+jan[k].p))/10:0};})
     .sort(function(a,b){return b.n-a.n;});
   return {nome:'ZI Corner Pro',
     periodo:{inicio:bs[0].data, fim:bs[bs.length-1].data},
     apostas:bs.length, ganhos:g, perdidos:p,
+    canceladas:bs.filter(function(s){return s.resultado==='cancelada';}).length,
     wr:(g+p)?Math.round(1000*g/(g+p))/10:0,
     por_janela:pj,
-    forma:apur.slice(-15).map(function(s){return s.resultado;}),
+    forma:apur.slice(-15).map(function(s){return s.resultado_tecnico;}),
     historico:bs.slice().reverse().slice(0,60)};
 }
 
