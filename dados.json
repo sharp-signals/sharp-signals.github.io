@@ -8,8 +8,8 @@
    "fim": "2026-01-31"
   },
   "cresc_pct": 56.91,
-  "apostas": 1057,
-  "ganhos": 601,
+  "apostas": 1058,
+  "ganhos": 602,
   "perdidos": 456,
   "wr": 56.9,
   "meses": [
@@ -72,17 +72,17 @@
    {
     "mes": "2026-09",
     "label": "Set 26",
-    "cresc_pct": 2.13,
-    "apostas": 14,
-    "wr": 64.3
+    "cresc_pct": 2.97,
+    "apostas": 15,
+    "wr": 66.7
    }
   ],
   "por_mercado": [
    {
     "mercado": "Over Cantos FT",
-    "n": 577,
-    "wr": 57.9,
-    "roi": 27.29,
+    "n": 578,
+    "wr": 58.0,
+    "roi": 28.13,
     "pl_eur": 1369.94
    },
    {
@@ -131,7 +131,6 @@
   "forma": [
    "ganho",
    "ganho",
-   "ganho",
    "perdido",
    "ganho",
    "ganho",
@@ -143,7 +142,8 @@
    "perdido",
    "ganho",
    "perdido",
-   "perdido"
+   "perdido",
+   "ganho"
   ],
   "historico": [
    {
@@ -152,13 +152,13 @@
     "jogo": "El Mokawloon x Al Ahly",
     "mercado": "⛳ Over 7.5 corners · Al Ahly · FT",
     "categoria": "Over Cantos FT",
-    "odd": null,
-    "pl_pct": null,
+    "odd": 1.84,
+    "pl_pct": 0.84,
     "stake_pct": 1.0,
-    "resultado": "pendente",
+    "resultado": "ganho",
     "verified_id": "tip_proposal:20260909T184950073947Z:15365196",
-    "estado_entrada": "aguarda_confirmacao",
-    "tipo_odd": "por_registar",
+    "estado_entrada": "confirmada",
+    "tipo_odd": "referencia_historica",
     "odd_minima_recomendada": 1.81,
     "confianca": 8
    },
