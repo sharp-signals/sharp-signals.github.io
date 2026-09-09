@@ -8,10 +8,10 @@
    "fim": "2026-01-31"
   },
   "cresc_pct": 56.91,
-  "apostas": 1058,
+  "apostas": 1059,
   "ganhos": 602,
-  "perdidos": 456,
-  "wr": 56.9,
+  "perdidos": 457,
+  "wr": 56.8,
   "meses": [
    {
     "mes": "2025-08",
@@ -72,9 +72,9 @@
    {
     "mes": "2026-09",
     "label": "Set 26",
-    "cresc_pct": 2.97,
-    "apostas": 15,
-    "wr": 66.7
+    "cresc_pct": 2.82,
+    "apostas": 16,
+    "wr": 62.5
    }
   ],
   "por_mercado": [
@@ -94,9 +94,9 @@
    },
    {
     "mercado": "Cashout",
-    "n": 147,
-    "wr": 51.7,
-    "roi": -1.36,
+    "n": 148,
+    "wr": 51.4,
+    "roi": -1.51,
     "pl_eur": -74.77
    },
    {
@@ -130,7 +130,6 @@
   ],
   "forma": [
    "ganho",
-   "ganho",
    "perdido",
    "ganho",
    "ganho",
@@ -143,7 +142,8 @@
    "ganho",
    "perdido",
    "perdido",
-   "ganho"
+   "ganho",
+   "cashout"
   ],
   "historico": [
    {
@@ -167,16 +167,17 @@
     "mes": "2026-09",
     "jogo": "El Mokawloon x Al Ahly",
     "mercado": "⛳ Over 10.5 corners · FT",
-    "categoria": "Over Cantos FT",
+    "categoria": "Cashout",
     "odd": null,
-    "pl_pct": null,
+    "pl_pct": -0.15,
     "stake_pct": 1.0,
-    "resultado": "pendente",
+    "resultado": "cashout",
     "verified_id": "tip_proposal:20260909T183735368876Z:e5a97bd1",
-    "estado_entrada": "aguarda_confirmacao",
-    "tipo_odd": "por_registar",
+    "estado_entrada": "confirmada",
+    "tipo_odd": "referencia_cashout_menos_15_pct",
     "odd_minima_recomendada": 1.81,
-    "confianca": 8
+    "confianca": 8,
+    "cashout_perda_referencia_pct_stake": 15.0
    },
    {
     "data": "2026-09-08",
