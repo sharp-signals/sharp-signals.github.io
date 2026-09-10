@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-10T21:00:37Z",
-  "event_chain_head": "257dfeca75ee5788e558e53a3b09572de56d066e88db9c042062ce1f79903d70",
+  "generated_at": "2026-09-10T21:08:37Z",
+  "event_chain_head": "15a9241f46b29c534ff2d2001faa46cef3689001fc30bfe5bceca96758127ab7",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,20 +12,43 @@
   },
   "summary": {
     "total": 22,
-    "pending": 4,
+    "pending": 3,
     "signals_settled": 7,
-    "official_entries_settled": 11,
+    "official_entries_settled": 12,
     "cancelled": 1
   },
   "records": [
     {
       "id": "tip_proposal:20260910T210037116617Z:b7df2069",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-09-10T21:00:37Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "f752e0421049b44d64970361d9af6fa63de8f79a995e80d36b72fded91f1555f",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-09-10T21:08:37Z",
+      "result": "WIN",
+      "outcome": {
+        "odds": 1.8,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": 0.6,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20260910T210037116617Z:b7df2069",
+        "market": "⛳ Over 12 corners · FT",
+        "match": "Estr. Amadora x Braga",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "ce1:1635697:ht",
