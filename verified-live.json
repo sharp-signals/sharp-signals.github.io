@@ -1,20 +1,32 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-08T22:56:04Z",
-  "event_chain_head": "4532836069d904f778a7b68eaff0b3547146e6c7cd1d34e2da63476ea3a7c494",
+  "generated_at": "2026-09-10T15:01:08Z",
+  "event_chain_head": "70b8b6b19ea111bfabfa9dea0ecdf917fb220573452748bc4adf0d8df3f8b7f4",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
     "official_entry": "Entrada pessoal publicada; pode entrar nas métricas financeiras quando tem odd e stake válidas.",
+    "tip_proposal": "Tip publicada antes de existir entrada; só passa a entrada confirmada se a liquidação indicar entry_status=confirmed.",
+    "cancelled": "Oportunidade publicada mas cancelada antes da entrada; não é VOID e não entra no win rate financeiro nem no ROI.",
     "pending_privacy": "Antes da liquidação são públicos apenas a hora, o tipo e o compromisso SHA-256."
   },
   "summary": {
-    "total": 16,
-    "pending": 3,
+    "total": 17,
+    "pending": 4,
     "signals_settled": 6,
-    "official_entries_settled": 7
+    "official_entries_settled": 7,
+    "cancelled": 0
   },
   "records": [
+    {
+      "id": "tip_proposal:20260910T150108270219Z:41a448af",
+      "kind": "tip_proposal",
+      "status": "pending",
+      "published_at": "2026-09-10T15:01:08Z",
+      "commitment_algorithm": "SHA-256",
+      "commitment": "7a32d3e8c2b685eb828552c00525fdc89b9d590fed962ec3abb204196e68551c",
+      "telegram_message_count": 1
+    },
     {
       "id": "official_entry:20260908T224355887141Z:4a977328",
       "kind": "official_entry",
