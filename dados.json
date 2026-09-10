@@ -8,10 +8,10 @@
    "fim": "2026-01-31"
   },
   "cresc_pct": 56.91,
-  "apostas": 1062,
+  "apostas": 1063,
   "ganhos": 605,
-  "perdidos": 457,
-  "wr": 57.0,
+  "perdidos": 458,
+  "wr": 56.9,
   "meses": [
    {
     "mes": "2025-08",
@@ -72,17 +72,17 @@
    {
     "mes": "2026-09",
     "label": "Set 26",
-    "cresc_pct": 4.78,
-    "apostas": 19,
-    "wr": 68.4
+    "cresc_pct": 2.78,
+    "apostas": 20,
+    "wr": 65.0
    }
   ],
   "por_mercado": [
    {
     "mercado": "Over Cantos FT",
-    "n": 580,
-    "wr": 58.1,
-    "roi": 29.4,
+    "n": 581,
+    "wr": 58.0,
+    "roi": 27.4,
     "pl_eur": 1369.94
    },
    {
@@ -131,7 +131,6 @@
   "forma": [
    "ganho",
    "ganho",
-   "ganho",
    "perdido",
    "ganho",
    "ganho",
@@ -143,7 +142,8 @@
    "cashout",
    "ganho",
    "ganho",
-   "ganho"
+   "ganho",
+   "perdido"
   ],
   "historico": [
    {
@@ -184,13 +184,13 @@
     "jogo": "Radnik x Red Star",
     "mercado": "⛳ Over 6.5 corners · Red Star · FT",
     "categoria": "Over Cantos FT",
-    "odd": null,
-    "pl_pct": null,
+    "odd": 1.82,
+    "pl_pct": -2.0,
     "stake_pct": 2.0,
-    "resultado": "pendente",
+    "resultado": "perdido",
     "verified_id": "tip_proposal:20260910T182552174271Z:bf534cae",
-    "estado_entrada": "aguarda_confirmacao",
-    "tipo_odd": "por_registar",
+    "estado_entrada": "confirmada",
+    "tipo_odd": "real",
     "odd_minima_recomendada": 1.81,
     "confianca": 9
    },
