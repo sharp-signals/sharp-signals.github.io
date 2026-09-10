@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-10T18:38:35Z",
-  "event_chain_head": "18a47323a50cb9e13f63d706a890bcd9d1ecbedb73aedd37c64f68fd009088f0",
+  "generated_at": "2026-09-10T18:59:33Z",
+  "event_chain_head": "9b4716584816b6063e9f481ef39a54b9f8ca7d4e754360f27e5e6279c19b8dab",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,9 +12,9 @@
   },
   "summary": {
     "total": 20,
-    "pending": 6,
+    "pending": 5,
     "signals_settled": 6,
-    "official_entries_settled": 8,
+    "official_entries_settled": 9,
     "cancelled": 0
   },
   "records": [
@@ -30,11 +30,34 @@
     {
       "id": "tip_proposal:20260910T183539451859Z:c70672b1",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-09-10T18:35:39Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "18729ecc269104107879d89e3d9b33369381e27f64a5ad80e4bb39fd2b8b534b",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-09-10T18:59:33Z",
+      "result": "WIN",
+      "outcome": {
+        "odds": 1.92,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": 0.69,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20260910T183539451859Z:c70672b1",
+        "market": "Handicap de cantos · Red Star -4.5 · FT",
+        "match": "Radnik x Red Star",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20260910T182552174271Z:bf534cae",
