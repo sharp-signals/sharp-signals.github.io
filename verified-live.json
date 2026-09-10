@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-10T19:28:29Z",
-  "event_chain_head": "846226bd683a2405da024940c522f279da61938991a2e723ccec6a483f2f2011",
+  "generated_at": "2026-09-10T20:02:52Z",
+  "event_chain_head": "33e8e1e6823b9c75c70b1346b0d007df2faa5d1822298bcb0b380a9e493a6b7f",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,20 +12,46 @@
   },
   "summary": {
     "total": 21,
-    "pending": 4,
-    "signals_settled": 6,
+    "pending": 3,
+    "signals_settled": 7,
     "official_entries_settled": 11,
-    "cancelled": 0
+    "cancelled": 1
   },
   "records": [
     {
       "id": "ce1:1635697:ht",
       "kind": "signal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-09-10T19:28:29Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "7e1cc4a60cb66dd82171e542caf832a46108e662ff88cdb4f9f65631ff84b9b1",
-      "telegram_message_count": 2
+      "telegram_message_count": 2,
+      "settled_at": "2026-09-10T20:02:52Z",
+      "result": "CANCELADA",
+      "outcome": {
+        "corners_reference": 6,
+        "corners_final": 8,
+        "corners_after": 2,
+        "target": 2,
+        "technical_result": "WIN",
+        "entry_status": "cancelled",
+        "void_reason": "",
+        "approved_manually": true
+      },
+      "sealed_payload": {
+        "alert_id": "ce1:1635697:ht",
+        "classification": "scanner_signal_not_confirmed_bet",
+        "confidence": 8.5,
+        "corners_at_alert": 6,
+        "league": "UEFA Champions League",
+        "match": "Manchester United vs Sabah FA",
+        "minimum_price": 1.75,
+        "minute": 26,
+        "score_at_alert": "0-0",
+        "suggestion": "🎯 ENTRADA SUGERIDA\nOver 7.5 cantos 1ª parte · odd mín. 1.75+\n↳ se sair +1 canto: sobe p/ Over 8.5 ou espera o Over 8",
+        "window": "HT ATTACK"
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20260910T183835445438Z:0d41a799",
