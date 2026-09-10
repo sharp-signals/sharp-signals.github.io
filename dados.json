@@ -8,10 +8,10 @@
    "fim": "2026-01-31"
   },
   "cresc_pct": 56.91,
-  "apostas": 1059,
-  "ganhos": 602,
+  "apostas": 1060,
+  "ganhos": 603,
   "perdidos": 457,
-  "wr": 56.8,
+  "wr": 56.9,
   "meses": [
    {
     "mes": "2025-08",
@@ -72,17 +72,17 @@
    {
     "mes": "2026-09",
     "label": "Set 26",
-    "cresc_pct": 2.82,
-    "apostas": 16,
-    "wr": 62.5
+    "cresc_pct": 3.46,
+    "apostas": 17,
+    "wr": 64.7
    }
   ],
   "por_mercado": [
    {
     "mercado": "Over Cantos FT",
-    "n": 578,
+    "n": 579,
     "wr": 58.0,
-    "roi": 28.13,
+    "roi": 28.77,
     "pl_eur": 1369.94
    },
    {
@@ -129,7 +129,6 @@
    }
   ],
   "forma": [
-   "ganho",
    "perdido",
    "ganho",
    "ganho",
@@ -143,7 +142,8 @@
    "perdido",
    "perdido",
    "ganho",
-   "cashout"
+   "cashout",
+   "ganho"
   ],
   "historico": [
    {
@@ -152,13 +152,13 @@
     "jogo": "United FC x Al-Ahli Dubai",
     "mercado": "⛳ Over 10.5 corners · FT",
     "categoria": "Over Cantos FT",
-    "odd": null,
-    "pl_pct": null,
+    "odd": 1.85,
+    "pl_pct": 0.638,
     "stake_pct": 0.75,
-    "resultado": "pendente",
+    "resultado": "ganho",
     "verified_id": "tip_proposal:20260910T150108270219Z:41a448af",
-    "estado_entrada": "aguarda_confirmacao",
-    "tipo_odd": "por_registar",
+    "estado_entrada": "confirmada",
+    "tipo_odd": "real",
     "odd_minima_recomendada": 1.81,
     "confianca": 7
    },
