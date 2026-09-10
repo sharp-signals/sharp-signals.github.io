@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-10T15:01:08Z",
-  "event_chain_head": "70b8b6b19ea111bfabfa9dea0ecdf917fb220573452748bc4adf0d8df3f8b7f4",
+  "generated_at": "2026-09-10T15:48:55Z",
+  "event_chain_head": "288079435f33337044e6048755e1dc6198452f8c8cbcd024545e11b45ca92604",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,20 +12,43 @@
   },
   "summary": {
     "total": 17,
-    "pending": 4,
+    "pending": 3,
     "signals_settled": 6,
-    "official_entries_settled": 7,
+    "official_entries_settled": 8,
     "cancelled": 0
   },
   "records": [
     {
       "id": "tip_proposal:20260910T150108270219Z:41a448af",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-09-10T15:01:08Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "7a32d3e8c2b685eb828552c00525fdc89b9d590fed962ec3abb204196e68551c",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-09-10T15:48:55Z",
+      "result": "WIN",
+      "outcome": {
+        "odds": 1.85,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": 0.638,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20260910T150108270219Z:41a448af",
+        "market": "⛳ Over 10.5 corners · FT",
+        "match": "United FC x Al-Ahli Dubai",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "official_entry:20260908T224355887141Z:4a977328",
