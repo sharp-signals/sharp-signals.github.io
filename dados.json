@@ -8,8 +8,8 @@
    "fim": "2026-01-31"
   },
   "cresc_pct": 56.91,
-  "apostas": 1060,
-  "ganhos": 603,
+  "apostas": 1061,
+  "ganhos": 604,
   "perdidos": 457,
   "wr": 56.9,
   "meses": [
@@ -72,9 +72,9 @@
    {
     "mes": "2026-09",
     "label": "Set 26",
-    "cresc_pct": 3.46,
-    "apostas": 17,
-    "wr": 64.7
+    "cresc_pct": 4.15,
+    "apostas": 18,
+    "wr": 66.7
    }
   ],
   "por_mercado": [
@@ -122,14 +122,13 @@
    },
    {
     "mercado": "Handicap FT",
-    "n": 14,
-    "wr": 50.0,
-    "roi": 0.89,
+    "n": 15,
+    "wr": 53.3,
+    "roi": 1.58,
     "pl_eur": 48.69
    }
   ],
   "forma": [
-   "perdido",
    "ganho",
    "ganho",
    "ganho",
@@ -143,6 +142,7 @@
    "perdido",
    "ganho",
    "cashout",
+   "ganho",
    "ganho"
   ],
   "historico": [
@@ -168,13 +168,13 @@
     "jogo": "Radnik x Red Star",
     "mercado": "Handicap de cantos · Red Star -4.5 · FT",
     "categoria": "Handicap FT",
-    "odd": null,
-    "pl_pct": null,
+    "odd": 1.92,
+    "pl_pct": 0.69,
     "stake_pct": 0.75,
-    "resultado": "pendente",
+    "resultado": "ganho",
     "verified_id": "tip_proposal:20260910T183539451859Z:c70672b1",
-    "estado_entrada": "aguarda_confirmacao",
-    "tipo_odd": "por_registar",
+    "estado_entrada": "confirmada",
+    "tipo_odd": "real",
     "odd_minima_recomendada": 1.81,
     "confianca": 7
    },
