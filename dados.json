@@ -8,10 +8,10 @@
    "fim": "2026-01-31"
   },
   "cresc_pct": 56.91,
-  "apostas": 1071,
+  "apostas": 1072,
   "ganhos": 609,
-  "perdidos": 462,
-  "wr": 56.9,
+  "perdidos": 463,
+  "wr": 56.8,
   "meses": [
    {
     "mes": "2025-08",
@@ -72,17 +72,17 @@
    {
     "mes": "2026-09",
     "label": "Set 26",
-    "cresc_pct": 3.12,
-    "apostas": 28,
-    "wr": 60.7
+    "cresc_pct": 2.37,
+    "apostas": 29,
+    "wr": 58.6
    }
   ],
   "por_mercado": [
    {
     "mercado": "Over Cantos FT",
-    "n": 588,
-    "wr": 58.0,
-    "roi": 27.85,
+    "n": 589,
+    "wr": 57.9,
+    "roi": 27.1,
     "pl_eur": 1369.94
    },
    {
@@ -129,7 +129,6 @@
    }
   ],
   "forma": [
-   "perdido",
    "ganho",
    "cashout",
    "ganho",
@@ -142,6 +141,7 @@
    "ganho",
    "perdido",
    "ganho",
+   "perdido",
    "perdido",
    "perdido"
   ],
@@ -152,10 +152,10 @@
     "jogo": "Flint Town x Cardiff",
     "mercado": "⛳ Over 8.5 corners · FT",
     "categoria": "Over Cantos FT",
-    "odd": null,
-    "pl_pct": null,
+    "odd": 1.84,
+    "pl_pct": -0.75,
     "stake_pct": 0.75,
-    "resultado": "pendente",
+    "resultado": "perdido",
     "confianca": 7
    },
    {
