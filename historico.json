@@ -2223,6 +2223,24 @@
       "justificacao_void": "",
       "golos_apos_casa": 0,
       "golos_apos_fora": 1
+    },
+    {
+      "alerta_id": "ce1:1565248:ht",
+      "fixture_id": 1565248,
+      "timestamp": "2026-09-11T20:57:08.386245",
+      "jogo": "Csikszereda vs Dinamo Bucuresti",
+      "liga": "Liga I",
+      "janela": "HT ATTACK",
+      "tempo_alerta": 28,
+      "estrelas": 8.5,
+      "cantos_no_ref": 2,
+      "cantos_final": 6,
+      "cantos_apos_alerta": 4,
+      "meta_cantos": 2,
+      "resultado": "WIN",
+      "justificacao_void": "",
+      "golos_apos_casa": 0,
+      "golos_apos_fora": 2
     }
   ]
 }
