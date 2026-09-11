@@ -8,10 +8,10 @@
    "fim": "2026-01-31"
   },
   "cresc_pct": 56.91,
-  "apostas": 1066,
-  "ganhos": 607,
+  "apostas": 1067,
+  "ganhos": 608,
   "perdidos": 459,
-  "wr": 56.9,
+  "wr": 57.0,
   "meses": [
    {
     "mes": "2025-08",
@@ -72,17 +72,17 @@
    {
     "mes": "2026-09",
     "label": "Set 26",
-    "cresc_pct": 4.11,
-    "apostas": 23,
-    "wr": 65.2
+    "cresc_pct": 4.74,
+    "apostas": 24,
+    "wr": 66.7
    }
   ],
   "por_mercado": [
    {
     "mercado": "Over Cantos FT",
-    "n": 583,
-    "wr": 58.1,
-    "roi": 28.84,
+    "n": 584,
+    "wr": 58.2,
+    "roi": 29.47,
     "pl_eur": 1369.94
    },
    {
@@ -130,7 +130,6 @@
   ],
   "forma": [
    "ganho",
-   "ganho",
    "perdido",
    "ganho",
    "perdido",
@@ -143,6 +142,7 @@
    "perdido",
    "ganho",
    "cashout",
+   "ganho",
    "ganho"
   ],
   "historico": [
@@ -169,13 +169,13 @@
     "jogo": "Da Nang x Nam Dinh",
     "mercado": "⛳ Over 7.5 corners · FT",
     "categoria": "Over Cantos FT",
-    "odd": null,
-    "pl_pct": null,
+    "odd": 1.84,
+    "pl_pct": 0.63,
     "stake_pct": 0.75,
-    "resultado": "pendente",
+    "resultado": "ganho",
     "verified_id": "tip_proposal:20260911T122252591409Z:3dc2721d",
-    "estado_entrada": "aguarda_confirmacao",
-    "tipo_odd": "por_registar",
+    "estado_entrada": "confirmada",
+    "tipo_odd": "referencia_historica",
     "odd_minima_recomendada": 1.81,
     "confianca": 7
    },
