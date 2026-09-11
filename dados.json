@@ -8,10 +8,10 @@
    "fim": "2026-01-31"
   },
   "cresc_pct": 56.91,
-  "apostas": 1067,
+  "apostas": 1068,
   "ganhos": 608,
-  "perdidos": 459,
-  "wr": 57.0,
+  "perdidos": 460,
+  "wr": 56.9,
   "meses": [
    {
     "mes": "2025-08",
@@ -72,17 +72,17 @@
    {
     "mes": "2026-09",
     "label": "Set 26",
-    "cresc_pct": 4.74,
-    "apostas": 24,
-    "wr": 66.7
+    "cresc_pct": 3.99,
+    "apostas": 25,
+    "wr": 64.0
    }
   ],
   "por_mercado": [
    {
     "mercado": "Over Cantos FT",
-    "n": 584,
-    "wr": 58.2,
-    "roi": 29.47,
+    "n": 585,
+    "wr": 58.1,
+    "roi": 28.72,
     "pl_eur": 1369.94
    },
    {
@@ -129,7 +129,6 @@
    }
   ],
   "forma": [
-   "ganho",
    "perdido",
    "ganho",
    "perdido",
@@ -143,7 +142,8 @@
    "ganho",
    "cashout",
    "ganho",
-   "ganho"
+   "ganho",
+   "perdido"
   ],
   "historico": [
    {
@@ -152,13 +152,13 @@
     "jogo": "Dewa Utd. x Bhayangkara",
     "mercado": "⛳ Over 5.5 corners · FT",
     "categoria": "Over Cantos FT",
-    "odd": null,
-    "pl_pct": null,
+    "odd": 1.88,
+    "pl_pct": -0.75,
     "stake_pct": 0.75,
-    "resultado": "pendente",
+    "resultado": "perdido",
     "verified_id": "tip_proposal:20260911T134716854306Z:889f6d58",
-    "estado_entrada": "aguarda_confirmacao",
-    "tipo_odd": "por_registar",
+    "estado_entrada": "confirmada",
+    "tipo_odd": "real",
     "odd_minima_recomendada": 1.81,
     "confianca": 7
    },
