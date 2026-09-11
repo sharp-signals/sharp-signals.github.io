@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-11T11:23:54Z",
-  "event_chain_head": "605a53d88e478e831b88d1a086879e6256d3c35cd16c977376baffce16108adb",
+  "generated_at": "2026-09-11T11:24:43Z",
+  "event_chain_head": "61b2ef55985ef83ec453c64735f7644b778cab152ea194f3efb7308b588badf9",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,20 +12,43 @@
   },
   "summary": {
     "total": 23,
-    "pending": 4,
+    "pending": 3,
     "signals_settled": 7,
     "official_entries_settled": 12,
-    "cancelled": 1
+    "cancelled": 2
   },
   "records": [
     {
       "id": "tip_proposal:20260911T112354262761Z:e7549322",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-09-11T11:23:54Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "baf765b545531fc6ed17a711a832cbfa2a9ea2ff2553b002cca6cd485320f67b",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-09-11T11:24:43Z",
+      "result": "CANCELADA",
+      "outcome": {
+        "odds": null,
+        "odds_source": null,
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "cancelled",
+        "profit_loss_percent": null,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20260911T112354262761Z:e7549322",
+        "market": "🏁 Race to 7 corners · Kashiwa",
+        "match": "Kyoto x Kashiwa",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20260910T210037116617Z:b7df2069",
