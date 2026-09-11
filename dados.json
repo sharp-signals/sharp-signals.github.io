@@ -8,9 +8,9 @@
    "fim": "2026-01-31"
   },
   "cresc_pct": 56.91,
-  "apostas": 1070,
+  "apostas": 1071,
   "ganhos": 609,
-  "perdidos": 461,
+  "perdidos": 462,
   "wr": 56.9,
   "meses": [
    {
@@ -72,17 +72,17 @@
    {
     "mes": "2026-09",
     "label": "Set 26",
-    "cresc_pct": 3.87,
-    "apostas": 27,
-    "wr": 63.0
+    "cresc_pct": 3.12,
+    "apostas": 28,
+    "wr": 60.7
    }
   ],
   "por_mercado": [
    {
     "mercado": "Over Cantos FT",
-    "n": 587,
-    "wr": 58.1,
-    "roi": 28.6,
+    "n": 588,
+    "wr": 58.0,
+    "roi": 27.85,
     "pl_eur": 1369.94
    },
    {
@@ -130,7 +130,6 @@
   ],
   "forma": [
    "perdido",
-   "perdido",
    "ganho",
    "cashout",
    "ganho",
@@ -143,6 +142,7 @@
    "ganho",
    "perdido",
    "ganho",
+   "perdido",
    "perdido"
   ],
   "historico": [
@@ -152,10 +152,10 @@
     "jogo": "Qadisiyah x Ettifaq",
     "mercado": "⛳ Over 4 corners · FT",
     "categoria": "Over Cantos FT",
-    "odd": null,
-    "pl_pct": null,
+    "odd": 1.82,
+    "pl_pct": -0.75,
     "stake_pct": 0.75,
-    "resultado": "pendente",
+    "resultado": "perdido",
     "confianca": 7
    },
    {
