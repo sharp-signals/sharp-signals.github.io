@@ -2205,6 +2205,24 @@
       "justificacao_void": "",
       "golos_apos_casa": 0,
       "golos_apos_fora": 0
+    },
+    {
+      "alerta_id": "ce1:1558626:ht",
+      "fixture_id": 1558626,
+      "timestamp": "2026-09-11T20:56:47.996060",
+      "jogo": "KV Mechelen vs Anderlecht",
+      "liga": "Jupiler Pro League",
+      "janela": "HT ATTACK",
+      "tempo_alerta": 28,
+      "estrelas": 7.5,
+      "cantos_no_ref": 4,
+      "cantos_final": 5,
+      "cantos_apos_alerta": 1,
+      "meta_cantos": 2,
+      "resultado": "LOSS",
+      "justificacao_void": "",
+      "golos_apos_casa": 0,
+      "golos_apos_fora": 1
     }
   ]
 }
