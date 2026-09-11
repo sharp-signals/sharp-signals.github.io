@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-11T14:01:51Z",
-  "event_chain_head": "ec9a772afbb95b6e719d0a3f1bb5f614ed0a595c07f5f18ef7cff2e58d1e0066",
+  "generated_at": "2026-09-11T14:14:57Z",
+  "event_chain_head": "73f08e789adbfc3ab5c8b71edbc921eb6b48d31c094d72984fbae0ef6a42dc64",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,20 +12,43 @@
   },
   "summary": {
     "total": 30,
-    "pending": 1,
+    "pending": 0,
     "signals_settled": 7,
-    "official_entries_settled": 20,
+    "official_entries_settled": 21,
     "cancelled": 6
   },
   "records": [
     {
       "id": "tip_proposal:20260911T140151050897Z:ad3a1262",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-09-11T14:01:51Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "7b8e6b432ef23ee7f78285c71263916191a1ede232afe5b76df64defd1f8e2ba",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-09-11T14:14:57Z",
+      "result": "WIN",
+      "outcome": {
+        "odds": 1.84,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": 0.63,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20260911T140151050897Z:ad3a1262",
+        "market": "⛳ Over 8 corners · FT",
+        "match": "Imisli x Neftchi Baku",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20260911T134716854306Z:889f6d58",
