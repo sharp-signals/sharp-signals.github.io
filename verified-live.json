@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-11T12:50:14Z",
-  "event_chain_head": "12253ce379d389cf2c5fc3429757bfd8b9475633db0feef225795b3637148f88",
+  "generated_at": "2026-09-11T13:16:26Z",
+  "event_chain_head": "0315f3ae51704ee7cf7090ca9a036eed3c97455f1dd4c043e733a2988908e662",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,9 +12,9 @@
   },
   "summary": {
     "total": 27,
-    "pending": 2,
+    "pending": 1,
     "signals_settled": 7,
-    "official_entries_settled": 17,
+    "official_entries_settled": 18,
     "cancelled": 5
   },
   "records": [
@@ -62,11 +62,34 @@
     {
       "id": "tip_proposal:20260911T121822562045Z:ca7f9d37",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-09-11T12:18:22Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "6f247497fdec88a9c2492588c03262a396fc47961887beb659e20dd43efeacc0",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-09-11T13:16:26Z",
+      "result": "WIN",
+      "outcome": {
+        "odds": null,
+        "odds_source": "historical_reference",
+        "reference_odds": 1.84,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": 0.84,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 8,
+        "entry_id": "tip_proposal:20260911T121822562045Z:ca7f9d37",
+        "market": "⛳ Over 7.5 corners · FT",
+        "match": "Da Nang x Nam Dinh",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 1.0
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20260911T112653019441Z:c02f4fe6",
