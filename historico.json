@@ -2186,5 +2186,25 @@
       "golos_apos_casa": 3,
       "golos_apos_fora": 0
     }
+  ],
+  "2026-09-11": [
+    {
+      "alerta_id": "ce1:1553869:ht",
+      "fixture_id": 1553869,
+      "timestamp": "2026-09-11T18:34:17.457748",
+      "jogo": "Železničar Pančevo vs Macva",
+      "liga": "Super Liga",
+      "janela": "HT ATTACK",
+      "tempo_alerta": 29,
+      "estrelas": 7.5,
+      "cantos_no_ref": 4,
+      "cantos_final": 5,
+      "cantos_apos_alerta": 1,
+      "meta_cantos": 2,
+      "resultado": "LOSS",
+      "justificacao_void": "",
+      "golos_apos_casa": 0,
+      "golos_apos_fora": 0
+    }
   ]
 }
