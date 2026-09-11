@@ -375,9 +375,11 @@
     "odd": null,
     "pl_pct": null,
     "stake_pct": 0.75,
-    "resultado": "pendente",
+    "resultado": "cancelada",
     "verified_id": "official_entry:20260907T154138640393Z:8082e9e8",
-    "confianca": 7
+    "confianca": 7,
+    "estado_entrada": "cancelada",
+    "tipo_odd": "nao_aplicavel"
    },
    {
     "data": "2026-09-07",
