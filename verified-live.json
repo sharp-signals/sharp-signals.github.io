@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-11T12:38:55Z",
-  "event_chain_head": "7d224a78802bec18a39271a2b3ae438c34044476038b1eca6abf9f3d74f24496",
+  "generated_at": "2026-09-11T12:50:14Z",
+  "event_chain_head": "12253ce379d389cf2c5fc3429757bfd8b9475633db0feef225795b3637148f88",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,20 +12,43 @@
   },
   "summary": {
     "total": 27,
-    "pending": 3,
+    "pending": 2,
     "signals_settled": 7,
-    "official_entries_settled": 16,
+    "official_entries_settled": 17,
     "cancelled": 5
   },
   "records": [
     {
       "id": "tip_proposal:20260911T123854663791Z:d4eb1ace",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-09-11T12:38:54Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "cf3610f6000945ff57b344c2658f7842c1aadf001605bbac45ec120b4609b9e1",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-09-11T12:50:14Z",
+      "result": "CASHOUT",
+      "outcome": {
+        "odds": null,
+        "odds_source": "cashout_loss_reference",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": 0.15,
+        "entry_status": "confirmed",
+        "profit_loss_percent": -0.112,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20260911T123854663791Z:d4eb1ace",
+        "market": "⛳ Over 4.5 corners · FT",
+        "match": "Buriram x Chiangrai",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20260911T122252591409Z:3dc2721d",
