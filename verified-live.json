@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-11T13:47:17Z",
-  "event_chain_head": "212abc48cb93f090df58a32b78058a4e65c81b96e4b5d2ea21e6256b5490874b",
+  "generated_at": "2026-09-11T14:00:08Z",
+  "event_chain_head": "65ba6dcc1b4fd7b230f2be0ba9edbf6290446efb4470a4256a536699861b0710",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,20 +12,43 @@
   },
   "summary": {
     "total": 29,
-    "pending": 1,
+    "pending": 0,
     "signals_settled": 7,
-    "official_entries_settled": 19,
+    "official_entries_settled": 20,
     "cancelled": 6
   },
   "records": [
     {
       "id": "tip_proposal:20260911T134716854306Z:889f6d58",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-09-11T13:47:17Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "2981382ea0a858c65caa1dc61b8e5bc0cb6dd5b433a01931e15364f9917f7819",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-09-11T14:00:08Z",
+      "result": "LOSS",
+      "outcome": {
+        "odds": 1.88,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": -0.75,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20260911T134716854306Z:889f6d58",
+        "market": "⛳ Over 5.5 corners · FT",
+        "match": "Dewa Utd. x Bhayangkara",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20260911T134501920292Z:e1a3ad17",
