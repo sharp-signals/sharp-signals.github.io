@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-11T11:25:14Z",
-  "event_chain_head": "51e6baf469bb80b31d379480a986dd78826bc286f76327be05d202a20e3f0143",
+  "generated_at": "2026-09-11T11:25:35Z",
+  "event_chain_head": "c1c4420f7d8b40f69f80b42c5e1b9a00aca44c4d1a3e922785b494c3e1c0b181",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,10 +12,10 @@
   },
   "summary": {
     "total": 23,
-    "pending": 1,
+    "pending": 0,
     "signals_settled": 7,
-    "official_entries_settled": 14,
-    "cancelled": 4
+    "official_entries_settled": 15,
+    "cancelled": 5
   },
   "records": [
     {
@@ -602,11 +602,33 @@
     {
       "id": "official_entry:20260907T154138640393Z:8082e9e8",
       "kind": "official_entry",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-09-07T15:41:38Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "b78a986c6f4d9d4994b4200f5d109febbac798bfe7b7d30e8b6a8b3ce3469453",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-09-11T11:25:35Z",
+      "result": "CANCELADA",
+      "outcome": {
+        "odds": null,
+        "odds_source": null,
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "cancelled",
+        "profit_loss_percent": null,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "official_personal_entry",
+        "confidence": 7,
+        "entry_id": "official_entry:20260907T154138640393Z:8082e9e8",
+        "market": "ah7.5",
+        "match": "Isloch x Dzernhinsk",
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "official_entry:20260907T154117367582Z:33e814a9",
