@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-11T11:26:53Z",
-  "event_chain_head": "59bb69112b44df16f39b92ef30a52cea9cfc5e64dc88da1afd256f87e959dded",
+  "generated_at": "2026-09-11T11:50:30Z",
+  "event_chain_head": "f2ec58f24c2fb5863cba3adcb347ee16141f89ac8b7ee82f47402beae70e894f",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,20 +12,43 @@
   },
   "summary": {
     "total": 24,
-    "pending": 1,
+    "pending": 0,
     "signals_settled": 7,
-    "official_entries_settled": 15,
+    "official_entries_settled": 16,
     "cancelled": 5
   },
   "records": [
     {
       "id": "tip_proposal:20260911T112653019441Z:c02f4fe6",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-09-11T11:26:53Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "ff84ec8faf8217e4a6cf7580cf186eb751977cb73c28e92cefa66fd9b8fda16f",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-09-11T11:50:30Z",
+      "result": "VOID",
+      "outcome": {
+        "odds": null,
+        "odds_source": "historical_reference",
+        "reference_odds": 1.84,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": 0.0,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 8,
+        "entry_id": "tip_proposal:20260911T112653019441Z:c02f4fe6",
+        "market": "⛳ Over 6 corners · Kashiwa · FT",
+        "match": "Kyoto x Kashiwa",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 1.0
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20260911T112354262761Z:e7549322",
