@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-12T17:39:14Z",
-  "event_chain_head": "f8d4a53307d17bbf2557aaf9640ba38eeedb06b26eaaae5ea3c9e1ff890da520",
+  "generated_at": "2026-09-12T17:42:02Z",
+  "event_chain_head": "43c339679062392d3ed99a8f14b8d5a85d502bc70ae7edf7b8ba211688de9df2",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,8 +12,8 @@
   },
   "summary": {
     "total": 42,
-    "pending": 3,
-    "signals_settled": 11,
+    "pending": 2,
+    "signals_settled": 12,
     "official_entries_settled": 25,
     "cancelled": 7
   },
@@ -71,11 +71,37 @@
     {
       "id": "ce1:1600340:mid",
       "kind": "signal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-09-12T16:52:20Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "f2d64b9a87fe5c681d29915af83680d898c87e664380ac08a68dff34291478e8",
-      "telegram_message_count": 2
+      "telegram_message_count": 2,
+      "settled_at": "2026-09-12T17:42:02Z",
+      "result": "WIN",
+      "outcome": {
+        "corners_reference": 5,
+        "corners_final": 9,
+        "corners_after": 4,
+        "target": 3,
+        "technical_result": "WIN",
+        "entry_status": "confirmed",
+        "void_reason": "",
+        "approved_manually": true
+      },
+      "sealed_payload": {
+        "alert_id": "ce1:1600340:mid",
+        "classification": "scanner_signal_not_confirmed_bet",
+        "confidence": 8.0,
+        "corners_at_alert": 5,
+        "league": "Premier Soccer League",
+        "match": "Chippa United vs Mamelodi Sundowns",
+        "minimum_price": 1.75,
+        "minute": 65,
+        "score_at_alert": "0-0",
+        "suggestion": "🎯 ENTRADA SUGERIDA\nOver 7.5 cantos · odd mín. 1.75+\n↳ se sair +1 canto: sobe p/ Over 8.5 ou espera o Over 8",
+        "window": "MID PRESSURE"
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20260912T164110120786Z:dd7e7326",
