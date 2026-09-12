@@ -8,9 +8,9 @@
    "fim": "2026-01-31"
   },
   "cresc_pct": 56.91,
-  "apostas": 1080,
+  "apostas": 1081,
   "ganhos": 616,
-  "perdidos": 464,
+  "perdidos": 465,
   "wr": 57.0,
   "meses": [
    {
@@ -72,9 +72,9 @@
    {
     "mes": "2026-09",
     "label": "Set 26",
-    "cresc_pct": 6.47,
-    "apostas": 37,
-    "wr": 64.9
+    "cresc_pct": 6.28,
+    "apostas": 38,
+    "wr": 63.2
    }
   ],
   "por_mercado": [
@@ -94,9 +94,9 @@
    },
    {
     "mercado": "Cashout",
-    "n": 149,
-    "wr": 51.0,
-    "roi": -1.62,
+    "n": 150,
+    "wr": 50.7,
+    "roi": -1.81,
     "pl_eur": -74.77
    },
    {
@@ -130,7 +130,6 @@
   ],
   "forma": [
    "ganho",
-   "ganho",
    "perdido",
    "ganho",
    "perdido",
@@ -143,6 +142,7 @@
    "ganho",
    "ganho",
    "perdido",
+   "cashout",
    "cashout"
   ],
   "historico": [
@@ -151,16 +151,17 @@
     "mes": "2026-09",
     "jogo": "The Strongest x Real Oruro",
     "mercado": "⛳ Over 2.5 corners · 1st half",
-    "categoria": "Over Cantos HT",
+    "categoria": "Cashout",
     "odd": null,
-    "pl_pct": null,
+    "pl_pct": -0.188,
     "stake_pct": 1.25,
-    "resultado": "pendente",
+    "resultado": "cashout",
     "verified_id": "tip_proposal:20260912T214633363642Z:c49c8c29",
-    "estado_entrada": "aguarda_confirmacao",
-    "tipo_odd": "por_registar",
+    "estado_entrada": "confirmada",
+    "tipo_odd": "referencia_cashout_menos_15_pct",
     "odd_minima_recomendada": 1.81,
-    "confianca": 8
+    "confianca": 8,
+    "cashout_perda_referencia_pct_stake": 15.0
    },
    {
     "data": "2026-09-12",
