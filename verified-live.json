@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-11T14:14:57Z",
-  "event_chain_head": "73f08e789adbfc3ab5c8b71edbc921eb6b48d31c094d72984fbae0ef6a42dc64",
+  "generated_at": "2026-09-12T12:52:29Z",
+  "event_chain_head": "8641778bd64fbd0eec39c0a695440f79c9435bb961fa5bf9f14e3a59a8447df5",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -11,13 +11,22 @@
     "pending_privacy": "Antes da liquidação são públicos apenas a hora, o tipo e o compromisso SHA-256."
   },
   "summary": {
-    "total": 30,
-    "pending": 0,
+    "total": 31,
+    "pending": 1,
     "signals_settled": 7,
     "official_entries_settled": 21,
     "cancelled": 6
   },
   "records": [
+    {
+      "id": "tip_proposal:20260912T125228896715Z:a93c3c51",
+      "kind": "tip_proposal",
+      "status": "pending",
+      "published_at": "2026-09-12T12:52:29Z",
+      "commitment_algorithm": "SHA-256",
+      "commitment": "a5024b7befea30e4c68f5863a5d741e48e43d4ac91b28b7ce5180f6401c208eb",
+      "telegram_message_count": 1
+    },
     {
       "id": "tip_proposal:20260911T140151050897Z:ad3a1262",
       "kind": "tip_proposal",
@@ -123,16 +132,32 @@
       "commitment": "cf3610f6000945ff57b344c2658f7842c1aadf001605bbac45ec120b4609b9e1",
       "telegram_message_count": 1,
       "settled_at": "2026-09-11T12:50:14Z",
-      "result": "CASHOUT",
+      "result": "WIN",
       "outcome": {
-        "odds": null,
-        "odds_source": "cashout_loss_reference",
+        "odds": 1.9,
+        "odds_source": "actual",
         "reference_odds": null,
-        "cashout_loss_fraction_reference": 0.15,
         "entry_status": "confirmed",
-        "profit_loss_percent": -0.112,
+        "profit_loss_percent": 0.675,
         "settled_manually": true
       },
+      "corrections": [
+        {
+          "corrected_at": "2026-09-12T00:09:44.451113+00:00",
+          "reason": "Correção solicitada pelo titular: uma única entrada WIN @1.90, sem cashout.",
+          "previous_result": "CASHOUT",
+          "previous_outcome": {
+            "odds": null,
+            "odds_source": "cashout_loss_reference",
+            "reference_odds": null,
+            "cashout_loss_fraction_reference": 0.15,
+            "entry_status": "confirmed",
+            "profit_loss_percent": -0.112,
+            "settled_manually": true
+          }
+        }
+      ],
+      "corrected_at": "2026-09-12T00:09:44.451113+00:00",
       "sealed_payload": {
         "classification": "published_tip_awaiting_activation",
         "confidence": 7,
