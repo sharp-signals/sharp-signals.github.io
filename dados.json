@@ -8,10 +8,10 @@
    "fim": "2026-01-31"
   },
   "cresc_pct": 56.91,
-  "apostas": 1079,
+  "apostas": 1080,
   "ganhos": 616,
-  "perdidos": 463,
-  "wr": 57.1,
+  "perdidos": 464,
+  "wr": 57.0,
   "meses": [
    {
     "mes": "2025-08",
@@ -72,9 +72,9 @@
    {
     "mes": "2026-09",
     "label": "Set 26",
-    "cresc_pct": 6.58,
-    "apostas": 36,
-    "wr": 66.7
+    "cresc_pct": 6.47,
+    "apostas": 37,
+    "wr": 64.9
    }
   ],
   "por_mercado": [
@@ -94,9 +94,9 @@
    },
    {
     "mercado": "Cashout",
-    "n": 148,
-    "wr": 51.4,
-    "roi": -1.51,
+    "n": 149,
+    "wr": 51.0,
+    "roi": -1.62,
     "pl_eur": -74.77
    },
    {
@@ -131,7 +131,6 @@
   "forma": [
    "ganho",
    "ganho",
-   "ganho",
    "perdido",
    "ganho",
    "perdido",
@@ -143,7 +142,8 @@
    "ganho",
    "ganho",
    "ganho",
-   "perdido"
+   "perdido",
+   "cashout"
   ],
   "historico": [
    {
@@ -151,16 +151,17 @@
     "mes": "2026-09",
     "jogo": "Ac. Viseu x Vitoria Guimaraes",
     "mercado": "⛳ Over 12.5 corners · FT",
-    "categoria": "Over Cantos FT",
+    "categoria": "Cashout",
     "odd": null,
-    "pl_pct": null,
+    "pl_pct": -0.112,
     "stake_pct": 0.75,
-    "resultado": "pendente",
+    "resultado": "cashout",
     "verified_id": "tip_proposal:20260912T205845431983Z:5bd78908",
-    "estado_entrada": "aguarda_confirmacao",
-    "tipo_odd": "por_registar",
+    "estado_entrada": "confirmada",
+    "tipo_odd": "referencia_cashout_menos_15_pct",
     "odd_minima_recomendada": 1.81,
-    "confianca": 7
+    "confianca": 7,
+    "cashout_perda_referencia_pct_stake": 15.0
    },
    {
     "data": "2026-09-12",
