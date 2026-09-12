@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-12T16:04:04Z",
-  "event_chain_head": "d750a3979946db195cd7963b83bcfc78bb49756a4ff50367f76bedb0011d64c2",
+  "generated_at": "2026-09-12T16:20:06Z",
+  "event_chain_head": "1bcfdb23921c83e731186c20b0600b5eeebc7ea16f041bdc01a93141921d06c5",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,8 +12,8 @@
   },
   "summary": {
     "total": 37,
-    "pending": 3,
-    "signals_settled": 9,
+    "pending": 2,
+    "signals_settled": 10,
     "official_entries_settled": 22,
     "cancelled": 7
   },
@@ -62,11 +62,37 @@
     {
       "id": "ce1:1563743:mid",
       "kind": "signal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-09-12T15:26:54Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "b5a0a21324f4bd25c355bd3437fcdecb3d513d4e0bfcebc3dabe01e013935c82",
-      "telegram_message_count": 2
+      "telegram_message_count": 2,
+      "settled_at": "2026-09-12T16:20:06Z",
+      "result": "VOID",
+      "outcome": {
+        "corners_reference": 8,
+        "corners_final": 10,
+        "corners_after": 2,
+        "target": 3,
+        "technical_result": "VOID",
+        "entry_status": "confirmed",
+        "void_reason": "Saída em contra-aposta após golo do favorito",
+        "approved_manually": true
+      },
+      "sealed_payload": {
+        "alert_id": "ce1:1563743:mid",
+        "classification": "scanner_signal_not_confirmed_bet",
+        "confidence": 7.0,
+        "corners_at_alert": 6,
+        "league": "League Two",
+        "match": "Barnet vs Accrington ST",
+        "minimum_price": 1.75,
+        "minute": 69,
+        "score_at_alert": "1-1",
+        "suggestion": "🎯 ENTRADA SUGERIDA\nOver 8.5 cantos · odd mín. 1.75+\n↳ se sair +1 canto: sobe p/ Over 9.5 ou espera o Over 9",
+        "window": "MID PRESSURE"
+      },
+      "commitment_valid": true
     },
     {
       "id": "ce1:1563753:shark",
