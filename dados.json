@@ -8,9 +8,9 @@
    "fim": "2026-01-31"
   },
   "cresc_pct": 56.91,
-  "apostas": 1078,
+  "apostas": 1079,
   "ganhos": 616,
-  "perdidos": 462,
+  "perdidos": 463,
   "wr": 57.1,
   "meses": [
    {
@@ -72,17 +72,17 @@
    {
     "mes": "2026-09",
     "label": "Set 26",
-    "cresc_pct": 7.33,
-    "apostas": 35,
-    "wr": 68.6
+    "cresc_pct": 6.58,
+    "apostas": 36,
+    "wr": 66.7
    }
   ],
   "por_mercado": [
    {
     "mercado": "Over Cantos FT",
-    "n": 593,
-    "wr": 58.2,
-    "roi": 30.1,
+    "n": 594,
+    "wr": 58.1,
+    "roi": 29.35,
     "pl_eur": 1369.94
    },
    {
@@ -132,7 +132,6 @@
    "ganho",
    "ganho",
    "ganho",
-   "ganho",
    "perdido",
    "ganho",
    "perdido",
@@ -143,7 +142,8 @@
    "ganho",
    "ganho",
    "ganho",
-   "ganho"
+   "ganho",
+   "perdido"
   ],
   "historico": [
    {
@@ -152,13 +152,13 @@
     "jogo": "Rapid Bucarest x Voluntari",
     "mercado": "⛳ Over 7 corners · FT",
     "categoria": "Over Cantos FT",
-    "odd": null,
-    "pl_pct": null,
+    "odd": 1.84,
+    "pl_pct": -0.75,
     "stake_pct": 0.75,
-    "resultado": "pendente",
+    "resultado": "perdido",
     "verified_id": "tip_proposal:20260912T201153540759Z:29c71023",
-    "estado_entrada": "aguarda_confirmacao",
-    "tipo_odd": "por_registar",
+    "estado_entrada": "confirmada",
+    "tipo_odd": "referencia_historica",
     "odd_minima_recomendada": 1.81,
     "confianca": 7
    },
