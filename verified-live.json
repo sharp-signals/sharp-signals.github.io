@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-12T12:52:29Z",
-  "event_chain_head": "8641778bd64fbd0eec39c0a695440f79c9435bb961fa5bf9f14e3a59a8447df5",
+  "generated_at": "2026-09-12T13:09:52Z",
+  "event_chain_head": "32b3e26efa519a0846d9084703d07ccab05f19c79ce80641539a77b571b02525",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,20 +12,43 @@
   },
   "summary": {
     "total": 31,
-    "pending": 1,
+    "pending": 0,
     "signals_settled": 7,
-    "official_entries_settled": 21,
+    "official_entries_settled": 22,
     "cancelled": 6
   },
   "records": [
     {
       "id": "tip_proposal:20260912T125228896715Z:a93c3c51",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-09-12T12:52:29Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "a5024b7befea30e4c68f5863a5d741e48e43d4ac91b28b7ce5180f6401c208eb",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-09-12T13:09:52Z",
+      "result": "WIN",
+      "outcome": {
+        "odds": 1.81,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": 0.608,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20260912T125228896715Z:a93c3c51",
+        "market": "⛳ Over 9.5 corners · FT",
+        "match": "Genk F x Leuven F",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20260911T140151050897Z:ad3a1262",
