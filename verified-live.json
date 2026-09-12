@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-12T00:10:35.264Z",
+  "generated_at": "2026-09-11T14:14:57Z",
   "event_chain_head": "73f08e789adbfc3ab5c8b71edbc921eb6b48d31c094d72984fbae0ef6a42dc64",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
@@ -123,13 +123,14 @@
       "commitment": "cf3610f6000945ff57b344c2658f7842c1aadf001605bbac45ec120b4609b9e1",
       "telegram_message_count": 1,
       "settled_at": "2026-09-11T12:50:14Z",
-      "result": "WIN",
+      "result": "CASHOUT",
       "outcome": {
-        "odds": 1.9,
-        "odds_source": "actual",
+        "odds": null,
+        "odds_source": "cashout_loss_reference",
         "reference_odds": null,
+        "cashout_loss_fraction_reference": 0.15,
         "entry_status": "confirmed",
-        "profit_loss_percent": 0.675,
+        "profit_loss_percent": -0.112,
         "settled_manually": true
       },
       "sealed_payload": {
@@ -143,24 +144,7 @@
         "odds": null,
         "stake_percent": 0.75
       },
-      "commitment_valid": true,
-      "corrections": [
-        {
-          "corrected_at": "2026-09-12T00:10:35.264Z",
-          "reason": "Correção solicitada pelo titular: uma única entrada WIN @1.90, sem cashout.",
-          "previous_result": "CASHOUT",
-          "previous_outcome": {
-            "odds": null,
-            "odds_source": "cashout_loss_reference",
-            "reference_odds": null,
-            "cashout_loss_fraction_reference": 0.15,
-            "entry_status": "confirmed",
-            "profit_loss_percent": -0.112,
-            "settled_manually": true
-          }
-        }
-      ],
-      "corrected_at": "2026-09-12T00:10:35.264Z"
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20260911T122252591409Z:3dc2721d",
@@ -222,7 +206,7 @@
         "minimum_recommended_odds": 1.81,
         "minute": null,
         "odds": null,
-        "stake_percent": 1
+        "stake_percent": 1.0
       },
       "commitment_valid": true
     },
@@ -242,7 +226,7 @@
         "reference_odds": 1.84,
         "cashout_loss_fraction_reference": null,
         "entry_status": "confirmed",
-        "profit_loss_percent": 0,
+        "profit_loss_percent": 0.0,
         "settled_manually": true
       },
       "sealed_payload": {
@@ -254,7 +238,7 @@
         "minimum_recommended_odds": 1.81,
         "minute": null,
         "odds": null,
-        "stake_percent": 1
+        "stake_percent": 1.0
       },
       "commitment_valid": true
     },
@@ -437,7 +421,7 @@
         "reference_odds": null,
         "cashout_loss_fraction_reference": null,
         "entry_status": "confirmed",
-        "profit_loss_percent": -2,
+        "profit_loss_percent": -2.0,
         "settled_manually": true
       },
       "sealed_payload": {
@@ -449,7 +433,7 @@
         "minimum_recommended_odds": 1.81,
         "minute": null,
         "odds": null,
-        "stake_percent": 2
+        "stake_percent": 2.0
       },
       "commitment_valid": true
     },
@@ -599,7 +583,7 @@
       "sealed_payload": {
         "alert_id": "ce1:1612232:mid",
         "classification": "scanner_signal_not_confirmed_bet",
-        "confidence": 7,
+        "confidence": 7.0,
         "corners_at_alert": 7,
         "league": "Premier League",
         "match": "Petrojet vs AL Masry",
@@ -683,7 +667,7 @@
       "result": "VOID",
       "outcome": {
         "odds": null,
-        "profit_loss_percent": 0,
+        "profit_loss_percent": 0.0,
         "settled_manually": true
       },
       "sealed_payload": {
@@ -824,7 +808,7 @@
       "result": "VOID",
       "outcome": {
         "odds": null,
-        "profit_loss_percent": 0,
+        "profit_loss_percent": 0.0,
         "settled_manually": true
       },
       "sealed_payload": {
@@ -953,7 +937,7 @@
       "sealed_payload": {
         "alert_id": "ce1:1593305:ht",
         "classification": "scanner_signal_not_confirmed_bet",
-        "confidence": 7,
+        "confidence": 7.0,
         "corners_at_alert": 3,
         "league": "Super League 1",
         "match": "Asteras Tripolis vs Iraklis 1908",
