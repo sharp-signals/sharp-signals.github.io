@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-12T16:20:20Z",
-  "event_chain_head": "c5e5bf450a72734acdfb58d52c13aa19db7976120352da0901704fd38791b969",
+  "generated_at": "2026-09-12T16:40:42Z",
+  "event_chain_head": "497ded4e093e148e2dac2fcdcef148b981b0e3bdc3f6800fc8dce40035030d49",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,8 +12,8 @@
   },
   "summary": {
     "total": 37,
-    "pending": 1,
-    "signals_settled": 10,
+    "pending": 0,
+    "signals_settled": 11,
     "official_entries_settled": 23,
     "cancelled": 7
   },
@@ -120,11 +120,37 @@
     {
       "id": "ce1:1563753:shark",
       "kind": "signal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-09-12T15:18:07Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "6c5001c7f5d0187a1ec5d4cabf1a43c666d9b6c7b0a5e56f5710f638349884de",
-      "telegram_message_count": 2
+      "telegram_message_count": 2,
+      "settled_at": "2026-09-12T16:40:42Z",
+      "result": "VOID",
+      "outcome": {
+        "corners_reference": 9,
+        "corners_final": 11,
+        "corners_after": 2,
+        "target": 4,
+        "technical_result": "VOID",
+        "entry_status": "confirmed",
+        "void_reason": "Não entrada — preço demasiado alto",
+        "approved_manually": true
+      },
+      "sealed_payload": {
+        "alert_id": "ce1:1563753:shark",
+        "classification": "scanner_signal_not_confirmed_bet",
+        "confidence": 8.0,
+        "corners_at_alert": 9,
+        "league": "League Two",
+        "match": "Walsall vs Rochdale",
+        "minimum_price": 1.75,
+        "minute": 58,
+        "score_at_alert": "0-0",
+        "suggestion": "🎯 ENTRADA SUGERIDA\nOver 12.5 cantos · odd mín. 1.75+\n↳ se sair +1 canto: sobe p/ Over 13.5 ou espera o Over 13",
+        "window": "SHARK ATTACK"
+      },
+      "commitment_valid": true
     },
     {
       "id": "ce1:1575162:final",
