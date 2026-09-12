@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-12T15:50:03Z",
-  "event_chain_head": "8c66b14282caab07824a3503561a6260e9ea08c569d20c6126b2a689ec50c8de",
+  "generated_at": "2026-09-12T15:53:24Z",
+  "event_chain_head": "53dcbe540c8f130e8ee12105a2f26a304ea9f51a6c66ee745cea679fe8c50ce5",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,8 +12,8 @@
   },
   "summary": {
     "total": 36,
-    "pending": 4,
-    "signals_settled": 8,
+    "pending": 3,
+    "signals_settled": 9,
     "official_entries_settled": 22,
     "cancelled": 6
   },
@@ -48,11 +48,37 @@
     {
       "id": "ce1:1575162:final",
       "kind": "signal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-09-12T15:06:47Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "93d91d767128618815f082d32eff2bf2ffb9de2e9c2c4b688bb78c3be589bed8",
-      "telegram_message_count": 2
+      "telegram_message_count": 2,
+      "settled_at": "2026-09-12T15:53:24Z",
+      "result": "VOID",
+      "outcome": {
+        "corners_reference": 14,
+        "corners_final": 16,
+        "corners_after": 2,
+        "target": 2,
+        "technical_result": "VOID",
+        "entry_status": "confirmed",
+        "void_reason": "Não entrada — preço demasiado alto",
+        "approved_manually": true
+      },
+      "sealed_payload": {
+        "alert_id": "ce1:1575162:final",
+        "classification": "scanner_signal_not_confirmed_bet",
+        "confidence": 8.0,
+        "corners_at_alert": 14,
+        "league": "Bundesliga",
+        "match": "FC Augsburg vs Bayer Leverkusen",
+        "minimum_price": 1.75,
+        "minute": 78,
+        "score_at_alert": "2-1",
+        "suggestion": "🎯 ENTRADA SUGERIDA\nOver 15.5 cantos · odd mín. 1.75+\n↳ se sair +1 canto: sobe p/ Over 16.5 ou espera o Over 16",
+        "window": "FINAL PUSH"
+      },
+      "commitment_valid": true
     },
     {
       "id": "ce1:1563753:ht",
