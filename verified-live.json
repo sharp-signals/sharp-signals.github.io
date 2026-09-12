@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-12T16:20:06Z",
-  "event_chain_head": "1bcfdb23921c83e731186c20b0600b5eeebc7ea16f041bdc01a93141921d06c5",
+  "generated_at": "2026-09-12T16:20:20Z",
+  "event_chain_head": "c5e5bf450a72734acdfb58d52c13aa19db7976120352da0901704fd38791b969",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,20 +12,43 @@
   },
   "summary": {
     "total": 37,
-    "pending": 2,
+    "pending": 1,
     "signals_settled": 10,
-    "official_entries_settled": 22,
+    "official_entries_settled": 23,
     "cancelled": 7
   },
   "records": [
     {
       "id": "tip_proposal:20260912T160404360257Z:7d57f3ac",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-09-12T16:04:04Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "c419194d3fadaa85303bd218f8b6a338e9dda6034ac374b9c13b1a69f1bde4c1",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-09-12T16:20:20Z",
+      "result": "VOID",
+      "outcome": {
+        "odds": 1.81,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": 0.0,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20260912T160404360257Z:7d57f3ac",
+        "market": "⛳ Over 3 corners · 1st half",
+        "match": "Chippa United x Mamelodi",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20260912T155003104302Z:65c44186",
