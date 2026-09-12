@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-12T21:46:33Z",
-  "event_chain_head": "9c8bfa3c3af3979e0af349c01cbb430eef04b719ac8d1c1031b1e8c57279ac12",
+  "generated_at": "2026-09-12T21:50:53Z",
+  "event_chain_head": "5a812edff648db2be5f2485fee5de94e238fb1e8e38cefbcafdc71545b4990d1",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,20 +12,43 @@
   },
   "summary": {
     "total": 49,
-    "pending": 1,
+    "pending": 0,
     "signals_settled": 13,
-    "official_entries_settled": 32,
+    "official_entries_settled": 33,
     "cancelled": 7
   },
   "records": [
     {
       "id": "tip_proposal:20260912T214633363642Z:c49c8c29",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-09-12T21:46:33Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "1d409d84cd657b7fdc07f9d8b6209af6b45abd0255376472df91530fac6fd186",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-09-12T21:50:53Z",
+      "result": "CASHOUT",
+      "outcome": {
+        "odds": null,
+        "odds_source": "cashout_loss_reference",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": 0.15,
+        "entry_status": "confirmed",
+        "profit_loss_percent": -0.188,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 8,
+        "entry_id": "tip_proposal:20260912T214633363642Z:c49c8c29",
+        "market": "⛳ Over 2.5 corners · 1st half",
+        "match": "The Strongest x Real Oruro",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 1.25
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20260912T205845431983Z:5bd78908",
