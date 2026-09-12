@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-12T17:46:02Z",
-  "event_chain_head": "0ec8c7a34b193e4b1c81d12c0cb399813c70f5176199542cdfdcd168820e5620",
+  "generated_at": "2026-09-12T17:58:29Z",
+  "event_chain_head": "7ef9a7dd5b981f102c630b35857ca968b802f4d1a94a3a88d6b7ec87b6296bbb",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,9 +12,9 @@
   },
   "summary": {
     "total": 43,
-    "pending": 3,
+    "pending": 2,
     "signals_settled": 12,
-    "official_entries_settled": 25,
+    "official_entries_settled": 26,
     "cancelled": 7
   },
   "records": [
@@ -39,11 +39,34 @@
     {
       "id": "tip_proposal:20260912T173415741109Z:24874583",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-09-12T17:34:15Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "3a4b03dfcc63b1913658b399fe01a62b13c894aca029a52f166a85b5bbdcd0f6",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-09-12T17:58:29Z",
+      "result": "WIN",
+      "outcome": {
+        "odds": 1.8,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": 0.6,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20260912T173415741109Z:24874583",
+        "market": "Handicap de cantos · Porto -4.5 · FT",
+        "match": "Casa Pia x Porto",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20260912T171118712855Z:0d26b95f",
