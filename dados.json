@@ -8,8 +8,8 @@
    "fim": "2026-01-31"
   },
   "cresc_pct": 56.91,
-  "apostas": 1074,
-  "ganhos": 612,
+  "apostas": 1075,
+  "ganhos": 613,
   "perdidos": 462,
   "wr": 57.0,
   "meses": [
@@ -72,9 +72,9 @@
    {
     "mes": "2026-09",
     "label": "Set 26",
-    "cresc_pct": 4.81,
-    "apostas": 31,
-    "wr": 64.5
+    "cresc_pct": 5.41,
+    "apostas": 32,
+    "wr": 65.6
    }
   ],
   "por_mercado": [
@@ -122,16 +122,15 @@
    },
    {
     "mercado": "Handicap FT",
-    "n": 15,
-    "wr": 53.3,
-    "roi": 1.58,
+    "n": 16,
+    "wr": 56.2,
+    "roi": 2.18,
     "pl_eur": 48.69
    }
   ],
   "forma": [
    "ganho",
    "ganho",
-   "ganho",
    "perdido",
    "ganho",
    "ganho",
@@ -142,6 +141,7 @@
    "perdido",
    "perdido",
    "perdido",
+   "ganho",
    "ganho",
    "ganho"
   ],
@@ -184,13 +184,13 @@
     "jogo": "Casa Pia x Porto",
     "mercado": "Handicap de cantos · Porto -4.5 · FT",
     "categoria": "Handicap FT",
-    "odd": null,
-    "pl_pct": null,
+    "odd": 1.8,
+    "pl_pct": 0.6,
     "stake_pct": 0.75,
-    "resultado": "pendente",
+    "resultado": "ganho",
     "verified_id": "tip_proposal:20260912T173415741109Z:24874583",
-    "estado_entrada": "aguarda_confirmacao",
-    "tipo_odd": "por_registar",
+    "estado_entrada": "confirmada",
+    "tipo_odd": "real",
     "odd_minima_recomendada": 1.81,
     "confianca": 7
    },
