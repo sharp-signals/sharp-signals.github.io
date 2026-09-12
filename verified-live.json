@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-12T14:29:54Z",
-  "event_chain_head": "324826e2c0c745bfa3af157bd4a880d9878524ad244fe1f5973201bb826d5ad2",
+  "generated_at": "2026-09-12T15:02:45Z",
+  "event_chain_head": "29e2bc4a1f171e206403c14a9c985671679259bd8756d92464d6eec69b065951",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,8 +12,8 @@
   },
   "summary": {
     "total": 32,
-    "pending": 1,
-    "signals_settled": 7,
+    "pending": 0,
+    "signals_settled": 8,
     "official_entries_settled": 22,
     "cancelled": 6
   },
@@ -21,11 +21,37 @@
     {
       "id": "ce1:1563753:ht",
       "kind": "signal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-09-12T14:29:54Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "70e56ca7666e10a576887147e4e02014e85fc7a8e20fe2e5b00ef6da4489a8aa",
-      "telegram_message_count": 2
+      "telegram_message_count": 2,
+      "settled_at": "2026-09-12T15:02:44Z",
+      "result": "WIN",
+      "outcome": {
+        "corners_reference": 2,
+        "corners_final": 7,
+        "corners_after": 5,
+        "target": 2,
+        "technical_result": "WIN",
+        "entry_status": "confirmed",
+        "void_reason": "",
+        "approved_manually": true
+      },
+      "sealed_payload": {
+        "alert_id": "ce1:1563753:ht",
+        "classification": "scanner_signal_not_confirmed_bet",
+        "confidence": 8.0,
+        "corners_at_alert": 2,
+        "league": "League Two",
+        "match": "Walsall vs Rochdale",
+        "minimum_price": 1.75,
+        "minute": 27,
+        "score_at_alert": "0-0",
+        "suggestion": "🎯 ENTRADA SUGERIDA\nOver 3.5 cantos 1ª parte · odd mín. 1.75+\n↳ se sair +1 canto: sobe p/ Over 4.5 ou espera o Over 4",
+        "window": "HT ATTACK"
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20260912T125228896715Z:a93c3c51",
