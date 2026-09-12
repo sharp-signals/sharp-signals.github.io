@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-12T20:58:45Z",
-  "event_chain_head": "ae37a145240f35a28557495495e1ae754ab96f72ec5952e9e8939db8f551ece8",
+  "generated_at": "2026-09-12T21:20:11Z",
+  "event_chain_head": "6299ef3cf22aed03c56aa57d5ea076c20a316a5fe66161e84d11b25c79f44f48",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,20 +12,43 @@
   },
   "summary": {
     "total": 48,
-    "pending": 1,
+    "pending": 0,
     "signals_settled": 13,
-    "official_entries_settled": 31,
+    "official_entries_settled": 32,
     "cancelled": 7
   },
   "records": [
     {
       "id": "tip_proposal:20260912T205845431983Z:5bd78908",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-09-12T20:58:45Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "f6cae3d9939a6a301124d8c52ebcd63ea1e76d26f1d95405c5dd1fe8290a7651",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-09-12T21:20:11Z",
+      "result": "CASHOUT",
+      "outcome": {
+        "odds": null,
+        "odds_source": "cashout_loss_reference",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": 0.15,
+        "entry_status": "confirmed",
+        "profit_loss_percent": -0.112,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20260912T205845431983Z:5bd78908",
+        "market": "⛳ Over 12.5 corners · FT",
+        "match": "Ac. Viseu x Vitoria Guimaraes",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20260912T204513552772Z:ee341097",
