@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-12T17:58:29Z",
-  "event_chain_head": "7ef9a7dd5b981f102c630b35857ca968b802f4d1a94a3a88d6b7ec87b6296bbb",
+  "generated_at": "2026-09-12T17:59:06Z",
+  "event_chain_head": "991283726dfcd83bff3c8b1d89b68cfb1251e3c8d49e59b80046af2596661f9c",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,9 +12,9 @@
   },
   "summary": {
     "total": 43,
-    "pending": 2,
+    "pending": 1,
     "signals_settled": 12,
-    "official_entries_settled": 26,
+    "official_entries_settled": 27,
     "cancelled": 7
   },
   "records": [
@@ -30,11 +30,34 @@
     {
       "id": "tip_proposal:20260912T173914142635Z:e0027928",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-09-12T17:39:14Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "c27b3c393a7e7ab9f62fafe1da1d84bae9b07febbb09cf8bf311b91262b1c8d4",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-09-12T17:59:06Z",
+      "result": "WIN",
+      "outcome": {
+        "odds": 1.82,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": 0.615,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20260912T173914142635Z:e0027928",
+        "market": "⛳ Over 4.5 corners · Porto · 1st half",
+        "match": "Casa Pia x Porto",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20260912T173415741109Z:24874583",
