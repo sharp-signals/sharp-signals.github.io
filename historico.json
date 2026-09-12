@@ -2278,5 +2278,27 @@
       "golos_apos_casa": 0,
       "golos_apos_fora": 2
     }
+  ],
+  "2026-09-12": [
+    {
+      "alerta_id": "ce1:1563753:ht",
+      "fixture_id": 1563753,
+      "timestamp": "2026-09-12T16:02:41.768983",
+      "jogo": "Walsall vs Rochdale",
+      "liga": "League Two",
+      "janela": "HT ATTACK",
+      "tempo_alerta": 27,
+      "estrelas": 8.0,
+      "cantos_no_ref": 2,
+      "cantos_final": 7,
+      "cantos_apos_alerta": 5,
+      "meta_cantos": 2,
+      "resultado": "WIN",
+      "resultado_tecnico": "WIN",
+      "estado_entrada": "CONFIRMADA",
+      "justificacao_void": "",
+      "golos_apos_casa": 0,
+      "golos_apos_fora": 0
+    }
   ]
 }
