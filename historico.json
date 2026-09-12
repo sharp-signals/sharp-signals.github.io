@@ -2339,6 +2339,26 @@
       "justificacao_void": "Saída em contra-aposta após golo do favorito",
       "golos_apos_casa": 1,
       "golos_apos_fora": 0
+    },
+    {
+      "alerta_id": "ce1:1563753:shark",
+      "fixture_id": 1563753,
+      "timestamp": "2026-09-12T17:40:39.528559",
+      "jogo": "Walsall vs Rochdale",
+      "liga": "League Two",
+      "janela": "SHARK ATTACK",
+      "tempo_alerta": 58,
+      "estrelas": 8.0,
+      "cantos_no_ref": 9,
+      "cantos_final": 11,
+      "cantos_apos_alerta": 2,
+      "meta_cantos": 4,
+      "resultado": "VOID",
+      "resultado_tecnico": "VOID",
+      "estado_entrada": "CONFIRMADA",
+      "justificacao_void": "Não entrada — preço demasiado alto",
+      "golos_apos_casa": 0,
+      "golos_apos_fora": 0
     }
   ]
 }
