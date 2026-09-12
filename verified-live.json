@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-12T20:11:53Z",
-  "event_chain_head": "9bf05171e075d88925495ad821f6d8225d4dff86d19d712f46badab73c0fbb74",
+  "generated_at": "2026-09-12T20:27:55Z",
+  "event_chain_head": "98a0a397cd62b3156540ee7a37cddb2744ea741d45cceb69cd5de0ac7ef8300d",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,20 +12,43 @@
   },
   "summary": {
     "total": 46,
-    "pending": 1,
+    "pending": 0,
     "signals_settled": 13,
-    "official_entries_settled": 29,
+    "official_entries_settled": 30,
     "cancelled": 7
   },
   "records": [
     {
       "id": "tip_proposal:20260912T201153540759Z:29c71023",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-09-12T20:11:53Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "c47dbb68b9f45ca7e67124cb3325ae8eb211e7b8692e4f28757c07e6c2e8c1cb",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-09-12T20:27:55Z",
+      "result": "LOSS",
+      "outcome": {
+        "odds": null,
+        "odds_source": "historical_reference",
+        "reference_odds": 1.84,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": -0.75,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20260912T201153540759Z:29c71023",
+        "market": "⛳ Over 7 corners · FT",
+        "match": "Rapid Bucarest x Voluntari",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20260912T193848205534Z:a5371dfe",
