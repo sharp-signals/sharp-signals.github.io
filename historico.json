@@ -2319,6 +2319,26 @@
       "justificacao_void": "Não entrada — preço demasiado alto",
       "golos_apos_casa": 0,
       "golos_apos_fora": 1
+    },
+    {
+      "alerta_id": "ce1:1563743:mid",
+      "fixture_id": 1563743,
+      "timestamp": "2026-09-12T17:20:03.897905",
+      "jogo": "Barnet vs Accrington ST",
+      "liga": "League Two",
+      "janela": "MID PRESSURE",
+      "tempo_alerta": 69,
+      "estrelas": 7.0,
+      "cantos_no_ref": 8,
+      "cantos_final": 10,
+      "cantos_apos_alerta": 2,
+      "meta_cantos": 3,
+      "resultado": "VOID",
+      "resultado_tecnico": "VOID",
+      "estado_entrada": "CONFIRMADA",
+      "justificacao_void": "Saída em contra-aposta após golo do favorito",
+      "golos_apos_casa": 1,
+      "golos_apos_fora": 0
     }
   ]
 }
