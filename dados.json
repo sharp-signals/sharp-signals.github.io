@@ -8,8 +8,8 @@
    "fim": "2026-01-31"
   },
   "cresc_pct": 56.91,
-  "apostas": 1077,
-  "ganhos": 615,
+  "apostas": 1078,
+  "ganhos": 616,
   "perdidos": 462,
   "wr": 57.1,
   "meses": [
@@ -72,17 +72,17 @@
    {
     "mes": "2026-09",
     "label": "Set 26",
-    "cresc_pct": 6.66,
-    "apostas": 34,
-    "wr": 67.6
+    "cresc_pct": 7.33,
+    "apostas": 35,
+    "wr": 68.6
    }
   ],
   "por_mercado": [
    {
     "mercado": "Over Cantos FT",
-    "n": 592,
-    "wr": 58.1,
-    "roi": 29.43,
+    "n": 593,
+    "wr": 58.2,
+    "roi": 30.1,
     "pl_eur": 1369.94
    },
    {
@@ -129,7 +129,6 @@
    }
   ],
   "forma": [
-   "perdido",
    "ganho",
    "ganho",
    "ganho",
@@ -139,6 +138,7 @@
    "perdido",
    "perdido",
    "perdido",
+   "ganho",
    "ganho",
    "ganho",
    "ganho",
@@ -152,13 +152,13 @@
     "jogo": "Estrella del Sul x Yupanqui",
     "mercado": "⛳ Over 7.5 corners · FT",
     "categoria": "Over Cantos FT",
-    "odd": null,
-    "pl_pct": null,
+    "odd": 1.89,
+    "pl_pct": 0.667,
     "stake_pct": 0.75,
-    "resultado": "pendente",
+    "resultado": "ganho",
     "verified_id": "tip_proposal:20260912T193848205534Z:a5371dfe",
-    "estado_entrada": "aguarda_confirmacao",
-    "tipo_odd": "por_registar",
+    "estado_entrada": "confirmada",
+    "tipo_odd": "real",
     "odd_minima_recomendada": 1.81,
     "confianca": 7
    },
