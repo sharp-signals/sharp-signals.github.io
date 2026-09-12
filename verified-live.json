@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-12T20:45:13Z",
-  "event_chain_head": "3ae1a33dc4550aaedf2e0bf3b93327cf353df97c56e35285dae89ab7d2fb0243",
+  "generated_at": "2026-09-12T20:58:23Z",
+  "event_chain_head": "1e0a05f618e8c0b8b5dc37b15da4d4a4554c5c29a6de2c2b78e7051dd4f8e5f6",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,20 +12,43 @@
   },
   "summary": {
     "total": 47,
-    "pending": 1,
+    "pending": 0,
     "signals_settled": 13,
-    "official_entries_settled": 30,
+    "official_entries_settled": 31,
     "cancelled": 7
   },
   "records": [
     {
       "id": "tip_proposal:20260912T204513552772Z:ee341097",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-09-12T20:45:13Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "284ab63a32515ac768f16dfccaac222a8cd2a3bec5392ff958cdc462d3476626",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-09-12T20:58:23Z",
+      "result": "VOID",
+      "outcome": {
+        "odds": 1.81,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": 0.0,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20260912T204513552772Z:ee341097",
+        "market": "⛳ Over 4 corners · FT",
+        "match": "Forli x Vis Pesaro",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20260912T201153540759Z:29c71023",
