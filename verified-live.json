@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-12T19:38:48Z",
-  "event_chain_head": "0da6d1735c3edf6a43e110069331b4c210859e39c5919921c93f9b252563005a",
+  "generated_at": "2026-09-12T20:02:27Z",
+  "event_chain_head": "b168faccd98ab9e4eb220c59c8572f7d7d19778f9ec7d85967b46f0ac2f21f56",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,20 +12,43 @@
   },
   "summary": {
     "total": 45,
-    "pending": 1,
+    "pending": 0,
     "signals_settled": 13,
-    "official_entries_settled": 28,
+    "official_entries_settled": 29,
     "cancelled": 7
   },
   "records": [
     {
       "id": "tip_proposal:20260912T193848205534Z:a5371dfe",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-09-12T19:38:48Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "82e2c608bb046195f595b4c6abb2b2c8ec2b7d4245ebd50f388228b2a8b9297b",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-09-12T20:02:27Z",
+      "result": "WIN",
+      "outcome": {
+        "odds": 1.89,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": 0.667,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20260912T193848205534Z:a5371dfe",
+        "market": "⛳ Over 7.5 corners · FT",
+        "match": "Estrella del Sul x Yupanqui",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "ce1:1585757:final",
