@@ -9,9 +9,9 @@
   },
   "cresc_pct": 56.91,
   "apostas": 1072,
-  "ganhos": 609,
-  "perdidos": 463,
-  "wr": 56.8,
+  "ganhos": 610,
+  "perdidos": 462,
+  "wr": 56.9,
   "meses": [
    {
     "mes": "2025-08",
@@ -72,17 +72,17 @@
    {
     "mes": "2026-09",
     "label": "Set 26",
-    "cresc_pct": 2.37,
+    "cresc_pct": 3.16,
     "apostas": 29,
-    "wr": 58.6
+    "wr": 62.1
    }
   ],
   "por_mercado": [
    {
     "mercado": "Over Cantos FT",
-    "n": 589,
-    "wr": 57.9,
-    "roi": 27.1,
+    "n": 590,
+    "wr": 58,
+    "roi": 27.78,
     "pl_eur": 1369.94
    },
    {
@@ -94,15 +94,15 @@
    },
    {
     "mercado": "Cashout",
-    "n": 149,
-    "wr": 51.0,
-    "roi": -1.62,
+    "n": 148,
+    "wr": 51.4,
+    "roi": -1.51,
     "pl_eur": -74.77
    },
    {
     "mercado": "Over cantos Individual",
     "n": 75,
-    "wr": 48.0,
+    "wr": 48,
     "roi": -6.17,
     "pl_eur": -339.22
    },
@@ -136,7 +136,7 @@
    "ganho",
    "perdido",
    "ganho",
-   "cashout",
+   "ganho",
    "ganho",
    "ganho",
    "perdido",
@@ -249,17 +249,16 @@
     "mes": "2026-09",
     "jogo": "Buriram x Chiangrai",
     "mercado": "⛳ Over 4.5 corners · FT",
-    "categoria": "Cashout",
-    "odd": null,
-    "pl_pct": -0.112,
+    "categoria": "Over Cantos FT",
+    "odd": 1.9,
+    "pl_pct": 0.675,
     "stake_pct": 0.75,
-    "resultado": "cashout",
+    "resultado": "ganho",
     "verified_id": "tip_proposal:20260911T123854663791Z:d4eb1ace",
     "estado_entrada": "confirmada",
-    "tipo_odd": "referencia_cashout_menos_15_pct",
+    "tipo_odd": "real",
     "odd_minima_recomendada": 1.81,
-    "confianca": 7,
-    "cashout_perda_referencia_pct_stake": 15.0
+    "confianca": 7
    },
    {
     "data": "2026-09-11",
@@ -285,7 +284,7 @@
     "categoria": "Over Cantos FT",
     "odd": 1.84,
     "pl_pct": 0.84,
-    "stake_pct": 1.0,
+    "stake_pct": 1,
     "resultado": "ganho",
     "verified_id": "tip_proposal:20260911T121822562045Z:ca7f9d37",
     "estado_entrada": "confirmada",
@@ -300,8 +299,8 @@
     "mercado": "⛳ Over 6 corners · Kashiwa · FT",
     "categoria": "Over Cantos FT",
     "odd": 1.84,
-    "pl_pct": 0.0,
-    "stake_pct": 1.0,
+    "pl_pct": 0,
+    "stake_pct": 1,
     "resultado": "void",
     "verified_id": "tip_proposal:20260911T112653019441Z:c02f4fe6",
     "estado_entrada": "confirmada",
@@ -380,8 +379,8 @@
     "mercado": "⛳ Over 6.5 corners · Red Star · FT",
     "categoria": "Over Cantos FT",
     "odd": 1.82,
-    "pl_pct": -2.0,
-    "stake_pct": 2.0,
+    "pl_pct": -2,
+    "stake_pct": 2,
     "resultado": "perdido",
     "verified_id": "tip_proposal:20260910T182552174271Z:bf534cae",
     "estado_entrada": "confirmada",
@@ -413,7 +412,7 @@
     "categoria": "Over Cantos FT",
     "odd": 1.84,
     "pl_pct": 0.84,
-    "stake_pct": 1.0,
+    "stake_pct": 1,
     "resultado": "ganho",
     "verified_id": "tip_proposal:20260909T184950073947Z:15365196",
     "estado_entrada": "confirmada",
@@ -429,14 +428,14 @@
     "categoria": "Cashout",
     "odd": null,
     "pl_pct": -0.15,
-    "stake_pct": 1.0,
+    "stake_pct": 1,
     "resultado": "cashout",
     "verified_id": "tip_proposal:20260909T183735368876Z:e5a97bd1",
     "estado_entrada": "confirmada",
     "tipo_odd": "referencia_cashout_menos_15_pct",
     "odd_minima_recomendada": 1.81,
     "confianca": 8,
-    "cashout_perda_referencia_pct_stake": 15.0
+    "cashout_perda_referencia_pct_stake": 15
    },
    {
     "data": "2026-09-08",
@@ -471,7 +470,7 @@
     "mercado": "⛳ Over 9.5 corners · FT",
     "categoria": "Over Cantos FT",
     "odd": 1.84,
-    "pl_pct": 0.0,
+    "pl_pct": 0,
     "stake_pct": 0.75,
     "resultado": "void",
     "verified_id": "official_entry:20260907T173442282324Z:384acfb5",
@@ -523,7 +522,7 @@
     "mercado": "⛳ Over 7.5 corners · Isloch · FT",
     "categoria": "Over Cantos FT",
     "odd": 1.84,
-    "pl_pct": 0.0,
+    "pl_pct": 0,
     "stake_pct": 0.75,
     "resultado": "void",
     "verified_id": "official_entry:20260907T154217887328Z:3d77ac0f",
@@ -581,8 +580,8 @@
     "mercado": "⛳ Over 9.5 corners · FT",
     "categoria": "Over Cantos FT",
     "odd": 1.84,
-    "pl_pct": 0.0,
-    "stake_pct": 1.0,
+    "pl_pct": 0,
+    "stake_pct": 1,
     "resultado": "void",
     "confianca": 8
    },
@@ -593,7 +592,7 @@
     "mercado": "⛳ Over 3.5 corners · FT",
     "categoria": "Over Cantos FT",
     "odd": 1.84,
-    "pl_pct": 0.0,
+    "pl_pct": 0,
     "stake_pct": 0.75,
     "resultado": "void",
     "confianca": 7
@@ -629,7 +628,7 @@
     "mercado": "⛳ Over 3.5 corners · 1st half",
     "categoria": "Over Cantos HT",
     "odd": 1.84,
-    "pl_pct": 0.0,
+    "pl_pct": 0,
     "stake_pct": 0.75,
     "resultado": "void",
     "confianca": 7
@@ -641,7 +640,7 @@
     "mercado": "⛳ Over 10 corners · FT",
     "categoria": "Over Cantos FT",
     "odd": 1.84,
-    "pl_pct": 0.0,
+    "pl_pct": 0,
     "stake_pct": 0.75,
     "resultado": "void",
     "confianca": 7
@@ -653,7 +652,7 @@
     "mercado": "⛳ Over 2 corners · 1st half",
     "categoria": "Over Cantos HT",
     "odd": 1.84,
-    "pl_pct": 0.0,
+    "pl_pct": 0,
     "stake_pct": 0.75,
     "resultado": "void",
     "confianca": 7
@@ -678,7 +677,7 @@
     "categoria": "Over Cantos FT",
     "odd": 1.84,
     "pl_pct": 0.84,
-    "stake_pct": 1.0,
+    "stake_pct": 1,
     "resultado": "ganho",
     "confianca": 8
    },
@@ -701,8 +700,8 @@
     "mercado": "⛳ Over 8 corners · Lens · FT",
     "categoria": "Over Cantos FT",
     "odd": 1.84,
-    "pl_pct": 0.0,
-    "stake_pct": 1.0,
+    "pl_pct": 0,
+    "stake_pct": 1,
     "resultado": "void",
     "confianca": 8
    },
@@ -713,8 +712,8 @@
     "mercado": "⛳ Over 9.5 corners · FT",
     "categoria": "Over Cantos FT",
     "odd": 1.84,
-    "pl_pct": 0.0,
-    "stake_pct": 1.0,
+    "pl_pct": 0,
+    "stake_pct": 1,
     "resultado": "void",
     "confianca": 8
    },
@@ -725,8 +724,8 @@
     "mercado": "⛳ Over 10.5 corners · FT",
     "categoria": "Over Cantos FT",
     "odd": 1.84,
-    "pl_pct": 0.0,
-    "stake_pct": 1.0,
+    "pl_pct": 0,
+    "stake_pct": 1,
     "resultado": "void",
     "confianca": 8
    },
@@ -773,7 +772,7 @@
     "mercado": "⛳ Over 4 corners · 1st half",
     "categoria": "Over Cantos HT",
     "odd": 1.84,
-    "pl_pct": 0.0,
+    "pl_pct": 0,
     "stake_pct": 0.75,
     "resultado": "void",
     "confianca": 7
@@ -785,7 +784,7 @@
     "mercado": "⛳ Over 7.5 corners · FT",
     "categoria": "Over Cantos FT",
     "odd": 1.84,
-    "pl_pct": 0.0,
+    "pl_pct": 0,
     "stake_pct": 0.75,
     "resultado": "void",
     "confianca": 7
@@ -809,7 +808,7 @@
     "mercado": "⛳ Over 2.5 corners · benfica · 1st half",
     "categoria": "Over Cantos HT",
     "odd": 1.84,
-    "pl_pct": 0.0,
+    "pl_pct": 0,
     "stake_pct": 0.75,
     "resultado": "void",
     "confianca": 7
@@ -822,7 +821,7 @@
     "categoria": "Over Cantos FT",
     "odd": 1.84,
     "pl_pct": 0.84,
-    "stake_pct": 1.0,
+    "stake_pct": 1,
     "resultado": "ganho",
     "confianca": 8
    },
@@ -834,7 +833,7 @@
     "categoria": "Over Cantos FT",
     "odd": 1.84,
     "pl_pct": 0.84,
-    "stake_pct": 1.0,
+    "stake_pct": 1,
     "resultado": "ganho",
     "confianca": 8
    },
@@ -869,8 +868,8 @@
     "mercado": "⛳ Over 4 corners · FT",
     "categoria": "Over Cantos FT",
     "odd": 1.84,
-    "pl_pct": 0.0,
-    "stake_pct": 2.0,
+    "pl_pct": 0,
+    "stake_pct": 2,
     "resultado": "void",
     "confianca": 9
    },
@@ -893,8 +892,8 @@
     "mercado": "⛳ Over 5.5 corners · FT",
     "categoria": "Over Cantos FT",
     "odd": 1.84,
-    "pl_pct": 0.0,
-    "stake_pct": 1.0,
+    "pl_pct": 0,
+    "stake_pct": 1,
     "resultado": "void",
     "confianca": 8
    },
@@ -917,7 +916,7 @@
     "mercado": "⛳ Over 4.5 corners · 1st half",
     "categoria": "Over Cantos HT",
     "odd": 1.84,
-    "pl_pct": 0.0,
+    "pl_pct": 0,
     "stake_pct": 0.75,
     "resultado": "void",
     "confianca": 7
@@ -930,7 +929,7 @@
     "categoria": "Over Cantos FT",
     "odd": 1.84,
     "pl_pct": 0.84,
-    "stake_pct": 1.0,
+    "stake_pct": 1,
     "resultado": "ganho",
     "confianca": 8
    },
@@ -941,7 +940,7 @@
     "mercado": "⛳ Over 2.5 corners · 1st half",
     "categoria": "Over Cantos HT",
     "odd": 1.84,
-    "pl_pct": 0.0,
+    "pl_pct": 0,
     "stake_pct": 0.75,
     "resultado": "void",
     "confianca": 7
@@ -965,8 +964,8 @@
     "mercado": "⛳ Over 5 corners · FT",
     "categoria": "Over Cantos FT",
     "odd": 1.84,
-    "pl_pct": 0.0,
-    "stake_pct": 1.0,
+    "pl_pct": 0,
+    "stake_pct": 1,
     "resultado": "void",
     "confianca": 8
    },
@@ -989,8 +988,8 @@
     "mercado": "⛳ Over 6 corners · FT",
     "categoria": "Over Cantos FT",
     "odd": 1.84,
-    "pl_pct": -1.0,
-    "stake_pct": 1.0,
+    "pl_pct": -1,
+    "stake_pct": 1,
     "resultado": "perdido",
     "confianca": 8
    },
@@ -1001,8 +1000,8 @@
     "mercado": "⛳ Over 6.5 corners · FT",
     "categoria": "Over Cantos FT",
     "odd": 1.84,
-    "pl_pct": -1.0,
-    "stake_pct": 1.0,
+    "pl_pct": -1,
+    "stake_pct": 1,
     "resultado": "perdido",
     "confianca": 8
    },
@@ -1013,7 +1012,7 @@
     "mercado": "⛳ Over 6 corners · FT",
     "categoria": "Over Cantos FT",
     "odd": 1.84,
-    "pl_pct": 0.0,
+    "pl_pct": 0,
     "stake_pct": 0.75,
     "resultado": "void",
     "confianca": 7
@@ -1026,7 +1025,7 @@
     "categoria": "Over Cantos HT",
     "odd": 1.84,
     "pl_pct": 0.84,
-    "stake_pct": 1.0,
+    "stake_pct": 1,
     "resultado": "ganho",
     "confianca": 8
    },
@@ -1097,8 +1096,8 @@
     "mercado": "⛳ Over 5.5 corners · FT",
     "categoria": "Over Cantos FT",
     "odd": 1.84,
-    "pl_pct": 0.0,
-    "stake_pct": 2.0,
+    "pl_pct": 0,
+    "stake_pct": 2,
     "resultado": "void",
     "confianca": 9
    },
@@ -1109,8 +1108,8 @@
     "mercado": "⛳ Over 6 corners · FT",
     "categoria": "Over Cantos FT",
     "odd": 1.84,
-    "pl_pct": 0.0,
-    "stake_pct": 1.0,
+    "pl_pct": 0,
+    "stake_pct": 1,
     "resultado": "void",
     "confianca": 8
    },
@@ -1121,7 +1120,7 @@
     "mercado": "⛳ Over 2 corners · 1st half",
     "categoria": "Over Cantos HT",
     "odd": 1.84,
-    "pl_pct": 0.0,
+    "pl_pct": 0,
     "stake_pct": 0.75,
     "resultado": "void",
     "confianca": 7
@@ -1133,7 +1132,7 @@
     "mercado": "⛳ Over 6 corners · FT",
     "categoria": "Over Cantos FT",
     "odd": 1.84,
-    "pl_pct": 0.0,
+    "pl_pct": 0,
     "stake_pct": 0.75,
     "resultado": "void",
     "confianca": 7
@@ -1145,7 +1144,7 @@
     "mercado": "⛳ Over 4 corners · 1st half",
     "categoria": "Over Cantos HT",
     "odd": 1.84,
-    "pl_pct": 0.0,
+    "pl_pct": 0,
     "stake_pct": 0.75,
     "resultado": "void",
     "confianca": 7
@@ -1170,7 +1169,7 @@
     "categoria": "Over Cantos FT",
     "odd": 1.84,
     "pl_pct": 0.84,
-    "stake_pct": 1.0,
+    "stake_pct": 1,
     "resultado": "ganho",
     "confianca": 8
    },
@@ -1218,7 +1217,7 @@
     "categoria": "Over Cantos FT",
     "odd": 1.84,
     "pl_pct": 0.84,
-    "stake_pct": 1.0,
+    "stake_pct": 1,
     "resultado": "ganho",
     "confianca": 8
    },
@@ -1230,7 +1229,7 @@
     "categoria": "Over Cantos FT",
     "odd": 1.84,
     "pl_pct": 0.84,
-    "stake_pct": 1.0,
+    "stake_pct": 1,
     "resultado": "ganho",
     "confianca": 8
    },
@@ -1241,7 +1240,7 @@
     "mercado": "⛳ Over 3 corners · 1st half",
     "categoria": "Over Cantos HT",
     "odd": 1.84,
-    "pl_pct": 0.0,
+    "pl_pct": 0,
     "stake_pct": 0.75,
     "resultado": "void",
     "confianca": 7
@@ -1254,7 +1253,7 @@
     "categoria": "Over Cantos HT",
     "odd": 1.84,
     "pl_pct": 0.84,
-    "stake_pct": 1.0,
+    "stake_pct": 1,
     "resultado": "ganho",
     "confianca": 8
    },
@@ -1266,7 +1265,7 @@
     "categoria": "Over Cantos FT",
     "odd": 1.84,
     "pl_pct": 0.84,
-    "stake_pct": 1.0,
+    "stake_pct": 1,
     "resultado": "ganho",
     "confianca": 8
    },
@@ -1289,7 +1288,7 @@
     "mercado": "⛳ Over 1.5 corners · Mamelodi · 1st half",
     "categoria": "Over Cantos HT",
     "odd": 1.84,
-    "pl_pct": 0.0,
+    "pl_pct": 0,
     "stake_pct": 0.75,
     "resultado": "void",
     "confianca": 7
@@ -1313,8 +1312,8 @@
     "mercado": "⛳ Over 1 corners · 1st half",
     "categoria": "Over Cantos HT",
     "odd": 1.84,
-    "pl_pct": 0.0,
-    "stake_pct": 1.0,
+    "pl_pct": 0,
+    "stake_pct": 1,
     "resultado": "void",
     "confianca": 8
    },
@@ -1337,8 +1336,8 @@
     "mercado": "⛳ Over 10.5 corners · FT",
     "categoria": "Over Cantos FT",
     "odd": 1.84,
-    "pl_pct": 0.0,
-    "stake_pct": 1.0,
+    "pl_pct": 0,
+    "stake_pct": 1,
     "resultado": "void",
     "confianca": 8
    },
@@ -1373,7 +1372,7 @@
     "mercado": "10.5. 7",
     "categoria": null,
     "odd": 1.84,
-    "pl_pct": 0.0,
+    "pl_pct": 0,
     "stake_pct": null,
     "resultado": "void"
    },
@@ -1396,8 +1395,8 @@
     "mercado": "⛳ Over 5.5 corners · FT",
     "categoria": "Over Cantos FT",
     "odd": 1.84,
-    "pl_pct": 0.0,
-    "stake_pct": 1.0,
+    "pl_pct": 0,
+    "stake_pct": 1,
     "resultado": "void",
     "confianca": 8
    },
@@ -1408,7 +1407,7 @@
     "mercado": "⛳ Over 2 corners · 1st half",
     "categoria": "Over Cantos HT",
     "odd": 1.84,
-    "pl_pct": 0.0,
+    "pl_pct": 0,
     "stake_pct": 0.75,
     "resultado": "void",
     "confianca": 7
@@ -1432,7 +1431,7 @@
     "mercado": "⛳ Over 9 corners · FT",
     "categoria": "Over Cantos FT",
     "odd": 1.84,
-    "pl_pct": 0.0,
+    "pl_pct": 0,
     "stake_pct": 0.75,
     "resultado": "void",
     "confianca": 7
@@ -1444,7 +1443,7 @@
     "mercado": "⛳ Over 9.5 corners · FT",
     "categoria": "Over Cantos FT",
     "odd": 1.84,
-    "pl_pct": 0.0,
+    "pl_pct": 0,
     "stake_pct": 0.75,
     "resultado": "void",
     "confianca": 7
@@ -1468,8 +1467,8 @@
     "mercado": "⛳ Over 4 corners · FT",
     "categoria": "Over Cantos FT",
     "odd": 1.84,
-    "pl_pct": -1.0,
-    "stake_pct": 1.0,
+    "pl_pct": -1,
+    "stake_pct": 1,
     "resultado": "perdido",
     "confianca": 8
    },
@@ -1480,7 +1479,7 @@
     "mercado": "⛳ Over 4 corners · FT",
     "categoria": "Over Cantos FT",
     "odd": 1.84,
-    "pl_pct": 0.0,
+    "pl_pct": 0,
     "stake_pct": 0.75,
     "resultado": "void",
     "confianca": 7
@@ -1492,7 +1491,7 @@
     "mercado": "⛳ Over 7.5 corners · FT",
     "categoria": "Over Cantos FT",
     "odd": 1.84,
-    "pl_pct": 0.0,
+    "pl_pct": 0,
     "stake_pct": 0.75,
     "resultado": "void",
     "confianca": 7
@@ -1540,7 +1539,7 @@
     "mercado": "⛳ Over 6 corners · FT",
     "categoria": "Over Cantos FT",
     "odd": 1.84,
-    "pl_pct": 0.0,
+    "pl_pct": 0,
     "stake_pct": 0.75,
     "resultado": "void",
     "confianca": 7
@@ -1552,7 +1551,7 @@
     "mercado": "⛳ Over 5.5 corners · FT",
     "categoria": "Over Cantos FT",
     "odd": 1.84,
-    "pl_pct": 0.0,
+    "pl_pct": 0,
     "stake_pct": 0.75,
     "resultado": "void",
     "confianca": 7
@@ -1588,7 +1587,7 @@
     "mercado": "🏁 Race to 7 corners · Anderlecht",
     "categoria": "Race to X corners",
     "odd": 1.84,
-    "pl_pct": 0.0,
+    "pl_pct": 0,
     "stake_pct": 0.75,
     "resultado": "void",
     "confianca": 7
@@ -1636,8 +1635,8 @@
     "mercado": "⛳ Over 11 corners · FT",
     "categoria": "Over Cantos FT",
     "odd": 1.84,
-    "pl_pct": -1.0,
-    "stake_pct": 1.0,
+    "pl_pct": -1,
+    "stake_pct": 1,
     "resultado": "perdido",
     "confianca": 8
    },
@@ -1660,7 +1659,7 @@
     "mercado": "⛳ Over 8 corners · FT",
     "categoria": "Over Cantos FT",
     "odd": 1.84,
-    "pl_pct": 0.0,
+    "pl_pct": 0,
     "stake_pct": 0.75,
     "resultado": "void",
     "confianca": 7
@@ -1696,8 +1695,8 @@
     "mercado": "⛳ Over 6 corners · FT",
     "categoria": "Over Cantos FT",
     "odd": 1.84,
-    "pl_pct": 0.0,
-    "stake_pct": 1.0,
+    "pl_pct": 0,
+    "stake_pct": 1,
     "resultado": "void",
     "confianca": 8
    },
@@ -1709,7 +1708,7 @@
     "categoria": "Over Cantos HT",
     "odd": 1.84,
     "pl_pct": 1.68,
-    "stake_pct": 2.0,
+    "stake_pct": 2,
     "resultado": "ganho",
     "confianca": 9
    },
@@ -1744,7 +1743,7 @@
     "mercado": "⛳ Over 3.5 corners · 1st half",
     "categoria": "Over Cantos HT",
     "odd": 1.84,
-    "pl_pct": 0.0,
+    "pl_pct": 0,
     "stake_pct": 0.75,
     "resultado": "void",
     "confianca": 7
@@ -1755,8 +1754,8 @@
     "jogo": "Salzburg x Hartberg",
     "mercado": "⛳ Over 21 corners · FT",
     "categoria": "Over Cantos FT",
-    "odd": 21.0,
-    "pl_pct": 0.0,
+    "odd": 21,
+    "pl_pct": 0,
     "stake_pct": 0.75,
     "resultado": "void",
     "confianca": 7
@@ -1780,7 +1779,7 @@
     "mercado": "⛳ Over 13 corners · FT",
     "categoria": "Over Cantos FT",
     "odd": 1.84,
-    "pl_pct": 0.0,
+    "pl_pct": 0,
     "stake_pct": 0.75,
     "resultado": "void",
     "confianca": 7
@@ -1804,8 +1803,8 @@
     "mercado": "⛳ Over 10 corners · FT",
     "categoria": "Over Cantos FT",
     "odd": 1.84,
-    "pl_pct": -1.0,
-    "stake_pct": 1.0,
+    "pl_pct": -1,
+    "stake_pct": 1,
     "resultado": "perdido",
     "confianca": 8
    },
@@ -1864,7 +1863,7 @@
     "mercado": "⛳ Over 6 corners · FT",
     "categoria": "Over Cantos FT",
     "odd": 1.84,
-    "pl_pct": 0.0,
+    "pl_pct": 0,
     "stake_pct": 0.75,
     "resultado": "void",
     "confianca": 7
@@ -1913,7 +1912,7 @@
     "categoria": "Over Cantos FT",
     "odd": 1.84,
     "pl_pct": 1.68,
-    "stake_pct": 2.0,
+    "stake_pct": 2,
     "resultado": "ganho",
     "confianca": 9
    },
@@ -1936,8 +1935,8 @@
     "mercado": "⛳ Over 8 corners · FT",
     "categoria": "Over Cantos FT",
     "odd": 1.84,
-    "pl_pct": 0.0,
-    "stake_pct": 1.0,
+    "pl_pct": 0,
+    "stake_pct": 1,
     "resultado": "void",
     "confianca": 8
    },
@@ -1960,7 +1959,7 @@
     "mercado": "⛳ Over 3 corners · 1st half",
     "categoria": "Over Cantos HT",
     "odd": 1.84,
-    "pl_pct": 0.0,
+    "pl_pct": 0,
     "stake_pct": 0.75,
     "resultado": "void",
     "confianca": 7
@@ -2007,7 +2006,7 @@
     "jogo": "Besiktas x Midtjylland",
     "mercado": "⛳ Over 7 corners · FT",
     "odd": 1.84,
-    "pl_pct": 0.0,
+    "pl_pct": 0,
     "stake_pct": 0.75,
     "resultado": "void",
     "confianca": 7,
@@ -2019,7 +2018,7 @@
     "jogo": "FCSB x Auda",
     "mercado": "⛳ Over 9 corners · FT",
     "odd": 1.84,
-    "pl_pct": 0.0,
+    "pl_pct": 0,
     "stake_pct": 0.75,
     "resultado": "void",
     "confianca": 7,
@@ -2031,7 +2030,7 @@
     "jogo": "Potosi x Oruro",
     "mercado": "⛳ Over 2 corners · 1st half",
     "odd": 1.84,
-    "pl_pct": 0.0,
+    "pl_pct": 0,
     "resultado": "void",
     "confianca": 8,
     "categoria": "Over Cantos HT"
@@ -2042,8 +2041,8 @@
     "jogo": "Wuhan x Shandong",
     "mercado": "⛳ Over 11 corners · FT",
     "odd": 1.84,
-    "pl_pct": 0.0,
-    "stake_pct": 1.0,
+    "pl_pct": 0,
+    "stake_pct": 1,
     "resultado": "void",
     "confianca": 8,
     "categoria": "Over Cantos FT"
@@ -2054,8 +2053,8 @@
     "jogo": "Wuhan x Shandong",
     "mercado": "⛳ Over 14 corners · FT",
     "odd": 1.84,
-    "pl_pct": 0.0,
-    "stake_pct": 1.0,
+    "pl_pct": 0,
+    "stake_pct": 1,
     "resultado": "void",
     "confianca": 8,
     "categoria": "Over Cantos FT"
@@ -2066,7 +2065,7 @@
     "jogo": "Lanus F x San Lorenzo F",
     "mercado": "⛳ Over 9 corners · FT",
     "odd": 1.84,
-    "pl_pct": 0.0,
+    "pl_pct": 0,
     "stake_pct": 0.75,
     "resultado": "void",
     "confianca": 7,
@@ -2277,7 +2276,7 @@
     "mes": "2026-01",
     "jogo": "Hapoel Tel Aviv x Ashdod",
     "mercado": "Cashout",
-    "odd": 2.0,
+    "odd": 2,
     "pl_pct": -0.76,
     "resultado": "perdido",
     "categoria": "Cashout"
@@ -2697,7 +2696,7 @@
     "mes": "2026-01",
     "jogo": "Veneza x Catanzaro",
     "mercado": "Cashout",
-    "odd": 2.0,
+    "odd": 2,
     "pl_pct": 0.506,
     "resultado": "ganho",
     "categoria": "Cashout"
@@ -2747,7 +2746,7 @@
     "mes": "2026-01",
     "jogo": "Petha Tikva x Beitar Jerusalem",
     "mercado": "Cashout",
-    "odd": 2.0,
+    "odd": 2,
     "pl_pct": -0.506,
     "resultado": "perdido",
     "categoria": "Cashout"
@@ -3277,7 +3276,7 @@
     "mes": "2025-12",
     "jogo": "Al Nasr x Al Qadsia",
     "mercado": "Race to X corners",
-    "odd": 7.0,
+    "odd": 7,
     "pl_pct": -0.165,
     "resultado": "perdido",
     "categoria": "Race to X corners"
@@ -3707,7 +3706,7 @@
     "mes": "2025-12",
     "jogo": "Motherwell x Dundee",
     "mercado": "Cashout",
-    "odd": 2.0,
+    "odd": 2,
     "pl_pct": 1.22,
     "resultado": "ganho",
     "categoria": "Cashout"
@@ -3897,7 +3896,7 @@
     "mes": "2025-12",
     "jogo": "Unirea Slobozia x FCSB",
     "mercado": "Cashout",
-    "odd": 2.0,
+    "odd": 2,
     "pl_pct": -0.725,
     "resultado": "perdido",
     "categoria": "Cashout"
@@ -4267,7 +4266,7 @@
     "mes": "2025-11",
     "jogo": "Panetolikos x Olympiakos",
     "mercado": "Cashout",
-    "odd": 2.0,
+    "odd": 2,
     "pl_pct": -0.738,
     "resultado": "perdido",
     "categoria": "Cashout"
@@ -4287,7 +4286,7 @@
     "mes": "2025-11",
     "jogo": "TSC x Radnik",
     "mercado": "Cashout",
-    "odd": 2.0,
+    "odd": 2,
     "pl_pct": -0.738,
     "resultado": "perdido",
     "categoria": "Cashout"
@@ -4327,7 +4326,7 @@
     "mes": "2025-11",
     "jogo": "Panetolikos x Olympiakos",
     "mercado": "Cashout",
-    "odd": 2.0,
+    "odd": 2,
     "pl_pct": -0.41,
     "resultado": "perdido",
     "categoria": "Cashout"
@@ -4897,7 +4896,7 @@
     "mes": "2025-11",
     "jogo": "Finlandia u21 x Kosovo u21",
     "mercado": "Race to X corners",
-    "odd": 2.0,
+    "odd": 2,
     "pl_pct": -0.492,
     "resultado": "perdido",
     "categoria": "Race to X corners"
@@ -5257,7 +5256,7 @@
     "mes": "2025-10",
     "jogo": "Hanoi Police x PVF",
     "mercado": "Cashout",
-    "odd": 2.0,
+    "odd": 2,
     "pl_pct": -1.028,
     "resultado": "perdido",
     "categoria": "Cashout"
@@ -5327,7 +5326,7 @@
     "mes": "2025-10",
     "jogo": "Persela x PSIS",
     "mercado": "Over cantos Individual",
-    "odd": 2.0,
+    "odd": 2,
     "pl_pct": 1.142,
     "resultado": "ganho",
     "categoria": "Over cantos Individual"
@@ -5877,7 +5876,7 @@
     "mes": "2025-10",
     "jogo": "Manjung City x Johor II",
     "mercado": "Cashout",
-    "odd": 2.0,
+    "odd": 2,
     "pl_pct": -0.64,
     "resultado": "perdido",
     "categoria": "Cashout"
@@ -5977,7 +5976,7 @@
     "mes": "2025-10",
     "jogo": "Haugesund x Tromso",
     "mercado": "Cashout",
-    "odd": 2.0,
+    "odd": 2,
     "pl_pct": 1.142,
     "resultado": "ganho",
     "categoria": "Cashout"
@@ -6157,7 +6156,7 @@
     "mes": "2025-10",
     "jogo": "Hapoel Haifa x Beitar Jerusalem",
     "mercado": "Cashout",
-    "odd": 2.0,
+    "odd": 2,
     "pl_pct": -1.028,
     "resultado": "perdido",
     "categoria": "Cashout"
@@ -6627,7 +6626,7 @@
     "mes": "2025-10",
     "jogo": "Petrolul x CFR Cluj",
     "mercado": "Race to X corners",
-    "odd": 4.0,
+    "odd": 4,
     "pl_pct": -0.228,
     "resultado": "perdido",
     "categoria": "Race to X corners"
@@ -7327,7 +7326,7 @@
     "mes": "2025-10",
     "jogo": "Myanmar x Syria",
     "mercado": "Cashout",
-    "odd": 2.0,
+    "odd": 2,
     "pl_pct": 0.914,
     "resultado": "ganho",
     "categoria": "Cashout"
@@ -7387,7 +7386,7 @@
     "mes": "2025-10",
     "jogo": "Cabo Verde x Eswatini",
     "mercado": "Cashout",
-    "odd": 2.0,
+    "odd": 2,
     "pl_pct": 0.914,
     "resultado": "ganho",
     "categoria": "Cashout"
@@ -8287,7 +8286,7 @@
     "mes": "2025-09",
     "jogo": "Tobol x Astana",
     "mercado": "Cashout",
-    "odd": 2.0,
+    "odd": 2,
     "pl_pct": 0.722,
     "resultado": "ganho",
     "categoria": "Cashout"
@@ -8437,7 +8436,7 @@
     "mes": "2025-09",
     "jogo": "Rakow x Gornik",
     "mercado": "Cashout",
-    "odd": 2.0,
+    "odd": 2,
     "pl_pct": 1.445,
     "resultado": "ganho",
     "categoria": "Cashout"
@@ -8847,7 +8846,7 @@
     "mes": "2025-11",
     "jogo": "Vejle x Copenhaga",
     "mercado": "Cashout",
-    "odd": 2.0,
+    "odd": 2,
     "pl_pct": -0.738,
     "resultado": "perdido",
     "categoria": "Cashout"
@@ -9477,7 +9476,7 @@
     "mes": "2025-08",
     "jogo": "Sonderjyske x Brondby",
     "mercado": "Cashout",
-    "odd": 2.0,
+    "odd": 2,
     "pl_pct": -0.7,
     "resultado": "perdido",
     "categoria": "Cashout"
@@ -9647,7 +9646,7 @@
     "mes": "2025-11",
     "jogo": "Hapoel Jerusalem x Hapoel Tel Aviv",
     "mercado": "Race to X corners",
-    "odd": 2.0,
+    "odd": 2,
     "pl_pct": 0.492,
     "resultado": "ganho",
     "categoria": "Race to X corners"
@@ -10697,7 +10696,7 @@
     "mes": "2025-12",
     "jogo": "Uni. Kasetsart x Pattaya Utd.",
     "mercado": "Cashout",
-    "odd": 2.0,
+    "odd": 2,
     "pl_pct": 0.824,
     "resultado": "ganho",
     "categoria": "Cashout"
@@ -11247,7 +11246,7 @@
     "mes": "2025-12",
     "jogo": "Ajax x Groningen",
     "mercado": "Cashout",
-    "odd": 2.0,
+    "odd": 2,
     "pl_pct": -0.725,
     "resultado": "perdido",
     "categoria": "Cashout"
@@ -11317,7 +11316,7 @@
     "mes": "2025-11",
     "jogo": "Al Ahly x Al Masry",
     "mercado": "Race to X corners",
-    "odd": 8.0,
+    "odd": 8,
     "pl_pct": -0.164,
     "resultado": "perdido",
     "categoria": "Race to X corners"
@@ -11647,7 +11646,7 @@
     "mes": "2025-11",
     "jogo": "Siroki Brijeg x Zrinjski",
     "mercado": "Cashout",
-    "odd": 2.0,
+    "odd": 2,
     "pl_pct": 0.738,
     "resultado": "ganho",
     "categoria": "Cashout"
