@@ -2481,6 +2481,26 @@
       "justificacao_void": "Não entrada — preço demasiado alto",
       "golos_apos_casa": 0,
       "golos_apos_fora": 0
+    },
+    {
+      "alerta_id": "ce1:1593129:mid",
+      "fixture_id": 1593129,
+      "timestamp": "2026-09-13T17:09:02.642647",
+      "jogo": "Eintracht Frankfurt W vs 1899 Hoffenheim W",
+      "liga": "Frauen Bundesliga",
+      "janela": "MID PRESSURE",
+      "tempo_alerta": 69,
+      "estrelas": 8.0,
+      "cantos_no_ref": 9,
+      "cantos_final": 13,
+      "cantos_apos_alerta": 4,
+      "meta_cantos": 3,
+      "resultado": "WIN",
+      "resultado_tecnico": "WIN",
+      "estado_entrada": "CONFIRMADA",
+      "justificacao_void": "",
+      "golos_apos_casa": 2,
+      "golos_apos_fora": 0
     }
   ]
 }
