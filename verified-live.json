@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-13T14:17:15Z",
-  "event_chain_head": "da4d680384ba9b373b6dc8c6e3a93a622937a01ae16273f4c80ae9a81b1b3c1f",
+  "generated_at": "2026-09-13T15:17:18Z",
+  "event_chain_head": "d944a816300297b9d63547fff413244453bd35bca6a7dd6ee463de9e82f2efa0",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,8 +12,8 @@
   },
   "summary": {
     "total": 54,
-    "pending": 1,
-    "signals_settled": 16,
+    "pending": 0,
+    "signals_settled": 17,
     "official_entries_settled": 34,
     "cancelled": 7
   },
@@ -21,11 +21,37 @@
     {
       "id": "ce1:1552166:mid",
       "kind": "signal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-09-13T13:54:52Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "cb63df9c37852bef0b6c07140bfb5e96e95016c8064a595d2742e2f1af9d2ec4",
-      "telegram_message_count": 2
+      "telegram_message_count": 2,
+      "settled_at": "2026-09-13T15:17:18Z",
+      "result": "VOID",
+      "outcome": {
+        "corners_reference": 7,
+        "corners_final": 14,
+        "corners_after": 7,
+        "target": 3,
+        "technical_result": "VOID",
+        "entry_status": "confirmed",
+        "void_reason": "Não entrada — preço demasiado alto",
+        "approved_manually": true
+      },
+      "sealed_payload": {
+        "alert_id": "ce1:1552166:mid",
+        "classification": "scanner_signal_not_confirmed_bet",
+        "confidence": 8.0,
+        "corners_at_alert": 7,
+        "league": "Eredivisie",
+        "match": "Heerenveen vs Telstar",
+        "minimum_price": 1.75,
+        "minute": 65,
+        "score_at_alert": "0-0",
+        "suggestion": "🎯 ENTRADA SUGERIDA\nOver 9.5 cantos · odd mín. 1.75+\n↳ se sair +1 canto: sobe p/ Over 10.5 ou espera o Over 10",
+        "window": "MID PRESSURE"
+      },
+      "commitment_valid": true
     },
     {
       "id": "ce1:1569920:shark",
