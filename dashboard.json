@@ -17,7 +17,7 @@
    "pode_nao_publicar": true
   }
  },
- "atualizado": "2026-09-13T04:30:09",
+ "atualizado": "2026-09-13T06:12:01",
  "geral": {
   "inicio": "2026-06-06",
   "fim": "2026-09-12",
@@ -112,12 +112,12 @@
   "desde": "2026-06-21"
  },
  "diario": {
-  "inicio": "2026-09-12",
-  "fim": "2026-09-12",
-  "sinais": 1,
-  "sinais_financeiros": 1,
+  "inicio": "2026-09-13",
+  "fim": "2026-09-13",
+  "sinais": 0,
+  "sinais_financeiros": 0,
   "ganhos": 0,
-  "perdidos": 1,
+  "perdidos": 0,
   "push": 0,
   "pendentes": 0,
   "condicionais": 0,
@@ -126,27 +126,13 @@
   "condicionais_push": 0,
   "condicionais_pendentes": 0,
   "wr": 0.0,
-  "lucro_u": -1.0,
-  "roi": -100.0,
-  "por_estrategia": {
-   "Sharp Pick": {
-    "n": 1,
-    "g": 0,
-    "p": 1,
-    "lucro": -1.0,
-    "condicionais": 0,
-    "condicionais_g": 0,
-    "condicionais_p": 0,
-    "condicionais_push": 0,
-    "condicionais_pendentes": 0,
-    "n_financeiros": 1,
-    "wr": 0.0
-   }
-  }
+  "lucro_u": 0.0,
+  "roi": 0.0,
+  "por_estrategia": {}
  },
  "semanal": {
   "inicio": "2026-09-07",
-  "fim": "2026-09-12",
+  "fim": "2026-09-13",
   "sinais": 4,
   "sinais_financeiros": 4,
   "ganhos": 0,
@@ -179,7 +165,7 @@
  },
  "mensal": {
   "inicio": "2026-09-01",
-  "fim": "2026-09-12",
+  "fim": "2026-09-13",
   "sinais": 6,
   "sinais_financeiros": 6,
   "ganhos": 1,
@@ -1298,12 +1284,12 @@
     }
    },
    "diario": {
-    "inicio": "2026-09-12",
-    "fim": "2026-09-12",
-    "sinais": 1,
-    "sinais_financeiros": 1,
+    "inicio": "2026-09-13",
+    "fim": "2026-09-13",
+    "sinais": 0,
+    "sinais_financeiros": 0,
     "ganhos": 0,
-    "perdidos": 1,
+    "perdidos": 0,
     "push": 0,
     "pendentes": 0,
     "condicionais": 0,
@@ -1312,27 +1298,13 @@
     "condicionais_push": 0,
     "condicionais_pendentes": 0,
     "wr": 0.0,
-    "lucro_u": -1.0,
-    "roi": -100.0,
-    "por_estrategia": {
-     "Sharp Pick": {
-      "n": 1,
-      "g": 0,
-      "p": 1,
-      "lucro": -1.0,
-      "condicionais": 0,
-      "condicionais_g": 0,
-      "condicionais_p": 0,
-      "condicionais_push": 0,
-      "condicionais_pendentes": 0,
-      "n_financeiros": 1,
-      "wr": 0.0
-     }
-    }
+    "lucro_u": 0.0,
+    "roi": 0.0,
+    "por_estrategia": {}
    },
    "semanal": {
     "inicio": "2026-09-07",
-    "fim": "2026-09-12",
+    "fim": "2026-09-13",
     "sinais": 4,
     "sinais_financeiros": 4,
     "ganhos": 0,
@@ -1365,7 +1337,7 @@
    },
    "mensal": {
     "inicio": "2026-09-01",
-    "fim": "2026-09-12",
+    "fim": "2026-09-13",
     "sinais": 6,
     "sinais_financeiros": 6,
     "ganhos": 1,
@@ -1769,8 +1741,8 @@
     }
    },
    "diario": {
-    "inicio": "2026-09-12",
-    "fim": "2026-09-12",
+    "inicio": "2026-09-13",
+    "fim": "2026-09-13",
     "sinais": 0,
     "sinais_financeiros": 0,
     "ganhos": 0,
@@ -1789,7 +1761,7 @@
    },
    "semanal": {
     "inicio": "2026-09-07",
-    "fim": "2026-09-12",
+    "fim": "2026-09-13",
     "sinais": 0,
     "sinais_financeiros": 0,
     "ganhos": 0,
@@ -1808,7 +1780,7 @@
    },
    "mensal": {
     "inicio": "2026-09-01",
-    "fim": "2026-09-12",
+    "fim": "2026-09-13",
     "sinais": 0,
     "sinais_financeiros": 0,
     "ganhos": 0,
@@ -1904,8 +1876,8 @@
     }
    },
    "diario": {
-    "inicio": "2026-09-12",
-    "fim": "2026-09-12",
+    "inicio": "2026-09-13",
+    "fim": "2026-09-13",
     "sinais": 0,
     "sinais_financeiros": 0,
     "ganhos": 0,
@@ -1924,7 +1896,7 @@
    },
    "semanal": {
     "inicio": "2026-09-07",
-    "fim": "2026-09-12",
+    "fim": "2026-09-13",
     "sinais": 0,
     "sinais_financeiros": 0,
     "ganhos": 0,
@@ -1943,7 +1915,7 @@
    },
    "mensal": {
     "inicio": "2026-09-01",
-    "fim": "2026-09-12",
+    "fim": "2026-09-13",
     "sinais": 0,
     "sinais_financeiros": 0,
     "ganhos": 0,
@@ -2159,12 +2131,12 @@
     }
    },
    "diario": {
-    "inicio": "2026-09-12",
-    "fim": "2026-09-12",
-    "sinais": 1,
-    "sinais_financeiros": 1,
+    "inicio": "2026-09-13",
+    "fim": "2026-09-13",
+    "sinais": 0,
+    "sinais_financeiros": 0,
     "ganhos": 0,
-    "perdidos": 1,
+    "perdidos": 0,
     "push": 0,
     "pendentes": 0,
     "condicionais": 0,
@@ -2173,27 +2145,13 @@
     "condicionais_push": 0,
     "condicionais_pendentes": 0,
     "wr": 0.0,
-    "lucro_u": -1.0,
-    "roi": -100.0,
-    "por_estrategia": {
-     "Sharp Pick": {
-      "n": 1,
-      "g": 0,
-      "p": 1,
-      "lucro": -1.0,
-      "condicionais": 0,
-      "condicionais_g": 0,
-      "condicionais_p": 0,
-      "condicionais_push": 0,
-      "condicionais_pendentes": 0,
-      "n_financeiros": 1,
-      "wr": 0.0
-     }
-    }
+    "lucro_u": 0.0,
+    "roi": 0.0,
+    "por_estrategia": {}
    },
    "semanal": {
     "inicio": "2026-09-07",
-    "fim": "2026-09-12",
+    "fim": "2026-09-13",
     "sinais": 4,
     "sinais_financeiros": 4,
     "ganhos": 0,
@@ -2226,7 +2184,7 @@
    },
    "mensal": {
     "inicio": "2026-09-01",
-    "fim": "2026-09-12",
+    "fim": "2026-09-13",
     "sinais": 6,
     "sinais_financeiros": 6,
     "ganhos": 1,
@@ -2518,18 +2476,7 @@
    "dias_verde_pct": 38.5
   }
  },
- "tip_do_dia": [
-  {
-   "hora": "12:00",
-   "liga": "Chinese Super League",
-   "jogo": "Tianjin Teda vs Liaoning Tieren",
-   "mercado": "Over 1.5 · 2ª parte",
-   "odd": 2.0,
-   "bilhete": "simples",
-   "fire": false,
-   "resultado": "perdido"
-  }
- ],
+ "tip_do_dia": [],
  "por_estrategia": {
   "Golos (arquivo)": {
    "n": 31,
