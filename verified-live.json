@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-13T12:45:12Z",
-  "event_chain_head": "ec69ca890759ff0317c3835b70273f3ebc931d64568f1a46c9e5ac37f4658c06",
+  "generated_at": "2026-09-13T13:04:16Z",
+  "event_chain_head": "c51499af2ec9435c8c4a6f33b4459bbc5356288c47513cf023061ae8c3b0c4fd",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,9 +12,9 @@
   },
   "summary": {
     "total": 52,
-    "pending": 2,
+    "pending": 1,
     "signals_settled": 14,
-    "official_entries_settled": 33,
+    "official_entries_settled": 34,
     "cancelled": 7
   },
   "records": [
@@ -30,11 +30,34 @@
     {
       "id": "tip_proposal:20260913T122645581428Z:0bb0c2cc",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-09-13T12:26:45Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "678144d276af4fb1caf213dda50ba9c38ad608ff4bdff51a9ff3d1d208090815",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-09-13T13:04:16Z",
+      "result": "WIN",
+      "outcome": {
+        "odds": 1.81,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": 0.608,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20260913T122645581428Z:0bb0c2cc",
+        "market": "⛳ Over 7.5 corners · FT",
+        "match": "Daugavpils x Rigas",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "ce1:1549776:ht",
