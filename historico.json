@@ -2400,5 +2400,27 @@
       "golos_apos_casa": 0,
       "golos_apos_fora": 1
     }
+  ],
+  "2026-09-13": [
+    {
+      "alerta_id": "ce1:1549776:ht",
+      "fixture_id": 1549776,
+      "timestamp": "2026-09-13T10:53:25.133509",
+      "jogo": "Chico vs Independiente Medellin",
+      "liga": "Primera A",
+      "janela": "HT ATTACK",
+      "tempo_alerta": 29,
+      "estrelas": 7.0,
+      "cantos_no_ref": 2,
+      "cantos_final": 3,
+      "cantos_apos_alerta": 1,
+      "meta_cantos": 2,
+      "resultado": "LOSS",
+      "resultado_tecnico": "LOSS",
+      "estado_entrada": "CONFIRMADA",
+      "justificacao_void": "",
+      "golos_apos_casa": 1,
+      "golos_apos_fora": 0
+    }
   ]
 }
