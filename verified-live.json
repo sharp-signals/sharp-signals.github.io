@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-12T23:38:25Z",
-  "event_chain_head": "21948c594e64a34c358c1dbdad934b36bb90ea9a5c198c9702a3131c0fba8e85",
+  "generated_at": "2026-09-13T09:53:27Z",
+  "event_chain_head": "fdb113d7981aa2c368c45eb80556e13873efcc90e8ece7c1eb3d1165aca3f78c",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,8 +12,8 @@
   },
   "summary": {
     "total": 50,
-    "pending": 1,
-    "signals_settled": 13,
+    "pending": 0,
+    "signals_settled": 14,
     "official_entries_settled": 33,
     "cancelled": 7
   },
@@ -21,11 +21,37 @@
     {
       "id": "ce1:1549776:ht",
       "kind": "signal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-09-12T23:38:25Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "0d7767a05f39153cab0229c7f66f22f5785d30ab907158ee247bd7939c7809a1",
-      "telegram_message_count": 2
+      "telegram_message_count": 2,
+      "settled_at": "2026-09-13T09:53:27Z",
+      "result": "LOSS",
+      "outcome": {
+        "corners_reference": 2,
+        "corners_final": 3,
+        "corners_after": 1,
+        "target": 2,
+        "technical_result": "LOSS",
+        "entry_status": "confirmed",
+        "void_reason": "",
+        "approved_manually": true
+      },
+      "sealed_payload": {
+        "alert_id": "ce1:1549776:ht",
+        "classification": "scanner_signal_not_confirmed_bet",
+        "confidence": 7.0,
+        "corners_at_alert": 2,
+        "league": "Primera A",
+        "match": "Chico vs Independiente Medellin",
+        "minimum_price": 1.75,
+        "minute": 29,
+        "score_at_alert": "1-1",
+        "suggestion": "🎯 ENTRADA SUGERIDA\nOver 3.5 cantos 1ª parte · odd mín. 1.75+\n↳ se sair +1 canto: sobe p/ Over 4.5 ou espera o Over 4",
+        "window": "HT ATTACK"
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20260912T214633363642Z:c49c8c29",
