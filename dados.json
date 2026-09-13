@@ -8,9 +8,9 @@
    "fim": "2026-01-31"
   },
   "cresc_pct": 56.91,
-  "apostas": 1084,
+  "apostas": 1085,
   "ganhos": 618,
-  "perdidos": 466,
+  "perdidos": 467,
   "wr": 57.0,
   "meses": [
    {
@@ -72,17 +72,17 @@
    {
     "mes": "2026-09",
     "label": "Set 26",
-    "cresc_pct": 7.51,
-    "apostas": 41,
-    "wr": 63.4
+    "cresc_pct": 6.76,
+    "apostas": 42,
+    "wr": 61.9
    }
   ],
   "por_mercado": [
    {
     "mercado": "Over Cantos FT",
-    "n": 596,
-    "wr": 58.2,
-    "roi": 30.69,
+    "n": 597,
+    "wr": 58.1,
+    "roi": 29.94,
     "pl_eur": 1369.94
    },
    {
@@ -131,7 +131,6 @@
   "forma": [
    "perdido",
    "perdido",
-   "perdido",
    "ganho",
    "ganho",
    "ganho",
@@ -143,7 +142,8 @@
    "cashout",
    "ganho",
    "ganho",
-   "cashout"
+   "cashout",
+   "perdido"
   ],
   "historico": [
    {
@@ -152,13 +152,13 @@
     "jogo": "Famalicao x Sporting",
     "mercado": "⛳ Over 10.5 corners · FT",
     "categoria": "Over Cantos FT",
-    "odd": null,
-    "pl_pct": null,
+    "odd": 1.84,
+    "pl_pct": -0.75,
     "stake_pct": 0.75,
-    "resultado": "pendente",
+    "resultado": "perdido",
     "verified_id": "tip_proposal:20260913T210329145784Z:ca2b6efc",
-    "estado_entrada": "aguarda_confirmacao",
-    "tipo_odd": "por_registar",
+    "estado_entrada": "confirmada",
+    "tipo_odd": "referencia_historica",
     "odd_minima_recomendada": 1.81,
     "confianca": 7
    },
