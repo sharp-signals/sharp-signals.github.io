@@ -2461,6 +2461,26 @@
       "justificacao_void": "",
       "golos_apos_casa": 0,
       "golos_apos_fora": 1
+    },
+    {
+      "alerta_id": "ce1:1552166:mid",
+      "fixture_id": 1552166,
+      "timestamp": "2026-09-13T16:17:15.979602",
+      "jogo": "Heerenveen vs Telstar",
+      "liga": "Eredivisie",
+      "janela": "MID PRESSURE",
+      "tempo_alerta": 65,
+      "estrelas": 8.0,
+      "cantos_no_ref": 7,
+      "cantos_final": 14,
+      "cantos_apos_alerta": 7,
+      "meta_cantos": 3,
+      "resultado": "VOID",
+      "resultado_tecnico": "VOID",
+      "estado_entrada": "CONFIRMADA",
+      "justificacao_void": "Não entrada — preço demasiado alto",
+      "golos_apos_casa": 0,
+      "golos_apos_fora": 0
     }
   ]
 }
