@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-13T15:28:08Z",
-  "event_chain_head": "0bd7058cdbaf89b21ef7b76502a66ee9d7de0e782423393aa5448aa10ec356bf",
+  "generated_at": "2026-09-13T15:41:38Z",
+  "event_chain_head": "8e11e5a220449c00ea9a869dbbdb80654bc58aa1f294b1b90e0415cee61a5ce9",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,9 +12,9 @@
   },
   "summary": {
     "total": 56,
-    "pending": 2,
+    "pending": 1,
     "signals_settled": 17,
-    "official_entries_settled": 34,
+    "official_entries_settled": 35,
     "cancelled": 7
   },
   "records": [
@@ -30,11 +30,34 @@
     {
       "id": "tip_proposal:20260913T151915194352Z:7946f0ca",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-09-13T15:19:15Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "a93056a97034bf53638503071b2ddda2ded2bdd8f68ed6560ee2e92a72a8ba58",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-09-13T15:41:37Z",
+      "result": "WIN",
+      "outcome": {
+        "odds": 1.97,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": 0.728,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20260913T151915194352Z:7946f0ca",
+        "market": "⛳ Over 9.5 corners · FT",
+        "match": "Frankfurt F x Hoffenheim F",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "ce1:1552166:mid",
