@@ -2441,6 +2441,26 @@
       "justificacao_void": "",
       "golos_apos_casa": 0,
       "golos_apos_fora": 1
+    },
+    {
+      "alerta_id": "ce1:1569920:shark",
+      "fixture_id": 1569920,
+      "timestamp": "2026-09-13T15:17:12.648218",
+      "jogo": "Sporting Gijon vs Eldense",
+      "liga": "Segunda División",
+      "janela": "SHARK ATTACK",
+      "tempo_alerta": 58,
+      "estrelas": 8.0,
+      "cantos_no_ref": 5,
+      "cantos_final": 8,
+      "cantos_apos_alerta": 3,
+      "meta_cantos": 4,
+      "resultado": "LOSS",
+      "resultado_tecnico": "LOSS",
+      "estado_entrada": "CONFIRMADA",
+      "justificacao_void": "",
+      "golos_apos_casa": 0,
+      "golos_apos_fora": 1
     }
   ]
 }
