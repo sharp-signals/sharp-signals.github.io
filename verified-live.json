@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-14T17:47:55Z",
-  "event_chain_head": "fe8d9544f1205f42c783d805bbc0631c4c9bfcf4396bc3ab0330717dc5774778",
+  "generated_at": "2026-09-14T18:07:00Z",
+  "event_chain_head": "a8c7eb9df07036a8c0e8757c43cb060f2f469616d3d833364668b1b73b6591fb",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,20 +12,43 @@
   },
   "summary": {
     "total": 68,
-    "pending": 3,
+    "pending": 2,
     "signals_settled": 19,
-    "official_entries_settled": 43,
+    "official_entries_settled": 44,
     "cancelled": 8
   },
   "records": [
     {
       "id": "tip_proposal:20260914T174256328993Z:750de624",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-09-14T17:42:56Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "df10f283ef1eeb491b2e063739e8238a4252d04b87d6648d89b70de28aea9873",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-09-14T18:07:00Z",
+      "result": "VOID",
+      "outcome": {
+        "odds": null,
+        "odds_source": "historical_reference",
+        "reference_odds": 1.84,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": 0.0,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20260914T174256328993Z:750de624",
+        "market": "⛳ Over 6 corners · FT",
+        "match": "Leverkusen F x Bayern Munich F",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "ce1:1593128:ht",
