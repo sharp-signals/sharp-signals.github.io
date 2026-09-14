@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-14T16:31:27Z",
-  "event_chain_head": "de04d8544b266783dcd9c976403e19aa273f5d63e1ff61b455e545cea4cbff73",
+  "generated_at": "2026-09-14T17:38:05Z",
+  "event_chain_head": "f4ad293f43e091b3b30b1c39301ee9851a17a35e005dbc532da8b43191138cfa",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,20 +12,46 @@
   },
   "summary": {
     "total": 67,
-    "pending": 5,
-    "signals_settled": 18,
+    "pending": 4,
+    "signals_settled": 19,
     "official_entries_settled": 41,
-    "cancelled": 7
+    "cancelled": 8
   },
   "records": [
     {
       "id": "ce1:1593128:ht",
       "kind": "signal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-09-14T16:31:27Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "f8396eaa15c503df6d2fb0bdfc72954360438ad5f3a5f22b760662b96ef3d318",
-      "telegram_message_count": 2
+      "telegram_message_count": 2,
+      "settled_at": "2026-09-14T17:38:05Z",
+      "result": "CANCELADA",
+      "outcome": {
+        "corners_reference": 1,
+        "corners_final": 1,
+        "corners_after": 0,
+        "target": 2,
+        "technical_result": "LOSS",
+        "entry_status": "cancelled",
+        "void_reason": "",
+        "approved_manually": true
+      },
+      "sealed_payload": {
+        "alert_id": "ce1:1593128:ht",
+        "classification": "scanner_signal_not_confirmed_bet",
+        "confidence": 8.0,
+        "corners_at_alert": 1,
+        "league": "Frauen Bundesliga",
+        "match": "Bayer Leverkusen W vs Bayern Munich W",
+        "minimum_price": 1.75,
+        "minute": 29,
+        "score_at_alert": "0-0",
+        "suggestion": "🎯 ENTRADA SUGERIDA\nOver 2.5 cantos 1ª parte · odd mín. 1.75+\n↳ se sair +1 canto: sobe p/ Over 3.5 ou espera o Over 3",
+        "window": "HT ATTACK"
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20260914T162809608314Z:ceb86afb",
