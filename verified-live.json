@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-14T15:20:54Z",
-  "event_chain_head": "294e0738a1ede026a31f5f77f1f0be724ab1d95ad9cd16040d943973bf20a900",
+  "generated_at": "2026-09-14T15:53:12Z",
+  "event_chain_head": "dd98a19a71158f4d62bb4c2ea9930e3db528f0d2fdbff4653805e3fb2d6cdb73",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,20 +12,43 @@
   },
   "summary": {
     "total": 64,
-    "pending": 3,
+    "pending": 2,
     "signals_settled": 18,
-    "official_entries_settled": 40,
+    "official_entries_settled": 41,
     "cancelled": 7
   },
   "records": [
     {
       "id": "tip_proposal:20260914T152054111846Z:575ca116",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-09-14T15:20:54Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "e24cd01050edf1a5615b51ed6fbb0f8243d400e20de6bcd0359efabf2ee01da4",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-09-14T15:53:12Z",
+      "result": "LOSS",
+      "outcome": {
+        "odds": 1.89,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": -0.75,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20260914T152054111846Z:575ca116",
+        "market": "⛳ Over 6.5 corners · FT",
+        "match": "El Gaish x Smouha",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20260914T134946895308Z:e228ccfc",
