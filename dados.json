@@ -8,10 +8,10 @@
    "fim": "2026-01-31"
   },
   "cresc_pct": 56.91,
-  "apostas": 1085,
+  "apostas": 1086,
   "ganhos": 618,
-  "perdidos": 467,
-  "wr": 57.0,
+  "perdidos": 468,
+  "wr": 56.9,
   "meses": [
    {
     "mes": "2025-08",
@@ -72,17 +72,17 @@
    {
     "mes": "2026-09",
     "label": "Set 26",
-    "cresc_pct": 6.76,
-    "apostas": 42,
-    "wr": 61.9
+    "cresc_pct": 6.01,
+    "apostas": 43,
+    "wr": 60.5
    }
   ],
   "por_mercado": [
    {
     "mercado": "Over Cantos FT",
-    "n": 597,
-    "wr": 58.1,
-    "roi": 29.94,
+    "n": 598,
+    "wr": 58.0,
+    "roi": 29.19,
     "pl_eur": 1369.94
    },
    {
@@ -130,7 +130,6 @@
   ],
   "forma": [
    "perdido",
-   "perdido",
    "ganho",
    "ganho",
    "ganho",
@@ -143,6 +142,7 @@
    "ganho",
    "ganho",
    "cashout",
+   "perdido",
    "perdido"
   ],
   "historico": [
@@ -152,13 +152,13 @@
     "jogo": "Moreirense u23 x Braga u23",
     "mercado": "⛳ Over 5.5 corners · FT",
     "categoria": "Over Cantos FT",
-    "odd": null,
-    "pl_pct": null,
+    "odd": 1.8,
+    "pl_pct": -0.75,
     "stake_pct": 0.75,
-    "resultado": "pendente",
+    "resultado": "perdido",
     "verified_id": "tip_proposal:20260914T134946895308Z:e228ccfc",
-    "estado_entrada": "aguarda_confirmacao",
-    "tipo_odd": "por_registar",
+    "estado_entrada": "confirmada",
+    "tipo_odd": "real",
     "odd_minima_recomendada": 1.81,
     "confianca": 7
    },
