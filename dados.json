@@ -8,9 +8,9 @@
    "fim": "2026-01-31"
   },
   "cresc_pct": 56.91,
-  "apostas": 1089,
+  "apostas": 1090,
   "ganhos": 618,
-  "perdidos": 471,
+  "perdidos": 472,
   "wr": 56.7,
   "meses": [
    {
@@ -72,9 +72,9 @@
    {
     "mes": "2026-09",
     "label": "Set 26",
-    "cresc_pct": 3.76,
-    "apostas": 46,
-    "wr": 56.5
+    "cresc_pct": 3.65,
+    "apostas": 47,
+    "wr": 55.3
    }
   ],
   "por_mercado": [
@@ -94,9 +94,9 @@
    },
    {
     "mercado": "Cashout",
-    "n": 151,
-    "wr": 50.3,
-    "roi": -1.92,
+    "n": 152,
+    "wr": 50.0,
+    "roi": -2.03,
     "pl_eur": -74.77
    },
    {
@@ -132,7 +132,6 @@
    "ganho",
    "ganho",
    "ganho",
-   "ganho",
    "perdido",
    "cashout",
    "cashout",
@@ -143,7 +142,8 @@
    "perdido",
    "perdido",
    "perdido",
-   "perdido"
+   "perdido",
+   "cashout"
   ],
   "historico": [
    {
@@ -167,16 +167,17 @@
     "mes": "2026-09",
     "jogo": "Braga x Estoril",
     "mercado": "⛳ Over 6.5 corners · FT",
-    "categoria": "Over Cantos FT",
+    "categoria": "Cashout",
     "odd": null,
-    "pl_pct": null,
+    "pl_pct": -0.112,
     "stake_pct": 0.75,
-    "resultado": "pendente",
+    "resultado": "cashout",
     "verified_id": "tip_proposal:20260914T210152866574Z:e8d67b0a",
-    "estado_entrada": "aguarda_confirmacao",
-    "tipo_odd": "por_registar",
+    "estado_entrada": "confirmada",
+    "tipo_odd": "referencia_cashout_menos_15_pct",
     "odd_minima_recomendada": 1.81,
-    "confianca": 7
+    "confianca": 7,
+    "cashout_perda_referencia_pct_stake": 15.0
    },
    {
     "data": "2026-09-14",
