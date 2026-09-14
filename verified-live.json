@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-14T21:24:26Z",
-  "event_chain_head": "26142a8fbdeda329691081af5a440421483ab18340613a590f1d8d766864aa36",
+  "generated_at": "2026-09-14T21:32:19Z",
+  "event_chain_head": "19ffb7549109b2516cad506bea8ca63104926646c3d4916a4de3644d47bf8c54",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,20 +12,43 @@
   },
   "summary": {
     "total": 72,
-    "pending": 4,
+    "pending": 3,
     "signals_settled": 21,
-    "official_entries_settled": 44,
+    "official_entries_settled": 45,
     "cancelled": 8
   },
   "records": [
     {
       "id": "tip_proposal:20260914T212425771159Z:f393663f",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-09-14T21:24:26Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "f266dee4841a79225a629a3efc8a496343f01634c9978dfd8c8b7c2b6cb81c8d",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-09-14T21:32:19Z",
+      "result": "VOID",
+      "outcome": {
+        "odds": 1.8,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": 0.0,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20260914T212425771159Z:f393663f",
+        "market": "🏁 Race to 5 corners · Braga",
+        "match": "Braga x Estoril",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20260914T210152866574Z:e8d67b0a",
