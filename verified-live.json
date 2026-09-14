@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-14T13:57:46Z",
-  "event_chain_head": "6a5097fc11a0228e409c60d42344c13ddb6360cf23efe9f85bfe68909f97e1cf",
+  "generated_at": "2026-09-14T13:58:16Z",
+  "event_chain_head": "5e9228401034b761fd5de3e51a289507807c4c4959b4462fcf5e92cff9235764",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,9 +12,9 @@
   },
   "summary": {
     "total": 63,
-    "pending": 3,
+    "pending": 2,
     "signals_settled": 18,
-    "official_entries_settled": 39,
+    "official_entries_settled": 40,
     "cancelled": 7
   },
   "records": [
@@ -53,11 +53,34 @@
     {
       "id": "tip_proposal:20260914T134517764226Z:142cb80e",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-09-14T13:45:18Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "e70b288f60fa019f27facd800baafaec6bf26ba10d1227052c9ba0c818c3d055",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-09-14T13:58:16Z",
+      "result": "VOID",
+      "outcome": {
+        "odds": 1.79,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": 0.0,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 8,
+        "entry_id": "tip_proposal:20260914T134517764226Z:142cb80e",
+        "market": "⛳ Over 5 corners · FT",
+        "match": "Moreirense u23 x Braga u23",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 1.25
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20260913T210329145784Z:ca2b6efc",
