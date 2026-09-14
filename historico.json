@@ -2502,5 +2502,27 @@
       "golos_apos_casa": 2,
       "golos_apos_fora": 0
     }
+  ],
+  "2026-09-14": [
+    {
+      "alerta_id": "ce1:1593128:ht",
+      "fixture_id": 1593128,
+      "timestamp": "2026-09-14T18:38:02.916707",
+      "jogo": "Bayer Leverkusen W vs Bayern Munich W",
+      "liga": "Frauen Bundesliga",
+      "janela": "HT ATTACK",
+      "tempo_alerta": 29,
+      "estrelas": 8.0,
+      "cantos_no_ref": 1,
+      "cantos_final": 1,
+      "cantos_apos_alerta": 0,
+      "meta_cantos": 2,
+      "resultado": "CANCELADA",
+      "resultado_tecnico": "LOSS",
+      "estado_entrada": "CANCELADA",
+      "justificacao_void": "",
+      "golos_apos_casa": 1,
+      "golos_apos_fora": 0
+    }
   ]
 }
