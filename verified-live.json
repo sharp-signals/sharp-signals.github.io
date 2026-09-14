@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-14T21:32:19Z",
-  "event_chain_head": "19ffb7549109b2516cad506bea8ca63104926646c3d4916a4de3644d47bf8c54",
+  "generated_at": "2026-09-14T21:36:12Z",
+  "event_chain_head": "0175419bcba371803bc0547580909f480b71a30fa08b85e6f4a349457a4284c7",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,9 +12,9 @@
   },
   "summary": {
     "total": 72,
-    "pending": 3,
+    "pending": 2,
     "signals_settled": 21,
-    "official_entries_settled": 45,
+    "official_entries_settled": 46,
     "cancelled": 8
   },
   "records": [
@@ -53,11 +53,34 @@
     {
       "id": "tip_proposal:20260914T210152866574Z:e8d67b0a",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-09-14T21:01:53Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "04e176ce0b64c48072515b1b76a22c28c2e78dcbafa30c3b38929cadbea6a5c0",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-09-14T21:36:12Z",
+      "result": "CASHOUT",
+      "outcome": {
+        "odds": null,
+        "odds_source": "cashout_loss_reference",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": 0.15,
+        "entry_status": "confirmed",
+        "profit_loss_percent": -0.112,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20260914T210152866574Z:e8d67b0a",
+        "market": "⛳ Over 6.5 corners · FT",
+        "match": "Braga x Estoril",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "ce1:1550120:shark",
