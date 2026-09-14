@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-14T19:15:51Z",
-  "event_chain_head": "33c97f22ee626071273e2cc342fa6e08b52827848092899c4350a3a0851dbc1d",
+  "generated_at": "2026-09-14T19:50:32Z",
+  "event_chain_head": "da9e55eb39542eb8e6a9405ce6b730173dd2240658a2f8d526e048931689fd20",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,8 +12,8 @@
   },
   "summary": {
     "total": 69,
-    "pending": 3,
-    "signals_settled": 19,
+    "pending": 2,
+    "signals_settled": 20,
     "official_entries_settled": 44,
     "cancelled": 8
   },
@@ -21,11 +21,37 @@
     {
       "id": "ce1:1550120:ht",
       "kind": "signal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-09-14T19:15:51Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "26f978db6feaead7bf23b21aa94bd04f55583ca939ef2bce087c73513360ac4d",
-      "telegram_message_count": 2
+      "telegram_message_count": 2,
+      "settled_at": "2026-09-14T19:50:32Z",
+      "result": "VOID",
+      "outcome": {
+        "corners_reference": 2,
+        "corners_final": 3,
+        "corners_after": 1,
+        "target": 2,
+        "technical_result": "VOID",
+        "entry_status": "confirmed",
+        "void_reason": "Não entrada — preço demasiado alto",
+        "approved_manually": true
+      },
+      "sealed_payload": {
+        "alert_id": "ce1:1550120:ht",
+        "classification": "scanner_signal_not_confirmed_bet",
+        "confidence": 7.5,
+        "corners_at_alert": 2,
+        "league": "Serie A",
+        "match": "Inter vs Udinese",
+        "minimum_price": 1.75,
+        "minute": 29,
+        "score_at_alert": "1-2",
+        "suggestion": "🎯 ENTRADA SUGERIDA\nOver 3.5 cantos 1ª parte · odd mín. 1.75+\n↳ se sair +1 canto: sobe p/ Over 4.5 ou espera o Over 4",
+        "window": "HT ATTACK"
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20260914T174256328993Z:750de624",
