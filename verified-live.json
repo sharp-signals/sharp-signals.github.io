@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-15T18:38:25Z",
-  "event_chain_head": "efe32c209d1e371caf85ef24f4aedc4be9ed988cfe334354aa41d1a9d9ef03d9",
+  "generated_at": "2026-09-15T18:40:59Z",
+  "event_chain_head": "17364fbdc9a48a89ef34ab172cbd95806eac6cfaa2ddca358b79d552ad4a85e8",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,20 +12,43 @@
   },
   "summary": {
     "total": 80,
-    "pending": 6,
+    "pending": 5,
     "signals_settled": 22,
-    "official_entries_settled": 49,
+    "official_entries_settled": 50,
     "cancelled": 8
   },
   "records": [
     {
       "id": "tip_proposal:20260915T183825245097Z:5d5e9440",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-09-15T18:38:25Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "1bc63eca5c1af4ac0b89047128e165cd15ba0ed1e1ff0ac68ee364322997fe54",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-09-15T18:40:59Z",
+      "result": "WIN",
+      "outcome": {
+        "odds": 1.83,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": 0.623,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20260915T183825245097Z:5d5e9440",
+        "market": "Handicap de cantos · Ajax -2.5 · FT",
+        "match": "Ajax x Willem II",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "ce1:1588880:ht",
