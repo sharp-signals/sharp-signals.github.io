@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-15T17:10:42Z",
-  "event_chain_head": "1e5a6ef698d278f2c9d8206707d8ca9707f381864e4616609e5b721ca282aef2",
+  "generated_at": "2026-09-15T17:29:58Z",
+  "event_chain_head": "12916c432555bf98295ef625460e87956b257b53566cd1c755e964eecb56e42a",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,20 +12,43 @@
   },
   "summary": {
     "total": 76,
-    "pending": 4,
+    "pending": 3,
     "signals_settled": 21,
-    "official_entries_settled": 48,
+    "official_entries_settled": 49,
     "cancelled": 8
   },
   "records": [
     {
       "id": "tip_proposal:20260915T171041922655Z:033953c1",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-09-15T17:10:42Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "2518567cd789b08bb8592649803de3af2582a9fc29613b3d6e44ac3b52b87c7a",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-09-15T17:29:58Z",
+      "result": "CASHOUT",
+      "outcome": {
+        "odds": null,
+        "odds_source": "cashout_loss_reference",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": 0.15,
+        "entry_status": "confirmed",
+        "profit_loss_percent": -0.112,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20260915T171041922655Z:033953c1",
+        "market": "⛳ Over 3 corners · 1st half",
+        "match": "Beitar Jerusalem x Petah Tikva",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20260915T142802907136Z:a8bfc135",
