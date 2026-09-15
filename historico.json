@@ -2585,6 +2585,26 @@
       "justificacao_void": "",
       "golos_apos_casa": 1,
       "golos_apos_fora": 0
+    },
+    {
+      "alerta_id": "ce1:1555504:shark",
+      "fixture_id": 1555504,
+      "timestamp": "2026-09-15T19:55:04.346720",
+      "jogo": "Ironi Tiberias vs Hapoel Katamon",
+      "liga": "Ligat Ha'al",
+      "janela": "SHARK ATTACK",
+      "tempo_alerta": 55,
+      "estrelas": 9.0,
+      "cantos_no_ref": 10,
+      "cantos_final": 13,
+      "cantos_apos_alerta": 3,
+      "meta_cantos": 4,
+      "resultado": "VOID",
+      "resultado_tecnico": "VOID",
+      "estado_entrada": "CONFIRMADA",
+      "justificacao_void": "Não entrada — preço demasiado alto",
+      "golos_apos_casa": 1,
+      "golos_apos_fora": 1
     }
   ]
 }
