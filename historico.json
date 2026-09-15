@@ -2625,6 +2625,26 @@
       "justificacao_void": "",
       "golos_apos_casa": 0,
       "golos_apos_fora": 0
+    },
+    {
+      "alerta_id": "ce1:1563145:ht",
+      "fixture_id": 1563145,
+      "timestamp": "2026-09-15T20:46:07.969157",
+      "jogo": "Bristol City vs Lincoln",
+      "liga": "Championship",
+      "janela": "HT ATTACK",
+      "tempo_alerta": 30,
+      "estrelas": 8.5,
+      "cantos_no_ref": 7,
+      "cantos_final": 7,
+      "cantos_apos_alerta": 0,
+      "meta_cantos": 2,
+      "resultado": "LOSS",
+      "resultado_tecnico": "LOSS",
+      "estado_entrada": "CONFIRMADA",
+      "justificacao_void": "",
+      "golos_apos_casa": 0,
+      "golos_apos_fora": 0
     }
   ]
 }
