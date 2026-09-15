@@ -2564,5 +2564,27 @@
       "golos_apos_casa": 3,
       "golos_apos_fora": 1
     }
+  ],
+  "2026-09-15": [
+    {
+      "alerta_id": "ce1:1628957:final",
+      "fixture_id": 1628957,
+      "timestamp": "2026-09-15T19:15:58.466021",
+      "jogo": "Genoa vs Sudtirol",
+      "liga": "Coppa Italia",
+      "janela": "FINAL PUSH",
+      "tempo_alerta": 77,
+      "estrelas": 9.0,
+      "cantos_no_ref": 10,
+      "cantos_final": 13,
+      "cantos_apos_alerta": 3,
+      "meta_cantos": 2,
+      "resultado": "WIN",
+      "resultado_tecnico": "WIN",
+      "estado_entrada": "CONFIRMADA",
+      "justificacao_void": "",
+      "golos_apos_casa": 1,
+      "golos_apos_fora": 0
+    }
   ]
 }
