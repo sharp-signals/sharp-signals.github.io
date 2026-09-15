@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-15T18:55:07Z",
-  "event_chain_head": "897fcb7cc5a177221877ea245f2584618cd98c80ed1dd374e855c6ccd41b5d70",
+  "generated_at": "2026-09-15T19:01:32Z",
+  "event_chain_head": "38e94a96481e184554d1b8e02aeae1343f77c6a3c9dc9394b9ca5233da1e6972",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,8 +12,8 @@
   },
   "summary": {
     "total": 80,
-    "pending": 4,
-    "signals_settled": 23,
+    "pending": 3,
+    "signals_settled": 24,
     "official_entries_settled": 50,
     "cancelled": 8
   },
@@ -53,11 +53,37 @@
     {
       "id": "ce1:1588880:ht",
       "kind": "signal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-09-15T18:29:38Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "d53b14fa1f457c7fbb6105d944888fdd8282d418714ea9c787fe32370118b15b",
-      "telegram_message_count": 2
+      "telegram_message_count": 2,
+      "settled_at": "2026-09-15T19:01:32Z",
+      "result": "WIN",
+      "outcome": {
+        "corners_reference": 3,
+        "corners_final": 5,
+        "corners_after": 2,
+        "target": 2,
+        "technical_result": "WIN",
+        "entry_status": "confirmed",
+        "void_reason": "",
+        "approved_manually": true
+      },
+      "sealed_payload": {
+        "alert_id": "ce1:1588880:ht",
+        "classification": "scanner_signal_not_confirmed_bet",
+        "confidence": 7.0,
+        "corners_at_alert": 3,
+        "league": "EFL Trophy",
+        "match": "Wycombe vs Chelsea U21",
+        "minimum_price": 1.75,
+        "minute": 30,
+        "score_at_alert": "0-0",
+        "suggestion": "🎯 ENTRADA SUGERIDA\nOver 4.5 cantos 1ª parte · odd mín. 1.75+\n↳ se sair +1 canto: sobe p/ Over 5.5 ou espera o Over 5",
+        "window": "HT ATTACK"
+      },
+      "commitment_valid": true
     },
     {
       "id": "ce1:1555504:shark",
