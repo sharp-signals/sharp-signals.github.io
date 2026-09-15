@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-15T20:28:44Z",
-  "event_chain_head": "dd90e28111a6cc2eff6527e4ff234166beb302de220709f560707f0f2ab96f1e",
+  "generated_at": "2026-09-15T20:40:59Z",
+  "event_chain_head": "3da07c8195cc40706aeacb72788dc868a30aabf59ad0f7b454d4ff721f0c2a48",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,20 +12,43 @@
   },
   "summary": {
     "total": 82,
-    "pending": 4,
+    "pending": 3,
     "signals_settled": 25,
-    "official_entries_settled": 50,
+    "official_entries_settled": 51,
     "cancelled": 8
   },
   "records": [
     {
       "id": "tip_proposal:20260915T202843697243Z:d321f939",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-09-15T20:28:43Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "d1813bf5be7a7d14dfade350466ab7a8301d10c35466f8d9c564bf5c56f0babb",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-09-15T20:40:59Z",
+      "result": "VOID",
+      "outcome": {
+        "odds": 1.83,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": 0.0,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20260915T202843697243Z:d321f939",
+        "market": "⛳ Over 9 corners · FT",
+        "match": "Ballymena Utd. x Carrick Rangers",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "ce1:1563145:ht",
