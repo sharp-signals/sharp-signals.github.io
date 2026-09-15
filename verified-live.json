@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-15T13:56:56Z",
-  "event_chain_head": "6f651396b31c66d2cf7213ae9c40c0c60bfa873eb136f82a42fcad795e9d85b1",
+  "generated_at": "2026-09-15T14:02:20Z",
+  "event_chain_head": "aa2b555cb84325bdca870b4ad0458db161861bbd316c200d1cc1bb62efdb67a7",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,20 +12,43 @@
   },
   "summary": {
     "total": 73,
-    "pending": 3,
+    "pending": 2,
     "signals_settled": 21,
-    "official_entries_settled": 46,
+    "official_entries_settled": 47,
     "cancelled": 8
   },
   "records": [
     {
       "id": "tip_proposal:20260915T135656180121Z:1318b7a6",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-09-15T13:56:56Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "35df1b43b8c77d8eb3e6187d2f1e770d34a25ebfdfc8fd3eb95e3dc5b2982fa5",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-09-15T14:02:20Z",
+      "result": "CASHOUT",
+      "outcome": {
+        "odds": null,
+        "odds_source": "cashout_loss_reference",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": 0.15,
+        "entry_status": "confirmed",
+        "profit_loss_percent": -0.112,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20260915T135656180121Z:1318b7a6",
+        "market": "⛳ Over 3.5 corners · FT",
+        "match": "Johor x Buriram",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20260914T212425771159Z:f393663f",
