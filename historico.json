@@ -2605,6 +2605,26 @@
       "justificacao_void": "Não entrada — preço demasiado alto",
       "golos_apos_casa": 1,
       "golos_apos_fora": 1
+    },
+    {
+      "alerta_id": "ce1:1588880:ht",
+      "fixture_id": 1588880,
+      "timestamp": "2026-09-15T20:01:29.760864",
+      "jogo": "Wycombe vs Chelsea U21",
+      "liga": "EFL Trophy",
+      "janela": "HT ATTACK",
+      "tempo_alerta": 30,
+      "estrelas": 7.0,
+      "cantos_no_ref": 3,
+      "cantos_final": 5,
+      "cantos_apos_alerta": 2,
+      "meta_cantos": 2,
+      "resultado": "WIN",
+      "resultado_tecnico": "WIN",
+      "estado_entrada": "CONFIRMADA",
+      "justificacao_void": "",
+      "golos_apos_casa": 0,
+      "golos_apos_fora": 0
     }
   ]
 }
