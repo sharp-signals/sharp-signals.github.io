@@ -8,10 +8,10 @@
    "fim": "2026-01-31"
   },
   "cresc_pct": 56.91,
-  "apostas": 1093,
-  "ganhos": 619,
+  "apostas": 1094,
+  "ganhos": 620,
   "perdidos": 474,
-  "wr": 56.6,
+  "wr": 56.7,
   "meses": [
    {
     "mes": "2025-08",
@@ -72,9 +72,9 @@
    {
     "mes": "2026-09",
     "label": "Set 26",
-    "cresc_pct": 4.28,
-    "apostas": 50,
-    "wr": 54.0
+    "cresc_pct": 4.9,
+    "apostas": 51,
+    "wr": 54.9
    }
   ],
   "por_mercado": [
@@ -122,14 +122,13 @@
    },
    {
     "mercado": "Handicap FT",
-    "n": 16,
-    "wr": 56.2,
-    "roi": 2.18,
+    "n": 17,
+    "wr": 58.8,
+    "roi": 2.8,
     "pl_eur": 48.69
    }
   ],
   "forma": [
-   "perdido",
    "cashout",
    "cashout",
    "ganho",
@@ -143,7 +142,8 @@
    "cashout",
    "cashout",
    "ganho",
-   "cashout"
+   "cashout",
+   "ganho"
   ],
   "historico": [
    {
@@ -152,13 +152,13 @@
     "jogo": "Ajax x Willem II",
     "mercado": "Handicap de cantos · Ajax -2.5 · FT",
     "categoria": "Handicap FT",
-    "odd": null,
-    "pl_pct": null,
+    "odd": 1.83,
+    "pl_pct": 0.623,
     "stake_pct": 0.75,
-    "resultado": "pendente",
+    "resultado": "ganho",
     "verified_id": "tip_proposal:20260915T183825245097Z:5d5e9440",
-    "estado_entrada": "aguarda_confirmacao",
-    "tipo_odd": "por_registar",
+    "estado_entrada": "confirmada",
+    "tipo_odd": "real",
     "odd_minima_recomendada": 1.81,
     "confianca": 7
    },
