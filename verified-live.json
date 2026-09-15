@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-15T18:40:59Z",
-  "event_chain_head": "17364fbdc9a48a89ef34ab172cbd95806eac6cfaa2ddca358b79d552ad4a85e8",
+  "generated_at": "2026-09-15T18:55:07Z",
+  "event_chain_head": "897fcb7cc5a177221877ea245f2584618cd98c80ed1dd374e855c6ccd41b5d70",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,8 +12,8 @@
   },
   "summary": {
     "total": 80,
-    "pending": 5,
-    "signals_settled": 22,
+    "pending": 4,
+    "signals_settled": 23,
     "official_entries_settled": 50,
     "cancelled": 8
   },
@@ -62,11 +62,37 @@
     {
       "id": "ce1:1555504:shark",
       "kind": "signal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-09-15T17:44:43Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "fb6a29f0b613d6454e65a4732252cdb0e8dedc652e49b7a1b9d2630b6fc1a87f",
-      "telegram_message_count": 2
+      "telegram_message_count": 2,
+      "settled_at": "2026-09-15T18:55:07Z",
+      "result": "VOID",
+      "outcome": {
+        "corners_reference": 10,
+        "corners_final": 13,
+        "corners_after": 3,
+        "target": 4,
+        "technical_result": "VOID",
+        "entry_status": "confirmed",
+        "void_reason": "Não entrada — preço demasiado alto",
+        "approved_manually": true
+      },
+      "sealed_payload": {
+        "alert_id": "ce1:1555504:shark",
+        "classification": "scanner_signal_not_confirmed_bet",
+        "confidence": 9.0,
+        "corners_at_alert": 8,
+        "league": "Ligat Ha'al",
+        "match": "Ironi Tiberias vs Hapoel Katamon",
+        "minimum_price": 1.75,
+        "minute": 55,
+        "score_at_alert": "1-1",
+        "suggestion": "🎯 ENTRADA SUGERIDA\nOver 11.5 cantos · odd mín. 1.75+\n↳ se sair +1 canto: sobe p/ Over 12.5 ou espera o Over 12",
+        "window": "SHARK ATTACK"
+      },
+      "commitment_valid": true
     },
     {
       "id": "ce1:1628957:final",
