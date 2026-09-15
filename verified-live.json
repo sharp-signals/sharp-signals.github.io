@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-15T19:15:14Z",
-  "event_chain_head": "39ee7383b499d7dccc708c53c28442c102fa6b8a75e6cfb3a3e26e4764a6f6ce",
+  "generated_at": "2026-09-15T19:46:10Z",
+  "event_chain_head": "517efcab4a032912e7bec1a9a6851663c184beee2f6c10f1799633c9546b2842",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,8 +12,8 @@
   },
   "summary": {
     "total": 81,
-    "pending": 4,
-    "signals_settled": 24,
+    "pending": 3,
+    "signals_settled": 25,
     "official_entries_settled": 50,
     "cancelled": 8
   },
@@ -21,11 +21,37 @@
     {
       "id": "ce1:1563145:ht",
       "kind": "signal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-09-15T19:15:14Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "59a2a23a100c481b99baa74534ddfd7d4cdca851c04de27a0a0e1d3e66157aea",
-      "telegram_message_count": 2
+      "telegram_message_count": 2,
+      "settled_at": "2026-09-15T19:46:10Z",
+      "result": "LOSS",
+      "outcome": {
+        "corners_reference": 7,
+        "corners_final": 7,
+        "corners_after": 0,
+        "target": 2,
+        "technical_result": "LOSS",
+        "entry_status": "confirmed",
+        "void_reason": "",
+        "approved_manually": true
+      },
+      "sealed_payload": {
+        "alert_id": "ce1:1563145:ht",
+        "classification": "scanner_signal_not_confirmed_bet",
+        "confidence": 8.5,
+        "corners_at_alert": 6,
+        "league": "Championship",
+        "match": "Bristol City vs Lincoln",
+        "minimum_price": 1.75,
+        "minute": 30,
+        "score_at_alert": "0-0",
+        "suggestion": "🎯 ENTRADA SUGERIDA\nOver 7.5 cantos 1ª parte · odd mín. 1.75+\n↳ se sair +1 canto: sobe p/ Over 8.5 ou espera o Over 8",
+        "window": "HT ATTACK"
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20260915T183825245097Z:5d5e9440",
