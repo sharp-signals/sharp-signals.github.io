@@ -2646,5 +2646,27 @@
       "golos_apos_casa": 0,
       "golos_apos_fora": 0
     }
+  ],
+  "2026-09-16": [
+    {
+      "alerta_id": "ce1:1561402:shark",
+      "fixture_id": 1561402,
+      "timestamp": "2026-09-16T18:53:40.594722",
+      "jogo": "Spartak Moscow vs Fakel",
+      "liga": "Premier League",
+      "janela": "SHARK ATTACK",
+      "tempo_alerta": 55,
+      "estrelas": 8.5,
+      "cantos_no_ref": 8,
+      "cantos_final": 13,
+      "cantos_apos_alerta": 5,
+      "meta_cantos": 4,
+      "resultado": "WIN",
+      "resultado_tecnico": "WIN",
+      "estado_entrada": "CONFIRMADA",
+      "justificacao_void": "",
+      "golos_apos_casa": 1,
+      "golos_apos_fora": 0
+    }
   ]
 }
