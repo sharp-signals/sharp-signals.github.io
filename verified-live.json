@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-16T10:47:05Z",
-  "event_chain_head": "90d8993411a18926eddf1a8939603741960445cd2d9641c623c17796e783e72c",
+  "generated_at": "2026-09-16T11:45:56Z",
+  "event_chain_head": "48231372935b8dc74a0422179ab825688b4e6a1a73a2d6071e39544f4ea352ff",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,20 +12,43 @@
   },
   "summary": {
     "total": 83,
-    "pending": 4,
+    "pending": 3,
     "signals_settled": 25,
-    "official_entries_settled": 51,
+    "official_entries_settled": 52,
     "cancelled": 8
   },
   "records": [
     {
       "id": "tip_proposal:20260916T104704966582Z:d75e9fd0",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-09-16T10:47:05Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "3554bda467410d21c869e96d67530e5915cd95b27a6e84de535b5e0f1cc8c2cd",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-09-16T11:45:56Z",
+      "result": "WIN",
+      "outcome": {
+        "odds": 1.81,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": 0.608,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20260916T104704966582Z:d75e9fd0",
+        "market": "⛳ Over 3.5 corners · 1st half",
+        "match": "Japão u23 x Hong Kong u23",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20260915T202843697243Z:d321f939",
