@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-16T17:31:49Z",
-  "event_chain_head": "777008c354f5f1a072f77df3a40a957d8f716ccff9fde15675922f3b234311a6",
+  "generated_at": "2026-09-16T17:53:43Z",
+  "event_chain_head": "e0ac276c33c5f90b75dbd80c60cb4dce732cb5a0c53cb806873c2bdb77809dbc",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,8 +12,8 @@
   },
   "summary": {
     "total": 87,
-    "pending": 5,
-    "signals_settled": 25,
+    "pending": 4,
+    "signals_settled": 26,
     "official_entries_settled": 53,
     "cancelled": 9
   },
@@ -30,11 +30,37 @@
     {
       "id": "ce1:1561402:shark",
       "kind": "signal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-09-16T16:45:34Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "eb148fef933393a20d39cc4ae385114aca38ffe0fb9e49459a49b1bcd30fa467",
-      "telegram_message_count": 2
+      "telegram_message_count": 2,
+      "settled_at": "2026-09-16T17:53:43Z",
+      "result": "WIN",
+      "outcome": {
+        "corners_reference": 8,
+        "corners_final": 13,
+        "corners_after": 5,
+        "target": 4,
+        "technical_result": "WIN",
+        "entry_status": "confirmed",
+        "void_reason": "",
+        "approved_manually": true
+      },
+      "sealed_payload": {
+        "alert_id": "ce1:1561402:shark",
+        "classification": "scanner_signal_not_confirmed_bet",
+        "confidence": 8.5,
+        "corners_at_alert": 8,
+        "league": "Premier League",
+        "match": "Spartak Moscow vs Fakel",
+        "minimum_price": 1.75,
+        "minute": 55,
+        "score_at_alert": "0-0",
+        "suggestion": "🎯 ENTRADA SUGERIDA\nOver 11.5 cantos · odd mín. 1.75+\n↳ se sair +1 canto: sobe p/ Over 12.5 ou espera o Over 12",
+        "window": "SHARK ATTACK"
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20260916T161507018290Z:88ffa14b",
