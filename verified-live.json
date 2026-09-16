@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-16T15:18:44Z",
-  "event_chain_head": "ac1a6c0fd7bbfef522158307e9b851375b81bb87fe74796d2e18b0dfb4c5c873",
+  "generated_at": "2026-09-16T15:33:50Z",
+  "event_chain_head": "dac60dd08ddcbd438d19a0b2ee86eb635c0bfae434a9a2fab46fdfbf414993c9",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,20 +12,43 @@
   },
   "summary": {
     "total": 84,
-    "pending": 4,
+    "pending": 3,
     "signals_settled": 25,
-    "official_entries_settled": 52,
+    "official_entries_settled": 53,
     "cancelled": 8
   },
   "records": [
     {
       "id": "tip_proposal:20260916T151844579970Z:6295e503",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-09-16T15:18:44Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "0a9d3c203226a8c07c7a3edda100deb0c9069e4a99097ecb1cd0b0146fbbccce",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-09-16T15:33:50Z",
+      "result": "VOID",
+      "outcome": {
+        "odds": 1.87,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": 0.0,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20260916T151844579970Z:6295e503",
+        "market": "⛳ Over 2 corners · 1st half",
+        "match": "Kifisias x Panathinaikos",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20260916T104704966582Z:d75e9fd0",
