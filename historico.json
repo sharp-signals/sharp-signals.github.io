@@ -2667,6 +2667,26 @@
       "justificacao_void": "",
       "golos_apos_casa": 1,
       "golos_apos_fora": 0
+    },
+    {
+      "alerta_id": "ce1:1570384:ht",
+      "fixture_id": 1570384,
+      "timestamp": "2026-09-16T19:05:29.822118",
+      "jogo": "Atletico Madrid vs Osasuna",
+      "liga": "La Liga",
+      "janela": "HT ATTACK",
+      "tempo_alerta": 30,
+      "estrelas": 8.0,
+      "cantos_no_ref": 0,
+      "cantos_final": 2,
+      "cantos_apos_alerta": 2,
+      "meta_cantos": 2,
+      "resultado": "CANCELADA",
+      "resultado_tecnico": "WIN",
+      "estado_entrada": "CANCELADA",
+      "justificacao_void": "",
+      "golos_apos_casa": 0,
+      "golos_apos_fora": -1
     }
   ]
 }
