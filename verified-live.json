@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-16T23:40:52Z",
-  "event_chain_head": "2268b343b71d81d53c4d1d9872c6834512e886d5f084fa3609a380f6637e739c",
+  "generated_at": "2026-09-16T23:41:03Z",
+  "event_chain_head": "7abc538084624ce20f04487db67b47613617a936f0eaa6e4ddde8d68e9a34fda",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,8 +12,8 @@
   },
   "summary": {
     "total": 89,
-    "pending": 4,
-    "signals_settled": 28,
+    "pending": 3,
+    "signals_settled": 29,
     "official_entries_settled": 53,
     "cancelled": 10
   },
@@ -21,11 +21,37 @@
     {
       "id": "ce1:1636341:mid",
       "kind": "signal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-09-16T20:27:36Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "9026a87955b6597d35243507f074f5b29722c4dd2d06b3903dea23ced644fb17",
-      "telegram_message_count": 2
+      "telegram_message_count": 2,
+      "settled_at": "2026-09-16T23:41:03Z",
+      "result": "WIN",
+      "outcome": {
+        "corners_reference": 5,
+        "corners_final": 9,
+        "corners_after": 4,
+        "target": 3,
+        "technical_result": "WIN",
+        "entry_status": "confirmed",
+        "void_reason": "",
+        "approved_manually": true
+      },
+      "sealed_payload": {
+        "alert_id": "ce1:1636341:mid",
+        "classification": "scanner_signal_not_confirmed_bet",
+        "confidence": 7.5,
+        "corners_at_alert": 5,
+        "league": "UEFA Europa League",
+        "match": "Sturm Graz vs Rennes",
+        "minimum_price": 1.75,
+        "minute": 67,
+        "score_at_alert": "0-0",
+        "suggestion": "🎯 ENTRADA SUGERIDA\nOver 7.5 cantos · odd mín. 1.75+\n↳ se sair +1 canto: sobe p/ Over 8.5 ou espera o Over 8",
+        "window": "MID PRESSURE"
+      },
+      "commitment_valid": true
     },
     {
       "id": "ce1:1635559:mid",
