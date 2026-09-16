@@ -8,8 +8,8 @@
    "fim": "2026-01-31"
   },
   "cresc_pct": 56.91,
-  "apostas": 1094,
-  "ganhos": 620,
+  "apostas": 1095,
+  "ganhos": 621,
   "perdidos": 474,
   "wr": 56.7,
   "meses": [
@@ -72,9 +72,9 @@
    {
     "mes": "2026-09",
     "label": "Set 26",
-    "cresc_pct": 4.9,
-    "apostas": 51,
-    "wr": 54.9
+    "cresc_pct": 5.51,
+    "apostas": 52,
+    "wr": 55.8
    }
   ],
   "por_mercado": [
@@ -87,9 +87,9 @@
    },
    {
     "mercado": "Over Cantos HT",
-    "n": 173,
-    "wr": 56.6,
-    "roi": 6.86,
+    "n": 174,
+    "wr": 56.9,
+    "roi": 7.47,
     "pl_eur": 417.66
    },
    {
@@ -130,7 +130,6 @@
   ],
   "forma": [
    "cashout",
-   "cashout",
    "ganho",
    "ganho",
    "cashout",
@@ -143,6 +142,7 @@
    "cashout",
    "ganho",
    "cashout",
+   "ganho",
    "ganho"
   ],
   "historico": [
@@ -152,13 +152,13 @@
     "jogo": "Japão u23 x Hong Kong u23",
     "mercado": "⛳ Over 3.5 corners · 1st half",
     "categoria": "Over Cantos HT",
-    "odd": null,
-    "pl_pct": null,
+    "odd": 1.81,
+    "pl_pct": 0.608,
     "stake_pct": 0.75,
-    "resultado": "pendente",
+    "resultado": "ganho",
     "verified_id": "tip_proposal:20260916T104704966582Z:d75e9fd0",
-    "estado_entrada": "aguarda_confirmacao",
-    "tipo_odd": "por_registar",
+    "estado_entrada": "confirmada",
+    "tipo_odd": "real",
     "odd_minima_recomendada": 1.81,
     "confianca": 7
    },
