@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-16T16:15:07Z",
-  "event_chain_head": "62f38af3e47f0858c1f9bba2a9fc3030779421244ea37ee4428dec8356051c56",
+  "generated_at": "2026-09-16T16:18:35Z",
+  "event_chain_head": "fe1b4eec35e8f3a18b7bb616603f6dcd9e21e5a57c860ae32f04d6f028778fb4",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,20 +12,43 @@
   },
   "summary": {
     "total": 85,
-    "pending": 4,
+    "pending": 3,
     "signals_settled": 25,
     "official_entries_settled": 53,
-    "cancelled": 8
+    "cancelled": 9
   },
   "records": [
     {
       "id": "tip_proposal:20260916T161507018290Z:88ffa14b",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-09-16T16:15:07Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "51ab499d9770077b1c027aa259ccf6ef7016db081abdbc0b3afd91d1eca9979d",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-09-16T16:18:35Z",
+      "result": "CANCELADA",
+      "outcome": {
+        "odds": null,
+        "odds_source": null,
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "cancelled",
+        "profit_loss_percent": null,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20260916T161507018290Z:88ffa14b",
+        "market": "⛳ Over 4.5 corners · FT",
+        "match": "Kifisias x Panathinaikos",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20260916T151844579970Z:6295e503",
