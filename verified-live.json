@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-16T20:27:36Z",
-  "event_chain_head": "4e97a6e146d442a0f1756df80edce77cfe754f0eb9e02f84327c063deaf946ae",
+  "generated_at": "2026-09-16T23:40:52Z",
+  "event_chain_head": "2268b343b71d81d53c4d1d9872c6834512e886d5f084fa3609a380f6637e739c",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,8 +12,8 @@
   },
   "summary": {
     "total": 89,
-    "pending": 5,
-    "signals_settled": 27,
+    "pending": 4,
+    "signals_settled": 28,
     "official_entries_settled": 53,
     "cancelled": 10
   },
@@ -30,11 +30,37 @@
     {
       "id": "ce1:1635559:mid",
       "kind": "signal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-09-16T20:13:03Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "6eb99530c25c7e9a657d28141af5ed326bd02926391cc9bc26e499b5cf33b909",
-      "telegram_message_count": 2
+      "telegram_message_count": 2,
+      "settled_at": "2026-09-16T23:40:52Z",
+      "result": "LOSS",
+      "outcome": {
+        "corners_reference": 7,
+        "corners_final": 8,
+        "corners_after": 1,
+        "target": 3,
+        "technical_result": "LOSS",
+        "entry_status": "confirmed",
+        "void_reason": "",
+        "approved_manually": true
+      },
+      "sealed_payload": {
+        "alert_id": "ce1:1635559:mid",
+        "classification": "scanner_signal_not_confirmed_bet",
+        "confidence": 7.0,
+        "corners_at_alert": 7,
+        "league": "League Cup",
+        "match": "Everton vs Wolves",
+        "minimum_price": 1.75,
+        "minute": 68,
+        "score_at_alert": "0-0",
+        "suggestion": "🎯 ENTRADA SUGERIDA\nOver 9.5 cantos · odd mín. 1.75+\n↳ se sair +1 canto: sobe p/ Over 10.5 ou espera o Over 10",
+        "window": "MID PRESSURE"
+      },
+      "commitment_valid": true
     },
     {
       "id": "ce1:1570384:ht",
