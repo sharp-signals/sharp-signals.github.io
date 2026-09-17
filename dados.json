@@ -8,10 +8,10 @@
    "fim": "2026-01-31"
   },
   "cresc_pct": 56.91,
-  "apostas": 1098,
-  "ganhos": 624,
+  "apostas": 1099,
+  "ganhos": 625,
   "perdidos": 474,
-  "wr": 56.8,
+  "wr": 56.9,
   "meses": [
    {
     "mes": "2025-08",
@@ -72,17 +72,17 @@
    {
     "mes": "2026-09",
     "label": "Set 26",
-    "cresc_pct": 7.4,
-    "apostas": 55,
-    "wr": 58.2
+    "cresc_pct": 8.03,
+    "apostas": 56,
+    "wr": 58.9
    }
   ],
   "por_mercado": [
    {
     "mercado": "Over Cantos FT",
-    "n": 602,
-    "wr": 58.1,
-    "roi": 30.58,
+    "n": 603,
+    "wr": 58.2,
+    "roi": 31.21,
     "pl_eur": 1369.94
    },
    {
@@ -129,7 +129,6 @@
    }
   ],
   "forma": [
-   "cashout",
    "perdido",
    "perdido",
    "perdido",
@@ -139,6 +138,7 @@
    "cashout",
    "ganho",
    "cashout",
+   "ganho",
    "ganho",
    "ganho",
    "ganho",
@@ -152,13 +152,13 @@
     "jogo": "Pancevo x Red Star",
     "mercado": "⛳ Over 8 corners · FT",
     "categoria": "Over Cantos FT",
-    "odd": null,
-    "pl_pct": null,
+    "odd": 1.84,
+    "pl_pct": 0.63,
     "stake_pct": 0.75,
-    "resultado": "pendente",
+    "resultado": "ganho",
     "verified_id": "tip_proposal:20260917T194829449591Z:88b3ad24",
-    "estado_entrada": "aguarda_confirmacao",
-    "tipo_odd": "por_registar",
+    "estado_entrada": "confirmada",
+    "tipo_odd": "real",
     "odd_minima_recomendada": 1.81,
     "confianca": 7
    },
