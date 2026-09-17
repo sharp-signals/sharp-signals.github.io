@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-17T19:48:29Z",
-  "event_chain_head": "19ebf32c88c38e3bebab885ca0de3369bc3d871049acbf6f3fddad58810f3106",
+  "generated_at": "2026-09-17T19:52:49Z",
+  "event_chain_head": "4c837bd0d9267fa463791660655d381ed231db37cf4242c1812ade0bc529e294",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,9 +12,9 @@
   },
   "summary": {
     "total": 93,
-    "pending": 5,
+    "pending": 4,
     "signals_settled": 29,
-    "official_entries_settled": 55,
+    "official_entries_settled": 56,
     "cancelled": 10
   },
   "records": [
@@ -30,11 +30,34 @@
     {
       "id": "tip_proposal:20260917T193034687655Z:07b05d49",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-09-17T19:30:34Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "fd741f7297f590512c842e6b0ee3d456e31bf43643a0d2e229380ad53c60b781",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-09-17T19:52:49Z",
+      "result": "WIN",
+      "outcome": {
+        "odds": 1.8,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": 0.6,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20260917T193034687655Z:07b05d49",
+        "market": "🏁 Race to 5 corners · Red Star",
+        "match": "Pancevo x Red Star",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20260917T192934250321Z:e4c086ec",
