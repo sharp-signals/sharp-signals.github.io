@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-17T17:44:14Z",
-  "event_chain_head": "c81148bfa61fda68bccdd2bc95c1bb2fd041370309c21e200c86d54bc3da98ba",
+  "generated_at": "2026-09-17T18:02:32Z",
+  "event_chain_head": "bf99b93f1868a6d95af40e1f77ce0410e798a896348d922f4a2d0d084c759f24",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,20 +12,43 @@
   },
   "summary": {
     "total": 90,
-    "pending": 4,
+    "pending": 3,
     "signals_settled": 29,
-    "official_entries_settled": 53,
+    "official_entries_settled": 54,
     "cancelled": 10
   },
   "records": [
     {
       "id": "tip_proposal:20260917T174414197580Z:2d2d0bb5",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-09-17T17:44:14Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "756b2810d83378216f285fad7b6fa51a0f1a73586f6fab436cd9a8bd676aa085",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-09-17T18:02:32Z",
+      "result": "WIN",
+      "outcome": {
+        "odds": 1.83,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": 0.623,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20260917T174414197580Z:2d2d0bb5",
+        "market": "⛳ Over 7 corners · FT",
+        "match": "Bnei Yehuda x M. Herzliya",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "ce1:1636341:mid",
