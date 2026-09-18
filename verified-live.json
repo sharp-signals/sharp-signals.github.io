@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-18T18:57:22Z",
-  "event_chain_head": "69edd35b4feffdaf1508424c7ebbcf47657e33add21530d62e46a808577732cc",
+  "generated_at": "2026-09-18T18:57:45Z",
+  "event_chain_head": "1d387342e8aeb96d85cbfe97d59d7da1e891055d54daed8ba0806c89199ecc63",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,9 +12,9 @@
   },
   "summary": {
     "total": 99,
-    "pending": 5,
+    "pending": 4,
     "signals_settled": 30,
-    "official_entries_settled": 59,
+    "official_entries_settled": 60,
     "cancelled": 11
   },
   "records": [
@@ -30,11 +30,34 @@
     {
       "id": "tip_proposal:20260918T184203716150Z:9c687f0a",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-09-18T18:42:04Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "0e7ef578542e04738a0b3e7a16258d7025d9942218b7d1beeb207283131d8b8a",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-09-18T18:57:45Z",
+      "result": "VOID",
+      "outcome": {
+        "odds": 1.83,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": 0.0,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20260918T184203716150Z:9c687f0a",
+        "market": "⛳ Over 9 corners · FT",
+        "match": "Omonia x AEK Larnaca",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "ce1:1576181:final",
