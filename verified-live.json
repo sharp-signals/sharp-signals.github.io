@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-18T19:43:16Z",
-  "event_chain_head": "d062738f11a00ffb8894bcb90912079f11b495c8584c913d763d00e17eef0d5c",
+  "generated_at": "2026-09-18T19:43:54Z",
+  "event_chain_head": "f3df3853a89c82141923b88604122312c19e6cc7866840844f76792101d88d46",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,20 +12,43 @@
   },
   "summary": {
     "total": 104,
-    "pending": 5,
+    "pending": 4,
     "signals_settled": 30,
     "official_entries_settled": 62,
-    "cancelled": 13
+    "cancelled": 14
   },
   "records": [
     {
       "id": "tip_proposal:20260918T194316114934Z:5c20d467",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-09-18T19:43:16Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "c0f5973f983313bcde5347711f1e8bdacaa14ee64e91149c2ccee2bf2cdb3536",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-09-18T19:43:54Z",
+      "result": "CANCELADA",
+      "outcome": {
+        "odds": null,
+        "odds_source": null,
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "cancelled",
+        "profit_loss_percent": null,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20260918T194316114934Z:5c20d467",
+        "market": "⛳ Over 5.5 corners · FT",
+        "match": "Winterthur x Aarau",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20260918T193611774993Z:e4201cc1",
