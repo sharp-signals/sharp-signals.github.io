@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-18T19:36:12Z",
-  "event_chain_head": "bcceb78033fd3819c054988b09c7e18911fe6fb4ec751f965d2c5206e0590d66",
+  "generated_at": "2026-09-18T19:37:15Z",
+  "event_chain_head": "58ad8bf9e91502fd81eb1eb8bd905bc96cf68cf8062297ad4a60b10d0fc29ecd",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,20 +12,43 @@
   },
   "summary": {
     "total": 103,
-    "pending": 5,
+    "pending": 4,
     "signals_settled": 30,
     "official_entries_settled": 62,
-    "cancelled": 12
+    "cancelled": 13
   },
   "records": [
     {
       "id": "tip_proposal:20260918T193611774993Z:e4201cc1",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-09-18T19:36:12Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "d5b2e1a8975faf3d95d05485487586f2cf397dca7e5060286455f0620410dcac",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-09-18T19:37:15Z",
+      "result": "CANCELADA",
+      "outcome": {
+        "odds": null,
+        "odds_source": null,
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "cancelled",
+        "profit_loss_percent": null,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20260918T193611774993Z:e4201cc1",
+        "market": "⛳ Over 12.5 corners · FT",
+        "match": "Rudes x Belupo",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20260918T193505124002Z:1c612a09",
