@@ -2730,5 +2730,27 @@
       "golos_apos_casa": 0,
       "golos_apos_fora": 0
     }
+  ],
+  "2026-09-18": [
+    {
+      "alerta_id": "ce1:1576181:final",
+      "fixture_id": 1576181,
+      "timestamp": "2026-09-18T19:57:19.489435",
+      "jogo": "SpVgg Greuther Fürth vs 1. FC Magdeburg",
+      "liga": "2. Bundesliga",
+      "janela": "FINAL PUSH",
+      "tempo_alerta": 79,
+      "estrelas": 7.5,
+      "cantos_no_ref": 8,
+      "cantos_final": 8,
+      "cantos_apos_alerta": 0,
+      "meta_cantos": 2,
+      "resultado": "LOSS",
+      "resultado_tecnico": "LOSS",
+      "estado_entrada": "CONFIRMADA",
+      "justificacao_void": "",
+      "golos_apos_casa": 0,
+      "golos_apos_fora": 0
+    }
   ]
 }
