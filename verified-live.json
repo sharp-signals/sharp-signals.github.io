@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-18T19:13:24Z",
-  "event_chain_head": "3bcc811734c7ea61ccf7ce484c336648507e088807cc76b05af205b08ac768e8",
+  "generated_at": "2026-09-18T19:21:39Z",
+  "event_chain_head": "92923f47e4a0ad9f4f9695b5b0d0bb54bbb63dc8f24d3a64592e5409d70317a9",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,20 +12,43 @@
   },
   "summary": {
     "total": 100,
-    "pending": 4,
+    "pending": 3,
     "signals_settled": 30,
-    "official_entries_settled": 61,
+    "official_entries_settled": 62,
     "cancelled": 11
   },
   "records": [
     {
       "id": "tip_proposal:20260918T191323429263Z:aab21db7",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-09-18T19:13:24Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "8e3bfe4e761c57734776f6d11cec5dd6e7ab6f28b911f0fc50b911c2549c68f4",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-09-18T19:21:39Z",
+      "result": "WIN",
+      "outcome": {
+        "odds": 1.84,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": 0.63,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20260918T191323429263Z:aab21db7",
+        "market": "⛳ Over 10 corners · FT",
+        "match": "Klaksvik x Skala",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20260918T184521623099Z:f2eb5367",
