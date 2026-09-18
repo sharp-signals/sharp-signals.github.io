@@ -17,7 +17,7 @@
    "pode_nao_publicar": true
   }
  },
- "atualizado": "2026-09-18T03:28:55",
+ "atualizado": "2026-09-18T06:10:35",
  "geral": {
   "inicio": "2026-06-06",
   "fim": "2026-09-17",
@@ -112,12 +112,12 @@
   "desde": "2026-06-21"
  },
  "diario": {
-  "inicio": "2026-09-17",
-  "fim": "2026-09-17",
-  "sinais": 4,
-  "sinais_financeiros": 4,
-  "ganhos": 1,
-  "perdidos": 3,
+  "inicio": "2026-09-18",
+  "fim": "2026-09-18",
+  "sinais": 0,
+  "sinais_financeiros": 0,
+  "ganhos": 0,
+  "perdidos": 0,
   "push": 0,
   "pendentes": 0,
   "condicionais": 0,
@@ -125,28 +125,14 @@
   "condicionais_perdidos": 0,
   "condicionais_push": 0,
   "condicionais_pendentes": 0,
-  "wr": 25.0,
-  "lucro_u": -2.09,
-  "roi": -52.2,
-  "por_estrategia": {
-   "Sharp Pick": {
-    "n": 4,
-    "g": 1,
-    "p": 3,
-    "lucro": -2.09,
-    "condicionais": 0,
-    "condicionais_g": 0,
-    "condicionais_p": 0,
-    "condicionais_push": 0,
-    "condicionais_pendentes": 0,
-    "n_financeiros": 4,
-    "wr": 25.0
-   }
-  }
+  "wr": 0.0,
+  "lucro_u": 0.0,
+  "roi": 0.0,
+  "por_estrategia": {}
  },
  "semanal": {
   "inicio": "2026-09-14",
-  "fim": "2026-09-17",
+  "fim": "2026-09-18",
   "sinais": 9,
   "sinais_financeiros": 6,
   "ganhos": 2,
@@ -192,7 +178,7 @@
  },
  "mensal": {
   "inicio": "2026-09-01",
-  "fim": "2026-09-17",
+  "fim": "2026-09-18",
   "sinais": 22,
   "sinais_financeiros": 18,
   "ganhos": 5,
@@ -1384,12 +1370,12 @@
     }
    },
    "diario": {
-    "inicio": "2026-09-17",
-    "fim": "2026-09-17",
-    "sinais": 4,
-    "sinais_financeiros": 4,
-    "ganhos": 1,
-    "perdidos": 3,
+    "inicio": "2026-09-18",
+    "fim": "2026-09-18",
+    "sinais": 0,
+    "sinais_financeiros": 0,
+    "ganhos": 0,
+    "perdidos": 0,
     "push": 0,
     "pendentes": 0,
     "condicionais": 0,
@@ -1397,28 +1383,14 @@
     "condicionais_perdidos": 0,
     "condicionais_push": 0,
     "condicionais_pendentes": 0,
-    "wr": 25.0,
-    "lucro_u": -2.09,
-    "roi": -52.2,
-    "por_estrategia": {
-     "Sharp Pick": {
-      "n": 4,
-      "g": 1,
-      "p": 3,
-      "lucro": -2.09,
-      "condicionais": 0,
-      "condicionais_g": 0,
-      "condicionais_p": 0,
-      "condicionais_push": 0,
-      "condicionais_pendentes": 0,
-      "n_financeiros": 4,
-      "wr": 25.0
-     }
-    }
+    "wr": 0.0,
+    "lucro_u": 0.0,
+    "roi": 0.0,
+    "por_estrategia": {}
    },
    "semanal": {
     "inicio": "2026-09-14",
-    "fim": "2026-09-17",
+    "fim": "2026-09-18",
     "sinais": 9,
     "sinais_financeiros": 6,
     "ganhos": 2,
@@ -1464,7 +1436,7 @@
    },
    "mensal": {
     "inicio": "2026-09-01",
-    "fim": "2026-09-17",
+    "fim": "2026-09-18",
     "sinais": 22,
     "sinais_financeiros": 18,
     "ganhos": 5,
@@ -1899,8 +1871,8 @@
     }
    },
    "diario": {
-    "inicio": "2026-09-17",
-    "fim": "2026-09-17",
+    "inicio": "2026-09-18",
+    "fim": "2026-09-18",
     "sinais": 0,
     "sinais_financeiros": 0,
     "ganhos": 0,
@@ -1919,7 +1891,7 @@
    },
    "semanal": {
     "inicio": "2026-09-14",
-    "fim": "2026-09-17",
+    "fim": "2026-09-18",
     "sinais": 0,
     "sinais_financeiros": 0,
     "ganhos": 0,
@@ -1938,7 +1910,7 @@
    },
    "mensal": {
     "inicio": "2026-09-01",
-    "fim": "2026-09-17",
+    "fim": "2026-09-18",
     "sinais": 0,
     "sinais_financeiros": 0,
     "ganhos": 0,
@@ -2034,8 +2006,8 @@
     }
    },
    "diario": {
-    "inicio": "2026-09-17",
-    "fim": "2026-09-17",
+    "inicio": "2026-09-18",
+    "fim": "2026-09-18",
     "sinais": 0,
     "sinais_financeiros": 0,
     "ganhos": 0,
@@ -2054,7 +2026,7 @@
    },
    "semanal": {
     "inicio": "2026-09-14",
-    "fim": "2026-09-17",
+    "fim": "2026-09-18",
     "sinais": 5,
     "sinais_financeiros": 2,
     "ganhos": 1,
@@ -2087,7 +2059,7 @@
    },
    "mensal": {
     "inicio": "2026-09-01",
-    "fim": "2026-09-17",
+    "fim": "2026-09-18",
     "sinais": 9,
     "sinais_financeiros": 5,
     "ganhos": 2,
@@ -2329,12 +2301,12 @@
     }
    },
    "diario": {
-    "inicio": "2026-09-17",
-    "fim": "2026-09-17",
-    "sinais": 4,
-    "sinais_financeiros": 4,
-    "ganhos": 1,
-    "perdidos": 3,
+    "inicio": "2026-09-18",
+    "fim": "2026-09-18",
+    "sinais": 0,
+    "sinais_financeiros": 0,
+    "ganhos": 0,
+    "perdidos": 0,
     "push": 0,
     "pendentes": 0,
     "condicionais": 0,
@@ -2342,28 +2314,14 @@
     "condicionais_perdidos": 0,
     "condicionais_push": 0,
     "condicionais_pendentes": 0,
-    "wr": 25.0,
-    "lucro_u": -2.09,
-    "roi": -52.2,
-    "por_estrategia": {
-     "Sharp Pick": {
-      "n": 4,
-      "g": 1,
-      "p": 3,
-      "lucro": -2.09,
-      "condicionais": 0,
-      "condicionais_g": 0,
-      "condicionais_p": 0,
-      "condicionais_push": 0,
-      "condicionais_pendentes": 0,
-      "n_financeiros": 4,
-      "wr": 25.0
-     }
-    }
+    "wr": 0.0,
+    "lucro_u": 0.0,
+    "roi": 0.0,
+    "por_estrategia": {}
    },
    "semanal": {
     "inicio": "2026-09-14",
-    "fim": "2026-09-17",
+    "fim": "2026-09-18",
     "sinais": 4,
     "sinais_financeiros": 4,
     "ganhos": 1,
@@ -2396,7 +2354,7 @@
    },
    "mensal": {
     "inicio": "2026-09-01",
-    "fim": "2026-09-17",
+    "fim": "2026-09-18",
     "sinais": 13,
     "sinais_financeiros": 13,
     "ganhos": 3,
@@ -2700,7 +2658,28 @@
    "dias_verde_pct": 36.6
   }
  },
- "tip_do_dia": [],
+ "tip_do_dia": [
+  {
+   "hora": "19:45",
+   "liga": "Premier League",
+   "jogo": "Haverfordwest vs Holywell",
+   "mercado": "Over 1.5 · 2ª parte",
+   "odd": 1.73,
+   "bilhete": "dupla",
+   "fire": true,
+   "resultado": null
+  },
+  {
+   "hora": "19:45",
+   "liga": "Premier League",
+   "jogo": "Caernarfon vs Cambrian United",
+   "mercado": "Over 1.5 · 2ª parte",
+   "odd": 1.7,
+   "bilhete": "dupla",
+   "fire": true,
+   "resultado": null
+  }
+ ],
  "por_estrategia": {
   "Golos (arquivo)": {
    "n": 31,
@@ -2745,39 +2724,58 @@
  "combinada": {
   "nome": "Pré-Live Grátis",
   "descricao": "Simples, Dupla ou Tripla experimental · máximo uma publicação por dia · pode não haver seleção",
-  "boletins": 1,
+  "boletins": 2,
   "greens": 0,
   "reds": 1,
-  "pendentes": 0,
+  "pendentes": 1,
   "lucro": -1.0,
   "ultimos": [
    {
-    "data": "2026-09-12",
-    "tipo": "simples",
+    "data": "2026-09-18",
+    "tipo": "dupla",
     "hora": "06:09",
     "pernas": [
      {
-      "fixture_id": 1523201,
-      "liga_id": 169,
-      "casa": "Tianjin Teda",
-      "fora": "Liaoning Tieren",
-      "hora": "12:00",
-      "odd": 2.0,
-      "odd_justa": 1.98,
-      "fire": false,
+      "fixture_id": 1575962,
+      "liga_id": 110,
+      "casa": "Haverfordwest",
+      "fora": "Holywell",
+      "hora": "19:45",
+      "odd": 1.73,
+      "odd_justa": 1.7,
+      "fire": true,
       "prelive_price_accepted": true,
       "prelive_price_policy": "prelive_fair_odd_no_extra_buffer_v1",
-      "prelive_odd_minima": 1.98,
-      "odd_minima_buffer": 2.06,
+      "prelive_odd_minima": 1.7,
+      "odd_minima_buffer": 1.76,
       "value": false,
-      "data_jogo": "2026-09-12",
-      "kickoff": "2026-09-12T12:00:00+01:00",
-      "data_trading": "2026-09-12",
-      "resultado": "perdido"
+      "data_jogo": "2026-09-18",
+      "kickoff": "2026-09-18T19:45:00+01:00",
+      "data_trading": "2026-09-18",
+      "resultado": null
+     },
+     {
+      "fixture_id": 1575959,
+      "liga_id": 110,
+      "casa": "Caernarfon",
+      "fora": "Cambrian United",
+      "hora": "19:45",
+      "odd": 1.7,
+      "odd_justa": 1.7,
+      "fire": true,
+      "prelive_price_accepted": true,
+      "prelive_price_policy": "prelive_fair_odd_no_extra_buffer_v1",
+      "prelive_odd_minima": 1.7,
+      "odd_minima_buffer": 1.76,
+      "value": false,
+      "data_jogo": "2026-09-18",
+      "kickoff": "2026-09-18T19:45:00+01:00",
+      "data_trading": "2026-09-18",
+      "resultado": null
      }
     ],
-    "odd": 2.0,
-    "justa": 1.98,
+    "odd": 2.94,
+    "justa": 2.89,
     "u": 1.0,
     "goal_pilot_risk": {
      "schema_version": 6,
@@ -2792,7 +2790,7 @@
      "max_rolling_entries": 5,
      "rolling_window_hours": 3,
      "max_open_entries": 3,
-     "trading_day": "2026-09-12",
+     "trading_day": "2026-09-18",
      "realized_pnl_u": 0.0,
      "risk_budget_pnl_u": 0.0,
      "daily_conditional_budget_adjustment_u": 0.0,
@@ -2816,22 +2814,22 @@
      "pending_exposure_u": 0.0,
      "worst_case_before_new_u": 0.0,
      "worst_case_after_new_u": -1.0,
-     "pilot_signal_records": 214,
-     "settled_records": 214,
-     "conditional_signal_records": 1,
-     "settled_conditional_records": 1,
-     "settled_combinada_entries": 18,
+     "pilot_signal_records": 234,
+     "settled_records": 234,
+     "conditional_signal_records": 7,
+     "settled_conditional_records": 7,
+     "settled_combinada_entries": 19,
      "requested_pilot_records": 0,
      "requested_pilot_pending": 0,
      "pilot_ids_seen": [
       "goal-sharp-aggregate-v1",
       "over2p-ht-integral-v4-private-2026-08"
      ],
-     "signals_ledger_sha256": "950b04ce8f83a2ba725adac9d3188b5a46a520168ae13e07b5d2ef241f348136",
+     "signals_ledger_sha256": "a079aab8d13ec4729c6773a264b922bf7154a125f1f931682a075a8a55b42428",
      "approvals_ledger_sha256": "ac158d6daad47af582f4c532c577be598ab4fb9cb851d6ae7fdee8bb9e4ab0cb",
-     "combinadas_ledger_sha256": "fd9f24d1cd850c6e467470a48f4edfb8174e9b595e1cdb2e1b25c6522283add2",
-     "goal_state_ledger_sha256": "21e96841563f82bb18dc450ad71636dc12ef3029dd17443d0087e6b011c9cc41",
-     "decided_at": "2026-09-12T05:09:32+00:00",
+     "combinadas_ledger_sha256": "164b8d1a5d448ab3e82eba48d8ba744ce52bcfde9a5df97cee9b85fc6990a8be",
+     "goal_state_ledger_sha256": "bddfd7cd60a91cdc09cf24c782448707ccc29e4ba587518610f5fc22ced0a366",
+     "decided_at": "2026-09-18T05:09:12+00:00",
      "risk_accounting_note": "conditional_without_quote: excluded_from_real_pnl; risk_budget loss=-1u, win/push=0u",
      "entry_kind": "ht",
      "max_ht_daily_entries": 15,
@@ -2851,46 +2849,65 @@
      ],
      "errors": []
     },
-    "resultado": "red",
+    "resultado": null,
     "publicacao": {
      "estado": "publicado",
-     "preparado_em": "2026-09-12T06:09:32+01:00",
-     "atualizado_em": "2026-09-12T06:09:33+01:00",
-     "envio_iniciado_em": "2026-09-12T06:09:32+01:00",
-     "process_instance_id": "c09d58e349254f4fa134adbef56b062b",
-     "publicado_em": "2026-09-12T06:09:33+01:00",
-     "message_id": 142
+     "preparado_em": "2026-09-18T06:09:12+01:00",
+     "atualizado_em": "2026-09-18T06:09:14+01:00",
+     "envio_iniciado_em": "2026-09-18T06:09:13+01:00",
+     "process_instance_id": "294435c06aa54ba680a19e199f376b73",
+     "publicado_em": "2026-09-18T06:09:14+01:00",
+     "message_id": 152
     },
-    "por_decidir": 0
+    "por_decidir": 2
    }
   ],
   "ultimo": {
-   "data": "2026-09-12",
-   "tipo": "simples",
+   "data": "2026-09-18",
+   "tipo": "dupla",
    "hora": "06:09",
    "pernas": [
     {
-     "fixture_id": 1523201,
-     "liga_id": 169,
-     "casa": "Tianjin Teda",
-     "fora": "Liaoning Tieren",
-     "hora": "12:00",
-     "odd": 2.0,
-     "odd_justa": 1.98,
-     "fire": false,
+     "fixture_id": 1575962,
+     "liga_id": 110,
+     "casa": "Haverfordwest",
+     "fora": "Holywell",
+     "hora": "19:45",
+     "odd": 1.73,
+     "odd_justa": 1.7,
+     "fire": true,
      "prelive_price_accepted": true,
      "prelive_price_policy": "prelive_fair_odd_no_extra_buffer_v1",
-     "prelive_odd_minima": 1.98,
-     "odd_minima_buffer": 2.06,
+     "prelive_odd_minima": 1.7,
+     "odd_minima_buffer": 1.76,
      "value": false,
-     "data_jogo": "2026-09-12",
-     "kickoff": "2026-09-12T12:00:00+01:00",
-     "data_trading": "2026-09-12",
-     "resultado": "perdido"
+     "data_jogo": "2026-09-18",
+     "kickoff": "2026-09-18T19:45:00+01:00",
+     "data_trading": "2026-09-18",
+     "resultado": null
+    },
+    {
+     "fixture_id": 1575959,
+     "liga_id": 110,
+     "casa": "Caernarfon",
+     "fora": "Cambrian United",
+     "hora": "19:45",
+     "odd": 1.7,
+     "odd_justa": 1.7,
+     "fire": true,
+     "prelive_price_accepted": true,
+     "prelive_price_policy": "prelive_fair_odd_no_extra_buffer_v1",
+     "prelive_odd_minima": 1.7,
+     "odd_minima_buffer": 1.76,
+     "value": false,
+     "data_jogo": "2026-09-18",
+     "kickoff": "2026-09-18T19:45:00+01:00",
+     "data_trading": "2026-09-18",
+     "resultado": null
     }
    ],
-   "odd": 2.0,
-   "justa": 1.98,
+   "odd": 2.94,
+   "justa": 2.89,
    "u": 1.0,
    "goal_pilot_risk": {
     "schema_version": 6,
@@ -2905,7 +2922,7 @@
     "max_rolling_entries": 5,
     "rolling_window_hours": 3,
     "max_open_entries": 3,
-    "trading_day": "2026-09-12",
+    "trading_day": "2026-09-18",
     "realized_pnl_u": 0.0,
     "risk_budget_pnl_u": 0.0,
     "daily_conditional_budget_adjustment_u": 0.0,
@@ -2929,22 +2946,22 @@
     "pending_exposure_u": 0.0,
     "worst_case_before_new_u": 0.0,
     "worst_case_after_new_u": -1.0,
-    "pilot_signal_records": 214,
-    "settled_records": 214,
-    "conditional_signal_records": 1,
-    "settled_conditional_records": 1,
-    "settled_combinada_entries": 18,
+    "pilot_signal_records": 234,
+    "settled_records": 234,
+    "conditional_signal_records": 7,
+    "settled_conditional_records": 7,
+    "settled_combinada_entries": 19,
     "requested_pilot_records": 0,
     "requested_pilot_pending": 0,
     "pilot_ids_seen": [
      "goal-sharp-aggregate-v1",
      "over2p-ht-integral-v4-private-2026-08"
     ],
-    "signals_ledger_sha256": "950b04ce8f83a2ba725adac9d3188b5a46a520168ae13e07b5d2ef241f348136",
+    "signals_ledger_sha256": "a079aab8d13ec4729c6773a264b922bf7154a125f1f931682a075a8a55b42428",
     "approvals_ledger_sha256": "ac158d6daad47af582f4c532c577be598ab4fb9cb851d6ae7fdee8bb9e4ab0cb",
-    "combinadas_ledger_sha256": "fd9f24d1cd850c6e467470a48f4edfb8174e9b595e1cdb2e1b25c6522283add2",
-    "goal_state_ledger_sha256": "21e96841563f82bb18dc450ad71636dc12ef3029dd17443d0087e6b011c9cc41",
-    "decided_at": "2026-09-12T05:09:32+00:00",
+    "combinadas_ledger_sha256": "164b8d1a5d448ab3e82eba48d8ba744ce52bcfde9a5df97cee9b85fc6990a8be",
+    "goal_state_ledger_sha256": "bddfd7cd60a91cdc09cf24c782448707ccc29e4ba587518610f5fc22ced0a366",
+    "decided_at": "2026-09-18T05:09:12+00:00",
     "risk_accounting_note": "conditional_without_quote: excluded_from_real_pnl; risk_budget loss=-1u, win/push=0u",
     "entry_kind": "ht",
     "max_ht_daily_entries": 15,
@@ -2964,17 +2981,17 @@
     ],
     "errors": []
    },
-   "resultado": "red",
+   "resultado": null,
    "publicacao": {
     "estado": "publicado",
-    "preparado_em": "2026-09-12T06:09:32+01:00",
-    "atualizado_em": "2026-09-12T06:09:33+01:00",
-    "envio_iniciado_em": "2026-09-12T06:09:32+01:00",
-    "process_instance_id": "c09d58e349254f4fa134adbef56b062b",
-    "publicado_em": "2026-09-12T06:09:33+01:00",
-    "message_id": 142
+    "preparado_em": "2026-09-18T06:09:12+01:00",
+    "atualizado_em": "2026-09-18T06:09:14+01:00",
+    "envio_iniciado_em": "2026-09-18T06:09:13+01:00",
+    "process_instance_id": "294435c06aa54ba680a19e199f376b73",
+    "publicado_em": "2026-09-18T06:09:14+01:00",
+    "message_id": 152
    },
-   "por_decidir": 0
+   "por_decidir": 2
   },
   "legado": {
    "rotulo": "Histórico anterior (legado)",
