@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-18T16:19:47Z",
-  "event_chain_head": "779b04621a21c7b156592821f57d34e099fc69f6837a763ad076be8d232ddf98",
+  "generated_at": "2026-09-18T16:27:04Z",
+  "event_chain_head": "7696c39b4b626e5cb8ad5d31023cf40411caebef8b588cd01590c6cc9cc9ceb1",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,20 +12,43 @@
   },
   "summary": {
     "total": 94,
-    "pending": 4,
+    "pending": 3,
     "signals_settled": 29,
-    "official_entries_settled": 57,
+    "official_entries_settled": 58,
     "cancelled": 10
   },
   "records": [
     {
       "id": "tip_proposal:20260918T161947250953Z:2dfc77ae",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-09-18T16:19:47Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "dd55bae949ad368a4bcfd5cf58300f06b85112b14c337e22ece5fadb06f509ee",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-09-18T16:27:04Z",
+      "result": "WIN",
+      "outcome": {
+        "odds": 1.81,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": 0.608,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20260918T161947250953Z:2dfc77ae",
+        "market": "⛳ Over 3 corners · 1st half",
+        "match": "Qarabag x Shafa Baku",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20260917T194829449591Z:88b3ad24",
