@@ -8,8 +8,8 @@
    "fim": "2026-01-31"
   },
   "cresc_pct": 56.91,
-  "apostas": 1099,
-  "ganhos": 625,
+  "apostas": 1100,
+  "ganhos": 626,
   "perdidos": 474,
   "wr": 56.9,
   "meses": [
@@ -72,9 +72,9 @@
    {
     "mes": "2026-09",
     "label": "Set 26",
-    "cresc_pct": 8.03,
-    "apostas": 56,
-    "wr": 58.9
+    "cresc_pct": 8.64,
+    "apostas": 57,
+    "wr": 59.6
    }
   ],
   "por_mercado": [
@@ -87,9 +87,9 @@
    },
    {
     "mercado": "Over Cantos HT",
-    "n": 174,
-    "wr": 56.9,
-    "roi": 7.47,
+    "n": 175,
+    "wr": 57.1,
+    "roi": 8.08,
     "pl_eur": 417.66
    },
    {
@@ -133,11 +133,11 @@
    "perdido",
    "perdido",
    "perdido",
-   "perdido",
    "cashout",
    "cashout",
    "ganho",
    "cashout",
+   "ganho",
    "ganho",
    "ganho",
    "ganho",
@@ -152,13 +152,13 @@
     "jogo": "Qarabag x Shafa Baku",
     "mercado": "⛳ Over 3 corners · 1st half",
     "categoria": "Over Cantos HT",
-    "odd": null,
-    "pl_pct": null,
+    "odd": 1.81,
+    "pl_pct": 0.608,
     "stake_pct": 0.75,
-    "resultado": "pendente",
+    "resultado": "ganho",
     "verified_id": "tip_proposal:20260918T161947250953Z:2dfc77ae",
-    "estado_entrada": "aguarda_confirmacao",
-    "tipo_odd": "por_registar",
+    "estado_entrada": "confirmada",
+    "tipo_odd": "real",
     "odd_minima_recomendada": 1.81,
     "confianca": 7
    },
