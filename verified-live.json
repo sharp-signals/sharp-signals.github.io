@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-18T16:33:58Z",
-  "event_chain_head": "e8d6aa150b649c0e8149489cc09dcfc69e44f90cbe6c577706d94d393d655d01",
+  "generated_at": "2026-09-18T16:35:19Z",
+  "event_chain_head": "8fec5e224f780d006e64934e9c63d8f6bc3ffbd6f485eaced2bc4d53ff9bb515",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,20 +12,43 @@
   },
   "summary": {
     "total": 95,
-    "pending": 4,
+    "pending": 3,
     "signals_settled": 29,
     "official_entries_settled": 58,
-    "cancelled": 10
+    "cancelled": 11
   },
   "records": [
     {
       "id": "tip_proposal:20260918T163358385883Z:c0db92ab",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-09-18T16:33:58Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "1415b6219121492eede9d33f1778e01f2895dea2026e795d3f1be27768fab975",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-09-18T16:35:19Z",
+      "result": "CANCELADA",
+      "outcome": {
+        "odds": null,
+        "odds_source": null,
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "cancelled",
+        "profit_loss_percent": null,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20260918T163358385883Z:c0db92ab",
+        "market": "⛳ Over 4 corners · 1st half",
+        "match": "AC Oulu x Inter Turku",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20260918T161947250953Z:2dfc77ae",
