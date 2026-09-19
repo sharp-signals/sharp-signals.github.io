@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-19T15:55:21Z",
-  "event_chain_head": "a9bd4bdef5c775d2aa189dc1f5e7022d96e1f3886012db77fbf37fa6238a1d12",
+  "generated_at": "2026-09-19T15:55:44Z",
+  "event_chain_head": "532e3dafe3a8e9165bca006516efe113b8458877a82d3f8faf8c894487c55649",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,9 +12,9 @@
   },
   "summary": {
     "total": 116,
-    "pending": 6,
+    "pending": 5,
     "signals_settled": 34,
-    "official_entries_settled": 68,
+    "official_entries_settled": 69,
     "cancelled": 14
   },
   "records": [
@@ -85,11 +85,34 @@
     {
       "id": "tip_proposal:20260919T153326584462Z:a75e2403",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-09-19T15:33:26Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "0e50af2a0bc783cb022919ec55170b9a06301d792b722addc3525aac0a8567d3",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-09-19T15:55:44Z",
+      "result": "WIN",
+      "outcome": {
+        "odds": 1.81,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": 0.608,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20260919T153326584462Z:a75e2403",
+        "market": "⛳ Over 3.5 corners · FT",
+        "match": "Alverca u19 x Casa Pia u19",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "ce1:1556665:mid",
