@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-19T13:41:00Z",
-  "event_chain_head": "6685d7991075122d38b8c43cdd0f4cec72d27209dfb59b84e69c4d1ea5a309ac",
+  "generated_at": "2026-09-19T14:08:40Z",
+  "event_chain_head": "7c87df6f5e06647f4b36449e4d363323b9054dacd7fa27028e053dfc095bcdcf",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,8 +12,8 @@
   },
   "summary": {
     "total": 109,
-    "pending": 5,
-    "signals_settled": 32,
+    "pending": 4,
+    "signals_settled": 33,
     "official_entries_settled": 64,
     "cancelled": 14
   },
@@ -21,11 +21,37 @@
     {
       "id": "ce1:1601540:ht",
       "kind": "signal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-09-19T13:29:57Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "0dfa44e5a6d4e0bc067f158e402019b951e040654948e69a121ec991f763bafd",
-      "telegram_message_count": 2
+      "telegram_message_count": 2,
+      "settled_at": "2026-09-19T14:08:40Z",
+      "result": "VOID",
+      "outcome": {
+        "corners_reference": 6,
+        "corners_final": 10,
+        "corners_after": 4,
+        "target": 2,
+        "technical_result": "VOID",
+        "entry_status": "confirmed",
+        "void_reason": "Não entrada — preço demasiado alto",
+        "approved_manually": true
+      },
+      "sealed_payload": {
+        "alert_id": "ce1:1601540:ht",
+        "classification": "scanner_signal_not_confirmed_bet",
+        "confidence": 7.0,
+        "corners_at_alert": 5,
+        "league": "Serie B",
+        "match": "Palermo vs Padova",
+        "minimum_price": 1.75,
+        "minute": 28,
+        "score_at_alert": "0-1",
+        "suggestion": "🎯 ENTRADA SUGERIDA\nOver 6.5 cantos 1ª parte · odd mín. 1.75+\n↳ se sair +1 canto: sobe p/ Over 7.5 ou espera o Over 7",
+        "window": "HT ATTACK"
+      },
+      "commitment_valid": true
     },
     {
       "id": "ce1:1564308:final",
