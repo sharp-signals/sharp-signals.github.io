@@ -17,7 +17,7 @@
    "pode_nao_publicar": true
   }
  },
- "atualizado": "2026-09-18T15:58:42",
+ "atualizado": "2026-09-19T01:21:30",
  "geral": {
   "inicio": "2026-06-06",
   "fim": "2026-09-18",
@@ -2791,7 +2791,7 @@
    "odd": 1.73,
    "bilhete": "dupla",
    "fire": true,
-   "resultado": null
+   "resultado": "perdido"
   },
   {
    "hora": "19:45",
@@ -2801,7 +2801,7 @@
    "odd": 1.7,
    "bilhete": "dupla",
    "fire": true,
-   "resultado": null
+   "resultado": "ganho"
   }
  ],
  "por_estrategia": {
@@ -2850,9 +2850,9 @@
   "descricao": "Simples, Dupla ou Tripla experimental · máximo uma publicação por dia · pode não haver seleção",
   "boletins": 2,
   "greens": 0,
-  "reds": 1,
-  "pendentes": 1,
-  "lucro": -1.0,
+  "reds": 2,
+  "pendentes": 0,
+  "lucro": -2.0,
   "ultimos": [
    {
     "data": "2026-09-18",
@@ -2876,7 +2876,7 @@
       "data_jogo": "2026-09-18",
       "kickoff": "2026-09-18T19:45:00+01:00",
       "data_trading": "2026-09-18",
-      "resultado": null
+      "resultado": "perdido"
      },
      {
       "fixture_id": 1575959,
@@ -2895,7 +2895,7 @@
       "data_jogo": "2026-09-18",
       "kickoff": "2026-09-18T19:45:00+01:00",
       "data_trading": "2026-09-18",
-      "resultado": null
+      "resultado": "ganho"
      }
     ],
     "odd": 2.94,
@@ -2973,7 +2973,7 @@
      ],
      "errors": []
     },
-    "resultado": null,
+    "resultado": "red",
     "publicacao": {
      "estado": "publicado",
      "preparado_em": "2026-09-18T06:09:12+01:00",
@@ -2983,7 +2983,7 @@
      "publicado_em": "2026-09-18T06:09:14+01:00",
      "message_id": 152
     },
-    "por_decidir": 2
+    "por_decidir": 0
    }
   ],
   "ultimo": {
@@ -3008,7 +3008,7 @@
      "data_jogo": "2026-09-18",
      "kickoff": "2026-09-18T19:45:00+01:00",
      "data_trading": "2026-09-18",
-     "resultado": null
+     "resultado": "perdido"
     },
     {
      "fixture_id": 1575959,
@@ -3027,7 +3027,7 @@
      "data_jogo": "2026-09-18",
      "kickoff": "2026-09-18T19:45:00+01:00",
      "data_trading": "2026-09-18",
-     "resultado": null
+     "resultado": "ganho"
     }
    ],
    "odd": 2.94,
@@ -3105,7 +3105,7 @@
     ],
     "errors": []
    },
-   "resultado": null,
+   "resultado": "red",
    "publicacao": {
     "estado": "publicado",
     "preparado_em": "2026-09-18T06:09:12+01:00",
@@ -3115,7 +3115,7 @@
     "publicado_em": "2026-09-18T06:09:14+01:00",
     "message_id": 152
    },
-   "por_decidir": 2
+   "por_decidir": 0
   },
   "legado": {
    "rotulo": "Histórico anterior (legado)",
