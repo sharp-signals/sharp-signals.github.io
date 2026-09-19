@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-19T11:41:02Z",
-  "event_chain_head": "92ddf1e810d0983b1ec21d427f0e7588a4899357c471093a825698979b8877e1",
+  "generated_at": "2026-09-19T11:52:07Z",
+  "event_chain_head": "cd58a120415ac348f6f4e42b87232dbf06e9b5f2a44575f0fce765ceeb1182a2",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,20 +12,43 @@
   },
   "summary": {
     "total": 106,
-    "pending": 5,
+    "pending": 4,
     "signals_settled": 30,
-    "official_entries_settled": 63,
+    "official_entries_settled": 64,
     "cancelled": 14
   },
   "records": [
     {
       "id": "tip_proposal:20260919T114101791350Z:da5215fb",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-09-19T11:41:02Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "df7aa3ddf8d1e45c0e7b14d8a005b05f79b5ce361d5a35ddff376ef7a699df6a",
-      "telegram_message_count": 2
+      "telegram_message_count": 2,
+      "settled_at": "2026-09-19T11:52:07Z",
+      "result": "WIN",
+      "outcome": {
+        "odds": 1.97,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": 1.212,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 8,
+        "entry_id": "tip_proposal:20260919T114101791350Z:da5215fb",
+        "market": "⛳ Over 8.5 corners · FT",
+        "match": "Rio Ave u23 x Braga u23",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 1.25
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20260919T095554551910Z:05912b88",
