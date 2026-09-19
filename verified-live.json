@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-19T15:57:42Z",
-  "event_chain_head": "fdcd7251c68201012ddba1b79db87b4a85cd77dd2b7852ccf432dbea636b2522",
+  "generated_at": "2026-09-19T16:03:43Z",
+  "event_chain_head": "d89bb2220bac5da155c132103ff83d4c8b6bb7d9a9273ae5e77fc7e5fe4d4670",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,20 +12,43 @@
   },
   "summary": {
     "total": 117,
-    "pending": 6,
+    "pending": 5,
     "signals_settled": 34,
-    "official_entries_settled": 69,
+    "official_entries_settled": 70,
     "cancelled": 14
   },
   "records": [
     {
       "id": "tip_proposal:20260919T155742162230Z:eb8cdcfe",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-09-19T15:57:42Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "078be322994c1da93ab6d08a4bce28442b3b3ad7eb7c36c1803206b59c700724",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-09-19T16:03:43Z",
+      "result": "WIN",
+      "outcome": {
+        "odds": 2.11,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": 1.387,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 8,
+        "entry_id": "tip_proposal:20260919T155742162230Z:eb8cdcfe",
+        "market": "⛳ Over 5 corners · FT",
+        "match": "Bilbao x Alaves",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 1.25
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20260919T154203145431Z:627ec139",
