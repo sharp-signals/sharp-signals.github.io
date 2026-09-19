@@ -8,9 +8,9 @@
    "fim": "2026-01-31"
   },
   "cresc_pct": 56.91,
-  "apostas": 1114,
+  "apostas": 1115,
   "ganhos": 635,
-  "perdidos": 479,
+  "perdidos": 480,
   "wr": 57.0,
   "meses": [
    {
@@ -72,9 +72,9 @@
    {
     "mes": "2026-09",
     "label": "Set 26",
-    "cresc_pct": 13.75,
-    "apostas": 71,
-    "wr": 60.6
+    "cresc_pct": 13.64,
+    "apostas": 72,
+    "wr": 59.7
    }
   ],
   "por_mercado": [
@@ -94,9 +94,9 @@
    },
    {
     "mercado": "Cashout",
-    "n": 157,
-    "wr": 48.4,
-    "roi": -2.58,
+    "n": 158,
+    "wr": 48.1,
+    "roi": -2.69,
     "pl_eur": -74.77
    },
    {
@@ -132,7 +132,6 @@
    "ganho",
    "ganho",
    "ganho",
-   "ganho",
    "perdido",
    "ganho",
    "cashout",
@@ -143,7 +142,8 @@
    "ganho",
    "ganho",
    "cashout",
-   "perdido"
+   "perdido",
+   "cashout"
   ],
   "historico": [
    {
@@ -151,16 +151,17 @@
     "mes": "2026-09",
     "jogo": "M. Haifa x Ironi Tiberias",
     "mercado": "⛳ Over 5.5 corners · FT",
-    "categoria": "Over Cantos FT",
+    "categoria": "Cashout",
     "odd": null,
-    "pl_pct": null,
+    "pl_pct": -0.112,
     "stake_pct": 0.75,
-    "resultado": "pendente",
+    "resultado": "cashout",
     "verified_id": "tip_proposal:20260919T182327167342Z:3d487ff5",
-    "estado_entrada": "aguarda_confirmacao",
-    "tipo_odd": "por_registar",
+    "estado_entrada": "confirmada",
+    "tipo_odd": "referencia_cashout_menos_15_pct",
     "odd_minima_recomendada": 1.81,
-    "confianca": 7
+    "confianca": 7,
+    "cashout_perda_referencia_pct_stake": 15.0
    },
    {
     "data": "2026-09-19",
