@@ -2773,6 +2773,26 @@
       "justificacao_void": "Não entrada — preço demasiado alto",
       "golos_apos_casa": 0,
       "golos_apos_fora": 1
+    },
+    {
+      "alerta_id": "ce1:1564308:final",
+      "fixture_id": 1564308,
+      "timestamp": "2026-09-19T14:40:57.517331",
+      "jogo": "Barnsley vs Leicester",
+      "liga": "League One",
+      "janela": "FINAL PUSH",
+      "tempo_alerta": 80,
+      "estrelas": 8.0,
+      "cantos_no_ref": 12,
+      "cantos_final": 17,
+      "cantos_apos_alerta": 5,
+      "meta_cantos": 2,
+      "resultado": "WIN",
+      "resultado_tecnico": "WIN",
+      "estado_entrada": "CONFIRMADA",
+      "justificacao_void": "",
+      "golos_apos_casa": 0,
+      "golos_apos_fora": 0
     }
   ]
 }
