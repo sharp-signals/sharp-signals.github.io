@@ -8,9 +8,9 @@
    "fim": "2026-01-31"
   },
   "cresc_pct": 56.91,
-  "apostas": 1112,
+  "apostas": 1113,
   "ganhos": 635,
-  "perdidos": 477,
+  "perdidos": 478,
   "wr": 57.1,
   "meses": [
    {
@@ -72,9 +72,9 @@
    {
     "mes": "2026-09",
     "label": "Set 26",
-    "cresc_pct": 14.61,
-    "apostas": 69,
-    "wr": 62.3
+    "cresc_pct": 14.5,
+    "apostas": 70,
+    "wr": 61.4
    }
   ],
   "por_mercado": [
@@ -94,9 +94,9 @@
    },
    {
     "mercado": "Cashout",
-    "n": 156,
-    "wr": 48.7,
-    "roi": -2.47,
+    "n": 157,
+    "wr": 48.4,
+    "roi": -2.58,
     "pl_eur": -74.77
    },
    {
@@ -134,7 +134,6 @@
    "ganho",
    "ganho",
    "ganho",
-   "ganho",
    "perdido",
    "ganho",
    "cashout",
@@ -143,7 +142,8 @@
    "ganho",
    "ganho",
    "ganho",
-   "ganho"
+   "ganho",
+   "cashout"
   ],
   "historico": [
    {
@@ -151,16 +151,17 @@
     "mes": "2026-09",
     "jogo": "H. Be'er Sheva x Ironi Kyriat",
     "mercado": "⛳ Over 3.5 corners · 1st half",
-    "categoria": "Over Cantos HT",
+    "categoria": "Cashout",
     "odd": null,
-    "pl_pct": null,
+    "pl_pct": -0.112,
     "stake_pct": 0.75,
-    "resultado": "pendente",
+    "resultado": "cashout",
     "verified_id": "tip_proposal:20260919T173239153874Z:f6a5a43b",
-    "estado_entrada": "aguarda_confirmacao",
-    "tipo_odd": "por_registar",
+    "estado_entrada": "confirmada",
+    "tipo_odd": "referencia_cashout_menos_15_pct",
     "odd_minima_recomendada": 1.81,
-    "confianca": 7
+    "confianca": 7,
+    "cashout_perda_referencia_pct_stake": 15.0
    },
    {
     "data": "2026-09-19",
