@@ -2752,5 +2752,27 @@
       "golos_apos_casa": 0,
       "golos_apos_fora": 0
     }
+  ],
+  "2026-09-19": [
+    {
+      "alerta_id": "ce1:1557416:ht",
+      "fixture_id": 1557416,
+      "timestamp": "2026-09-19T13:49:00.070890",
+      "jogo": "Tottenham vs Aston Villa",
+      "liga": "Premier League",
+      "janela": "HT ATTACK",
+      "tempo_alerta": 26,
+      "estrelas": 7.5,
+      "cantos_no_ref": 3,
+      "cantos_final": 8,
+      "cantos_apos_alerta": 5,
+      "meta_cantos": 2,
+      "resultado": "VOID",
+      "resultado_tecnico": "VOID",
+      "estado_entrada": "CONFIRMADA",
+      "justificacao_void": "Não entrada — preço demasiado alto",
+      "golos_apos_casa": 0,
+      "golos_apos_fora": 1
+    }
   ]
 }
