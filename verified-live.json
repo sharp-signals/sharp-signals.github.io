@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-19T15:54:44Z",
-  "event_chain_head": "03571f1d8e7289a569e75b0ebb7ae9c3686bf1b1ae7c3bb53e31672b75a1cc79",
+  "generated_at": "2026-09-19T15:55:21Z",
+  "event_chain_head": "a9bd4bdef5c775d2aa189dc1f5e7022d96e1f3886012db77fbf37fa6238a1d12",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,20 +12,43 @@
   },
   "summary": {
     "total": 116,
-    "pending": 7,
+    "pending": 6,
     "signals_settled": 34,
-    "official_entries_settled": 67,
+    "official_entries_settled": 68,
     "cancelled": 14
   },
   "records": [
     {
       "id": "tip_proposal:20260919T154203145431Z:627ec139",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-09-19T15:42:03Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "c7df791da9550ecf9cb85eef644943a728abfbb6df98f6a86b4416e4c06c8be5",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-09-19T15:55:21Z",
+      "result": "WIN",
+      "outcome": {
+        "odds": 1.81,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": 0.608,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20260919T154203145431Z:627ec139",
+        "market": "⛳ Over 10.5 corners · FT",
+        "match": "Sporting u23 x Penafiel u23",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20260919T154145841959Z:b57b1e26",
