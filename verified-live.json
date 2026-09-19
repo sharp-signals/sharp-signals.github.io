@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-19T20:10:29Z",
-  "event_chain_head": "0b3a75946fd539baffec2a29a5fb376adfe27ac95a2a17bfd4f966125e28ce0f",
+  "generated_at": "2026-09-19T20:21:05Z",
+  "event_chain_head": "f0c57b6f2457fa9cb01f2e249bbc6bc6b171f04519a77699fd903c47d2896760",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,20 +12,43 @@
   },
   "summary": {
     "total": 126,
-    "pending": 5,
+    "pending": 4,
     "signals_settled": 38,
-    "official_entries_settled": 75,
+    "official_entries_settled": 76,
     "cancelled": 15
   },
   "records": [
     {
       "id": "tip_proposal:20260919T200004679559Z:c8066cb5",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-09-19T20:00:05Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "8f3e2750a85fdc27d52276831f48def3265ba90b3d660e62ef85808778e1a6c6",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-09-19T20:21:05Z",
+      "result": "CASHOUT",
+      "outcome": {
+        "odds": null,
+        "odds_source": "cashout_loss_reference",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": 0.15,
+        "entry_status": "confirmed",
+        "profit_loss_percent": -0.112,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20260919T200004679559Z:c8066cb5",
+        "market": "⛳ Over 8.5 corners · FT",
+        "match": "Komarno x Slovan Bratislava",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "ce1:1552174:final",
