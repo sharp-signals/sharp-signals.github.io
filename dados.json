@@ -8,8 +8,8 @@
    "fim": "2026-01-31"
   },
   "cresc_pct": 56.91,
-  "apostas": 1104,
-  "ganhos": 629,
+  "apostas": 1105,
+  "ganhos": 630,
   "perdidos": 475,
   "wr": 57.0,
   "meses": [
@@ -72,17 +72,17 @@
    {
     "mes": "2026-09",
     "label": "Set 26",
-    "cresc_pct": 9.79,
-    "apostas": 61,
-    "wr": 60.7
+    "cresc_pct": 11.0,
+    "apostas": 62,
+    "wr": 61.3
    }
   ],
   "por_mercado": [
    {
     "mercado": "Over Cantos FT",
-    "n": 604,
+    "n": 605,
     "wr": 58.3,
-    "roi": 31.84,
+    "roi": 33.05,
     "pl_eur": 1369.94
    },
    {
@@ -130,7 +130,6 @@
   ],
   "forma": [
    "cashout",
-   "cashout",
    "ganho",
    "cashout",
    "ganho",
@@ -143,7 +142,8 @@
    "ganho",
    "ganho",
    "ganho",
-   "perdido"
+   "perdido",
+   "ganho"
   ],
   "historico": [
    {
@@ -152,13 +152,13 @@
     "jogo": "Rio Ave u23 x Braga u23",
     "mercado": "⛳ Over 8.5 corners · FT",
     "categoria": "Over Cantos FT",
-    "odd": null,
-    "pl_pct": null,
+    "odd": 1.97,
+    "pl_pct": 1.212,
     "stake_pct": 1.25,
-    "resultado": "pendente",
+    "resultado": "ganho",
     "verified_id": "tip_proposal:20260919T114101791350Z:da5215fb",
-    "estado_entrada": "aguarda_confirmacao",
-    "tipo_odd": "por_registar",
+    "estado_entrada": "confirmada",
+    "tipo_odd": "real",
     "odd_minima_recomendada": 1.81,
     "confianca": 8
    },
