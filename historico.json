@@ -2893,6 +2893,26 @@
       "justificacao_void": "",
       "golos_apos_casa": 0,
       "golos_apos_fora": 0
+    },
+    {
+      "alerta_id": "ce1:1552174:final",
+      "fixture_id": 1552174,
+      "timestamp": "2026-09-19T21:10:26.050538",
+      "jogo": "Ajax vs Excelsior",
+      "liga": "Eredivisie",
+      "janela": "FINAL PUSH",
+      "tempo_alerta": 80,
+      "estrelas": 7.5,
+      "cantos_no_ref": 5,
+      "cantos_final": 9,
+      "cantos_apos_alerta": 4,
+      "meta_cantos": 2,
+      "resultado": "WIN",
+      "resultado_tecnico": "WIN",
+      "estado_entrada": "CONFIRMADA",
+      "justificacao_void": "",
+      "golos_apos_casa": 0,
+      "golos_apos_fora": 0
     }
   ]
 }
