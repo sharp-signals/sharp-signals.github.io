@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-19T17:32:39Z",
-  "event_chain_head": "4f69984cc5c0739f9c749c70da5205a45e381218984bf59531b2b96b4df4a20c",
+  "generated_at": "2026-09-19T17:35:46Z",
+  "event_chain_head": "afed8c82b1cd348502b12a4336b6bb795453198a41b9036f07682cb9b984dac4",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,20 +12,43 @@
   },
   "summary": {
     "total": 120,
-    "pending": 6,
+    "pending": 5,
     "signals_settled": 35,
-    "official_entries_settled": 71,
+    "official_entries_settled": 72,
     "cancelled": 14
   },
   "records": [
     {
       "id": "tip_proposal:20260919T173239153874Z:f6a5a43b",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-09-19T17:32:39Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "d9ab279fce4ffc74c8e4e5d56235dc82eb7bdb8691fc704c1f8373a22ed5e916",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-09-19T17:35:46Z",
+      "result": "CASHOUT",
+      "outcome": {
+        "odds": null,
+        "odds_source": "cashout_loss_reference",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": 0.15,
+        "entry_status": "confirmed",
+        "profit_loss_percent": -0.112,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20260919T173239153874Z:f6a5a43b",
+        "market": "⛳ Over 3.5 corners · 1st half",
+        "match": "H. Be'er Sheva x Ironi Kyriat",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20260919T163517439339Z:3a8b166f",
