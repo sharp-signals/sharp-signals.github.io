@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-19T19:39:57Z",
-  "event_chain_head": "1e28561aafa470a23606278fffdbd40bf295f6a514f19a3b197fb63cdc524895",
+  "generated_at": "2026-09-19T19:44:17Z",
+  "event_chain_head": "787d8069eed9e0cae83f32a44319d811a8bb710b1577a1fa5c6f8f4ff41206fd",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,8 +12,8 @@
   },
   "summary": {
     "total": 125,
-    "pending": 6,
-    "signals_settled": 36,
+    "pending": 5,
+    "signals_settled": 37,
     "official_entries_settled": 75,
     "cancelled": 15
   },
@@ -62,11 +62,37 @@
     {
       "id": "ce1:1492775:ht",
       "kind": "signal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-09-19T19:14:58Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "491c073ae55728e16c5b13bcc961819ee912604a77408a2901a2e926a2f03b1b",
-      "telegram_message_count": 2
+      "telegram_message_count": 2,
+      "settled_at": "2026-09-19T19:44:17Z",
+      "result": "LOSS",
+      "outcome": {
+        "corners_reference": 4,
+        "corners_final": 5,
+        "corners_after": 1,
+        "target": 2,
+        "technical_result": "LOSS",
+        "entry_status": "confirmed",
+        "void_reason": "",
+        "approved_manually": true
+      },
+      "sealed_payload": {
+        "alert_id": "ce1:1492775:ht",
+        "classification": "scanner_signal_not_confirmed_bet",
+        "confidence": 7.5,
+        "corners_at_alert": 4,
+        "league": "Premier Division",
+        "match": "Sligo Rovers vs St Patrick's Athl.",
+        "minimum_price": 1.75,
+        "minute": 29,
+        "score_at_alert": "0-0",
+        "suggestion": "🎯 ENTRADA SUGERIDA\nOver 5.5 cantos 1ª parte · odd mín. 1.75+\n↳ se sair +1 canto: sobe p/ Over 6.5 ou espera o Over 6",
+        "window": "HT ATTACK"
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20260919T182327167342Z:3d487ff5",
