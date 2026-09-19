@@ -8,8 +8,8 @@
    "fim": "2026-01-31"
   },
   "cresc_pct": 56.91,
-  "apostas": 1107,
-  "ganhos": 630,
+  "apostas": 1108,
+  "ganhos": 631,
   "perdidos": 477,
   "wr": 56.9,
   "meses": [
@@ -72,17 +72,17 @@
    {
     "mes": "2026-09",
     "label": "Set 26",
-    "cresc_pct": 10.78,
-    "apostas": 64,
-    "wr": 59.4
+    "cresc_pct": 11.39,
+    "apostas": 65,
+    "wr": 60.0
    }
   ],
   "por_mercado": [
    {
     "mercado": "Over Cantos FT",
-    "n": 605,
-    "wr": 58.3,
-    "roi": 33.05,
+    "n": 606,
+    "wr": 58.4,
+    "roi": 33.66,
     "pl_eur": 1369.94
    },
    {
@@ -129,7 +129,6 @@
    }
   ],
   "forma": [
-   "cashout",
    "ganho",
    "ganho",
    "ganho",
@@ -143,7 +142,8 @@
    "perdido",
    "ganho",
    "cashout",
-   "cashout"
+   "cashout",
+   "ganho"
   ],
   "historico": [
    {
@@ -168,13 +168,13 @@
     "jogo": "Sariyer x Boluspor",
     "mercado": "⛳ Over 4 corners · FT",
     "categoria": "Over Cantos FT",
-    "odd": null,
-    "pl_pct": null,
+    "odd": 1.81,
+    "pl_pct": 0.608,
     "stake_pct": 0.75,
-    "resultado": "pendente",
+    "resultado": "ganho",
     "verified_id": "tip_proposal:20260919T154145841959Z:b57b1e26",
-    "estado_entrada": "aguarda_confirmacao",
-    "tipo_odd": "por_registar",
+    "estado_entrada": "confirmada",
+    "tipo_odd": "real",
     "odd_minima_recomendada": 1.81,
     "confianca": 7
    },
