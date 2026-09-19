@@ -8,8 +8,8 @@
    "fim": "2026-01-31"
   },
   "cresc_pct": 56.91,
-  "apostas": 1115,
-  "ganhos": 635,
+  "apostas": 1116,
+  "ganhos": 636,
   "perdidos": 480,
   "wr": 57.0,
   "meses": [
@@ -72,17 +72,17 @@
    {
     "mes": "2026-09",
     "label": "Set 26",
-    "cresc_pct": 13.64,
-    "apostas": 72,
-    "wr": 59.7
+    "cresc_pct": 14.65,
+    "apostas": 73,
+    "wr": 60.3
    }
   ],
   "por_mercado": [
    {
     "mercado": "Over Cantos FT",
-    "n": 610,
-    "wr": 58.7,
-    "roi": 36.88,
+    "n": 611,
+    "wr": 58.8,
+    "roi": 37.89,
     "pl_eur": 1369.94
    },
    {
@@ -131,7 +131,6 @@
   "forma": [
    "ganho",
    "ganho",
-   "ganho",
    "perdido",
    "ganho",
    "cashout",
@@ -143,7 +142,8 @@
    "ganho",
    "cashout",
    "perdido",
-   "cashout"
+   "cashout",
+   "ganho"
   ],
   "historico": [
    {
@@ -152,13 +152,13 @@
     "jogo": "Ajax x Excelsior",
     "mercado": "⛳ Over 4.5 corners · Ajax · FT",
     "categoria": "Over Cantos FT",
-    "odd": null,
-    "pl_pct": null,
+    "odd": 1.81,
+    "pl_pct": 1.013,
     "stake_pct": 1.25,
-    "resultado": "pendente",
+    "resultado": "ganho",
     "verified_id": "tip_proposal:20260919T192456130938Z:31dd9972",
-    "estado_entrada": "aguarda_confirmacao",
-    "tipo_odd": "por_registar",
+    "estado_entrada": "confirmada",
+    "tipo_odd": "real",
     "odd_minima_recomendada": 1.81,
     "confianca": 8
    },
