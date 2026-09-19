@@ -2873,6 +2873,26 @@
       "justificacao_void": "",
       "golos_apos_casa": 1,
       "golos_apos_fora": 0
+    },
+    {
+      "alerta_id": "ce1:1492775:ht",
+      "fixture_id": 1492775,
+      "timestamp": "2026-09-19T20:44:14.786800",
+      "jogo": "Sligo Rovers vs St Patrick's Athl.",
+      "liga": "Premier Division",
+      "janela": "HT ATTACK",
+      "tempo_alerta": 29,
+      "estrelas": 7.5,
+      "cantos_no_ref": 4,
+      "cantos_final": 5,
+      "cantos_apos_alerta": 1,
+      "meta_cantos": 2,
+      "resultado": "LOSS",
+      "resultado_tecnico": "LOSS",
+      "estado_entrada": "CONFIRMADA",
+      "justificacao_void": "",
+      "golos_apos_casa": 0,
+      "golos_apos_fora": 0
     }
   ]
 }
