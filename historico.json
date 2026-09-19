@@ -2833,6 +2833,26 @@
       "justificacao_void": "Não entrada — preço demasiado alto",
       "golos_apos_casa": 0,
       "golos_apos_fora": 1
+    },
+    {
+      "alerta_id": "ce1:1556665:mid",
+      "fixture_id": 1556665,
+      "timestamp": "2026-09-19T17:21:16.818569",
+      "jogo": "Hibernian vs Aberdeen",
+      "liga": "Premiership",
+      "janela": "MID PRESSURE",
+      "tempo_alerta": 69,
+      "estrelas": 8.0,
+      "cantos_no_ref": 13,
+      "cantos_final": 15,
+      "cantos_apos_alerta": 2,
+      "meta_cantos": 3,
+      "resultado": "VOID",
+      "resultado_tecnico": "VOID",
+      "estado_entrada": "CONFIRMADA",
+      "justificacao_void": "Não entrada — preço demasiado alto",
+      "golos_apos_casa": 0,
+      "golos_apos_fora": 0
     }
   ]
 }
