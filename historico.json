@@ -2793,6 +2793,26 @@
       "justificacao_void": "",
       "golos_apos_casa": 0,
       "golos_apos_fora": 0
+    },
+    {
+      "alerta_id": "ce1:1601540:ht",
+      "fixture_id": 1601540,
+      "timestamp": "2026-09-19T15:08:37.731845",
+      "jogo": "Palermo vs Padova",
+      "liga": "Serie B",
+      "janela": "HT ATTACK",
+      "tempo_alerta": 28,
+      "estrelas": 7.0,
+      "cantos_no_ref": 6,
+      "cantos_final": 10,
+      "cantos_apos_alerta": 4,
+      "meta_cantos": 2,
+      "resultado": "VOID",
+      "resultado_tecnico": "VOID",
+      "estado_entrada": "CONFIRMADA",
+      "justificacao_void": "Não entrada — preço demasiado alto",
+      "golos_apos_casa": 1,
+      "golos_apos_fora": 0
     }
   ]
 }
