@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-19T16:03:43Z",
-  "event_chain_head": "d89bb2220bac5da155c132103ff83d4c8b6bb7d9a9273ae5e77fc7e5fe4d4670",
+  "generated_at": "2026-09-19T16:21:20Z",
+  "event_chain_head": "8e4b3d7a46d20420260ca6bd3b619d78830d3c47c1d68b2aa8fdafd2be760536",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,8 +12,8 @@
   },
   "summary": {
     "total": 117,
-    "pending": 5,
-    "signals_settled": 34,
+    "pending": 4,
+    "signals_settled": 35,
     "official_entries_settled": 70,
     "cancelled": 14
   },
@@ -149,11 +149,37 @@
     {
       "id": "ce1:1556665:mid",
       "kind": "signal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-09-19T15:28:31Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "bda6479777501974c110253d2e74a7d6bb14ecf9203b0e2dd02b08693e547803",
-      "telegram_message_count": 2
+      "telegram_message_count": 2,
+      "settled_at": "2026-09-19T16:21:20Z",
+      "result": "VOID",
+      "outcome": {
+        "corners_reference": 13,
+        "corners_final": 15,
+        "corners_after": 2,
+        "target": 3,
+        "technical_result": "VOID",
+        "entry_status": "confirmed",
+        "void_reason": "Não entrada — preço demasiado alto",
+        "approved_manually": true
+      },
+      "sealed_payload": {
+        "alert_id": "ce1:1556665:mid",
+        "classification": "scanner_signal_not_confirmed_bet",
+        "confidence": 8.0,
+        "corners_at_alert": 13,
+        "league": "Premiership",
+        "match": "Hibernian vs Aberdeen",
+        "minimum_price": 1.75,
+        "minute": 69,
+        "score_at_alert": "1-1",
+        "suggestion": "🎯 ENTRADA SUGERIDA\nOver 15.5 cantos · odd mín. 1.75+\n↳ se sair +1 canto: sobe p/ Over 16.5 ou espera o Over 16",
+        "window": "MID PRESSURE"
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20260919T152719282992Z:2bac090b",
