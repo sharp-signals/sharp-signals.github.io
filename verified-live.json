@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-19T17:36:50Z",
-  "event_chain_head": "f3ec24c52776c1dea0073758eb2a1318086be5819055d1173ba106357eea32b8",
+  "generated_at": "2026-09-19T17:53:49Z",
+  "event_chain_head": "afc8ebcb129798be7b3f1545454b73eb859a6120ce2baace83d9c7f920ea5ecb",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,20 +12,43 @@
   },
   "summary": {
     "total": 121,
-    "pending": 6,
+    "pending": 5,
     "signals_settled": 35,
-    "official_entries_settled": 72,
+    "official_entries_settled": 73,
     "cancelled": 14
   },
   "records": [
     {
       "id": "tip_proposal:20260919T173650233321Z:ec2ba8b5",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-09-19T17:36:50Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "a68659cfa933fba5e508e4689d68f4e3fe32ad076f87206cb5f0d62031e9d3b2",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-09-19T17:53:49Z",
+      "result": "LOSS",
+      "outcome": {
+        "odds": 1.81,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": -0.75,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20260919T173650233321Z:ec2ba8b5",
+        "market": "⛳ Over 3 corners · 1st half",
+        "match": "M. Haifa x Ironi Tiberias",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20260919T173239153874Z:f6a5a43b",
