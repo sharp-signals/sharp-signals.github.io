@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-19T15:33:26Z",
-  "event_chain_head": "d3227cbacced5ed01e20a1b9bc4410ba4b2e0c2c60e9301981be70773dd4746a",
+  "generated_at": "2026-09-19T15:37:09Z",
+  "event_chain_head": "993bc9e40867f5ac80ec85badd47861ec8207daf909ea0dcc9a4356397274629",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,9 +12,9 @@
   },
   "summary": {
     "total": 114,
-    "pending": 7,
+    "pending": 6,
     "signals_settled": 34,
-    "official_entries_settled": 65,
+    "official_entries_settled": 66,
     "cancelled": 14
   },
   "records": [
@@ -39,11 +39,34 @@
     {
       "id": "tip_proposal:20260919T152719282992Z:2bac090b",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-09-19T15:27:19Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "44ba89813ae77d88efcf4e6133bcf8537a3a337235abc5416901db467a0e9ea9",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-09-19T15:37:09Z",
+      "result": "CASHOUT",
+      "outcome": {
+        "odds": null,
+        "odds_source": "cashout_loss_reference",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": 0.15,
+        "entry_status": "confirmed",
+        "profit_loss_percent": -0.112,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20260919T152719282992Z:2bac090b",
+        "market": "⛳ Over 13.5 corners · FT",
+        "match": "Salford City x Swindon",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20260919T143249541225Z:32b73cc5",
