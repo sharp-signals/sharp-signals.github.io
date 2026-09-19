@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-19T15:42:03Z",
-  "event_chain_head": "a0923d6449841019ead0097452c8c8e2bfd52b150fb20b2e4905f7de06019eb2",
+  "generated_at": "2026-09-19T15:54:44Z",
+  "event_chain_head": "03571f1d8e7289a569e75b0ebb7ae9c3686bf1b1ae7c3bb53e31672b75a1cc79",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,9 +12,9 @@
   },
   "summary": {
     "total": 116,
-    "pending": 8,
+    "pending": 7,
     "signals_settled": 34,
-    "official_entries_settled": 66,
+    "official_entries_settled": 67,
     "cancelled": 14
   },
   "records": [
@@ -30,11 +30,34 @@
     {
       "id": "tip_proposal:20260919T154145841959Z:b57b1e26",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-09-19T15:41:46Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "3943acccc411a8953fe4eac60ea4fbf7a10780a21f0d32e42ae953f1440d4643",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-09-19T15:54:44Z",
+      "result": "WIN",
+      "outcome": {
+        "odds": 1.81,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": 0.608,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20260919T154145841959Z:b57b1e26",
+        "market": "⛳ Over 4 corners · FT",
+        "match": "Sariyer x Boluspor",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20260919T153326584462Z:a75e2403",
