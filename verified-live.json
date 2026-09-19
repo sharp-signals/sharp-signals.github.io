@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-19T13:29:57Z",
-  "event_chain_head": "07488bcc999c9ab698fcf841ece2695820efbe833248bc2361c1bcf80241f1d7",
+  "generated_at": "2026-09-19T13:41:00Z",
+  "event_chain_head": "6685d7991075122d38b8c43cdd0f4cec72d27209dfb59b84e69c4d1ea5a309ac",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,8 +12,8 @@
   },
   "summary": {
     "total": 109,
-    "pending": 6,
-    "signals_settled": 31,
+    "pending": 5,
+    "signals_settled": 32,
     "official_entries_settled": 64,
     "cancelled": 14
   },
@@ -30,11 +30,37 @@
     {
       "id": "ce1:1564308:final",
       "kind": "signal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-09-19T13:08:40Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "6a39e80444b6fd032f9a0ce05b2737b2ef6f409a9d3a9b7623a4a4f7f26ecfa9",
-      "telegram_message_count": 2
+      "telegram_message_count": 2,
+      "settled_at": "2026-09-19T13:41:00Z",
+      "result": "WIN",
+      "outcome": {
+        "corners_reference": 12,
+        "corners_final": 17,
+        "corners_after": 5,
+        "target": 2,
+        "technical_result": "WIN",
+        "entry_status": "confirmed",
+        "void_reason": "",
+        "approved_manually": true
+      },
+      "sealed_payload": {
+        "alert_id": "ce1:1564308:final",
+        "classification": "scanner_signal_not_confirmed_bet",
+        "confidence": 8.0,
+        "corners_at_alert": 12,
+        "league": "League One",
+        "match": "Barnsley vs Leicester",
+        "minimum_price": 1.75,
+        "minute": 80,
+        "score_at_alert": "1-1",
+        "suggestion": "🎯 ENTRADA SUGERIDA\nOver 13.5 cantos · odd mín. 1.75+\n↳ se sair +1 canto: sobe p/ Over 14.5 ou espera o Over 14",
+        "window": "FINAL PUSH"
+      },
+      "commitment_valid": true
     },
     {
       "id": "ce1:1557416:ht",
