@@ -8,10 +8,10 @@
    "fim": "2026-01-31"
   },
   "cresc_pct": 56.91,
-  "apostas": 1116,
+  "apostas": 1117,
   "ganhos": 636,
-  "perdidos": 480,
-  "wr": 57.0,
+  "perdidos": 481,
+  "wr": 56.9,
   "meses": [
    {
     "mes": "2025-08",
@@ -72,9 +72,9 @@
    {
     "mes": "2026-09",
     "label": "Set 26",
-    "cresc_pct": 14.65,
-    "apostas": 73,
-    "wr": 60.3
+    "cresc_pct": 14.54,
+    "apostas": 74,
+    "wr": 59.5
    }
   ],
   "por_mercado": [
@@ -94,9 +94,9 @@
    },
    {
     "mercado": "Cashout",
-    "n": 158,
-    "wr": 48.1,
-    "roi": -2.69,
+    "n": 159,
+    "wr": 47.8,
+    "roi": -2.8,
     "pl_eur": -74.77
    },
    {
@@ -130,7 +130,6 @@
   ],
   "forma": [
    "ganho",
-   "ganho",
    "perdido",
    "ganho",
    "cashout",
@@ -143,7 +142,8 @@
    "cashout",
    "perdido",
    "cashout",
-   "ganho"
+   "ganho",
+   "cashout"
   ],
   "historico": [
    {
@@ -151,16 +151,17 @@
     "mes": "2026-09",
     "jogo": "Komarno x Slovan Bratislava",
     "mercado": "⛳ Over 8.5 corners · FT",
-    "categoria": "Over Cantos FT",
+    "categoria": "Cashout",
     "odd": null,
-    "pl_pct": null,
+    "pl_pct": -0.112,
     "stake_pct": 0.75,
-    "resultado": "pendente",
+    "resultado": "cashout",
     "verified_id": "tip_proposal:20260919T200004679559Z:c8066cb5",
-    "estado_entrada": "aguarda_confirmacao",
-    "tipo_odd": "por_registar",
+    "estado_entrada": "confirmada",
+    "tipo_odd": "referencia_cashout_menos_15_pct",
     "odd_minima_recomendada": 1.81,
-    "confianca": 7
+    "confianca": 7,
+    "cashout_perda_referencia_pct_stake": 15.0
    },
    {
     "data": "2026-09-19",
