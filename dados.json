@@ -8,9 +8,9 @@
    "fim": "2026-01-31"
   },
   "cresc_pct": 56.91,
-  "apostas": 1103,
+  "apostas": 1104,
   "ganhos": 629,
-  "perdidos": 474,
+  "perdidos": 475,
   "wr": 57.0,
   "meses": [
    {
@@ -72,9 +72,9 @@
    {
     "mes": "2026-09",
     "label": "Set 26",
-    "cresc_pct": 10.54,
-    "apostas": 60,
-    "wr": 61.7
+    "cresc_pct": 9.79,
+    "apostas": 61,
+    "wr": 60.7
    }
   ],
   "por_mercado": [
@@ -108,9 +108,9 @@
    },
    {
     "mercado": "Race to X corners",
-    "n": 43,
-    "wr": 67.4,
-    "roi": 8.39,
+    "n": 44,
+    "wr": 65.9,
+    "roi": 7.64,
     "pl_eur": 324.76
    },
    {
@@ -129,7 +129,6 @@
    }
   ],
   "forma": [
-   "perdido",
    "cashout",
    "cashout",
    "ganho",
@@ -143,7 +142,8 @@
    "ganho",
    "ganho",
    "ganho",
-   "ganho"
+   "ganho",
+   "perdido"
   ],
   "historico": [
    {
@@ -200,15 +200,22 @@
     "jogo": "Rudes x Belupo",
     "mercado": "🏁 Race to 9 corners · Belupo",
     "categoria": "Race to X corners",
-    "odd": null,
-    "pl_pct": null,
+    "odd": 1.84,
+    "pl_pct": -0.75,
     "stake_pct": 0.75,
-    "resultado": "pendente",
+    "resultado": "perdido",
     "verified_id": "tip_proposal:20260918T193505124002Z:1c612a09",
-    "estado_entrada": "aguarda_confirmacao",
-    "tipo_odd": "por_registar",
+    "estado_entrada": "confirmada",
+    "tipo_odd": "referencia_historica",
     "odd_minima_recomendada": 1.81,
-    "confianca": 7
+    "confianca": 7,
+    "corrections": [
+     {
+      "corrected_at": "2026-09-19T10:31:44.914713+00:00",
+      "reason": "Correção solicitada pelo titular: Race to 9 corners · Belupo foi LOSS.",
+      "previous_result": "pendente"
+     }
+    ]
    },
    {
     "data": "2026-09-18",
