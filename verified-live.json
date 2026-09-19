@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-19T20:36:12Z",
-  "event_chain_head": "c0ab295eba4e7b01e8e5de8f20250f24f746d702dac4500aee10d50e0c290dbc",
+  "generated_at": "2026-09-19T21:24:16Z",
+  "event_chain_head": "de359892f55813c7aab08683f8a297c1649b4b40689ef3ce67507ec91632f80d",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,8 +12,8 @@
   },
   "summary": {
     "total": 127,
-    "pending": 5,
-    "signals_settled": 38,
+    "pending": 4,
+    "signals_settled": 39,
     "official_entries_settled": 76,
     "cancelled": 15
   },
@@ -21,11 +21,37 @@
     {
       "id": "ce1:1492381:final",
       "kind": "signal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-09-19T20:36:12Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "5d9ddde1cfb88fa41496777c3360c38dd0fab6e5f42173db129f0843bc8de18f",
-      "telegram_message_count": 2
+      "telegram_message_count": 2,
+      "settled_at": "2026-09-19T21:24:16Z",
+      "result": "LOSS",
+      "outcome": {
+        "corners_reference": 13,
+        "corners_final": 13,
+        "corners_after": 0,
+        "target": 2,
+        "technical_result": "LOSS",
+        "entry_status": "confirmed",
+        "void_reason": "",
+        "approved_manually": true
+      },
+      "sealed_payload": {
+        "alert_id": "ce1:1492381:final",
+        "classification": "scanner_signal_not_confirmed_bet",
+        "confidence": 7.5,
+        "corners_at_alert": 13,
+        "league": "Serie A",
+        "match": "Atletico-MG vs Chapecoense-sc",
+        "minimum_price": 1.75,
+        "minute": 77,
+        "score_at_alert": "1-1",
+        "suggestion": "🎯 ENTRADA SUGERIDA\nOver 14.5 cantos · odd mín. 1.75+\n↳ se sair +1 canto: sobe p/ Over 15.5 ou espera o Over 15",
+        "window": "FINAL PUSH"
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20260919T200004679559Z:c8066cb5",
