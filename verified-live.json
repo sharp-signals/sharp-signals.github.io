@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-19T19:39:30Z",
-  "event_chain_head": "534160a3b27fb4ef16eb00497d107e0670a85d29a4006aaba5986af343c6debb",
+  "generated_at": "2026-09-19T19:39:57Z",
+  "event_chain_head": "1e28561aafa470a23606278fffdbd40bf295f6a514f19a3b197fb63cdc524895",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,9 +12,9 @@
   },
   "summary": {
     "total": 125,
-    "pending": 7,
+    "pending": 6,
     "signals_settled": 36,
-    "official_entries_settled": 74,
+    "official_entries_settled": 75,
     "cancelled": 15
   },
   "records": [
@@ -30,11 +30,34 @@
     {
       "id": "tip_proposal:20260919T192456130938Z:31dd9972",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-09-19T19:24:56Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "aef4781450350dfbf04e3958aaeb23bd0d46ce963a71387f0c3fd853330f106f",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-09-19T19:39:57Z",
+      "result": "WIN",
+      "outcome": {
+        "odds": 1.81,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": 1.013,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 8,
+        "entry_id": "tip_proposal:20260919T192456130938Z:31dd9972",
+        "market": "⛳ Over 4.5 corners · Ajax · FT",
+        "match": "Ajax x Excelsior",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 1.25
+      },
+      "commitment_valid": true
     },
     {
       "id": "ce1:1492775:ht",
