@@ -8,8 +8,8 @@
    "fim": "2026-01-31"
   },
   "cresc_pct": 56.91,
-  "apostas": 1111,
-  "ganhos": 634,
+  "apostas": 1112,
+  "ganhos": 635,
   "perdidos": 477,
   "wr": 57.1,
   "meses": [
@@ -72,17 +72,17 @@
    {
     "mes": "2026-09",
     "label": "Set 26",
-    "cresc_pct": 14.0,
-    "apostas": 68,
-    "wr": 61.8
+    "cresc_pct": 14.61,
+    "apostas": 69,
+    "wr": 62.3
    }
   ],
   "por_mercado": [
    {
     "mercado": "Over Cantos FT",
-    "n": 609,
-    "wr": 58.6,
-    "roi": 36.27,
+    "n": 610,
+    "wr": 58.7,
+    "roi": 36.88,
     "pl_eur": 1369.94
    },
    {
@@ -135,11 +135,11 @@
    "ganho",
    "ganho",
    "ganho",
-   "ganho",
    "perdido",
    "ganho",
    "cashout",
    "cashout",
+   "ganho",
    "ganho",
    "ganho",
    "ganho",
@@ -152,13 +152,13 @@
     "jogo": "Vojvodina x Novi Beograd",
     "mercado": "⛳ Over 5 corners · FT",
     "categoria": "Over Cantos FT",
-    "odd": null,
-    "pl_pct": null,
+    "odd": 1.81,
+    "pl_pct": 0.608,
     "stake_pct": 0.75,
-    "resultado": "pendente",
+    "resultado": "ganho",
     "verified_id": "tip_proposal:20260919T163517439339Z:3a8b166f",
-    "estado_entrada": "aguarda_confirmacao",
-    "tipo_odd": "por_registar",
+    "estado_entrada": "confirmada",
+    "tipo_odd": "real",
     "odd_minima_recomendada": 1.81,
     "confianca": 7
    },
