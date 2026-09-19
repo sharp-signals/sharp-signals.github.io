@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-19T11:52:07Z",
-  "event_chain_head": "cd58a120415ac348f6f4e42b87232dbf06e9b5f2a44575f0fce765ceeb1182a2",
+  "generated_at": "2026-09-19T11:56:27Z",
+  "event_chain_head": "9c6eeab4cfcf38e53a9d552895b0510a61df73329137e4b4028c925636c4f4e9",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -11,13 +11,22 @@
     "pending_privacy": "Antes da liquidação são públicos apenas a hora, o tipo e o compromisso SHA-256."
   },
   "summary": {
-    "total": 106,
-    "pending": 4,
+    "total": 107,
+    "pending": 5,
     "signals_settled": 30,
     "official_entries_settled": 64,
     "cancelled": 14
   },
   "records": [
+    {
+      "id": "ce1:1557416:ht",
+      "kind": "signal",
+      "status": "pending",
+      "published_at": "2026-09-19T11:56:27Z",
+      "commitment_algorithm": "SHA-256",
+      "commitment": "f9d7d59b271c55032f77c44aebee479d2b4556d7024c161b8327125f8648f0db",
+      "telegram_message_count": 2
+    },
     {
       "id": "tip_proposal:20260919T114101791350Z:da5215fb",
       "kind": "tip_proposal",
