@@ -3075,6 +3075,26 @@
       "justificacao_void": "",
       "golos_apos_casa": 0,
       "golos_apos_fora": 1
+    },
+    {
+      "alerta_id": "ce1:1553871:ht",
+      "fixture_id": 1553871,
+      "timestamp": "2026-09-20T23:54:33.998745",
+      "jogo": "FK Crvena Zvezda vs Radnicki NIS",
+      "liga": "Super Liga",
+      "janela": "HT ATTACK",
+      "tempo_alerta": 29,
+      "estrelas": 7.0,
+      "cantos_no_ref": 3,
+      "cantos_final": 4,
+      "cantos_apos_alerta": 1,
+      "meta_cantos": 2,
+      "resultado": "LOSS",
+      "resultado_tecnico": "LOSS",
+      "estado_entrada": "CONFIRMADA",
+      "justificacao_void": "",
+      "golos_apos_casa": 2,
+      "golos_apos_fora": 0
     }
   ]
 }
