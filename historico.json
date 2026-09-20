@@ -3055,6 +3055,26 @@
       "justificacao_void": "",
       "golos_apos_casa": 2,
       "golos_apos_fora": 1
+    },
+    {
+      "alerta_id": "ce1:1557411:final",
+      "fixture_id": 1557411,
+      "timestamp": "2026-09-20T23:51:45.414046",
+      "jogo": "Fulham vs Manchester United",
+      "liga": "Premier League",
+      "janela": "FINAL PUSH",
+      "tempo_alerta": 81,
+      "estrelas": 7.0,
+      "cantos_no_ref": 13,
+      "cantos_final": 16,
+      "cantos_apos_alerta": 3,
+      "meta_cantos": 2,
+      "resultado": "WIN",
+      "resultado_tecnico": "WIN",
+      "estado_entrada": "CONFIRMADA",
+      "justificacao_void": "",
+      "golos_apos_casa": 0,
+      "golos_apos_fora": 1
     }
   ]
 }
