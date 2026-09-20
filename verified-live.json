@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-20T22:49:55Z",
-  "event_chain_head": "4e80aa4281917e1b8485706765b09a87db07c4a214c9cf5a6c81a4307191b11d",
+  "generated_at": "2026-09-20T22:50:47Z",
+  "event_chain_head": "a5fc69fc942b739deb9d4dfe3ea1aa1aeb314c7ec712c2fff6b9a224678f4521",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,8 +12,8 @@
   },
   "summary": {
     "total": 137,
-    "pending": 12,
-    "signals_settled": 41,
+    "pending": 11,
+    "signals_settled": 42,
     "official_entries_settled": 76,
     "cancelled": 15
   },
@@ -119,11 +119,37 @@
     {
       "id": "ce1:1560027:shark",
       "kind": "signal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-09-20T14:13:01Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "a076263128e3e87dd383d1b812c7f38faffa74d41fa89ce71ab38f72686b50fa",
-      "telegram_message_count": 2
+      "telegram_message_count": 2,
+      "settled_at": "2026-09-20T22:50:47Z",
+      "result": "WIN",
+      "outcome": {
+        "corners_reference": 7,
+        "corners_final": 12,
+        "corners_after": 5,
+        "target": 4,
+        "technical_result": "WIN",
+        "entry_status": "confirmed",
+        "void_reason": "",
+        "approved_manually": true
+      },
+      "sealed_payload": {
+        "alert_id": "ce1:1560027:shark",
+        "classification": "scanner_signal_not_confirmed_bet",
+        "confidence": 7.5,
+        "corners_at_alert": 7,
+        "league": "Czech Liga",
+        "match": "FK Jablonec vs Zlin",
+        "minimum_price": 1.75,
+        "minute": 56,
+        "score_at_alert": "0-1",
+        "suggestion": "🎯 ENTRADA SUGERIDA\nOver 10.5 cantos · odd mín. 1.75+\n↳ se sair +1 canto: sobe p/ Over 11.5 ou espera o Over 11",
+        "window": "SHARK ATTACK"
+      },
+      "commitment_valid": true
     },
     {
       "id": "ce1:1563173:mid",
