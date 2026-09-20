@@ -3035,6 +3035,26 @@
       "justificacao_void": "",
       "golos_apos_casa": 1,
       "golos_apos_fora": 0
+    },
+    {
+      "alerta_id": "ce1:1494769:shark",
+      "fixture_id": 1494769,
+      "timestamp": "2026-09-20T23:51:29.918354",
+      "jogo": "Tromso vs Ham-Kam",
+      "liga": "Eliteserien",
+      "janela": "SHARK ATTACK",
+      "tempo_alerta": 58,
+      "estrelas": 7.5,
+      "cantos_no_ref": 7,
+      "cantos_final": 8,
+      "cantos_apos_alerta": 1,
+      "meta_cantos": 4,
+      "resultado": "LOSS",
+      "resultado_tecnico": "LOSS",
+      "estado_entrada": "CONFIRMADA",
+      "justificacao_void": "",
+      "golos_apos_casa": 2,
+      "golos_apos_fora": 1
     }
   ]
 }
