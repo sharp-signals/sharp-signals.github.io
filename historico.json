@@ -2995,6 +2995,26 @@
       "justificacao_void": "",
       "golos_apos_casa": 1,
       "golos_apos_fora": 0
+    },
+    {
+      "alerta_id": "ce1:1520886:shark",
+      "fixture_id": 1520886,
+      "timestamp": "2026-09-20T23:51:04.953961",
+      "jogo": "Ponte Preta vs CRB",
+      "liga": "Serie B",
+      "janela": "SHARK ATTACK",
+      "tempo_alerta": 57,
+      "estrelas": 8.5,
+      "cantos_no_ref": 6,
+      "cantos_final": 10,
+      "cantos_apos_alerta": 4,
+      "meta_cantos": 4,
+      "resultado": "WIN",
+      "resultado_tecnico": "WIN",
+      "estado_entrada": "CONFIRMADA",
+      "justificacao_void": "",
+      "golos_apos_casa": 0,
+      "golos_apos_fora": 0
     }
   ]
 }
