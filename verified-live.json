@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-20T22:51:16Z",
-  "event_chain_head": "5624097f77a6618989c61714cdd982bbf0a42df30e120905fafe87e8f6dedf0e",
+  "generated_at": "2026-09-20T22:51:32Z",
+  "event_chain_head": "23900b2a8e48fb40e491dad48c37ecd9b2e902a7218906f37dd9db5126bb31fd",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,8 +12,8 @@
   },
   "summary": {
     "total": 137,
-    "pending": 9,
-    "signals_settled": 44,
+    "pending": 8,
+    "signals_settled": 45,
     "official_entries_settled": 76,
     "cancelled": 15
   },
@@ -57,11 +57,37 @@
     {
       "id": "ce1:1494769:shark",
       "kind": "signal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-09-20T16:15:17Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "9ae06d1852594e588c1a21dec82471167f2928dbeb5d53cb1ab365842e9a6bf2",
-      "telegram_message_count": 2
+      "telegram_message_count": 2,
+      "settled_at": "2026-09-20T22:51:32Z",
+      "result": "LOSS",
+      "outcome": {
+        "corners_reference": 7,
+        "corners_final": 8,
+        "corners_after": 1,
+        "target": 4,
+        "technical_result": "LOSS",
+        "entry_status": "confirmed",
+        "void_reason": "",
+        "approved_manually": true
+      },
+      "sealed_payload": {
+        "alert_id": "ce1:1494769:shark",
+        "classification": "scanner_signal_not_confirmed_bet",
+        "confidence": 7.5,
+        "corners_at_alert": 7,
+        "league": "Eliteserien",
+        "match": "Tromso vs Ham-Kam",
+        "minimum_price": 1.75,
+        "minute": 58,
+        "score_at_alert": "1-1",
+        "suggestion": "🎯 ENTRADA SUGERIDA\nOver 10.5 cantos · odd mín. 1.75+\n↳ se sair +1 canto: sobe p/ Over 11.5 ou espera o Over 11",
+        "window": "SHARK ATTACK"
+      },
+      "commitment_valid": true
     },
     {
       "id": "ce1:1575508:mid",
