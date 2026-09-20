@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-20T22:45:36Z",
-  "event_chain_head": "9ec9b570a2eacceb37dcfa2c7162071b4258a33f797851d2e0d638b2f6e6a04d",
+  "generated_at": "2026-09-20T22:49:36Z",
+  "event_chain_head": "a8b2bd30e84900b759938b2eb789d530156657cb3a4f8b221f78853fc0e063e9",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,8 +12,8 @@
   },
   "summary": {
     "total": 137,
-    "pending": 14,
-    "signals_settled": 39,
+    "pending": 13,
+    "signals_settled": 40,
     "official_entries_settled": 76,
     "cancelled": 15
   },
@@ -84,11 +84,37 @@
     {
       "id": "ce1:1492384:ht",
       "kind": "signal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-09-20T14:34:01Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "f73c6a0299fd2682c3d7548e8a2b8df761f55be89bf94e1dce5c5763457888c6",
-      "telegram_message_count": 2
+      "telegram_message_count": 2,
+      "settled_at": "2026-09-20T22:49:36Z",
+      "result": "WIN",
+      "outcome": {
+        "corners_reference": 3,
+        "corners_final": 5,
+        "corners_after": 2,
+        "target": 2,
+        "technical_result": "WIN",
+        "entry_status": "confirmed",
+        "void_reason": "",
+        "approved_manually": true
+      },
+      "sealed_payload": {
+        "alert_id": "ce1:1492384:ht",
+        "classification": "scanner_signal_not_confirmed_bet",
+        "confidence": 7.5,
+        "corners_at_alert": 3,
+        "league": "Serie A",
+        "match": "Gremio vs Palmeiras",
+        "minimum_price": 1.75,
+        "minute": 30,
+        "score_at_alert": "0-0",
+        "suggestion": "🎯 ENTRADA SUGERIDA\nOver 4.5 cantos 1ª parte · odd mín. 1.75+\n↳ se sair +1 canto: sobe p/ Over 5.5 ou espera o Over 5",
+        "window": "HT ATTACK"
+      },
+      "commitment_valid": true
     },
     {
       "id": "ce1:1560027:shark",
