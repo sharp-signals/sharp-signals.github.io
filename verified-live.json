@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-20T22:49:36Z",
-  "event_chain_head": "a8b2bd30e84900b759938b2eb789d530156657cb3a4f8b221f78853fc0e063e9",
+  "generated_at": "2026-09-20T22:49:55Z",
+  "event_chain_head": "4e80aa4281917e1b8485706765b09a87db07c4a214c9cf5a6c81a4307191b11d",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,8 +12,8 @@
   },
   "summary": {
     "total": 137,
-    "pending": 13,
-    "signals_settled": 40,
+    "pending": 12,
+    "signals_settled": 41,
     "official_entries_settled": 76,
     "cancelled": 15
   },
@@ -128,11 +128,37 @@
     {
       "id": "ce1:1563173:mid",
       "kind": "signal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-09-20T13:59:41Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "a9078fd34e0785510ecac949dc9a20c3ed52e700112986ae29af693e72862401",
-      "telegram_message_count": 2
+      "telegram_message_count": 2,
+      "settled_at": "2026-09-20T22:49:55Z",
+      "result": "LOSS",
+      "outcome": {
+        "corners_reference": 5,
+        "corners_final": 6,
+        "corners_after": 1,
+        "target": 3,
+        "technical_result": "LOSS",
+        "entry_status": "confirmed",
+        "void_reason": "",
+        "approved_manually": true
+      },
+      "sealed_payload": {
+        "alert_id": "ce1:1563173:mid",
+        "classification": "scanner_signal_not_confirmed_bet",
+        "confidence": 7.5,
+        "corners_at_alert": 5,
+        "league": "Championship",
+        "match": "Norwich vs Bolton",
+        "minimum_price": 1.75,
+        "minute": 68,
+        "score_at_alert": "3-3",
+        "suggestion": "🎯 ENTRADA SUGERIDA\nOver 7.5 cantos · odd mín. 1.75+\n↳ se sair +1 canto: sobe p/ Over 8.5 ou espera o Over 8",
+        "window": "MID PRESSURE"
+      },
+      "commitment_valid": true
     },
     {
       "id": "ce1:1492381:final",
