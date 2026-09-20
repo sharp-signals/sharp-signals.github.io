@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-20T22:54:54Z",
-  "event_chain_head": "e36415960f94b2a699802c05c1a6b2b1dad470abe521f7ceaabbd9175e304472",
+  "generated_at": "2026-09-20T22:58:39Z",
+  "event_chain_head": "1ad1df944f3daeccf362e3b4cf9a9ede6fa9e61f2417bf865f11584166883ce3",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,20 +12,43 @@
   },
   "summary": {
     "total": 137,
-    "pending": 5,
+    "pending": 4,
     "signals_settled": 48,
-    "official_entries_settled": 76,
+    "official_entries_settled": 77,
     "cancelled": 15
   },
   "records": [
     {
       "id": "tip_proposal:20260920T224535529044Z:5c91bd43",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-09-20T22:45:35Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "6cbea97060b12a5c524f22e9f751f9cdbf9b9fc3f76ec7edbccacdb2e30a2159",
-      "telegram_message_count": 2
+      "telegram_message_count": 2,
+      "settled_at": "2026-09-20T22:58:39Z",
+      "result": "VOID",
+      "outcome": {
+        "odds": 1.81,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": 0.0,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20260920T224535529044Z:5c91bd43",
+        "market": "⛳ Over 5 corners · FT",
+        "match": "Real Monarchs x Ventura County",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "ce1:1493149:ht",
