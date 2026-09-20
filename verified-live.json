@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-20T22:50:47Z",
-  "event_chain_head": "a5fc69fc942b739deb9d4dfe3ea1aa1aeb314c7ec712c2fff6b9a224678f4521",
+  "generated_at": "2026-09-20T22:51:07Z",
+  "event_chain_head": "1b5c18417b06265eebcfabeb4256fcfb6a9ad26f1821f015bf4223de70b8b8a6",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,8 +12,8 @@
   },
   "summary": {
     "total": 137,
-    "pending": 11,
-    "signals_settled": 42,
+    "pending": 10,
+    "signals_settled": 43,
     "official_entries_settled": 76,
     "cancelled": 15
   },
@@ -75,11 +75,37 @@
     {
       "id": "ce1:1520886:shark",
       "kind": "signal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-09-20T15:19:17Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "79ce9387d06f9cd6e6d247c3bfe9e96eca10f7778284d7f1810b6504e4503233",
-      "telegram_message_count": 2
+      "telegram_message_count": 2,
+      "settled_at": "2026-09-20T22:51:07Z",
+      "result": "WIN",
+      "outcome": {
+        "corners_reference": 6,
+        "corners_final": 10,
+        "corners_after": 4,
+        "target": 4,
+        "technical_result": "WIN",
+        "entry_status": "confirmed",
+        "void_reason": "",
+        "approved_manually": true
+      },
+      "sealed_payload": {
+        "alert_id": "ce1:1520886:shark",
+        "classification": "scanner_signal_not_confirmed_bet",
+        "confidence": 8.5,
+        "corners_at_alert": 6,
+        "league": "Serie B",
+        "match": "Ponte Preta vs CRB",
+        "minimum_price": 1.75,
+        "minute": 57,
+        "score_at_alert": "1-0",
+        "suggestion": "🎯 ENTRADA SUGERIDA\nOver 9.5 cantos · odd mín. 1.75+\n↳ se sair +1 canto: sobe p/ Over 10.5 ou espera o Over 10",
+        "window": "SHARK ATTACK"
+      },
+      "commitment_valid": true
     },
     {
       "id": "ce1:1492384:ht",
