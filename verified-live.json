@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-20T22:51:32Z",
-  "event_chain_head": "23900b2a8e48fb40e491dad48c37ecd9b2e902a7218906f37dd9db5126bb31fd",
+  "generated_at": "2026-09-20T22:51:48Z",
+  "event_chain_head": "19d5b8808f21e548db65a9bb66d3fed228bc0a81348bffcf66e012321f37c740",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,8 +12,8 @@
   },
   "summary": {
     "total": 137,
-    "pending": 8,
-    "signals_settled": 45,
+    "pending": 7,
+    "signals_settled": 46,
     "official_entries_settled": 76,
     "cancelled": 15
   },
@@ -48,11 +48,37 @@
     {
       "id": "ce1:1557411:final",
       "kind": "signal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-09-20T17:06:53Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "a58652302020727f924792f92954164d1c70ad0b9baee05b571512b78ff86bbc",
-      "telegram_message_count": 2
+      "telegram_message_count": 2,
+      "settled_at": "2026-09-20T22:51:48Z",
+      "result": "WIN",
+      "outcome": {
+        "corners_reference": 13,
+        "corners_final": 16,
+        "corners_after": 3,
+        "target": 2,
+        "technical_result": "WIN",
+        "entry_status": "confirmed",
+        "void_reason": "",
+        "approved_manually": true
+      },
+      "sealed_payload": {
+        "alert_id": "ce1:1557411:final",
+        "classification": "scanner_signal_not_confirmed_bet",
+        "confidence": 7.0,
+        "corners_at_alert": 12,
+        "league": "Premier League",
+        "match": "Fulham vs Manchester United",
+        "minimum_price": 1.75,
+        "minute": 81,
+        "score_at_alert": "1-0",
+        "suggestion": "🎯 ENTRADA SUGERIDA\nOver 13.5 cantos · odd mín. 1.75+\n↳ se sair +1 canto: sobe p/ Over 14.5 ou espera o Over 14",
+        "window": "FINAL PUSH"
+      },
+      "commitment_valid": true
     },
     {
       "id": "ce1:1494769:shark",
