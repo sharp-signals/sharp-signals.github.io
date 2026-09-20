@@ -17,7 +17,7 @@
    "pode_nao_publicar": true
   }
  },
- "atualizado": "2026-09-20T19:21:34",
+ "atualizado": "2026-09-20T20:02:12",
  "geral": {
   "inicio": "2026-06-06",
   "fim": "2026-09-20",
@@ -2883,7 +2883,7 @@
    "odd": 2.62,
    "bilhete": "tripla",
    "fire": false,
-   "resultado": null
+   "resultado": "ganho"
   }
  ],
  "por_estrategia": {
@@ -2996,7 +2996,7 @@
       "data_jogo": "2026-09-20",
       "kickoff": "2026-09-20T16:00:00+01:00",
       "data_trading": "2026-09-20",
-      "resultado": null
+      "resultado": "ganho"
      }
     ],
     "odd": 9.69,
@@ -3084,7 +3084,7 @@
      "publicado_em": "2026-09-20T06:05:17+01:00",
      "message_id": 162
     },
-    "por_decidir": 2
+    "por_decidir": 1
    }
   ],
   "ultimo": {
@@ -3147,7 +3147,7 @@
      "data_jogo": "2026-09-20",
      "kickoff": "2026-09-20T16:00:00+01:00",
      "data_trading": "2026-09-20",
-     "resultado": null
+     "resultado": "ganho"
     }
    ],
    "odd": 9.69,
@@ -3235,7 +3235,7 @@
     "publicado_em": "2026-09-20T06:05:17+01:00",
     "message_id": 162
    },
-   "por_decidir": 2
+   "por_decidir": 1
   },
   "legado": {
    "rotulo": "Histórico anterior (legado)",
