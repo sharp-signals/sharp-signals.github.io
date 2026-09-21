@@ -8,8 +8,8 @@
    "fim": "2026-01-31"
   },
   "cresc_pct": 56.91,
-  "apostas": 1118,
-  "ganhos": 636,
+  "apostas": 1119,
+  "ganhos": 637,
   "perdidos": 482,
   "wr": 56.9,
   "meses": [
@@ -72,17 +72,17 @@
    {
     "mes": "2026-09",
     "label": "Set 26",
-    "cresc_pct": 13.29,
-    "apostas": 75,
-    "wr": 58.7
+    "cresc_pct": 13.9,
+    "apostas": 76,
+    "wr": 59.2
    }
   ],
   "por_mercado": [
    {
     "mercado": "Over Cantos FT",
-    "n": 612,
+    "n": 613,
     "wr": 58.7,
-    "roi": 36.64,
+    "roi": 37.26,
     "pl_eur": 1369.94
    },
    {
@@ -129,7 +129,6 @@
    }
   ],
   "forma": [
-   "perdido",
    "ganho",
    "cashout",
    "cashout",
@@ -143,7 +142,8 @@
    "cashout",
    "ganho",
    "cashout",
-   "perdido"
+   "perdido",
+   "ganho"
   ],
   "historico": [
    {
@@ -152,13 +152,13 @@
     "jogo": "TSC x Dubocica",
     "mercado": "⛳ Over 3.5 corners · TSC · FT",
     "categoria": "Over Cantos FT",
-    "odd": null,
-    "pl_pct": null,
+    "odd": 1.82,
+    "pl_pct": 0.615,
     "stake_pct": 0.75,
-    "resultado": "pendente",
+    "resultado": "ganho",
     "verified_id": "tip_proposal:20260921T154156576166Z:3862ebff",
-    "estado_entrada": "aguarda_confirmacao",
-    "tipo_odd": "por_registar",
+    "estado_entrada": "confirmada",
+    "tipo_odd": "real",
     "odd_minima_recomendada": 1.81,
     "confianca": 7
    },
