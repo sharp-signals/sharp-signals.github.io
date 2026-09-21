@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-21T15:41:57Z",
-  "event_chain_head": "a2874dbea46adf55be0bc158157737712ad5f09ced515a3ffb2b0ca8dd78b78f",
+  "generated_at": "2026-09-21T15:54:05Z",
+  "event_chain_head": "5db2822ccb74cd12460d5b43e79649e68d887c83273c46b04ed4232db5e30915",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,9 +12,9 @@
   },
   "summary": {
     "total": 139,
-    "pending": 6,
+    "pending": 5,
     "signals_settled": 48,
-    "official_entries_settled": 77,
+    "official_entries_settled": 78,
     "cancelled": 15
   },
   "records": [
@@ -30,11 +30,34 @@
     {
       "id": "tip_proposal:20260921T152242918303Z:c3559870",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-09-21T15:22:43Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "0a00d745f954b340cdf7962af1740462cdc984b3e712c8ecc3a85f1e53f1a182",
-      "telegram_message_count": 2
+      "telegram_message_count": 2,
+      "settled_at": "2026-09-21T15:54:05Z",
+      "result": "LOSS",
+      "outcome": {
+        "odds": 1.81,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": -1.25,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 8,
+        "entry_id": "tip_proposal:20260921T152242918303Z:c3559870",
+        "market": "⛳ Over 7.5 corners · FT",
+        "match": "TSC x Dubocica",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 1.25
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20260920T224535529044Z:5c91bd43",
