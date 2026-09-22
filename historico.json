@@ -3138,5 +3138,27 @@
       "golos_apos_casa": 1,
       "golos_apos_fora": 0
     }
+  ],
+  "2026-09-23": [
+    {
+      "alerta_id": "ce1:1520882:ht",
+      "fixture_id": 1520882,
+      "timestamp": "2026-09-23T00:38:03.721111",
+      "jogo": "Criciuma vs Operario-PR",
+      "liga": "Serie B",
+      "janela": "HT ATTACK",
+      "tempo_alerta": 30,
+      "estrelas": 8.0,
+      "cantos_no_ref": 6,
+      "cantos_final": 10,
+      "cantos_apos_alerta": 4,
+      "meta_cantos": 2,
+      "resultado": "WIN",
+      "resultado_tecnico": "WIN",
+      "estado_entrada": "CONFIRMADA",
+      "justificacao_void": "",
+      "golos_apos_casa": 0,
+      "golos_apos_fora": 1
+    }
   ]
 }
