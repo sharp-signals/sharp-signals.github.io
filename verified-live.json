@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-23T16:46:02Z",
-  "event_chain_head": "3cf898eea31c124a3354e119eabfc0d164c55b383ee76c68c0356718bc11a153",
+  "generated_at": "2026-09-23T16:48:29Z",
+  "event_chain_head": "a2c4fa8a87d0a5b36279db9b839511b6bcaa218dbc7bc310ba03074499a109c1",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,9 +12,9 @@
   },
   "summary": {
     "total": 144,
-    "pending": 5,
+    "pending": 4,
     "signals_settled": 48,
-    "official_entries_settled": 82,
+    "official_entries_settled": 83,
     "cancelled": 16
   },
   "records": [
@@ -53,11 +53,34 @@
     {
       "id": "tip_proposal:20260923T160502886796Z:cb9fde86",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-09-23T16:05:03Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "95acda965e1ff9207a6ed1c507b2534ed84842a5a46b4d2722f5491b37f297ba",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-09-23T16:48:29Z",
+      "result": "LOSS",
+      "outcome": {
+        "odds": 1.97,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": -0.75,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20260923T160502886796Z:cb9fde86",
+        "market": "⛳ Over 8.5 corners · FT",
+        "match": "Golf Utd. x Al Fujairah",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20260923T114306423555Z:b1557dc8",
