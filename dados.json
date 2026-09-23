@@ -8,9 +8,9 @@
    "fim": "2026-01-31"
   },
   "cresc_pct": 56.91,
-  "apostas": 1123,
+  "apostas": 1124,
   "ganhos": 637,
-  "perdidos": 486,
+  "perdidos": 487,
   "wr": 56.7,
   "meses": [
    {
@@ -72,17 +72,17 @@
    {
     "mes": "2026-09",
     "label": "Set 26",
-    "cresc_pct": 11.54,
-    "apostas": 80,
-    "wr": 56.2
+    "cresc_pct": 10.79,
+    "apostas": 81,
+    "wr": 55.6
    }
   ],
   "por_mercado": [
    {
     "mercado": "Over Cantos FT",
-    "n": 615,
-    "wr": 58.5,
-    "roi": 35.76,
+    "n": 616,
+    "wr": 58.4,
+    "roi": 35.01,
     "pl_eur": 1369.94
    },
    {
@@ -132,7 +132,6 @@
    "ganho",
    "ganho",
    "ganho",
-   "ganho",
    "cashout",
    "perdido",
    "cashout",
@@ -142,6 +141,7 @@
    "ganho",
    "perdido",
    "cashout",
+   "perdido",
    "perdido",
    "perdido"
   ],
@@ -168,13 +168,13 @@
     "jogo": "Hearths F x Real Sociedad F",
     "mercado": "⛳ Over 6.5 corners · FT",
     "categoria": "Over Cantos FT",
-    "odd": null,
-    "pl_pct": null,
+    "odd": 1.82,
+    "pl_pct": -0.75,
     "stake_pct": 0.75,
-    "resultado": "pendente",
+    "resultado": "perdido",
     "verified_id": "tip_proposal:20260923T193033354254Z:a2e5508e",
-    "estado_entrada": "aguarda_confirmacao",
-    "tipo_odd": "por_registar",
+    "estado_entrada": "confirmada",
+    "tipo_odd": "real",
     "odd_minima_recomendada": 1.81,
     "confianca": 7
    },
