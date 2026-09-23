@@ -3159,6 +3159,26 @@
       "justificacao_void": "",
       "golos_apos_casa": 0,
       "golos_apos_fora": 1
+    },
+    {
+      "alerta_id": "ce1:1520882:shark",
+      "fixture_id": 1520882,
+      "timestamp": "2026-09-23T01:55:15.952716",
+      "jogo": "Criciuma vs Operario-PR",
+      "liga": "Serie B",
+      "janela": "SHARK ATTACK",
+      "tempo_alerta": 55,
+      "estrelas": 10,
+      "cantos_no_ref": 13,
+      "cantos_final": 19,
+      "cantos_apos_alerta": 6,
+      "meta_cantos": 4,
+      "resultado": "VOID",
+      "resultado_tecnico": "VOID",
+      "estado_entrada": "CONFIRMADA",
+      "justificacao_void": "Não entrada — preço demasiado alto",
+      "golos_apos_casa": 0,
+      "golos_apos_fora": 1
     }
   ]
 }
