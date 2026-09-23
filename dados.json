@@ -8,9 +8,9 @@
    "fim": "2026-01-31"
   },
   "cresc_pct": 56.91,
-  "apostas": 1121,
+  "apostas": 1122,
   "ganhos": 637,
-  "perdidos": 484,
+  "perdidos": 485,
   "wr": 56.8,
   "meses": [
    {
@@ -72,17 +72,17 @@
    {
     "mes": "2026-09",
     "label": "Set 26",
-    "cresc_pct": 13.04,
-    "apostas": 78,
-    "wr": 57.7
+    "cresc_pct": 12.29,
+    "apostas": 79,
+    "wr": 57.0
    }
   ],
   "por_mercado": [
    {
     "mercado": "Over Cantos FT",
-    "n": 613,
-    "wr": 58.7,
-    "roi": 37.26,
+    "n": 614,
+    "wr": 58.6,
+    "roi": 36.51,
     "pl_eur": 1369.94
    },
    {
@@ -129,7 +129,6 @@
    }
   ],
   "forma": [
-   "cashout",
    "ganho",
    "ganho",
    "ganho",
@@ -143,7 +142,8 @@
    "perdido",
    "ganho",
    "perdido",
-   "cashout"
+   "cashout",
+   "perdido"
   ],
   "historico": [
    {
@@ -152,13 +152,13 @@
     "jogo": "Real Madrid u19 x Getafe u19",
     "mercado": "⛳ Over 11 corners · FT",
     "categoria": "Over Cantos FT",
-    "odd": null,
-    "pl_pct": null,
+    "odd": 1.83,
+    "pl_pct": -0.75,
     "stake_pct": 0.75,
-    "resultado": "pendente",
+    "resultado": "perdido",
     "verified_id": "tip_proposal:20260923T114306423555Z:b1557dc8",
-    "estado_entrada": "aguarda_confirmacao",
-    "tipo_odd": "por_registar",
+    "estado_entrada": "confirmada",
+    "tipo_odd": "real",
     "odd_minima_recomendada": 1.81,
     "confianca": 7
    },
