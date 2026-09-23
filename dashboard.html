@@ -441,7 +441,7 @@ function resumoBot(raw){
   const historico=(raw.historico||[]).filter(pertenceEpoca),cancelada=x=>x.resultado==='cancelada';
   const tecnicos=historico.filter(x=>!cancelada(x)&&['ganho','perdido'].includes(x.resultado_tecnico));
   const tg=tecnicos.filter(x=>x.resultado_tecnico==='ganho').length,tp=tecnicos.filter(x=>x.resultado_tecnico==='perdido').length;
-  const confirmadas=historico.filter(x=>x.estado_entrada==='confirmada');
+  const confirmadas=historico.filter(x=>x.estado_entrada==='confirmada'||x.estado_entrada==='historica');
   const entradasDecididas=confirmadas.filter(x=>['ganho','perdido'].includes(x.resultado));
   const eg=entradasDecididas.filter(x=>x.resultado==='ganho').length,ep=entradasDecididas.filter(x=>x.resultado==='perdido').length;
   const canceladas=historico.filter(cancelada),motivos={};
@@ -484,7 +484,7 @@ function vistaBot(d){
     ${forma(d.forma)}
   </div>
   <div class="sec-t">Simulator — Confirmed entries</div>
-  <div class="card simcard"><div class="fc-sub">Uses confirmed entries only: 0.75% reference stake and 1.84 reference odds. CANCELLED and VOID do not move bankroll.</div>
+  <div class="card simcard"><div class="fc-sub">Includes WIN and LOSS from the first alert: earlier historical records plus entries verified by the current model. Uses a 0.75% reference stake and 1.84 reference odds. CANCELLED and VOID do not move bankroll.</div>
     <div class="sim-row"><div class="sim-field"><label>Starting bankroll (€)</label><input type="number" id="bot-sim-bankroll" value="1000" min="0" step="50" oninput="calcularSimuladorBot()"></div><div class="sim-field"><label>Stake per entry (%)</label><input type="number" id="bot-sim-stake" value="0.75" min="0" max="10" step="0.25" oninput="calcularSimuladorBot()"></div></div>
     <div class="sim-out"><div class="so-item"><div class="so-l">Growth</div><div class="so-v" id="bot-sim-growth">—</div></div><div class="so-item"><div class="so-l">Final bankroll</div><div class="so-v gold" id="bot-sim-final">—</div></div><div class="so-item"><div class="so-l">Profit / Loss</div><div class="so-v" id="bot-sim-profit">—</div></div></div>
   </div>`;
@@ -522,7 +522,7 @@ function vistaBot(d){
     <td class="num gold">${s.estrelas}</td>
     <td class="num">+${s.cantos_apos}</td>
     <td class="num"><span class="pill ${s.resultado_tecnico==='ganho'?'g':(s.resultado_tecnico==='perdido'?'p':'n')}">${s.resultado_tecnico==='ganho'?'WIN':(s.resultado_tecnico==='perdido'?'LOSS':'VOID')}</span></td>
-    <td class="num"><span class="pill ${s.resultado==='ganho'?'g':(s.resultado==='perdido'?'p':'n')}">${s.resultado==='cancelada'?'CANCELLED':(s.resultado==='ganho'||s.resultado==='perdido'?'CONFIRMED':(s.resultado==='nulo'?'VOID':'NOT LOGGED'))}</span></td><td>${s.motivo||'—'}</td></tr>`).join('');
+    <td class="num"><span class="pill ${s.resultado==='ganho'?'g':(s.resultado==='perdido'?'p':'n')}">${s.resultado==='cancelada'?'CANCELLED':(s.resultado==='ganho'||s.resultado==='perdido'?(s.estado_entrada==='historica'?'HISTORICAL':'CONFIRMED'):(s.resultado==='nulo'?'VOID':'NOT LOGGED'))}</span></td><td>${s.motivo||'—'}</td></tr>`).join('');
   h+=`<div class="sec-t" id="hist">Signal history</div>
     <div class="card tbl-wrap"><table><thead><tr><th>Date</th><th>Match</th><th>Window</th>
     <th class="num">Score</th><th class="num">Corners</th><th class="num">Technical result</th><th class="num">Entry</th><th>Reason</th></tr></thead>
@@ -539,11 +539,12 @@ function construirBot(H){
       var rt=String(a.resultado_tecnico||r).toUpperCase();
       var estado=String(a.estado_entrada||'').toUpperCase();
       var cancelada=r==='CANCELADA'||estado.indexOf('CANCEL')>=0||estado.indexOf('SEM ENTRADA')>=0;
+      var historica=!estado&&(r==='WIN'||r==='LOSS');
       var confirmada=estado==='CONFIRMADA';
       bs.push({data:dia, jogo:a.jogo||'', liga:a.liga||'', janela:a.janela||'',
         estrelas:a.estrelas||0, cantos_apos:a.cantos_apos_alerta||0,
-        estado_entrada:cancelada?'cancelada':(confirmada?'confirmada':'sem_registo'),
-        resultado:cancelada?'cancelada':(!confirmada?'sem_registo':(r==='WIN'?'ganho':(r==='LOSS'?'perdido':'nulo'))),
+        estado_entrada:cancelada?'cancelada':(confirmada?'confirmada':(historica?'historica':'sem_registo')),
+        resultado:cancelada?'cancelada':(!(confirmada||historica)?'sem_registo':(r==='WIN'?'ganho':(r==='LOSS'?'perdido':'nulo'))),
         resultado_tecnico:rt==='WIN'?'ganho':(rt==='LOSS'?'perdido':'nulo'),
         motivo:a.motivo_cancelamento||a.justificacao_cancelamento||a.justificacao_void||a.motivo_void||a.motivo||''});
     });
