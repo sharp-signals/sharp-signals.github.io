@@ -219,7 +219,8 @@ footer .logo{justify-content:center;margin-bottom:10px;font-size:13px}
 </div>
 
 <script>
-let DATA=null, CAT='tips', PAG=1, PAGB=1;
+let DATA=null, CAT='tips', PAG=1, PAGB=1, EPOCA='2026-27';
+let VIEW_TIPS=null, VIEW_BOT=null;
 
 // --- manter posicao/estado ao trocar de idioma ---
 (function(){
@@ -229,7 +230,7 @@ let DATA=null, CAT='tips', PAG=1, PAGB=1;
     e.preventDefault();
     var href = a.getAttribute('href');
     location.href = href + '#y=' + Math.round(window.scrollY)
-      + '&c=' + CAT + '&p=' + PAG + '&pb=' + PAGB;
+      + '&c=' + CAT + '&p=' + PAG + '&pb=' + PAGB + '&e=' + EPOCA;
   });
   window.__estado = (function(){
     var h = (location.hash || '').replace(/^#/, '');
@@ -256,16 +257,75 @@ function streak(arr){
   return {n:n,tipo:last};
 }
 
+function mesDaEntrada(x){
+  if(x&&/^\d{4}-\d{2}$/.test(String(x.mes||''))) return String(x.mes);
+  const d=String((x&&x.data)||'');
+  return /^\d{4}-\d{2}/.test(d)?d.slice(0,7):'';
+}
+function pertenceEpoca(x){
+  const m=mesDaEntrada(x);
+  if(EPOCA==='total') return true;
+  if(EPOCA==='2026-27') return m>='2026-07';
+  return m>='2025-07'&&m<'2026-07';
+}
+function seletorEpoca(){
+  const op=[['2026-27','Época 2026/27'],['2025-26','Época 2025/26'],['total','Histórico total']];
+  return `<div class="segwrap"><div class="segbar">${op.map(x=>`<span class="seg epoca-seg ${x[0]===EPOCA?'on':''}" data-epoca="${x[0]}">${x[1]}</span>`).join('')}</div></div>`;
+}
+function resumoTips(raw){
+  const historico=(raw.historico||[]).filter(pertenceEpoca);
+  const ganhos=historico.filter(x=>x.resultado==='ganho').length;
+  const perdidos=historico.filter(x=>x.resultado==='perdido'||x.resultado==='perda').length;
+  const cashouts=historico.filter(x=>x.resultado==='cashout').length;
+  const voids=historico.filter(x=>x.resultado==='void').length;
+  const canceladas=historico.filter(x=>x.resultado==='cancelada').length;
+  const pendentes=historico.filter(x=>x.resultado==='pendente').length;
+  const mesesMap={};
+  historico.forEach(x=>{
+    const mes=mesDaEntrada(x); if(!mes) return;
+    const b=mesesMap[mes]||(mesesMap[mes]={mes:mes,ganhos:0,perdidos:0,cashouts:0,cresc_pct:0});
+    if(x.resultado==='ganho') b.ganhos++;
+    else if(x.resultado==='perdido'||x.resultado==='perda') b.perdidos++;
+    else if(x.resultado==='cashout') b.cashouts++;
+    b.cresc_pct+=Number(x.pl_pct)||0;
+  });
+  const nomes=['Jan','Fev','Mar','Abr','Mai','Jun','Jul','Ago','Set','Out','Nov','Dez'];
+  const meses=Object.values(mesesMap).sort((a,b)=>a.mes.localeCompare(b.mes)).map(m=>{
+    const [ano,mm]=m.mes.split('-'); const decididas=m.ganhos+m.perdidos;
+    return {...m,label:`${nomes[Number(mm)-1]} ${ano.slice(2)}`,apostas:decididas,
+      wr:decididas?Math.round(1000*m.ganhos/decididas)/10:0,cresc_pct:Math.round(m.cresc_pct*1000)/1000};
+  });
+  const mercados={};
+  historico.forEach(x=>{
+    if(!['ganho','perdido','perda','cashout'].includes(x.resultado)) return;
+    const nome=x.categoria||'Outro'; const b=mercados[nome]||(mercados[nome]={mercado:nome,n:0,g:0,p:0,roi:0});
+    if(x.resultado==='ganho'){b.n++;b.g++;}
+    else if(x.resultado==='perdido'||x.resultado==='perda'){b.n++;b.p++;}
+    b.roi+=Number(x.pl_pct)||0;
+  });
+  const por_mercado=Object.values(mercados).map(m=>({...m,wr:m.n?Math.round(1000*m.g/m.n)/10:0,roi:Math.round(m.roi*100)/100}));
+  const forma=historico.slice().reverse().filter(x=>['ganho','perdido','perda'].includes(x.resultado))
+    .map(x=>x.resultado==='ganho'?'ganho':'perdido').slice(-15);
+  const decididas=ganhos+perdidos;
+  return {...raw,historico,ganhos,perdidos,cashouts,voids,canceladas,pendentes,
+    apostas:decididas,simuladas:decididas+cashouts,wr:decididas?Math.round(1000*ganhos/decididas)/10:0,
+    cresc_pct:Math.round(historico.reduce((s,x)=>s+(Number(x.pl_pct)||0),0)*1000)/1000,
+    meses,por_mercado,forma};
+}
+
 function calcularSimulador(){
   const bEl=document.getElementById('sim-bankroll'), sEl=document.getElementById('sim-stake');
   const gEl=document.getElementById('sim-out-growth'), fEl=document.getElementById('sim-out-final'), pEl=document.getElementById('sim-out-profit');
-  if(!bEl||!sEl||!DATA) return;
+  if(!bEl||!sEl||!VIEW_TIPS) return;
   const bankroll=parseFloat(bEl.value)||0, stake=parseFloat(sEl.value)||0;
-  const hist=(DATA.tips_pessoais.historico||[]).filter(x=>['ganho','perdido','perda','cashout'].includes(x.resultado));
+  const hist=(VIEW_TIPS.historico||[]).filter(x=>['ganho','perdido','perda','cashout'].includes(x.resultado));
   let somaPct=0;
   hist.forEach(x=>{
     if(x.resultado==='ganho'){ somaPct += stake*((x.odd||1.84)-1); }
-    else if(x.resultado==='cashout'){ somaPct -= stake*0.15; }
+    else if(x.resultado==='cashout'){
+      const base=Number(x.stake_pct)||0, pl=Number(x.pl_pct);
+      somaPct += Number.isFinite(pl)&&base>0 ? stake*(pl/base) : -stake*0.15;
+    }
     else { somaPct -= stake; }
   });
   const bankrollFinal=bankroll*(1+somaPct/100), lucro=bankrollFinal-bankroll;
@@ -276,6 +336,7 @@ function calcularSimulador(){
 }
 
 function vistaTips(d){
+  d=resumoTips(d); VIEW_TIPS=d;
   const s=streak(d.forma);
   const emoji=s.tipo==='ganho'?'🔥':'❄️';
   const txt=s.tipo==='ganho'?'greens seguidos':'reds seguidos';
@@ -286,10 +347,10 @@ function vistaTips(d){
       <div class="sub">${d.meses.length?d.meses[0].label+" → "+d.meses[d.meses.length-1].label:"—"} · ${d.meses.length} ${d.meses.length===1?"mês":"meses"}</div></div>
     <div class="card kpi"><div class="lbl">Taxa de acerto</div>
       <div class="val gold">${d.wr}%</div>
-      <div class="sub">✅ ${d.ganhos} · ❌ ${d.perdidos}</div></div>
-    <div class="card kpi"><div class="lbl">Apostas</div>
+      <div class="sub">✅ ${d.ganhos} · ❌ ${d.perdidos} · cashouts excluídos</div></div>
+    <div class="card kpi"><div class="lbl">Entradas decididas</div>
       <div class="val">${d.apostas}</div>
-      <div class="sub">registadas e apuradas</div></div>
+      <div class="sub">${d.cashouts} cashouts · ${d.voids} voids · ${d.canceladas} canceladas</div></div>
   </div>
   <div class="card formcard" style="margin-top:14px">
     <div><div class="fc-big">${emoji} <b>${s.n}</b> ${txt}</div>
@@ -299,7 +360,7 @@ function vistaTips(d){
 
   <div class="sec-t">Simulador de Stake e Banca</div>
   <div class="card simcard">
-    <div class="fc-sub">Aplica uma stake % fixa a todas as apostas resolvidas do histórico (${d.apostas} apostas). Onde não há odd registada, usa a média histórica (1.84).</div>
+    <div class="fc-sub">Aplica uma stake fixa às ${d.simuladas} entradas financeiras da época selecionada. CASHOUT afeta a banca, mas não a taxa de acerto; VOID e CANCELADA não movimentam a banca. Sem odd real, usa a referência histórica 1.84.</div>
     <div class="sim-row">
       <div class="sim-field"><label>Banca inicial (€)</label>
         <input type="number" id="sim-bankroll" value="1000" min="0" step="50" oninput="calcularSimulador()"></div>
@@ -403,29 +464,84 @@ function vistaTips(d){
   return h;
 }
 
+function resumoBot(raw){
+  const historico=(raw.historico||[]).filter(pertenceEpoca);
+  const cancelada=x=>x.resultado==='cancelada';
+  const tecnicos=historico.filter(x=>!cancelada(x)&&['ganho','perdido'].includes(x.resultado_tecnico));
+  const tg=tecnicos.filter(x=>x.resultado_tecnico==='ganho').length;
+  const tp=tecnicos.filter(x=>x.resultado_tecnico==='perdido').length;
+  const confirmadas=historico.filter(x=>x.estado_entrada==='confirmada');
+  const entradasDecididas=confirmadas.filter(x=>['ganho','perdido'].includes(x.resultado));
+  const eg=entradasDecididas.filter(x=>x.resultado==='ganho').length;
+  const ep=entradasDecididas.filter(x=>x.resultado==='perdido').length;
+  const evoid=confirmadas.filter(x=>x.resultado==='nulo').length;
+  const canceladas=historico.filter(cancelada);
+  const motivos={};
+  canceladas.forEach(x=>{const m=(x.motivo||'Sem motivo estruturado').trim()||'Sem motivo estruturado';motivos[m]=(motivos[m]||0)+1;});
+  const por_janela={};
+  tecnicos.forEach(x=>{const b=por_janela[x.janela]||(por_janela[x.janela]={janela:x.janela,n:0,g:0,p:0});b.n++;if(x.resultado_tecnico==='ganho')b.g++;else b.p++;});
+  const janelas=Object.values(por_janela).map(j=>({...j,wr:j.n?Math.round(1000*j.g/j.n)/10:0})).sort((a,b)=>b.n-a.n);
+  const forma=tecnicos.slice().reverse().map(x=>x.resultado_tecnico).slice(-15);
+  return {...raw,historico,tecnicos,confirmadas,entradasDecididas,ganhos:tg,perdidos:tp,
+    apostas:historico.length,canceladas:canceladas.length,voidsTecnicos:historico.filter(x=>x.resultado_tecnico==='nulo').length,
+    wr:(tg+tp)?Math.round(1000*tg/(tg+tp))/10:0,entradasGanhos:eg,entradasPerdidos:ep,
+    entradasWr:(eg+ep)?Math.round(1000*eg/(eg+ep))/10:0,entradasVoid:evoid,
+    por_janela:janelas,forma,motivos};
+}
+
+function calcularSimuladorBot(){
+  const bEl=document.getElementById('bot-sim-bankroll'),sEl=document.getElementById('bot-sim-stake');
+  const gEl=document.getElementById('bot-sim-growth'),fEl=document.getElementById('bot-sim-final'),pEl=document.getElementById('bot-sim-profit');
+  if(!bEl||!sEl||!VIEW_BOT) return;
+  const bankroll=parseFloat(bEl.value)||0,stake=parseFloat(sEl.value)||0;
+  let somaPct=0;
+  VIEW_BOT.confirmadas.forEach(x=>{
+    if(x.resultado==='ganho') somaPct+=stake*(1.84-1);
+    else if(x.resultado==='perdido') somaPct-=stake;
+  });
+  const bankrollFinal=bankroll*(1+somaPct/100),lucro=bankrollFinal-bankroll;
+  gEl.textContent=(somaPct>=0?'+':'')+somaPct.toFixed(2)+'%';gEl.className='so-v '+cls(somaPct);
+  fEl.textContent='€'+bankrollFinal.toLocaleString(undefined,{minimumFractionDigits:2,maximumFractionDigits:2});
+  pEl.textContent=(lucro>=0?'+€':'-€')+Math.abs(lucro).toLocaleString(undefined,{minimumFractionDigits:2,maximumFractionDigits:2});pEl.className='so-v '+cls(lucro);
+}
+
 function vistaBot(d){
   if(!d) return `<div class="card empty"><div class="big">Ainda sem histórico</div>
     Os sinais do ZI Corner Pro começam a ser registados agora.<br>
     Esta secção será preenchida assim que houver resultados apurados.</div>`;
+  d=resumoBot(d); VIEW_BOT=d;
   const s=streak(d.forma);
   const emoji=s.tipo==='ganho'?'🔥':'❄️';
   const txt=s.tipo==='ganho'?'greens seguidos':'reds seguidos';
   let h=`<div class="sec-t" id="kpis">Performance — ZI Corner Pro</div>
   <div class="grid kpis3">
-    <div class="card kpi"><div class="lbl">Taxa de acerto</div>
+    <div class="card kpi"><div class="lbl">Taxa técnica dos sinais</div>
       <div class="val gold">${d.wr}%</div>
-      <div class="sub">Resultado técnico · ✅ ${d.ganhos} · ❌ ${d.perdidos}</div></div>
-    <div class="card kpi"><div class="lbl">Sinais</div>
+      <div class="sub">✅ ${d.ganhos} · ❌ ${d.perdidos} · cancelados e voids excluídos</div></div>
+    <div class="card kpi"><div class="lbl">Entradas confirmadas</div>
+      <div class="val gold">${d.entradasWr}%</div>
+      <div class="sub">✅ ${d.entradasGanhos} · ❌ ${d.entradasPerdidos} · ${d.entradasVoid} voids</div></div>
+    <div class="card kpi"><div class="lbl">Sinais observados</div>
       <div class="val">${d.apostas}</div>
-      <div class="sub">${d.canceladas||0} cancelados · sem entrada</div></div>
-    <div class="card kpi"><div class="lbl">Período</div>
-      <div class="val" style="font-size:22px">${d.periodo.inicio.slice(5).split('-').reverse().join('/')}</div>
-      <div class="sub">desde o arranque</div></div>
+      <div class="sub">${d.canceladas} cancelados · ${d.voidsTecnicos} voids técnicos</div></div>
   </div>
   <div class="card formcard" style="margin-top:14px">
     <div><div class="fc-big">${emoji} <b>${s.n}</b> ${txt}</div>
       <div class="fc-sub">Sinais gerados automaticamente por análise de pressão em tempo real</div></div>
     ${forma(d.forma)}
+  </div>
+  <div class="sec-t">Simulador — Entradas confirmadas</div>
+  <div class="card simcard">
+    <div class="fc-sub">Usa apenas entradas confirmadas da época selecionada: stake de referência 0.75% e odd 1.84. CANCELADA e VOID não movimentam a banca.</div>
+    <div class="sim-row">
+      <div class="sim-field"><label>Banca inicial (€)</label><input type="number" id="bot-sim-bankroll" value="1000" min="0" step="50" oninput="calcularSimuladorBot()"></div>
+      <div class="sim-field"><label>Stake por entrada (%)</label><input type="number" id="bot-sim-stake" value="0.75" min="0" max="10" step="0.25" oninput="calcularSimuladorBot()"></div>
+    </div>
+    <div class="sim-out">
+      <div class="so-item"><div class="so-l">Crescimento</div><div class="so-v" id="bot-sim-growth">—</div></div>
+      <div class="so-item"><div class="so-l">Banca final</div><div class="so-v gold" id="bot-sim-final">—</div></div>
+      <div class="so-item"><div class="so-l">Lucro / Prejuízo</div><div class="so-v" id="bot-sim-profit">—</div></div>
+    </div>
   </div>`;
 
   const donut=(pct,label,sub)=>{
@@ -453,15 +569,19 @@ function vistaBot(d){
   h+=`<div class="sec-t" id="detalhe">Por janela</div>
     <div class="card"><div class="donut-grid">${donutsJan}</div></div>`;
 
+  const motivos=Object.entries(d.motivos).sort((a,b)=>b[1]-a[1]);
+  h+=`<div class="sec-t">Motivos dos cancelamentos</div><div class="card hbars">${motivos.length?motivos.map(x=>`<div class="hbar-row"><div class="hbar-top"><span class="hb-label">${x[0]}</span><span class="hb-stats">${x[1]}</span></div></div>`).join(''):'<div class="empty">Sem cancelamentos nesta época.</div>'}</div>`;
+
   const hr=d.historico.map(s=>`<tr><td>${s.data.split('-').reverse().join('/')}</td>
     <td>${s.jogo}</td><td>${s.janela}</td>
     <td class="num gold">${s.estrelas}</td>
     <td class="num">+${s.cantos_apos}</td>
     <td class="num"><span class="pill ${s.resultado_tecnico==='ganho'?'g':(s.resultado_tecnico==='perdido'?'p':'n')}">${s.resultado_tecnico==='ganho'?'WIN':(s.resultado_tecnico==='perdido'?'LOSS':'VOID')}</span></td>
-    <td class="num"><span class="pill ${s.resultado==='ganho'?'g':(s.resultado==='perdido'?'p':'n')}">${s.resultado==='cancelada'?'CANCELADA':(s.resultado==='ganho'?'CONFIRMADA':(s.resultado==='perdido'?'CONFIRMADA':'VOID'))}</span></td></tr>`).join('');
+    <td class="num"><span class="pill ${s.resultado==='ganho'?'g':(s.resultado==='perdido'?'p':'n')}">${s.resultado==='cancelada'?'CANCELADA':(s.resultado==='ganho'||s.resultado==='perdido'?'CONFIRMADA':(s.resultado==='nulo'?'VOID':'SEM REGISTO'))}</span></td>
+    <td>${s.motivo||'—'}</td></tr>`).join('');
   h+=`<div class="sec-t" id="hist">Histórico de sinais</div>
     <div class="card tbl-wrap"><table><thead><tr><th>Data</th><th>Jogo</th><th>Janela</th>
-    <th class="num">Score</th><th class="num">Cantos</th><th class="num">Resultado técnico</th><th class="num">Entrada</th></tr></thead>
+    <th class="num">Score</th><th class="num">Cantos</th><th class="num">Resultado técnico</th><th class="num">Entrada</th><th>Motivo</th></tr></thead>
     <tbody>${hr}</tbody></table></div>`;
   return h;
 }
@@ -475,10 +595,13 @@ function construirBot(H){
       var rt=String(a.resultado_tecnico||r).toUpperCase();
       var estado=String(a.estado_entrada||'').toUpperCase();
       var cancelada=r==='CANCELADA'||estado.indexOf('CANCEL')>=0||estado.indexOf('SEM ENTRADA')>=0;
+      var confirmada=estado==='CONFIRMADA';
       bs.push({data:dia, jogo:a.jogo||'', liga:a.liga||'', janela:a.janela||'',
         estrelas:a.estrelas||0, cantos_apos:a.cantos_apos_alerta||0,
-        resultado: cancelada?'cancelada':(r==='WIN'?'ganho':(r==='LOSS'?'perdido':'nulo')),
-        resultado_tecnico: rt==='WIN'?'ganho':(rt==='LOSS'?'perdido':'nulo')});
+        estado_entrada:cancelada?'cancelada':(confirmada?'confirmada':'sem_registo'),
+        resultado:cancelada?'cancelada':(!confirmada?'sem_registo':(r==='WIN'?'ganho':(r==='LOSS'?'perdido':'nulo'))),
+        resultado_tecnico:rt==='WIN'?'ganho':(rt==='LOSS'?'perdido':'nulo'),
+        motivo:a.motivo_cancelamento||a.justificacao_cancelamento||a.justificacao_void||a.motivo_void||a.motivo||''});
     });
   });
   if(!bs.length) return null;
@@ -499,7 +622,7 @@ function construirBot(H){
     wr:(g+p)?Math.round(1000*g/(g+p))/10:0,
     por_janela:pj,
     forma:apur.slice(-15).map(function(s){return s.resultado_tecnico;}),
-    historico:bs.slice().reverse().slice(0,60)};
+    historico:bs.slice().reverse()};
 }
 
 
@@ -530,11 +653,12 @@ function render(){
   document.getElementById('upd').textContent='Atualizado a '+DATA.atualizado;
   const cats=[['tips','Tips Pessoais'],['bot','ZI Corner Pro']];
   const segs=cats.map(c=>`<span class="seg ${c[0]===CAT?'on':''}" data-cat="${c[0]}">${c[1]}</span>`).join('');
-  let html=`<div class="segwrap"><div class="segbar">${segs}</div></div>`;
+  let html=`<div class="segwrap"><div class="segbar">${segs}</div></div>${seletorEpoca()}`;
   html+= CAT==='tips' ? vistaTips(DATA.tips_pessoais) : vistaBot(DATA.bot);
   app.innerHTML=html;
-  document.querySelectorAll('.seg').forEach(s=>s.onclick=()=>{CAT=s.dataset.cat;PAG=1;PAGB=1;render();window.scrollTo({top:0,behavior:'smooth'});});
-  if(CAT==='tips') calcularSimulador();
+  document.querySelectorAll('[data-cat]').forEach(s=>s.onclick=()=>{CAT=s.dataset.cat;PAG=1;PAGB=1;render();window.scrollTo({top:0,behavior:'smooth'});});
+  document.querySelectorAll('[data-epoca]').forEach(s=>s.onclick=()=>{EPOCA=s.dataset.epoca;PAG=1;PAGB=1;render();});
+  if(CAT==='tips') calcularSimulador(); else calcularSimuladorBot();
 }
 
 Promise.all([
@@ -546,11 +670,14 @@ Promise.all([
     '<div class="empty">Nao consegui carregar <b>dados.json</b>.</div>';return;}
   DATA=d;
   DATA.bot=construirBot(h);
+  var datas=(d.tips_pessoais&&d.tips_pessoais.historico||[]).map(function(x){return x.data||'';}).concat(Object.keys(h||{}));
+  var ultima=datas.filter(Boolean).sort().pop(); if(ultima) DATA.atualizado=ultima;
   if(window.__estado){
     var _e = window.__estado; window.__estado = null;
     if(_e.c) CAT = _e.c;
     if(_e.p) PAG = parseInt(_e.p) || 1;
     if(_e.pb) PAGB = parseInt(_e.pb) || 1;
+    if(_e.e) EPOCA = _e.e;
     render();
     if(_e.y) setTimeout(function(){ window.scrollTo(0, parseInt(_e.y) || 0); }, 80);
     return;
