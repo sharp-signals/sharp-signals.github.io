@@ -8,10 +8,10 @@
    "fim": "2026-01-31"
   },
   "cresc_pct": 56.91,
-  "apostas": 1120,
+  "apostas": 1121,
   "ganhos": 637,
-  "perdidos": 483,
-  "wr": 56.9,
+  "perdidos": 484,
+  "wr": 56.8,
   "meses": [
    {
     "mes": "2025-08",
@@ -72,9 +72,9 @@
    {
     "mes": "2026-09",
     "label": "Set 26",
-    "cresc_pct": 13.15,
-    "apostas": 77,
-    "wr": 58.4
+    "cresc_pct": 13.04,
+    "apostas": 78,
+    "wr": 57.7
    }
   ],
   "por_mercado": [
@@ -94,9 +94,9 @@
    },
    {
     "mercado": "Cashout",
-    "n": 159,
-    "wr": 47.8,
-    "roi": -2.8,
+    "n": 160,
+    "wr": 47.5,
+    "roi": -2.91,
     "pl_eur": -74.77
    },
    {
@@ -130,7 +130,6 @@
   ],
   "forma": [
    "cashout",
-   "cashout",
    "ganho",
    "ganho",
    "ganho",
@@ -143,7 +142,8 @@
    "cashout",
    "perdido",
    "ganho",
-   "perdido"
+   "perdido",
+   "cashout"
   ],
   "historico": [
    {
@@ -151,16 +151,17 @@
     "mes": "2026-09",
     "jogo": "Afr. do Sul u20 x Eswatini u20",
     "mercado": "⛳ Over 3 corners · 1st half",
-    "categoria": "Over Cantos HT",
+    "categoria": "Cashout",
     "odd": null,
-    "pl_pct": null,
+    "pl_pct": -0.112,
     "stake_pct": 0.75,
-    "resultado": "pendente",
+    "resultado": "cashout",
     "verified_id": "tip_proposal:20260923T101006751534Z:f6e79d15",
-    "estado_entrada": "aguarda_confirmacao",
-    "tipo_odd": "por_registar",
+    "estado_entrada": "confirmada",
+    "tipo_odd": "referencia_cashout_menos_15_pct",
     "odd_minima_recomendada": 1.81,
-    "confianca": 7
+    "confianca": 7,
+    "cashout_perda_referencia_pct_stake": 15.0
    },
    {
     "data": "2026-09-21",
