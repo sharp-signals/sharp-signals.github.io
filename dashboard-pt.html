@@ -477,7 +477,7 @@ function resumoBot(raw){
   const evoid=confirmadas.filter(x=>x.resultado==='nulo').length;
   const canceladas=historico.filter(cancelada);
   const motivos={};
-  canceladas.forEach(x=>{const m=(x.motivo||'Sem motivo estruturado').trim()||'Sem motivo estruturado';motivos[m]=(motivos[m]||0)+1;});
+  canceladas.forEach(x=>{const m=(x.motivo||'Motivo não registado — registo anterior').trim()||'Motivo não registado — registo anterior';motivos[m]=(motivos[m]||0)+1;});
   const por_janela={};
   tecnicos.forEach(x=>{const b=por_janela[x.janela]||(por_janela[x.janela]={janela:x.janela,n:0,g:0,p:0});b.n++;if(x.resultado_tecnico==='ganho')b.g++;else b.p++;});
   const janelas=Object.values(por_janela).map(j=>({...j,wr:j.n?Math.round(1000*j.g/j.n)/10:0})).sort((a,b)=>b.n-a.n);
