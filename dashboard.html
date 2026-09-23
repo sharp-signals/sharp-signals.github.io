@@ -445,7 +445,7 @@ function resumoBot(raw){
   const entradasDecididas=confirmadas.filter(x=>['ganho','perdido'].includes(x.resultado));
   const eg=entradasDecididas.filter(x=>x.resultado==='ganho').length,ep=entradasDecididas.filter(x=>x.resultado==='perdido').length;
   const canceladas=historico.filter(cancelada),motivos={};
-  canceladas.forEach(x=>{const m=(x.motivo||'No structured reason').trim()||'No structured reason';motivos[m]=(motivos[m]||0)+1;});
+  canceladas.forEach(x=>{const m=(x.motivo||'Reason not recorded — earlier record').trim()||'Reason not recorded — earlier record';motivos[m]=(motivos[m]||0)+1;});
   const por_janela={};tecnicos.forEach(x=>{const b=por_janela[x.janela]||(por_janela[x.janela]={janela:x.janela,n:0,g:0,p:0});b.n++;if(x.resultado_tecnico==='ganho')b.g++;else b.p++;});
   const janelas=Object.values(por_janela).map(j=>({...j,wr:j.n?Math.round(1000*j.g/j.n)/10:0})).sort((a,b)=>b.n-a.n);
   return {...raw,historico,tecnicos,confirmadas,ganhos:tg,perdidos:tp,apostas:historico.length,canceladas:canceladas.length,voidsTecnicos:historico.filter(x=>x.resultado_tecnico==='nulo').length,wr:(tg+tp)?Math.round(1000*tg/(tg+tp))/10:0,entradasGanhos:eg,entradasPerdidos:ep,entradasWr:(eg+ep)?Math.round(1000*eg/(eg+ep))/10:0,entradasVoid:confirmadas.filter(x=>x.resultado==='nulo').length,por_janela:janelas,forma:tecnicos.slice().reverse().map(x=>x.resultado_tecnico).slice(-15),motivos};
