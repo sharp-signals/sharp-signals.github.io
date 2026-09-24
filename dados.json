@@ -8,9 +8,9 @@
    "fim": "2026-01-31"
   },
   "cresc_pct": 56.91,
-  "apostas": 1125,
+  "apostas": 1126,
   "ganhos": 637,
-  "perdidos": 488,
+  "perdidos": 489,
   "wr": 56.6,
   "meses": [
    {
@@ -72,17 +72,17 @@
    {
     "mes": "2026-09",
     "label": "Set 26",
-    "cresc_pct": 10.04,
-    "apostas": 82,
-    "wr": 54.9
+    "cresc_pct": 9.29,
+    "apostas": 83,
+    "wr": 54.2
    }
   ],
   "por_mercado": [
    {
     "mercado": "Over Cantos FT",
-    "n": 617,
+    "n": 618,
     "wr": 58.3,
-    "roi": 34.26,
+    "roi": 33.51,
     "pl_eur": 1369.94
    },
    {
@@ -130,7 +130,6 @@
   ],
   "forma": [
    "ganho",
-   "ganho",
    "cashout",
    "perdido",
    "cashout",
@@ -140,6 +139,7 @@
    "ganho",
    "perdido",
    "cashout",
+   "perdido",
    "perdido",
    "perdido",
    "perdido",
@@ -152,13 +152,13 @@
     "jogo": "Austria x Israel",
     "mercado": "⛳ Over 7 corners · FT",
     "categoria": "Over Cantos FT",
-    "odd": null,
-    "pl_pct": null,
+    "odd": 1.84,
+    "pl_pct": -0.75,
     "stake_pct": 0.75,
-    "resultado": "pendente",
+    "resultado": "perdido",
     "verified_id": "tip_proposal:20260924T203242899950Z:c8144b35",
-    "estado_entrada": "aguarda_confirmacao",
-    "tipo_odd": "por_registar",
+    "estado_entrada": "confirmada",
+    "tipo_odd": "real",
     "odd_minima_recomendada": 1.81,
     "confianca": 7
    },
