@@ -379,16 +379,30 @@ function estrat(po){
     <div class="e-bot"><span>WR ${v.wr||0}% · ✅${v.g} ❌${v.p}</span>
     <span class="${cls(v.lucro)}">${f2(v.lucro)}u (${eur(v.lucro)})</span></div></div>`).join('');
 }
+let HIST_PAGE=1;
+const HIST_PAGE_SIZE=40;
+function histStamp(s){
+  if(s.published_at && Number.isFinite(Date.parse(s.published_at))) return Date.parse(s.published_at);
+  const day=Date.parse(s.data+'T00:00:00Z');
+  const time=/^(\d{2}):(\d{2})/.exec(s.hora||'');
+  if(!time) return day;
+  const h=Number(time[1]), m=Number(time[2]);
+  return day+((h<6?24:0)+h)*3600000+m*60000;
+}
+function histEscape(value){
+  return String(value??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+}
+function histPage(page){HIST_PAGE=page;render();document.getElementById('hist')?.scrollIntoView({block:'start'});}
 function hist(rows){
-  const bd=r=>r==='ganho'?'<span class="badge b-g">WON</span>':r==='perdido'?'<span class="badge b-p">LOST</span>':
-    r==='push'?'<span class="badge b-x">PUSH</span>':'<span class="badge b-w">PENDING</span>';
-  const tr=rows.slice().sort((a,b)=>(b.data+(b.hora||'')).localeCompare(a.data+(a.hora||''))).slice(0,40).map(s=>`<tr><td>${s.data}</td><td>${s.estrategia}</td>
-    <td style="color:var(--muted)">${s.liga||''}</td><td>${s.jogo||''}</td><td>${s.mercado||''}</td>
-    <td class="gold">${s.odd?Number(s.odd).toFixed(2):'—'}</td><td>${bd(s.resultado)}</td></tr>`).join('');
-  return `<div class="tblhint">→ swipe the table sideways to see odds and result</div>
-    <div class="card tbl" style="padding:6px 10px"><table>
-    <tr><th>Date</th><th>Strategy</th><th>League</th><th>Match</th><th>Market</th><th>Odds</th><th>Result</th></tr>
-    ${tr}</table></div>`;
+  const sorted=rows.slice().sort((a,b)=>histStamp(b)-histStamp(a)||String(a.signal_id||'').localeCompare(String(b.signal_id||'')));
+  const pages=Math.max(1,Math.ceil(sorted.length/HIST_PAGE_SIZE));
+  HIST_PAGE=Math.max(1,Math.min(pages,HIST_PAGE));
+  const start=(HIST_PAGE-1)*HIST_PAGE_SIZE;
+  const badge=r=>r==='ganho'?'<span class="badge b-g">WIN</span>':r==='perdido'?'<span class="badge b-p">LOSS</span>':r==='push'?'<span class="badge b-x">PUSH</span>':'<span class="badge b-w">PENDING</span>';
+  const tr=sorted.slice(start,start+HIST_PAGE_SIZE).map(s=>`<tr><td>${histEscape(s.data)}<br><small>${histEscape(s.hora)}</small></td><td>${histEscape(s.estrategia)}${s.origem==='manual'?'<br><small>Manual</small>':''}</td><td>${histEscape(s.liga)}</td><td>${histEscape(s.jogo)}</td><td>${histEscape(s.mercado)}</td><td class="gold">${s.odd?Number(s.odd).toFixed(2):'—'}</td><td>${badge(s.resultado)}</td></tr>`).join('');
+  return `<div class="tblhint">Full history · ${rows.length} records · Page ${HIST_PAGE}/${pages}</div>
+    <div class="card tbl" style="padding:6px 10px"><table><tr><th>Date</th><th>Channel</th><th>League</th><th>Match</th><th>Market</th><th>Odd</th><th>Result</th></tr>${tr}</table></div>
+    <div style="display:flex;gap:12px;align-items:center;padding:12px 0"><button ${HIST_PAGE===1?'disabled':''} onclick="histPage(HIST_PAGE-1)">Previous</button><span>${rows.length?start+1:0}–${Math.min(start+HIST_PAGE_SIZE,rows.length)} / ${rows.length}</span><button ${HIST_PAGE===pages?'disabled':''} onclick="histPage(HIST_PAGE+1)">Next</button></div>`;
 }
 
 function kpis(g){return kpisFor(g);}   // compat
@@ -416,7 +430,7 @@ function render(){
      <div class="sec-t" id="estrat">By strategy</div>
      <div class="grid estrats">${estrat(d.por_estrategia||{})}</div>
      <div class="sec-t" id="hist">History${STRAT==='Total'?'':' — '+nome}</div>${hist(histRows)}`;
-  document.querySelectorAll('.seg').forEach(s=>s.onclick=()=>{STRAT=s.dataset.strat;render();});
+  document.querySelectorAll('.seg').forEach(s=>s.onclick=()=>{STRAT=s.dataset.strat;HIST_PAGE=1;render();});
   runAnims();
   document.querySelectorAll('.reveal').forEach(el=>el.classList.add('in'));
 }
@@ -428,10 +442,11 @@ const q=new URLSearchParams(location.search).get('strat');
 const NOMES_ANTIGOS={'LIVE':'Golos 2ª Parte','Golos':'Golos (arquivo)'};
 if(q) STRAT=NOMES_ANTIGOS[q]||q;
 
-fetch('dashboard.json?'+Date.now()).then(r=>r.json()).then(d=>{DATA=d;render();})
+fetch('dashboard.json?'+Date.now(),{cache:'no-store'}).then(r=>{if(!r.ok)throw new Error('HTTP '+r.status);return r.json();}).then(d=>{DATA=d;render();})
   .catch(()=>{document.getElementById('app').innerHTML=
     '<div class="err">Couldn\'t load <b>dashboard.json</b>.<br>'+
     'Open via a server (<code>python -m http.server</code>) → http://localhost:8000/dashboard_mv.html</div>';});
 </script>
 </body>
 </html>
+
