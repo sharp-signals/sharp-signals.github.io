@@ -17,13 +17,13 @@
    "pode_nao_publicar": true
   }
  },
- "atualizado": "2026-09-24T06:02:21",
+ "atualizado": "2026-09-24T08:55:42",
  "geral": {
   "inicio": "2026-06-06",
   "fim": "2026-09-22",
-  "sinais": 272,
-  "sinais_financeiros": 256,
-  "ganhos": 131,
+  "sinais": 276,
+  "sinais_financeiros": 260,
+  "ganhos": 135,
   "perdidos": 120,
   "push": 5,
   "pendentes": 0,
@@ -32,9 +32,9 @@
   "condicionais_perdidos": 9,
   "condicionais_push": 0,
   "condicionais_pendentes": 0,
-  "wr": 52.2,
-  "lucro_u": 3.74,
-  "roi": 1.5,
+  "wr": 52.9,
+  "lucro_u": 8.59,
+  "roi": 3.4,
   "por_estrategia": {
    "Golos (arquivo)": {
     "n": 31,
@@ -63,26 +63,26 @@
     "wr": 53.1
    },
    "Golos 2ª Parte": {
-    "n": 79,
-    "g": 26,
+    "n": 83,
+    "g": 30,
     "p": 37,
-    "lucro": -11.4,
+    "lucro": -6.55,
     "condicionais": 16,
     "condicionais_g": 7,
     "condicionais_p": 9,
     "condicionais_push": 0,
     "condicionais_pendentes": 0,
-    "n_financeiros": 63,
-    "wr": 41.3
+    "n_financeiros": 67,
+    "wr": 44.8
    }
   }
  },
  "verificado": {
   "inicio": "2026-06-21",
   "fim": "2026-09-22",
-  "sinais": 79,
-  "sinais_financeiros": 63,
-  "ganhos": 26,
+  "sinais": 82,
+  "sinais_financeiros": 66,
+  "ganhos": 29,
   "perdidos": 37,
   "push": 0,
   "pendentes": 0,
@@ -91,22 +91,22 @@
   "condicionais_perdidos": 9,
   "condicionais_push": 0,
   "condicionais_pendentes": 0,
-  "wr": 41.3,
-  "lucro_u": -11.4,
-  "roi": -18.1,
+  "wr": 43.9,
+  "lucro_u": -7.6,
+  "roi": -11.5,
   "por_estrategia": {
    "Golos 2ª Parte": {
-    "n": 79,
-    "g": 26,
+    "n": 82,
+    "g": 29,
     "p": 37,
-    "lucro": -11.4,
+    "lucro": -7.6,
     "condicionais": 16,
     "condicionais_g": 7,
     "condicionais_p": 9,
     "condicionais_push": 0,
     "condicionais_pendentes": 0,
-    "n_financeiros": 63,
-    "wr": 41.3
+    "n_financeiros": 66,
+    "wr": 43.9
    }
   },
   "desde": "2026-06-21"
@@ -179,9 +179,9 @@
  "mensal": {
   "inicio": "2026-09-01",
   "fim": "2026-09-24",
-  "sinais": 53,
-  "sinais_financeiros": 37,
-  "ganhos": 14,
+  "sinais": 57,
+  "sinais_financeiros": 41,
+  "ganhos": 18,
   "perdidos": 23,
   "push": 0,
   "pendentes": 0,
@@ -190,9 +190,9 @@
   "condicionais_perdidos": 9,
   "condicionais_push": 0,
   "condicionais_pendentes": 0,
-  "wr": 37.8,
-  "lucro_u": -9.4,
-  "roi": -25.4,
+  "wr": 43.9,
+  "lucro_u": -4.55,
+  "roi": -11.1,
   "por_estrategia": {
    "Sharp Pick": {
     "n": 26,
@@ -208,17 +208,17 @@
     "wr": 38.5
    },
    "Golos 2ª Parte": {
-    "n": 27,
-    "g": 4,
+    "n": 31,
+    "g": 8,
     "p": 7,
-    "lucro": -3.74,
+    "lucro": 1.11,
     "condicionais": 16,
     "condicionais_g": 7,
     "condicionais_p": 9,
     "condicionais_push": 0,
     "condicionais_pendentes": 0,
-    "n_financeiros": 11,
-    "wr": 36.4
+    "n_financeiros": 15,
+    "wr": 53.3
    }
   }
  },
@@ -549,33 +549,33 @@
   },
   {
    "data": "2026-09-17",
-   "sinais": 4,
-   "lucro_dia": -2.09,
-   "lucro_acum": 4.4
+   "sinais": 5,
+   "lucro_dia": -1.04,
+   "lucro_acum": 5.45
   },
   {
    "data": "2026-09-18",
    "sinais": 2,
    "lucro_dia": -0.15,
-   "lucro_acum": 4.25
+   "lucro_acum": 5.3
   },
   {
    "data": "2026-09-19",
-   "sinais": 4,
-   "lucro_dia": -1.8,
-   "lucro_acum": 2.45
+   "sinais": 7,
+   "lucro_dia": 2.0,
+   "lucro_acum": 7.3
   },
   {
    "data": "2026-09-20",
    "sinais": 11,
    "lucro_dia": -0.91,
-   "lucro_acum": 1.54
+   "lucro_acum": 6.39
   },
   {
    "data": "2026-09-21",
    "sinais": 2,
    "lucro_dia": 2.2,
-   "lucro_acum": 3.74
+   "lucro_acum": 8.59
   }
  ],
  "serie_por_estrategia": {
@@ -906,33 +906,33 @@
    },
    {
     "data": "2026-09-17",
-    "sinais": 4,
-    "lucro_dia": -2.09,
-    "lucro_acum": 4.4
+    "sinais": 5,
+    "lucro_dia": -1.04,
+    "lucro_acum": 5.45
    },
    {
     "data": "2026-09-18",
     "sinais": 2,
     "lucro_dia": -0.15,
-    "lucro_acum": 4.25
+    "lucro_acum": 5.3
    },
    {
     "data": "2026-09-19",
-    "sinais": 4,
-    "lucro_dia": -1.8,
-    "lucro_acum": 2.45
+    "sinais": 7,
+    "lucro_dia": 2.0,
+    "lucro_acum": 7.3
    },
    {
     "data": "2026-09-20",
     "sinais": 11,
     "lucro_dia": -0.91,
-    "lucro_acum": 1.54
+    "lucro_acum": 6.39
    },
    {
     "data": "2026-09-21",
     "sinais": 2,
     "lucro_dia": 2.2,
-    "lucro_acum": 3.74
+    "lucro_acum": 8.59
    }
   ],
   "Golos (arquivo)": [
@@ -1107,22 +1107,28 @@
     "lucro_acum": -9.45
    },
    {
+    "data": "2026-09-17",
+    "sinais": 1,
+    "lucro_dia": 1.05,
+    "lucro_acum": -8.4
+   },
+   {
     "data": "2026-09-18",
     "sinais": 1,
     "lucro_dia": 0.85,
-    "lucro_acum": -8.6
+    "lucro_acum": -7.55
    },
    {
     "data": "2026-09-19",
-    "sinais": 4,
-    "lucro_dia": -1.8,
-    "lucro_acum": -10.4
+    "sinais": 7,
+    "lucro_dia": 2.0,
+    "lucro_acum": -5.55
    },
    {
     "data": "2026-09-20",
     "sinais": 1,
     "lucro_dia": -1.0,
-    "lucro_acum": -11.4
+    "lucro_acum": -6.55
    }
   ],
   "Sharp Pick": [
@@ -1397,9 +1403,9 @@
    "geral": {
     "inicio": "2026-06-06",
     "fim": "2026-09-22",
-    "sinais": 272,
-    "sinais_financeiros": 256,
-    "ganhos": 131,
+    "sinais": 276,
+    "sinais_financeiros": 260,
+    "ganhos": 135,
     "perdidos": 120,
     "push": 5,
     "pendentes": 0,
@@ -1408,9 +1414,9 @@
     "condicionais_perdidos": 9,
     "condicionais_push": 0,
     "condicionais_pendentes": 0,
-    "wr": 52.2,
-    "lucro_u": 3.74,
-    "roi": 1.5,
+    "wr": 52.9,
+    "lucro_u": 8.59,
+    "roi": 3.4,
     "por_estrategia": {
      "Golos (arquivo)": {
       "n": 31,
@@ -1439,17 +1445,17 @@
       "wr": 53.1
      },
      "Golos 2ª Parte": {
-      "n": 79,
-      "g": 26,
+      "n": 83,
+      "g": 30,
       "p": 37,
-      "lucro": -11.4,
+      "lucro": -6.55,
       "condicionais": 16,
       "condicionais_g": 7,
       "condicionais_p": 9,
       "condicionais_push": 0,
       "condicionais_pendentes": 0,
-      "n_financeiros": 63,
-      "wr": 41.3
+      "n_financeiros": 67,
+      "wr": 44.8
      }
     }
    },
@@ -1521,9 +1527,9 @@
    "mensal": {
     "inicio": "2026-09-01",
     "fim": "2026-09-24",
-    "sinais": 53,
-    "sinais_financeiros": 37,
-    "ganhos": 14,
+    "sinais": 57,
+    "sinais_financeiros": 41,
+    "ganhos": 18,
     "perdidos": 23,
     "push": 0,
     "pendentes": 0,
@@ -1532,9 +1538,9 @@
     "condicionais_perdidos": 9,
     "condicionais_push": 0,
     "condicionais_pendentes": 0,
-    "wr": 37.8,
-    "lucro_u": -9.4,
-    "roi": -25.4,
+    "wr": 43.9,
+    "lucro_u": -4.55,
+    "roi": -11.1,
     "por_estrategia": {
      "Sharp Pick": {
       "n": 26,
@@ -1550,17 +1556,17 @@
       "wr": 38.5
      },
      "Golos 2ª Parte": {
-      "n": 27,
-      "g": 4,
+      "n": 31,
+      "g": 8,
       "p": 7,
-      "lucro": -3.74,
+      "lucro": 1.11,
       "condicionais": 16,
       "condicionais_g": 7,
       "condicionais_p": 9,
       "condicionais_push": 0,
       "condicionais_pendentes": 0,
-      "n_financeiros": 11,
-      "wr": 36.4
+      "n_financeiros": 15,
+      "wr": 53.3
      }
     }
    },
@@ -1891,40 +1897,40 @@
     },
     {
      "data": "2026-09-17",
-     "sinais": 4,
-     "lucro_dia": -2.09,
-     "lucro_acum": 4.4
+     "sinais": 5,
+     "lucro_dia": -1.04,
+     "lucro_acum": 5.45
     },
     {
      "data": "2026-09-18",
      "sinais": 2,
      "lucro_dia": -0.15,
-     "lucro_acum": 4.25
+     "lucro_acum": 5.3
     },
     {
      "data": "2026-09-19",
-     "sinais": 4,
-     "lucro_dia": -1.8,
-     "lucro_acum": 2.45
+     "sinais": 7,
+     "lucro_dia": 2.0,
+     "lucro_acum": 7.3
     },
     {
      "data": "2026-09-20",
      "sinais": 11,
      "lucro_dia": -0.91,
-     "lucro_acum": 1.54
+     "lucro_acum": 6.39
     },
     {
      "data": "2026-09-21",
      "sinais": 2,
      "lucro_dia": 2.2,
-     "lucro_acum": 3.74
+     "lucro_acum": 8.59
     }
    ],
    "streak_atual": 5,
    "streak_melhor": 10,
    "forma": [
     "perdido",
-    "perdido",
+    "ganho",
     "perdido",
     "perdido",
     "perdido",
@@ -1942,7 +1948,7 @@
    "melhor_dia": 8.35,
    "melhor_dia_data": "2026-06-07",
    "maior_odd": 3.1,
-   "dias_verde_pct": 39.0
+   "dias_verde_pct": 40.7
   },
   "Golos (arquivo)": {
    "geral": {
@@ -2083,9 +2089,9 @@
    "geral": {
     "inicio": "2026-06-06",
     "fim": "2026-09-22",
-    "sinais": 79,
-    "sinais_financeiros": 63,
-    "ganhos": 26,
+    "sinais": 83,
+    "sinais_financeiros": 67,
+    "ganhos": 30,
     "perdidos": 37,
     "push": 0,
     "pendentes": 0,
@@ -2094,22 +2100,22 @@
     "condicionais_perdidos": 9,
     "condicionais_push": 0,
     "condicionais_pendentes": 0,
-    "wr": 41.3,
-    "lucro_u": -11.4,
-    "roi": -18.1,
+    "wr": 44.8,
+    "lucro_u": -6.55,
+    "roi": -9.8,
     "por_estrategia": {
      "Golos 2ª Parte": {
-      "n": 79,
-      "g": 26,
+      "n": 83,
+      "g": 30,
       "p": 37,
-      "lucro": -11.4,
+      "lucro": -6.55,
       "condicionais": 16,
       "condicionais_g": 7,
       "condicionais_p": 9,
       "condicionais_push": 0,
       "condicionais_pendentes": 0,
-      "n_financeiros": 63,
-      "wr": 41.3
+      "n_financeiros": 67,
+      "wr": 44.8
      }
     }
    },
@@ -2168,9 +2174,9 @@
    "mensal": {
     "inicio": "2026-09-01",
     "fim": "2026-09-24",
-    "sinais": 27,
-    "sinais_financeiros": 11,
-    "ganhos": 4,
+    "sinais": 31,
+    "sinais_financeiros": 15,
+    "ganhos": 8,
     "perdidos": 7,
     "push": 0,
     "pendentes": 0,
@@ -2179,22 +2185,22 @@
     "condicionais_perdidos": 9,
     "condicionais_push": 0,
     "condicionais_pendentes": 0,
-    "wr": 36.4,
-    "lucro_u": -3.74,
-    "roi": -34.0,
+    "wr": 53.3,
+    "lucro_u": 1.11,
+    "roi": 7.4,
     "por_estrategia": {
      "Golos 2ª Parte": {
-      "n": 27,
-      "g": 4,
+      "n": 31,
+      "g": 8,
       "p": 7,
-      "lucro": -3.74,
+      "lucro": 1.11,
       "condicionais": 16,
       "condicionais_g": 7,
       "condicionais_p": 9,
       "condicionais_push": 0,
       "condicionais_pendentes": 0,
-      "n_financeiros": 11,
-      "wr": 36.4
+      "n_financeiros": 15,
+      "wr": 53.3
      }
     }
    },
@@ -2350,47 +2356,53 @@
      "lucro_acum": -9.45
     },
     {
+     "data": "2026-09-17",
+     "sinais": 1,
+     "lucro_dia": 1.05,
+     "lucro_acum": -8.4
+    },
+    {
      "data": "2026-09-18",
      "sinais": 1,
      "lucro_dia": 0.85,
-     "lucro_acum": -8.6
+     "lucro_acum": -7.55
     },
     {
      "data": "2026-09-19",
-     "sinais": 4,
-     "lucro_dia": -1.8,
-     "lucro_acum": -10.4
+     "sinais": 7,
+     "lucro_dia": 2.0,
+     "lucro_acum": -5.55
     },
     {
      "data": "2026-09-20",
      "sinais": 1,
      "lucro_dia": -1.0,
-     "lucro_acum": -11.4
+     "lucro_acum": -6.55
     }
    ],
    "streak_atual": 0,
    "streak_melhor": 6,
    "forma": [
-    "ganho",
-    "perdido",
-    "perdido",
-    "perdido",
     "perdido",
     "perdido",
     "ganho",
     "ganho",
     "perdido",
     "ganho",
+    "ganho",
     "perdido",
+    "ganho",
+    "ganho",
     "ganho",
     "perdido",
     "perdido",
+    "ganho",
     "perdido"
    ],
    "melhor_dia": 4.11,
    "melhor_dia_data": "2026-07-31",
    "maior_odd": 2.65,
-   "dias_verde_pct": 39.3
+   "dias_verde_pct": 44.8
   },
   "Sharp Pick": {
    "geral": {
@@ -2831,17 +2843,17 @@
    "wr": 53.1
   },
   "Golos 2ª Parte": {
-   "n": 79,
-   "g": 26,
+   "n": 83,
+   "g": 30,
    "p": 37,
-   "lucro": -11.4,
+   "lucro": -6.55,
    "condicionais": 16,
    "condicionais_g": 7,
    "condicionais_p": 9,
    "condicionais_push": 0,
    "condicionais_pendentes": 0,
-   "n_financeiros": 63,
-   "wr": 41.3
+   "n_financeiros": 67,
+   "wr": 44.8
   }
  },
  "combinada": {
@@ -3165,6 +3177,851 @@
  },
  "historico_sinais": [
   {
+   "signal_id": "c9be1400a5c8fe7dafbc666a",
+   "fixture_id": 82740267205,
+   "published_at": null,
+   "origem": "automatico",
+   "produto": "over2p",
+   "data": "2026-06-06",
+   "hora": "00:50",
+   "estrategia": "Golos (arquivo)",
+   "liga": "Campeonato do Brasil. Série B",
+   "jogo": "Operário Ferroviário - Esporte Clube Juventude",
+   "mercado": "Over 2",
+   "odd": 1.79,
+   "resultado": "ganho"
+  },
+  {
+   "signal_id": "31f297ff1a48af2f2b62430b",
+   "fixture_id": 82740265247,
+   "published_at": null,
+   "origem": "automatico",
+   "produto": "over2p",
+   "data": "2026-06-06",
+   "hora": "00:50",
+   "estrategia": "Golos (arquivo)",
+   "liga": "Campeonato do Brasil. Série B",
+   "jogo": "Operário Ferroviário - Esporte Clube Juventude",
+   "mercado": "Over 2.5",
+   "odd": 2.66,
+   "resultado": "ganho"
+  },
+  {
+   "signal_id": "7f3fe705a7abb83a13915e96",
+   "fixture_id": 82741265795,
+   "published_at": null,
+   "origem": "automatico",
+   "produto": "over2p",
+   "data": "2026-06-06",
+   "hora": "01:45",
+   "estrategia": "Golos (arquivo)",
+   "liga": "Amigáveis. Seleções Nacionais",
+   "jogo": "Canadá - República da Irlanda",
+   "mercado": "Over 2.5",
+   "odd": 2.47,
+   "resultado": "perdido"
+  },
+  {
+   "signal_id": "0c25eeba3a162eed0a3456ce",
+   "fixture_id": 82741264011,
+   "published_at": null,
+   "origem": "automatico",
+   "produto": "over2p",
+   "data": "2026-06-06",
+   "hora": "01:45",
+   "estrategia": "Golos (arquivo)",
+   "liga": "Amigáveis. Seleções Nacionais",
+   "jogo": "Canadá - República da Irlanda",
+   "mercado": "Over 2",
+   "odd": 1.0,
+   "resultado": "push"
+  },
+  {
+   "signal_id": "6a4414b0afe284199012393d",
+   "fixture_id": 82742317075,
+   "published_at": null,
+   "origem": "automatico",
+   "produto": "over2p",
+   "data": "2026-06-06",
+   "hora": "02:51",
+   "estrategia": "Golos (arquivo)",
+   "liga": "USA. MLS Next Pro",
+   "jogo": "Vancouver Whitecaps II - Portland Timbers II",
+   "mercado": "Over 1.5",
+   "odd": 1.66,
+   "resultado": "perdido"
+  },
+  {
+   "signal_id": "7e0add2a209f84027b9dff4a",
+   "fixture_id": 82745884725,
+   "published_at": null,
+   "origem": "automatico",
+   "produto": "over2p",
+   "data": "2026-06-06",
+   "hora": "07:01",
+   "estrategia": "Golos (arquivo)",
+   "liga": "Campeonato do Japão",
+   "jogo": "Kashima Antlers - Vissel Kobe",
+   "mercado": "Over 1.5",
+   "odd": 2.12,
+   "resultado": "ganho"
+  },
+  {
+   "signal_id": "f78e2d7d37de59371389cc4a",
+   "fixture_id": 82746042023,
+   "published_at": null,
+   "origem": "automatico",
+   "produto": "over2p",
+   "data": "2026-06-06",
+   "hora": "07:09",
+   "estrategia": "Golos (arquivo)",
+   "liga": "Campeonato do Japão",
+   "jogo": "JEF United Ichihara Chiba - Avispa Fukuoka",
+   "mercado": "Over 2",
+   "odd": 1.7,
+   "resultado": "ganho"
+  },
+  {
+   "signal_id": "1f71a83830a039689c6103ce",
+   "fixture_id": 82746044905,
+   "published_at": null,
+   "origem": "automatico",
+   "produto": "over2p",
+   "data": "2026-06-06",
+   "hora": "07:10",
+   "estrategia": "Golos (arquivo)",
+   "liga": "Campeonato do Japão",
+   "jogo": "JEF United Ichihara Chiba - Avispa Fukuoka",
+   "mercado": "Over 2.5",
+   "odd": 2.68,
+   "resultado": "ganho"
+  },
+  {
+   "signal_id": "57254a9b56ac3ff994c69c48",
+   "fixture_id": 82781089109,
+   "published_at": null,
+   "origem": "automatico",
+   "produto": "over2p",
+   "data": "2026-06-06",
+   "hora": "23:57",
+   "estrategia": "Golos (arquivo)",
+   "liga": "Amigáveis. Seleções Nacionais",
+   "jogo": "Venezuela - Turquia",
+   "mercado": "Over 3.5",
+   "odd": 1.91,
+   "resultado": "perdido"
+  },
+  {
+   "signal_id": "a23f879733fa80aa7e253b4a",
+   "fixture_id": 82781086065,
+   "published_at": null,
+   "origem": "automatico",
+   "produto": "over2p",
+   "data": "2026-06-06",
+   "hora": "23:57",
+   "estrategia": "Golos (arquivo)",
+   "liga": "Amigáveis. Seleções Nacionais",
+   "jogo": "Venezuela - Turquia",
+   "mercado": "Over 3",
+   "odd": 1.0,
+   "resultado": "push"
+  },
+  {
+   "signal_id": "23e71acb3ab014d9eef24df1",
+   "fixture_id": 82781079413,
+   "published_at": null,
+   "origem": "automatico",
+   "produto": "over2p",
+   "data": "2026-06-06",
+   "hora": "23:57",
+   "estrategia": "Golos (arquivo)",
+   "liga": "Amigáveis. Seleções Nacionais",
+   "jogo": "Brazil - Egito",
+   "mercado": "Over 3.5",
+   "odd": 1.73,
+   "resultado": "perdido"
+  },
+  {
+   "signal_id": "ad862bc97191364c7af785a6",
+   "fixture_id": 82782884757,
+   "published_at": null,
+   "origem": "automatico",
+   "produto": "over2p",
+   "data": "2026-06-07",
+   "hora": "01:20",
+   "estrategia": "Golos (arquivo)",
+   "liga": "Campeonato Canadense. Premier League",
+   "jogo": "Cavalry - HFX Wanderers",
+   "mercado": "Over 1",
+   "odd": 1.37,
+   "resultado": "ganho"
+  },
+  {
+   "signal_id": "3ad2943c01bc79e5e5906ba3",
+   "fixture_id": 82782877153,
+   "published_at": null,
+   "origem": "automatico",
+   "produto": "over2p",
+   "data": "2026-06-07",
+   "hora": "01:20",
+   "estrategia": "Golos (arquivo)",
+   "liga": "Campeonato Canadense. Premier League",
+   "jogo": "Cavalry - HFX Wanderers",
+   "mercado": "Over 1.5",
+   "odd": 1.92,
+   "resultado": "ganho"
+  },
+  {
+   "signal_id": "be7d8b7ceb7f61b794d423c7",
+   "fixture_id": 82783473439,
+   "published_at": null,
+   "origem": "automatico",
+   "produto": "over2p",
+   "data": "2026-06-07",
+   "hora": "01:57",
+   "estrategia": "Golos (arquivo)",
+   "liga": "Amigáveis. Seleções Nacionais",
+   "jogo": "Argentina - Honduras",
+   "mercado": "Over 2.5",
+   "odd": 1.79,
+   "resultado": "perdido"
+  },
+  {
+   "signal_id": "926841841c0d8647ae4f772d",
+   "fixture_id": 82783470357,
+   "published_at": null,
+   "origem": "automatico",
+   "produto": "over2p",
+   "data": "2026-06-07",
+   "hora": "01:57",
+   "estrategia": "Golos (arquivo)",
+   "liga": "Amigáveis. Seleções Nacionais",
+   "jogo": "Argentina - Honduras",
+   "mercado": "Over 2",
+   "odd": 1.0,
+   "resultado": "push"
+  },
+  {
+   "signal_id": "01f1c57793c02f68b4945e27",
+   "fixture_id": 82784327841,
+   "published_at": null,
+   "origem": "automatico",
+   "produto": "over2p",
+   "data": "2026-06-07",
+   "hora": "02:57",
+   "estrategia": "Golos (arquivo)",
+   "liga": "USA. USL Cup",
+   "jogo": "Spokane Velocity - Athletic Boise",
+   "mercado": "Over 1.5",
+   "odd": 2.31,
+   "resultado": "ganho"
+  },
+  {
+   "signal_id": "fc4260546f744fd9246aae10",
+   "fixture_id": 82784325983,
+   "published_at": null,
+   "origem": "automatico",
+   "produto": "over2p",
+   "data": "2026-06-07",
+   "hora": "02:57",
+   "estrategia": "Golos (arquivo)",
+   "liga": "USA. USL Cup",
+   "jogo": "Spokane Velocity - Athletic Boise",
+   "mercado": "Over 1",
+   "odd": 1.53,
+   "resultado": "ganho"
+  },
+  {
+   "signal_id": "106bdc8ce01b5debda04fe6e",
+   "fixture_id": 82784687717,
+   "published_at": null,
+   "origem": "automatico",
+   "produto": "over2p",
+   "data": "2026-06-07",
+   "hora": "03:25",
+   "estrategia": "Golos (arquivo)",
+   "liga": "USA. USL Cup",
+   "jogo": "New Mexico United - Phoenix Rising",
+   "mercado": "Over 2",
+   "odd": 1.29,
+   "resultado": "ganho"
+  },
+  {
+   "signal_id": "55f659732c378c2433a75787",
+   "fixture_id": 82784685817,
+   "published_at": null,
+   "origem": "automatico",
+   "produto": "over2p",
+   "data": "2026-06-07",
+   "hora": "03:25",
+   "estrategia": "Golos (arquivo)",
+   "liga": "USA. USL Cup",
+   "jogo": "New Mexico United - Phoenix Rising",
+   "mercado": "Over 2.5",
+   "odd": 1.89,
+   "resultado": "ganho"
+  },
+  {
+   "signal_id": "3bc29f0792c450c8bd2ee461",
+   "fixture_id": 82785099801,
+   "published_at": null,
+   "origem": "automatico",
+   "produto": "over2p",
+   "data": "2026-06-07",
+   "hora": "03:59",
+   "estrategia": "Golos (arquivo)",
+   "liga": "USA. MLS Next Pro",
+   "jogo": "Ventura County - Houston Dynamo II",
+   "mercado": "Over 1.5",
+   "odd": 1.9,
+   "resultado": "ganho"
+  },
+  {
+   "signal_id": "c86e7122e43d0e3e7c543fe9",
+   "fixture_id": 82785098661,
+   "published_at": null,
+   "origem": "automatico",
+   "produto": "over2p",
+   "data": "2026-06-07",
+   "hora": "03:59",
+   "estrategia": "Golos (arquivo)",
+   "liga": "USA. MLS Next Pro",
+   "jogo": "Ventura County - Houston Dynamo II",
+   "mercado": "Over 1",
+   "odd": 1.36,
+   "resultado": "ganho"
+  },
+  {
+   "signal_id": "b26d4f3278d16ab579d25b31",
+   "fixture_id": 82785742275,
+   "published_at": null,
+   "origem": "automatico",
+   "produto": "over2p",
+   "data": "2026-06-07",
+   "hora": "04:58",
+   "estrategia": "Golos (arquivo)",
+   "liga": "USA. USL Cup",
+   "jogo": "Sacramento Republic - Monterey Bay",
+   "mercado": "Over 1.5",
+   "odd": 2.31,
+   "resultado": "ganho"
+  },
+  {
+   "signal_id": "4811af09f135a0a7c7b6132d",
+   "fixture_id": 82785740417,
+   "published_at": null,
+   "origem": "automatico",
+   "produto": "over2p",
+   "data": "2026-06-07",
+   "hora": "04:58",
+   "estrategia": "Golos (arquivo)",
+   "liga": "USA. USL Cup",
+   "jogo": "Sacramento Republic - Monterey Bay",
+   "mercado": "Over 1",
+   "odd": 1.65,
+   "resultado": "ganho"
+  },
+  {
+   "signal_id": "09bb4d2e3cdff7955eaacaf9",
+   "fixture_id": 82816173743,
+   "published_at": null,
+   "origem": "automatico",
+   "produto": "over2p",
+   "data": "2026-06-07",
+   "hora": "22:16",
+   "estrategia": "Golos (arquivo)",
+   "liga": "Amigáveis. Seleções Nacionais",
+   "jogo": "Equador - Guatemala",
+   "mercado": "Over 2.5",
+   "odd": 1.87,
+   "resultado": "ganho"
+  },
+  {
+   "signal_id": "d5c9f26a297d73276a68ffa1",
+   "fixture_id": 82816169845,
+   "published_at": null,
+   "origem": "automatico",
+   "produto": "over2p",
+   "data": "2026-06-07",
+   "hora": "22:16",
+   "estrategia": "Golos (arquivo)",
+   "liga": "Amigáveis. Seleções Nacionais",
+   "jogo": "Equador - Guatemala",
+   "mercado": "Over 2",
+   "odd": 1.3,
+   "resultado": "ganho"
+  },
+  {
+   "signal_id": "722458fd226ab67e336c0e76",
+   "fixture_id": 82817431635,
+   "published_at": null,
+   "origem": "automatico",
+   "produto": "over2p",
+   "data": "2026-06-07",
+   "hora": "23:08",
+   "estrategia": "Golos (arquivo)",
+   "liga": "Campeonato do Uruguai. 2ª Divisão",
+   "jogo": "Tacuarembo - Uruguay Montevideo",
+   "mercado": "Over 1.5",
+   "odd": 2.95,
+   "resultado": "perdido"
+  },
+  {
+   "signal_id": "4dd342ad7b57457caeee883e",
+   "fixture_id": 82817427285,
+   "published_at": null,
+   "origem": "automatico",
+   "produto": "over2p",
+   "data": "2026-06-07",
+   "hora": "23:08",
+   "estrategia": "Golos (arquivo)",
+   "liga": "Campeonato do Uruguai. 2ª Divisão",
+   "jogo": "Tacuarembo - Uruguay Montevideo",
+   "mercado": "Over 1",
+   "odd": 1.0,
+   "resultado": "push"
+  },
+  {
+   "signal_id": "37dfa76e4835fa8569608147",
+   "fixture_id": 82817660435,
+   "published_at": null,
+   "origem": "automatico",
+   "produto": "over2p",
+   "data": "2026-06-07",
+   "hora": "23:18",
+   "estrategia": "Golos (arquivo)",
+   "liga": "Campeonato do Uruguai. 1ª Divisão",
+   "jogo": "Defensor Sporting - Club Atletico Boston River",
+   "mercado": "Over 1.5",
+   "odd": 2.21,
+   "resultado": "ganho"
+  },
+  {
+   "signal_id": "d568b9ed2326d394db174a6f",
+   "fixture_id": 82817658313,
+   "published_at": null,
+   "origem": "automatico",
+   "produto": "over2p",
+   "data": "2026-06-07",
+   "hora": "23:18",
+   "estrategia": "Golos (arquivo)",
+   "liga": "Campeonato do Uruguai. 1ª Divisão",
+   "jogo": "Defensor Sporting - Club Atletico Boston River",
+   "mercado": "Over 1",
+   "odd": 1.44,
+   "resultado": "ganho"
+  },
+  {
+   "signal_id": "1a3ad670c436f759fc1f0007",
+   "fixture_id": 82852335489,
+   "published_at": null,
+   "origem": "automatico",
+   "produto": "over2p",
+   "data": "2026-06-09",
+   "hora": "00:55",
+   "estrategia": "Golos (arquivo)",
+   "liga": "Campeonato do Brasil. Série B",
+   "jogo": "America Minas Gerais - Clube Atlético de Goianiense",
+   "mercado": "Over 3.5",
+   "odd": 2.65,
+   "resultado": "perdido"
+  },
+  {
+   "signal_id": "c4244937353027c1371a8380",
+   "fixture_id": 82852331465,
+   "published_at": null,
+   "origem": "automatico",
+   "produto": "over2p",
+   "data": "2026-06-09",
+   "hora": "00:55",
+   "estrategia": "Golos (arquivo)",
+   "liga": "Campeonato do Brasil. Série B",
+   "jogo": "America Minas Gerais - Clube Atlético de Goianiense",
+   "mercado": "Over 3",
+   "odd": 1.0,
+   "resultado": "push"
+  },
+  {
+   "signal_id": "7a8a0ebd3fcd1dc504da6963",
+   "fixture_id": 1548301,
+   "published_at": null,
+   "origem": "manual",
+   "produto": "over2p",
+   "data": "2026-06-10",
+   "hora": "15:49",
+   "estrategia": "Sharp Pick",
+   "liga": "Suomen Cup",
+   "jogo": "KuPS 0-0 VPS",
+   "mercado": "Over 1.5 FT",
+   "odd": 1.25,
+   "resultado": "perdido"
+  },
+  {
+   "signal_id": "a3f5a69b744fb31f6bd98951",
+   "fixture_id": 1527990,
+   "published_at": null,
+   "origem": "manual",
+   "produto": "over2p",
+   "data": "2026-06-13",
+   "hora": "14:49",
+   "estrategia": "Sharp Pick",
+   "liga": "Premier League",
+   "jogo": "Kairat Almaty 1-0 Atyrau",
+   "mercado": "Over 2.5 FT",
+   "odd": 1.9,
+   "resultado": "perdido"
+  },
+  {
+   "signal_id": "32bf52cf48965f746ccac059",
+   "fixture_id": 1534333,
+   "published_at": null,
+   "origem": "manual",
+   "produto": "over2p",
+   "data": "2026-06-13",
+   "hora": "14:54",
+   "estrategia": "Sharp Pick",
+   "liga": "1. Division",
+   "jogo": "Molodechno-DYuSSh 4 1-0 FC Energetik-Bgu Minsk",
+   "mercado": "Over 2.5 FT",
+   "odd": null,
+   "resultado": "ganho"
+  },
+  {
+   "signal_id": "be529992698b4efcf29658cc",
+   "fixture_id": 1525893,
+   "published_at": null,
+   "origem": "manual",
+   "produto": "over2p",
+   "data": "2026-06-13",
+   "hora": "16:01",
+   "estrategia": "Sharp Pick",
+   "liga": "Premier League",
+   "jogo": "ML Vitebsk 0-1 FC Vitebsk",
+   "mercado": "Over 2.5 FT",
+   "odd": 1.89,
+   "resultado": "ganho"
+  },
+  {
+   "signal_id": "fad652c0a4ae4857ca1e8696",
+   "fixture_id": 1509140,
+   "published_at": null,
+   "origem": "manual",
+   "produto": "over2p",
+   "data": "2026-06-13",
+   "hora": "16:54",
+   "estrategia": "Sharp Pick",
+   "liga": "Erovnuli Liga",
+   "jogo": "Rustavi 0-0 Meshakhte",
+   "mercado": "Over 1.5 FT",
+   "odd": 1.28,
+   "resultado": "perdido"
+  },
+  {
+   "signal_id": "919d514cbd1bfe457de74b46",
+   "fixture_id": 1509141,
+   "published_at": null,
+   "origem": "manual",
+   "produto": "over2p",
+   "data": "2026-06-13",
+   "hora": "19:07",
+   "estrategia": "Sharp Pick",
+   "liga": "Erovnuli Liga",
+   "jogo": "Samgurali 1-0 Torpedo Kutaisi",
+   "mercado": "Over 2.5 FT",
+   "odd": 1.75,
+   "resultado": "ganho"
+  },
+  {
+   "signal_id": "07ed7028df2d8fd53a5151ca",
+   "fixture_id": 1497604,
+   "published_at": null,
+   "origem": "manual",
+   "produto": "over2p",
+   "data": "2026-06-14",
+   "hora": "13:06",
+   "estrategia": "Sharp Pick",
+   "liga": "Superettan",
+   "jogo": "Norrby IF 0-0 Oddevold",
+   "mercado": "Over 1.5 FT",
+   "odd": 1.25,
+   "resultado": "ganho"
+  },
+  {
+   "signal_id": "bba13dd732bf1af31a223f3a",
+   "fixture_id": 1497601,
+   "published_at": null,
+   "origem": "manual",
+   "produto": "over2p",
+   "data": "2026-06-14",
+   "hora": "14:57",
+   "estrategia": "Sharp Pick",
+   "liga": "Superettan",
+   "jogo": "Falkenbergs FF 0-1 Orebro SK",
+   "mercado": "Over 2.5 FT",
+   "odd": 1.75,
+   "resultado": "perdido"
+  },
+  {
+   "signal_id": "4b7fe53c70893984ac90bbec",
+   "fixture_id": 1495863,
+   "published_at": null,
+   "origem": "automatico",
+   "produto": "over2p",
+   "data": "2026-06-21",
+   "hora": "15:55",
+   "estrategia": "Golos 2ª Parte",
+   "liga": "1. Division",
+   "jogo": "Bryne vs Asane",
+   "mercado": "Over 1.5 · 2ª parte",
+   "odd": 1.8,
+   "resultado": "perdido"
+  },
+  {
+   "signal_id": "23bf89dd18d9bfd785c63021",
+   "fixture_id": 1509148,
+   "published_at": null,
+   "origem": "manual",
+   "produto": "over2p",
+   "data": "2026-06-22",
+   "hora": "16:55",
+   "estrategia": "Sharp Pick",
+   "liga": "Erovnuli Liga",
+   "jogo": "Dila 0-0 Rustavi",
+   "mercado": "Over 1.5 FT",
+   "odd": 1.32,
+   "resultado": "ganho"
+  },
+  {
+   "signal_id": "7451fa7027c0f9efd6eea51f",
+   "fixture_id": 1497613,
+   "published_at": null,
+   "origem": "automatico",
+   "produto": "over2p",
+   "data": "2026-06-22",
+   "hora": "20:02",
+   "estrategia": "Golos 2ª Parte",
+   "liga": "Superettan",
+   "jogo": "Orebro SK vs Sandviken",
+   "mercado": "Over 1.5 · 2ª parte",
+   "odd": 1.95,
+   "resultado": "perdido"
+  },
+  {
+   "signal_id": "ff4e85f98c00e5287a524e1a",
+   "fixture_id": 1508789,
+   "published_at": null,
+   "origem": "automatico",
+   "produto": "over2p",
+   "data": "2026-06-22",
+   "hora": "21:05",
+   "estrategia": "Golos 2ª Parte",
+   "liga": "Úrvalsdeild",
+   "jogo": "KR Reykjavik vs IA Akranes",
+   "mercado": "Over 1.5 · 2ª parte",
+   "odd": 1.65,
+   "resultado": "ganho"
+  },
+  {
+   "signal_id": "206df7121dd43cadde250837",
+   "fixture_id": 1489408,
+   "published_at": null,
+   "origem": "manual",
+   "produto": "over2p",
+   "data": "2026-06-24",
+   "hora": "20:56",
+   "estrategia": "Sharp Pick",
+   "liga": "World Cup",
+   "jogo": "Switzerland 0-0 Canada",
+   "mercado": "Over 1.5 FT",
+   "odd": 2.425,
+   "resultado": "ganho"
+  },
+  {
+   "signal_id": "745b36be7a71d9d9dc655bb5",
+   "fixture_id": 1497617,
+   "published_at": null,
+   "origem": "automatico",
+   "produto": "over2p",
+   "data": "2026-06-26",
+   "hora": "18:52",
+   "estrategia": "Golos 2ª Parte",
+   "liga": "Superettan",
+   "jogo": "IK brage vs Falkenbergs FF",
+   "mercado": "Over 1.5 · 2ª parte",
+   "odd": 1.85,
+   "resultado": "ganho"
+  },
+  {
+   "signal_id": "962cc11ab4dcefb4fbaf8c0c",
+   "fixture_id": 1492924,
+   "published_at": null,
+   "origem": "manual",
+   "produto": "over2p",
+   "data": "2026-06-26",
+   "hora": "20:40",
+   "estrategia": "Sharp Pick",
+   "liga": "First Division",
+   "jogo": "Wexford 0-0 Treaty United",
+   "mercado": "Over 1.5 FT",
+   "odd": 2.25,
+   "resultado": "perdido"
+  },
+  {
+   "signal_id": "fd0aeaa049a297398c8373ed",
+   "fixture_id": 1492921,
+   "published_at": null,
+   "origem": "automatico",
+   "produto": "over2p",
+   "data": "2026-06-26",
+   "hora": "20:48",
+   "estrategia": "Golos 2ª Parte",
+   "liga": "First Division",
+   "jogo": "Cork City vs Bray Wanderers",
+   "mercado": "Over 1.5 · 2ª parte",
+   "odd": 1.93,
+   "resultado": "perdido"
+  },
+  {
+   "signal_id": "bb9e7ab2692ea9cf951255b3",
+   "fixture_id": 1539074,
+   "published_at": null,
+   "origem": "manual",
+   "produto": "over2p",
+   "data": "2026-06-26",
+   "hora": "21:11",
+   "estrategia": "Sharp Pick",
+   "liga": "World Cup",
+   "jogo": "Senegal 1-0 Iraq",
+   "mercado": "Over 2.5 FT",
+   "odd": 1.55,
+   "resultado": "ganho"
+  },
+  {
+   "signal_id": "692b016b3f787889ab17b75d",
+   "fixture_id": 1523180,
+   "published_at": null,
+   "origem": "automatico",
+   "produto": "over2p",
+   "data": "2026-06-27",
+   "hora": "12:49",
+   "estrategia": "Golos 2ª Parte",
+   "liga": "Chinese Super League",
+   "jogo": "Shenyang Urban vs Shandong Luneng",
+   "mercado": "Over 1.5 · 2ª parte",
+   "odd": 1.875,
+   "resultado": "ganho"
+  },
+  {
+   "signal_id": "e5acb16f42b480cf6a6c848a",
+   "fixture_id": 1495715,
+   "published_at": null,
+   "origem": "manual",
+   "produto": "over2p",
+   "data": "2026-06-27",
+   "hora": "12:52",
+   "estrategia": "Sharp Pick",
+   "liga": "Veikkausliiga",
+   "jogo": "Ilves 0-0 SJK",
+   "mercado": "Over 1.5 FT",
+   "odd": 1.9,
+   "resultado": "ganho"
+  },
+  {
+   "signal_id": "874a7d5ae8d13ff82afa6382",
+   "fixture_id": 1525910,
+   "published_at": null,
+   "origem": "manual",
+   "produto": "over2p",
+   "data": "2026-06-27",
+   "hora": "13:25",
+   "estrategia": "Sharp Pick",
+   "liga": "Premier League",
+   "jogo": "Torpedo Zhodino 1-0 Bate Borisov",
+   "mercado": "Over 2.5 FT",
+   "odd": 2.375,
+   "resultado": "ganho"
+  },
+  {
+   "signal_id": "8114991f477803a55c5142bd",
+   "fixture_id": 1523182,
+   "published_at": null,
+   "origem": "automatico",
+   "produto": "over2p",
+   "data": "2026-06-27",
+   "hora": "13:30",
+   "estrategia": "Golos 2ª Parte",
+   "liga": "Chinese Super League",
+   "jogo": "Sichuan Jiuniu vs Chengdu Better City",
+   "mercado": "Over 1.5 · 2ª parte",
+   "odd": 2.0,
+   "resultado": "ganho"
+  },
+  {
+   "signal_id": "901007a0622cf9af2a8595d2",
+   "fixture_id": 1523183,
+   "published_at": null,
+   "origem": "automatico",
+   "produto": "over2p",
+   "data": "2026-06-27",
+   "hora": "14:02",
+   "estrategia": "Golos 2ª Parte",
+   "liga": "Chinese Super League",
+   "jogo": "Beijing Guoan vs Wuhan Three Towns",
+   "mercado": "Over 1.5 · 2ª parte",
+   "odd": 1.74,
+   "resultado": "perdido"
+  },
+  {
+   "signal_id": "33e17d57b1465b0c40d7bdbe",
+   "fixture_id": 1497621,
+   "published_at": null,
+   "origem": "automatico",
+   "produto": "over2p",
+   "data": "2026-06-28",
+   "hora": "14:59",
+   "estrategia": "Golos 2ª Parte",
+   "liga": "Superettan",
+   "jogo": "IFK Norrkoping vs Norrby IF",
+   "mercado": "Over 1.5 · 2ª parte",
+   "odd": 2.22,
+   "resultado": "perdido"
+  },
+  {
+   "signal_id": "e62c4f4955e8337439674872",
+   "fixture_id": 1508791,
+   "published_at": null,
+   "origem": "automatico",
+   "produto": "over2p",
+   "data": "2026-06-28",
+   "hora": "18:46",
+   "estrategia": "Golos 2ª Parte",
+   "liga": "Úrvalsdeild",
+   "jogo": "Keflavik vs KR Reykjavik",
+   "mercado": "Over 1.5 · 2ª parte",
+   "odd": 2.01,
+   "resultado": "ganho"
+  },
+  {
+   "signal_id": "256eb0e96853e060e840d75e",
+   "fixture_id": 1508792,
+   "published_at": null,
+   "origem": "automatico",
+   "produto": "over2p",
+   "data": "2026-06-28",
+   "hora": "18:49",
+   "estrategia": "Golos 2ª Parte",
+   "liga": "Úrvalsdeild",
+   "jogo": "Stjarnan vs KA Akureyri",
+   "mercado": "Over 1.5 · 2ª parte",
+   "odd": 1.92,
+   "resultado": "ganho"
+  },
+  {
+   "signal_id": "342c8897024dac95c87c03d5",
+   "fixture_id": 1562344,
+   "published_at": null,
+   "origem": "manual",
+   "produto": "over2p",
    "data": "2026-06-29",
    "hora": "19:00",
    "estrategia": "Sharp Pick",
@@ -3175,6 +4032,11 @@
    "resultado": "ganho"
   },
   {
+   "signal_id": "c4d1930f5bdf3574094c4eb6",
+   "fixture_id": 1508799,
+   "published_at": null,
+   "origem": "automatico",
+   "produto": "over2p",
    "data": "2026-07-02",
    "hora": "18:49",
    "estrategia": "Golos 2ª Parte",
@@ -3185,6 +4047,11 @@
    "resultado": "ganho"
   },
   {
+   "signal_id": "8ed05d366b2e2e07243f13bf",
+   "fixture_id": 1508796,
+   "published_at": null,
+   "origem": "automatico",
+   "produto": "over2p",
    "data": "2026-07-02",
    "hora": "21:02",
    "estrategia": "Golos 2ª Parte",
@@ -3195,6 +4062,11 @@
    "resultado": "ganho"
   },
   {
+   "signal_id": "f2ba6303b388671db2818dcb",
+   "fixture_id": null,
+   "published_at": null,
+   "origem": "manual",
+   "produto": "over2p",
    "data": "2026-07-02",
    "hora": "21:10",
    "estrategia": "Sharp Pick",
@@ -3205,6 +4077,11 @@
    "resultado": "ganho"
   },
   {
+   "signal_id": "f2a1636e4b32f2f754d517a1",
+   "fixture_id": null,
+   "published_at": null,
+   "origem": "manual",
+   "produto": "over2p",
    "data": "2026-07-02",
    "hora": "21:11",
    "estrategia": "Sharp Pick",
@@ -3215,6 +4092,11 @@
    "resultado": "perdido"
   },
   {
+   "signal_id": "b65071eeb9dd87c8297ba28d",
+   "fixture_id": 1523187,
+   "published_at": null,
+   "origem": "manual",
+   "produto": "over2p",
    "data": "2026-07-03",
    "hora": "14:14",
    "estrategia": "Sharp Pick",
@@ -3225,6 +4107,11 @@
    "resultado": "ganho"
   },
   {
+   "signal_id": "a8ecdd2938ab492731d2342f",
+   "fixture_id": null,
+   "published_at": null,
+   "origem": "manual",
+   "produto": "over2p",
    "data": "2026-07-03",
    "hora": "16:30",
    "estrategia": "Sharp Pick",
@@ -3235,6 +4122,11 @@
    "resultado": "perdido"
   },
   {
+   "signal_id": "fbe828d555c3d8d876a7eb53",
+   "fixture_id": 1504252,
+   "published_at": null,
+   "origem": "manual",
+   "produto": "over2p",
    "data": "2026-07-03",
    "hora": "17:19",
    "estrategia": "Sharp Pick",
@@ -3245,6 +4137,11 @@
    "resultado": "perdido"
   },
   {
+   "signal_id": "9de92135ecf38ff56243bafc",
+   "fixture_id": 1495882,
+   "published_at": null,
+   "origem": "automatico",
+   "produto": "over2p",
    "data": "2026-07-03",
    "hora": "17:48",
    "estrategia": "Golos 2ª Parte",
@@ -3255,6 +4152,11 @@
    "resultado": "perdido"
   },
   {
+   "signal_id": "9c0a5a32e3d68c4d4ddf8895",
+   "fixture_id": 1494200,
+   "published_at": null,
+   "origem": "manual",
+   "produto": "over2p",
    "data": "2026-07-03",
    "hora": "18:56",
    "estrategia": "Sharp Pick",
@@ -3265,6 +4167,11 @@
    "resultado": "ganho"
   },
   {
+   "signal_id": "d7102e753b621d56838a740d",
+   "fixture_id": 1506986,
+   "published_at": null,
+   "origem": "manual",
+   "produto": "over2p",
    "data": "2026-07-04",
    "hora": "12:30",
    "estrategia": "Sharp Pick",
@@ -3275,6 +4182,11 @@
    "resultado": "ganho"
   },
   {
+   "signal_id": "7317ecc922f4022adff184b3",
+   "fixture_id": 1506988,
+   "published_at": null,
+   "origem": "manual",
+   "produto": "over2p",
    "data": "2026-07-04",
    "hora": "12:30",
    "estrategia": "Sharp Pick",
@@ -3285,6 +4197,11 @@
    "resultado": "ganho"
   },
   {
+   "signal_id": "2eb27a8b4b3e405855b6c95a",
+   "fixture_id": null,
+   "published_at": null,
+   "origem": "manual",
+   "produto": "over2p",
    "data": "2026-07-04",
    "hora": "12:31",
    "estrategia": "Sharp Pick",
@@ -3295,6 +4212,11 @@
    "resultado": "ganho"
   },
   {
+   "signal_id": "66fe377bae8742e5360e90f6",
+   "fixture_id": null,
+   "published_at": null,
+   "origem": "manual",
+   "produto": "over2p",
    "data": "2026-07-04",
    "hora": "13:29",
    "estrategia": "Sharp Pick",
@@ -3305,6 +4227,11 @@
    "resultado": "ganho"
   },
   {
+   "signal_id": "75d61adee769267cd098ad1b",
+   "fixture_id": 1523190,
+   "published_at": null,
+   "origem": "manual",
+   "produto": "over2p",
    "data": "2026-07-04",
    "hora": "13:31",
    "estrategia": "Sharp Pick",
@@ -3315,6 +4242,11 @@
    "resultado": "ganho"
   },
   {
+   "signal_id": "1b8afb313a4a54b0599c57f4",
+   "fixture_id": null,
+   "published_at": null,
+   "origem": "manual",
+   "produto": "over2p",
    "data": "2026-07-04",
    "hora": "15:10",
    "estrategia": "Sharp Pick",
@@ -3325,6 +4257,11 @@
    "resultado": "perdido"
   },
   {
+   "signal_id": "2ee684e2bb6d2d8c50e240c8",
+   "fixture_id": null,
+   "published_at": null,
+   "origem": "manual",
+   "produto": "over2p",
    "data": "2026-07-05",
    "hora": "00:28",
    "estrategia": "Sharp Pick",
@@ -3335,6 +4272,11 @@
    "resultado": "ganho"
   },
   {
+   "signal_id": "4ed61d7488c20f252d4c2f73",
+   "fixture_id": null,
+   "published_at": null,
+   "origem": "manual",
+   "produto": "over2p",
    "data": "2026-07-05",
    "hora": "00:49",
    "estrategia": "Sharp Pick",
@@ -3345,6 +4287,11 @@
    "resultado": "perdido"
   },
   {
+   "signal_id": "4748296e6c49b68e3bf5e820",
+   "fixture_id": null,
+   "published_at": null,
+   "origem": "manual",
+   "produto": "over2p",
    "data": "2026-07-05",
    "hora": "00:50",
    "estrategia": "Sharp Pick",
@@ -3355,6 +4302,11 @@
    "resultado": "ganho"
   },
   {
+   "signal_id": "4748296e6c49b68e3bf5e820",
+   "fixture_id": null,
+   "published_at": null,
+   "origem": "manual",
+   "produto": "over2p",
    "data": "2026-07-05",
    "hora": "01:29",
    "estrategia": "Sharp Pick",
@@ -3365,6 +4317,11 @@
    "resultado": "ganho"
   },
   {
+   "signal_id": "4748296e6c49b68e3bf5e820",
+   "fixture_id": null,
+   "published_at": null,
+   "origem": "manual",
+   "produto": "over2p",
    "data": "2026-07-05",
    "hora": "01:38",
    "estrategia": "Sharp Pick",
@@ -3375,6 +4332,11 @@
    "resultado": "ganho"
   },
   {
+   "signal_id": "4ed61d7488c20f252d4c2f73",
+   "fixture_id": null,
+   "published_at": null,
+   "origem": "manual",
+   "produto": "over2p",
    "data": "2026-07-05",
    "hora": "02:13",
    "estrategia": "Sharp Pick",
@@ -3385,6 +4347,11 @@
    "resultado": "perdido"
   },
   {
+   "signal_id": "4748296e6c49b68e3bf5e820",
+   "fixture_id": null,
+   "published_at": null,
+   "origem": "manual",
+   "produto": "over2p",
    "data": "2026-07-05",
    "hora": "02:32",
    "estrategia": "Sharp Pick",
@@ -3395,6 +4362,11 @@
    "resultado": "ganho"
   },
   {
+   "signal_id": "4748296e6c49b68e3bf5e820",
+   "fixture_id": null,
+   "published_at": null,
+   "origem": "manual",
+   "produto": "over2p",
    "data": "2026-07-05",
    "hora": "02:41",
    "estrategia": "Sharp Pick",
@@ -3405,6 +4377,11 @@
    "resultado": "perdido"
   },
   {
+   "signal_id": "3543033e7a9578a9b79378b6",
+   "fixture_id": null,
+   "published_at": null,
+   "origem": "manual",
+   "produto": "over2p",
    "data": "2026-07-05",
    "hora": "03:00",
    "estrategia": "Sharp Pick",
@@ -3415,6 +4392,11 @@
    "resultado": "ganho"
   },
   {
+   "signal_id": "2ee684e2bb6d2d8c50e240c8",
+   "fixture_id": null,
+   "published_at": null,
+   "origem": "manual",
+   "produto": "over2p",
    "data": "2026-07-05",
    "hora": "03:44",
    "estrategia": "Sharp Pick",
@@ -3425,6 +4407,11 @@
    "resultado": "perdido"
   },
   {
+   "signal_id": "3543033e7a9578a9b79378b6",
+   "fixture_id": null,
+   "published_at": null,
+   "origem": "manual",
+   "produto": "over2p",
    "data": "2026-07-05",
    "hora": "13:50",
    "estrategia": "Sharp Pick",
@@ -3435,6 +4422,11 @@
    "resultado": "perdido"
   },
   {
+   "signal_id": "4ed61d7488c20f252d4c2f73",
+   "fixture_id": null,
+   "published_at": null,
+   "origem": "manual",
+   "produto": "over2p",
    "data": "2026-07-05",
    "hora": "13:51",
    "estrategia": "Sharp Pick",
@@ -3445,6 +4437,11 @@
    "resultado": "ganho"
   },
   {
+   "signal_id": "4ed61d7488c20f252d4c2f73",
+   "fixture_id": null,
+   "published_at": null,
+   "origem": "manual",
+   "produto": "over2p",
    "data": "2026-07-05",
    "hora": "14:28",
    "estrategia": "Sharp Pick",
@@ -3455,6 +4452,11 @@
    "resultado": "ganho"
   },
   {
+   "signal_id": "4748296e6c49b68e3bf5e820",
+   "fixture_id": null,
+   "published_at": null,
+   "origem": "manual",
+   "produto": "over2p",
    "data": "2026-07-05",
    "hora": "16:21",
    "estrategia": "Sharp Pick",
@@ -3465,6 +4467,11 @@
    "resultado": "ganho"
   },
   {
+   "signal_id": "4748296e6c49b68e3bf5e820",
+   "fixture_id": null,
+   "published_at": null,
+   "origem": "manual",
+   "produto": "over2p",
    "data": "2026-07-05",
    "hora": "16:59",
    "estrategia": "Sharp Pick",
@@ -3475,6 +4482,11 @@
    "resultado": "ganho"
   },
   {
+   "signal_id": "4ed61d7488c20f252d4c2f73",
+   "fixture_id": null,
+   "published_at": null,
+   "origem": "manual",
+   "produto": "over2p",
    "data": "2026-07-05",
    "hora": "17:19",
    "estrategia": "Sharp Pick",
@@ -3485,6 +4497,11 @@
    "resultado": "ganho"
   },
   {
+   "signal_id": "3543033e7a9578a9b79378b6",
+   "fixture_id": null,
+   "published_at": null,
+   "origem": "manual",
+   "produto": "over2p",
    "data": "2026-07-05",
    "hora": "17:22",
    "estrategia": "Sharp Pick",
@@ -3495,6 +4512,11 @@
    "resultado": "ganho"
   },
   {
+   "signal_id": "4ed61d7488c20f252d4c2f73",
+   "fixture_id": null,
+   "published_at": null,
+   "origem": "manual",
+   "produto": "over2p",
    "data": "2026-07-05",
    "hora": "18:51",
    "estrategia": "Sharp Pick",
@@ -3505,6 +4527,11 @@
    "resultado": "perdido"
   },
   {
+   "signal_id": "4748296e6c49b68e3bf5e820",
+   "fixture_id": null,
+   "published_at": null,
+   "origem": "manual",
+   "produto": "over2p",
    "data": "2026-07-05",
    "hora": "18:51",
    "estrategia": "Sharp Pick",
@@ -3515,6 +4542,11 @@
    "resultado": "ganho"
   },
   {
+   "signal_id": "4748296e6c49b68e3bf5e820",
+   "fixture_id": null,
+   "published_at": null,
+   "origem": "manual",
+   "produto": "over2p",
    "data": "2026-07-05",
    "hora": "18:57",
    "estrategia": "Sharp Pick",
@@ -3525,6 +4557,11 @@
    "resultado": "ganho"
   },
   {
+   "signal_id": "4ed61d7488c20f252d4c2f73",
+   "fixture_id": null,
+   "published_at": null,
+   "origem": "manual",
+   "produto": "over2p",
    "data": "2026-07-05",
    "hora": "19:03",
    "estrategia": "Sharp Pick",
@@ -3535,6 +4572,11 @@
    "resultado": "ganho"
   },
   {
+   "signal_id": "3543033e7a9578a9b79378b6",
+   "fixture_id": null,
+   "published_at": null,
+   "origem": "manual",
+   "produto": "over2p",
    "data": "2026-07-05",
    "hora": "19:03",
    "estrategia": "Sharp Pick",
@@ -3545,6 +4587,11 @@
    "resultado": "ganho"
   },
   {
+   "signal_id": "4748296e6c49b68e3bf5e820",
+   "fixture_id": null,
+   "published_at": null,
+   "origem": "manual",
+   "produto": "over2p",
    "data": "2026-07-05",
    "hora": "22:11",
    "estrategia": "Sharp Pick",
@@ -3555,6 +4602,11 @@
    "resultado": "ganho"
   },
   {
+   "signal_id": "d4589f364d3441559a17f6db",
+   "fixture_id": null,
+   "published_at": null,
+   "origem": "manual",
+   "produto": "over2p",
    "data": "2026-07-06",
    "hora": "17:52",
    "estrategia": "Sharp Pick",
@@ -3565,6 +4617,11 @@
    "resultado": "perdido"
   },
   {
+   "signal_id": "1a0e75199f9dd246557087dc",
+   "fixture_id": null,
+   "published_at": null,
+   "origem": "manual",
+   "produto": "over2p",
    "data": "2026-07-06",
    "hora": "18:53",
    "estrategia": "Sharp Pick",
@@ -3575,6 +4632,11 @@
    "resultado": "perdido"
   },
   {
+   "signal_id": "7d30264fdd197b48961d7806",
+   "fixture_id": null,
+   "published_at": null,
+   "origem": "manual",
+   "produto": "over2p",
    "data": "2026-07-06",
    "hora": "21:43",
    "estrategia": "Sharp Pick",
@@ -3585,6 +4647,11 @@
    "resultado": "ganho"
   },
   {
+   "signal_id": "7bd9c3c68de137a4c225b5dc",
+   "fixture_id": null,
+   "published_at": null,
+   "origem": "manual",
+   "produto": "over2p",
    "data": "2026-07-07",
    "hora": "00:01",
    "estrategia": "Sharp Pick",
@@ -3595,6 +4662,11 @@
    "resultado": "ganho"
   },
   {
+   "signal_id": "7bd9c3c68de137a4c225b5dc",
+   "fixture_id": null,
+   "published_at": null,
+   "origem": "manual",
+   "produto": "over2p",
    "data": "2026-07-07",
    "hora": "00:02",
    "estrategia": "Sharp Pick",
@@ -3605,6 +4677,11 @@
    "resultado": "ganho"
   },
   {
+   "signal_id": "7bd9c3c68de137a4c225b5dc",
+   "fixture_id": null,
+   "published_at": null,
+   "origem": "manual",
+   "produto": "over2p",
    "data": "2026-07-07",
    "hora": "00:03",
    "estrategia": "Sharp Pick",
@@ -3615,6 +4692,11 @@
    "resultado": "ganho"
   },
   {
+   "signal_id": "7bd9c3c68de137a4c225b5dc",
+   "fixture_id": null,
+   "published_at": null,
+   "origem": "manual",
+   "produto": "over2p",
    "data": "2026-07-07",
    "hora": "00:42",
    "estrategia": "Sharp Pick",
@@ -3625,6 +4707,11 @@
    "resultado": "ganho"
   },
   {
+   "signal_id": "7bd9c3c68de137a4c225b5dc",
+   "fixture_id": null,
+   "published_at": null,
+   "origem": "manual",
+   "produto": "over2p",
    "data": "2026-07-07",
    "hora": "00:47",
    "estrategia": "Sharp Pick",
@@ -3635,6 +4722,11 @@
    "resultado": "ganho"
   },
   {
+   "signal_id": "162d26d9a333e519c3d43753",
+   "fixture_id": 1554398,
+   "published_at": null,
+   "origem": "manual",
+   "produto": "over2p",
    "data": "2026-07-09",
    "hora": "18:53",
    "estrategia": "Sharp Pick",
@@ -3645,6 +4737,11 @@
    "resultado": "perdido"
   },
   {
+   "signal_id": "c35c455784c9cc0d019bc8b8",
+   "fixture_id": 1554411,
+   "published_at": null,
+   "origem": "manual",
+   "produto": "over2p",
    "data": "2026-07-09",
    "hora": "19:02",
    "estrategia": "Sharp Pick",
@@ -3655,6 +4752,11 @@
    "resultado": "ganho"
   },
   {
+   "signal_id": "bda1950e324b5b84e7a62c01",
+   "fixture_id": 1504256,
+   "published_at": null,
+   "origem": "manual",
+   "produto": "over2p",
    "data": "2026-07-10",
    "hora": "17:33",
    "estrategia": "Sharp Pick",
@@ -3665,6 +4767,11 @@
    "resultado": "ganho"
   },
   {
+   "signal_id": "408b69b50896af3198e19efd",
+   "fixture_id": 1519399,
+   "published_at": null,
+   "origem": "manual",
+   "produto": "over2p",
    "data": "2026-07-10",
    "hora": "02:26",
    "estrategia": "Sharp Pick",
@@ -3675,6 +4782,11 @@
    "resultado": "perdido"
   },
   {
+   "signal_id": "8c57f03b8178bc23974428e2",
+   "fixture_id": 1508803,
+   "published_at": null,
+   "origem": "automatico",
+   "produto": "over2p",
    "data": "2026-07-12",
    "hora": "19:48",
    "estrategia": "Golos 2ª Parte",
@@ -3685,6 +4797,11 @@
    "resultado": "ganho"
   },
   {
+   "signal_id": "f87b9ccd9208b3b276c3d965",
+   "fixture_id": 1508805,
+   "published_at": null,
+   "origem": "automatico",
+   "produto": "over2p",
    "data": "2026-07-12",
    "hora": "19:50",
    "estrategia": "Golos 2ª Parte",
@@ -3695,6 +4812,11 @@
    "resultado": "ganho"
   },
   {
+   "signal_id": "b0b34443caeb857184a559f1",
+   "fixture_id": 1538393,
+   "published_at": null,
+   "origem": "manual",
+   "produto": "over2p",
    "data": "2026-07-19",
    "hora": "02:45",
    "estrategia": "Sharp Pick",
@@ -3705,6 +4827,11 @@
    "resultado": "perdido"
   },
   {
+   "signal_id": "b4fde52da9a17444443df1f3",
+   "fixture_id": 1513232,
+   "published_at": null,
+   "origem": "manual",
+   "produto": "over2p",
    "data": "2026-07-19",
    "hora": "03:27",
    "estrategia": "Sharp Pick",
@@ -3715,6 +4842,11 @@
    "resultado": "ganho"
   },
   {
+   "signal_id": "e036c0f9a7822db419ca5f40",
+   "fixture_id": 1589419,
+   "published_at": null,
+   "origem": "manual",
+   "produto": "over2p",
    "data": "2026-07-21",
    "hora": "17:55",
    "estrategia": "Sharp Pick",
@@ -3725,6 +4857,11 @@
    "resultado": "perdido"
   },
   {
+   "signal_id": "04eeafa85394cae1507286a1",
+   "fixture_id": 1556502,
+   "published_at": null,
+   "origem": "manual",
+   "produto": "over2p",
    "data": "2026-07-21",
    "hora": "19:50",
    "estrategia": "Sharp Pick",
@@ -3735,6 +4872,11 @@
    "resultado": "perdido"
   },
   {
+   "signal_id": "d3d432ea7fcbd259bcd12080",
+   "fixture_id": 1556503,
+   "published_at": null,
+   "origem": "manual",
+   "produto": "over2p",
    "data": "2026-07-21",
    "hora": "20:37",
    "estrategia": "Sharp Pick",
@@ -3745,6 +4887,11 @@
    "resultado": "ganho"
   },
   {
+   "signal_id": "50d089b4a30afc1bfaa5bf77",
+   "fixture_id": 1589417,
+   "published_at": null,
+   "origem": "manual",
+   "produto": "over2p",
    "data": "2026-07-21",
    "hora": "20:51",
    "estrategia": "Sharp Pick",
@@ -3755,6 +4902,11 @@
    "resultado": "ganho"
   },
   {
+   "signal_id": "e7fde336d2dd1dbe52f2506f",
+   "fixture_id": 1595191,
+   "published_at": null,
+   "origem": "manual",
+   "produto": "over2p",
    "data": "2026-07-22",
    "hora": "17:51",
    "estrategia": "Sharp Pick",
@@ -3765,6 +4917,11 @@
    "resultado": "ganho"
   },
   {
+   "signal_id": "5e66c6fc09bdbe3fdeaa9bda",
+   "fixture_id": 1593479,
+   "published_at": null,
+   "origem": "manual",
+   "produto": "over2p",
    "data": "2026-07-22",
    "hora": "18:56",
    "estrategia": "Sharp Pick",
@@ -3775,6 +4932,11 @@
    "resultado": "ganho"
   },
   {
+   "signal_id": "572485389184576c9cb3dc76",
+   "fixture_id": 1591936,
+   "published_at": null,
+   "origem": "manual",
+   "produto": "over2p",
    "data": "2026-07-22",
    "hora": "18:56",
    "estrategia": "Sharp Pick",
@@ -3785,6 +4947,11 @@
    "resultado": "perdido"
   },
   {
+   "signal_id": "87ddc62ba95a9a0da2143933",
+   "fixture_id": 1520788,
+   "published_at": null,
+   "origem": "manual",
+   "produto": "over2p",
    "data": "2026-07-22",
    "hora": "00:25",
    "estrategia": "Sharp Pick",
@@ -3795,6 +4962,11 @@
    "resultado": "ganho"
   },
   {
+   "signal_id": "2aeaf1c29fa72a12c8c5264a",
+   "fixture_id": 1492294,
+   "published_at": null,
+   "origem": "manual",
+   "produto": "over2p",
    "data": "2026-07-22",
    "hora": "00:25",
    "estrategia": "Sharp Pick",
@@ -3805,6 +4977,11 @@
    "resultado": "ganho"
   },
   {
+   "signal_id": "b6946944007d8dfae702eda0",
+   "fixture_id": 1556544,
+   "published_at": null,
+   "origem": "manual",
+   "produto": "over2p",
    "data": "2026-07-23",
    "hora": "18:50",
    "estrategia": "Sharp Pick",
@@ -3815,6 +4992,11 @@
    "resultado": "perdido"
   },
   {
+   "signal_id": "8126bfdbd19ee8553ad9f8c4",
+   "fixture_id": 1593478,
+   "published_at": null,
+   "origem": "manual",
+   "produto": "over2p",
    "data": "2026-07-23",
    "hora": "18:50",
    "estrategia": "Sharp Pick",
@@ -3825,6 +5007,11 @@
    "resultado": "perdido"
   },
   {
+   "signal_id": "80285892ddcb8bdbb785952c",
+   "fixture_id": 1492141,
+   "published_at": null,
+   "origem": "manual",
+   "produto": "over2p",
    "data": "2026-07-23",
    "hora": "00:30",
    "estrategia": "Sharp Pick",
@@ -3835,6 +5022,11 @@
    "resultado": "perdido"
   },
   {
+   "signal_id": "7808b7a22e532f8fdd868836",
+   "fixture_id": 1493015,
+   "published_at": null,
+   "origem": "manual",
+   "produto": "over2p",
    "data": "2026-07-23",
    "hora": "00:30",
    "estrategia": "Sharp Pick",
@@ -3845,6 +5037,11 @@
    "resultado": "ganho"
   },
   {
+   "signal_id": "7e085f84567e31b1d30a9937",
+   "fixture_id": 1520780,
+   "published_at": null,
+   "origem": "manual",
+   "produto": "over2p",
    "data": "2026-07-23",
    "hora": "00:30",
    "estrategia": "Sharp Pick",
@@ -3855,6 +5052,11 @@
    "resultado": "perdido"
   },
   {
+   "signal_id": "8b04488bb40d8c44c1ca4c58",
+   "fixture_id": 1494713,
+   "published_at": null,
+   "origem": "manual",
+   "produto": "over2p",
    "data": "2026-07-27",
    "hora": "18:51",
    "estrategia": "Sharp Pick",
@@ -3865,6 +5067,11 @@
    "resultado": "ganho"
   },
   {
+   "signal_id": "b182e772b09dedb4da7abc3e",
+   "fixture_id": 1553109,
+   "published_at": null,
+   "origem": "manual",
+   "produto": "over2p",
    "data": "2026-07-27",
    "hora": "19:07",
    "estrategia": "Sharp Pick",
@@ -3875,6 +5082,11 @@
    "resultado": "ganho"
   },
   {
+   "signal_id": "681f503631d67e42e4e6f7a2",
+   "fixture_id": 1560203,
+   "published_at": null,
+   "origem": "automatico",
+   "produto": "over2p",
    "data": "2026-07-27",
    "hora": "19:27",
    "estrategia": "Golos 2ª Parte",
@@ -3885,6 +5097,11 @@
    "resultado": "ganho"
   },
   {
+   "signal_id": "a4cbbbf1a3be67f406db125f",
+   "fixture_id": 1551057,
+   "published_at": null,
+   "origem": "manual",
+   "produto": "over2p",
    "data": "2026-07-27",
    "hora": "20:14",
    "estrategia": "Sharp Pick",
@@ -3895,6 +5112,11 @@
    "resultado": "ganho"
   },
   {
+   "signal_id": "efe7a8c9d27354ca89a9ef43",
+   "fixture_id": 1520799,
+   "published_at": null,
+   "origem": "manual",
+   "produto": "over2p",
    "data": "2026-07-27",
    "hora": "00:37",
    "estrategia": "Sharp Pick",
@@ -3905,6 +5127,11 @@
    "resultado": "ganho"
   },
   {
+   "signal_id": "cba9a212b20417614720cb38",
+   "fixture_id": 1589431,
+   "published_at": null,
+   "origem": "manual",
+   "produto": "over2p",
    "data": "2026-07-28",
    "hora": "19:51",
    "estrategia": "Sharp Pick",
@@ -3915,6 +5142,11 @@
    "resultado": "perdido"
   },
   {
+   "signal_id": "0a1a3cd9f717133168a608a4",
+   "fixture_id": 1591937,
+   "published_at": null,
+   "origem": "manual",
+   "produto": "over2p",
    "data": "2026-07-28",
    "hora": "20:08",
    "estrategia": "Sharp Pick",
@@ -3925,6 +5157,11 @@
    "resultado": "perdido"
   },
   {
+   "signal_id": "9a46945cf276ac23e576dfe9",
+   "fixture_id": 1591938,
+   "published_at": null,
+   "origem": "manual",
+   "produto": "over2p",
    "data": "2026-07-29",
    "hora": "16:51",
    "estrategia": "Sharp Pick",
@@ -3935,6 +5172,11 @@
    "resultado": "perdido"
   },
   {
+   "signal_id": "57097cedb2fb421ae65ab3a9",
+   "fixture_id": 1547788,
+   "published_at": null,
+   "origem": "manual",
+   "produto": "over2p",
    "data": "2026-07-29",
    "hora": "00:02",
    "estrategia": "Sharp Pick",
@@ -3945,6 +5187,11 @@
    "resultado": "perdido"
   },
   {
+   "signal_id": "2b148de37187b6d959ab5cff",
+   "fixture_id": 1493023,
+   "published_at": null,
+   "origem": "manual",
+   "produto": "over2p",
    "data": "2026-07-29",
    "hora": "00:17",
    "estrategia": "Sharp Pick",
@@ -3955,6 +5202,11 @@
    "resultado": "perdido"
   },
   {
+   "signal_id": "ca008b1d09a60b0b73fbf38c",
+   "fixture_id": 1504273,
+   "published_at": null,
+   "origem": "manual",
+   "produto": "over2p",
    "data": "2026-07-30",
    "hora": "17:21",
    "estrategia": "Sharp Pick",
@@ -3965,6 +5217,11 @@
    "resultado": "perdido"
   },
   {
+   "signal_id": "c8e06bc991064eaf9124826f",
+   "fixture_id": 1493029,
+   "published_at": null,
+   "origem": "manual",
+   "produto": "over2p",
    "data": "2026-07-30",
    "hora": "00:04",
    "estrategia": "Sharp Pick",
@@ -3975,6 +5232,11 @@
    "resultado": "ganho"
   },
   {
+   "signal_id": "728076113f7130cd07cb4ac8",
+   "fixture_id": 1565438,
+   "published_at": null,
+   "origem": "manual",
+   "produto": "over2p",
    "data": "2026-07-31",
    "hora": "17:03",
    "estrategia": "Sharp Pick",
@@ -3985,6 +5247,11 @@
    "resultado": "ganho"
   },
   {
+   "signal_id": "ba8587de7521f533a699e967",
+   "fixture_id": 1504276,
+   "published_at": null,
+   "origem": "manual",
+   "produto": "over2p",
    "data": "2026-07-31",
    "hora": "17:54",
    "estrategia": "Sharp Pick",
@@ -3995,6 +5262,11 @@
    "resultado": "ganho"
   },
   {
+   "signal_id": "ba647de7b38f27c88621d669",
+   "fixture_id": 1551066,
+   "published_at": null,
+   "origem": "manual",
+   "produto": "over2p",
    "data": "2026-07-31",
    "hora": "17:55",
    "estrategia": "Sharp Pick",
@@ -4005,6 +5277,11 @@
    "resultado": "perdido"
   },
   {
+   "signal_id": "3b856c0abaab855fc6ec2956",
+   "fixture_id": 1553118,
+   "published_at": null,
+   "origem": "manual",
+   "produto": "over2p",
    "data": "2026-07-31",
    "hora": "18:04",
    "estrategia": "Sharp Pick",
@@ -4015,6 +5292,11 @@
    "resultado": "perdido"
   },
   {
+   "signal_id": "0a57e13b6784fd0a90a18eeb",
+   "fixture_id": 1494723,
+   "published_at": null,
+   "origem": "manual",
+   "produto": "over2p",
    "data": "2026-07-31",
    "hora": "18:56",
    "estrategia": "Sharp Pick",
@@ -4025,6 +5307,11 @@
    "resultado": "ganho"
   },
   {
+   "signal_id": "5f154ead81b141ff0462b661",
+   "fixture_id": 1551299,
+   "published_at": null,
+   "origem": "manual",
+   "produto": "over2p",
    "data": "2026-07-31",
    "hora": "19:02",
    "estrategia": "Sharp Pick",
@@ -4035,6 +5322,11 @@
    "resultado": "perdido"
   },
   {
+   "signal_id": "9f70dbc8928e23c73e5c1be4",
+   "fixture_id": 1559976,
+   "published_at": null,
+   "origem": "manual",
+   "produto": "over2p",
    "data": "2026-07-31",
    "hora": "19:06",
    "estrategia": "Sharp Pick",
@@ -4045,6 +5337,11 @@
    "resultado": "ganho"
   },
   {
+   "signal_id": "f37ff7720bfa253123a6d490",
+   "fixture_id": 1551062,
+   "published_at": null,
+   "origem": "manual",
+   "produto": "over2p",
    "data": "2026-07-31",
    "hora": "20:05",
    "estrategia": "Sharp Pick",
@@ -4055,6 +5352,11 @@
    "resultado": "perdido"
   },
   {
+   "signal_id": "0a27a014314645e1ff3bc123",
+   "fixture_id": 1553114,
+   "published_at": null,
+   "origem": "manual",
+   "produto": "over2p",
    "data": "2026-07-31",
    "hora": "20:26",
    "estrategia": "Sharp Pick",
@@ -4065,6 +5367,11 @@
    "resultado": "ganho"
   },
   {
+   "signal_id": "385ee35a93cec64afa37f358",
+   "fixture_id": 1575884,
+   "published_at": null,
+   "origem": "automatico",
+   "produto": "over2p",
    "data": "2026-07-31",
    "hora": "20:38",
    "estrategia": "Golos 2ª Parte",
@@ -4075,6 +5382,11 @@
    "resultado": "ganho"
   },
   {
+   "signal_id": "be2d81bc61dad2cee7dabfad",
+   "fixture_id": 1492743,
+   "published_at": null,
+   "origem": "manual",
+   "produto": "over2p",
    "data": "2026-07-31",
    "hora": "20:41",
    "estrategia": "Sharp Pick",
@@ -4085,6 +5397,11 @@
    "resultado": "ganho"
   },
   {
+   "signal_id": "bfa5a56527bfdc4d27562b43",
+   "fixture_id": 1575887,
+   "published_at": null,
+   "origem": "automatico",
+   "produto": "over2p",
    "data": "2026-07-31",
    "hora": "20:53",
    "estrategia": "Golos 2ª Parte",
@@ -4095,6 +5412,11 @@
    "resultado": "ganho"
   },
   {
+   "signal_id": "8890f59f18a3b13776fb39b5",
+   "fixture_id": 1494717,
+   "published_at": null,
+   "origem": "automatico",
+   "produto": "over2p",
    "data": "2026-07-31",
    "hora": "20:54",
    "estrategia": "Golos 2ª Parte",
@@ -4105,6 +5427,11 @@
    "resultado": "ganho"
   },
   {
+   "signal_id": "84e8c74d10341cf5bb7d6c36",
+   "fixture_id": 1550912,
+   "published_at": null,
+   "origem": "manual",
+   "produto": "over2p",
    "data": "2026-07-31",
    "hora": "03:08",
    "estrategia": "Sharp Pick",
@@ -4115,6 +5442,11 @@
    "resultado": "perdido"
   },
   {
+   "signal_id": "e35e3b2f879158d3ec8c962d",
+   "fixture_id": 1549698,
+   "published_at": null,
+   "origem": "manual",
+   "produto": "over2p",
    "data": "2026-07-31",
    "hora": "03:10",
    "estrategia": "Sharp Pick",
@@ -4125,6 +5457,11 @@
    "resultado": "perdido"
   },
   {
+   "signal_id": "e56d1f746e30c15b7e529c81",
+   "fixture_id": 1556830,
+   "published_at": null,
+   "origem": "manual",
+   "produto": "over2p",
    "data": "2026-08-01",
    "hora": "15:50",
    "estrategia": "Sharp Pick",
@@ -4135,6 +5472,11 @@
    "resultado": "perdido"
   },
   {
+   "signal_id": "ded231fdcd46ba52183c45db",
+   "fixture_id": 1494719,
+   "published_at": null,
+   "origem": "manual",
+   "produto": "over2p",
    "data": "2026-08-01",
    "hora": "15:56",
    "estrategia": "Sharp Pick",
@@ -4145,6 +5487,11 @@
    "resultado": "perdido"
   },
   {
+   "signal_id": "fcd01fd8ef90d8ae17bc0fe9",
+   "fixture_id": 1556828,
+   "published_at": null,
+   "origem": "manual",
+   "produto": "over2p",
    "data": "2026-08-01",
    "hora": "16:00",
    "estrategia": "Sharp Pick",
@@ -4155,6 +5502,11 @@
    "resultado": "ganho"
   },
   {
+   "signal_id": "a6ec6ecd4e3526c56f92d570",
+   "fixture_id": 1508820,
+   "published_at": null,
+   "origem": "automatico",
+   "produto": "over2p",
    "data": "2026-08-01",
    "hora": "16:03",
    "estrategia": "Golos 2ª Parte",
@@ -4165,6 +5517,11 @@
    "resultado": "perdido"
   },
   {
+   "signal_id": "de7225c59d5913ade525d2c5",
+   "fixture_id": 1551064,
+   "published_at": null,
+   "origem": "manual",
+   "produto": "over2p",
    "data": "2026-08-01",
    "hora": "17:48",
    "estrategia": "Sharp Pick",
@@ -4175,6 +5532,11 @@
    "resultado": "ganho"
   },
   {
+   "signal_id": "ce2dc6d2b9c75f4cd4aece34",
+   "fixture_id": 1548980,
+   "published_at": null,
+   "origem": "manual",
+   "produto": "over2p",
    "data": "2026-08-01",
    "hora": "18:09",
    "estrategia": "Sharp Pick",
@@ -4185,6 +5547,11 @@
    "resultado": "ganho"
   },
   {
+   "signal_id": "e036ca9722ccd4b0539fa2ef",
+   "fixture_id": 1556630,
+   "published_at": null,
+   "origem": "manual",
+   "produto": "over2p",
    "data": "2026-08-01",
    "hora": "18:50",
    "estrategia": "Sharp Pick",
@@ -4195,6 +5562,11 @@
    "resultado": "ganho"
   },
   {
+   "signal_id": "1e1cef5fd9a6e444cbd68ee9",
+   "fixture_id": 1559973,
+   "published_at": null,
+   "origem": "manual",
+   "produto": "over2p",
    "data": "2026-08-01",
    "hora": "19:56",
    "estrategia": "Sharp Pick",
@@ -4205,6 +5577,11 @@
    "resultado": "perdido"
   },
   {
+   "signal_id": "4b1811d8dbae9e777fde3e3c",
+   "fixture_id": 1549693,
+   "published_at": null,
+   "origem": "manual",
+   "produto": "over2p",
    "data": "2026-08-01",
    "hora": "23:07",
    "estrategia": "Sharp Pick",
@@ -4215,6 +5592,11 @@
    "resultado": "perdido"
   },
   {
+   "signal_id": "93da47bf230271dfd2ef0025",
+   "fixture_id": 1505480,
+   "published_at": null,
+   "origem": "manual",
+   "produto": "over2p",
    "data": "2026-08-01",
    "hora": "23:22",
    "estrategia": "Sharp Pick",
@@ -4225,6 +5607,11 @@
    "resultado": "perdido"
   },
   {
+   "signal_id": "080993a8300628d63d574f0e",
+   "fixture_id": 1523225,
+   "published_at": null,
+   "origem": "automatico",
+   "produto": "over2p",
    "data": "2026-08-02",
    "hora": "11:50",
    "estrategia": "Golos 2ª Parte",
@@ -4235,6 +5622,11 @@
    "resultado": "perdido"
   },
   {
+   "signal_id": "549c3880e138e1de6e256f7b",
+   "fixture_id": 1575890,
+   "published_at": null,
+   "origem": "automatico",
+   "produto": "over2p",
    "data": "2026-08-02",
    "hora": "15:20",
    "estrategia": "Golos 2ª Parte",
@@ -4245,6 +5637,11 @@
    "resultado": "ganho"
   },
   {
+   "signal_id": "bf2cdc579764b82e9dc0cb0c",
+   "fixture_id": 1555357,
+   "published_at": null,
+   "origem": "manual",
+   "produto": "over2p",
    "data": "2026-08-02",
    "hora": "16:26",
    "estrategia": "Sharp Pick",
@@ -4255,6 +5652,11 @@
    "resultado": "ganho"
   },
   {
+   "signal_id": "78e6aed1e558b6f6b725ce09",
+   "fixture_id": 1561898,
+   "published_at": null,
+   "origem": "manual",
+   "produto": "over2p",
    "data": "2026-08-02",
    "hora": "16:59",
    "estrategia": "Sharp Pick",
@@ -4265,6 +5667,11 @@
    "resultado": "ganho"
   },
   {
+   "signal_id": "8f540271827bcaa4edc0a456",
+   "fixture_id": 1551521,
+   "published_at": null,
+   "origem": "manual",
+   "produto": "over2p",
    "data": "2026-08-02",
    "hora": "17:01",
    "estrategia": "Sharp Pick",
@@ -4275,6 +5682,11 @@
    "resultado": "perdido"
   },
   {
+   "signal_id": "a0b858bc9ba800938a6a9fca",
+   "fixture_id": 1561344,
+   "published_at": null,
+   "origem": "manual",
+   "produto": "over2p",
    "data": "2026-08-02",
    "hora": "17:14",
    "estrategia": "Sharp Pick",
@@ -4285,6 +5697,11 @@
    "resultado": "ganho"
   },
   {
+   "signal_id": "2089bf20fe260c67bdf99d39",
+   "fixture_id": 1560207,
+   "published_at": null,
+   "origem": "manual",
+   "produto": "over2p",
    "data": "2026-08-02",
    "hora": "17:24",
    "estrategia": "Sharp Pick",
@@ -4295,6 +5712,11 @@
    "resultado": "perdido"
   },
   {
+   "signal_id": "ad73fab479d0ed336fd580d7",
+   "fixture_id": 1553116,
+   "published_at": null,
+   "origem": "manual",
+   "produto": "over2p",
    "data": "2026-08-02",
    "hora": "17:32",
    "estrategia": "Sharp Pick",
@@ -4305,6 +5727,11 @@
    "resultado": "ganho"
   },
   {
+   "signal_id": "d04c06d771a55280487c5d0a",
+   "fixture_id": 1492744,
+   "published_at": null,
+   "origem": "manual",
+   "produto": "over2p",
    "data": "2026-08-02",
    "hora": "17:54",
    "estrategia": "Sharp Pick",
@@ -4315,6 +5742,11 @@
    "resultado": "perdido"
   },
   {
+   "signal_id": "370404d77670be22131da6ce",
+   "fixture_id": 1551065,
+   "published_at": null,
+   "origem": "manual",
+   "produto": "over2p",
    "data": "2026-08-02",
    "hora": "17:57",
    "estrategia": "Sharp Pick",
@@ -4325,6 +5757,11 @@
    "resultado": "perdido"
   },
   {
+   "signal_id": "cc1a030b8b060661debd788d",
+   "fixture_id": 1561899,
+   "published_at": null,
+   "origem": "manual",
+   "produto": "over2p",
    "data": "2026-08-02",
    "hora": "18:59",
    "estrategia": "Sharp Pick",
@@ -4335,6 +5772,11 @@
    "resultado": "perdido"
   },
   {
+   "signal_id": "765c3a4dbe3d6e734024f90f",
+   "fixture_id": 1581489,
+   "published_at": null,
+   "origem": "manual",
+   "produto": "over2p",
    "data": "2026-08-02",
    "hora": "19:01",
    "estrategia": "Sharp Pick",
@@ -4345,6 +5787,11 @@
    "resultado": "ganho"
   },
   {
+   "signal_id": "88e4cd2d2798d80c18dd1962",
+   "fixture_id": 1561339,
+   "published_at": null,
+   "origem": "manual",
+   "produto": "over2p",
    "data": "2026-08-02",
    "hora": "19:53",
    "estrategia": "Sharp Pick",
@@ -4355,6 +5802,11 @@
    "resultado": "perdido"
   },
   {
+   "signal_id": "355e7a2c6cb8fc6352d9fae8",
+   "fixture_id": 1553828,
+   "published_at": null,
+   "origem": "manual",
+   "produto": "over2p",
    "data": "2026-08-02",
    "hora": "19:57",
    "estrategia": "Sharp Pick",
@@ -4365,6 +5817,11 @@
    "resultado": "perdido"
   },
   {
+   "signal_id": "84a167a8253145cf46ed46d4",
+   "fixture_id": 1492741,
+   "published_at": null,
+   "origem": "manual",
+   "produto": "over2p",
    "data": "2026-08-02",
    "hora": "19:59",
    "estrategia": "Sharp Pick",
@@ -4375,6 +5832,11 @@
    "resultado": "perdido"
   },
   {
+   "signal_id": "fdd19232b1bcd4061771aafd",
+   "fixture_id": 1553826,
+   "published_at": null,
+   "origem": "automatico",
+   "produto": "over2p",
    "data": "2026-08-03",
    "hora": "18:52",
    "estrategia": "Golos 2ª Parte",
@@ -4385,6 +5847,11 @@
    "resultado": "ganho"
   },
   {
+   "signal_id": "0013473958de2dc61d361e1f",
+   "fixture_id": 1551737,
+   "published_at": null,
+   "origem": "automatico",
+   "produto": "over2p",
    "data": "2026-08-07",
    "hora": "19:49",
    "estrategia": "Golos 2ª Parte",
@@ -4395,6 +5862,11 @@
    "resultado": "perdido"
   },
   {
+   "signal_id": "d0c4fe9c20c31bdf3f0095ca",
+   "fixture_id": 1551741,
+   "published_at": null,
+   "origem": "automatico",
+   "produto": "over2p",
    "data": "2026-08-07",
    "hora": "19:50",
    "estrategia": "Golos 2ª Parte",
@@ -4405,6 +5877,11 @@
    "resultado": "perdido"
   },
   {
+   "signal_id": "ee06cda04e48b6c19ac05f11",
+   "fixture_id": 1567871,
+   "published_at": null,
+   "origem": "automatico",
+   "produto": "over2p",
    "data": "2026-08-07",
    "hora": "20:20",
    "estrategia": "Golos 2ª Parte",
@@ -4415,6 +5892,11 @@
    "resultado": "perdido"
   },
   {
+   "signal_id": "87de747b9bc45a1ce8a23338",
+   "fixture_id": 1585692,
+   "published_at": null,
+   "origem": "automatico",
+   "produto": "over2p",
    "data": "2026-08-07",
    "hora": "20:21",
    "estrategia": "Golos 2ª Parte",
@@ -4425,6 +5907,11 @@
    "resultado": "perdido"
   },
   {
+   "signal_id": "2aec28a460f3597d60f22351",
+   "fixture_id": 1520808,
+   "published_at": null,
+   "origem": "manual",
+   "produto": "over2p",
    "data": "2026-08-07",
    "hora": "00:32",
    "estrategia": "Sharp Pick",
@@ -4435,6 +5922,11 @@
    "resultado": "ganho"
   },
   {
+   "signal_id": "9b56b8ef39f335dbc45bf8d8",
+   "fixture_id": 1517321,
+   "published_at": null,
+   "origem": "manual",
+   "produto": "over2p",
    "data": "2026-08-07",
    "hora": "01:15",
    "estrategia": "Sharp Pick",
@@ -4445,6 +5937,11 @@
    "resultado": "perdido"
   },
   {
+   "signal_id": "033d9ae35218fd87c7d3c977",
+   "fixture_id": 1519445,
+   "published_at": null,
+   "origem": "manual",
+   "produto": "over2p",
    "data": "2026-08-07",
    "hora": "01:54",
    "estrategia": "Sharp Pick",
@@ -4455,6 +5952,11 @@
    "resultado": "perdido"
   },
   {
+   "signal_id": "d7221607490ea5ae539ea268",
+   "fixture_id": 1551305,
+   "published_at": null,
+   "origem": "automatico",
+   "produto": "over2p",
    "data": "2026-08-08",
    "hora": "13:52",
    "estrategia": "Golos 2ª Parte",
@@ -4465,6 +5967,11 @@
    "resultado": "ganho"
   },
   {
+   "signal_id": "e6aa078a2dcb45a9e8f52509",
+   "fixture_id": 1497654,
+   "published_at": null,
+   "origem": "automatico",
+   "produto": "over2p",
    "data": "2026-08-08",
    "hora": "14:53",
    "estrategia": "Golos 2ª Parte",
@@ -4475,6 +5982,11 @@
    "resultado": "perdido"
   },
   {
+   "signal_id": "1b8d3a01c82a2da7f3746774",
+   "fixture_id": 1575451,
+   "published_at": null,
+   "origem": "manual",
+   "produto": "over2p",
    "data": "2026-08-08",
    "hora": "16:30",
    "estrategia": "Sharp Pick",
@@ -4485,6 +5997,11 @@
    "resultado": "perdido"
   },
   {
+   "signal_id": "95b8e9fec81e3802e0c328f8",
+   "fixture_id": 1553833,
+   "published_at": null,
+   "origem": "automatico",
+   "produto": "over2p",
    "data": "2026-08-08",
    "hora": "19:51",
    "estrategia": "Golos 2ª Parte",
@@ -4495,6 +6012,11 @@
    "resultado": "perdido"
   },
   {
+   "signal_id": "667ffd3bbb48cdd4a445fee6",
+   "fixture_id": 1552429,
+   "published_at": null,
+   "origem": "automatico",
+   "produto": "over2p",
    "data": "2026-08-08",
    "hora": "20:33",
    "estrategia": "Golos 2ª Parte",
@@ -4505,6 +6027,11 @@
    "resultado": "perdido"
   },
   {
+   "signal_id": "d2879a3e0828192a47fc0190",
+   "fixture_id": 1576140,
+   "published_at": null,
+   "origem": "automatico",
+   "produto": "over2p",
    "data": "2026-08-09",
    "hora": "13:22",
    "estrategia": "Golos 2ª Parte",
@@ -4515,6 +6042,11 @@
    "resultado": "perdido"
   },
   {
+   "signal_id": "607b25991446ab5abb32f78d",
+   "fixture_id": 1558586,
+   "published_at": null,
+   "origem": "automatico",
+   "produto": "over2p",
    "data": "2026-08-09",
    "hora": "13:24",
    "estrategia": "Golos 2ª Parte",
@@ -4525,6 +6057,11 @@
    "resultado": "perdido"
   },
   {
+   "signal_id": "3381123c89e9b6421e928627",
+   "fixture_id": 1523233,
+   "published_at": null,
+   "origem": "automatico",
+   "produto": "over2p",
    "data": "2026-08-09",
    "hora": "13:40",
    "estrategia": "Golos 2ª Parte",
@@ -4535,6 +6072,11 @@
    "resultado": "perdido"
   },
   {
+   "signal_id": "596f4807d710dfd26168c97f",
+   "fixture_id": 1551308,
+   "published_at": null,
+   "origem": "automatico",
+   "produto": "over2p",
    "data": "2026-08-09",
    "hora": "14:03",
    "estrategia": "Golos 2ª Parte",
@@ -4545,6 +6087,11 @@
    "resultado": "perdido"
   },
   {
+   "signal_id": "12c83396eb1be1eb53022411",
+   "fixture_id": 1558587,
+   "published_at": null,
+   "origem": "automatico",
+   "produto": "over2p",
    "data": "2026-08-09",
    "hora": "15:58",
    "estrategia": "Golos 2ª Parte",
@@ -4555,6 +6102,11 @@
    "resultado": "ganho"
   },
   {
+   "signal_id": "8334d0429dcf74e18f468dbe",
+   "fixture_id": 1495907,
+   "published_at": null,
+   "origem": "automatico",
+   "produto": "over2p",
    "data": "2026-08-09",
    "hora": "16:57",
    "estrategia": "Golos 2ª Parte",
@@ -4565,6 +6117,11 @@
    "resultado": "perdido"
   },
   {
+   "signal_id": "8fb071c81cda8a7a3dbb4298",
+   "fixture_id": 1575449,
+   "published_at": null,
+   "origem": "automatico",
+   "produto": "over2p",
    "data": "2026-08-09",
    "hora": "18:55",
    "estrategia": "Golos 2ª Parte",
@@ -4575,6 +6132,11 @@
    "resultado": "perdido"
   },
   {
+   "signal_id": "9d724a54dcb44eab7c4b851b",
+   "fixture_id": 1585691,
+   "published_at": null,
+   "origem": "automatico",
+   "produto": "over2p",
    "data": "2026-08-09",
    "hora": "20:36",
    "estrategia": "Golos 2ª Parte",
@@ -4585,6 +6147,11 @@
    "resultado": "perdido"
   },
   {
+   "signal_id": "cec3a1a5530a343ee98eb3f5",
+   "fixture_id": 1557988,
+   "published_at": null,
+   "origem": "automatico",
+   "produto": "over2p",
    "data": "2026-08-10",
    "hora": "17:47",
    "estrategia": "Golos 2ª Parte",
@@ -4595,16 +6162,26 @@
    "resultado": "ganho"
   },
   {
+   "signal_id": "9db4b37557733cf7960c8c3e",
+   "fixture_id": 1551746,
+   "published_at": null,
+   "origem": "automatico",
+   "produto": "late_goal",
    "data": "2026-08-10",
    "hora": "20:39",
    "estrategia": "Golos 2ª Parte",
    "liga": "Eerste Divisie",
    "jogo": "Jong PSV U21 vs FC Volendam",
-   "mercado": "Over 1.5 · 2ª parte",
+   "mercado": "Late Goal · Over 3.5 FT",
    "odd": 2.375,
    "resultado": "ganho"
   },
   {
+   "signal_id": "680d873dd9a710fd5c0fda31",
+   "fixture_id": 1547762,
+   "published_at": null,
+   "origem": "manual",
+   "produto": "over2p",
    "data": "2026-08-12",
    "hora": "23:51",
    "estrategia": "Sharp Pick",
@@ -4615,6 +6192,11 @@
    "resultado": "ganho"
   },
   {
+   "signal_id": "fd63580801cdfe5e7d2013be",
+   "fixture_id": 1530150,
+   "published_at": null,
+   "origem": "manual",
+   "produto": "over2p",
    "data": "2026-08-12",
    "hora": "02:06",
    "estrategia": "Sharp Pick",
@@ -4625,6 +6207,11 @@
    "resultado": "ganho"
   },
   {
+   "signal_id": "6158aefda37bfdffef7b5f6c",
+   "fixture_id": 1606076,
+   "published_at": null,
+   "origem": "manual",
+   "produto": "over2p",
    "data": "2026-08-13",
    "hora": "23:55",
    "estrategia": "Sharp Pick",
@@ -4635,6 +6222,11 @@
    "resultado": "perdido"
   },
   {
+   "signal_id": "e2c722a58d833355f126f93a",
+   "fixture_id": 1547761,
+   "published_at": null,
+   "origem": "manual",
+   "produto": "over2p",
    "data": "2026-08-13",
    "hora": "23:56",
    "estrategia": "Sharp Pick",
@@ -4645,6 +6237,11 @@
    "resultado": "perdido"
   },
   {
+   "signal_id": "928cfcb5b3d44e63238602a4",
+   "fixture_id": 1607199,
+   "published_at": null,
+   "origem": "manual",
+   "produto": "over2p",
    "data": "2026-08-13",
    "hora": "23:58",
    "estrategia": "Sharp Pick",
@@ -4655,6 +6252,11 @@
    "resultado": "perdido"
   },
   {
+   "signal_id": "ab07e24cce62754e2073f3af",
+   "fixture_id": 1523238,
+   "published_at": null,
+   "origem": "automatico",
+   "produto": "over2p",
    "data": "2026-08-15",
    "hora": "12:49",
    "estrategia": "Golos 2ª Parte",
@@ -4665,6 +6267,11 @@
    "resultado": "perdido"
   },
   {
+   "signal_id": "ad89aa58cc3aaf36d045e1af",
+   "fixture_id": 1564243,
+   "published_at": null,
+   "origem": "automatico",
+   "produto": "over2p",
    "data": "2026-08-15",
    "hora": "15:53",
    "estrategia": "Golos 2ª Parte",
@@ -4675,6 +6282,11 @@
    "resultado": "perdido"
   },
   {
+   "signal_id": "c779953bba185a5744b32616",
+   "fixture_id": 1559131,
+   "published_at": null,
+   "origem": "automatico",
+   "produto": "over2p",
    "data": "2026-08-15",
    "hora": "19:51",
    "estrategia": "Golos 2ª Parte",
@@ -4685,6 +6297,11 @@
    "resultado": "ganho"
   },
   {
+   "signal_id": "3d0a25283e3c906dfdb986ed",
+   "fixture_id": 1495917,
+   "published_at": null,
+   "origem": "automatico",
+   "produto": "over2p",
    "data": "2026-08-16",
    "hora": "16:49",
    "estrategia": "Golos 2ª Parte",
@@ -4695,6 +6312,11 @@
    "resultado": "perdido"
   },
   {
+   "signal_id": "9c91cce616e574bc04e0235a",
+   "fixture_id": 1547765,
+   "published_at": null,
+   "origem": "manual",
+   "produto": "over2p",
    "data": "2026-08-19",
    "hora": "23:57",
    "estrategia": "Sharp Pick",
@@ -4705,6 +6327,11 @@
    "resultado": "perdido"
   },
   {
+   "signal_id": "f6850e59ddacdf505e5130ac",
+   "fixture_id": 1490392,
+   "published_at": null,
+   "origem": "automatico",
+   "produto": "over2p",
    "data": "2026-08-19",
    "hora": "01:35",
    "estrategia": "Golos 2ª Parte",
@@ -4715,6 +6342,11 @@
    "resultado": "perdido"
   },
   {
+   "signal_id": "4847d872210d5a8241ecd89c",
+   "fixture_id": 1490398,
+   "published_at": null,
+   "origem": "automatico",
+   "produto": "over2p",
    "data": "2026-08-19",
    "hora": "02:16",
    "estrategia": "Golos 2ª Parte",
@@ -4725,6 +6357,11 @@
    "resultado": "perdido"
   },
   {
+   "signal_id": "1c7610170f2197f7b5a82bb3",
+   "fixture_id": 1548515,
+   "published_at": null,
+   "origem": "automatico",
+   "produto": "over2p",
    "data": "2026-08-21",
    "hora": "20:03",
    "estrategia": "Golos 2ª Parte",
@@ -4735,6 +6372,11 @@
    "resultado": "ganho"
   },
   {
+   "signal_id": "9cf745e91ef433ecb05598e5",
+   "fixture_id": 1575908,
+   "published_at": null,
+   "origem": "automatico",
+   "produto": "over2p",
    "data": "2026-08-22",
    "hora": "13:42",
    "estrategia": "Golos 2ª Parte",
@@ -4745,6 +6387,11 @@
    "resultado": "perdido"
   },
   {
+   "signal_id": "cd650d90c083c02897e5ece3",
+   "fixture_id": 1523247,
+   "published_at": null,
+   "origem": "automatico",
+   "produto": "over2p",
    "data": "2026-08-22",
    "hora": "13:49",
    "estrategia": "Golos 2ª Parte",
@@ -4755,6 +6402,11 @@
    "resultado": "perdido"
   },
   {
+   "signal_id": "097368b8f58edfdc9cd2d0e7",
+   "fixture_id": 1585718,
+   "published_at": null,
+   "origem": "automatico",
+   "produto": "over2p",
    "data": "2026-08-23",
    "hora": "20:19",
    "estrategia": "Golos 2ª Parte",
@@ -4765,6 +6417,11 @@
    "resultado": "perdido"
   },
   {
+   "signal_id": "c46c458a3a8d02dd6217ccbc",
+   "fixture_id": 1490419,
+   "published_at": null,
+   "origem": "manual",
+   "produto": "over2p",
    "data": "2026-08-23",
    "hora": "22:36",
    "estrategia": "Sharp Pick",
@@ -4775,6 +6432,11 @@
    "resultado": "perdido"
   },
   {
+   "signal_id": "ba5162a6d11dc73dbf1cc729",
+   "fixture_id": 1507044,
+   "published_at": null,
+   "origem": "manual",
+   "produto": "over2p",
    "data": "2026-08-26",
    "hora": "12:29",
    "estrategia": "Sharp Pick",
@@ -4785,6 +6447,11 @@
    "resultado": "ganho"
   },
   {
+   "signal_id": "ebea1af8c0c8d5d2a2daca8d",
+   "fixture_id": 1507045,
+   "published_at": null,
+   "origem": "manual",
+   "produto": "over2p",
    "data": "2026-08-26",
    "hora": "12:30",
    "estrategia": "Sharp Pick",
@@ -4795,6 +6462,11 @@
    "resultado": "ganho"
   },
   {
+   "signal_id": "9a38b03993bbda2d7cd366bd",
+   "fixture_id": 1519476,
+   "published_at": null,
+   "origem": "manual",
+   "produto": "over2p",
    "data": "2026-09-03",
    "hora": "23:43",
    "estrategia": "Sharp Pick",
@@ -4805,6 +6477,11 @@
    "resultado": "perdido"
   },
   {
+   "signal_id": "1f2f0995ffb0e3276c069f7e",
+   "fixture_id": 1557388,
+   "published_at": "2026-09-05T16:14:46+01:00",
+   "origem": "manual",
+   "produto": "over2p",
    "data": "2026-09-05",
    "hora": "16:14",
    "estrategia": "Sharp Pick",
@@ -4815,6 +6492,11 @@
    "resultado": "ganho"
   },
   {
+   "signal_id": "88df1c1511e71e8c12ca7d28",
+   "fixture_id": 1585742,
+   "published_at": "2026-09-07T15:59:06+01:00",
+   "origem": "manual",
+   "produto": "over2p",
    "data": "2026-09-07",
    "hora": "15:59",
    "estrategia": "Sharp Pick",
@@ -4825,6 +6507,11 @@
    "resultado": "perdido"
   },
   {
+   "signal_id": "5e95cb1cf4e07d2542f6226e",
+   "fixture_id": 1519483,
+   "published_at": "2026-09-08T01:58:33+01:00",
+   "origem": "manual",
+   "produto": "over2p",
    "data": "2026-09-07",
    "hora": "01:58",
    "estrategia": "Sharp Pick",
@@ -4835,6 +6522,11 @@
    "resultado": "perdido"
   },
   {
+   "signal_id": "f2934016f5bca65964f801d5",
+   "fixture_id": 1635708,
+   "published_at": "2026-09-10T18:37:03+01:00",
+   "origem": "manual",
+   "produto": "over2p",
    "data": "2026-09-10",
    "hora": "18:37",
    "estrategia": "Sharp Pick",
@@ -4845,6 +6537,11 @@
    "resultado": "perdido"
   },
   {
+   "signal_id": "d53adbbcc37a8cefb58c5cb3",
+   "fixture_id": 1556852,
+   "published_at": "2026-09-12T15:58:10+01:00",
+   "origem": "manual",
+   "produto": "over2p",
    "data": "2026-09-12",
    "hora": "15:58",
    "estrategia": "Sharp Pick",
@@ -4855,6 +6552,11 @@
    "resultado": "perdido"
   },
   {
+   "signal_id": "8b469e9f2693c1456262f31d",
+   "fixture_id": 1576486,
+   "published_at": "2026-09-13T11:58:42+01:00",
+   "origem": "manual",
+   "produto": "over2p",
    "data": "2026-09-13",
    "hora": "11:58",
    "estrategia": "Sharp Pick",
@@ -4865,6 +6567,11 @@
    "resultado": "perdido"
   },
   {
+   "signal_id": "4cfa23b4cd88a473da6a3331",
+   "fixture_id": 1560020,
+   "published_at": "2026-09-13T12:49:45+01:00",
+   "origem": "manual",
+   "produto": "over2p",
    "data": "2026-09-13",
    "hora": "12:49",
    "estrategia": "Sharp Pick",
@@ -4875,6 +6582,11 @@
    "resultado": "ganho"
   },
   {
+   "signal_id": "c34cdd4b26f6f512cea0284e",
+   "fixture_id": 1494278,
+   "published_at": "2026-09-13T13:55:34+01:00",
+   "origem": "automatico",
+   "produto": "over2p",
    "data": "2026-09-13",
    "hora": "13:55",
    "estrategia": "Golos 2ª Parte",
@@ -4885,6 +6597,11 @@
    "resultado": "perdido"
   },
   {
+   "signal_id": "e434366bf3f9c09feb054dad",
+   "fixture_id": 1570374,
+   "published_at": "2026-09-13T13:59:46+01:00",
+   "origem": "manual",
+   "produto": "over2p",
    "data": "2026-09-13",
    "hora": "13:59",
    "estrategia": "Sharp Pick",
@@ -4895,6 +6612,11 @@
    "resultado": "perdido"
   },
   {
+   "signal_id": "dce892d427b5470be66fdc71",
+   "fixture_id": 1494762,
+   "published_at": "2026-09-13T16:51:52+01:00",
+   "origem": "automatico",
+   "produto": "over2p",
    "data": "2026-09-13",
    "hora": "16:51",
    "estrategia": "Golos 2ª Parte",
@@ -4905,6 +6627,11 @@
    "resultado": "perdido"
   },
   {
+   "signal_id": "504f9b50b6b44f8c3fcd3a2f",
+   "fixture_id": 1552169,
+   "published_at": "2026-09-13T19:53:11+01:00",
+   "origem": "automatico",
+   "produto": "over2p",
    "data": "2026-09-13",
    "hora": "19:53",
    "estrategia": "Golos 2ª Parte",
@@ -4915,6 +6642,11 @@
    "resultado": "ganho"
   },
   {
+   "signal_id": "ca648a52db35c0d8c0084647",
+   "fixture_id": 1583997,
+   "published_at": "2026-09-16T18:52:39+01:00",
+   "origem": "automatico",
+   "produto": "over2p",
    "data": "2026-09-16",
    "hora": "18:52",
    "estrategia": "Golos 2ª Parte",
@@ -4925,6 +6657,11 @@
    "resultado": "ganho"
   },
   {
+   "signal_id": "61025fa4d97f33a94cdcb4fe",
+   "fixture_id": 1555369,
+   "published_at": "2026-09-16T18:57:38+01:00",
+   "origem": "automatico",
+   "produto": "over2p",
    "data": "2026-09-16",
    "hora": "18:57",
    "estrategia": "Golos 2ª Parte",
@@ -4935,6 +6672,11 @@
    "resultado": "perdido"
   },
   {
+   "signal_id": "3f9057514f48e727a716b4d4",
+   "fixture_id": 1570386,
+   "published_at": "2026-09-17T18:55:55+01:00",
+   "origem": "manual",
+   "produto": "over2p",
    "data": "2026-09-17",
    "hora": "18:55",
    "estrategia": "Sharp Pick",
@@ -4945,6 +6687,11 @@
    "resultado": "perdido"
   },
   {
+   "signal_id": "8027a914a9ad94b4a2f9439e",
+   "fixture_id": 1553841,
+   "published_at": "2026-09-17T20:03:31+01:00",
+   "origem": "manual",
+   "produto": "over2p",
    "data": "2026-09-17",
    "hora": "20:03",
    "estrategia": "Sharp Pick",
@@ -4955,6 +6702,26 @@
    "resultado": "perdido"
   },
   {
+   "signal_id": "93a47934c05a4126320de9fb",
+   "fixture_id": 1553841,
+   "published_at": "2026-09-17T20:46:34+01:00",
+   "origem": "manual",
+   "produto": "late_goal",
+   "data": "2026-09-17",
+   "hora": "20:46",
+   "estrategia": "Golos 2ª Parte",
+   "liga": "Super Liga",
+   "jogo": "Železničar Pančevo vs FK Crvena Zvezda",
+   "mercado": "Late Goal · Over 2.5 FT",
+   "odd": 2.05,
+   "resultado": "ganho"
+  },
+  {
+   "signal_id": "6666489a48ca9c3994634625",
+   "fixture_id": 1564307,
+   "published_at": "2026-09-17T20:57:16+01:00",
+   "origem": "manual",
+   "produto": "over2p",
    "data": "2026-09-17",
    "hora": "20:57",
    "estrategia": "Sharp Pick",
@@ -4965,16 +6732,26 @@
    "resultado": "perdido"
   },
   {
+   "signal_id": "1375d0fc69beb85177c1f0fb",
+   "fixture_id": 1635387,
+   "published_at": "2026-09-18T03:06:03+01:00",
+   "origem": "manual",
+   "produto": "late_goal",
    "data": "2026-09-17",
    "hora": "03:06",
    "estrategia": "Sharp Pick",
    "liga": "CONMEBOL Libertadores",
    "jogo": "Flamengo vs Independiente del Valle",
-   "mercado": "Over 1.5 FT",
+   "mercado": "Late Goal · Over 1.5 FT",
    "odd": 1.91,
    "resultado": "ganho"
   },
   {
+   "signal_id": "dc6c1afba8e4ae24b062ff55",
+   "fixture_id": 1528715,
+   "published_at": "2026-09-18T13:18:40+01:00",
+   "origem": "manual",
+   "produto": "over2p",
    "data": "2026-09-18",
    "hora": "13:18",
    "estrategia": "Sharp Pick",
@@ -4985,6 +6762,11 @@
    "resultado": "perdido"
   },
   {
+   "signal_id": "afec2827ea01850fb5bf000b",
+   "fixture_id": 1523230,
+   "published_at": "2026-09-18T13:51:39+01:00",
+   "origem": "automatico",
+   "produto": "over2p",
    "data": "2026-09-18",
    "hora": "13:51",
    "estrategia": "Golos 2ª Parte",
@@ -4995,6 +6777,11 @@
    "resultado": "ganho"
   },
   {
+   "signal_id": "7de478b2969d480243e7e002",
+   "fixture_id": 1556079,
+   "published_at": "2026-09-19T11:27:57+01:00",
+   "origem": "automatico",
+   "produto": "over2p",
    "data": "2026-09-19",
    "hora": "11:27",
    "estrategia": "Golos 2ª Parte",
@@ -5005,6 +6792,41 @@
    "resultado": "perdido"
   },
   {
+   "signal_id": "6759d0b4c32efdc9b0f88e72",
+   "fixture_id": 1563176,
+   "published_at": "2026-09-19T14:04:50+01:00",
+   "origem": "automatico",
+   "produto": "late_goal",
+   "data": "2026-09-19",
+   "hora": "14:04",
+   "estrategia": "Golos 2ª Parte",
+   "liga": "Championship",
+   "jogo": "Stoke City vs Sheffield Utd",
+   "mercado": "Late Goal · Over 1.5 FT",
+   "odd": 2.25,
+   "resultado": "ganho"
+  },
+  {
+   "signal_id": "29360e3f94876f348931016b",
+   "fixture_id": 1601540,
+   "published_at": "2026-09-19T15:46:28+01:00",
+   "origem": "automatico",
+   "produto": "late_goal",
+   "data": "2026-09-19",
+   "hora": "15:46",
+   "estrategia": "Golos 2ª Parte",
+   "liga": "Serie B",
+   "jogo": "Palermo vs Padova",
+   "mercado": "Late Goal · Over 2.5 FT",
+   "odd": 2.625,
+   "resultado": "ganho"
+  },
+  {
+   "signal_id": "3b2ecf2fcb4fff19d1345bbb",
+   "fixture_id": 1563167,
+   "published_at": "2026-09-19T16:14:38+01:00",
+   "origem": "automatico",
+   "produto": "over2p",
    "data": "2026-09-19",
    "hora": "16:14",
    "estrategia": "Golos 2ª Parte",
@@ -5015,6 +6837,11 @@
    "resultado": "ganho"
   },
   {
+   "signal_id": "e8e8cbecd18d0ff3a747668d",
+   "fixture_id": 1570393,
+   "published_at": "2026-09-19T16:24:26+01:00",
+   "origem": "automatico",
+   "produto": "over2p",
    "data": "2026-09-19",
    "hora": "16:24",
    "estrategia": "Golos 2ª Parte",
@@ -5025,6 +6852,11 @@
    "resultado": "perdido"
   },
   {
+   "signal_id": "68dd1c7b41abae155e1699ef",
+   "fixture_id": 1560244,
+   "published_at": "2026-09-19T17:02:08+01:00",
+   "origem": "automatico",
+   "produto": "over2p",
    "data": "2026-09-19",
    "hora": "17:02",
    "estrategia": "Golos 2ª Parte",
@@ -5035,6 +6867,26 @@
    "resultado": "perdido"
   },
   {
+   "signal_id": "3682368ead91c60e0d3b31fa",
+   "fixture_id": 1575507,
+   "published_at": "2026-09-19T22:08:20+01:00",
+   "origem": "automatico",
+   "produto": "late_goal",
+   "data": "2026-09-19",
+   "hora": "22:08",
+   "estrategia": "Golos 2ª Parte",
+   "liga": "Primeira Liga",
+   "jogo": "Sporting CP vs Arouca",
+   "mercado": "Late Goal · Over 2.5 FT",
+   "odd": 1.925,
+   "resultado": "ganho"
+  },
+  {
+   "signal_id": "a13c7eec9e194ddd49caf91c",
+   "fixture_id": 1559792,
+   "published_at": "2026-09-20T10:06:38+01:00",
+   "origem": "automatico",
+   "produto": "over2p",
    "data": "2026-09-20",
    "hora": "10:06",
    "estrategia": "Golos 2ª Parte",
@@ -5045,16 +6897,26 @@
    "resultado": "perdido"
   },
   {
+   "signal_id": "ca9d38e79972f802fbf4ccd7",
+   "fixture_id": 1507075,
+   "published_at": "2026-09-20T12:38:00+01:00",
+   "origem": "manual",
+   "produto": "late_goal",
    "data": "2026-09-20",
    "hora": "12:38",
    "estrategia": "Sharp Pick",
    "liga": "K League 1",
    "jogo": "Pohang Steelers vs FC Seoul",
-   "mercado": "Over 3.5 FT",
+   "mercado": "Late Goal · Over 3.5 FT",
    "odd": 2.1,
    "resultado": "perdido"
   },
   {
+   "signal_id": "9bf366284dddaaf9d4f15c8a",
+   "fixture_id": 1549022,
+   "published_at": "2026-09-20T13:52:07+01:00",
+   "origem": "manual",
+   "produto": "over2p",
    "data": "2026-09-20",
    "hora": "13:52",
    "estrategia": "Sharp Pick",
@@ -5065,6 +6927,11 @@
    "resultado": "perdido"
   },
   {
+   "signal_id": "6cdfd24a8b856e9f27d8d67e",
+   "fixture_id": 1494283,
+   "published_at": "2026-09-20T13:57:22+01:00",
+   "origem": "manual",
+   "produto": "over2p",
    "data": "2026-09-20",
    "hora": "13:57",
    "estrategia": "Sharp Pick",
@@ -5075,6 +6942,11 @@
    "resultado": "ganho"
   },
   {
+   "signal_id": "2a260bac7d9baf3858f546bb",
+   "fixture_id": 1494284,
+   "published_at": "2026-09-20T14:00:24+01:00",
+   "origem": "manual",
+   "produto": "over2p",
    "data": "2026-09-20",
    "hora": "14:00",
    "estrategia": "Sharp Pick",
@@ -5085,6 +6957,11 @@
    "resultado": "ganho"
   },
   {
+   "signal_id": "07d0a5d4179d16254c92c445",
+   "fixture_id": 1560027,
+   "published_at": "2026-09-20T14:49:10+01:00",
+   "origem": "manual",
+   "produto": "over2p",
    "data": "2026-09-20",
    "hora": "14:49",
    "estrategia": "Sharp Pick",
@@ -5095,6 +6972,11 @@
    "resultado": "perdido"
   },
   {
+   "signal_id": "76d20146b208d8ca0dc2a9ee",
+   "fixture_id": 1497706,
+   "published_at": "2026-09-20T14:52:40+01:00",
+   "origem": "manual",
+   "produto": "over2p",
    "data": "2026-09-20",
    "hora": "14:52",
    "estrategia": "Sharp Pick",
@@ -5105,6 +6987,11 @@
    "resultado": "perdido"
   },
   {
+   "signal_id": "bee8cf5669622c276666ee05",
+   "fixture_id": 1557412,
+   "published_at": "2026-09-20T15:02:31+01:00",
+   "origem": "manual",
+   "produto": "over2p",
    "data": "2026-09-20",
    "hora": "15:02",
    "estrategia": "Sharp Pick",
@@ -5115,6 +7002,11 @@
    "resultado": "perdido"
   },
   {
+   "signal_id": "ce6757795ef508d6c288f10e",
+   "fixture_id": 1549023,
+   "published_at": "2026-09-20T16:01:59+01:00",
+   "origem": "manual",
+   "produto": "over2p",
    "data": "2026-09-20",
    "hora": "16:01",
    "estrategia": "Sharp Pick",
@@ -5125,6 +7017,11 @@
    "resultado": "ganho"
   },
   {
+   "signal_id": "37052c2aae559b03aee959c9",
+   "fixture_id": 1494286,
+   "published_at": "2026-09-20T16:30:05+01:00",
+   "origem": "manual",
+   "produto": "over2p",
    "data": "2026-09-20",
    "hora": "16:30",
    "estrategia": "Sharp Pick",
@@ -5135,6 +7032,11 @@
    "resultado": "ganho"
   },
   {
+   "signal_id": "202b0e60c9ce3f4980ee1089",
+   "fixture_id": 1517350,
+   "published_at": "2026-09-20T18:02:19+01:00",
+   "origem": "manual",
+   "produto": "over2p",
    "data": "2026-09-20",
    "hora": "18:02",
    "estrategia": "Sharp Pick",
@@ -5145,28 +7047,43 @@
    "resultado": "ganho"
   },
   {
+   "signal_id": "99cb429c2a2f8f653bfc4f18",
+   "fixture_id": 1509190,
+   "published_at": "2026-09-21T17:40:42+01:00",
+   "origem": "manual",
+   "produto": "late_goal",
    "data": "2026-09-21",
    "hora": "17:40",
    "estrategia": "Sharp Pick",
    "liga": "Erovnuli Liga",
    "jogo": "Rustavi vs FC Iberia 1999",
-   "mercado": "Over 1.5 FT",
+   "mercado": "Late Goal · Over 1.5 FT",
    "odd": 2.2,
    "resultado": "ganho"
   },
   {
+   "signal_id": "53f2dea4fed5f1162db44f1f",
+   "fixture_id": 1639819,
+   "published_at": "2026-09-21T21:45:47+01:00",
+   "origem": "manual",
+   "produto": "late_goal",
    "data": "2026-09-21",
    "hora": "21:45",
    "estrategia": "Sharp Pick",
    "liga": "Liga Pro",
    "jogo": "Manta FC vs Orense SC",
-   "mercado": "Over 2.5 FT",
+   "mercado": "Late Goal · Over 2.5 FT",
    "odd": 2.0,
    "resultado": "ganho"
   }
  ],
  "historico_condicionais": [
   {
+   "signal_id": "986f0981cb1fad10b1001ce4",
+   "fixture_id": 1638623,
+   "published_at": "2026-09-13T15:54:34+01:00",
+   "origem": "automatico",
+   "produto": "over2p",
    "data": "2026-09-13",
    "hora": "15:54",
    "estrategia": "Golos 2ª Parte",
@@ -5179,6 +7096,11 @@
    "contabilizacao": "desportiva_sem_preco_confirmado"
   },
   {
+   "signal_id": "f0d0277c7bf6ea0b925316a0",
+   "fixture_id": 1494756,
+   "published_at": "2026-09-14T18:58:32+01:00",
+   "origem": "automatico",
+   "produto": "over2p",
    "data": "2026-09-14",
    "hora": "18:58",
    "estrategia": "Golos 2ª Parte",
@@ -5191,6 +7113,11 @@
    "contabilizacao": "desportiva_sem_preco_confirmado"
   },
   {
+   "signal_id": "e4a63dd303cedba5478c42c6",
+   "fixture_id": 1638624,
+   "published_at": "2026-09-14T21:09:30+01:00",
+   "origem": "automatico",
+   "produto": "over2p",
    "data": "2026-09-14",
    "hora": "21:09",
    "estrategia": "Golos 2ª Parte",
@@ -5203,6 +7130,11 @@
    "contabilizacao": "desportiva_sem_preco_confirmado"
   },
   {
+   "signal_id": "7cfd6934127863d9fe9380b8",
+   "fixture_id": 1570385,
+   "published_at": "2026-09-16T21:33:10+01:00",
+   "origem": "automatico",
+   "produto": "over2p",
    "data": "2026-09-16",
    "hora": "21:33",
    "estrategia": "Golos 2ª Parte",
@@ -5215,6 +7147,11 @@
    "contabilizacao": "desportiva_sem_preco_confirmado"
   },
   {
+   "signal_id": "1dd96ce7b7fd5227fb8d83ab",
+   "fixture_id": 1585760,
+   "published_at": "2026-09-18T14:54:40+01:00",
+   "origem": "automatico",
+   "produto": "over2p",
    "data": "2026-09-18",
    "hora": "14:54",
    "estrategia": "Golos 2ª Parte",
@@ -5227,6 +7164,11 @@
    "contabilizacao": "desportiva_sem_preco_confirmado"
   },
   {
+   "signal_id": "8efcaeabdf41f695caa789d3",
+   "fixture_id": 1565487,
+   "published_at": "2026-09-18T14:59:53+01:00",
+   "origem": "automatico",
+   "produto": "over2p",
    "data": "2026-09-18",
    "hora": "14:59",
    "estrategia": "Golos 2ª Parte",
@@ -5239,6 +7181,11 @@
    "contabilizacao": "desportiva_sem_preco_confirmado"
   },
   {
+   "signal_id": "f86713a8a09736af11d1e4c2",
+   "fixture_id": 1602492,
+   "published_at": "2026-09-19T11:26:44+01:00",
+   "origem": "automatico",
+   "produto": "over2p",
    "data": "2026-09-19",
    "hora": "11:26",
    "estrategia": "Golos 2ª Parte",
@@ -5251,6 +7198,11 @@
    "contabilizacao": "desportiva_sem_preco_confirmado"
   },
   {
+   "signal_id": "23abc581ac44f282f289cc38",
+   "fixture_id": 1507071,
+   "published_at": "2026-09-19T11:54:53+01:00",
+   "origem": "automatico",
+   "produto": "over2p",
    "data": "2026-09-19",
    "hora": "11:54",
    "estrategia": "Golos 2ª Parte",
@@ -5263,6 +7215,11 @@
    "contabilizacao": "desportiva_sem_preco_confirmado"
   },
   {
+   "signal_id": "41dab2b78a530919ba8d1b49",
+   "fixture_id": 1551111,
+   "published_at": "2026-09-19T12:57:46+01:00",
+   "origem": "automatico",
+   "produto": "over2p",
    "data": "2026-09-19",
    "hora": "12:57",
    "estrategia": "Golos 2ª Parte",
@@ -5275,6 +7232,11 @@
    "contabilizacao": "desportiva_sem_preco_confirmado"
   },
   {
+   "signal_id": "c41f0aecc5e3fa5c653447de",
+   "fixture_id": 1553178,
+   "published_at": "2026-09-20T12:14:07+01:00",
+   "origem": "automatico",
+   "produto": "over2p",
    "data": "2026-09-20",
    "hora": "12:14",
    "estrategia": "Golos 2ª Parte",
@@ -5287,6 +7249,11 @@
    "contabilizacao": "desportiva_sem_preco_confirmado"
   },
   {
+   "signal_id": "8da4d786b08e3d454e55b1a5",
+   "fixture_id": 1559168,
+   "published_at": "2026-09-20T19:17:18+01:00",
+   "origem": "automatico",
+   "produto": "over2p",
    "data": "2026-09-20",
    "hora": "19:17",
    "estrategia": "Golos 2ª Parte",
@@ -5299,6 +7266,11 @@
    "contabilizacao": "desportiva_sem_preco_confirmado"
   },
   {
+   "signal_id": "07f41afa0fac2c0cfea5dbad",
+   "fixture_id": 1554164,
+   "published_at": "2026-09-21T18:03:20+01:00",
+   "origem": "automatico",
+   "produto": "over2p",
    "data": "2026-09-21",
    "hora": "18:03",
    "estrategia": "Golos 2ª Parte",
@@ -5311,6 +7283,11 @@
    "contabilizacao": "desportiva_sem_preco_confirmado"
   },
   {
+   "signal_id": "72645fb6efc09daf65c035fa",
+   "fixture_id": 1571568,
+   "published_at": "2026-09-21T18:25:23+01:00",
+   "origem": "automatico",
+   "produto": "over2p",
    "data": "2026-09-21",
    "hora": "18:25",
    "estrategia": "Golos 2ª Parte",
@@ -5323,6 +7300,11 @@
    "contabilizacao": "desportiva_sem_preco_confirmado"
   },
   {
+   "signal_id": "310daf3028c968aaddb8b7a0",
+   "fixture_id": 1493137,
+   "published_at": "2026-09-21T19:28:14+01:00",
+   "origem": "automatico",
+   "produto": "over2p",
    "data": "2026-09-21",
    "hora": "19:28",
    "estrategia": "Golos 2ª Parte",
@@ -5335,6 +7317,11 @@
    "contabilizacao": "desportiva_sem_preco_confirmado"
   },
   {
+   "signal_id": "3deb57e5aa14eb4d73580cd7",
+   "fixture_id": 1554166,
+   "published_at": "2026-09-21T19:55:56+01:00",
+   "origem": "automatico",
+   "produto": "over2p",
    "data": "2026-09-21",
    "hora": "19:55",
    "estrategia": "Golos 2ª Parte",
@@ -5347,6 +7334,11 @@
    "contabilizacao": "desportiva_sem_preco_confirmado"
   },
   {
+   "signal_id": "dc912a5415f3f7da4dff68d9",
+   "fixture_id": 1520882,
+   "published_at": "2026-09-23T00:31:26+01:00",
+   "origem": "automatico",
+   "produto": "over2p",
    "data": "2026-09-22",
    "hora": "00:31",
    "estrategia": "Golos 2ª Parte",
