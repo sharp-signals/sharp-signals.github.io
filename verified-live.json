@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-25T19:00:30Z",
-  "event_chain_head": "55c711eb8240458ebaa0b440575f9a39e29ee51d68c1abc41c2223860085028e",
+  "generated_at": "2026-09-25T19:01:00Z",
+  "event_chain_head": "f7497630ea8f5b57ff6e01c584ac26dd0cc3b7fbeb0a817b2dfb7b16278665ee",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,10 +12,10 @@
   },
   "summary": {
     "total": 148,
-    "pending": 6,
+    "pending": 5,
     "signals_settled": 48,
     "official_entries_settled": 84,
-    "cancelled": 17
+    "cancelled": 18
   },
   "records": [
     {
@@ -30,11 +30,34 @@
     {
       "id": "tip_proposal:20260925T185920846086Z:03946490",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-09-25T18:59:21Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "90ed8ee84c1ae85fcdd5aa774bc374a37db08217096a98858f55b237fac8034e",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-09-25T19:01:00Z",
+      "result": "CANCELADA",
+      "outcome": {
+        "odds": null,
+        "odds_source": null,
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "cancelled",
+        "profit_loss_percent": null,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": null,
+        "entry_id": "tip_proposal:20260925T185920846086Z:03946490",
+        "market": "⛳ Over 7.5 corners · Inglaterra u21 · 1st half",
+        "match": "Inglaterra u21 x Cazaquistao u21",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": null
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20260925T184308051995Z:288afc81",
