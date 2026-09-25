@@ -8,8 +8,8 @@
    "fim": "2026-01-31"
   },
   "cresc_pct": 56.91,
-  "apostas": 1126,
-  "ganhos": 637,
+  "apostas": 1127,
+  "ganhos": 638,
   "perdidos": 489,
   "wr": 56.6,
   "meses": [
@@ -72,17 +72,17 @@
    {
     "mes": "2026-09",
     "label": "Set 26",
-    "cresc_pct": 9.29,
-    "apostas": 83,
-    "wr": 54.2
+    "cresc_pct": 9.91,
+    "apostas": 84,
+    "wr": 54.8
    }
   ],
   "por_mercado": [
    {
     "mercado": "Over Cantos FT",
-    "n": 618,
+    "n": 619,
     "wr": 58.3,
-    "roi": 33.51,
+    "roi": 34.13,
     "pl_eur": 1369.94
    },
    {
@@ -129,7 +129,6 @@
    }
   ],
   "forma": [
-   "ganho",
    "cashout",
    "perdido",
    "cashout",
@@ -143,7 +142,8 @@
    "perdido",
    "perdido",
    "perdido",
-   "perdido"
+   "perdido",
+   "ganho"
   ],
   "historico": [
    {
@@ -152,13 +152,13 @@
     "jogo": "Independiente F x Ferro Carril F",
     "mercado": "⛳ Over 7 corners · FT",
     "categoria": "Over Cantos FT",
-    "odd": null,
-    "pl_pct": null,
+    "odd": 1.83,
+    "pl_pct": 0.623,
     "stake_pct": 0.75,
-    "resultado": "pendente",
+    "resultado": "ganho",
     "verified_id": "tip_proposal:20260925T184308051995Z:288afc81",
-    "estado_entrada": "aguarda_confirmacao",
-    "tipo_odd": "por_registar",
+    "estado_entrada": "confirmada",
+    "tipo_odd": "real",
     "odd_minima_recomendada": 1.81,
     "confianca": 7
    },
