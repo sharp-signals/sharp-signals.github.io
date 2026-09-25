@@ -3200,5 +3200,27 @@
       "golos_apos_casa": 1,
       "golos_apos_fora": 0
     }
+  ],
+  "2026-09-25": [
+    {
+      "alerta_id": "ce1:1551809:shark",
+      "fixture_id": 1551809,
+      "timestamp": "2026-09-25T22:27:59.517916",
+      "jogo": "Dordrecht vs Almere City FC",
+      "liga": "Eerste Divisie",
+      "janela": "SHARK ATTACK",
+      "tempo_alerta": 55,
+      "estrelas": 7.0,
+      "cantos_no_ref": 3,
+      "cantos_final": 8,
+      "cantos_apos_alerta": 5,
+      "meta_cantos": 4,
+      "resultado": "WIN",
+      "resultado_tecnico": "WIN",
+      "estado_entrada": "CONFIRMADA",
+      "justificacao_void": "",
+      "golos_apos_casa": 2,
+      "golos_apos_fora": 1
+    }
   ]
 }
