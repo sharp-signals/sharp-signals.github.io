@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-25T16:34:53Z",
-  "event_chain_head": "40b2e99f2309efa275841cd93b71f5ea4527d605a94472fe259e5f79f395f476",
+  "generated_at": "2026-09-25T16:37:05Z",
+  "event_chain_head": "a9f52b673dda29f402f017e90fe0afb12baabd4e64d435a952fd9ea5500f818a",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,20 +12,43 @@
   },
   "summary": {
     "total": 145,
-    "pending": 5,
+    "pending": 4,
     "signals_settled": 48,
     "official_entries_settled": 83,
-    "cancelled": 16
+    "cancelled": 17
   },
   "records": [
     {
       "id": "tip_proposal:20260925T163451701733Z:c718d890",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-09-25T16:34:53Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "d1b56feb8af495446d6cc5ded6ae24656c9396d26ff8dfabcd2aa200390c45b1",
-      "telegram_message_count": 2
+      "telegram_message_count": 2,
+      "settled_at": "2026-09-25T16:37:05Z",
+      "result": "CANCELADA",
+      "outcome": {
+        "odds": null,
+        "odds_source": null,
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "cancelled",
+        "profit_loss_percent": null,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 8,
+        "entry_id": "tip_proposal:20260925T163451701733Z:c718d890",
+        "market": "⛳ Over 3 corners · 1st half",
+        "match": "Nigeria x Madagascar",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 1.25
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20260923T161825585822Z:d341538b",
