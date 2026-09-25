@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-25T18:43:08Z",
-  "event_chain_head": "303a8061b366e4703917da47798e2f32cf35300c0f3b4c9b5718481bb8c57718",
+  "generated_at": "2026-09-25T18:55:56Z",
+  "event_chain_head": "67ccc76422ca30c52618a1d1291b140864232ef77a6b6aa630853e968d0837f0",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,20 +12,43 @@
   },
   "summary": {
     "total": 146,
-    "pending": 5,
+    "pending": 4,
     "signals_settled": 48,
-    "official_entries_settled": 83,
+    "official_entries_settled": 84,
     "cancelled": 17
   },
   "records": [
     {
       "id": "tip_proposal:20260925T184308051995Z:288afc81",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-09-25T18:43:08Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "ca8f67d3ee3cfe018693958c903969751eebe514abe083e9d758d721705d0495",
-      "telegram_message_count": 2
+      "telegram_message_count": 2,
+      "settled_at": "2026-09-25T18:55:56Z",
+      "result": "WIN",
+      "outcome": {
+        "odds": 1.83,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": 0.623,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20260925T184308051995Z:288afc81",
+        "market": "⛳ Over 7 corners · FT",
+        "match": "Independiente F x Ferro Carril F",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20260925T163451701733Z:c718d890",
