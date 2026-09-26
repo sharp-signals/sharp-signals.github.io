@@ -8,9 +8,9 @@
    "fim": "2026-01-31"
   },
   "cresc_pct": 56.91,
-  "apostas": 1128,
+  "apostas": 1129,
   "ganhos": 639,
-  "perdidos": 489,
+  "perdidos": 490,
   "wr": 56.6,
   "meses": [
    {
@@ -72,9 +72,9 @@
    {
     "mes": "2026-09",
     "label": "Set 26",
-    "cresc_pct": 10.53,
-    "apostas": 85,
-    "wr": 55.3
+    "cresc_pct": 10.42,
+    "apostas": 86,
+    "wr": 54.7
    }
   ],
   "por_mercado": [
@@ -94,9 +94,9 @@
    },
    {
     "mercado": "Cashout",
-    "n": 160,
-    "wr": 47.5,
-    "roi": -2.91,
+    "n": 161,
+    "wr": 47.2,
+    "roi": -3.02,
     "pl_eur": -74.77
    },
    {
@@ -129,7 +129,6 @@
    }
   ],
   "forma": [
-   "perdido",
    "cashout",
    "ganho",
    "cashout",
@@ -143,7 +142,8 @@
    "perdido",
    "perdido",
    "ganho",
-   "ganho"
+   "ganho",
+   "cashout"
   ],
   "historico": [
    {
@@ -151,16 +151,17 @@
     "mes": "2026-09",
     "jogo": "Brno F x Sparta Prague F",
     "mercado": "⛳ Over 6.5 corners · FT",
-    "categoria": "Over Cantos FT",
+    "categoria": "Cashout",
     "odd": null,
-    "pl_pct": null,
+    "pl_pct": -0.112,
     "stake_pct": 0.75,
-    "resultado": "pendente",
+    "resultado": "cashout",
     "verified_id": "tip_proposal:20260926T101303337961Z:c31f2b13",
-    "estado_entrada": "aguarda_confirmacao",
-    "tipo_odd": "por_registar",
+    "estado_entrada": "confirmada",
+    "tipo_odd": "referencia_cashout_menos_15_pct",
     "odd_minima_recomendada": 1.81,
-    "confianca": 7
+    "confianca": 7,
+    "cashout_perda_referencia_pct_stake": 15.0
    },
    {
     "data": "2026-09-25",
