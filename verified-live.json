@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-26T10:13:03Z",
-  "event_chain_head": "730e4deb66f820676c159fe7957a3705d2b802bed4f0ee661259c23194d9f836",
+  "generated_at": "2026-09-26T10:31:59Z",
+  "event_chain_head": "6dff239549a070e24a5eb19740785cc955062eee4f1e6061925f7411e30d5028",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,20 +12,43 @@
   },
   "summary": {
     "total": 150,
-    "pending": 5,
+    "pending": 4,
     "signals_settled": 49,
-    "official_entries_settled": 85,
+    "official_entries_settled": 86,
     "cancelled": 18
   },
   "records": [
     {
       "id": "tip_proposal:20260926T101303337961Z:c31f2b13",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-09-26T10:13:03Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "909bbff769e4462190f62d96990ee3ede2596523cdb92f0a3cce72caaa9f5291",
-      "telegram_message_count": 2
+      "telegram_message_count": 2,
+      "settled_at": "2026-09-26T10:31:59Z",
+      "result": "CASHOUT",
+      "outcome": {
+        "odds": null,
+        "odds_source": "cashout_loss_reference",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": 0.15,
+        "entry_status": "confirmed",
+        "profit_loss_percent": -0.112,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20260926T101303337961Z:c31f2b13",
+        "market": "⛳ Over 6.5 corners · FT",
+        "match": "Brno F x Sparta Prague F",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "ce1:1551809:shark",
