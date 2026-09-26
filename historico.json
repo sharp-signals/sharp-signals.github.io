@@ -3243,6 +3243,26 @@
       "justificacao_void": "",
       "golos_apos_casa": 1,
       "golos_apos_fora": 0
+    },
+    {
+      "alerta_id": "ce1:1563768:mid",
+      "fixture_id": 1563768,
+      "timestamp": "2026-09-26T17:33:33.216304",
+      "jogo": "Cheltenham vs Chesterfield",
+      "liga": "League Two",
+      "janela": "MID PRESSURE",
+      "tempo_alerta": 67,
+      "estrelas": 7.0,
+      "cantos_no_ref": 10,
+      "cantos_final": 13,
+      "cantos_apos_alerta": 3,
+      "meta_cantos": 3,
+      "resultado": "WIN",
+      "resultado_tecnico": "WIN",
+      "estado_entrada": "CONFIRMADA",
+      "justificacao_void": "",
+      "golos_apos_casa": 0,
+      "golos_apos_fora": 0
     }
   ]
 }
