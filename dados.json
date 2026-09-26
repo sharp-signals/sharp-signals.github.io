@@ -8,8 +8,8 @@
    "fim": "2026-01-31"
   },
   "cresc_pct": 56.91,
-  "apostas": 1129,
-  "ganhos": 639,
+  "apostas": 1130,
+  "ganhos": 640,
   "perdidos": 490,
   "wr": 56.6,
   "meses": [
@@ -72,17 +72,17 @@
    {
     "mes": "2026-09",
     "label": "Set 26",
-    "cresc_pct": 10.42,
-    "apostas": 86,
-    "wr": 54.7
+    "cresc_pct": 11.43,
+    "apostas": 87,
+    "wr": 55.2
    }
   ],
   "por_mercado": [
    {
     "mercado": "Over Cantos FT",
-    "n": 619,
-    "wr": 58.3,
-    "roi": 34.13,
+    "n": 620,
+    "wr": 58.4,
+    "roi": 35.14,
     "pl_eur": 1369.94
    },
    {
@@ -129,7 +129,6 @@
    }
   ],
   "forma": [
-   "cashout",
    "ganho",
    "cashout",
    "perdido",
@@ -143,7 +142,8 @@
    "perdido",
    "ganho",
    "ganho",
-   "cashout"
+   "cashout",
+   "ganho"
   ],
   "historico": [
    {
@@ -152,13 +152,13 @@
     "jogo": "Cobreloa x S. Wanderers",
     "mercado": "⛳ Over 6.5 corners · FT",
     "categoria": "Over Cantos FT",
-    "odd": null,
-    "pl_pct": null,
+    "odd": 1.81,
+    "pl_pct": 1.013,
     "stake_pct": 1.25,
-    "resultado": "pendente",
+    "resultado": "ganho",
     "verified_id": "tip_proposal:20260926T190859865338Z:d3907efe",
-    "estado_entrada": "aguarda_confirmacao",
-    "tipo_odd": "por_registar",
+    "estado_entrada": "confirmada",
+    "tipo_odd": "real",
     "odd_minima_recomendada": 1.81,
     "confianca": 8
    },
