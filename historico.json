@@ -3222,5 +3222,27 @@
       "golos_apos_casa": 2,
       "golos_apos_fora": 1
     }
+  ],
+  "2026-09-26": [
+    {
+      "alerta_id": "ce1:1564320:final",
+      "fixture_id": 1564320,
+      "timestamp": "2026-09-26T17:33:27.091578",
+      "jogo": "Cambridge United vs AFC Wimbledon",
+      "liga": "League One",
+      "janela": "FINAL PUSH",
+      "tempo_alerta": 79,
+      "estrelas": 7.0,
+      "cantos_no_ref": 6,
+      "cantos_final": 9,
+      "cantos_apos_alerta": 3,
+      "meta_cantos": 2,
+      "resultado": "WIN",
+      "resultado_tecnico": "WIN",
+      "estado_entrada": "CONFIRMADA",
+      "justificacao_void": "",
+      "golos_apos_casa": 1,
+      "golos_apos_fora": 0
+    }
   ]
 }
