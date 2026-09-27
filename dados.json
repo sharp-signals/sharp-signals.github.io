@@ -8,10 +8,10 @@
    "fim": "2026-01-31"
   },
   "cresc_pct": 56.91,
-  "apostas": 1131,
+  "apostas": 1132,
   "ganhos": 641,
-  "perdidos": 490,
-  "wr": 56.7,
+  "perdidos": 491,
+  "wr": 56.6,
   "meses": [
    {
     "mes": "2025-08",
@@ -72,9 +72,9 @@
    {
     "mes": "2026-09",
     "label": "Set 26",
-    "cresc_pct": 12.04,
-    "apostas": 88,
-    "wr": 55.7
+    "cresc_pct": 11.29,
+    "apostas": 89,
+    "wr": 55.1
    }
   ],
   "por_mercado": [
@@ -87,9 +87,9 @@
    },
    {
     "mercado": "Over Cantos HT",
-    "n": 181,
-    "wr": 57.5,
-    "roi": 9.08,
+    "n": 182,
+    "wr": 57.1,
+    "roi": 8.33,
     "pl_eur": 417.66
    },
    {
@@ -129,7 +129,6 @@
    }
   ],
   "forma": [
-   "cashout",
    "perdido",
    "ganho",
    "perdido",
@@ -143,7 +142,8 @@
    "ganho",
    "cashout",
    "ganho",
-   "ganho"
+   "ganho",
+   "perdido"
   ],
   "historico": [
    {
@@ -152,13 +152,13 @@
     "jogo": "Bolivar x Club Blooming",
     "mercado": "⛳ Over 3 corners · 1st half",
     "categoria": "Over Cantos HT",
-    "odd": null,
-    "pl_pct": null,
+    "odd": 1.81,
+    "pl_pct": -0.75,
     "stake_pct": 0.75,
-    "resultado": "pendente",
+    "resultado": "perdido",
     "verified_id": "tip_proposal:20260927T215131523961Z:6c57a1b6",
-    "estado_entrada": "aguarda_confirmacao",
-    "tipo_odd": "por_registar",
+    "estado_entrada": "confirmada",
+    "tipo_odd": "real",
     "odd_minima_recomendada": 1.81,
     "confianca": 7
    },
