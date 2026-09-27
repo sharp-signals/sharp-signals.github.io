@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-27T18:11:17Z",
-  "event_chain_head": "97c8d7ac1d002bd3658303a7cab9678b74144b3bc45634acebe40349faab81fb",
+  "generated_at": "2026-09-27T18:42:33Z",
+  "event_chain_head": "850f6e16375f848cf54f0647e8a74b162405bb0ceeed33081d7892d171d91a52",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,20 +12,43 @@
   },
   "summary": {
     "total": 156,
-    "pending": 6,
+    "pending": 5,
     "signals_settled": 51,
-    "official_entries_settled": 88,
+    "official_entries_settled": 89,
     "cancelled": 18
   },
   "records": [
     {
       "id": "tip_proposal:20260927T181116901006Z:285ffa83",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-09-27T18:11:17Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "2a9cebaa0d1a7c9dd3f628a8d05674396eb5068c151aa7e67e02f8cddbaa76e1",
-      "telegram_message_count": 2
+      "telegram_message_count": 2,
+      "settled_at": "2026-09-27T18:42:33Z",
+      "result": "WIN",
+      "outcome": {
+        "odds": 1.81,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": 0.608,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20260927T181116901006Z:285ffa83",
+        "market": "⛳ Over 2.5 corners · 1st half",
+        "match": "Union Santa Fe F x Boca Juniores F",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20260926T225454140279Z:4a6e5ed2",
