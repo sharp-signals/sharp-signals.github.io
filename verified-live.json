@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-29T19:44:28Z",
-  "event_chain_head": "ef93c2cb479fa4066cebb58286122627100ad8807cab921fbcf290eb71a23902",
+  "generated_at": "2026-09-29T19:47:34Z",
+  "event_chain_head": "d59f855a502a31a87ea20b9b4ebffc8519ba615da4693be588a92a0aefce4c1c",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,20 +12,43 @@
   },
   "summary": {
     "total": 162,
-    "pending": 8,
+    "pending": 7,
     "signals_settled": 51,
-    "official_entries_settled": 92,
+    "official_entries_settled": 93,
     "cancelled": 18
   },
   "records": [
     {
       "id": "tip_proposal:20260929T194428106999Z:07250830",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-09-29T19:44:28Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "122ddd393d871164a5d8d010de6226df4ad9105194ef8e4cbe9ce087079966dd",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-09-29T19:47:34Z",
+      "result": "CASHOUT",
+      "outcome": {
+        "odds": null,
+        "odds_source": "cashout_loss_reference",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": 0.15,
+        "entry_status": "confirmed",
+        "profit_loss_percent": -0.112,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20260929T194428106999Z:07250830",
+        "market": "⛳ Over 9 corners · FT",
+        "match": "Irlanda u21 x Cazaquistão u21",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20260929T191841233426Z:4f15ee90",
