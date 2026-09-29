@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-29T17:13:38Z",
-  "event_chain_head": "b5f1bdda2ba28b878505b12ea5a5f18219878ab6e0cb24e1ea2b8963d8d45074",
+  "generated_at": "2026-09-29T17:51:41Z",
+  "event_chain_head": "b68360d40c01db32795ee8d9a6ffe931533e44617f6386fccb58c837d4d4a2df",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,20 +12,43 @@
   },
   "summary": {
     "total": 159,
-    "pending": 6,
+    "pending": 5,
     "signals_settled": 51,
-    "official_entries_settled": 91,
+    "official_entries_settled": 92,
     "cancelled": 18
   },
   "records": [
     {
       "id": "tip_proposal:20260929T171338330233Z:21fc25be",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-09-29T17:13:38Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "0bfa0c6818319862215eb13fae97dcdeec14aef52772aaa69e544cfd840a5b40",
-      "telegram_message_count": 2
+      "telegram_message_count": 2,
+      "settled_at": "2026-09-29T17:51:40Z",
+      "result": "WIN",
+      "outcome": {
+        "odds": 1.81,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": 0.608,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20260929T171338330233Z:21fc25be",
+        "market": "⛳ Over 6.5 corners · FT",
+        "match": "Guiné x Nigéria",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20260929T132727056543Z:38ab142f",
