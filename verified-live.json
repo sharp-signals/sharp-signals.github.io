@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-29T13:27:27Z",
-  "event_chain_head": "be1b8eac483f6865bab13b763b08d8eb2e100a5eff74e42fd2ca9aacb6ac1109",
+  "generated_at": "2026-09-29T13:48:50Z",
+  "event_chain_head": "f481579c2ca982557e98c143f3055d9ab7a5903351e8d9af35f1be76bb1ce2c2",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,20 +12,43 @@
   },
   "summary": {
     "total": 158,
-    "pending": 6,
+    "pending": 5,
     "signals_settled": 51,
-    "official_entries_settled": 90,
+    "official_entries_settled": 91,
     "cancelled": 18
   },
   "records": [
     {
       "id": "tip_proposal:20260929T132727056543Z:38ab142f",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-09-29T13:27:27Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "f5a4f6c3cb55be477794e1e5c3b2aa7b4d218fac0dc763a46e081307600b0b27",
-      "telegram_message_count": 2
+      "telegram_message_count": 2,
+      "settled_at": "2026-09-29T13:48:50Z",
+      "result": "LOSS",
+      "outcome": {
+        "odds": 1.97,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": -0.75,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20260929T132727056543Z:38ab142f",
+        "market": "⛳ Over 3.5 corners · Marrocos · 1st half",
+        "match": "Lesotho x Marrocos",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20260927T215131523961Z:6c57a1b6",
