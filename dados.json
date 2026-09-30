@@ -8,10 +8,10 @@
    "fim": "2026-01-31"
   },
   "cresc_pct": 56.91,
-  "apostas": 1135,
+  "apostas": 1136,
   "ganhos": 642,
-  "perdidos": 493,
-  "wr": 56.6,
+  "perdidos": 494,
+  "wr": 56.5,
   "meses": [
    {
     "mes": "2025-08",
@@ -72,17 +72,17 @@
    {
     "mes": "2026-09",
     "label": "Set 26",
-    "cresc_pct": 11.04,
-    "apostas": 92,
-    "wr": 54.3
+    "cresc_pct": 10.29,
+    "apostas": 93,
+    "wr": 53.8
    }
   ],
   "por_mercado": [
    {
     "mercado": "Over Cantos FT",
-    "n": 621,
-    "wr": 58.5,
-    "roi": 35.75,
+    "n": 622,
+    "wr": 58.4,
+    "roi": 35.0,
     "pl_eur": 1369.94
    },
    {
@@ -129,7 +129,6 @@
    }
   ],
   "forma": [
-   "cashout",
    "perdido",
    "perdido",
    "perdido",
@@ -143,7 +142,8 @@
    "perdido",
    "perdido",
    "ganho",
-   "cashout"
+   "cashout",
+   "perdido"
   ],
   "historico": [
    {
@@ -169,13 +169,13 @@
     "jogo": "Irlanda u21 x Cazaquistão u21",
     "mercado": "⛳ Over 10.5 corners · FT",
     "categoria": "Over Cantos FT",
-    "odd": null,
-    "pl_pct": null,
+    "odd": 1.81,
+    "pl_pct": -0.75,
     "stake_pct": 0.75,
-    "resultado": "pendente",
+    "resultado": "perdido",
     "verified_id": "tip_proposal:20260929T191841233426Z:4f15ee90",
-    "estado_entrada": "aguarda_confirmacao",
-    "tipo_odd": "por_registar",
+    "estado_entrada": "confirmada",
+    "tipo_odd": "real",
     "odd_minima_recomendada": 1.81,
     "confianca": 7
    },
