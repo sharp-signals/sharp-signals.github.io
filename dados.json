@@ -8,10 +8,10 @@
    "fim": "2026-01-31"
   },
   "cresc_pct": 56.91,
-  "apostas": 1136,
-  "ganhos": 642,
+  "apostas": 1137,
+  "ganhos": 643,
   "perdidos": 494,
-  "wr": 56.5,
+  "wr": 56.6,
   "meses": [
    {
     "mes": "2025-08",
@@ -72,17 +72,17 @@
    {
     "mes": "2026-09",
     "label": "Set 26",
-    "cresc_pct": 10.29,
-    "apostas": 93,
-    "wr": 53.8
+    "cresc_pct": 11.29,
+    "apostas": 94,
+    "wr": 54.3
    }
   ],
   "por_mercado": [
    {
     "mercado": "Over Cantos FT",
-    "n": 622,
+    "n": 623,
     "wr": 58.4,
-    "roi": 35.0,
+    "roi": 36.0,
     "pl_eur": 1369.94
    },
    {
@@ -133,7 +133,6 @@
    "perdido",
    "perdido",
    "perdido",
-   "perdido",
    "ganho",
    "ganho",
    "cashout",
@@ -143,7 +142,8 @@
    "perdido",
    "ganho",
    "cashout",
-   "perdido"
+   "perdido",
+   "ganho"
   ],
   "historico": [
    {
@@ -152,13 +152,13 @@
     "jogo": "Escocia u19 x Ucrânia u19",
     "mercado": "⛳ Over 10.5 corners · FT",
     "categoria": "Over Cantos FT",
-    "odd": null,
-    "pl_pct": null,
+    "odd": 1.8,
+    "pl_pct": 1.0,
     "stake_pct": 1.25,
-    "resultado": "pendente",
+    "resultado": "ganho",
     "verified_id": "tip_proposal:20260930T103007240697Z:1dcff4b2",
-    "estado_entrada": "aguarda_confirmacao",
-    "tipo_odd": "por_registar",
+    "estado_entrada": "confirmada",
+    "tipo_odd": "real",
     "odd_minima_recomendada": 1.81,
     "confianca": 8
    },
