@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-30T16:55:29Z",
-  "event_chain_head": "2b60401a4846fa207974e1f342a5fe6ec950fead1f6c73447f59f078895aa50f",
+  "generated_at": "2026-09-30T17:16:47Z",
+  "event_chain_head": "1f20203219cfa2372b5d5e47a9f725c08e0a1181bd70e3b08202d300aa469b51",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,20 +12,43 @@
   },
   "summary": {
     "total": 165,
-    "pending": 7,
+    "pending": 6,
     "signals_settled": 52,
-    "official_entries_settled": 95,
+    "official_entries_settled": 96,
     "cancelled": 18
   },
   "records": [
     {
       "id": "tip_proposal:20260930T165528706137Z:ed125e18",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-09-30T16:55:29Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "bc8f3b40d56d623ea4bace55f9345bb180afa1fdd9a1d3d046b99eac7e32f742",
-      "telegram_message_count": 2
+      "telegram_message_count": 2,
+      "settled_at": "2026-09-30T17:16:47Z",
+      "result": "LOSS",
+      "outcome": {
+        "odds": 1.81,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": -0.75,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20260930T165528706137Z:ed125e18",
+        "market": "⛳ Over 2.5 corners · 1st half",
+        "match": "Sturm Graz F x Wolfsburg F",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20260930T103007240697Z:1dcff4b2",
