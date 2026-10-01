@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-01T17:38:56Z",
-  "event_chain_head": "361b18a098a0bd45662de77cf6b856028fd5e056caaf84aaa71250a363d86d50",
+  "generated_at": "2026-10-01T17:51:19Z",
+  "event_chain_head": "d2143a9a59215bfa584eef11f01084b93129f9c42e61bab3be17fa9c065e836f",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,9 +12,9 @@
   },
   "summary": {
     "total": 168,
-    "pending": 8,
+    "pending": 7,
     "signals_settled": 52,
-    "official_entries_settled": 96,
+    "official_entries_settled": 97,
     "cancelled": 19
   },
   "records": [
@@ -62,11 +62,34 @@
     {
       "id": "tip_proposal:20261001T172324629972Z:1b7a1eca",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-10-01T17:23:25Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "099ac7b0b3859073e0fdc4f4ef7b3341c8efdc2791909c39372bf90d08c2b319",
-      "telegram_message_count": 2
+      "telegram_message_count": 2,
+      "settled_at": "2026-10-01T17:51:19Z",
+      "result": "LOSS",
+      "outcome": {
+        "odds": 1.81,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": -0.75,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20261001T172324629972Z:1b7a1eca",
+        "market": "⛳ Over 11.5 corners · FT",
+        "match": "H. Ra'anana x Kafr Kasim",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20260930T165528706137Z:ed125e18",
