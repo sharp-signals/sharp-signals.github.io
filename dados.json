@@ -8,9 +8,9 @@
    "fim": "2026-01-31"
   },
   "cresc_pct": 56.91,
-  "apostas": 1138,
+  "apostas": 1139,
   "ganhos": 643,
-  "perdidos": 495,
+  "perdidos": 496,
   "wr": 56.5,
   "meses": [
    {
@@ -75,14 +75,21 @@
     "cresc_pct": 10.54,
     "apostas": 95,
     "wr": 53.7
+   },
+   {
+    "mes": "2026-10",
+    "label": "Out 26",
+    "cresc_pct": -0.75,
+    "apostas": 1,
+    "wr": 0.0
    }
   ],
   "por_mercado": [
    {
     "mercado": "Over Cantos FT",
-    "n": 623,
-    "wr": 58.4,
-    "roi": 36.0,
+    "n": 624,
+    "wr": 58.3,
+    "roi": 35.25,
     "pl_eur": 1369.94
    },
    {
@@ -131,7 +138,6 @@
   "forma": [
    "perdido",
    "perdido",
-   "perdido",
    "ganho",
    "ganho",
    "cashout",
@@ -143,6 +149,7 @@
    "cashout",
    "perdido",
    "ganho",
+   "perdido",
    "perdido"
   ],
   "historico": [
@@ -184,13 +191,13 @@
     "jogo": "H. Ra'anana x Kafr Kasim",
     "mercado": "⛳ Over 11.5 corners · FT",
     "categoria": "Over Cantos FT",
-    "odd": null,
-    "pl_pct": null,
+    "odd": 1.81,
+    "pl_pct": -0.75,
     "stake_pct": 0.75,
-    "resultado": "pendente",
+    "resultado": "perdido",
     "verified_id": "tip_proposal:20261001T172324629972Z:1b7a1eca",
-    "estado_entrada": "aguarda_confirmacao",
-    "tipo_odd": "por_registar",
+    "estado_entrada": "confirmada",
+    "tipo_odd": "real",
     "odd_minima_recomendada": 1.81,
     "confianca": 7
    },
