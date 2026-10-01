@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-01T17:26:18Z",
-  "event_chain_head": "1709fc8808c5d269e0ebe8343b4cdbea938d1d6017554c1898d7f4a948a8fca1",
+  "generated_at": "2026-10-01T17:26:55Z",
+  "event_chain_head": "2b9a965888f8263c97808de99c4ec2cbcd55ea77aa5136d8c4f914dbd9a0a9a0",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,20 +12,43 @@
   },
   "summary": {
     "total": 167,
-    "pending": 8,
+    "pending": 7,
     "signals_settled": 52,
     "official_entries_settled": 96,
-    "cancelled": 18
+    "cancelled": 19
   },
   "records": [
     {
       "id": "tip_proposal:20261001T172617804379Z:0c9f032c",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-10-01T17:26:18Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "88281bde4accb59a2159be4a73612b6b753ddd6442022784cfa62cd9a99357d5",
-      "telegram_message_count": 2
+      "telegram_message_count": 2,
+      "settled_at": "2026-10-01T17:26:55Z",
+      "result": "CANCELADA",
+      "outcome": {
+        "odds": null,
+        "odds_source": null,
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "cancelled",
+        "profit_loss_percent": null,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20261001T172617804379Z:0c9f032c",
+        "market": "⛳ Over 6.5 corners · FT",
+        "match": "Azerbaijão x Liechtenstein",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20261001T172324629972Z:1b7a1eca",
