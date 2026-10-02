@@ -3307,6 +3307,26 @@
       "justificacao_void": "",
       "golos_apos_casa": 0,
       "golos_apos_fora": 1
+    },
+    {
+      "alerta_id": "ce1:1551819:final",
+      "fixture_id": 1551819,
+      "timestamp": "2026-10-02T22:27:37.461168",
+      "jogo": "Helmond Sport vs Heracles",
+      "liga": "Eerste Divisie",
+      "janela": "FINAL PUSH",
+      "tempo_alerta": 78,
+      "estrelas": 9.0,
+      "cantos_no_ref": 13,
+      "cantos_final": 14,
+      "cantos_apos_alerta": 1,
+      "meta_cantos": 2,
+      "resultado": "VOID",
+      "resultado_tecnico": "VOID",
+      "estado_entrada": "CONFIRMADA",
+      "justificacao_void": "Não entrada — preço demasiado alto",
+      "golos_apos_casa": 0,
+      "golos_apos_fora": 0
     }
   ]
 }
