@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-02T19:32:57Z",
-  "event_chain_head": "4e398cd6fa9b07998efaa8458e1487c63effe62cfad39ac5513e5137e6143263",
+  "generated_at": "2026-10-02T19:33:04Z",
+  "event_chain_head": "61e9a2b539bf10c94d1b9f38393900a292d3c70865392b66504fc1077781f2e7",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,20 +12,43 @@
   },
   "summary": {
     "total": 171,
-    "pending": 7,
+    "pending": 6,
     "signals_settled": 53,
-    "official_entries_settled": 99,
+    "official_entries_settled": 100,
     "cancelled": 19
   },
   "records": [
     {
       "id": "tip_proposal:20261002T192113688975Z:64b27d89",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-10-02T19:21:14Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "ed181ed069c769be1ec92b7d73bbbdf7cc21ee0cfa1eda77b7e07f4c073e0bf9",
-      "telegram_message_count": 2
+      "telegram_message_count": 2,
+      "settled_at": "2026-10-02T19:33:04Z",
+      "result": "LOSS",
+      "outcome": {
+        "odds": 1.81,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": -0.75,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20261002T192113688975Z:64b27d89",
+        "market": "⛳ Over 4 corners · 1st half",
+        "match": "Inglaterra u21 x Eslováquia u21",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20261002T191325806675Z:045084f9",
