@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-02T14:30:30Z",
-  "event_chain_head": "acef667af85f4cf6deb53f0d255216c8f37ce62f02f9daa2e7e9a3049189ac03",
+  "generated_at": "2026-10-02T15:51:58Z",
+  "event_chain_head": "8e8b8e560dc4dfdb26e9e6e09eba74da98f156db8f92f8ac38fa242e038c31b7",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,8 +12,8 @@
   },
   "summary": {
     "total": 169,
-    "pending": 7,
-    "signals_settled": 52,
+    "pending": 6,
+    "signals_settled": 53,
     "official_entries_settled": 98,
     "cancelled": 19
   },
@@ -21,11 +21,37 @@
     {
       "id": "ce1:1528923:ht",
       "kind": "signal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-10-02T14:30:30Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "d564c669ad8e89a338fe8cd5cc08c1d46d410c11d200e73004fa8cb4e0da8734",
-      "telegram_message_count": 2
+      "telegram_message_count": 2,
+      "settled_at": "2026-10-02T15:51:58Z",
+      "result": "WIN",
+      "outcome": {
+        "corners_reference": 5,
+        "corners_final": 7,
+        "corners_after": 2,
+        "target": 2,
+        "technical_result": "WIN",
+        "entry_status": "confirmed",
+        "void_reason": "",
+        "approved_manually": true
+      },
+      "sealed_payload": {
+        "alert_id": "ce1:1528923:ht",
+        "classification": "scanner_signal_not_confirmed_bet",
+        "confidence": 7.0,
+        "corners_at_alert": 5,
+        "league": "UEFA Nations League",
+        "match": "Kazakhstan vs Moldova",
+        "minimum_price": 1.75,
+        "minute": 30,
+        "score_at_alert": "0-0",
+        "suggestion": "🎯 ENTRADA SUGERIDA\nOver 6.5 cantos 1ª parte · odd mín. 1.75+\n↳ se sair +1 canto: sobe p/ Over 7.5 ou espera o Over 7",
+        "window": "HT ATTACK"
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20261001T173856058826Z:246d14b6",
