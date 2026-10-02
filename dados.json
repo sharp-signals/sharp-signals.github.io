@@ -8,9 +8,9 @@
    "fim": "2026-01-31"
   },
   "cresc_pct": 56.91,
-  "apostas": 1140,
+  "apostas": 1141,
   "ganhos": 643,
-  "perdidos": 497,
+  "perdidos": 498,
   "wr": 56.4,
   "meses": [
    {
@@ -79,8 +79,8 @@
    {
     "mes": "2026-10",
     "label": "Out 26",
-    "cresc_pct": -1.5,
-    "apostas": 2,
+    "cresc_pct": -2.25,
+    "apostas": 3,
     "wr": 0.0
    }
   ],
@@ -94,9 +94,9 @@
    },
    {
     "mercado": "Over Cantos HT",
-    "n": 184,
-    "wr": 56.5,
-    "roi": 6.83,
+    "n": 185,
+    "wr": 56.2,
+    "roi": 6.08,
     "pl_eur": 417.66
    },
    {
@@ -136,7 +136,6 @@
    }
   ],
   "forma": [
-   "perdido",
    "ganho",
    "ganho",
    "cashout",
@@ -148,6 +147,7 @@
    "cashout",
    "perdido",
    "ganho",
+   "perdido",
    "perdido",
    "perdido",
    "perdido"
@@ -175,13 +175,13 @@
     "jogo": "Inglaterra u21 x Eslováquia u21",
     "mercado": "⛳ Over 4.5 corners · 1st half",
     "categoria": "Over Cantos HT",
-    "odd": null,
-    "pl_pct": null,
+    "odd": 1.81,
+    "pl_pct": -0.75,
     "stake_pct": 0.75,
-    "resultado": "pendente",
+    "resultado": "perdido",
     "verified_id": "tip_proposal:20261002T191325806675Z:045084f9",
-    "estado_entrada": "aguarda_confirmacao",
-    "tipo_odd": "por_registar",
+    "estado_entrada": "confirmada",
+    "tipo_odd": "real",
     "odd_minima_recomendada": 1.81,
     "confianca": 7
    },
