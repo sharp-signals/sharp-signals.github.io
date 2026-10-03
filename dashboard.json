@@ -17,7 +17,7 @@
    "pode_nao_publicar": true
   }
  },
- "atualizado": "2026-10-03T15:57:37",
+ "atualizado": "2026-10-03T17:58:02",
  "geral": {
   "inicio": "2026-06-06",
   "fim": "2026-09-26",
@@ -2729,7 +2729,7 @@
    "odd": 2.0,
    "bilhete": "tripla",
    "fire": false,
-   "resultado": null
+   "resultado": "perdido"
   },
   {
    "hora": "17:30",
@@ -2788,9 +2788,9 @@
   "descricao": "Simples, Dupla ou Tripla experimental · máximo uma publicação por dia · pode não haver seleção",
   "boletins": 6,
   "greens": 2,
-  "reds": 3,
-  "pendentes": 1,
-  "lucro": 17.27,
+  "reds": 4,
+  "pendentes": 0,
+  "lucro": 16.27,
   "ultimos": [
    {
     "data": "2026-10-03",
@@ -2855,7 +2855,7 @@
       "data_jogo": "2026-10-03",
       "kickoff": "2026-10-03T14:30:00+01:00",
       "data_trading": "2026-10-03",
-      "resultado": null
+      "resultado": "perdido"
      },
      {
       "fixture_id": 1569950,
@@ -2960,7 +2960,7 @@
      "historical_unpriced_settled_keys": [],
      "errors": []
     },
-    "resultado": null,
+    "resultado": "red",
     "publicacao": {
      "estado": "publicado",
      "preparado_em": "2026-10-03T06:03:38+01:00",
@@ -2970,7 +2970,7 @@
      "publicado_em": "2026-10-03T06:03:39+01:00",
      "message_id": 238
     },
-    "por_decidir": 2
+    "por_decidir": 1
    }
   ],
   "ultimo": {
@@ -3036,7 +3036,7 @@
      "data_jogo": "2026-10-03",
      "kickoff": "2026-10-03T14:30:00+01:00",
      "data_trading": "2026-10-03",
-     "resultado": null
+     "resultado": "perdido"
     },
     {
      "fixture_id": 1569950,
@@ -3141,7 +3141,7 @@
     "historical_unpriced_settled_keys": [],
     "errors": []
    },
-   "resultado": null,
+   "resultado": "red",
    "publicacao": {
     "estado": "publicado",
     "preparado_em": "2026-10-03T06:03:38+01:00",
@@ -3151,7 +3151,7 @@
     "publicado_em": "2026-10-03T06:03:39+01:00",
     "message_id": 238
    },
-   "por_decidir": 2
+   "por_decidir": 1
   },
   "legado": {
    "rotulo": "Histórico anterior (legado)",
