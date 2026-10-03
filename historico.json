@@ -3389,6 +3389,26 @@
       "justificacao_void": "Não entrada — preço demasiado alto",
       "golos_apos_casa": 1,
       "golos_apos_fora": 0
+    },
+    {
+      "alerta_id": "ce1:1569949:final",
+      "fixture_id": 1569949,
+      "timestamp": "2026-10-03T17:39:25.766311",
+      "jogo": "Almeria vs Burgos",
+      "liga": "Segunda División",
+      "janela": "FINAL PUSH",
+      "tempo_alerta": 79,
+      "estrelas": 7.0,
+      "cantos_no_ref": 10,
+      "cantos_final": 11,
+      "cantos_apos_alerta": 1,
+      "meta_cantos": 2,
+      "resultado": "VOID",
+      "resultado_tecnico": "VOID",
+      "estado_entrada": "CONFIRMADA",
+      "justificacao_void": "Saída em contra-aposta após golo do favorito",
+      "golos_apos_casa": 1,
+      "golos_apos_fora": 0
     }
   ]
 }
