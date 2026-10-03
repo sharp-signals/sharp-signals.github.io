@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-03T16:19:41Z",
-  "event_chain_head": "de8c640c52d97bc664c17bad0d6953c71ec85f14d2e3f494126b02099e495259",
+  "generated_at": "2026-10-03T16:39:29Z",
+  "event_chain_head": "32e96a15259c5dc30bffb99e824accb62d42a4f90aea8762ed94b08bed7a18c5",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,8 +12,8 @@
   },
   "summary": {
     "total": 177,
-    "pending": 7,
-    "signals_settled": 57,
+    "pending": 6,
+    "signals_settled": 58,
     "official_entries_settled": 101,
     "cancelled": 19
   },
@@ -21,11 +21,37 @@
     {
       "id": "ce1:1569949:final",
       "kind": "signal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-10-03T15:53:21Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "6ca70ddc7fb7a29a08cfda6a8b701a3b2c9f1f565a0941e07f3268e6db4a42c4",
-      "telegram_message_count": 2
+      "telegram_message_count": 2,
+      "settled_at": "2026-10-03T16:39:29Z",
+      "result": "VOID",
+      "outcome": {
+        "corners_reference": 10,
+        "corners_final": 11,
+        "corners_after": 1,
+        "target": 2,
+        "technical_result": "VOID",
+        "entry_status": "confirmed",
+        "void_reason": "Saída em contra-aposta após golo do favorito",
+        "approved_manually": true
+      },
+      "sealed_payload": {
+        "alert_id": "ce1:1569949:final",
+        "classification": "scanner_signal_not_confirmed_bet",
+        "confidence": 7.0,
+        "corners_at_alert": 10,
+        "league": "Segunda División",
+        "match": "Almeria vs Burgos",
+        "minimum_price": 1.75,
+        "minute": 79,
+        "score_at_alert": "1-1",
+        "suggestion": "🎯 ENTRADA SUGERIDA\nOver 11.5 cantos · odd mín. 1.75+\n↳ se sair +1 canto: sobe p/ Over 12.5 ou espera o Over 12",
+        "window": "FINAL PUSH"
+      },
+      "commitment_valid": true
     },
     {
       "id": "ce1:1563786:final",
