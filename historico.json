@@ -3369,6 +3369,26 @@
       "justificacao_void": "",
       "golos_apos_casa": 0,
       "golos_apos_fora": 0
+    },
+    {
+      "alerta_id": "ce1:1563789:shark",
+      "fixture_id": 1563789,
+      "timestamp": "2026-10-03T17:19:37.952594",
+      "jogo": "Salford City vs Fleetwood Town",
+      "liga": "League Two",
+      "janela": "SHARK ATTACK",
+      "tempo_alerta": 55,
+      "estrelas": 9.0,
+      "cantos_no_ref": 11,
+      "cantos_final": 16,
+      "cantos_apos_alerta": 5,
+      "meta_cantos": 4,
+      "resultado": "VOID",
+      "resultado_tecnico": "VOID",
+      "estado_entrada": "CONFIRMADA",
+      "justificacao_void": "Não entrada — preço demasiado alto",
+      "golos_apos_casa": 1,
+      "golos_apos_fora": 0
     }
   ]
 }
