@@ -3409,6 +3409,26 @@
       "justificacao_void": "Saída em contra-aposta após golo do favorito",
       "golos_apos_casa": 1,
       "golos_apos_fora": 0
+    },
+    {
+      "alerta_id": "ce1:1549803:final",
+      "fixture_id": 1549803,
+      "timestamp": "2026-10-03T22:16:59.274728",
+      "jogo": "Águilas Doradas vs Jaguares",
+      "liga": "Primera A",
+      "janela": "FINAL PUSH",
+      "tempo_alerta": 77,
+      "estrelas": 8.5,
+      "cantos_no_ref": 8,
+      "cantos_final": 12,
+      "cantos_apos_alerta": 4,
+      "meta_cantos": 2,
+      "resultado": "WIN",
+      "resultado_tecnico": "WIN",
+      "estado_entrada": "CONFIRMADA",
+      "justificacao_void": "",
+      "golos_apos_casa": 2,
+      "golos_apos_fora": 0
     }
   ]
 }
