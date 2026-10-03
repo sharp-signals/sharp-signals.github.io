@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-03T19:46:11Z",
-  "event_chain_head": "38c2a9ceb1e67b4756d7166d7dfbfb0bac5771e495b6cd078b5f170bb55bdb5e",
+  "generated_at": "2026-10-03T19:52:40Z",
+  "event_chain_head": "38b1499b353e5a24b71678be5cbdecaa3038e95d476a433bff7c03dd244d308e",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,20 +12,43 @@
   },
   "summary": {
     "total": 178,
-    "pending": 7,
+    "pending": 6,
     "signals_settled": 58,
-    "official_entries_settled": 101,
+    "official_entries_settled": 102,
     "cancelled": 19
   },
   "records": [
     {
       "id": "tip_proposal:20261003T194611221748Z:4dd2b712",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-10-03T19:46:11Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "871f961c53f8a61a1517b70a91e5544773e46768dbb11ad5f0c12e6d0267c36d",
-      "telegram_message_count": 2
+      "telegram_message_count": 2,
+      "settled_at": "2026-10-03T19:52:40Z",
+      "result": "WIN",
+      "outcome": {
+        "odds": 1.83,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": 0.623,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20261003T194611221748Z:4dd2b712",
+        "market": "⛳ Over 5.5 corners · FT",
+        "match": "Tristan Suarez x Quilmes",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "ce1:1569949:final",
