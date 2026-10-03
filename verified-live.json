@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-03T12:35:51Z",
-  "event_chain_head": "7b39dbaaecb45e0215ee87a1a3a99babe68928ff0531708d45d734e2817ea67a",
+  "generated_at": "2026-10-03T12:49:31Z",
+  "event_chain_head": "fd1e6cae6c0fb8632aa4e3f8bad9aac5d1c83ee285690a24f599f674e48cac9c",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,20 +12,43 @@
   },
   "summary": {
     "total": 173,
-    "pending": 7,
+    "pending": 6,
     "signals_settled": 54,
-    "official_entries_settled": 100,
+    "official_entries_settled": 101,
     "cancelled": 19
   },
   "records": [
     {
       "id": "tip_proposal:20261003T123550943977Z:3ce5b06b",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-10-03T12:35:51Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "06b0b158425e1c2c8e051007710e61639a659c0570ae8b5530c2ae8adf75ced7",
-      "telegram_message_count": 2
+      "telegram_message_count": 2,
+      "settled_at": "2026-10-03T12:49:31Z",
+      "result": "LOSS",
+      "outcome": {
+        "odds": 1.81,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": -0.75,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20261003T123550943977Z:3ce5b06b",
+        "market": "⛳ Over 4 corners · 1st half",
+        "match": "Middelfart x FA2000",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "ce1:1551819:final",
