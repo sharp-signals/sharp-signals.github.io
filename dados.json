@@ -8,10 +8,10 @@
    "fim": "2026-01-31"
   },
   "cresc_pct": 56.91,
-  "apostas": 1144,
+  "apostas": 1145,
   "ganhos": 644,
-  "perdidos": 500,
-  "wr": 56.3,
+  "perdidos": 501,
+  "wr": 56.2,
   "meses": [
    {
     "mes": "2025-08",
@@ -79,17 +79,17 @@
    {
     "mes": "2026-10",
     "label": "Out 26",
-    "cresc_pct": -3.13,
-    "apostas": 6,
-    "wr": 16.7
+    "cresc_pct": -3.88,
+    "apostas": 7,
+    "wr": 14.3
    }
   ],
   "por_mercado": [
    {
     "mercado": "Over Cantos FT",
-    "n": 626,
-    "wr": 58.3,
-    "roi": 35.12,
+    "n": 627,
+    "wr": 58.2,
+    "roi": 34.37,
     "pl_eur": 1369.94
    },
    {
@@ -137,7 +137,6 @@
   ],
   "forma": [
    "ganho",
-   "ganho",
    "perdido",
    "perdido",
    "ganho",
@@ -150,7 +149,8 @@
    "perdido",
    "perdido",
    "perdido",
-   "ganho"
+   "ganho",
+   "perdido"
   ],
   "historico": [
    {
@@ -159,13 +159,13 @@
     "jogo": "Zadar F x Agram F",
     "mercado": "⛳ Over 5.5 corners · FT",
     "categoria": "Over Cantos FT",
-    "odd": null,
-    "pl_pct": null,
+    "odd": 1.84,
+    "pl_pct": -0.75,
     "stake_pct": 0.75,
-    "resultado": "pendente",
+    "resultado": "perdido",
     "verified_id": "tip_proposal:20261004T124406774084Z:7e4f214d",
-    "estado_entrada": "aguarda_confirmacao",
-    "tipo_odd": "por_registar",
+    "estado_entrada": "confirmada",
+    "tipo_odd": "real",
     "odd_minima_recomendada": 1.81,
     "confianca": 7
    },
