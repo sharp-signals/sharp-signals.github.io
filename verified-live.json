@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-04T12:44:07Z",
-  "event_chain_head": "8d36d26e166d56e585338e57e233b3d14e44541018330f518f68ec1e71950482",
+  "generated_at": "2026-10-04T12:53:44Z",
+  "event_chain_head": "6aab5fb0fa0c90d0e61dc2bcd31afae165175d221e3a0a4e0dd903293d354f76",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,20 +12,43 @@
   },
   "summary": {
     "total": 183,
-    "pending": 8,
+    "pending": 7,
     "signals_settled": 59,
-    "official_entries_settled": 103,
+    "official_entries_settled": 104,
     "cancelled": 20
   },
   "records": [
     {
       "id": "tip_proposal:20261004T124406774084Z:7e4f214d",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-10-04T12:44:07Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "f3fe02ee9352995c79c32982fb96b49be80ef93ec413396f10601e2ea862ac6d",
-      "telegram_message_count": 2
+      "telegram_message_count": 2,
+      "settled_at": "2026-10-04T12:53:44Z",
+      "result": "LOSS",
+      "outcome": {
+        "odds": 1.84,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": -0.75,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20261004T124406774084Z:7e4f214d",
+        "market": "⛳ Over 5.5 corners · FT",
+        "match": "Zadar F x Agram F",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20261004T111645263567Z:97ad1989",
