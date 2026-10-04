@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-04T21:20:13Z",
-  "event_chain_head": "7bf23a823fbc0547063bc118dffbbc0e9da9848af3565da4f0c21d7a311b742e",
+  "generated_at": "2026-10-04T21:20:23Z",
+  "event_chain_head": "96f2f0cb51e8a01a2aca302af9fd2f0a5500cd2b5ba91948f619cc79cd87ae4d",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,8 +12,8 @@
   },
   "summary": {
     "total": 187,
-    "pending": 8,
-    "signals_settled": 61,
+    "pending": 7,
+    "signals_settled": 62,
     "official_entries_settled": 105,
     "cancelled": 20
   },
@@ -21,11 +21,37 @@
     {
       "id": "ce1:1528943:final",
       "kind": "signal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-10-04T20:22:34Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "9ba6680f2f21afc0c34794bc6d8a85085a051bdd6120ae187d8bf6972a936e21",
-      "telegram_message_count": 2
+      "telegram_message_count": 2,
+      "settled_at": "2026-10-04T21:20:23Z",
+      "result": "LOSS",
+      "outcome": {
+        "corners_reference": 5,
+        "corners_final": 6,
+        "corners_after": 1,
+        "target": 2,
+        "technical_result": "LOSS",
+        "entry_status": "confirmed",
+        "void_reason": "",
+        "approved_manually": true
+      },
+      "sealed_payload": {
+        "alert_id": "ce1:1528943:final",
+        "classification": "scanner_signal_not_confirmed_bet",
+        "confidence": 7.0,
+        "corners_at_alert": 5,
+        "league": "UEFA Nations League",
+        "match": "Rep. Of Ireland vs Israel",
+        "minimum_price": 1.75,
+        "minute": 79,
+        "score_at_alert": "1-1",
+        "suggestion": "🎯 ENTRADA SUGERIDA\nOver 6.5 cantos · odd mín. 1.75+\n↳ se sair +1 canto: sobe p/ Over 7.5 ou espera o Over 7",
+        "window": "FINAL PUSH"
+      },
+      "commitment_valid": true
     },
     {
       "id": "ce1:1528941:mid",
