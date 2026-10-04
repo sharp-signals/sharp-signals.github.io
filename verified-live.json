@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-04T16:44:13Z",
-  "event_chain_head": "163b1b329e8ebd84e16bc6df238d1caab534e596b2446ec28b4c732316d42c41",
+  "generated_at": "2026-10-04T16:58:51Z",
+  "event_chain_head": "49d86bf4490e393c3370a2569c6b580c45823b31626ec636852b017a5cdfaa99",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,20 +12,43 @@
   },
   "summary": {
     "total": 184,
-    "pending": 8,
+    "pending": 7,
     "signals_settled": 59,
-    "official_entries_settled": 104,
+    "official_entries_settled": 105,
     "cancelled": 20
   },
   "records": [
     {
       "id": "tip_proposal:20261004T164413260968Z:66333741",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-10-04T16:44:13Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "f95e3e1976c0882c006c50b0aa25b93fa13efd70ba657e44ae1b11d77fc26e37",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-10-04T16:58:51Z",
+      "result": "LOSS",
+      "outcome": {
+        "odds": 1.84,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": -0.75,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20261004T164413260968Z:66333741",
+        "market": "⛳ Over 9 corners · FT",
+        "match": "Leuven F x La Louviere F",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20261004T124406774084Z:7e4f214d",
