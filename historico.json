@@ -3533,6 +3533,26 @@
       "justificacao_void": "",
       "golos_apos_casa": 0,
       "golos_apos_fora": 0
+    },
+    {
+      "alerta_id": "ce1:1588863:final",
+      "fixture_id": 1588863,
+      "timestamp": "2026-10-06T21:08:32.605499",
+      "jogo": "Exeter City vs Oxford United",
+      "liga": "EFL Trophy",
+      "janela": "FINAL PUSH",
+      "tempo_alerta": 80,
+      "estrelas": 8.0,
+      "cantos_no_ref": 8,
+      "cantos_final": 11,
+      "cantos_apos_alerta": 3,
+      "meta_cantos": 2,
+      "resultado": "WIN",
+      "resultado_tecnico": "WIN",
+      "estado_entrada": "CONFIRMADA",
+      "justificacao_void": "",
+      "golos_apos_casa": 0,
+      "golos_apos_fora": 0
     }
   ]
 }
