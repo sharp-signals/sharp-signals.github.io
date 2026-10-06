@@ -3513,6 +3513,26 @@
       "justificacao_void": "",
       "golos_apos_casa": 3,
       "golos_apos_fora": 0
+    },
+    {
+      "alerta_id": "ce1:1588845:mid",
+      "fixture_id": 1588845,
+      "timestamp": "2026-10-06T21:07:23.216466",
+      "jogo": "Grimsby vs Burton Albion",
+      "liga": "EFL Trophy",
+      "janela": "MID PRESSURE",
+      "tempo_alerta": 68,
+      "estrelas": 7.0,
+      "cantos_no_ref": 9,
+      "cantos_final": 12,
+      "cantos_apos_alerta": 3,
+      "meta_cantos": 3,
+      "resultado": "WIN",
+      "resultado_tecnico": "WIN",
+      "estado_entrada": "CONFIRMADA",
+      "justificacao_void": "",
+      "golos_apos_casa": 0,
+      "golos_apos_fora": 0
     }
   ]
 }
