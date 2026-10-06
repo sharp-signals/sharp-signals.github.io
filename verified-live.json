@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-06T20:07:26Z",
-  "event_chain_head": "f46fab1eda691aa52b21dbb242d4f01a5deb30687153627c255198f1ca6f3958",
+  "generated_at": "2026-10-06T20:08:36Z",
+  "event_chain_head": "8890fe89e0e3301aea184764fc3ae895a415f1ddf1f80d660fecd1a835e230e2",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,8 +12,8 @@
   },
   "summary": {
     "total": 190,
-    "pending": 8,
-    "signals_settled": 64,
+    "pending": 7,
+    "signals_settled": 65,
     "official_entries_settled": 105,
     "cancelled": 21
   },
@@ -21,11 +21,37 @@
     {
       "id": "ce1:1588863:final",
       "kind": "signal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-10-06T19:38:26Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "01e6a17dc2d598aecb834c6aeecdbbfbf1e1db61fbe0318589f7ae53b92b54a8",
-      "telegram_message_count": 2
+      "telegram_message_count": 2,
+      "settled_at": "2026-10-06T20:08:36Z",
+      "result": "WIN",
+      "outcome": {
+        "corners_reference": 8,
+        "corners_final": 11,
+        "corners_after": 3,
+        "target": 2,
+        "technical_result": "WIN",
+        "entry_status": "confirmed",
+        "void_reason": "",
+        "approved_manually": true
+      },
+      "sealed_payload": {
+        "alert_id": "ce1:1588863:final",
+        "classification": "scanner_signal_not_confirmed_bet",
+        "confidence": 8.0,
+        "corners_at_alert": 7,
+        "league": "EFL Trophy",
+        "match": "Exeter City vs Oxford United",
+        "minimum_price": 1.75,
+        "minute": 80,
+        "score_at_alert": "2-2",
+        "suggestion": "🎯 ENTRADA SUGERIDA\nOver 8.5 cantos · odd mín. 1.75+\n↳ se sair +1 canto: sobe p/ Over 9.5 ou espera o Over 9",
+        "window": "FINAL PUSH"
+      },
+      "commitment_valid": true
     },
     {
       "id": "ce1:1588845:mid",
