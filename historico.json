@@ -3492,5 +3492,27 @@
       "golos_apos_casa": 0,
       "golos_apos_fora": 0
     }
+  ],
+  "2026-10-06": [
+    {
+      "alerta_id": "ce1:1588910:ht",
+      "fixture_id": 1588910,
+      "timestamp": "2026-10-06T20:15:31.714319",
+      "jogo": "Milton Keynes Dons vs Brentford U21",
+      "liga": "EFL Trophy",
+      "janela": "HT ATTACK",
+      "tempo_alerta": 27,
+      "estrelas": 8.5,
+      "cantos_no_ref": 6,
+      "cantos_final": 8,
+      "cantos_apos_alerta": 2,
+      "meta_cantos": 2,
+      "resultado": "CANCELADA",
+      "resultado_tecnico": "WIN",
+      "estado_entrada": "CANCELADA",
+      "justificacao_void": "",
+      "golos_apos_casa": 3,
+      "golos_apos_fora": 0
+    }
   ]
 }
