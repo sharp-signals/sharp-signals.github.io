@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-06T19:38:26Z",
-  "event_chain_head": "44958d66c6469d9130aadb2ef698eb964a38d0d98bad1293d8cd477a4e0c045b",
+  "generated_at": "2026-10-06T20:07:26Z",
+  "event_chain_head": "f46fab1eda691aa52b21dbb242d4f01a5deb30687153627c255198f1ca6f3958",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,8 +12,8 @@
   },
   "summary": {
     "total": 190,
-    "pending": 9,
-    "signals_settled": 63,
+    "pending": 8,
+    "signals_settled": 64,
     "official_entries_settled": 105,
     "cancelled": 21
   },
@@ -30,11 +30,37 @@
     {
       "id": "ce1:1588845:mid",
       "kind": "signal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-10-06T19:25:05Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "6d5d521d56bfb1c6d2b1c8e681def3bc185e6711327ffe81057e860c212c54da",
-      "telegram_message_count": 2
+      "telegram_message_count": 2,
+      "settled_at": "2026-10-06T20:07:26Z",
+      "result": "WIN",
+      "outcome": {
+        "corners_reference": 9,
+        "corners_final": 12,
+        "corners_after": 3,
+        "target": 3,
+        "technical_result": "WIN",
+        "entry_status": "confirmed",
+        "void_reason": "",
+        "approved_manually": true
+      },
+      "sealed_payload": {
+        "alert_id": "ce1:1588845:mid",
+        "classification": "scanner_signal_not_confirmed_bet",
+        "confidence": 7.0,
+        "corners_at_alert": 9,
+        "league": "EFL Trophy",
+        "match": "Grimsby vs Burton Albion",
+        "minimum_price": 1.75,
+        "minute": 68,
+        "score_at_alert": "0-0",
+        "suggestion": "🎯 ENTRADA SUGERIDA\nOver 11.5 cantos · odd mín. 1.75+\n↳ se sair +1 canto: sobe p/ Over 12.5 ou espera o Over 12",
+        "window": "MID PRESSURE"
+      },
+      "commitment_valid": true
     },
     {
       "id": "ce1:1588910:ht",
