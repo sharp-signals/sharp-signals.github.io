@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-08T19:43:52Z",
-  "event_chain_head": "ef1d7fb499b8bf3abafa66c7667720ef6e5d0d78fdc174425331ebef33e23029",
+  "generated_at": "2026-10-08T19:49:46Z",
+  "event_chain_head": "3ef6a08ee05e7841ccc1596ea5a6a4a8c88006508e55ac32d36f892501a4ac7e",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,20 +12,43 @@
   },
   "summary": {
     "total": 194,
-    "pending": 10,
+    "pending": 9,
     "signals_settled": 65,
-    "official_entries_settled": 106,
+    "official_entries_settled": 107,
     "cancelled": 21
   },
   "records": [
     {
       "id": "tip_proposal:20261008T193937156978Z:7c561f0d",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-10-08T19:39:37Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "4ea649683a0cc76e0ef98ff1a9139531345efca0d2a7d4479dc6231975cebd4a",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-10-08T19:49:46Z",
+      "result": "WIN",
+      "outcome": {
+        "odds": 1.84,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": 0.63,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20261008T193937156978Z:7c561f0d",
+        "market": "⛳ Over 10 corners · FT",
+        "match": "Atl. Tucuman II x Talleres de Córdoba II",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20261008T193308972950Z:b961df57",
