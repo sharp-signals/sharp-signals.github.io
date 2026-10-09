@@ -8,10 +8,10 @@
    "fim": "2026-01-31"
   },
   "cresc_pct": 56.91,
-  "apostas": 1151,
+  "apostas": 1152,
   "ganhos": 648,
-  "perdidos": 503,
-  "wr": 56.3,
+  "perdidos": 504,
+  "wr": 56.2,
   "meses": [
    {
     "mes": "2025-08",
@@ -79,17 +79,17 @@
    {
     "mes": "2026-10",
     "label": "Out 26",
-    "cresc_pct": -2.51,
-    "apostas": 13,
-    "wr": 38.5
+    "cresc_pct": -3.26,
+    "apostas": 14,
+    "wr": 35.7
    }
   ],
   "por_mercado": [
    {
     "mercado": "Over Cantos FT",
-    "n": 632,
-    "wr": 58.2,
-    "roi": 35.14,
+    "n": 633,
+    "wr": 58.1,
+    "roi": 34.39,
     "pl_eur": 1369.94
    },
    {
@@ -136,7 +136,6 @@
    }
   ],
   "forma": [
-   "ganho",
    "perdido",
    "perdido",
    "perdido",
@@ -150,7 +149,8 @@
    "perdido",
    "ganho",
    "ganho",
-   "ganho"
+   "ganho",
+   "perdido"
   ],
   "historico": [
    {
@@ -159,13 +159,13 @@
     "jogo": "Opatija x Kustosja",
     "mercado": "⛳ Over 8 corners · FT",
     "categoria": "Over Cantos FT",
-    "odd": null,
-    "pl_pct": null,
+    "odd": 1.81,
+    "pl_pct": -0.75,
     "stake_pct": 0.75,
-    "resultado": "pendente",
+    "resultado": "perdido",
     "verified_id": "tip_proposal:20261009T151127602333Z:212f34dc",
-    "estado_entrada": "aguarda_confirmacao",
-    "tipo_odd": "por_registar",
+    "estado_entrada": "confirmada",
+    "tipo_odd": "real",
     "odd_minima_recomendada": 1.81,
     "confianca": 7
    },
