@@ -17,7 +17,7 @@
    "pode_nao_publicar": true
   }
  },
- "atualizado": "2026-10-09T17:58:21",
+ "atualizado": "2026-10-09T19:59:10",
  "geral": {
   "inicio": "2026-06-06",
   "fim": "2026-10-05",
@@ -2833,7 +2833,7 @@
    "odd": 2.25,
    "bilhete": "tripla",
    "fire": true,
-   "resultado": null
+   "resultado": "perdido"
   },
   {
    "hora": "08:30",
@@ -2939,7 +2939,7 @@
       "data_jogo": "2026-10-09",
       "kickoff": "2026-10-09T18:00:00+01:00",
       "data_trading": "2026-10-09",
-      "resultado": null
+      "resultado": "perdido"
      },
      {
       "fixture_id": 1507078,
@@ -3084,7 +3084,7 @@
      "publicado_em": "2026-10-09T06:03:52+01:00",
      "message_id": 269
     },
-    "por_decidir": 1
+    "por_decidir": 0
    }
   ],
   "ultimo": {
@@ -3120,7 +3120,7 @@
      "data_jogo": "2026-10-09",
      "kickoff": "2026-10-09T18:00:00+01:00",
      "data_trading": "2026-10-09",
-     "resultado": null
+     "resultado": "perdido"
     },
     {
      "fixture_id": 1507078,
@@ -3265,7 +3265,7 @@
     "publicado_em": "2026-10-09T06:03:52+01:00",
     "message_id": 269
    },
-   "por_decidir": 1
+   "por_decidir": 0
   },
   "legado": {
    "rotulo": "Histórico anterior (legado)",
