@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-09T15:11:28Z",
-  "event_chain_head": "8b074e3281b54b6efcc5982d92701af6851b26872bad8459cfbd0f7e874cb344",
+  "generated_at": "2026-10-09T15:22:59Z",
+  "event_chain_head": "c8362e3db047cfdea8eeb637c2e2292f35c23ee720ef82b7624e343dd8f73aff",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,20 +12,43 @@
   },
   "summary": {
     "total": 195,
-    "pending": 10,
+    "pending": 9,
     "signals_settled": 65,
-    "official_entries_settled": 107,
+    "official_entries_settled": 108,
     "cancelled": 21
   },
   "records": [
     {
       "id": "tip_proposal:20261009T151127602333Z:212f34dc",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-10-09T15:11:28Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "c6d6a6758343a6ebf13e45fa492d2fa9dcd035ef5900443c6d2709b59e037806",
-      "telegram_message_count": 2
+      "telegram_message_count": 2,
+      "settled_at": "2026-10-09T15:22:59Z",
+      "result": "LOSS",
+      "outcome": {
+        "odds": 1.81,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": -0.75,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20261009T151127602333Z:212f34dc",
+        "market": "⛳ Over 8 corners · FT",
+        "match": "Opatija x Kustosja",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20261008T193937156978Z:7c561f0d",
