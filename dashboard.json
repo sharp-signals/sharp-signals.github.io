@@ -17,14 +17,14 @@
    "pode_nao_publicar": true
   }
  },
- "atualizado": "2026-10-09T19:59:10",
+ "atualizado": "2026-10-09T21:57:40",
  "geral": {
   "inicio": "2026-06-06",
-  "fim": "2026-10-05",
-  "sinais": 282,
-  "sinais_financeiros": 266,
-  "ganhos": 139,
-  "perdidos": 122,
+  "fim": "2026-10-09",
+  "sinais": 302,
+  "sinais_financeiros": 286,
+  "ganhos": 150,
+  "perdidos": 131,
   "push": 5,
   "pendentes": 0,
   "condicionais": 16,
@@ -32,9 +32,9 @@
   "condicionais_perdidos": 9,
   "condicionais_push": 0,
   "condicionais_pendentes": 0,
-  "wr": 53.3,
-  "lucro_u": 12.01,
-  "roi": 4.6,
+  "wr": 53.4,
+  "lucro_u": 15.26,
+  "roi": 5.4,
   "por_estrategia": {
    "Golos (arquivo)": {
     "n": 31,
@@ -53,7 +53,7 @@
     "n": 168,
     "g": 90,
     "p": 78,
-    "lucro": 9.26,
+    "lucro": 9.27,
     "condicionais": 0,
     "condicionais_g": 0,
     "condicionais_p": 0,
@@ -63,27 +63,27 @@
     "wr": 53.6
    },
    "Golos 2ª Parte": {
-    "n": 83,
-    "g": 30,
-    "p": 37,
-    "lucro": -6.55,
+    "n": 103,
+    "g": 41,
+    "p": 46,
+    "lucro": -3.31,
     "condicionais": 16,
     "condicionais_g": 7,
     "condicionais_p": 9,
     "condicionais_push": 0,
     "condicionais_pendentes": 0,
-    "n_financeiros": 67,
-    "wr": 44.8
+    "n_financeiros": 87,
+    "wr": 47.1
    }
   }
  },
  "verificado": {
   "inicio": "2026-06-21",
-  "fim": "2026-09-22",
-  "sinais": 82,
-  "sinais_financeiros": 66,
-  "ganhos": 29,
-  "perdidos": 37,
+  "fim": "2026-10-09",
+  "sinais": 102,
+  "sinais_financeiros": 86,
+  "ganhos": 40,
+  "perdidos": 46,
   "push": 0,
   "pendentes": 0,
   "condicionais": 16,
@@ -91,22 +91,22 @@
   "condicionais_perdidos": 9,
   "condicionais_push": 0,
   "condicionais_pendentes": 0,
-  "wr": 43.9,
-  "lucro_u": -7.6,
-  "roi": -11.5,
+  "wr": 46.5,
+  "lucro_u": -4.36,
+  "roi": -5.1,
   "por_estrategia": {
    "Golos 2ª Parte": {
-    "n": 82,
-    "g": 29,
-    "p": 37,
-    "lucro": -7.6,
+    "n": 102,
+    "g": 40,
+    "p": 46,
+    "lucro": -4.36,
     "condicionais": 16,
     "condicionais_g": 7,
     "condicionais_p": 9,
     "condicionais_push": 0,
     "condicionais_pendentes": 0,
-    "n_financeiros": 66,
-    "wr": 43.9
+    "n_financeiros": 86,
+    "wr": 46.5
    }
   },
   "desde": "2026-06-21"
@@ -114,28 +114,9 @@
  "diario": {
   "inicio": "2026-10-09",
   "fim": "2026-10-09",
-  "sinais": 0,
-  "sinais_financeiros": 0,
-  "ganhos": 0,
-  "perdidos": 0,
-  "push": 0,
-  "pendentes": 0,
-  "condicionais": 0,
-  "condicionais_ganhos": 0,
-  "condicionais_perdidos": 0,
-  "condicionais_push": 0,
-  "condicionais_pendentes": 0,
-  "wr": 0.0,
-  "lucro_u": 0.0,
-  "roi": 0.0,
-  "por_estrategia": {}
- },
- "semanal": {
-  "inicio": "2026-10-05",
-  "fim": "2026-10-09",
-  "sinais": 1,
-  "sinais_financeiros": 1,
-  "ganhos": 1,
+  "sinais": 4,
+  "sinais_financeiros": 4,
+  "ganhos": 4,
   "perdidos": 0,
   "push": 0,
   "pendentes": 0,
@@ -145,9 +126,55 @@
   "condicionais_push": 0,
   "condicionais_pendentes": 0,
   "wr": 100.0,
-  "lucro_u": 1.1,
-  "roi": 110.0,
+  "lucro_u": 4.1,
+  "roi": 102.5,
   "por_estrategia": {
+   "Golos 2ª Parte": {
+    "n": 4,
+    "g": 4,
+    "p": 0,
+    "lucro": 4.1,
+    "condicionais": 0,
+    "condicionais_g": 0,
+    "condicionais_p": 0,
+    "condicionais_push": 0,
+    "condicionais_pendentes": 0,
+    "n_financeiros": 4,
+    "wr": 100.0
+   }
+  }
+ },
+ "semanal": {
+  "inicio": "2026-10-05",
+  "fim": "2026-10-09",
+  "sinais": 6,
+  "sinais_financeiros": 6,
+  "ganhos": 6,
+  "perdidos": 0,
+  "push": 0,
+  "pendentes": 0,
+  "condicionais": 0,
+  "condicionais_ganhos": 0,
+  "condicionais_perdidos": 0,
+  "condicionais_push": 0,
+  "condicionais_pendentes": 0,
+  "wr": 100.0,
+  "lucro_u": 6.1,
+  "roi": 101.7,
+  "por_estrategia": {
+   "Golos 2ª Parte": {
+    "n": 5,
+    "g": 5,
+    "p": 0,
+    "lucro": 5.0,
+    "condicionais": 0,
+    "condicionais_g": 0,
+    "condicionais_p": 0,
+    "condicionais_push": 0,
+    "condicionais_pendentes": 0,
+    "n_financeiros": 5,
+    "wr": 100.0
+   },
    "Sharp Pick": {
     "n": 1,
     "g": 1,
@@ -166,10 +193,10 @@
  "mensal": {
   "inicio": "2026-10-01",
   "fim": "2026-10-09",
-  "sinais": 1,
-  "sinais_financeiros": 1,
-  "ganhos": 1,
-  "perdidos": 0,
+  "sinais": 15,
+  "sinais_financeiros": 15,
+  "ganhos": 10,
+  "perdidos": 5,
   "push": 0,
   "pendentes": 0,
   "condicionais": 0,
@@ -177,10 +204,23 @@
   "condicionais_perdidos": 0,
   "condicionais_push": 0,
   "condicionais_pendentes": 0,
-  "wr": 100.0,
-  "lucro_u": 1.1,
-  "roi": 110.0,
+  "wr": 66.7,
+  "lucro_u": 6.38,
+  "roi": 42.5,
   "por_estrategia": {
+   "Golos 2ª Parte": {
+    "n": 14,
+    "g": 9,
+    "p": 5,
+    "lucro": 5.28,
+    "condicionais": 0,
+    "condicionais_g": 0,
+    "condicionais_p": 0,
+    "condicionais_push": 0,
+    "condicionais_pendentes": 0,
+    "n_financeiros": 14,
+    "wr": 64.3
+   },
    "Sharp Pick": {
     "n": 1,
     "g": 1,
@@ -255,12 +295,12 @@
    "data": "2026-06-26",
    "sinais": 4,
    "lucro_dia": -0.6,
-   "lucro_acum": 6.98
+   "lucro_acum": 6.99
   },
   {
    "data": "2026-06-27",
    "sinais": 5,
-   "lucro_dia": 3.16,
+   "lucro_dia": 3.15,
    "lucro_acum": 10.14
   },
   {
@@ -290,8 +330,8 @@
   {
    "data": "2026-07-04",
    "sinais": 6,
-   "lucro_dia": 2.77,
-   "lucro_acum": 14.33
+   "lucro_dia": 2.78,
+   "lucro_acum": 14.34
   },
   {
    "data": "2026-07-05",
@@ -303,7 +343,7 @@
    "data": "2026-07-06",
    "sinais": 3,
    "lucro_dia": -1.04,
-   "lucro_acum": 19.78
+   "lucro_acum": 19.79
   },
   {
    "data": "2026-07-07",
@@ -315,19 +355,19 @@
    "data": "2026-07-09",
    "sinais": 2,
    "lucro_dia": 1.1,
-   "lucro_acum": 27.17
+   "lucro_acum": 27.18
   },
   {
    "data": "2026-07-10",
    "sinais": 2,
    "lucro_dia": -0.45,
-   "lucro_acum": 26.72
+   "lucro_acum": 26.73
   },
   {
    "data": "2026-07-12",
    "sinais": 2,
    "lucro_dia": 1.44,
-   "lucro_acum": 28.16
+   "lucro_acum": 28.17
   },
   {
    "data": "2026-07-19",
@@ -344,43 +384,43 @@
   {
    "data": "2026-07-22",
    "sinais": 5,
-   "lucro_dia": 3.82,
-   "lucro_acum": 31.61
+   "lucro_dia": 3.83,
+   "lucro_acum": 31.62
   },
   {
    "data": "2026-07-23",
    "sinais": 5,
    "lucro_dia": -2.4,
-   "lucro_acum": 29.21
+   "lucro_acum": 29.22
   },
   {
    "data": "2026-07-27",
    "sinais": 5,
    "lucro_dia": 6.14,
-   "lucro_acum": 35.35
+   "lucro_acum": 35.36
   },
   {
    "data": "2026-07-28",
    "sinais": 2,
    "lucro_dia": -2.0,
-   "lucro_acum": 33.35
+   "lucro_acum": 33.36
   },
   {
    "data": "2026-07-29",
    "sinais": 3,
    "lucro_dia": -3.0,
-   "lucro_acum": 30.35
+   "lucro_acum": 30.36
   },
   {
    "data": "2026-07-30",
    "sinais": 2,
    "lucro_dia": 0.67,
-   "lucro_acum": 31.02
+   "lucro_acum": 31.03
   },
   {
    "data": "2026-07-31",
    "sinais": 15,
-   "lucro_dia": 4.27,
+   "lucro_dia": 4.26,
    "lucro_acum": 35.29
   },
   {
@@ -422,152 +462,188 @@
   {
    "data": "2026-08-10",
    "sinais": 2,
-   "lucro_dia": 2.46,
-   "lucro_acum": 19.7
+   "lucro_dia": 2.45,
+   "lucro_acum": 19.69
   },
   {
    "data": "2026-08-12",
    "sinais": 2,
    "lucro_dia": 1.97,
-   "lucro_acum": 21.67
+   "lucro_acum": 21.66
   },
   {
    "data": "2026-08-13",
    "sinais": 3,
    "lucro_dia": -3.0,
-   "lucro_acum": 18.67
+   "lucro_acum": 18.66
   },
   {
    "data": "2026-08-15",
    "sinais": 3,
    "lucro_dia": -0.8,
-   "lucro_acum": 17.87
+   "lucro_acum": 17.86
   },
   {
    "data": "2026-08-16",
    "sinais": 1,
    "lucro_dia": -1.0,
-   "lucro_acum": 16.87
+   "lucro_acum": 16.86
   },
   {
    "data": "2026-08-19",
    "sinais": 3,
    "lucro_dia": -3.0,
-   "lucro_acum": 13.87
+   "lucro_acum": 13.86
   },
   {
    "data": "2026-08-21",
    "sinais": 1,
    "lucro_dia": 1.38,
-   "lucro_acum": 15.25
+   "lucro_acum": 15.23
   },
   {
    "data": "2026-08-22",
    "sinais": 2,
    "lucro_dia": -2.0,
-   "lucro_acum": 13.25
+   "lucro_acum": 13.23
   },
   {
    "data": "2026-08-23",
    "sinais": 2,
    "lucro_dia": -2.0,
-   "lucro_acum": 11.25
+   "lucro_acum": 11.23
   },
   {
    "data": "2026-08-26",
    "sinais": 2,
    "lucro_dia": 1.89,
-   "lucro_acum": 13.14
+   "lucro_acum": 13.12
   },
   {
    "data": "2026-09-03",
    "sinais": 1,
    "lucro_dia": -1.0,
-   "lucro_acum": 12.14
+   "lucro_acum": 12.12
   },
   {
    "data": "2026-09-05",
    "sinais": 1,
    "lucro_dia": 1.14,
-   "lucro_acum": 13.28
+   "lucro_acum": 13.27
   },
   {
    "data": "2026-09-07",
    "sinais": 2,
    "lucro_dia": -2.0,
-   "lucro_acum": 11.28
+   "lucro_acum": 11.27
   },
   {
    "data": "2026-09-10",
    "sinais": 1,
    "lucro_dia": -1.0,
-   "lucro_acum": 10.28
+   "lucro_acum": 10.27
   },
   {
    "data": "2026-09-12",
    "sinais": 1,
    "lucro_dia": -1.0,
-   "lucro_acum": 9.28
+   "lucro_acum": 9.27
   },
   {
    "data": "2026-09-13",
    "sinais": 6,
    "lucro_dia": -2.52,
-   "lucro_acum": 6.76
+   "lucro_acum": 6.74
   },
   {
    "data": "2026-09-16",
    "sinais": 2,
    "lucro_dia": -0.27,
-   "lucro_acum": 6.49
+   "lucro_acum": 6.47
   },
   {
    "data": "2026-09-17",
    "sinais": 5,
    "lucro_dia": -1.04,
-   "lucro_acum": 5.45
+   "lucro_acum": 5.43
   },
   {
    "data": "2026-09-18",
    "sinais": 2,
    "lucro_dia": -0.15,
-   "lucro_acum": 5.3
+   "lucro_acum": 5.28
   },
   {
    "data": "2026-09-19",
    "sinais": 7,
    "lucro_dia": 2.0,
-   "lucro_acum": 7.3
+   "lucro_acum": 7.28
   },
   {
    "data": "2026-09-20",
    "sinais": 11,
    "lucro_dia": -0.91,
-   "lucro_acum": 6.39
+   "lucro_acum": 6.37
   },
   {
    "data": "2026-09-21",
    "sinais": 2,
    "lucro_dia": 2.2,
-   "lucro_acum": 8.59
+   "lucro_acum": 8.57
   },
   {
    "data": "2026-09-25",
    "sinais": 3,
    "lucro_dia": 1.95,
-   "lucro_acum": 10.54
+   "lucro_acum": 10.52
   },
   {
    "data": "2026-09-26",
+   "sinais": 4,
+   "lucro_dia": -1.63,
+   "lucro_acum": 8.89
+  },
+  {
+   "data": "2026-09-27",
    "sinais": 2,
-   "lucro_dia": 0.37,
-   "lucro_acum": 10.91
+   "lucro_dia": 0.15,
+   "lucro_acum": 9.04
+  },
+  {
+   "data": "2026-09-28",
+   "sinais": 1,
+   "lucro_dia": -1.0,
+   "lucro_acum": 8.04
+  },
+  {
+   "data": "2026-09-30",
+   "sinais": 1,
+   "lucro_dia": 0.85,
+   "lucro_acum": 8.89
+  },
+  {
+   "data": "2026-10-03",
+   "sinais": 5,
+   "lucro_dia": -0.3,
+   "lucro_acum": 8.59
+  },
+  {
+   "data": "2026-10-04",
+   "sinais": 4,
+   "lucro_dia": 0.58,
+   "lucro_acum": 9.16
   },
   {
    "data": "2026-10-05",
-   "sinais": 1,
-   "lucro_dia": 1.1,
-   "lucro_acum": 12.01
+   "sinais": 2,
+   "lucro_dia": 2.0,
+   "lucro_acum": 11.16
+  },
+  {
+   "data": "2026-10-09",
+   "sinais": 4,
+   "lucro_dia": 4.1,
+   "lucro_acum": 15.26
   }
  ],
  "serie_por_estrategia": {
@@ -630,12 +706,12 @@
     "data": "2026-06-26",
     "sinais": 4,
     "lucro_dia": -0.6,
-    "lucro_acum": 6.98
+    "lucro_acum": 6.99
    },
    {
     "data": "2026-06-27",
     "sinais": 5,
-    "lucro_dia": 3.16,
+    "lucro_dia": 3.15,
     "lucro_acum": 10.14
    },
    {
@@ -665,8 +741,8 @@
    {
     "data": "2026-07-04",
     "sinais": 6,
-    "lucro_dia": 2.77,
-    "lucro_acum": 14.33
+    "lucro_dia": 2.78,
+    "lucro_acum": 14.34
    },
    {
     "data": "2026-07-05",
@@ -678,7 +754,7 @@
     "data": "2026-07-06",
     "sinais": 3,
     "lucro_dia": -1.04,
-    "lucro_acum": 19.78
+    "lucro_acum": 19.79
    },
    {
     "data": "2026-07-07",
@@ -690,19 +766,19 @@
     "data": "2026-07-09",
     "sinais": 2,
     "lucro_dia": 1.1,
-    "lucro_acum": 27.17
+    "lucro_acum": 27.18
    },
    {
     "data": "2026-07-10",
     "sinais": 2,
     "lucro_dia": -0.45,
-    "lucro_acum": 26.72
+    "lucro_acum": 26.73
    },
    {
     "data": "2026-07-12",
     "sinais": 2,
     "lucro_dia": 1.44,
-    "lucro_acum": 28.16
+    "lucro_acum": 28.17
    },
    {
     "data": "2026-07-19",
@@ -719,43 +795,43 @@
    {
     "data": "2026-07-22",
     "sinais": 5,
-    "lucro_dia": 3.82,
-    "lucro_acum": 31.61
+    "lucro_dia": 3.83,
+    "lucro_acum": 31.62
    },
    {
     "data": "2026-07-23",
     "sinais": 5,
     "lucro_dia": -2.4,
-    "lucro_acum": 29.21
+    "lucro_acum": 29.22
    },
    {
     "data": "2026-07-27",
     "sinais": 5,
     "lucro_dia": 6.14,
-    "lucro_acum": 35.35
+    "lucro_acum": 35.36
    },
    {
     "data": "2026-07-28",
     "sinais": 2,
     "lucro_dia": -2.0,
-    "lucro_acum": 33.35
+    "lucro_acum": 33.36
    },
    {
     "data": "2026-07-29",
     "sinais": 3,
     "lucro_dia": -3.0,
-    "lucro_acum": 30.35
+    "lucro_acum": 30.36
    },
    {
     "data": "2026-07-30",
     "sinais": 2,
     "lucro_dia": 0.67,
-    "lucro_acum": 31.02
+    "lucro_acum": 31.03
    },
    {
     "data": "2026-07-31",
     "sinais": 15,
-    "lucro_dia": 4.27,
+    "lucro_dia": 4.26,
     "lucro_acum": 35.29
    },
    {
@@ -797,152 +873,188 @@
    {
     "data": "2026-08-10",
     "sinais": 2,
-    "lucro_dia": 2.46,
-    "lucro_acum": 19.7
+    "lucro_dia": 2.45,
+    "lucro_acum": 19.69
    },
    {
     "data": "2026-08-12",
     "sinais": 2,
     "lucro_dia": 1.97,
-    "lucro_acum": 21.67
+    "lucro_acum": 21.66
    },
    {
     "data": "2026-08-13",
     "sinais": 3,
     "lucro_dia": -3.0,
-    "lucro_acum": 18.67
+    "lucro_acum": 18.66
    },
    {
     "data": "2026-08-15",
     "sinais": 3,
     "lucro_dia": -0.8,
-    "lucro_acum": 17.87
+    "lucro_acum": 17.86
    },
    {
     "data": "2026-08-16",
     "sinais": 1,
     "lucro_dia": -1.0,
-    "lucro_acum": 16.87
+    "lucro_acum": 16.86
    },
    {
     "data": "2026-08-19",
     "sinais": 3,
     "lucro_dia": -3.0,
-    "lucro_acum": 13.87
+    "lucro_acum": 13.86
    },
    {
     "data": "2026-08-21",
     "sinais": 1,
     "lucro_dia": 1.38,
-    "lucro_acum": 15.25
+    "lucro_acum": 15.23
    },
    {
     "data": "2026-08-22",
     "sinais": 2,
     "lucro_dia": -2.0,
-    "lucro_acum": 13.25
+    "lucro_acum": 13.23
    },
    {
     "data": "2026-08-23",
     "sinais": 2,
     "lucro_dia": -2.0,
-    "lucro_acum": 11.25
+    "lucro_acum": 11.23
    },
    {
     "data": "2026-08-26",
     "sinais": 2,
     "lucro_dia": 1.89,
-    "lucro_acum": 13.14
+    "lucro_acum": 13.12
    },
    {
     "data": "2026-09-03",
     "sinais": 1,
     "lucro_dia": -1.0,
-    "lucro_acum": 12.14
+    "lucro_acum": 12.12
    },
    {
     "data": "2026-09-05",
     "sinais": 1,
     "lucro_dia": 1.14,
-    "lucro_acum": 13.28
+    "lucro_acum": 13.27
    },
    {
     "data": "2026-09-07",
     "sinais": 2,
     "lucro_dia": -2.0,
-    "lucro_acum": 11.28
+    "lucro_acum": 11.27
    },
    {
     "data": "2026-09-10",
     "sinais": 1,
     "lucro_dia": -1.0,
-    "lucro_acum": 10.28
+    "lucro_acum": 10.27
    },
    {
     "data": "2026-09-12",
     "sinais": 1,
     "lucro_dia": -1.0,
-    "lucro_acum": 9.28
+    "lucro_acum": 9.27
    },
    {
     "data": "2026-09-13",
     "sinais": 6,
     "lucro_dia": -2.52,
-    "lucro_acum": 6.76
+    "lucro_acum": 6.74
    },
    {
     "data": "2026-09-16",
     "sinais": 2,
     "lucro_dia": -0.27,
-    "lucro_acum": 6.49
+    "lucro_acum": 6.47
    },
    {
     "data": "2026-09-17",
     "sinais": 5,
     "lucro_dia": -1.04,
-    "lucro_acum": 5.45
+    "lucro_acum": 5.43
    },
    {
     "data": "2026-09-18",
     "sinais": 2,
     "lucro_dia": -0.15,
-    "lucro_acum": 5.3
+    "lucro_acum": 5.28
    },
    {
     "data": "2026-09-19",
     "sinais": 7,
     "lucro_dia": 2.0,
-    "lucro_acum": 7.3
+    "lucro_acum": 7.28
    },
    {
     "data": "2026-09-20",
     "sinais": 11,
     "lucro_dia": -0.91,
-    "lucro_acum": 6.39
+    "lucro_acum": 6.37
    },
    {
     "data": "2026-09-21",
     "sinais": 2,
     "lucro_dia": 2.2,
-    "lucro_acum": 8.59
+    "lucro_acum": 8.57
    },
    {
     "data": "2026-09-25",
     "sinais": 3,
     "lucro_dia": 1.95,
-    "lucro_acum": 10.54
+    "lucro_acum": 10.52
    },
    {
     "data": "2026-09-26",
+    "sinais": 4,
+    "lucro_dia": -1.63,
+    "lucro_acum": 8.89
+   },
+   {
+    "data": "2026-09-27",
     "sinais": 2,
-    "lucro_dia": 0.37,
-    "lucro_acum": 10.91
+    "lucro_dia": 0.15,
+    "lucro_acum": 9.04
+   },
+   {
+    "data": "2026-09-28",
+    "sinais": 1,
+    "lucro_dia": -1.0,
+    "lucro_acum": 8.04
+   },
+   {
+    "data": "2026-09-30",
+    "sinais": 1,
+    "lucro_dia": 0.85,
+    "lucro_acum": 8.89
+   },
+   {
+    "data": "2026-10-03",
+    "sinais": 5,
+    "lucro_dia": -0.3,
+    "lucro_acum": 8.59
+   },
+   {
+    "data": "2026-10-04",
+    "sinais": 4,
+    "lucro_dia": 0.58,
+    "lucro_acum": 9.16
    },
    {
     "data": "2026-10-05",
-    "sinais": 1,
-    "lucro_dia": 1.1,
-    "lucro_acum": 12.01
+    "sinais": 2,
+    "lucro_dia": 2.0,
+    "lucro_acum": 11.16
+   },
+   {
+    "data": "2026-10-09",
+    "sinais": 4,
+    "lucro_dia": 4.1,
+    "lucro_acum": 15.26
    }
   ],
   "Golos (arquivo)": [
@@ -994,151 +1106,199 @@
     "data": "2026-06-28",
     "sinais": 3,
     "lucro_dia": 0.93,
-    "lucro_acum": 0.31
+    "lucro_acum": 0.3
    },
    {
     "data": "2026-07-02",
     "sinais": 2,
     "lucro_dia": 1.0,
-    "lucro_acum": 1.31
+    "lucro_acum": 1.3
    },
    {
     "data": "2026-07-03",
     "sinais": 1,
     "lucro_dia": -1.0,
-    "lucro_acum": 0.31
+    "lucro_acum": 0.3
    },
    {
     "data": "2026-07-12",
     "sinais": 2,
     "lucro_dia": 1.44,
-    "lucro_acum": 1.75
+    "lucro_acum": 1.74
    },
    {
     "data": "2026-07-27",
     "sinais": 1,
     "lucro_dia": 1.12,
-    "lucro_acum": 2.87
+    "lucro_acum": 2.86
    },
    {
     "data": "2026-07-31",
     "sinais": 3,
-    "lucro_dia": 4.11,
-    "lucro_acum": 6.98
+    "lucro_dia": 4.1,
+    "lucro_acum": 6.96
    },
    {
     "data": "2026-08-01",
     "sinais": 1,
     "lucro_dia": -1.0,
-    "lucro_acum": 5.98
+    "lucro_acum": 5.96
    },
    {
     "data": "2026-08-02",
     "sinais": 2,
     "lucro_dia": 0.15,
-    "lucro_acum": 6.13
+    "lucro_acum": 6.12
    },
    {
     "data": "2026-08-03",
     "sinais": 1,
     "lucro_dia": 1.0,
-    "lucro_acum": 7.13
+    "lucro_acum": 7.12
    },
    {
     "data": "2026-08-07",
     "sinais": 4,
     "lucro_dia": -4.0,
-    "lucro_acum": 3.13
+    "lucro_acum": 3.12
    },
    {
     "data": "2026-08-08",
     "sinais": 4,
     "lucro_dia": -1.98,
-    "lucro_acum": 1.15
+    "lucro_acum": 1.14
    },
    {
     "data": "2026-08-09",
     "sinais": 8,
     "lucro_dia": -5.85,
-    "lucro_acum": -4.7
+    "lucro_acum": -4.71
    },
    {
     "data": "2026-08-10",
     "sinais": 2,
-    "lucro_dia": 2.46,
-    "lucro_acum": -2.24
+    "lucro_dia": 2.45,
+    "lucro_acum": -2.26
    },
    {
     "data": "2026-08-15",
     "sinais": 3,
     "lucro_dia": -0.8,
-    "lucro_acum": -3.04
+    "lucro_acum": -3.06
    },
    {
     "data": "2026-08-16",
     "sinais": 1,
     "lucro_dia": -1.0,
-    "lucro_acum": -4.04
+    "lucro_acum": -4.06
    },
    {
     "data": "2026-08-19",
     "sinais": 2,
     "lucro_dia": -2.0,
-    "lucro_acum": -6.04
+    "lucro_acum": -6.06
    },
    {
     "data": "2026-08-21",
     "sinais": 1,
     "lucro_dia": 1.38,
-    "lucro_acum": -4.66
+    "lucro_acum": -4.68
    },
    {
     "data": "2026-08-22",
     "sinais": 2,
     "lucro_dia": -2.0,
-    "lucro_acum": -6.66
+    "lucro_acum": -6.68
    },
    {
     "data": "2026-08-23",
     "sinais": 1,
     "lucro_dia": -1.0,
-    "lucro_acum": -7.66
+    "lucro_acum": -7.68
    },
    {
     "data": "2026-09-13",
     "sinais": 3,
     "lucro_dia": -1.52,
-    "lucro_acum": -9.18
+    "lucro_acum": -9.21
    },
    {
     "data": "2026-09-16",
     "sinais": 2,
     "lucro_dia": -0.27,
-    "lucro_acum": -9.45
+    "lucro_acum": -9.48
    },
    {
     "data": "2026-09-17",
     "sinais": 1,
     "lucro_dia": 1.05,
-    "lucro_acum": -8.4
+    "lucro_acum": -8.43
    },
    {
     "data": "2026-09-18",
     "sinais": 1,
     "lucro_dia": 0.85,
-    "lucro_acum": -7.55
+    "lucro_acum": -7.58
    },
    {
     "data": "2026-09-19",
     "sinais": 7,
     "lucro_dia": 2.0,
-    "lucro_acum": -5.55
+    "lucro_acum": -5.58
    },
    {
     "data": "2026-09-20",
     "sinais": 1,
     "lucro_dia": -1.0,
-    "lucro_acum": -6.55
+    "lucro_acum": -6.58
+   },
+   {
+    "data": "2026-09-26",
+    "sinais": 2,
+    "lucro_dia": -2.0,
+    "lucro_acum": -8.58
+   },
+   {
+    "data": "2026-09-27",
+    "sinais": 2,
+    "lucro_dia": 0.15,
+    "lucro_acum": -8.43
+   },
+   {
+    "data": "2026-09-28",
+    "sinais": 1,
+    "lucro_dia": -1.0,
+    "lucro_acum": -9.43
+   },
+   {
+    "data": "2026-09-30",
+    "sinais": 1,
+    "lucro_dia": 0.85,
+    "lucro_acum": -8.58
+   },
+   {
+    "data": "2026-10-03",
+    "sinais": 5,
+    "lucro_dia": -0.3,
+    "lucro_acum": -8.88
+   },
+   {
+    "data": "2026-10-04",
+    "sinais": 4,
+    "lucro_dia": 0.58,
+    "lucro_acum": -8.31
+   },
+   {
+    "data": "2026-10-05",
+    "sinais": 1,
+    "lucro_dia": 0.9,
+    "lucro_acum": -7.41
+   },
+   {
+    "data": "2026-10-09",
+    "sinais": 4,
+    "lucro_dia": 4.1,
+    "lucro_acum": -3.31
    }
   ],
   "Sharp Pick": [
@@ -1181,7 +1341,7 @@
    {
     "data": "2026-06-27",
     "sinais": 2,
-    "lucro_dia": 2.28,
+    "lucro_dia": 2.27,
     "lucro_acum": 1.46
    },
    {
@@ -1205,224 +1365,224 @@
    {
     "data": "2026-07-04",
     "sinais": 6,
-    "lucro_dia": 2.77,
-    "lucro_acum": 4.72
+    "lucro_dia": 2.78,
+    "lucro_acum": 4.73
    },
    {
     "data": "2026-07-05",
     "sinais": 23,
     "lucro_dia": 6.49,
-    "lucro_acum": 11.21
+    "lucro_acum": 11.22
    },
    {
     "data": "2026-07-06",
     "sinais": 3,
     "lucro_dia": -1.04,
-    "lucro_acum": 10.17
+    "lucro_acum": 10.18
    },
    {
     "data": "2026-07-07",
     "sinais": 5,
     "lucro_dia": 6.29,
-    "lucro_acum": 16.46
+    "lucro_acum": 16.47
    },
    {
     "data": "2026-07-09",
     "sinais": 2,
     "lucro_dia": 1.1,
-    "lucro_acum": 17.56
+    "lucro_acum": 17.57
    },
    {
     "data": "2026-07-10",
     "sinais": 2,
     "lucro_dia": -0.45,
-    "lucro_acum": 17.11
+    "lucro_acum": 17.12
    },
    {
     "data": "2026-07-19",
     "sinais": 2,
     "lucro_dia": -0.07,
-    "lucro_acum": 17.04
+    "lucro_acum": 17.05
    },
    {
     "data": "2026-07-21",
     "sinais": 4,
     "lucro_dia": -0.3,
-    "lucro_acum": 16.74
+    "lucro_acum": 16.75
    },
    {
     "data": "2026-07-22",
     "sinais": 5,
-    "lucro_dia": 3.82,
-    "lucro_acum": 20.56
+    "lucro_dia": 3.83,
+    "lucro_acum": 20.57
    },
    {
     "data": "2026-07-23",
     "sinais": 5,
     "lucro_dia": -2.4,
-    "lucro_acum": 18.16
+    "lucro_acum": 18.17
    },
    {
     "data": "2026-07-27",
     "sinais": 4,
     "lucro_dia": 5.02,
-    "lucro_acum": 23.18
+    "lucro_acum": 23.19
    },
    {
     "data": "2026-07-28",
     "sinais": 2,
     "lucro_dia": -2.0,
-    "lucro_acum": 21.18
+    "lucro_acum": 21.19
    },
    {
     "data": "2026-07-29",
     "sinais": 3,
     "lucro_dia": -3.0,
-    "lucro_acum": 18.18
+    "lucro_acum": 18.19
    },
    {
     "data": "2026-07-30",
     "sinais": 2,
     "lucro_dia": 0.67,
-    "lucro_acum": 18.85
+    "lucro_acum": 18.86
    },
    {
     "data": "2026-07-31",
     "sinais": 12,
     "lucro_dia": 0.16,
-    "lucro_acum": 19.01
+    "lucro_acum": 19.02
    },
    {
     "data": "2026-08-01",
     "sinais": 9,
     "lucro_dia": -1.07,
-    "lucro_acum": 17.94
+    "lucro_acum": 17.95
    },
    {
     "data": "2026-08-02",
     "sinais": 13,
     "lucro_dia": -3.6,
-    "lucro_acum": 14.34
+    "lucro_acum": 14.35
    },
    {
     "data": "2026-08-07",
     "sinais": 3,
     "lucro_dia": -0.7,
-    "lucro_acum": 13.64
+    "lucro_acum": 13.65
    },
    {
     "data": "2026-08-08",
     "sinais": 1,
     "lucro_dia": -1.0,
-    "lucro_acum": 12.64
+    "lucro_acum": 12.65
    },
    {
     "data": "2026-08-12",
     "sinais": 2,
     "lucro_dia": 1.97,
-    "lucro_acum": 14.61
+    "lucro_acum": 14.62
    },
    {
     "data": "2026-08-13",
     "sinais": 3,
     "lucro_dia": -3.0,
-    "lucro_acum": 11.61
+    "lucro_acum": 11.62
    },
    {
     "data": "2026-08-19",
     "sinais": 1,
     "lucro_dia": -1.0,
-    "lucro_acum": 10.61
+    "lucro_acum": 10.62
    },
    {
     "data": "2026-08-23",
     "sinais": 1,
     "lucro_dia": -1.0,
-    "lucro_acum": 9.61
+    "lucro_acum": 9.62
    },
    {
     "data": "2026-08-26",
     "sinais": 2,
     "lucro_dia": 1.89,
-    "lucro_acum": 11.5
+    "lucro_acum": 11.51
    },
    {
     "data": "2026-09-03",
     "sinais": 1,
     "lucro_dia": -1.0,
-    "lucro_acum": 10.5
+    "lucro_acum": 10.51
    },
    {
     "data": "2026-09-05",
     "sinais": 1,
     "lucro_dia": 1.14,
-    "lucro_acum": 11.64
+    "lucro_acum": 11.65
    },
    {
     "data": "2026-09-07",
     "sinais": 2,
     "lucro_dia": -2.0,
-    "lucro_acum": 9.64
+    "lucro_acum": 9.65
    },
    {
     "data": "2026-09-10",
     "sinais": 1,
     "lucro_dia": -1.0,
-    "lucro_acum": 8.64
+    "lucro_acum": 8.65
    },
    {
     "data": "2026-09-12",
     "sinais": 1,
     "lucro_dia": -1.0,
-    "lucro_acum": 7.64
+    "lucro_acum": 7.65
    },
    {
     "data": "2026-09-13",
     "sinais": 3,
     "lucro_dia": -1.0,
-    "lucro_acum": 6.64
+    "lucro_acum": 6.65
    },
    {
     "data": "2026-09-17",
     "sinais": 4,
     "lucro_dia": -2.09,
-    "lucro_acum": 4.55
+    "lucro_acum": 4.56
    },
    {
     "data": "2026-09-18",
     "sinais": 1,
     "lucro_dia": -1.0,
-    "lucro_acum": 3.55
+    "lucro_acum": 3.56
    },
    {
     "data": "2026-09-20",
     "sinais": 10,
     "lucro_dia": 0.09,
-    "lucro_acum": 3.64
+    "lucro_acum": 3.65
    },
    {
     "data": "2026-09-21",
     "sinais": 2,
     "lucro_dia": 2.2,
-    "lucro_acum": 5.84
+    "lucro_acum": 5.85
    },
    {
     "data": "2026-09-25",
     "sinais": 3,
     "lucro_dia": 1.95,
-    "lucro_acum": 7.79
+    "lucro_acum": 7.8
    },
    {
     "data": "2026-09-26",
     "sinais": 2,
     "lucro_dia": 0.37,
-    "lucro_acum": 8.16
+    "lucro_acum": 8.17
    },
    {
     "data": "2026-10-05",
     "sinais": 1,
     "lucro_dia": 1.1,
-    "lucro_acum": 9.26
+    "lucro_acum": 9.27
    }
   ]
  },
@@ -1430,11 +1590,11 @@
   "Total": {
    "geral": {
     "inicio": "2026-06-06",
-    "fim": "2026-10-05",
-    "sinais": 282,
-    "sinais_financeiros": 266,
-    "ganhos": 139,
-    "perdidos": 122,
+    "fim": "2026-10-09",
+    "sinais": 302,
+    "sinais_financeiros": 286,
+    "ganhos": 150,
+    "perdidos": 131,
     "push": 5,
     "pendentes": 0,
     "condicionais": 16,
@@ -1442,9 +1602,9 @@
     "condicionais_perdidos": 9,
     "condicionais_push": 0,
     "condicionais_pendentes": 0,
-    "wr": 53.3,
-    "lucro_u": 12.01,
-    "roi": 4.6,
+    "wr": 53.4,
+    "lucro_u": 15.26,
+    "roi": 5.4,
     "por_estrategia": {
      "Golos (arquivo)": {
       "n": 31,
@@ -1463,7 +1623,7 @@
       "n": 168,
       "g": 90,
       "p": 78,
-      "lucro": 9.26,
+      "lucro": 9.27,
       "condicionais": 0,
       "condicionais_g": 0,
       "condicionais_p": 0,
@@ -1473,45 +1633,26 @@
       "wr": 53.6
      },
      "Golos 2ª Parte": {
-      "n": 83,
-      "g": 30,
-      "p": 37,
-      "lucro": -6.55,
+      "n": 103,
+      "g": 41,
+      "p": 46,
+      "lucro": -3.31,
       "condicionais": 16,
       "condicionais_g": 7,
       "condicionais_p": 9,
       "condicionais_push": 0,
       "condicionais_pendentes": 0,
-      "n_financeiros": 67,
-      "wr": 44.8
+      "n_financeiros": 87,
+      "wr": 47.1
      }
     }
    },
    "diario": {
     "inicio": "2026-10-09",
     "fim": "2026-10-09",
-    "sinais": 0,
-    "sinais_financeiros": 0,
-    "ganhos": 0,
-    "perdidos": 0,
-    "push": 0,
-    "pendentes": 0,
-    "condicionais": 0,
-    "condicionais_ganhos": 0,
-    "condicionais_perdidos": 0,
-    "condicionais_push": 0,
-    "condicionais_pendentes": 0,
-    "wr": 0.0,
-    "lucro_u": 0.0,
-    "roi": 0.0,
-    "por_estrategia": {}
-   },
-   "semanal": {
-    "inicio": "2026-10-05",
-    "fim": "2026-10-09",
-    "sinais": 1,
-    "sinais_financeiros": 1,
-    "ganhos": 1,
+    "sinais": 4,
+    "sinais_financeiros": 4,
+    "ganhos": 4,
     "perdidos": 0,
     "push": 0,
     "pendentes": 0,
@@ -1521,9 +1662,55 @@
     "condicionais_push": 0,
     "condicionais_pendentes": 0,
     "wr": 100.0,
-    "lucro_u": 1.1,
-    "roi": 110.0,
+    "lucro_u": 4.1,
+    "roi": 102.5,
     "por_estrategia": {
+     "Golos 2ª Parte": {
+      "n": 4,
+      "g": 4,
+      "p": 0,
+      "lucro": 4.1,
+      "condicionais": 0,
+      "condicionais_g": 0,
+      "condicionais_p": 0,
+      "condicionais_push": 0,
+      "condicionais_pendentes": 0,
+      "n_financeiros": 4,
+      "wr": 100.0
+     }
+    }
+   },
+   "semanal": {
+    "inicio": "2026-10-05",
+    "fim": "2026-10-09",
+    "sinais": 6,
+    "sinais_financeiros": 6,
+    "ganhos": 6,
+    "perdidos": 0,
+    "push": 0,
+    "pendentes": 0,
+    "condicionais": 0,
+    "condicionais_ganhos": 0,
+    "condicionais_perdidos": 0,
+    "condicionais_push": 0,
+    "condicionais_pendentes": 0,
+    "wr": 100.0,
+    "lucro_u": 6.1,
+    "roi": 101.7,
+    "por_estrategia": {
+     "Golos 2ª Parte": {
+      "n": 5,
+      "g": 5,
+      "p": 0,
+      "lucro": 5.0,
+      "condicionais": 0,
+      "condicionais_g": 0,
+      "condicionais_p": 0,
+      "condicionais_push": 0,
+      "condicionais_pendentes": 0,
+      "n_financeiros": 5,
+      "wr": 100.0
+     },
      "Sharp Pick": {
       "n": 1,
       "g": 1,
@@ -1542,10 +1729,10 @@
    "mensal": {
     "inicio": "2026-10-01",
     "fim": "2026-10-09",
-    "sinais": 1,
-    "sinais_financeiros": 1,
-    "ganhos": 1,
-    "perdidos": 0,
+    "sinais": 15,
+    "sinais_financeiros": 15,
+    "ganhos": 10,
+    "perdidos": 5,
     "push": 0,
     "pendentes": 0,
     "condicionais": 0,
@@ -1553,10 +1740,23 @@
     "condicionais_perdidos": 0,
     "condicionais_push": 0,
     "condicionais_pendentes": 0,
-    "wr": 100.0,
-    "lucro_u": 1.1,
-    "roi": 110.0,
+    "wr": 66.7,
+    "lucro_u": 6.38,
+    "roi": 42.5,
     "por_estrategia": {
+     "Golos 2ª Parte": {
+      "n": 14,
+      "g": 9,
+      "p": 5,
+      "lucro": 5.28,
+      "condicionais": 0,
+      "condicionais_g": 0,
+      "condicionais_p": 0,
+      "condicionais_push": 0,
+      "condicionais_pendentes": 0,
+      "n_financeiros": 14,
+      "wr": 64.3
+     },
      "Sharp Pick": {
       "n": 1,
       "g": 1,
@@ -1631,12 +1831,12 @@
      "data": "2026-06-26",
      "sinais": 4,
      "lucro_dia": -0.6,
-     "lucro_acum": 6.98
+     "lucro_acum": 6.99
     },
     {
      "data": "2026-06-27",
      "sinais": 5,
-     "lucro_dia": 3.16,
+     "lucro_dia": 3.15,
      "lucro_acum": 10.14
     },
     {
@@ -1666,8 +1866,8 @@
     {
      "data": "2026-07-04",
      "sinais": 6,
-     "lucro_dia": 2.77,
-     "lucro_acum": 14.33
+     "lucro_dia": 2.78,
+     "lucro_acum": 14.34
     },
     {
      "data": "2026-07-05",
@@ -1679,7 +1879,7 @@
      "data": "2026-07-06",
      "sinais": 3,
      "lucro_dia": -1.04,
-     "lucro_acum": 19.78
+     "lucro_acum": 19.79
     },
     {
      "data": "2026-07-07",
@@ -1691,19 +1891,19 @@
      "data": "2026-07-09",
      "sinais": 2,
      "lucro_dia": 1.1,
-     "lucro_acum": 27.17
+     "lucro_acum": 27.18
     },
     {
      "data": "2026-07-10",
      "sinais": 2,
      "lucro_dia": -0.45,
-     "lucro_acum": 26.72
+     "lucro_acum": 26.73
     },
     {
      "data": "2026-07-12",
      "sinais": 2,
      "lucro_dia": 1.44,
-     "lucro_acum": 28.16
+     "lucro_acum": 28.17
     },
     {
      "data": "2026-07-19",
@@ -1720,43 +1920,43 @@
     {
      "data": "2026-07-22",
      "sinais": 5,
-     "lucro_dia": 3.82,
-     "lucro_acum": 31.61
+     "lucro_dia": 3.83,
+     "lucro_acum": 31.62
     },
     {
      "data": "2026-07-23",
      "sinais": 5,
      "lucro_dia": -2.4,
-     "lucro_acum": 29.21
+     "lucro_acum": 29.22
     },
     {
      "data": "2026-07-27",
      "sinais": 5,
      "lucro_dia": 6.14,
-     "lucro_acum": 35.35
+     "lucro_acum": 35.36
     },
     {
      "data": "2026-07-28",
      "sinais": 2,
      "lucro_dia": -2.0,
-     "lucro_acum": 33.35
+     "lucro_acum": 33.36
     },
     {
      "data": "2026-07-29",
      "sinais": 3,
      "lucro_dia": -3.0,
-     "lucro_acum": 30.35
+     "lucro_acum": 30.36
     },
     {
      "data": "2026-07-30",
      "sinais": 2,
      "lucro_dia": 0.67,
-     "lucro_acum": 31.02
+     "lucro_acum": 31.03
     },
     {
      "data": "2026-07-31",
      "sinais": 15,
-     "lucro_dia": 4.27,
+     "lucro_dia": 4.26,
      "lucro_acum": 35.29
     },
     {
@@ -1798,182 +1998,218 @@
     {
      "data": "2026-08-10",
      "sinais": 2,
-     "lucro_dia": 2.46,
-     "lucro_acum": 19.7
+     "lucro_dia": 2.45,
+     "lucro_acum": 19.69
     },
     {
      "data": "2026-08-12",
      "sinais": 2,
      "lucro_dia": 1.97,
-     "lucro_acum": 21.67
+     "lucro_acum": 21.66
     },
     {
      "data": "2026-08-13",
      "sinais": 3,
      "lucro_dia": -3.0,
-     "lucro_acum": 18.67
+     "lucro_acum": 18.66
     },
     {
      "data": "2026-08-15",
      "sinais": 3,
      "lucro_dia": -0.8,
-     "lucro_acum": 17.87
+     "lucro_acum": 17.86
     },
     {
      "data": "2026-08-16",
      "sinais": 1,
      "lucro_dia": -1.0,
-     "lucro_acum": 16.87
+     "lucro_acum": 16.86
     },
     {
      "data": "2026-08-19",
      "sinais": 3,
      "lucro_dia": -3.0,
-     "lucro_acum": 13.87
+     "lucro_acum": 13.86
     },
     {
      "data": "2026-08-21",
      "sinais": 1,
      "lucro_dia": 1.38,
-     "lucro_acum": 15.25
+     "lucro_acum": 15.23
     },
     {
      "data": "2026-08-22",
      "sinais": 2,
      "lucro_dia": -2.0,
-     "lucro_acum": 13.25
+     "lucro_acum": 13.23
     },
     {
      "data": "2026-08-23",
      "sinais": 2,
      "lucro_dia": -2.0,
-     "lucro_acum": 11.25
+     "lucro_acum": 11.23
     },
     {
      "data": "2026-08-26",
      "sinais": 2,
      "lucro_dia": 1.89,
-     "lucro_acum": 13.14
+     "lucro_acum": 13.12
     },
     {
      "data": "2026-09-03",
      "sinais": 1,
      "lucro_dia": -1.0,
-     "lucro_acum": 12.14
+     "lucro_acum": 12.12
     },
     {
      "data": "2026-09-05",
      "sinais": 1,
      "lucro_dia": 1.14,
-     "lucro_acum": 13.28
+     "lucro_acum": 13.27
     },
     {
      "data": "2026-09-07",
      "sinais": 2,
      "lucro_dia": -2.0,
-     "lucro_acum": 11.28
+     "lucro_acum": 11.27
     },
     {
      "data": "2026-09-10",
      "sinais": 1,
      "lucro_dia": -1.0,
-     "lucro_acum": 10.28
+     "lucro_acum": 10.27
     },
     {
      "data": "2026-09-12",
      "sinais": 1,
      "lucro_dia": -1.0,
-     "lucro_acum": 9.28
+     "lucro_acum": 9.27
     },
     {
      "data": "2026-09-13",
      "sinais": 6,
      "lucro_dia": -2.52,
-     "lucro_acum": 6.76
+     "lucro_acum": 6.74
     },
     {
      "data": "2026-09-16",
      "sinais": 2,
      "lucro_dia": -0.27,
-     "lucro_acum": 6.49
+     "lucro_acum": 6.47
     },
     {
      "data": "2026-09-17",
      "sinais": 5,
      "lucro_dia": -1.04,
-     "lucro_acum": 5.45
+     "lucro_acum": 5.43
     },
     {
      "data": "2026-09-18",
      "sinais": 2,
      "lucro_dia": -0.15,
-     "lucro_acum": 5.3
+     "lucro_acum": 5.28
     },
     {
      "data": "2026-09-19",
      "sinais": 7,
      "lucro_dia": 2.0,
-     "lucro_acum": 7.3
+     "lucro_acum": 7.28
     },
     {
      "data": "2026-09-20",
      "sinais": 11,
      "lucro_dia": -0.91,
-     "lucro_acum": 6.39
+     "lucro_acum": 6.37
     },
     {
      "data": "2026-09-21",
      "sinais": 2,
      "lucro_dia": 2.2,
-     "lucro_acum": 8.59
+     "lucro_acum": 8.57
     },
     {
      "data": "2026-09-25",
      "sinais": 3,
      "lucro_dia": 1.95,
-     "lucro_acum": 10.54
+     "lucro_acum": 10.52
     },
     {
      "data": "2026-09-26",
+     "sinais": 4,
+     "lucro_dia": -1.63,
+     "lucro_acum": 8.89
+    },
+    {
+     "data": "2026-09-27",
      "sinais": 2,
-     "lucro_dia": 0.37,
-     "lucro_acum": 10.91
+     "lucro_dia": 0.15,
+     "lucro_acum": 9.04
+    },
+    {
+     "data": "2026-09-28",
+     "sinais": 1,
+     "lucro_dia": -1.0,
+     "lucro_acum": 8.04
+    },
+    {
+     "data": "2026-09-30",
+     "sinais": 1,
+     "lucro_dia": 0.85,
+     "lucro_acum": 8.89
+    },
+    {
+     "data": "2026-10-03",
+     "sinais": 5,
+     "lucro_dia": -0.3,
+     "lucro_acum": 8.59
+    },
+    {
+     "data": "2026-10-04",
+     "sinais": 4,
+     "lucro_dia": 0.58,
+     "lucro_acum": 9.16
     },
     {
      "data": "2026-10-05",
-     "sinais": 1,
-     "lucro_dia": 1.1,
-     "lucro_acum": 12.01
+     "sinais": 2,
+     "lucro_dia": 2.0,
+     "lucro_acum": 11.16
+    },
+    {
+     "data": "2026-10-09",
+     "sinais": 4,
+     "lucro_dia": 4.1,
+     "lucro_acum": 15.26
     }
    ],
-   "streak_atual": 1,
+   "streak_atual": 6,
    "streak_melhor": 10,
    "forma": [
+    "perdido",
+    "perdido",
+    "ganho",
     "ganho",
     "perdido",
     "perdido",
-    "perdido",
-    "ganho",
-    "ganho",
-    "ganho",
-    "ganho",
-    "ganho",
     "ganho",
     "ganho",
     "perdido",
     "ganho",
-    "perdido",
+    "ganho",
+    "ganho",
+    "ganho",
+    "ganho",
     "ganho"
    ],
    "melhor_dia": 8.35,
    "melhor_dia_data": "2026-06-07",
    "maior_odd": 3.1,
-   "dias_verde_pct": 43.5
+   "dias_verde_pct": 44.1
   },
   "Golos (arquivo)": {
    "geral": {
     "inicio": "2026-06-06",
-    "fim": "2026-10-05",
+    "fim": "2026-10-09",
     "sinais": 31,
     "sinais_financeiros": 31,
     "ganhos": 19,
@@ -2108,11 +2344,11 @@
   "Golos 2ª Parte": {
    "geral": {
     "inicio": "2026-06-06",
-    "fim": "2026-10-05",
-    "sinais": 83,
-    "sinais_financeiros": 67,
-    "ganhos": 30,
-    "perdidos": 37,
+    "fim": "2026-10-09",
+    "sinais": 103,
+    "sinais_financeiros": 87,
+    "ganhos": 41,
+    "perdidos": 46,
     "push": 0,
     "pendentes": 0,
     "condicionais": 16,
@@ -2120,31 +2356,31 @@
     "condicionais_perdidos": 9,
     "condicionais_push": 0,
     "condicionais_pendentes": 0,
-    "wr": 44.8,
-    "lucro_u": -6.55,
-    "roi": -9.8,
+    "wr": 47.1,
+    "lucro_u": -3.31,
+    "roi": -3.8,
     "por_estrategia": {
      "Golos 2ª Parte": {
-      "n": 83,
-      "g": 30,
-      "p": 37,
-      "lucro": -6.55,
+      "n": 103,
+      "g": 41,
+      "p": 46,
+      "lucro": -3.31,
       "condicionais": 16,
       "condicionais_g": 7,
       "condicionais_p": 9,
       "condicionais_push": 0,
       "condicionais_pendentes": 0,
-      "n_financeiros": 67,
-      "wr": 44.8
+      "n_financeiros": 87,
+      "wr": 47.1
      }
     }
    },
    "diario": {
     "inicio": "2026-10-09",
     "fim": "2026-10-09",
-    "sinais": 0,
-    "sinais_financeiros": 0,
-    "ganhos": 0,
+    "sinais": 4,
+    "sinais_financeiros": 4,
+    "ganhos": 4,
     "perdidos": 0,
     "push": 0,
     "pendentes": 0,
@@ -2153,17 +2389,31 @@
     "condicionais_perdidos": 0,
     "condicionais_push": 0,
     "condicionais_pendentes": 0,
-    "wr": 0.0,
-    "lucro_u": 0.0,
-    "roi": 0.0,
-    "por_estrategia": {}
+    "wr": 100.0,
+    "lucro_u": 4.1,
+    "roi": 102.5,
+    "por_estrategia": {
+     "Golos 2ª Parte": {
+      "n": 4,
+      "g": 4,
+      "p": 0,
+      "lucro": 4.1,
+      "condicionais": 0,
+      "condicionais_g": 0,
+      "condicionais_p": 0,
+      "condicionais_push": 0,
+      "condicionais_pendentes": 0,
+      "n_financeiros": 4,
+      "wr": 100.0
+     }
+    }
    },
    "semanal": {
     "inicio": "2026-10-05",
     "fim": "2026-10-09",
-    "sinais": 0,
-    "sinais_financeiros": 0,
-    "ganhos": 0,
+    "sinais": 5,
+    "sinais_financeiros": 5,
+    "ganhos": 5,
     "perdidos": 0,
     "push": 0,
     "pendentes": 0,
@@ -2172,18 +2422,32 @@
     "condicionais_perdidos": 0,
     "condicionais_push": 0,
     "condicionais_pendentes": 0,
-    "wr": 0.0,
-    "lucro_u": 0.0,
-    "roi": 0.0,
-    "por_estrategia": {}
+    "wr": 100.0,
+    "lucro_u": 5.0,
+    "roi": 100.0,
+    "por_estrategia": {
+     "Golos 2ª Parte": {
+      "n": 5,
+      "g": 5,
+      "p": 0,
+      "lucro": 5.0,
+      "condicionais": 0,
+      "condicionais_g": 0,
+      "condicionais_p": 0,
+      "condicionais_push": 0,
+      "condicionais_pendentes": 0,
+      "n_financeiros": 5,
+      "wr": 100.0
+     }
+    }
    },
    "mensal": {
     "inicio": "2026-10-01",
     "fim": "2026-10-09",
-    "sinais": 0,
-    "sinais_financeiros": 0,
-    "ganhos": 0,
-    "perdidos": 0,
+    "sinais": 14,
+    "sinais_financeiros": 14,
+    "ganhos": 9,
+    "perdidos": 5,
     "push": 0,
     "pendentes": 0,
     "condicionais": 0,
@@ -2191,10 +2455,24 @@
     "condicionais_perdidos": 0,
     "condicionais_push": 0,
     "condicionais_pendentes": 0,
-    "wr": 0.0,
-    "lucro_u": 0.0,
-    "roi": 0.0,
-    "por_estrategia": {}
+    "wr": 64.3,
+    "lucro_u": 5.28,
+    "roi": 37.7,
+    "por_estrategia": {
+     "Golos 2ª Parte": {
+      "n": 14,
+      "g": 9,
+      "p": 5,
+      "lucro": 5.28,
+      "condicionais": 0,
+      "condicionais_g": 0,
+      "condicionais_p": 0,
+      "condicionais_push": 0,
+      "condicionais_pendentes": 0,
+      "n_financeiros": 14,
+      "wr": 64.3
+     }
+    }
    },
    "serie": [
     {
@@ -2225,156 +2503,209 @@
      "data": "2026-06-28",
      "sinais": 3,
      "lucro_dia": 0.93,
-     "lucro_acum": 0.31
+     "lucro_acum": 0.3
     },
     {
      "data": "2026-07-02",
      "sinais": 2,
      "lucro_dia": 1.0,
-     "lucro_acum": 1.31
+     "lucro_acum": 1.3
     },
     {
      "data": "2026-07-03",
      "sinais": 1,
      "lucro_dia": -1.0,
-     "lucro_acum": 0.31
+     "lucro_acum": 0.3
     },
     {
      "data": "2026-07-12",
      "sinais": 2,
      "lucro_dia": 1.44,
-     "lucro_acum": 1.75
+     "lucro_acum": 1.74
     },
     {
      "data": "2026-07-27",
      "sinais": 1,
      "lucro_dia": 1.12,
-     "lucro_acum": 2.87
+     "lucro_acum": 2.86
     },
     {
      "data": "2026-07-31",
      "sinais": 3,
-     "lucro_dia": 4.11,
-     "lucro_acum": 6.98
+     "lucro_dia": 4.1,
+     "lucro_acum": 6.96
     },
     {
      "data": "2026-08-01",
      "sinais": 1,
      "lucro_dia": -1.0,
-     "lucro_acum": 5.98
+     "lucro_acum": 5.96
     },
     {
      "data": "2026-08-02",
      "sinais": 2,
      "lucro_dia": 0.15,
-     "lucro_acum": 6.13
+     "lucro_acum": 6.12
     },
     {
      "data": "2026-08-03",
      "sinais": 1,
      "lucro_dia": 1.0,
-     "lucro_acum": 7.13
+     "lucro_acum": 7.12
     },
     {
      "data": "2026-08-07",
      "sinais": 4,
      "lucro_dia": -4.0,
-     "lucro_acum": 3.13
+     "lucro_acum": 3.12
     },
     {
      "data": "2026-08-08",
      "sinais": 4,
      "lucro_dia": -1.98,
-     "lucro_acum": 1.15
+     "lucro_acum": 1.14
     },
     {
      "data": "2026-08-09",
      "sinais": 8,
      "lucro_dia": -5.85,
-     "lucro_acum": -4.7
+     "lucro_acum": -4.71
     },
     {
      "data": "2026-08-10",
      "sinais": 2,
-     "lucro_dia": 2.46,
-     "lucro_acum": -2.24
+     "lucro_dia": 2.45,
+     "lucro_acum": -2.26
     },
     {
      "data": "2026-08-15",
      "sinais": 3,
      "lucro_dia": -0.8,
-     "lucro_acum": -3.04
+     "lucro_acum": -3.06
     },
     {
      "data": "2026-08-16",
      "sinais": 1,
      "lucro_dia": -1.0,
-     "lucro_acum": -4.04
+     "lucro_acum": -4.06
     },
     {
      "data": "2026-08-19",
      "sinais": 2,
      "lucro_dia": -2.0,
-     "lucro_acum": -6.04
+     "lucro_acum": -6.06
     },
     {
      "data": "2026-08-21",
      "sinais": 1,
      "lucro_dia": 1.38,
-     "lucro_acum": -4.66
+     "lucro_acum": -4.68
     },
     {
      "data": "2026-08-22",
      "sinais": 2,
      "lucro_dia": -2.0,
-     "lucro_acum": -6.66
+     "lucro_acum": -6.68
     },
     {
      "data": "2026-08-23",
      "sinais": 1,
      "lucro_dia": -1.0,
-     "lucro_acum": -7.66
+     "lucro_acum": -7.68
     },
     {
      "data": "2026-09-13",
      "sinais": 3,
      "lucro_dia": -1.52,
-     "lucro_acum": -9.18
+     "lucro_acum": -9.21
     },
     {
      "data": "2026-09-16",
      "sinais": 2,
      "lucro_dia": -0.27,
-     "lucro_acum": -9.45
+     "lucro_acum": -9.48
     },
     {
      "data": "2026-09-17",
      "sinais": 1,
      "lucro_dia": 1.05,
-     "lucro_acum": -8.4
+     "lucro_acum": -8.43
     },
     {
      "data": "2026-09-18",
      "sinais": 1,
      "lucro_dia": 0.85,
-     "lucro_acum": -7.55
+     "lucro_acum": -7.58
     },
     {
      "data": "2026-09-19",
      "sinais": 7,
      "lucro_dia": 2.0,
-     "lucro_acum": -5.55
+     "lucro_acum": -5.58
     },
     {
      "data": "2026-09-20",
      "sinais": 1,
      "lucro_dia": -1.0,
-     "lucro_acum": -6.55
+     "lucro_acum": -6.58
+    },
+    {
+     "data": "2026-09-26",
+     "sinais": 2,
+     "lucro_dia": -2.0,
+     "lucro_acum": -8.58
+    },
+    {
+     "data": "2026-09-27",
+     "sinais": 2,
+     "lucro_dia": 0.15,
+     "lucro_acum": -8.43
+    },
+    {
+     "data": "2026-09-28",
+     "sinais": 1,
+     "lucro_dia": -1.0,
+     "lucro_acum": -9.43
+    },
+    {
+     "data": "2026-09-30",
+     "sinais": 1,
+     "lucro_dia": 0.85,
+     "lucro_acum": -8.58
+    },
+    {
+     "data": "2026-10-03",
+     "sinais": 5,
+     "lucro_dia": -0.3,
+     "lucro_acum": -8.88
+    },
+    {
+     "data": "2026-10-04",
+     "sinais": 4,
+     "lucro_dia": 0.58,
+     "lucro_acum": -8.31
+    },
+    {
+     "data": "2026-10-05",
+     "sinais": 1,
+     "lucro_dia": 0.9,
+     "lucro_acum": -7.41
+    },
+    {
+     "data": "2026-10-09",
+     "sinais": 4,
+     "lucro_dia": 4.1,
+     "lucro_acum": -3.31
     }
    ],
-   "streak_atual": 0,
+   "streak_atual": 5,
    "streak_melhor": 6,
    "forma": [
+    "ganho",
+    "perdido",
+    "perdido",
+    "ganho",
+    "ganho",
     "perdido",
     "perdido",
     "ganho",
@@ -2382,24 +2713,19 @@
     "perdido",
     "ganho",
     "ganho",
-    "perdido",
     "ganho",
     "ganho",
-    "ganho",
-    "perdido",
-    "perdido",
-    "ganho",
-    "perdido"
+    "ganho"
    ],
-   "melhor_dia": 4.11,
+   "melhor_dia": 4.1,
    "melhor_dia_data": "2026-07-31",
    "maior_odd": 2.65,
-   "dias_verde_pct": 44.8
+   "dias_verde_pct": 48.6
   },
   "Sharp Pick": {
    "geral": {
     "inicio": "2026-06-06",
-    "fim": "2026-10-05",
+    "fim": "2026-10-09",
     "sinais": 168,
     "sinais_financeiros": 168,
     "ganhos": 90,
@@ -2412,14 +2738,14 @@
     "condicionais_push": 0,
     "condicionais_pendentes": 0,
     "wr": 53.6,
-    "lucro_u": 9.26,
+    "lucro_u": 9.27,
     "roi": 5.5,
     "por_estrategia": {
      "Sharp Pick": {
       "n": 168,
       "g": 90,
       "p": 78,
-      "lucro": 9.26,
+      "lucro": 9.27,
       "condicionais": 0,
       "condicionais_g": 0,
       "condicionais_p": 0,
@@ -2555,7 +2881,7 @@
     {
      "data": "2026-06-27",
      "sinais": 2,
-     "lucro_dia": 2.28,
+     "lucro_dia": 2.27,
      "lucro_acum": 1.46
     },
     {
@@ -2579,224 +2905,224 @@
     {
      "data": "2026-07-04",
      "sinais": 6,
-     "lucro_dia": 2.77,
-     "lucro_acum": 4.72
+     "lucro_dia": 2.78,
+     "lucro_acum": 4.73
     },
     {
      "data": "2026-07-05",
      "sinais": 23,
      "lucro_dia": 6.49,
-     "lucro_acum": 11.21
+     "lucro_acum": 11.22
     },
     {
      "data": "2026-07-06",
      "sinais": 3,
      "lucro_dia": -1.04,
-     "lucro_acum": 10.17
+     "lucro_acum": 10.18
     },
     {
      "data": "2026-07-07",
      "sinais": 5,
      "lucro_dia": 6.29,
-     "lucro_acum": 16.46
+     "lucro_acum": 16.47
     },
     {
      "data": "2026-07-09",
      "sinais": 2,
      "lucro_dia": 1.1,
-     "lucro_acum": 17.56
+     "lucro_acum": 17.57
     },
     {
      "data": "2026-07-10",
      "sinais": 2,
      "lucro_dia": -0.45,
-     "lucro_acum": 17.11
+     "lucro_acum": 17.12
     },
     {
      "data": "2026-07-19",
      "sinais": 2,
      "lucro_dia": -0.07,
-     "lucro_acum": 17.04
+     "lucro_acum": 17.05
     },
     {
      "data": "2026-07-21",
      "sinais": 4,
      "lucro_dia": -0.3,
-     "lucro_acum": 16.74
+     "lucro_acum": 16.75
     },
     {
      "data": "2026-07-22",
      "sinais": 5,
-     "lucro_dia": 3.82,
-     "lucro_acum": 20.56
+     "lucro_dia": 3.83,
+     "lucro_acum": 20.57
     },
     {
      "data": "2026-07-23",
      "sinais": 5,
      "lucro_dia": -2.4,
-     "lucro_acum": 18.16
+     "lucro_acum": 18.17
     },
     {
      "data": "2026-07-27",
      "sinais": 4,
      "lucro_dia": 5.02,
-     "lucro_acum": 23.18
+     "lucro_acum": 23.19
     },
     {
      "data": "2026-07-28",
      "sinais": 2,
      "lucro_dia": -2.0,
-     "lucro_acum": 21.18
+     "lucro_acum": 21.19
     },
     {
      "data": "2026-07-29",
      "sinais": 3,
      "lucro_dia": -3.0,
-     "lucro_acum": 18.18
+     "lucro_acum": 18.19
     },
     {
      "data": "2026-07-30",
      "sinais": 2,
      "lucro_dia": 0.67,
-     "lucro_acum": 18.85
+     "lucro_acum": 18.86
     },
     {
      "data": "2026-07-31",
      "sinais": 12,
      "lucro_dia": 0.16,
-     "lucro_acum": 19.01
+     "lucro_acum": 19.02
     },
     {
      "data": "2026-08-01",
      "sinais": 9,
      "lucro_dia": -1.07,
-     "lucro_acum": 17.94
+     "lucro_acum": 17.95
     },
     {
      "data": "2026-08-02",
      "sinais": 13,
      "lucro_dia": -3.6,
-     "lucro_acum": 14.34
+     "lucro_acum": 14.35
     },
     {
      "data": "2026-08-07",
      "sinais": 3,
      "lucro_dia": -0.7,
-     "lucro_acum": 13.64
+     "lucro_acum": 13.65
     },
     {
      "data": "2026-08-08",
      "sinais": 1,
      "lucro_dia": -1.0,
-     "lucro_acum": 12.64
+     "lucro_acum": 12.65
     },
     {
      "data": "2026-08-12",
      "sinais": 2,
      "lucro_dia": 1.97,
-     "lucro_acum": 14.61
+     "lucro_acum": 14.62
     },
     {
      "data": "2026-08-13",
      "sinais": 3,
      "lucro_dia": -3.0,
-     "lucro_acum": 11.61
+     "lucro_acum": 11.62
     },
     {
      "data": "2026-08-19",
      "sinais": 1,
      "lucro_dia": -1.0,
-     "lucro_acum": 10.61
+     "lucro_acum": 10.62
     },
     {
      "data": "2026-08-23",
      "sinais": 1,
      "lucro_dia": -1.0,
-     "lucro_acum": 9.61
+     "lucro_acum": 9.62
     },
     {
      "data": "2026-08-26",
      "sinais": 2,
      "lucro_dia": 1.89,
-     "lucro_acum": 11.5
+     "lucro_acum": 11.51
     },
     {
      "data": "2026-09-03",
      "sinais": 1,
      "lucro_dia": -1.0,
-     "lucro_acum": 10.5
+     "lucro_acum": 10.51
     },
     {
      "data": "2026-09-05",
      "sinais": 1,
      "lucro_dia": 1.14,
-     "lucro_acum": 11.64
+     "lucro_acum": 11.65
     },
     {
      "data": "2026-09-07",
      "sinais": 2,
      "lucro_dia": -2.0,
-     "lucro_acum": 9.64
+     "lucro_acum": 9.65
     },
     {
      "data": "2026-09-10",
      "sinais": 1,
      "lucro_dia": -1.0,
-     "lucro_acum": 8.64
+     "lucro_acum": 8.65
     },
     {
      "data": "2026-09-12",
      "sinais": 1,
      "lucro_dia": -1.0,
-     "lucro_acum": 7.64
+     "lucro_acum": 7.65
     },
     {
      "data": "2026-09-13",
      "sinais": 3,
      "lucro_dia": -1.0,
-     "lucro_acum": 6.64
+     "lucro_acum": 6.65
     },
     {
      "data": "2026-09-17",
      "sinais": 4,
      "lucro_dia": -2.09,
-     "lucro_acum": 4.55
+     "lucro_acum": 4.56
     },
     {
      "data": "2026-09-18",
      "sinais": 1,
      "lucro_dia": -1.0,
-     "lucro_acum": 3.55
+     "lucro_acum": 3.56
     },
     {
      "data": "2026-09-20",
      "sinais": 10,
      "lucro_dia": 0.09,
-     "lucro_acum": 3.64
+     "lucro_acum": 3.65
     },
     {
      "data": "2026-09-21",
      "sinais": 2,
      "lucro_dia": 2.2,
-     "lucro_acum": 5.84
+     "lucro_acum": 5.85
     },
     {
      "data": "2026-09-25",
      "sinais": 3,
      "lucro_dia": 1.95,
-     "lucro_acum": 7.79
+     "lucro_acum": 7.8
     },
     {
      "data": "2026-09-26",
      "sinais": 2,
      "lucro_dia": 0.37,
-     "lucro_acum": 8.16
+     "lucro_acum": 8.17
     },
     {
      "data": "2026-10-05",
      "sinais": 1,
      "lucro_dia": 1.1,
-     "lucro_acum": 9.26
+     "lucro_acum": 9.27
     }
    ],
    "streak_atual": 1,
@@ -2874,7 +3200,7 @@
    "n": 168,
    "g": 90,
    "p": 78,
-   "lucro": 9.26,
+   "lucro": 9.27,
    "condicionais": 0,
    "condicionais_g": 0,
    "condicionais_p": 0,
@@ -2884,17 +3210,17 @@
    "wr": 53.6
   },
   "Golos 2ª Parte": {
-   "n": 83,
-   "g": 30,
-   "p": 37,
-   "lucro": -6.55,
+   "n": 103,
+   "g": 41,
+   "p": 46,
+   "lucro": -3.31,
    "condicionais": 16,
    "condicionais_g": 7,
    "condicionais_p": 9,
    "condicionais_push": 0,
    "condicionais_pendentes": 0,
-   "n_financeiros": 67,
-   "wr": 44.8
+   "n_financeiros": 87,
+   "wr": 47.1
   }
  },
  "combinada": {
@@ -7253,6 +7579,246 @@
    "resultado": "perdido"
   },
   {
+   "signal_id": "6090db87e0ed7c930a63edbb",
+   "fixture_id": 1550977,
+   "published_at": "2026-09-27T01:09:47+01:00",
+   "origem": "automatico",
+   "produto": "over2p",
+   "data": "2026-09-26",
+   "hora": "01:09",
+   "estrategia": "Golos 2ª Parte",
+   "liga": "Liga MX",
+   "jogo": "Guadalajara Chivas vs Club Queretaro",
+   "mercado": "Over 1.5 · 2ª parte",
+   "odd": 1.86,
+   "resultado": "perdido"
+  },
+  {
+   "signal_id": "e642ebcafe4670a36e1f31d0",
+   "fixture_id": 1490501,
+   "published_at": "2026-09-27T02:30:56+01:00",
+   "origem": "automatico",
+   "produto": "over2p",
+   "data": "2026-09-26",
+   "hora": "02:30",
+   "estrategia": "Golos 2ª Parte",
+   "liga": "Major League Soccer",
+   "jogo": "FC Dallas vs Los Angeles FC",
+   "mercado": "Over 1.5 · 2ª parte",
+   "odd": 2.05,
+   "resultado": "perdido"
+  },
+  {
+   "signal_id": "9c7c2450284c0682ed2b0f82",
+   "fixture_id": 1571574,
+   "published_at": "2026-09-27T16:09:43+01:00",
+   "origem": "automatico",
+   "produto": "late_goal",
+   "data": "2026-09-27",
+   "hora": "16:09",
+   "estrategia": "Golos 2ª Parte",
+   "liga": "Vtora Liga",
+   "jogo": "Beroe vs Yantra 2019",
+   "mercado": "Late Goal · Over 1.5 FT",
+   "odd": 3.0,
+   "resultado": "perdido"
+  },
+  {
+   "signal_id": "7ccb69e41e4e0bf33c0f7c2f",
+   "fixture_id": 1571577,
+   "published_at": "2026-09-27T17:49:15+01:00",
+   "origem": "automatico",
+   "produto": "over2p",
+   "data": "2026-09-27",
+   "hora": "17:49",
+   "estrategia": "Golos 2ª Parte",
+   "liga": "Vtora Liga",
+   "jogo": "Fratria vs Spartak Pleven",
+   "mercado": "Over 1.5 · 2ª parte",
+   "odd": 2.15,
+   "resultado": "ganho"
+  },
+  {
+   "signal_id": "26b9cb2539c0435e1a81914c",
+   "fixture_id": 1554170,
+   "published_at": "2026-09-28T17:48:28+01:00",
+   "origem": "automatico",
+   "produto": "over2p",
+   "data": "2026-09-28",
+   "hora": "17:48",
+   "estrategia": "Golos 2ª Parte",
+   "liga": "Prva Liga",
+   "jogo": "Dubočica vs Javor",
+   "mercado": "Over 1.5 · 2ª parte",
+   "odd": 2.2,
+   "resultado": "perdido"
+  },
+  {
+   "signal_id": "d74660968d255d4262d6a00f",
+   "fixture_id": 1549493,
+   "published_at": "2026-09-30T22:01:44+01:00",
+   "origem": "automatico",
+   "produto": "over2p",
+   "data": "2026-09-30",
+   "hora": "22:01",
+   "estrategia": "Golos 2ª Parte",
+   "liga": "Primera División",
+   "jogo": "Cienciano vs Club Deportivo Los Chankas",
+   "mercado": "Over 1.5 · 2ª parte",
+   "odd": 1.85,
+   "resultado": "ganho"
+  },
+  {
+   "signal_id": "f5d2ee98b5142ecd752ff36a",
+   "fixture_id": 1575974,
+   "published_at": "2026-10-03T15:30:19+01:00",
+   "origem": "automatico",
+   "produto": "over2p",
+   "data": "2026-10-03",
+   "hora": "15:30",
+   "estrategia": "Golos 2ª Parte",
+   "liga": "Premier League",
+   "jogo": "Briton Ferry vs Colwyn Bay",
+   "mercado": "Over 1.5 · 2ª parte",
+   "odd": 2.05,
+   "resultado": "perdido"
+  },
+  {
+   "signal_id": "0f2fbfb7d96fe716b793ccc0",
+   "fixture_id": 1561151,
+   "published_at": "2026-10-03T15:32:28+01:00",
+   "origem": "automatico",
+   "produto": "late_goal",
+   "data": "2026-10-03",
+   "hora": "15:32",
+   "estrategia": "Golos 2ª Parte",
+   "liga": "2. Liga",
+   "jogo": "Galanta vs Považská Bystrica",
+   "mercado": "Late Goal · Over 5.5 FT",
+   "odd": 2.05,
+   "resultado": "perdido"
+  },
+  {
+   "signal_id": "879e60e5856c4072c761abe1",
+   "fixture_id": 1563783,
+   "published_at": "2026-10-03T16:00:58+01:00",
+   "origem": "automatico",
+   "produto": "over2p",
+   "data": "2026-10-03",
+   "hora": "16:00",
+   "estrategia": "Golos 2ª Parte",
+   "liga": "League Two",
+   "jogo": "Crewe vs Bristol Rovers",
+   "mercado": "Over 1.5 · 2ª parte",
+   "odd": 2.5,
+   "resultado": "ganho"
+  },
+  {
+   "signal_id": "ce8db5b1eb4eef54f5a40225",
+   "fixture_id": 1558952,
+   "published_at": "2026-10-03T17:53:32+01:00",
+   "origem": "automatico",
+   "produto": "over2p",
+   "data": "2026-10-03",
+   "hora": "17:53",
+   "estrategia": "Golos 2ª Parte",
+   "liga": "2. SNL",
+   "jogo": "Brežice vs Primorje",
+   "mercado": "Over 1.5 · 2ª parte",
+   "odd": 2.2,
+   "resultado": "ganho"
+  },
+  {
+   "signal_id": "2c293721b1195dc0e6b1ada2",
+   "fixture_id": 1520904,
+   "published_at": "2026-10-03T21:52:43+01:00",
+   "origem": "automatico",
+   "produto": "over2p",
+   "data": "2026-10-03",
+   "hora": "21:52",
+   "estrategia": "Golos 2ª Parte",
+   "liga": "Serie B",
+   "jogo": "Cuiaba vs Ponte Preta",
+   "mercado": "Over 1.5 · 2ª parte",
+   "odd": 2.3,
+   "resultado": "perdido"
+  },
+  {
+   "signal_id": "9a7a69d88703f0f0a25f32cf",
+   "fixture_id": 1558955,
+   "published_at": "2026-10-04T15:07:32+01:00",
+   "origem": "automatico",
+   "produto": "over2p",
+   "data": "2026-10-04",
+   "hora": "15:07",
+   "estrategia": "Golos 2ª Parte",
+   "liga": "2. SNL",
+   "jogo": "Bistrica vs Rudar",
+   "mercado": "Over 1.5 · 2ª parte",
+   "odd": 2.5,
+   "resultado": "perdido"
+  },
+  {
+   "signal_id": "f3e2ff4f989c8984a2813332",
+   "fixture_id": 1554176,
+   "published_at": "2026-10-04T15:50:13+01:00",
+   "origem": "automatico",
+   "produto": "over2p",
+   "data": "2026-10-04",
+   "hora": "15:50",
+   "estrategia": "Golos 2ª Parte",
+   "liga": "Prva Liga",
+   "jogo": "Javor vs Borac Cacak",
+   "mercado": "Over 1.5 · 2ª parte",
+   "odd": 2.375,
+   "resultado": "ganho"
+  },
+  {
+   "signal_id": "8e1ceef993958563e4cc0f5b",
+   "fixture_id": 1554180,
+   "published_at": "2026-10-04T17:49:43+01:00",
+   "origem": "automatico",
+   "produto": "over2p",
+   "data": "2026-10-04",
+   "hora": "17:49",
+   "estrategia": "Golos 2ª Parte",
+   "liga": "Prva Liga",
+   "jogo": "FK Spartak Zdrepceva KRV vs Naftagas",
+   "mercado": "Over 1.5 · 2ª parte",
+   "odd": 2.2,
+   "resultado": "ganho"
+  },
+  {
+   "signal_id": "6b7cb058f5259a250384d7de",
+   "fixture_id": 1498848,
+   "published_at": "2026-10-04T20:40:24+01:00",
+   "origem": "automatico",
+   "produto": "late_goal",
+   "data": "2026-10-04",
+   "hora": "20:40",
+   "estrategia": "Golos 2ª Parte",
+   "liga": "Primera Nacional",
+   "jogo": "Agropecuario vs Midland",
+   "mercado": "Late Goal · Over 0.5 FT",
+   "odd": 2.5,
+   "resultado": "perdido"
+  },
+  {
+   "signal_id": "0f9a6d3ce3e4670c7aff8ad1",
+   "fixture_id": 1554181,
+   "published_at": "2026-10-05T17:48:48+01:00",
+   "origem": "automatico",
+   "produto": "over2p",
+   "data": "2026-10-05",
+   "hora": "17:48",
+   "estrategia": "Golos 2ª Parte",
+   "liga": "Prva Liga",
+   "jogo": "TSC Backa Topola vs Grafičar",
+   "mercado": "Over 1.5 · 2ª parte",
+   "odd": 1.9,
+   "resultado": "ganho"
+  },
+  {
    "signal_id": "9f5e976567a6dd96055b6ec2",
    "fixture_id": 1545611,
    "published_at": "2026-10-05T17:50:33+01:00",
@@ -7265,6 +7831,66 @@
    "jogo": "Cyprus 0-0 Latvia",
    "mercado": "Over 1.5 FT",
    "odd": 2.1,
+   "resultado": "ganho"
+  },
+  {
+   "signal_id": "632c171ef3b0f9b0e9f741d8",
+   "fixture_id": 1507076,
+   "published_at": "2026-10-09T06:55:17+01:00",
+   "origem": "automatico",
+   "produto": "over2p",
+   "data": "2026-10-09",
+   "hora": "06:55",
+   "estrategia": "Golos 2ª Parte",
+   "liga": "K League 1",
+   "jogo": "Daejeon Citizen vs Jeonbuk Motors",
+   "mercado": "Over 1.5 · 2ª parte",
+   "odd": 2.15,
+   "resultado": "ganho"
+  },
+  {
+   "signal_id": "ccb84e2dc9a64c2eed5f808c",
+   "fixture_id": 1551836,
+   "published_at": "2026-10-09T19:48:43+01:00",
+   "origem": "automatico",
+   "produto": "over2p",
+   "data": "2026-10-09",
+   "hora": "19:48",
+   "estrategia": "Golos 2ª Parte",
+   "liga": "Eerste Divisie",
+   "jogo": "Roda vs Jong PSV U21",
+   "mercado": "Over 1.5 · 2ª parte",
+   "odd": 1.95,
+   "resultado": "ganho"
+  },
+  {
+   "signal_id": "5b5fe7a6baed51d8407b2ce4",
+   "fixture_id": 1559169,
+   "published_at": "2026-10-09T19:55:52+01:00",
+   "origem": "automatico",
+   "produto": "over2p",
+   "data": "2026-10-09",
+   "hora": "19:55",
+   "estrategia": "Golos 2ª Parte",
+   "liga": "Challenger Pro League",
+   "jogo": "RSC Anderlecht II vs AS Eupen",
+   "mercado": "Over 1.5 · 2ª parte",
+   "odd": 1.975,
+   "resultado": "ganho"
+  },
+  {
+   "signal_id": "f920e006d1b12a4d984341d7",
+   "fixture_id": 1492990,
+   "published_at": "2026-10-09T20:34:13+01:00",
+   "origem": "automatico",
+   "produto": "over2p",
+   "data": "2026-10-09",
+   "hora": "20:34",
+   "estrategia": "Golos 2ª Parte",
+   "liga": "First Division",
+   "jogo": "Athlone Town vs Treaty United",
+   "mercado": "Over 1.5 · 2ª parte",
+   "odd": 2.025,
    "resultado": "ganho"
   }
  ],
