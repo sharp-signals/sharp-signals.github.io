@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-10T16:55:34Z",
-  "event_chain_head": "926795a877650c374b58cd8c7e03ef19deea37594d920261edcc1faada93fcd4",
+  "generated_at": "2026-10-10T16:55:44Z",
+  "event_chain_head": "e4e9b8a7425b76c946131e1313287d6cf1dccd08c88e99d6bc3ce4885aa4708e",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,9 +12,9 @@
   },
   "summary": {
     "total": 209,
-    "pending": 10,
+    "pending": 9,
     "signals_settled": 67,
-    "official_entries_settled": 119,
+    "official_entries_settled": 120,
     "cancelled": 22
   },
   "records": [
@@ -53,11 +53,34 @@
     {
       "id": "tip_proposal:20261010T162503317740Z:f910f293",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-10-10T16:25:03Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "7ac08df13b8474289267b0a8cf795b12058d022bdfd502a5298fca561fcb74db",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-10-10T16:55:44Z",
+      "result": "VOID",
+      "outcome": {
+        "odds": 1.81,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": 0.0,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20261010T162503317740Z:f910f293",
+        "market": "⛳ Over 3 corners · 1st half",
+        "match": "Ironi Tiberias x Be'er Sheva",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20261010T154620713802Z:35049c6c",
