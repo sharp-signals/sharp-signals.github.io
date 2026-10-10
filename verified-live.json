@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-10T15:09:10Z",
-  "event_chain_head": "eb6da4ed8dd313547f41af69ea13712247ff181b4ad3b49bfd61cc94b97f0b5d",
+  "generated_at": "2026-10-10T15:18:28Z",
+  "event_chain_head": "eb19a4df79e6e37f03df416e366579ce271da7c81713ceaf9ba31870824d9bb3",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,9 +12,9 @@
   },
   "summary": {
     "total": 206,
-    "pending": 11,
+    "pending": 10,
     "signals_settled": 67,
-    "official_entries_settled": 115,
+    "official_entries_settled": 116,
     "cancelled": 22
   },
   "records": [
@@ -30,11 +30,34 @@
     {
       "id": "tip_proposal:20261010T150301592633Z:b597c75b",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-10-10T15:03:01Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "b50408afb98835fbc049afbeae93340845ec39a0f0d8fb097218fa286e167b21",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-10-10T15:18:28Z",
+      "result": "CASHOUT",
+      "outcome": {
+        "odds": null,
+        "odds_source": "cashout_loss_reference",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": 0.15,
+        "entry_status": "confirmed",
+        "profit_loss_percent": -0.112,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20261010T150301592633Z:b597c75b",
+        "market": "⛳ Over 10.5 corners · FT",
+        "match": "Skalica x Slovan Bratislava",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20261010T145401862717Z:baf44771",
