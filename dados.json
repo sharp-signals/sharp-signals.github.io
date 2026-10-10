@@ -8,9 +8,9 @@
    "fim": "2026-01-31"
   },
   "cresc_pct": 56.91,
-  "apostas": 1164,
+  "apostas": 1165,
   "ganhos": 652,
-  "perdidos": 512,
+  "perdidos": 513,
   "wr": 56.0,
   "meses": [
    {
@@ -79,17 +79,17 @@
    {
     "mes": "2026-10",
     "label": "Out 26",
-    "cresc_pct": -5.09,
-    "apostas": 26,
-    "wr": 34.6
+    "cresc_pct": -5.84,
+    "apostas": 27,
+    "wr": 33.3
    }
   ],
   "por_mercado": [
    {
     "mercado": "Over Cantos FT",
-    "n": 639,
-    "wr": 58.1,
-    "roi": 33.14,
+    "n": 640,
+    "wr": 58.0,
+    "roi": 32.39,
     "pl_eur": 1369.94
    },
    {
@@ -137,7 +137,6 @@
   ],
   "forma": [
    "ganho",
-   "ganho",
    "perdido",
    "perdido",
    "perdido",
@@ -150,6 +149,7 @@
    "ganho",
    "ganho",
    "cashout",
+   "perdido",
    "perdido"
   ],
   "historico": [
@@ -159,13 +159,13 @@
     "jogo": "Maritimo x Porto",
     "mercado": "⛳ Over 8.5 corners · FT",
     "categoria": "Over Cantos FT",
-    "odd": null,
-    "pl_pct": null,
+    "odd": 1.81,
+    "pl_pct": -0.75,
     "stake_pct": 0.75,
-    "resultado": "pendente",
+    "resultado": "perdido",
     "verified_id": "tip_proposal:20261010T183738559710Z:52e6aa35",
-    "estado_entrada": "aguarda_confirmacao",
-    "tipo_odd": "por_registar",
+    "estado_entrada": "confirmada",
+    "tipo_odd": "real",
     "odd_minima_recomendada": 1.81,
     "confianca": 7
    },
