@@ -8,9 +8,9 @@
    "fim": "2026-01-31"
   },
   "cresc_pct": 56.91,
-  "apostas": 1162,
+  "apostas": 1163,
   "ganhos": 652,
-  "perdidos": 510,
+  "perdidos": 511,
   "wr": 56.1,
   "meses": [
    {
@@ -79,9 +79,9 @@
    {
     "mes": "2026-10",
     "label": "Out 26",
-    "cresc_pct": -2.98,
-    "apostas": 24,
-    "wr": 37.5
+    "cresc_pct": -3.09,
+    "apostas": 25,
+    "wr": 36.0
    }
   ],
   "por_mercado": [
@@ -101,9 +101,9 @@
    },
    {
     "mercado": "Cashout",
-    "n": 165,
-    "wr": 46.1,
-    "roi": -3.46,
+    "n": 166,
+    "wr": 45.8,
+    "roi": -3.57,
     "pl_eur": -74.77
    },
    {
@@ -136,7 +136,6 @@
    }
   ],
   "forma": [
-   "perdido",
    "ganho",
    "ganho",
    "ganho",
@@ -150,7 +149,8 @@
    "cashout",
    "perdido",
    "ganho",
-   "ganho"
+   "ganho",
+   "cashout"
   ],
   "historico": [
    {
@@ -158,16 +158,17 @@
     "mes": "2026-10",
     "jogo": "Ind. Del Valle x Aucas",
     "mercado": "⛳ Over 8.5 corners · FT",
-    "categoria": "Over Cantos FT",
+    "categoria": "Cashout",
     "odd": null,
-    "pl_pct": null,
+    "pl_pct": -0.112,
     "stake_pct": 0.75,
-    "resultado": "pendente",
+    "resultado": "cashout",
     "verified_id": "tip_proposal:20261010T180137321020Z:e0a9f540",
-    "estado_entrada": "aguarda_confirmacao",
-    "tipo_odd": "por_registar",
+    "estado_entrada": "confirmada",
+    "tipo_odd": "referencia_cashout_menos_15_pct",
     "odd_minima_recomendada": 1.81,
-    "confianca": 7
+    "confianca": 7,
+    "cashout_perda_referencia_pct_stake": 15.0
    },
    {
     "data": "2026-10-10",
