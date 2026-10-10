@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-10T14:54:02Z",
-  "event_chain_head": "d4b1a9107620edffbc4080a08063e363766ff1660e218a42cb9660f6a228ce4c",
+  "generated_at": "2026-10-10T14:57:59Z",
+  "event_chain_head": "ab73f5316a29e096e200b337ed6d699485513c7c6b943ab8b913dd37145dce8e",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,20 +12,43 @@
   },
   "summary": {
     "total": 204,
-    "pending": 11,
+    "pending": 10,
     "signals_settled": 67,
-    "official_entries_settled": 113,
+    "official_entries_settled": 114,
     "cancelled": 22
   },
   "records": [
     {
       "id": "tip_proposal:20261010T145401862717Z:baf44771",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-10-10T14:54:02Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "70a147f291c8fb593d151bbf9a0516f8287872a49de567b31ae4a3009d6c0dff",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-10-10T14:57:59Z",
+      "result": "CASHOUT",
+      "outcome": {
+        "odds": null,
+        "odds_source": "cashout_loss_reference",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": 0.15,
+        "entry_status": "confirmed",
+        "profit_loss_percent": -0.112,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20261010T145401862717Z:baf44771",
+        "market": "⛳ Over 11.5 corners · FT",
+        "match": "Skalica x Slovan Bratislava",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20261010T144627453338Z:b151c021",
