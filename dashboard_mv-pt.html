@@ -211,6 +211,34 @@ svg polyline{filter:drop-shadow(0 0 7px rgba(201,162,39,.6));stroke-dasharray:40
 .langswitch{position:fixed;bottom:18px;right:18px;z-index:200;display:flex;gap:4px;background:rgba(6,13,26,0.9);border:1px solid var(--line);border-radius:30px;padding:4px;backdrop-filter:blur(8px)}
 .langswitch a{font-family:'Cinzel',serif;font-size:10px;letter-spacing:1px;padding:5px 11px;border-radius:30px;color:var(--muted);transition:all 0.2s}
 .langswitch a.on{background:var(--gold);color:var(--bg);font-weight:700}
+
+/* Goal product filters: shared styling, no change to the Corner dashboard. */
+.seg{border:0;background:transparent;font-family:inherit}
+#kpis,#banca,#estrat,#hist{scroll-margin-top:84px}
+button:focus-visible,summary:focus-visible{outline:2px solid var(--gold3);outline-offset:3px}
+.scope-head{text-align:center;margin:18px auto 20px;max-width:820px}
+.scope-head h2{font-family:'Cinzel',serif;font-size:21px;color:var(--gold3)}
+.scope-head p,.scope-note{color:var(--muted);font-size:12px;line-height:1.7}
+.scope-head p{margin-top:6px}.scope-note{margin:10px 2px 14px}
+.accounting{text-align:center}.tblhint{display:flex;justify-content:space-between;gap:10px;color:var(--muted);font-size:12px;margin:0 4px 10px}
+.tblhint span{display:none}.tbl{padding:6px 10px}.tbl table{min-width:850px}
+.tbl th,.tbl td{padding:13px 9px}.tbl small,.ticket-leg small{display:block;color:var(--muted);font-size:11px;margin-top:5px}
+.date-cell{white-space:nowrap}.product{font-weight:600;font-size:12px;white-space:nowrap}
+.product-live{color:#b7d7ee}.product-late{color:var(--gold3)}.product-prelive{color:#97dbc5}.product-elite{color:#c8b8ec}
+.ticket-leg{display:flex;justify-content:space-between;gap:20px;padding:12px 0;border-bottom:1px solid #16223c;font-size:13px}
+.ticket-leg>div:last-child{text-align:right}.ticket-leg .badge{margin-left:6px;white-space:nowrap}
+.ticket-summary{display:flex;justify-content:space-between;gap:15px;align-items:center;margin-top:16px;font-size:13px}
+details{min-width:220px}details[open]{min-width:420px}summary{cursor:pointer;color:var(--gold3);font-weight:600}
+.pager{display:flex;align-items:center;gap:14px;padding:14px 0;color:var(--muted);font-size:12px}
+.btn{background:transparent;font-family:inherit}.btn:disabled{opacity:.35;cursor:default}
+button.est{font-family:inherit;color:inherit;text-align:left;cursor:pointer}
+.estrats{grid-template-columns:repeat(2,1fr)}.chart svg{min-height:190px}
+@media(max-width:620px){.wrap{padding:0 12px}.segs{border-radius:18px;justify-content:center}.seg{padding:9px 12px;font-size:12px}
+.scope-head h2{font-size:18px}.tblhint{flex-wrap:wrap}.tblhint span{display:block}.ticket-leg,.ticket-summary{align-items:flex-start;flex-direction:column;gap:6px}
+.ticket-leg>div:last-child{text-align:left}.tipday .hd{flex-wrap:wrap}.estrats{grid-template-columns:1fr}.kpi .val{font-size:26px}
+.scope-note{font-size:11px}.nav-links{display:none}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}html{scroll-behavior:auto}}
+
 </style>
 </head>
 <body>
@@ -220,11 +248,11 @@ svg polyline{filter:drop-shadow(0 0 7px rgba(201,162,39,.6));stroke-dasharray:40
   <div class="logo"><span class="mark"></span>Goal Sharp Elite</div>
   <div class="nav-links"><a href="#kpis">Performance</a><a href="#banca">Banca</a>
     <a href="#estrat">Estratégias</a><a href="#hist">Histórico</a></div>
-  <a class="btn" href="sharp-signals.html">← Início</a>
+  <a class="btn" href="sharp-signals-pt.html">← Início</a>
 </div></nav>
 
 <header class="top"><div class="wrap">
-  <img class="hcoin" src="logo_gs.webp?v=2" alt="Sharp Signals">
+  <img class="hcoin" src="logo_gs.webp?v=2" alt="Goal Sharp Elite">
   <div class="brand" id="brand">GOAL SHARP ELITE</div>
   <div class="tag" id="tag">Elite Sports Intelligence</div>
   <div><span class="trust"><span class="dot"></span> Cada sinal registado e apurado · sem cherry-picking</span></div>
@@ -237,7 +265,7 @@ svg polyline{filter:drop-shadow(0 0 7px rgba(201,162,39,.6));stroke-dasharray:40
 
 <footer><div class="wrap">
   <div class="logo"><span class="mark"></span>Goal Sharp Elite</div>
-  <div>© <span id="yr"></span> Sharp Signals · stake plana 1u · +18 · joga com responsabilidade</div>
+  <div>© <span id="yr"></span> Sharp Signals · simples: 1u · bilhetes: stake registada · +18 · joga com responsabilidade</div>
 </div></footer>
 
 <div class="langswitch">
@@ -262,7 +290,7 @@ function animate(el,to,fmt){const dur=1000,t0=performance.now();
 function kpisFor(g){
   g=g||{lucro_u:0,roi:0,wr:0,sinais:0,ganhos:0,perdidos:0};
   return `<div class="grid kpis" id="kbox">
-    <div class="card kpi"><div class="lbl">Lucro total</div>
+    <div class="card kpi"><div class="lbl">Resultado em unidades</div>
       <div class="val ${cls(g.lucro_u)}" data-anim="${g.lucro_u}" data-fmt="u">+0.0u</div>
       <div class="sub ${cls(g.lucro_u)}">${eur(g.lucro_u)} @ ${STAKE}€</div></div>
     <div class="card kpi"><div class="lbl">ROI</div>
@@ -320,134 +348,8 @@ function chart(serie){
     <text x="${W-pad}" y="${H-8}" fill="${last>=0?'#2ecc71':'#e74c3c'}" font-size="13" text-anchor="end" font-weight="700">${f2(last)}u (${eur(last)})</text>
   </svg></div>`;
 }
-function segs(painel){
-  const pref=['Total','Golos 2ª Parte','Combinada do Dia','Cantos','Golos (arquivo)','Sharp Pick'];
-  const lbls={'Total':'Tudo'};
-  const keys=Object.keys(painel).sort((a,b)=>{const ia=pref.indexOf(a),ib=pref.indexOf(b);
-    return (ia<0?99:ia)-(ib<0?99:ib);});
-  return `<div class="segwrap"><div class="segs">${keys.map(k=>
-    `<span class="seg ${k===STRAT?'on':''}" data-strat="${k}">${lbls[k]||k}</span>`).join('')}</div></div>`;
-}
 
-function tipDoDia(c,hoje){
-  // Bilhete REAL do dia (d.combinada.ultimo), com o estado perna a perna: o boletim
-  // vai-se preenchendo ao longo do dia à medida que os jogos acabam (refresh de 2h).
-  // Se o último boletim NÃO for de hoje, dizemos isso à cara — chamar "do Dia" a um
-  // bilhete de anteontem seria enganar. Há dias sem combinada, e isso faz parte.
-  const b=c&&c.ultimo;
-  const deHoje=!!(b&&hoje&&b.data===hoje);
-  const head=`<div class="hd">🎟️ <b>Combinada do Dia</b> <span class="free">${
-    deHoje?'Over 1.5 · 2ª parte · GRÁTIS':'último boletim'+(b&&b.data?' · '+b.data:'')}</span></div>`;
-  if(!b||!b.pernas||!b.pernas.length)
-    return `<div class="card tipday">${head}<div style="color:var(--muted);padding:8px 0">
-      A combinada de hoje aparece aqui assim que sair. Há dias sem boletim: se o mercado
-      não pagar acima da odd justa, não há bilhete. ⏳</div></div>`;
-  const aviso=deHoje?'':`<div style="color:var(--muted);padding:6px 0;font-size:13px">
-      Hoje ainda não saiu combinada — o mercado tem de pagar acima da odd justa. Este é o último boletim.</div>`;
-  const rows=b.pernas.map(p=>{
-    const ic=p.resultado==='ganho'?'✅':p.resultado==='perdido'?'❌':'⏳';
-    const jogo=`${p.casa||''} vs ${p.fora||''}`;
-    return `<div class="tiprow"><div>${ic} <b>${jogo}</b> <span style="color:var(--muted)">${p.hora?'· '+p.hora:''}</span></div>
-      <div><span class="mk">Over 1.5 · 2ª parte</span> ${p.odd?'@ <b class="gold">'+Number(p.odd).toFixed(2)+'</b>':''}</div></div>`;}).join('');
-  const porDecidir=(b.por_decidir!=null)?b.por_decidir:b.pernas.filter(p=>!p.resultado).length;
-  const estado = b.resultado==='green' ? '<b style="color:#5fd08a">GREEN ✅</b>'
-               : b.resultado==='red'   ? '<b style="color:#e07a7a">RED ❌</b>'
-               : (porDecidir?`<b class="gold">${porDecidir} por decidir ⏳</b>`:'<b class="gold">a apurar…</b>');
-  const rodape=`<div class="tiprow" style="border-top:1px solid var(--gold2);margin-top:4px">
-      <div>${b.data||''} · Odd total <b class="gold">${Number(b.odd||1).toFixed(2)}×</b>
-      ${b.justa?`<span style="color:var(--muted)">· justa ${Number(b.justa).toFixed(2)}×</span>`:''}</div>
-      <div>${estado}</div></div>`;
-  return `<div class="card tipday">${head}${aviso}${rows}${rodape}</div>`;
-}
-function challengeBlock(c){ return '';
-  if(!c) return '';
-  const legs=(c.escada||[]).map(l=>{const ic=l.resultado==='ganho'?'✅':l.resultado==='perdido'?'❌':'⏳';
-    return `<span class="ch-leg">${ic} ${l.mercado||''}${l.odd?' @'+Number(l.odd).toFixed(2):''}</span>`;}).join('');
-  const ladder=(c.escada&&c.escada.length)
-    ?`<div class="ch-legs">${legs}</div><div class="ch-od">Odd acumulada <b class="gold">${Number(c.odd_acumulada||1).toFixed(2)}×</b> · Jogo ${Math.min((c.escada.length+1),c.total||4)}/${c.total||4}</div>`
-    :`<div class="ch-od" style="color:var(--muted)">Escada vazia — à espera da próxima tip.</div>`;
-  return `<div class="sec-t">🏆 The Challenge — acumulador de 4</div>
-    <div class="card ch">
-      <div class="stats">
-        <div><div class="l">🏆 Completos</div><div class="v pos">${c.completos||0}</div></div>
-        <div><div class="l">❌ Falhados</div><div class="v neg">${c.falhados||0}</div></div>
-      </div><div style="flex:1;min-width:240px">${ladder}</div></div>`;
-}
-function estrat(po){
-  const items=Object.entries(po).sort((a,b)=>b[1].lucro-a[1].lucro);
-  return items.map(([n,v])=>`<div class="est"><div class="e-top"><span class="e-name">${n}</span>
-    <span class="e-n">${v.n} sinais</span></div><div class="bar"><div style="width:${Math.min(100,v.wr||0)}%"></div></div>
-    <div class="e-bot"><span>WR ${v.wr||0}% · ✅${v.g} ❌${v.p}</span>
-    <span class="${cls(v.lucro)}">${f2(v.lucro)}u (${eur(v.lucro)})</span></div></div>`).join('');
-}
-let HIST_PAGE=1;
-const HIST_PAGE_SIZE=40;
-function histStamp(s){
-  if(s.published_at && Number.isFinite(Date.parse(s.published_at))) return Date.parse(s.published_at);
-  const day=Date.parse(s.data+'T00:00:00Z');
-  const time=/^(\d{2}):(\d{2})/.exec(s.hora||'');
-  if(!time) return day;
-  const h=Number(time[1]), m=Number(time[2]);
-  return day+((h<6?24:0)+h)*3600000+m*60000;
-}
-function histEscape(value){
-  return String(value??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-}
-function histPage(page){HIST_PAGE=page;render();document.getElementById('hist')?.scrollIntoView({block:'start'});}
-function hist(rows){
-  const sorted=rows.slice().sort((a,b)=>histStamp(b)-histStamp(a)||String(a.signal_id||'').localeCompare(String(b.signal_id||'')));
-  const pages=Math.max(1,Math.ceil(sorted.length/HIST_PAGE_SIZE));
-  HIST_PAGE=Math.max(1,Math.min(pages,HIST_PAGE));
-  const start=(HIST_PAGE-1)*HIST_PAGE_SIZE;
-  const badge=r=>r==='ganho'?'<span class="badge b-g">GANHO</span>':r==='perdido'?'<span class="badge b-p">PERDIDO</span>':r==='push'?'<span class="badge b-x">PUSH</span>':'<span class="badge b-w">PENDENTE</span>';
-  const tr=sorted.slice(start,start+HIST_PAGE_SIZE).map(s=>`<tr><td>${histEscape(s.data)}<br><small>${histEscape(s.hora)}</small></td><td>${histEscape(s.estrategia)}${s.origem==='manual'?'<br><small>Manual</small>':''}</td><td>${histEscape(s.liga)}</td><td>${histEscape(s.jogo)}</td><td>${histEscape(s.mercado)}</td><td class="gold">${s.odd?Number(s.odd).toFixed(2):'—'}</td><td>${badge(s.resultado)}</td></tr>`).join('');
-  return `<div class="tblhint">Histórico completo · ${rows.length} registos · Página ${HIST_PAGE}/${pages}</div>
-    <div class="card tbl" style="padding:6px 10px"><table><tr><th>Data</th><th>Canal</th><th>Liga</th><th>Jogo</th><th>Mercado</th><th>Odd</th><th>Resultado</th></tr>${tr}</table></div>
-    <div style="display:flex;gap:12px;align-items:center;padding:12px 0"><button ${HIST_PAGE===1?'disabled':''} onclick="histPage(HIST_PAGE-1)">Anterior</button><span>${rows.length?start+1:0}–${Math.min(start+HIST_PAGE_SIZE,rows.length)} / ${rows.length}</span><button ${HIST_PAGE===pages?'disabled':''} onclick="histPage(HIST_PAGE+1)">Seguinte</button></div>`;
-}
-
-function kpis(g){return kpisFor(g);}   // compat
-function render(){
-  const d=DATA;
-  const painel=d.painel||{Total:{geral:d.geral,diario:d.diario,semanal:d.semanal,mensal:d.mensal,serie:d.serie||[]}};
-  if(!painel[STRAT]) STRAT='Total';
-  const p=painel[STRAT]||{};
-  const g=p.geral||{lucro_u:0,roi:0,wr:0,sinais:0,ganhos:0,perdidos:0};
-  const nome=STRAT==='Total'?'Tudo':STRAT;
-  const histRows=(STRAT==='Total')?(d.historico_sinais||[]):(d.historico_sinais||[]).filter(s=>s.estrategia===STRAT);
-  document.getElementById('brand').textContent=(d.marca&&d.marca.nome)?d.marca.nome.toUpperCase():'GOAL SHARP ELITE';
-  document.getElementById('tag').textContent=(d.marca&&d.marca.tagline)||'';
-  document.getElementById('upd').textContent='Atualizado: '+(d.atualizado||'').replace('T',' ');
-  document.getElementById('app').innerHTML=
-    `${Object.keys(painel).length>2?segs(painel):''}
-     <div id="kpis">${kpisFor(g)}</div>
-     ${formCard(p)}
-     <div class="sec-t">🎟️ Combinada do Dia — grátis, todos os dias</div>
-     ${tipDoDia(d.combinada,(d.atualizado||'').slice(0,10))}
-     ${periodsFor(p)}
-     <div class="sec-t" id="banca">Evolução da banca — ${nome}</div>
-     <div id="chartbox">${chart(p.serie||[])}</div>
-     ${challengeBlock(d.challenge)}
-     <div class="sec-t" id="estrat">Por estratégia</div>
-     <div class="grid estrats">${estrat(d.por_estrategia||{})}</div>
-     <div class="sec-t" id="hist">Histórico${STRAT==='Total'?'':' — '+nome}</div>${hist(histRows)}`;
-  document.querySelectorAll('.seg').forEach(s=>s.onclick=()=>{STRAT=s.dataset.strat;HIST_PAGE=1;render();});
-  runAnims();
-  document.querySelectorAll('.reveal').forEach(el=>el.classList.add('in'));
-}
-
-stakeEl.addEventListener('input',()=>{STAKE=Math.max(1,+stakeEl.value||1); if(DATA) render();});
-
-// ?strat=LIVE no URL pré-seleciona a estratégia (o parceiro liga cada cliente à sua)
-const q=new URLSearchParams(location.search).get('strat');
-const NOMES_ANTIGOS={'LIVE':'Golos 2ª Parte','Golos':'Golos (arquivo)'};
-if(q) STRAT=NOMES_ANTIGOS[q]||q;
-
-fetch('dashboard.json?'+Date.now(),{cache:'no-store'}).then(r=>{if(!r.ok)throw new Error('HTTP '+r.status);return r.json();}).then(d=>{DATA=d;render();})
-  .catch(()=>{document.getElementById('app').innerHTML=
-    '<div class="err">Não consegui carregar <b>dashboard.json</b>.<br>'+
-    'Abre via servidor (<code>python -m http.server</code>) → http://localhost:8000/dashboard_mv.html</div>';});
 </script>
+<script src="goal-dashboard.js?v=20261011-1"></script>
 </body>
 </html>
-
