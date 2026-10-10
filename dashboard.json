@@ -17,7 +17,7 @@
    "pode_nao_publicar": true
   }
  },
- "atualizado": "2026-10-10T19:31:05",
+ "atualizado": "2026-10-10T20:01:17",
  "geral": {
   "inicio": "2026-06-06",
   "fim": "2026-10-10",
@@ -3189,7 +3189,7 @@
    "odd": 2.2,
    "bilhete": "tripla",
    "fire": false,
-   "resultado": null
+   "resultado": "perdido"
   },
   {
    "hora": "14:00",
@@ -3209,7 +3209,7 @@
    "odd": 2.85,
    "bilhete": "tripla",
    "fire": false,
-   "resultado": null
+   "resultado": "ganho"
   }
  ],
  "por_estrategia": {
@@ -3258,9 +3258,9 @@
   "descricao": "Simples, Dupla ou Tripla experimental · máximo uma publicação por dia · pode não haver seleção",
   "boletins": 12,
   "greens": 3,
-  "reds": 8,
-  "pendentes": 1,
-  "lucro": 14.07,
+  "reds": 9,
+  "pendentes": 0,
+  "lucro": 13.07,
   "ultimos": [
    {
     "data": "2026-10-10",
@@ -3295,7 +3295,7 @@
       "data_jogo": "2026-10-10",
       "kickoff": "2026-10-10T18:00:00+01:00",
       "data_trading": "2026-10-10",
-      "resultado": null
+      "resultado": "perdido"
      },
      {
       "fixture_id": 1571590,
@@ -3355,7 +3355,7 @@
       "data_jogo": "2026-10-10",
       "kickoff": "2026-10-10T18:00:00+01:00",
       "data_trading": "2026-10-10",
-      "resultado": null
+      "resultado": "ganho"
      }
     ],
     "odd": 13.92,
@@ -3430,7 +3430,7 @@
      "historical_unpriced_settled_keys": [],
      "errors": []
     },
-    "resultado": null,
+    "resultado": "red",
     "publicacao": {
      "estado": "publicado",
      "preparado_em": "2026-10-10T06:05:13+01:00",
@@ -3440,7 +3440,7 @@
      "publicado_em": "2026-10-10T06:05:14+01:00",
      "message_id": 278
     },
-    "por_decidir": 2
+    "por_decidir": 0
    }
   ],
   "ultimo": {
@@ -3476,7 +3476,7 @@
      "data_jogo": "2026-10-10",
      "kickoff": "2026-10-10T18:00:00+01:00",
      "data_trading": "2026-10-10",
-     "resultado": null
+     "resultado": "perdido"
     },
     {
      "fixture_id": 1571590,
@@ -3536,7 +3536,7 @@
      "data_jogo": "2026-10-10",
      "kickoff": "2026-10-10T18:00:00+01:00",
      "data_trading": "2026-10-10",
-     "resultado": null
+     "resultado": "ganho"
     }
    ],
    "odd": 13.92,
@@ -3611,7 +3611,7 @@
     "historical_unpriced_settled_keys": [],
     "errors": []
    },
-   "resultado": null,
+   "resultado": "red",
    "publicacao": {
     "estado": "publicado",
     "preparado_em": "2026-10-10T06:05:13+01:00",
@@ -3621,7 +3621,7 @@
     "publicado_em": "2026-10-10T06:05:14+01:00",
     "message_id": 278
    },
-   "por_decidir": 2
+   "por_decidir": 0
   },
   "legado": {
    "rotulo": "Histórico anterior (legado)",
