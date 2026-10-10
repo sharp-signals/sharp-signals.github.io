@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-10T15:03:01Z",
-  "event_chain_head": "4433a0f74c50942f68abc2ff15ae680a750ae337273cf73e6d8672392715a830",
+  "generated_at": "2026-10-10T15:08:33Z",
+  "event_chain_head": "9b7b7c6ff4caef14490a839dc75a9b0dd81ea5ede172972b857d8dfb2bb3420f",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,9 +12,9 @@
   },
   "summary": {
     "total": 205,
-    "pending": 11,
+    "pending": 10,
     "signals_settled": 67,
-    "official_entries_settled": 114,
+    "official_entries_settled": 115,
     "cancelled": 22
   },
   "records": [
@@ -62,11 +62,34 @@
     {
       "id": "tip_proposal:20261010T144627453338Z:b151c021",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-10-10T14:46:27Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "e364a89972ebf1b7d865a92ea84a2968f07d3d47ef39e46b1e860ab753a6bf6c",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-10-10T15:08:32Z",
+      "result": "WIN",
+      "outcome": {
+        "odds": 1.81,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": 0.608,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20261010T144627453338Z:b151c021",
+        "market": "⛳ Over 6.5 corners · FT",
+        "match": "Trencin x Dukla Bystrica",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20261010T133359392448Z:ff56f553",
