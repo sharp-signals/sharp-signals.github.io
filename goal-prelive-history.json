@@ -1,0 +1,460 @@
+{
+  "schema": 1,
+  "snapshot_at": "2026-10-11",
+  "historico": [
+    {
+      "ticket_id": "prelive-a1fbc1d617431da0609d655f",
+      "data": "2026-09-12",
+      "tipo": "simples",
+      "odd": 2.0,
+      "resultado": "red",
+      "u": 1.0,
+      "published_at": "2026-09-12T06:09:33+01:00",
+      "publication_confirmed": true,
+      "pernas": [
+        {
+          "fixture_id": 1523201,
+          "casa": "Tianjin Teda",
+          "fora": "Liaoning Tieren",
+          "liga": null,
+          "hora": "12:00",
+          "mercado": null,
+          "odd": 2.0,
+          "resultado": "perdido"
+        }
+      ]
+    },
+    {
+      "ticket_id": "prelive-8977ac56e830096e60a4d349",
+      "data": "2026-09-18",
+      "tipo": "dupla",
+      "odd": 2.94,
+      "resultado": "red",
+      "u": 1.0,
+      "published_at": "2026-09-18T06:09:14+01:00",
+      "publication_confirmed": true,
+      "pernas": [
+        {
+          "fixture_id": 1575962,
+          "casa": "Haverfordwest",
+          "fora": "Holywell",
+          "liga": null,
+          "hora": "19:45",
+          "mercado": null,
+          "odd": 1.73,
+          "resultado": "perdido"
+        },
+        {
+          "fixture_id": 1575959,
+          "casa": "Caernarfon",
+          "fora": "Cambrian United",
+          "liga": null,
+          "hora": "19:45",
+          "mercado": null,
+          "odd": 1.7,
+          "resultado": "ganho"
+        }
+      ]
+    },
+    {
+      "ticket_id": "prelive-6bbb998feb1f5147c7e837ad",
+      "data": "2026-09-20",
+      "tipo": "tripla",
+      "odd": 9.69,
+      "resultado": "green",
+      "u": 1.0,
+      "published_at": "2026-09-20T06:05:17+01:00",
+      "publication_confirmed": true,
+      "pernas": [
+        {
+          "fixture_id": 1494769,
+          "casa": "Tromsoe",
+          "fora": "Ham-Kam",
+          "liga": null,
+          "hora": "16:00",
+          "mercado": null,
+          "odd": 1.85,
+          "resultado": "ganho"
+        },
+        {
+          "fixture_id": 1558015,
+          "casa": "Grosuplje",
+          "fora": "Radomlje",
+          "liga": null,
+          "hora": "19:15",
+          "mercado": null,
+          "odd": 2.0,
+          "resultado": "ganho"
+        },
+        {
+          "fixture_id": 1553872,
+          "casa": "Macva",
+          "fora": "Mladost Lucani",
+          "liga": null,
+          "hora": "16:00",
+          "mercado": null,
+          "odd": 2.62,
+          "resultado": "ganho"
+        }
+      ]
+    },
+    {
+      "ticket_id": "prelive-8b4ee8f4dc037ca64a069930",
+      "data": "2026-09-27",
+      "tipo": "tripla",
+      "odd": 13.87,
+      "resultado": "red",
+      "u": 1.0,
+      "published_at": "2026-09-27T06:05:22+01:00",
+      "publication_confirmed": true,
+      "pernas": [
+        {
+          "fixture_id": 1569945,
+          "casa": "Oviedo",
+          "fora": "Gijon",
+          "liga": null,
+          "hora": "20:00",
+          "mercado": null,
+          "odd": 2.62,
+          "resultado": "perdido"
+        },
+        {
+          "fixture_id": 1507024,
+          "casa": "Gangwon",
+          "fora": "Incheon Utd",
+          "liga": null,
+          "hora": "11:00",
+          "mercado": null,
+          "odd": 2.62,
+          "resultado": "perdido"
+        },
+        {
+          "fixture_id": 1571576,
+          "casa": "CSKA Sofia II",
+          "fora": "Svoge",
+          "liga": null,
+          "hora": "15:00",
+          "mercado": null,
+          "odd": 2.02,
+          "resultado": "perdido"
+        }
+      ]
+    },
+    {
+      "ticket_id": "prelive-0f7f7277e43dffb1ddce61c7",
+      "data": "2026-10-02",
+      "tipo": "tripla",
+      "odd": 12.58,
+      "resultado": "green",
+      "u": 1.0,
+      "published_at": "2026-10-02T06:06:01+01:00",
+      "publication_confirmed": true,
+      "pernas": [
+        {
+          "fixture_id": 1569953,
+          "casa": "Eldense",
+          "fora": "Oviedo",
+          "liga": null,
+          "hora": "19:30",
+          "mercado": null,
+          "odd": 2.62,
+          "resultado": "ganho"
+        },
+        {
+          "fixture_id": 1492989,
+          "casa": "Wexford",
+          "fora": "Longford Town",
+          "liga": null,
+          "hora": "19:45",
+          "mercado": null,
+          "odd": 2.0,
+          "resultado": "ganho"
+        },
+        {
+          "fixture_id": 1493155,
+          "casa": "Boca Juniors",
+          "fora": "Union Santa Fe",
+          "liga": null,
+          "hora": "01:30",
+          "mercado": null,
+          "odd": 2.4,
+          "resultado": "ganho"
+        }
+      ]
+    },
+    {
+      "ticket_id": "prelive-bc42fe94e877d50d9e47f1b6",
+      "data": "2026-10-03",
+      "tipo": "tripla",
+      "odd": 9.05,
+      "resultado": "red",
+      "u": 1.0,
+      "published_at": "2026-10-03T06:03:39+01:00",
+      "publication_confirmed": true,
+      "pernas": [
+        {
+          "fixture_id": 1495965,
+          "casa": "Strommen",
+          "fora": "Sandnes",
+          "liga": null,
+          "hora": "13:30",
+          "mercado": null,
+          "odd": 1.81,
+          "resultado": "ganho"
+        },
+        {
+          "fixture_id": 1575977,
+          "casa": "Haverfordwest",
+          "fora": "Flint",
+          "liga": null,
+          "hora": "14:30",
+          "mercado": null,
+          "odd": 2.0,
+          "resultado": "perdido"
+        },
+        {
+          "fixture_id": 1569950,
+          "casa": "Cadiz",
+          "fora": "Leganes",
+          "liga": null,
+          "hora": "17:30",
+          "mercado": null,
+          "odd": 2.5,
+          "resultado": "ganho"
+        }
+      ]
+    },
+    {
+      "ticket_id": "prelive-36e80d31b3353739786f459e",
+      "data": "2026-10-04",
+      "tipo": "tripla",
+      "odd": 21.92,
+      "resultado": "red",
+      "u": 1.0,
+      "published_at": "2026-10-04T06:03:15+01:00",
+      "publication_confirmed": true,
+      "pernas": [
+        {
+          "fixture_id": 1493165,
+          "casa": "Talleres Cordoba",
+          "fora": "Belgrano Cordoba",
+          "liga": null,
+          "hora": "21:00",
+          "mercado": null,
+          "odd": 2.7,
+          "resultado": "perdido"
+        },
+        {
+          "fixture_id": 1493159,
+          "casa": "Estudiantes de Rio Cuarto",
+          "fora": "Racing Club",
+          "liga": null,
+          "hora": "01:30",
+          "mercado": null,
+          "odd": 2.8,
+          "resultado": "perdido"
+        },
+        {
+          "fixture_id": 1498853,
+          "casa": "Club Atlético Güemes",
+          "fora": "Colegiales",
+          "liga": null,
+          "hora": "21:00",
+          "mercado": null,
+          "odd": 2.9,
+          "resultado": "perdido"
+        }
+      ]
+    },
+    {
+      "ticket_id": "prelive-fdd1249d391c9867e36053b8",
+      "data": "2026-10-05",
+      "tipo": "tripla",
+      "odd": 27.3,
+      "resultado": "red",
+      "u": 1.0,
+      "published_at": "2026-10-05T06:02:29+01:00",
+      "publication_confirmed": true,
+      "pernas": [
+        {
+          "fixture_id": 1493166,
+          "casa": "Velez Sarsfield",
+          "fora": "Platense",
+          "liga": null,
+          "hora": "23:00",
+          "mercado": null,
+          "odd": 3.25,
+          "resultado": "ganho"
+        },
+        {
+          "fixture_id": 1498858,
+          "casa": "Nueva Chicago",
+          "fora": "Deportivo Maipu",
+          "liga": null,
+          "hora": "21:00",
+          "mercado": null,
+          "odd": 3.0,
+          "resultado": "perdido"
+        },
+        {
+          "fixture_id": 1493157,
+          "casa": "Deportivo Riestra",
+          "fora": "Central Cordoba de Santiago",
+          "liga": null,
+          "hora": "20:45",
+          "mercado": null,
+          "odd": 2.8,
+          "resultado": "perdido"
+        }
+      ]
+    },
+    {
+      "ticket_id": "prelive-4018a2d1714d39cacc42874b",
+      "data": "2026-10-07",
+      "tipo": "simples",
+      "odd": 2.8,
+      "resultado": "green",
+      "u": 1.0,
+      "published_at": "2026-10-07T06:02:34+01:00",
+      "publication_confirmed": true,
+      "pernas": [
+        {
+          "fixture_id": 1611404,
+          "casa": "CS Constantine",
+          "fora": "US Biskra",
+          "liga": null,
+          "hora": "18:00",
+          "mercado": null,
+          "odd": 2.8,
+          "resultado": "ganho"
+        }
+      ]
+    },
+    {
+      "ticket_id": "prelive-96d9a131e60448259082e5fc",
+      "data": "2026-10-08",
+      "tipo": "tripla",
+      "odd": 17.42,
+      "resultado": "red",
+      "u": 1.0,
+      "published_at": "2026-10-08T06:02:44+01:00",
+      "publication_confirmed": true,
+      "pernas": [
+        {
+          "fixture_id": 1492394,
+          "casa": "Fluminense",
+          "fora": "Coritiba",
+          "liga": null,
+          "hora": "01:30",
+          "mercado": null,
+          "odd": 2.2,
+          "resultado": "ganho"
+        },
+        {
+          "fixture_id": 1611408,
+          "casa": "MC Oran",
+          "fora": "ES Setif",
+          "liga": null,
+          "hora": "20:00",
+          "mercado": null,
+          "odd": 2.88,
+          "resultado": "perdido"
+        },
+        {
+          "fixture_id": 1644205,
+          "casa": "Maghreb Fès",
+          "fora": "Raja Casablanca",
+          "liga": null,
+          "hora": "21:00",
+          "mercado": null,
+          "odd": 2.75,
+          "resultado": "perdido"
+        }
+      ]
+    },
+    {
+      "ticket_id": "prelive-ba1eb6da37ce29f6b830ed70",
+      "data": "2026-10-09",
+      "tipo": "tripla",
+      "odd": 12.97,
+      "resultado": "red",
+      "u": 1.0,
+      "published_at": "2026-10-09T06:03:52+01:00",
+      "publication_confirmed": true,
+      "pernas": [
+        {
+          "fixture_id": 1585777,
+          "casa": "Umraniyespor",
+          "fora": "Sariyer",
+          "liga": null,
+          "hora": "18:00",
+          "mercado": null,
+          "odd": 2.25,
+          "resultado": "perdido"
+        },
+        {
+          "fixture_id": 1507078,
+          "casa": "Incheon Utd",
+          "fora": "Pohang Steelers",
+          "liga": null,
+          "hora": "08:30",
+          "mercado": null,
+          "odd": 2.62,
+          "resultado": "perdido"
+        },
+        {
+          "fixture_id": 1571591,
+          "casa": "Yantra Gabrovo",
+          "fora": "Vihren",
+          "liga": null,
+          "hora": "15:30",
+          "mercado": null,
+          "odd": 2.2,
+          "resultado": "perdido"
+        }
+      ]
+    },
+    {
+      "ticket_id": "prelive-0f53fa28fde3435bcd01ed66",
+      "data": "2026-10-10",
+      "tipo": "tripla",
+      "odd": 13.92,
+      "resultado": "red",
+      "u": 1.0,
+      "published_at": "2026-10-10T06:05:14+01:00",
+      "publication_confirmed": true,
+      "pernas": [
+        {
+          "fixture_id": 1575515,
+          "casa": "Maritimo",
+          "fora": "Porto",
+          "liga": null,
+          "hora": "18:00",
+          "mercado": null,
+          "odd": 2.2,
+          "resultado": "perdido"
+        },
+        {
+          "fixture_id": 1571590,
+          "casa": "Svoge",
+          "fora": "Hebar",
+          "liga": null,
+          "hora": "14:00",
+          "mercado": null,
+          "odd": 2.22,
+          "resultado": "ganho"
+        },
+        {
+          "fixture_id": 1644207,
+          "casa": "Kawkab Marrakech",
+          "fora": "Ittihad Tanger",
+          "liga": null,
+          "hora": "18:00",
+          "mercado": null,
+          "odd": 2.85,
+          "resultado": "ganho"
+        }
+      ]
+    }
+  ]
+}
