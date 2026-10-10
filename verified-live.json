@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-10T18:37:38Z",
-  "event_chain_head": "688bde5fe538200bf4d842cb380723044deb5479f55cef856827ca184490d3ca",
+  "generated_at": "2026-10-10T19:16:36Z",
+  "event_chain_head": "5d61ca1ca43c7d42471087757a95851a6c72d0f22409cca777bf2ff126bc357c",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,9 +12,9 @@
   },
   "summary": {
     "total": 212,
-    "pending": 11,
+    "pending": 10,
     "signals_settled": 67,
-    "official_entries_settled": 121,
+    "official_entries_settled": 122,
     "cancelled": 22
   },
   "records": [
@@ -30,11 +30,34 @@
     {
       "id": "tip_proposal:20261010T182821177503Z:e7fb2f38",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-10-10T18:28:21Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "aaefcb3ff6986424ee376fff308989bf92d1670187e7a9a237747ce33336d62b",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-10-10T19:16:36Z",
+      "result": "LOSS",
+      "outcome": {
+        "odds": 1.97,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": -2.0,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 9,
+        "entry_id": "tip_proposal:20261010T182821177503Z:e7fb2f38",
+        "market": "⛳ Over 9.5 corners · FT",
+        "match": "Maritimo x Porto",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 2.0
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20261010T180137321020Z:e0a9f540",
