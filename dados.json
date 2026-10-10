@@ -8,10 +8,10 @@
    "fim": "2026-01-31"
   },
   "cresc_pct": 56.91,
-  "apostas": 1159,
+  "apostas": 1160,
   "ganhos": 650,
-  "perdidos": 509,
-  "wr": 56.1,
+  "perdidos": 510,
+  "wr": 56.0,
   "meses": [
    {
     "mes": "2025-08",
@@ -79,17 +79,17 @@
    {
     "mes": "2026-10",
     "label": "Out 26",
-    "cresc_pct": -3.85,
-    "apostas": 21,
-    "wr": 33.3
+    "cresc_pct": -4.6,
+    "apostas": 22,
+    "wr": 31.8
    }
   ],
   "por_mercado": [
    {
     "mercado": "Over Cantos FT",
-    "n": 636,
-    "wr": 58.2,
-    "roi": 34.88,
+    "n": 637,
+    "wr": 58.1,
+    "roi": 34.13,
     "pl_eur": 1369.94
    },
    {
@@ -137,7 +137,6 @@
   ],
   "forma": [
    "perdido",
-   "perdido",
    "ganho",
    "perdido",
    "ganho",
@@ -150,7 +149,8 @@
    "cashout",
    "cashout",
    "ganho",
-   "cashout"
+   "cashout",
+   "perdido"
   ],
   "historico": [
    {
@@ -159,13 +159,13 @@
     "jogo": "Skalica x Slovan Bratislava",
     "mercado": "⛳ Over 10 corners · FT",
     "categoria": "Over Cantos FT",
-    "odd": null,
-    "pl_pct": null,
+    "odd": 1.9,
+    "pl_pct": -0.75,
     "stake_pct": 0.75,
-    "resultado": "pendente",
+    "resultado": "perdido",
     "verified_id": "tip_proposal:20261010T150909880267Z:f2eb7c1b",
-    "estado_entrada": "aguarda_confirmacao",
-    "tipo_odd": "por_registar",
+    "estado_entrada": "confirmada",
+    "tipo_odd": "real",
     "odd_minima_recomendada": 1.81,
     "confianca": 7
    },
