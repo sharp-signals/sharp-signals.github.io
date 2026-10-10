@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-09T22:33:29Z",
-  "event_chain_head": "04b8cb563a8a1def0fcfa9900f3ef3e19863d4290790f007bce18bad6088169f",
+  "generated_at": "2026-10-10T09:30:43Z",
+  "event_chain_head": "722013c5d0e76945046e6cc6798d395725fc538d69a2eefcdc59050729e796a5",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,20 +12,46 @@
   },
   "summary": {
     "total": 199,
-    "pending": 11,
-    "signals_settled": 65,
+    "pending": 10,
+    "signals_settled": 66,
     "official_entries_settled": 110,
-    "cancelled": 21
+    "cancelled": 22
   },
   "records": [
     {
       "id": "ce1:1493170:final",
       "kind": "signal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-10-09T22:33:29Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "cf601e59d1698a0f55f68c6d1dba64c902f40d8a58d35027fc6b8272e37a80fa",
-      "telegram_message_count": 2
+      "telegram_message_count": 2,
+      "settled_at": "2026-10-10T09:30:43Z",
+      "result": "CANCELADA",
+      "outcome": {
+        "corners_reference": 13,
+        "corners_final": 14,
+        "corners_after": 1,
+        "target": 2,
+        "technical_result": "LOSS",
+        "entry_status": "cancelled",
+        "void_reason": "",
+        "approved_manually": true
+      },
+      "sealed_payload": {
+        "alert_id": "ce1:1493170:final",
+        "classification": "scanner_signal_not_confirmed_bet",
+        "confidence": 7.0,
+        "corners_at_alert": 12,
+        "league": "Liga Profesional Argentina",
+        "match": "Gimnasia L.P. vs Atletico Tucuman",
+        "minimum_price": 1.75,
+        "minute": 77,
+        "score_at_alert": "0-0",
+        "suggestion": "🎯 ENTRADA SUGERIDA\nOver 13.5 cantos · odd mín. 1.75+\n↳ se sair +1 canto: sobe p/ Over 14.5 ou espera o Over 14",
+        "window": "FINAL PUSH"
+      },
+      "commitment_valid": true
     },
     {
       "id": "ce1:1493170:mid",
