@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-10T15:46:21Z",
-  "event_chain_head": "3c837dcbda10d7a0a4c732c3fc1bb8e2f44a02881c021dca752d4b050bdfc77a",
+  "generated_at": "2026-10-10T15:56:39Z",
+  "event_chain_head": "65e5e16172135d31f391ea3eb8fe41fab3488d0141ce48014aa110d2ac64a91e",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,20 +12,43 @@
   },
   "summary": {
     "total": 207,
-    "pending": 10,
+    "pending": 9,
     "signals_settled": 67,
-    "official_entries_settled": 117,
+    "official_entries_settled": 118,
     "cancelled": 22
   },
   "records": [
     {
       "id": "tip_proposal:20261010T154620713802Z:35049c6c",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-10-10T15:46:20Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "30cbbee25ab4aa9bbdf1041f09b21f76365231eab16ba71c93706d96cebe579b",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-10-10T15:56:39Z",
+      "result": "WIN",
+      "outcome": {
+        "odds": 1.81,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": 1.013,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 8,
+        "entry_id": "tip_proposal:20261010T154620713802Z:35049c6c",
+        "market": "⛳ Over 7.5 corners · FT",
+        "match": "Alaves x Atl. Madrid",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 1.25
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20261010T150909880267Z:f2eb7c1b",
