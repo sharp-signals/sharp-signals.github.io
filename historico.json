@@ -3575,6 +3575,26 @@
       "justificacao_void": "",
       "golos_apos_casa": 1,
       "golos_apos_fora": 1
+    },
+    {
+      "alerta_id": "ce1:1493170:mid",
+      "fixture_id": 1493170,
+      "timestamp": "2026-10-10T10:30:47.261563",
+      "jogo": "Gimnasia L.P. vs Atletico Tucuman",
+      "liga": "Liga Profesional Argentina",
+      "janela": "MID PRESSURE",
+      "tempo_alerta": 69,
+      "estrelas": 7.5,
+      "cantos_no_ref": 9,
+      "cantos_final": 14,
+      "cantos_apos_alerta": 5,
+      "meta_cantos": 3,
+      "resultado": "WIN",
+      "resultado_tecnico": "WIN",
+      "estado_entrada": "CONFIRMADA",
+      "justificacao_void": "",
+      "golos_apos_casa": 1,
+      "golos_apos_fora": 1
     }
   ]
 }
