@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-10T11:55:21Z",
-  "event_chain_head": "68b0f5b4ab4fbbc408bc91d0b7da749f25573d2a1f8a56158c422b9938a058f1",
+  "generated_at": "2026-10-10T12:08:51Z",
+  "event_chain_head": "66569d9e1ab6d37f4d98b5badafbbb039ec8103774d041a15f7ce30caca1da7c",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,20 +12,43 @@
   },
   "summary": {
     "total": 200,
-    "pending": 10,
+    "pending": 9,
     "signals_settled": 67,
-    "official_entries_settled": 110,
+    "official_entries_settled": 111,
     "cancelled": 22
   },
   "records": [
     {
       "id": "tip_proposal:20261010T115520920223Z:975eed08",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-10-10T11:55:21Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "51e9f7e559788b84ab3d5fec53b54f0cb3c051df4263d8ea6081c702bd5bdf05",
-      "telegram_message_count": 2
+      "telegram_message_count": 2,
+      "settled_at": "2026-10-10T12:08:51Z",
+      "result": "LOSS",
+      "outcome": {
+        "odds": 1.83,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": -0.75,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20261010T115520920223Z:975eed08",
+        "market": "⛳ Over 11 corners · FT",
+        "match": "Tondela x Torreense",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "ce1:1493170:final",
