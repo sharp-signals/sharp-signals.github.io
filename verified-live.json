@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-10T13:33:59Z",
-  "event_chain_head": "506b59be2bdfd110c0a325480ad13d89648f5743211312e8a5b364bebc85d042",
+  "generated_at": "2026-10-10T14:13:41Z",
+  "event_chain_head": "9843a8c8e926a84b774dc43bd1f55e2a3bc3bd8d23c60559dcc150763985d055",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,20 +12,43 @@
   },
   "summary": {
     "total": 202,
-    "pending": 10,
+    "pending": 9,
     "signals_settled": 67,
-    "official_entries_settled": 112,
+    "official_entries_settled": 113,
     "cancelled": 22
   },
   "records": [
     {
       "id": "tip_proposal:20261010T133359392448Z:ff56f553",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-10-10T13:33:59Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "61f22fb5eb29399ec9fe9c23036f12c850eaf15054ed6cfd140644e21bc990df",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-10-10T14:13:41Z",
+      "result": "CASHOUT",
+      "outcome": {
+        "odds": null,
+        "odds_source": "cashout_loss_reference",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": 0.15,
+        "entry_status": "confirmed",
+        "profit_loss_percent": -0.112,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20261010T133359392448Z:ff56f553",
+        "market": "⛳ Over 9.5 corners · FT",
+        "match": "Kairat x Zhetysu",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20261010T131837957922Z:3d79a330",
