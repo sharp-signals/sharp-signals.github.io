@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-10T20:45:06Z",
-  "event_chain_head": "bbcbabe6cd462d2c661484386114a8cd80d89e5544a05294c004b5e004b510da",
+  "generated_at": "2026-10-10T21:14:33Z",
+  "event_chain_head": "067809e7402be5835b8ba75c5c14881327cf38b558b6621033e5304e82d5710c",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,8 +12,8 @@
   },
   "summary": {
     "total": 214,
-    "pending": 11,
-    "signals_settled": 67,
+    "pending": 10,
+    "signals_settled": 68,
     "official_entries_settled": 123,
     "cancelled": 22
   },
@@ -30,11 +30,37 @@
     {
       "id": "ce1:1619321:mid",
       "kind": "signal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-10-10T20:29:17Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "83bd9c838d756c667f841799c6149250957f8d215077b3ec88129990f96cb304",
-      "telegram_message_count": 2
+      "telegram_message_count": 2,
+      "settled_at": "2026-10-10T21:14:33Z",
+      "result": "WIN",
+      "outcome": {
+        "corners_reference": 20,
+        "corners_final": 24,
+        "corners_after": 4,
+        "target": 3,
+        "technical_result": "WIN",
+        "entry_status": "confirmed",
+        "void_reason": "",
+        "approved_manually": true
+      },
+      "sealed_payload": {
+        "alert_id": "ce1:1619321:mid",
+        "classification": "scanner_signal_not_confirmed_bet",
+        "confidence": 8.5,
+        "corners_at_alert": 19,
+        "league": "Primera División",
+        "match": "Universitario de Vinto vs Real Oruro",
+        "minimum_price": 1.75,
+        "minute": 69,
+        "score_at_alert": "0-2",
+        "suggestion": "🎯 ENTRADA SUGERIDA\nOver 21.5 cantos · odd mín. 1.75+\n↳ se sair +1 canto: sobe p/ Over 22.5 ou espera o Over 22",
+        "window": "MID PRESSURE"
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20261010T183738559710Z:52e6aa35",
