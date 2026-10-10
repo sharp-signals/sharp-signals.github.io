@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-10T18:01:37Z",
-  "event_chain_head": "8d807a830591223fc92be7fb87c41d95a442fc48b8afa07d75909847da50d685",
+  "generated_at": "2026-10-10T18:27:13Z",
+  "event_chain_head": "3d34b8e59cf53a8c7a63efbfe65e14fbda081b40e49371d31a968f706266e42f",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,20 +12,43 @@
   },
   "summary": {
     "total": 210,
-    "pending": 10,
+    "pending": 9,
     "signals_settled": 67,
-    "official_entries_settled": 120,
+    "official_entries_settled": 121,
     "cancelled": 22
   },
   "records": [
     {
       "id": "tip_proposal:20261010T180137321020Z:e0a9f540",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-10-10T18:01:37Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "24242b096ba9e9f6f8ded1aa1425d068b308b4a331f380dccb8b6b229b9bbd71",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-10-10T18:27:13Z",
+      "result": "CASHOUT",
+      "outcome": {
+        "odds": null,
+        "odds_source": "cashout_loss_reference",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": 0.15,
+        "entry_status": "confirmed",
+        "profit_loss_percent": -0.112,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20261010T180137321020Z:e0a9f540",
+        "market": "⛳ Over 8.5 corners · FT",
+        "match": "Ind. Del Valle x Aucas",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20261010T163633074678Z:76c6dbdd",
