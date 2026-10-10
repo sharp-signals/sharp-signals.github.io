@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-10T13:18:38Z",
-  "event_chain_head": "b5bd5485ad677d02f8b2cce6cb19ff6e94af09e45dde1c6e0cc6466d9f59a3bb",
+  "generated_at": "2026-10-10T13:31:21Z",
+  "event_chain_head": "2506e6fe7a0b2c6f71aa139b6f644291f5069b135dbae05099f037b15bef4e0e",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,20 +12,43 @@
   },
   "summary": {
     "total": 201,
-    "pending": 10,
+    "pending": 9,
     "signals_settled": 67,
-    "official_entries_settled": 111,
+    "official_entries_settled": 112,
     "cancelled": 22
   },
   "records": [
     {
       "id": "tip_proposal:20261010T131837957922Z:3d79a330",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-10-10T13:18:38Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "0584a306be822533d2227fc2510ce5037e5f2f8010e7a07b9cb215b607d0d40d",
-      "telegram_message_count": 2
+      "telegram_message_count": 2,
+      "settled_at": "2026-10-10T13:31:21Z",
+      "result": "WIN",
+      "outcome": {
+        "odds": 1.84,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": 0.63,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20261010T131837957922Z:3d79a330",
+        "market": "⛳ Over 11 corners · FT",
+        "match": "Buriram x Rayong",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20261010T115520920223Z:975eed08",
