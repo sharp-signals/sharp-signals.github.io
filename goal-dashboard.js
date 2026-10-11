@@ -19,7 +19,9 @@
     return [b.data, b.tipo, ...(b.pernas || []).map(p => p.fixture_id || `${p.casa}|${p.fora}`)].join('|');
   }
   function confirmed(b) {
-    return b.publication_confirmed === true || b.publicacao?.estado === 'publicado';
+    // Defence in depth for cached/old payloads: Goal delivery alone is private.
+    // Missing audience evidence is not permission to show a ticket.
+    return b?.publication_confirmed === true && b.free_publication_confirmed === true;
   }
   function tickets(d, fallback) {
     // Old scheduler processes may still publish the old payload until their normal
@@ -159,13 +161,13 @@
     const dayTickets = latest ? ts.filter(b=>b.data===latest.data).sort((a,b)=>(a.ticket_slot||1)-(b.ticket_slot||1)) : [];
     return `<div class="sec-t">${tr('Pré-live · contas separadas','Pre-live · separate accounts')}</div>
       <div class="card tipday">${dayTickets.length ? dayTickets.map(b=>`<div class="hd"><b>${ticketName(b)}${dayTickets.length>1?` · #${b.ticket_slot||dayTickets.indexOf(b)+1}`:''}</b><span class="free">${
-        b.free_publication_confirmed === true ? tr('Também no gratuito','Also shared free') : tr('Bilhete Goal','Goal ticket')}</span></div>
+        tr('Publicado no gratuito','Shared in the free channel')}</span></div>
         ${legs(b)}<div class="tiprow"><span>${esc(b.data)} · 1u · ${tr('Odd do bilhete','Ticket odds')} <b class="gold">${odds(b.odd)}</b></span>${badge(b.resultado)}</div>`).join('')
         : `<p class="scope-note">${tr('Ainda não há bilhetes publicados disponíveis.','No published tickets available yet.')}</p>`}
       <div class="ticket-summary"><span>${st.sinais} ${tr('bilhetes','tickets')} · ✅ ${st.ganhos} · ❌ ${st.perdidos}
       · <b class="${cls(st.lucro_u)}">${f2(st.lucro_u)}u</b></span>
       <button class="btn" data-filter="prelive">${tr('Ver histórico Pré-live','View Pre-live history')}</button></div>
-      <p class="scope-note">${tr('Até 2 bilhetes no Goal, 1u cada, sem jogos repetidos. Um é sorteado para o gratuito. Cada bilhete conta uma vez. Pode haver dias sem seleção.','Up to 2 Goal tickets, 1u each, without repeated matches. One is randomly shared free. Each ticket counts once. Some days may have no selection.')}</p></div>`;
+      <p class="scope-note">${tr('Aqui aparecem apenas os bilhetes publicados no canal gratuito: até um por dia, 1u por bilhete. Pode haver dias sem seleção.','Only tickets published in the free channel appear here: up to one per day, 1u per ticket. Some days may have no selection.')}</p></div>`;
   }
   function productCards(rows) {
     return categories.map(key => { const st=stats(select(rows,key));
@@ -189,11 +191,11 @@
       <div class="scope-head"><h2>${title}</h2><p>${active==='all'
         ? tr('Totais de Live 2.ª parte, Late Goal e Elite/manual. Pré-live à parte; histórico conjunto abaixo.',
              'Totals for Live 2nd half, Late Goal and Elite/manual. Pre-live separate; combined history below.')
-        : pre ? tr('Fluxo atual com publicação confirmada. Bilhetes legados fora desta vista; cada bilhete conta uma vez.',
-                   'Current flow with confirmed publication. Legacy tickets outside this view; each ticket counts once.')
+        : pre ? tr('Apenas bilhetes confirmados no canal gratuito. Contas separadas; cada bilhete conta uma vez.',
+                   'Only tickets confirmed in the free channel. Separate accounts; each ticket counts once.')
         : active==='elite' ? tr('Entradas manuais, incluindo Late Goal enviado para o Elite.','Manual entries, including Late Goal sent to Elite.')
         : tr('Sinais automáticos do bot. Entradas manuais estão no Elite.','Automatic bot signals. Manual entries are under Elite.')}</p></div>
-      ${partialPrelive&&(pre||active==='all')?`<p class="scope-note">${tr('Histórico Pré-live temporariamente incompleto: só estão disponíveis os últimos bilhetes.','Pre-live history temporarily incomplete: only the latest tickets are available.')}</p>`:''}
+      ${(partialPrelive||DATA.combinada?.indisponivel)&&(pre||active==='all')?`<p class="scope-note">${tr('Histórico Pré-live temporariamente indisponível ou incompleto.','Pre-live history temporarily unavailable or incomplete.')}</p>`:''}
       <div id="kpis">${kpisFor(p.geral).replace(pre?(pt?'Sinais':'Signals'):'__never__',tr('Bilhetes','Tickets'))}</div>
       <p class="scope-note accounting">${tr('Resultado teórico às odds registadas; não comprova apostas executadas.','Theoretical results at recorded odds; not proof of executed bets.')}
       ${conditionals ? `${conditionals} ${tr('condicionais sem preço confirmado fora destas contas.','conditionals without confirmed odds excluded from these accounts.')}` : ''}
@@ -224,7 +226,7 @@
       DATA=await r.json();
       if(!Array.isArray(DATA.historico_sinais)) throw new Error('invalid dashboard');
       if(!Array.isArray(DATA.combinada?.historico)) {
-        try {const r=await fetch('goal-prelive-history.json?v=20261011',{cache:'no-store'});if(r.ok)fallback=await r.json();} catch (_) { /* latest confirmed ticket remains visible */ }
+        try {const r=await fetch('goal-prelive-history.json?v=20261011-free-only',{cache:'no-store'});if(r.ok)fallback=await r.json();} catch (_) { /* only verified free tickets may remain visible */ }
       }
       render();
     } catch (_) {
