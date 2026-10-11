@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-11T16:01:15Z",
-  "event_chain_head": "732fc05afd687fdd7a3a447df61b6c79fef437763668aadc303204b12ee92532",
+  "generated_at": "2026-10-11T16:01:45Z",
+  "event_chain_head": "37ebca8b58df8b4fc9880790f1e32f4a1d549c06299b956c0b1ea5294e368c47",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,9 +12,9 @@
   },
   "summary": {
     "total": 222,
-    "pending": 11,
+    "pending": 10,
     "signals_settled": 69,
-    "official_entries_settled": 129,
+    "official_entries_settled": 130,
     "cancelled": 22
   },
   "records": [
@@ -65,11 +65,34 @@
     {
       "id": "tip_proposal:20261011T151942804970Z:1bb07457",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-10-11T15:19:43Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "aa975a8d71d5d0a49e0c5146667bad57f67d8dec619c59d8efc32efb4c547571",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-10-11T16:01:45Z",
+      "result": "WIN",
+      "outcome": {
+        "odds": 1.81,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": 0.608,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20261011T151942804970Z:1bb07457",
+        "market": "⛳ Over 1.5 corners · Uni. Craiova · 1st half",
+        "match": "Miercurea Ciuc x Uni. Craiova",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20261011T151410385684Z:716c790e",
