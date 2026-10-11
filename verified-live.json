@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-11T15:14:10Z",
-  "event_chain_head": "d96927818b2a173ce38b5693aac7607c583c7f0033ee80baf929c1a64f7e33fd",
+  "generated_at": "2026-10-11T15:18:34Z",
+  "event_chain_head": "d67aaf790ec5ec3e14697fac5f1f35629d31b8ebfe3f8c4c84ebc6d87c6f13db",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,9 +12,9 @@
   },
   "summary": {
     "total": 219,
-    "pending": 11,
+    "pending": 10,
     "signals_settled": 68,
-    "official_entries_settled": 127,
+    "official_entries_settled": 128,
     "cancelled": 22
   },
   "records": [
@@ -30,11 +30,34 @@
     {
       "id": "tip_proposal:20261011T144847124750Z:532b0d74",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-10-11T14:48:47Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "2d2f93896c5ac537f4e9c069607c38aef3ef56284fc316e314f50a69ff6df26d",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-10-11T15:18:34Z",
+      "result": "VOID",
+      "outcome": {
+        "odds": null,
+        "odds_source": "historical_reference",
+        "reference_odds": 1.84,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": 0.0,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20261011T144847124750Z:532b0d74",
+        "market": "⛳ Over 3 corners · 1st half",
+        "match": "Cherno More x Levski",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20261011T141354786582Z:7ebd0f49",
