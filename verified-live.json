@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-11T14:24:30Z",
-  "event_chain_head": "bb1b90eee82d402f8c5ecdada673c4aa26c80912608048ecd6a3b890499cde14",
+  "generated_at": "2026-10-11T14:24:42Z",
+  "event_chain_head": "4e95a066eae78df558ebae2c17d0efcdafd37aa9c0db5d36d90ead29f92d45d6",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,9 +12,9 @@
   },
   "summary": {
     "total": 217,
-    "pending": 11,
+    "pending": 10,
     "signals_settled": 68,
-    "official_entries_settled": 125,
+    "official_entries_settled": 126,
     "cancelled": 22
   },
   "records": [
@@ -62,11 +62,34 @@
     {
       "id": "tip_proposal:20261011T124100864857Z:c18c4281",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-10-11T12:41:01Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "060a44d759d86201dddf45ea579f514d79b6d15900ce00a05e0022f7ff2b4f88",
-      "telegram_message_count": 2
+      "telegram_message_count": 2,
+      "settled_at": "2026-10-11T14:24:41Z",
+      "result": "LOSS",
+      "outcome": {
+        "odds": 1.81,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": -0.75,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20261011T124100864857Z:c18c4281",
+        "market": "⛳ Over 9.5 corners · FT",
+        "match": "Liberec x Slovacko",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20261010T204506281335Z:4eb92685",
