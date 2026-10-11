@@ -145,7 +145,7 @@
           const name = ticket ? `<details><summary>${ticketName(s)} · ${s.legs.length} ${s.legs.length===1?tr('jogo','match'):tr('jogos','matches')}</summary>${legs(s)}</details>` : esc(s.jogo);
           const product = ticket ? labels.prelive : s.category==='elite' ? (isLate(s)?'Late Goal':'Elite') : labels[s.category];
           return `<tr><td class="date-cell">${dateCell(s)}</td><td><span class="product product-${s.category}">${product}</span>
-            <small>${s.category==='elite'?tr('Elite · Manual','Elite · Manual'):ticket?tr('Bilhete grátis','Free ticket'):tr('Bot · Ao vivo','Bot · Live')}</small></td>
+            <small>${s.category==='elite'?tr('Elite · Manual','Elite · Manual'):ticket?tr('Bilhete Pré-live','Pre-live ticket'):tr('Bot · Ao vivo','Bot · Live')}</small></td>
             <td>${ticket ? tr('Várias / ver jogos','See matches') : esc(s.liga)}</td><td>${name}</td>
             <td>${ticket ? tr('Combinada / simples pré-jogo','Pre-match accumulator / single') : esc(s.mercado)}</td>
             <td class="gold">${odds(s.odd)}</td><td>${badge(s.resultado)}</td></tr>`;
@@ -159,13 +159,13 @@
     const dayTickets = latest ? ts.filter(b=>b.data===latest.data).sort((a,b)=>(a.ticket_slot||1)-(b.ticket_slot||1)) : [];
     return `<div class="sec-t">${tr('Pré-live · contas separadas','Pre-live · separate accounts')}</div>
       <div class="card tipday">${dayTickets.length ? dayTickets.map(b=>`<div class="hd"><b>${ticketName(b)}${dayTickets.length>1?` · #${b.ticket_slot||dayTickets.indexOf(b)+1}`:''}</b><span class="free">${
-        b.data === today ? tr('Bilhete do dia · GRÁTIS','Today’s ticket · FREE') : tr('Última jornada publicada','Latest published day')}</span></div>
+        b.free_publication_confirmed === true ? tr('Também no gratuito','Also shared free') : tr('Bilhete Goal','Goal ticket')}</span></div>
         ${legs(b)}<div class="tiprow"><span>${esc(b.data)} · 1u · ${tr('Odd do bilhete','Ticket odds')} <b class="gold">${odds(b.odd)}</b></span>${badge(b.resultado)}</div>`).join('')
         : `<p class="scope-note">${tr('Ainda não há bilhetes publicados disponíveis.','No published tickets available yet.')}</p>`}
       <div class="ticket-summary"><span>${st.sinais} ${tr('bilhetes','tickets')} · ✅ ${st.ganhos} · ❌ ${st.perdidos}
       · <b class="${cls(st.lucro_u)}">${f2(st.lucro_u)}u</b></span>
       <button class="btn" data-filter="prelive">${tr('Ver histórico Pré-live','View Pre-live history')}</button></div>
-      <p class="scope-note">${tr('Até 2 bilhetes por dia, 1u cada, sem jogos repetidos. Cada bilhete conta uma vez. Pode haver dias sem seleção.','Up to 2 tickets per day, 1u each, without repeated matches. Each ticket counts once. Some days may have no selection.')}</p></div>`;
+      <p class="scope-note">${tr('Até 2 bilhetes no Goal, 1u cada, sem jogos repetidos. Um é sorteado para o gratuito. Cada bilhete conta uma vez. Pode haver dias sem seleção.','Up to 2 Goal tickets, 1u each, without repeated matches. One is randomly shared free. Each ticket counts once. Some days may have no selection.')}</p></div>`;
   }
   function productCards(rows) {
     return categories.map(key => { const st=stats(select(rows,key));
