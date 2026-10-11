@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-11T16:52:14Z",
-  "event_chain_head": "4db51fe246c7fbf9b129e0e50347425707b5a5b13dc49033867bd9ae646cd179",
+  "generated_at": "2026-10-11T17:35:12Z",
+  "event_chain_head": "dd0ddfff2dfa7e79afe296b473eed1436ac155b8e7c591fa1a6321ebca58572b",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,20 +12,43 @@
   },
   "summary": {
     "total": 224,
-    "pending": 10,
+    "pending": 9,
     "signals_settled": 70,
-    "official_entries_settled": 131,
+    "official_entries_settled": 132,
     "cancelled": 22
   },
   "records": [
     {
       "id": "tip_proposal:20261011T165214023127Z:e39d88ac",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-10-11T16:52:14Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "663fc88259989e0ae7e8b00e55e3189791a5e5fdacf33ff46f6579f1de6af6cf",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-10-11T17:35:12Z",
+      "result": "CASHOUT",
+      "outcome": {
+        "odds": null,
+        "odds_source": "cashout_loss_reference",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": 0.15,
+        "entry_status": "confirmed",
+        "profit_loss_percent": -0.112,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20261011T165214023127Z:e39d88ac",
+        "market": "⛳ Over 7.5 corners · FT",
+        "match": "Brinje x Maribor",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20261011T162213426246Z:16b5f8a6",
