@@ -121,6 +121,26 @@ header.top{text-align:center;padding:34px 0 8px}
 .sim-out .so-l{font-size:10.5px;letter-spacing:1.5px;text-transform:uppercase;color:var(--muted)}
 .sim-out .so-v{font-size:24px;font-weight:700;font-family:'Cinzel',serif;margin-top:4px}
 
+.equity-card{padding:20px;border-color:rgba(201,162,39,.38);overflow:hidden}
+.equity-head{display:flex;justify-content:space-between;align-items:flex-start;gap:18px;flex-wrap:wrap;margin-bottom:14px}
+.equity-title{font-family:'Cinzel',serif;font-size:17px;font-weight:700;color:var(--gold3);letter-spacing:.4px}
+.equity-sub{font-size:12px;color:var(--muted);margin-top:5px;max-width:720px;line-height:1.55}
+.equity-kpis{display:flex;gap:18px;flex-wrap:wrap}.equity-kpi{min-width:100px;text-align:right}
+.equity-kpi span{display:block;font-size:9px;letter-spacing:1.25px;text-transform:uppercase;color:var(--muted)}
+.equity-kpi b{font-family:'Cinzel',serif;font-size:18px;color:var(--txt)}
+.equity-legend{display:flex;gap:7px;flex-wrap:wrap;margin:10px 0 16px}
+.equity-toggle{display:inline-flex;align-items:center;gap:7px;padding:7px 10px;border:1px solid rgba(255,255,255,.12);border-radius:20px;background:rgba(5,12,23,.56);color:var(--muted);font:600 11px 'Raleway',sans-serif;cursor:pointer;transition:.18s}
+.equity-toggle:hover{border-color:var(--series);color:var(--txt)}.equity-toggle.on{color:var(--txt);border-color:var(--series);background:rgba(255,255,255,.055)}
+.equity-swatch{width:9px;height:9px;border-radius:50%;background:var(--series);box-shadow:0 0 9px var(--series)}
+.equity-toggle:not(.on) .equity-swatch{background:transparent;border:1px solid var(--series);box-shadow:none}
+.equity-chart{position:relative;height:330px;border:1px solid rgba(255,255,255,.07);border-radius:13px;background:linear-gradient(180deg,rgba(4,11,22,.8),rgba(8,19,36,.6));overflow:hidden}
+.equity-chart svg{display:block;width:100%;height:100%}.equity-grid{stroke:rgba(255,255,255,.07);stroke-width:1}.equity-zero{stroke:rgba(201,162,39,.38);stroke-width:1.2;stroke-dasharray:5 6}.equity-axis{fill:#7f8da5;font:10px 'Raleway',sans-serif}
+.equity-line{fill:none;stroke-width:2.6;stroke-linecap:round;stroke-linejoin:round;vector-effect:non-scaling-stroke;filter:drop-shadow(0 0 4px rgba(0,0,0,.45))}.equity-line.primary{stroke-width:3.5}
+.equity-hover{fill:transparent;stroke:transparent;stroke-width:18;cursor:crosshair;pointer-events:stroke}.equity-dot{stroke:#07101d;stroke-width:2;pointer-events:none}
+.equity-tip{position:absolute;z-index:5;display:none;min-width:190px;max-width:260px;padding:10px 12px;border-radius:10px;background:rgba(4,10,20,.96);border:1px solid rgba(201,162,39,.35);box-shadow:0 12px 28px rgba(0,0,0,.42);pointer-events:none;font-size:11px;color:var(--muted)}
+.equity-tip b{display:block;color:var(--txt);font-size:12px;margin-bottom:4px}.equity-tip .et-val{font-family:'Cinzel',serif;font-size:16px;font-weight:700;margin-top:5px}.equity-note{font-size:10.5px;color:rgba(248,244,237,.48);line-height:1.5;margin-top:10px}
+@media(max-width:700px){.equity-card{padding:14px}.equity-chart{height:280px}.equity-kpis{width:100%;justify-content:space-between}.equity-kpi{text-align:left}.equity-toggle{padding:6px 8px;font-size:10px}}
+
 .bars{display:flex;align-items:stretch;gap:10px;height:210px;padding:14px 4px 0}
 .bar{flex:1;display:flex;flex-direction:column;align-items:center;gap:4px;height:100%}
 .bar .barzone{width:100%;height:150px;display:flex;flex-direction:column}
@@ -218,6 +238,7 @@ footer .logo{justify-content:center;margin-bottom:10px;font-size:13px}
   <a href="dashboard-pt.html">PT</a>
 </div>
 
+<script src="equity-chart.js"></script>
 <script>
 let DATA=null, CAT='tips', PAG=1, PAGB=1, EPOCA='2026-27';
 let VIEW_TIPS=null, VIEW_BOT=null;
@@ -331,6 +352,7 @@ function vistaTips(d){
     ${forma(d.forma)}
   </div>
 
+  ${blocoGraficoAcumulado()}
   <div class="sec-t">Stake &amp; Bankroll Simulator</div>
   <div class="card simcard">
     <div class="fc-sub">Applies one flat stake to the ${d.simuladas} financial entries in the selected season. CASHOUT affects bankroll but not win rate; VOID and CANCELLED do not move bankroll. Missing odds use the 1.84 historical reference.</div>
@@ -483,6 +505,7 @@ function vistaBot(d){
       <div class="fc-sub">Signals generated automatically by real-time pressure analysis</div></div>
     ${forma(d.forma)}
   </div>
+  ${blocoGraficoAcumulado()}
   <div class="sec-t">Simulator — Confirmed entries</div>
   <div class="card simcard"><div class="fc-sub">Includes WIN and LOSS from the first alert: earlier historical records plus entries verified by the current model. Uses a 0.75% reference stake and 1.84 reference odds. CANCELLED and VOID do not move bankroll.</div>
     <div class="sim-row"><div class="sim-field"><label>Starting bankroll (€)</label><input type="number" id="bot-sim-bankroll" value="1000" min="0" step="50" oninput="calcularSimuladorBot()"></div><div class="sim-field"><label>Stake per entry (%)</label><input type="number" id="bot-sim-stake" value="0.75" min="0" max="10" step="0.25" oninput="calcularSimuladorBot()"></div></div>
@@ -601,6 +624,7 @@ function render(){
   let html=`<div class="segwrap"><div class="segbar">${segs}</div></div>${seletorEpoca()}`;
   html+= CAT==='tips' ? vistaTips(DATA.tips_pessoais) : vistaBot(DATA.bot);
   app.innerHTML=html;
+  desenharGraficoAcumulado();
   document.querySelectorAll('[data-cat]').forEach(s=>s.onclick=()=>{CAT=s.dataset.cat;PAG=1;PAGB=1;render();window.scrollTo({top:0,behavior:'smooth'});});
   document.querySelectorAll('[data-epoca]').forEach(s=>s.onclick=()=>{EPOCA=s.dataset.epoca;PAG=1;PAGB=1;render();});
   if(CAT==='tips') calcularSimulador(); else calcularSimuladorBot();
