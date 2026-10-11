@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-11T16:01:45Z",
-  "event_chain_head": "37ebca8b58df8b4fc9880790f1e32f4a1d549c06299b956c0b1ea5294e368c47",
+  "generated_at": "2026-10-11T16:20:07Z",
+  "event_chain_head": "72b83b17ed2fd158352044a6bf94f9f41412f1d23f1c95dbc65a465b457a71d1",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,8 +12,8 @@
   },
   "summary": {
     "total": 222,
-    "pending": 10,
-    "signals_settled": 69,
+    "pending": 9,
+    "signals_settled": 70,
     "official_entries_settled": 130,
     "cancelled": 22
   },
@@ -21,11 +21,37 @@
     {
       "id": "ce1:1612249:final",
       "kind": "signal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-10-11T15:43:31Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "9de651ed8b138f0dc0903406ad0cf9041b9cf4bec5648a77ca2777f62ce62846",
-      "telegram_message_count": 2
+      "telegram_message_count": 2,
+      "settled_at": "2026-10-11T16:20:07Z",
+      "result": "WIN",
+      "outcome": {
+        "corners_reference": 5,
+        "corners_final": 7,
+        "corners_after": 2,
+        "target": 2,
+        "technical_result": "WIN",
+        "entry_status": "confirmed",
+        "void_reason": "",
+        "approved_manually": true
+      },
+      "sealed_payload": {
+        "alert_id": "ce1:1612249:final",
+        "classification": "scanner_signal_not_confirmed_bet",
+        "confidence": 7.0,
+        "corners_at_alert": 5,
+        "league": "Premier League",
+        "match": "Olympic El Qanah vs AL Masry",
+        "minimum_price": 1.75,
+        "minute": 78,
+        "score_at_alert": "1-1",
+        "suggestion": "🎯 ENTRADA SUGERIDA\nOver 6.5 cantos · odd mín. 1.75+\n↳ se sair +1 canto: sobe p/ Over 7.5 ou espera o Over 7",
+        "window": "FINAL PUSH"
+      },
+      "commitment_valid": true
     },
     {
       "id": "ce1:1565264:ht",
