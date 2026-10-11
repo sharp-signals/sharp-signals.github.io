@@ -1,9 +1,11 @@
 {
-  "schema": 1,
-  "snapshot_at": "2026-10-11",
+  "publication_scope": "free_confirmed_only",
   "historico": [
     {
       "ticket_id": "prelive-a1fbc1d617431da0609d655f",
+      "ticket_slot": 1,
+      "free_publication_confirmed": true,
+      "publication_channel": "free",
       "data": "2026-09-12",
       "tipo": "simples",
       "odd": 2.0,
@@ -26,6 +28,9 @@
     },
     {
       "ticket_id": "prelive-8977ac56e830096e60a4d349",
+      "ticket_slot": 1,
+      "free_publication_confirmed": true,
+      "publication_channel": "free",
       "data": "2026-09-18",
       "tipo": "dupla",
       "odd": 2.94,
@@ -58,6 +63,9 @@
     },
     {
       "ticket_id": "prelive-6bbb998feb1f5147c7e837ad",
+      "ticket_slot": 1,
+      "free_publication_confirmed": true,
+      "publication_channel": "free",
       "data": "2026-09-20",
       "tipo": "tripla",
       "odd": 9.69,
@@ -100,6 +108,9 @@
     },
     {
       "ticket_id": "prelive-8b4ee8f4dc037ca64a069930",
+      "ticket_slot": 1,
+      "free_publication_confirmed": true,
+      "publication_channel": "free",
       "data": "2026-09-27",
       "tipo": "tripla",
       "odd": 13.87,
@@ -142,6 +153,9 @@
     },
     {
       "ticket_id": "prelive-0f7f7277e43dffb1ddce61c7",
+      "ticket_slot": 1,
+      "free_publication_confirmed": true,
+      "publication_channel": "free",
       "data": "2026-10-02",
       "tipo": "tripla",
       "odd": 12.58,
@@ -184,6 +198,9 @@
     },
     {
       "ticket_id": "prelive-bc42fe94e877d50d9e47f1b6",
+      "ticket_slot": 1,
+      "free_publication_confirmed": true,
+      "publication_channel": "free",
       "data": "2026-10-03",
       "tipo": "tripla",
       "odd": 9.05,
@@ -226,6 +243,9 @@
     },
     {
       "ticket_id": "prelive-36e80d31b3353739786f459e",
+      "ticket_slot": 1,
+      "free_publication_confirmed": true,
+      "publication_channel": "free",
       "data": "2026-10-04",
       "tipo": "tripla",
       "odd": 21.92,
@@ -268,6 +288,9 @@
     },
     {
       "ticket_id": "prelive-fdd1249d391c9867e36053b8",
+      "ticket_slot": 1,
+      "free_publication_confirmed": true,
+      "publication_channel": "free",
       "data": "2026-10-05",
       "tipo": "tripla",
       "odd": 27.3,
@@ -310,6 +333,9 @@
     },
     {
       "ticket_id": "prelive-4018a2d1714d39cacc42874b",
+      "ticket_slot": 1,
+      "free_publication_confirmed": true,
+      "publication_channel": "free",
       "data": "2026-10-07",
       "tipo": "simples",
       "odd": 2.8,
@@ -332,6 +358,9 @@
     },
     {
       "ticket_id": "prelive-96d9a131e60448259082e5fc",
+      "ticket_slot": 1,
+      "free_publication_confirmed": true,
+      "publication_channel": "free",
       "data": "2026-10-08",
       "tipo": "tripla",
       "odd": 17.42,
@@ -374,6 +403,9 @@
     },
     {
       "ticket_id": "prelive-ba1eb6da37ce29f6b830ed70",
+      "ticket_slot": 1,
+      "free_publication_confirmed": true,
+      "publication_channel": "free",
       "data": "2026-10-09",
       "tipo": "tripla",
       "odd": 12.97,
@@ -416,6 +448,9 @@
     },
     {
       "ticket_id": "prelive-0f53fa28fde3435bcd01ed66",
+      "ticket_slot": 1,
+      "free_publication_confirmed": true,
+      "publication_channel": "free",
       "data": "2026-10-10",
       "tipo": "tripla",
       "odd": 13.92,
@@ -453,6 +488,51 @@
           "mercado": null,
           "odd": 2.85,
           "resultado": "ganho"
+        }
+      ]
+    },
+    {
+      "ticket_id": "prelive:2026-10-11:1",
+      "ticket_slot": 1,
+      "free_publication_confirmed": true,
+      "publication_channel": "free",
+      "data": "2026-10-11",
+      "tipo": "tripla",
+      "odd": 8.81,
+      "resultado": null,
+      "u": 1.0,
+      "published_at": "2026-10-11T06:04:28+01:00",
+      "publication_confirmed": true,
+      "pernas": [
+        {
+          "fixture_id": 1558020,
+          "casa": "Grosuplje",
+          "fora": "Maribor",
+          "liga": null,
+          "hora": "16:30",
+          "mercado": null,
+          "odd": 2.0,
+          "resultado": null
+        },
+        {
+          "fixture_id": 1584422,
+          "casa": "Besiktas",
+          "fora": "Kocaelispor",
+          "liga": null,
+          "hora": "17:00",
+          "mercado": null,
+          "odd": 1.85,
+          "resultado": null
+        },
+        {
+          "fixture_id": 1576500,
+          "casa": "Farense",
+          "fora": "Feirense",
+          "liga": null,
+          "hora": "14:00",
+          "mercado": null,
+          "odd": 2.38,
+          "resultado": null
         }
       ]
     }
