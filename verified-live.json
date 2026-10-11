@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-11T16:22:13Z",
-  "event_chain_head": "31149d879f150e93dec48aeddae0142ce207aaec7d21dc62eeb1f9caadc6b3c9",
+  "generated_at": "2026-10-11T16:37:14Z",
+  "event_chain_head": "1d2536fa970a33dca84457da338ac25d26f48b598a04fbf248880b20980818e2",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,20 +12,43 @@
   },
   "summary": {
     "total": 223,
-    "pending": 10,
+    "pending": 9,
     "signals_settled": 70,
-    "official_entries_settled": 130,
+    "official_entries_settled": 131,
     "cancelled": 22
   },
   "records": [
     {
       "id": "tip_proposal:20261011T162213426246Z:16b5f8a6",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-10-11T16:22:13Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "41540e25214dc1135b93b049c33e0b026eb2f8bd05207767707f4ee4912f38c2",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-10-11T16:37:14Z",
+      "result": "WIN",
+      "outcome": {
+        "odds": 1.81,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": 0.608,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20261011T162213426246Z:16b5f8a6",
+        "market": "⛳ Over 7.5 corners · FT",
+        "match": "Miercurea Ciuc x Uni. Craiova",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "ce1:1612249:final",
