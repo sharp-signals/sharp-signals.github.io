@@ -8,10 +8,10 @@
    "fim": "2026-01-31"
   },
   "cresc_pct": 56.91,
-  "apostas": 1170,
+  "apostas": 1171,
   "ganhos": 656,
-  "perdidos": 514,
-  "wr": 56.1,
+  "perdidos": 515,
+  "wr": 56.0,
   "meses": [
    {
     "mes": "2025-08",
@@ -79,9 +79,9 @@
    {
     "mes": "2026-10",
     "label": "Out 26",
-    "cresc_pct": -4.13,
-    "apostas": 32,
-    "wr": 40.6
+    "cresc_pct": -4.24,
+    "apostas": 33,
+    "wr": 39.4
    }
   ],
   "por_mercado": [
@@ -101,9 +101,9 @@
    },
    {
     "mercado": "Cashout",
-    "n": 166,
-    "wr": 45.8,
-    "roi": -3.57,
+    "n": 167,
+    "wr": 45.5,
+    "roi": -3.68,
     "pl_eur": -74.77
    },
    {
@@ -137,7 +137,6 @@
   ],
   "forma": [
    "cashout",
-   "cashout",
    "ganho",
    "cashout",
    "perdido",
@@ -150,7 +149,8 @@
    "perdido",
    "ganho",
    "ganho",
-   "ganho"
+   "ganho",
+   "cashout"
   ],
   "historico": [
    {
@@ -158,16 +158,17 @@
     "mes": "2026-10",
     "jogo": "Brinje x Maribor",
     "mercado": "⛳ Over 7.5 corners · FT",
-    "categoria": "Over Cantos FT",
+    "categoria": "Cashout",
     "odd": null,
-    "pl_pct": null,
+    "pl_pct": -0.112,
     "stake_pct": 0.75,
-    "resultado": "pendente",
+    "resultado": "cashout",
     "verified_id": "tip_proposal:20261011T165214023127Z:e39d88ac",
-    "estado_entrada": "aguarda_confirmacao",
-    "tipo_odd": "por_registar",
+    "estado_entrada": "confirmada",
+    "tipo_odd": "referencia_cashout_menos_15_pct",
     "odd_minima_recomendada": 1.81,
-    "confianca": 7
+    "confianca": 7,
+    "cashout_perda_referencia_pct_stake": 15.0
    },
    {
     "data": "2026-10-11",
