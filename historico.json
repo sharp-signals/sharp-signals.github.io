@@ -3637,6 +3637,26 @@
       "justificacao_void": "",
       "golos_apos_casa": 0,
       "golos_apos_fora": 0
+    },
+    {
+      "alerta_id": "ce1:1612249:final",
+      "fixture_id": 1612249,
+      "timestamp": "2026-10-11T17:20:03.731386",
+      "jogo": "Olympic El Qanah vs AL Masry",
+      "liga": "Premier League",
+      "janela": "FINAL PUSH",
+      "tempo_alerta": 78,
+      "estrelas": 7.0,
+      "cantos_no_ref": 5,
+      "cantos_final": 7,
+      "cantos_apos_alerta": 2,
+      "meta_cantos": 2,
+      "resultado": "WIN",
+      "resultado_tecnico": "WIN",
+      "estado_entrada": "CONFIRMADA",
+      "justificacao_void": "",
+      "golos_apos_casa": 0,
+      "golos_apos_fora": 0
     }
   ]
 }
