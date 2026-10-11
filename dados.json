@@ -8,10 +8,10 @@
    "fim": "2026-01-31"
   },
   "cresc_pct": 56.91,
-  "apostas": 1169,
-  "ganhos": 655,
+  "apostas": 1170,
+  "ganhos": 656,
   "perdidos": 514,
-  "wr": 56.0,
+  "wr": 56.1,
   "meses": [
    {
     "mes": "2025-08",
@@ -79,17 +79,17 @@
    {
     "mes": "2026-10",
     "label": "Out 26",
-    "cresc_pct": -4.74,
-    "apostas": 31,
-    "wr": 38.7
+    "cresc_pct": -4.13,
+    "apostas": 32,
+    "wr": 40.6
    }
   ],
   "por_mercado": [
    {
     "mercado": "Over Cantos FT",
-    "n": 642,
-    "wr": 57.9,
-    "roi": 32.25,
+    "n": 643,
+    "wr": 58.0,
+    "roi": 32.86,
     "pl_eur": 1369.94
    },
    {
@@ -136,7 +136,6 @@
    }
   ],
   "forma": [
-   "ganho",
    "cashout",
    "cashout",
    "ganho",
@@ -149,6 +148,7 @@
    "perdido",
    "ganho",
    "perdido",
+   "ganho",
    "ganho",
    "ganho"
   ],
@@ -159,13 +159,13 @@
     "jogo": "Miercurea Ciuc x Uni. Craiova",
     "mercado": "⛳ Over 7.5 corners · FT",
     "categoria": "Over Cantos FT",
-    "odd": null,
-    "pl_pct": null,
+    "odd": 1.81,
+    "pl_pct": 0.608,
     "stake_pct": 0.75,
-    "resultado": "pendente",
+    "resultado": "ganho",
     "verified_id": "tip_proposal:20261011T162213426246Z:16b5f8a6",
-    "estado_entrada": "aguarda_confirmacao",
-    "tipo_odd": "por_registar",
+    "estado_entrada": "confirmada",
+    "tipo_odd": "real",
     "odd_minima_recomendada": 1.81,
     "confianca": 7
    },
