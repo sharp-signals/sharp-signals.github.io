@@ -3700,5 +3700,27 @@
       "golos_apos_casa": 1,
       "golos_apos_fora": 0
     }
+  ],
+  "2026-10-13": [
+    {
+      "alerta_id": "ce1:1635721:mid",
+      "fixture_id": 1635721,
+      "timestamp": "2026-10-13T19:58:36.460480",
+      "jogo": "Sabah FA vs Slavia Praha",
+      "liga": "UEFA Champions League",
+      "janela": "MID PRESSURE",
+      "tempo_alerta": 66,
+      "estrelas": 9.0,
+      "cantos_no_ref": 6,
+      "cantos_final": 9,
+      "cantos_apos_alerta": 3,
+      "meta_cantos": 3,
+      "resultado": "WIN",
+      "resultado_tecnico": "WIN",
+      "estado_entrada": "CONFIRMADA",
+      "justificacao_void": "",
+      "golos_apos_casa": 1,
+      "golos_apos_fora": 0
+    }
   ]
 }
