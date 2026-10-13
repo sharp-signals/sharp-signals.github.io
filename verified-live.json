@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-13T21:12:34Z",
-  "event_chain_head": "fe63805a847a17391141d8fb290a9be2b9f8e0c3fa6805a263b31ce7d6b84e81",
+  "generated_at": "2026-10-13T21:23:27Z",
+  "event_chain_head": "83a34e179d22532b1a4db24468608552148bf4e145df2151b574f42b97b5f476",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,8 +12,8 @@
   },
   "summary": {
     "total": 227,
-    "pending": 10,
-    "signals_settled": 72,
+    "pending": 9,
+    "signals_settled": 73,
     "official_entries_settled": 132,
     "cancelled": 22
   },
@@ -56,11 +56,37 @@
     {
       "id": "ce1:1635671:shark",
       "kind": "signal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-10-13T20:16:39Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "47f79705bdd07542a43376619355b43c0537b642bdc5d227050fe2933ffdce74",
-      "telegram_message_count": 2
+      "telegram_message_count": 2,
+      "settled_at": "2026-10-13T21:23:27Z",
+      "result": "LOSS",
+      "outcome": {
+        "corners_reference": 6,
+        "corners_final": 8,
+        "corners_after": 2,
+        "target": 4,
+        "technical_result": "LOSS",
+        "entry_status": "confirmed",
+        "void_reason": "",
+        "approved_manually": true
+      },
+      "sealed_payload": {
+        "alert_id": "ce1:1635671:shark",
+        "classification": "scanner_signal_not_confirmed_bet",
+        "confidence": 8.0,
+        "corners_at_alert": 6,
+        "league": "UEFA Champions League",
+        "match": "Inter vs Club Brugge KV",
+        "minimum_price": 1.75,
+        "minute": 57,
+        "score_at_alert": "1-1",
+        "suggestion": "🎯 ENTRADA SUGERIDA\nOver 9.5 cantos · odd mín. 1.75+\n↳ se sair +1 canto: sobe p/ Over 10.5 ou espera o Over 10",
+        "window": "SHARK ATTACK"
+      },
+      "commitment_valid": true
     },
     {
       "id": "ce1:1635721:mid",
