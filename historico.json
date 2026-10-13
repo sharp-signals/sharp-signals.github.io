@@ -3741,6 +3741,26 @@
       "justificacao_void": "Não entrada — preço demasiado alto",
       "golos_apos_casa": 1,
       "golos_apos_fora": 2
+    },
+    {
+      "alerta_id": "ce1:1635671:shark",
+      "fixture_id": 1635671,
+      "timestamp": "2026-10-13T22:23:18.332281",
+      "jogo": "Inter vs Club Brugge KV",
+      "liga": "UEFA Champions League",
+      "janela": "SHARK ATTACK",
+      "tempo_alerta": 57,
+      "estrelas": 8.0,
+      "cantos_no_ref": 6,
+      "cantos_final": 8,
+      "cantos_apos_alerta": 2,
+      "meta_cantos": 4,
+      "resultado": "LOSS",
+      "resultado_tecnico": "LOSS",
+      "estado_entrada": "CONFIRMADA",
+      "justificacao_void": "",
+      "golos_apos_casa": 2,
+      "golos_apos_fora": 3
     }
   ]
 }
