@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-14T20:00:37Z",
-  "event_chain_head": "db7f1bffe917b7aa7eb0d949a29e4c44906f9746043c3f313c597a88f336b623",
+  "generated_at": "2026-10-14T20:00:48Z",
+  "event_chain_head": "f86465636888d95d6d6d7d62a0be5e76d84312371b05cbfd671d60d5960a7ccc",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,20 +12,43 @@
   },
   "summary": {
     "total": 233,
-    "pending": 10,
+    "pending": 9,
     "signals_settled": 74,
-    "official_entries_settled": 136,
+    "official_entries_settled": 137,
     "cancelled": 23
   },
   "records": [
     {
       "id": "tip_proposal:20261014T193618558306Z:26338b89",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-10-14T19:36:18Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "c432f0e5994f1106cb49091a6b0e274e35f061aa20c71b992d0973fd869aa2f1",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-10-14T20:00:48Z",
+      "result": "WIN",
+      "outcome": {
+        "odds": 1.91,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": 0.682,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20261014T193618558306Z:26338b89",
+        "market": "🏁 Race to 7 corners · Gil Vicente",
+        "match": "Santarem x Gil Vicente",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "ce1:1635733:ht",
