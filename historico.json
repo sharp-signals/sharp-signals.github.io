@@ -3783,6 +3783,26 @@
       "justificacao_void": "",
       "golos_apos_casa": 0,
       "golos_apos_fora": 1
+    },
+    {
+      "alerta_id": "ce1:1635690:final",
+      "fixture_id": 1635690,
+      "timestamp": "2026-10-14T22:28:05.419141",
+      "jogo": "Manchester City vs Paris Saint Germain",
+      "liga": "UEFA Champions League",
+      "janela": "FINAL PUSH",
+      "tempo_alerta": 77,
+      "estrelas": 9.0,
+      "cantos_no_ref": 12,
+      "cantos_final": 13,
+      "cantos_apos_alerta": 1,
+      "meta_cantos": 2,
+      "resultado": "LOSS",
+      "resultado_tecnico": "LOSS",
+      "estado_entrada": "CONFIRMADA",
+      "justificacao_void": "",
+      "golos_apos_casa": 0,
+      "golos_apos_fora": 0
     }
   ]
 }
