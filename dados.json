@@ -8,8 +8,8 @@
    "fim": "2026-01-31"
   },
   "cresc_pct": 56.91,
-  "apostas": 1173,
-  "ganhos": 658,
+  "apostas": 1174,
+  "ganhos": 659,
   "perdidos": 515,
   "wr": 56.1,
   "meses": [
@@ -79,17 +79,17 @@
    {
     "mes": "2026-10",
     "label": "Out 26",
-    "cresc_pct": -2.84,
-    "apostas": 35,
-    "wr": 42.9
+    "cresc_pct": -2.23,
+    "apostas": 36,
+    "wr": 44.4
    }
   ],
   "por_mercado": [
    {
     "mercado": "Over Cantos FT",
-    "n": 645,
-    "wr": 58.1,
-    "roi": 34.26,
+    "n": 646,
+    "wr": 58.2,
+    "roi": 34.87,
     "pl_eur": 1369.94
    },
    {
@@ -136,7 +136,6 @@
    }
   ],
   "forma": [
-   "cashout",
    "perdido",
    "ganho",
    "ganho",
@@ -149,6 +148,7 @@
    "ganho",
    "ganho",
    "cashout",
+   "ganho",
    "ganho",
    "ganho"
   ],
@@ -159,13 +159,13 @@
     "jogo": "Bryne x Raufoss",
     "mercado": "⛳ Over 5.5 corners · FT",
     "categoria": "Over Cantos FT",
-    "odd": null,
-    "pl_pct": null,
+    "odd": 1.81,
+    "pl_pct": 0.608,
     "stake_pct": 0.75,
-    "resultado": "pendente",
+    "resultado": "ganho",
     "verified_id": "tip_proposal:20261014T183356393286Z:982a6d0c",
-    "estado_entrada": "aguarda_confirmacao",
-    "tipo_odd": "por_registar",
+    "estado_entrada": "confirmada",
+    "tipo_odd": "real",
     "odd_minima_recomendada": 1.81,
     "confianca": 7
    },
