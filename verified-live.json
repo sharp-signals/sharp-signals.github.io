@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-14T19:36:18Z",
-  "event_chain_head": "ea7f69e9df3d3c953ab8d4aa0836e77553b5ca2305510615c2851acf5dc1cd4e",
+  "generated_at": "2026-10-14T19:59:10Z",
+  "event_chain_head": "0140bdc5be376b06cacc509630a74c2347d20312c92b05d44c177d7838022ad5",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,10 +12,10 @@
   },
   "summary": {
     "total": 233,
-    "pending": 12,
-    "signals_settled": 73,
+    "pending": 11,
+    "signals_settled": 74,
     "official_entries_settled": 135,
-    "cancelled": 22
+    "cancelled": 23
   },
   "records": [
     {
@@ -30,11 +30,37 @@
     {
       "id": "ce1:1635733:ht",
       "kind": "signal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-10-14T19:27:06Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "208aef7e7e7b528d6f3dfc9749a739548179c76a236f8aec746e3a218eea7205",
-      "telegram_message_count": 2
+      "telegram_message_count": 2,
+      "settled_at": "2026-10-14T19:59:10Z",
+      "result": "CANCELADA",
+      "outcome": {
+        "corners_reference": 3,
+        "corners_final": 6,
+        "corners_after": 3,
+        "target": 2,
+        "technical_result": "WIN",
+        "entry_status": "cancelled",
+        "void_reason": "",
+        "approved_manually": true
+      },
+      "sealed_payload": {
+        "alert_id": "ce1:1635733:ht",
+        "classification": "scanner_signal_not_confirmed_bet",
+        "confidence": 7.5,
+        "corners_at_alert": 3,
+        "league": "UEFA Champions League",
+        "match": "Slovan Bratislava vs VfB Stuttgart",
+        "minimum_price": 1.75,
+        "minute": 27,
+        "score_at_alert": "0-0",
+        "suggestion": "🎯 ENTRADA SUGERIDA\nOver 4.5 cantos 1ª parte · odd mín. 1.75+\n↳ se sair +1 canto: sobe p/ Over 5.5 ou espera o Over 5",
+        "window": "HT ATTACK"
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20261014T192615878609Z:71f838fb",
