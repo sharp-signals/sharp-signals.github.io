@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-14T17:48:00Z",
-  "event_chain_head": "221c9e86cbba0ef292824dfba8f802076786323c4ceb2fa10585b7de6d78f9c8",
+  "generated_at": "2026-10-14T17:52:34Z",
+  "event_chain_head": "62ae51b8a4de51b9c1f5796dabd50182019d42f5fc96e7f8f310df3fe48cc1a8",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,9 +12,9 @@
   },
   "summary": {
     "total": 229,
-    "pending": 10,
+    "pending": 9,
     "signals_settled": 73,
-    "official_entries_settled": 133,
+    "official_entries_settled": 134,
     "cancelled": 22
   },
   "records": [
@@ -53,11 +53,34 @@
     {
       "id": "tip_proposal:20261014T174118959883Z:7572312a",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-10-14T17:41:19Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "507154d15c3f393fcca1433115de9125d96822f00ceb65e9ad64e0da2d1312ad",
-      "telegram_message_count": 2
+      "telegram_message_count": 2,
+      "settled_at": "2026-10-14T17:52:34Z",
+      "result": "WIN",
+      "outcome": {
+        "odds": 2.02,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": 0.765,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20261014T174118959883Z:7572312a",
+        "market": "⛳ Over 9 corners · FT",
+        "match": "Al Jazira x Arkadag",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "ce1:1635742:shark",
