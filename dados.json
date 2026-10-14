@@ -8,10 +8,10 @@
    "fim": "2026-01-31"
   },
   "cresc_pct": 56.91,
-  "apostas": 1171,
-  "ganhos": 656,
+  "apostas": 1172,
+  "ganhos": 657,
   "perdidos": 515,
-  "wr": 56.0,
+  "wr": 56.1,
   "meses": [
    {
     "mes": "2025-08",
@@ -79,17 +79,17 @@
    {
     "mes": "2026-10",
     "label": "Out 26",
-    "cresc_pct": -4.24,
-    "apostas": 33,
-    "wr": 39.4
+    "cresc_pct": -3.61,
+    "apostas": 34,
+    "wr": 41.2
    }
   ],
   "por_mercado": [
    {
     "mercado": "Over Cantos FT",
-    "n": 643,
-    "wr": 58.0,
-    "roi": 32.86,
+    "n": 644,
+    "wr": 58.1,
+    "roi": 33.49,
     "pl_eur": 1369.94
    },
    {
@@ -136,7 +136,6 @@
    }
   ],
   "forma": [
-   "cashout",
    "ganho",
    "cashout",
    "perdido",
@@ -150,7 +149,8 @@
    "ganho",
    "ganho",
    "ganho",
-   "cashout"
+   "cashout",
+   "ganho"
   ],
   "historico": [
    {
@@ -159,13 +159,13 @@
     "jogo": "Al Jazira x Arkadag",
     "mercado": "⛳ Over 6.5 corners · Al Jazira · FT",
     "categoria": "Over Cantos FT",
-    "odd": null,
-    "pl_pct": null,
+    "odd": 1.84,
+    "pl_pct": 0.63,
     "stake_pct": 0.75,
-    "resultado": "pendente",
+    "resultado": "ganho",
     "verified_id": "tip_proposal:20261014T174316827592Z:34bd74ca",
-    "estado_entrada": "aguarda_confirmacao",
-    "tipo_odd": "por_registar",
+    "estado_entrada": "confirmada",
+    "tipo_odd": "real",
     "odd_minima_recomendada": 1.81,
     "confianca": 7
    },
