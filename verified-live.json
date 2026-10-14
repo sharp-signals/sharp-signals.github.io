@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-14T20:01:46Z",
-  "event_chain_head": "864a38b324cb4588790a25f5f73ac5d58a6005a5512fdc20698d053efaf35911",
+  "generated_at": "2026-10-14T20:01:56Z",
+  "event_chain_head": "5d7ec2146531c150838cc6724947bee0efc7ddb282d257dfddee0676c6ccd3c4",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,20 +12,43 @@
   },
   "summary": {
     "total": 234,
-    "pending": 10,
+    "pending": 9,
     "signals_settled": 74,
-    "official_entries_settled": 137,
+    "official_entries_settled": 138,
     "cancelled": 23
   },
   "records": [
     {
       "id": "tip_proposal:20261014T200145994925Z:876a0f1e",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-10-14T20:01:46Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "2c59a109174f3c192d1dd18d791b63483fff57a586b2bffef11d9bf302ce2662",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-10-14T20:01:56Z",
+      "result": "WIN",
+      "outcome": {
+        "odds": 1.84,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": 0.63,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20261014T200145994925Z:876a0f1e",
+        "market": "⛳ Over 6 corners · 1st half",
+        "match": "Lincoln x West Ham",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20261014T193618558306Z:26338b89",
