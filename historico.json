@@ -3804,5 +3804,27 @@
       "golos_apos_casa": 0,
       "golos_apos_fora": 0
     }
+  ],
+  "2026-10-15": [
+    {
+      "alerta_id": "ce1:1493164:ht",
+      "fixture_id": 1493164,
+      "timestamp": "2026-10-15T00:10:08.218908",
+      "jogo": "Sarmiento Junin vs River Plate",
+      "liga": "Liga Profesional Argentina",
+      "janela": "HT ATTACK",
+      "tempo_alerta": 30,
+      "estrelas": 9.5,
+      "cantos_no_ref": 6,
+      "cantos_final": 8,
+      "cantos_apos_alerta": 2,
+      "meta_cantos": 2,
+      "resultado": "WIN",
+      "resultado_tecnico": "WIN",
+      "estado_entrada": "CONFIRMADA",
+      "justificacao_void": "",
+      "golos_apos_casa": 0,
+      "golos_apos_fora": 0
+    }
   ]
 }
