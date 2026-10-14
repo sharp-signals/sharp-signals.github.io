@@ -3762,5 +3762,27 @@
       "golos_apos_casa": 2,
       "golos_apos_fora": 3
     }
+  ],
+  "2026-10-14": [
+    {
+      "alerta_id": "ce1:1635733:ht",
+      "fixture_id": 1635733,
+      "timestamp": "2026-10-14T20:59:06.478011",
+      "jogo": "Slovan Bratislava vs VfB Stuttgart",
+      "liga": "UEFA Champions League",
+      "janela": "HT ATTACK",
+      "tempo_alerta": 27,
+      "estrelas": 7.5,
+      "cantos_no_ref": 3,
+      "cantos_final": 6,
+      "cantos_apos_alerta": 3,
+      "meta_cantos": 2,
+      "resultado": "CANCELADA",
+      "resultado_tecnico": "WIN",
+      "estado_entrada": "CANCELADA",
+      "justificacao_void": "",
+      "golos_apos_casa": 0,
+      "golos_apos_fora": 1
+    }
   ]
 }
