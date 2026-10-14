@@ -8,10 +8,10 @@
    "fim": "2026-01-31"
   },
   "cresc_pct": 56.91,
-  "apostas": 1174,
-  "ganhos": 659,
+  "apostas": 1175,
+  "ganhos": 660,
   "perdidos": 515,
-  "wr": 56.1,
+  "wr": 56.2,
   "meses": [
    {
     "mes": "2025-08",
@@ -79,9 +79,9 @@
    {
     "mes": "2026-10",
     "label": "Out 26",
-    "cresc_pct": -2.23,
-    "apostas": 36,
-    "wr": 44.4
+    "cresc_pct": -1.55,
+    "apostas": 37,
+    "wr": 45.9
    }
   ],
   "por_mercado": [
@@ -115,9 +115,9 @@
    },
    {
     "mercado": "Race to X corners",
-    "n": 45,
-    "wr": 66.7,
-    "roi": 8.24,
+    "n": 46,
+    "wr": 67.4,
+    "roi": 8.92,
     "pl_eur": 324.76
    },
    {
@@ -136,7 +136,6 @@
    }
   ],
   "forma": [
-   "perdido",
    "ganho",
    "ganho",
    "cashout",
@@ -148,6 +147,7 @@
    "ganho",
    "ganho",
    "cashout",
+   "ganho",
    "ganho",
    "ganho",
    "ganho"
@@ -159,13 +159,13 @@
     "jogo": "Santarem x Gil Vicente",
     "mercado": "🏁 Race to 7 corners · Gil Vicente",
     "categoria": "Race to X corners",
-    "odd": null,
-    "pl_pct": null,
+    "odd": 1.91,
+    "pl_pct": 0.682,
     "stake_pct": 0.75,
-    "resultado": "pendente",
+    "resultado": "ganho",
     "verified_id": "tip_proposal:20261014T193618558306Z:26338b89",
-    "estado_entrada": "aguarda_confirmacao",
-    "tipo_odd": "por_registar",
+    "estado_entrada": "confirmada",
+    "tipo_odd": "real",
     "odd_minima_recomendada": 1.81,
     "confianca": 7
    },
