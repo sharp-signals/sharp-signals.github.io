@@ -3845,6 +3845,26 @@
       "justificacao_void": "",
       "golos_apos_casa": 0,
       "golos_apos_fora": 1
+    },
+    {
+      "alerta_id": "ce1:1636350:mid",
+      "fixture_id": 1636350,
+      "timestamp": "2026-10-15T20:21:49.846574",
+      "jogo": "Torreense vs Sunderland",
+      "liga": "UEFA Europa League",
+      "janela": "MID PRESSURE",
+      "tempo_alerta": 68,
+      "estrelas": 7.0,
+      "cantos_no_ref": 10,
+      "cantos_final": 11,
+      "cantos_apos_alerta": 1,
+      "meta_cantos": 3,
+      "resultado": "LOSS",
+      "resultado_tecnico": "LOSS",
+      "estado_entrada": "CONFIRMADA",
+      "justificacao_void": "",
+      "golos_apos_casa": 0,
+      "golos_apos_fora": 1
     }
   ]
 }
