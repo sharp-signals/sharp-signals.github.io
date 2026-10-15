@@ -17,8 +17,8 @@
    "pode_nao_publicar": true
   }
  },
- "atualizado": "2026-10-15T02:41:02",
- "dia_trading": "2026-10-14",
+ "atualizado": "2026-10-15T06:06:10",
+ "dia_trading": "2026-10-15",
  "geral": {
   "inicio": "2026-06-06",
   "fim": "2026-10-14",
@@ -113,12 +113,12 @@
   "desde": "2026-06-21"
  },
  "diario": {
-  "inicio": "2026-10-14",
-  "fim": "2026-10-14",
-  "sinais": 2,
-  "sinais_financeiros": 2,
+  "inicio": "2026-10-15",
+  "fim": "2026-10-15",
+  "sinais": 0,
+  "sinais_financeiros": 0,
   "ganhos": 0,
-  "perdidos": 2,
+  "perdidos": 0,
   "push": 0,
   "pendentes": 0,
   "condicionais": 0,
@@ -127,27 +127,13 @@
   "condicionais_push": 0,
   "condicionais_pendentes": 0,
   "wr": 0.0,
-  "lucro_u": -2.0,
-  "roi": -100.0,
-  "por_estrategia": {
-   "Golos 2ª Parte": {
-    "n": 2,
-    "g": 0,
-    "p": 2,
-    "lucro": -2.0,
-    "condicionais": 0,
-    "condicionais_g": 0,
-    "condicionais_p": 0,
-    "condicionais_push": 0,
-    "condicionais_pendentes": 0,
-    "n_financeiros": 2,
-    "wr": 0.0
-   }
-  }
+  "lucro_u": 0.0,
+  "roi": 0.0,
+  "por_estrategia": {}
  },
  "semanal": {
   "inicio": "2026-10-12",
-  "fim": "2026-10-14",
+  "fim": "2026-10-15",
   "sinais": 11,
   "sinais_financeiros": 11,
   "ganhos": 6,
@@ -180,7 +166,7 @@
  },
  "mensal": {
   "inicio": "2026-10-01",
-  "fim": "2026-10-14",
+  "fim": "2026-10-15",
   "sinais": 44,
   "sinais_financeiros": 44,
   "ganhos": 26,
@@ -1732,12 +1718,12 @@
     }
    },
    "diario": {
-    "inicio": "2026-10-14",
-    "fim": "2026-10-14",
-    "sinais": 2,
-    "sinais_financeiros": 2,
+    "inicio": "2026-10-15",
+    "fim": "2026-10-15",
+    "sinais": 0,
+    "sinais_financeiros": 0,
     "ganhos": 0,
-    "perdidos": 2,
+    "perdidos": 0,
     "push": 0,
     "pendentes": 0,
     "condicionais": 0,
@@ -1746,27 +1732,13 @@
     "condicionais_push": 0,
     "condicionais_pendentes": 0,
     "wr": 0.0,
-    "lucro_u": -2.0,
-    "roi": -100.0,
-    "por_estrategia": {
-     "Golos 2ª Parte": {
-      "n": 2,
-      "g": 0,
-      "p": 2,
-      "lucro": -2.0,
-      "condicionais": 0,
-      "condicionais_g": 0,
-      "condicionais_p": 0,
-      "condicionais_push": 0,
-      "condicionais_pendentes": 0,
-      "n_financeiros": 2,
-      "wr": 0.0
-     }
-    }
+    "lucro_u": 0.0,
+    "roi": 0.0,
+    "por_estrategia": {}
    },
    "semanal": {
     "inicio": "2026-10-12",
-    "fim": "2026-10-14",
+    "fim": "2026-10-15",
     "sinais": 11,
     "sinais_financeiros": 11,
     "ganhos": 6,
@@ -1799,7 +1771,7 @@
    },
    "mensal": {
     "inicio": "2026-10-01",
-    "fim": "2026-10-14",
+    "fim": "2026-10-15",
     "sinais": 44,
     "sinais_financeiros": 44,
     "ganhos": 26,
@@ -2342,8 +2314,8 @@
     }
    },
    "diario": {
-    "inicio": "2026-10-14",
-    "fim": "2026-10-14",
+    "inicio": "2026-10-15",
+    "fim": "2026-10-15",
     "sinais": 0,
     "sinais_financeiros": 0,
     "ganhos": 0,
@@ -2362,7 +2334,7 @@
    },
    "semanal": {
     "inicio": "2026-10-12",
-    "fim": "2026-10-14",
+    "fim": "2026-10-15",
     "sinais": 0,
     "sinais_financeiros": 0,
     "ganhos": 0,
@@ -2381,7 +2353,7 @@
    },
    "mensal": {
     "inicio": "2026-10-01",
-    "fim": "2026-10-14",
+    "fim": "2026-10-15",
     "sinais": 0,
     "sinais_financeiros": 0,
     "ganhos": 0,
@@ -2477,12 +2449,12 @@
     }
    },
    "diario": {
-    "inicio": "2026-10-14",
-    "fim": "2026-10-14",
-    "sinais": 2,
-    "sinais_financeiros": 2,
+    "inicio": "2026-10-15",
+    "fim": "2026-10-15",
+    "sinais": 0,
+    "sinais_financeiros": 0,
     "ganhos": 0,
-    "perdidos": 2,
+    "perdidos": 0,
     "push": 0,
     "pendentes": 0,
     "condicionais": 0,
@@ -2491,27 +2463,13 @@
     "condicionais_push": 0,
     "condicionais_pendentes": 0,
     "wr": 0.0,
-    "lucro_u": -2.0,
-    "roi": -100.0,
-    "por_estrategia": {
-     "Golos 2ª Parte": {
-      "n": 2,
-      "g": 0,
-      "p": 2,
-      "lucro": -2.0,
-      "condicionais": 0,
-      "condicionais_g": 0,
-      "condicionais_p": 0,
-      "condicionais_push": 0,
-      "condicionais_pendentes": 0,
-      "n_financeiros": 2,
-      "wr": 0.0
-     }
-    }
+    "lucro_u": 0.0,
+    "roi": 0.0,
+    "por_estrategia": {}
    },
    "semanal": {
     "inicio": "2026-10-12",
-    "fim": "2026-10-14",
+    "fim": "2026-10-15",
     "sinais": 11,
     "sinais_financeiros": 11,
     "ganhos": 6,
@@ -2544,7 +2502,7 @@
    },
    "mensal": {
     "inicio": "2026-10-01",
-    "fim": "2026-10-14",
+    "fim": "2026-10-15",
     "sinais": 38,
     "sinais_financeiros": 38,
     "ganhos": 23,
@@ -2888,8 +2846,8 @@
     }
    },
    "diario": {
-    "inicio": "2026-10-14",
-    "fim": "2026-10-14",
+    "inicio": "2026-10-15",
+    "fim": "2026-10-15",
     "sinais": 0,
     "sinais_financeiros": 0,
     "ganhos": 0,
@@ -2908,7 +2866,7 @@
    },
    "semanal": {
     "inicio": "2026-10-12",
-    "fim": "2026-10-14",
+    "fim": "2026-10-15",
     "sinais": 0,
     "sinais_financeiros": 0,
     "ganhos": 0,
@@ -2927,7 +2885,7 @@
    },
    "mensal": {
     "inicio": "2026-10-01",
-    "fim": "2026-10-14",
+    "fim": "2026-10-15",
     "sinais": 6,
     "sinais_financeiros": 6,
     "ganhos": 3,
@@ -3275,28 +3233,16 @@
  },
  "tip_do_dia": [
   {
-   "hora": "18:00",
-   "liga": "Ligue 1",
-   "jogo": "ES Setif vs JS Kabylie",
+   "hora": "15:50",
+   "liga": "Saudi Pro League",
+   "jogo": "Al Khaleej vs Al Fayha",
    "mercado": "Over 1.5 · 2ª parte",
-   "odd": 2.8,
-   "bilhete": "dupla",
-   "ticket_id": "prelive:2026-10-14:1",
+   "odd": 2.2,
+   "bilhete": "simples",
+   "ticket_id": "prelive:2026-10-15:1",
    "ticket_slot": 1,
    "fire": false,
-   "resultado": "perdido"
-  },
-  {
-   "hora": "18:00",
-   "liga": "Ligue 1",
-   "jogo": "Témouchent vs MB Rouisset",
-   "mercado": "Over 1.5 · 2ª parte",
-   "odd": 3.0,
-   "bilhete": "dupla",
-   "ticket_id": "prelive:2026-10-14:1",
-   "ticket_slot": 1,
-   "fire": false,
-   "resultado": "perdido"
+   "resultado": null
   }
  ],
  "por_estrategia": {
@@ -3344,80 +3290,60 @@
   "nome": "Pré-Live Grátis",
   "descricao": "Bilhete partilhado no canal gratuito · até um por dia · 1u",
   "publication_scope": "free_confirmed_only",
-  "boletins": 16,
+  "boletins": 17,
   "greens": 3,
   "reds": 13,
-  "pendentes": 0,
+  "pendentes": 1,
   "lucro": 9.07,
   "ultimos": [
    {
-    "ticket_id": "prelive:2026-10-14:1",
+    "ticket_id": "prelive:2026-10-15:1",
     "ticket_slot": 1,
     "free_publication_confirmed": true,
     "publication_channel": "free",
-    "data": "2026-10-14",
-    "tipo": "dupla",
-    "odd": 8.4,
-    "resultado": "red",
+    "data": "2026-10-15",
+    "tipo": "simples",
+    "odd": 2.2,
+    "resultado": null,
     "u": 1.0,
-    "published_at": "2026-10-14T06:03:16+01:00",
+    "published_at": "2026-10-15T06:06:08+01:00",
     "publication_confirmed": true,
     "pernas": [
      {
-      "fixture_id": 1611414,
-      "casa": "ES Setif",
-      "fora": "JS Kabylie",
+      "fixture_id": 1603049,
+      "casa": "Al Khaleej",
+      "fora": "Al Fayha",
       "liga": null,
-      "hora": "18:00",
+      "hora": "15:50",
       "mercado": null,
-      "odd": 2.8,
-      "resultado": "perdido"
-     },
-     {
-      "fixture_id": 1611417,
-      "casa": "Témouchent",
-      "fora": "MB Rouisset",
-      "liga": null,
-      "hora": "18:00",
-      "mercado": null,
-      "odd": 3.0,
-      "resultado": "perdido"
+      "odd": 2.2,
+      "resultado": null
      }
     ]
    }
   ],
   "ultimo": {
-   "ticket_id": "prelive:2026-10-14:1",
+   "ticket_id": "prelive:2026-10-15:1",
    "ticket_slot": 1,
    "free_publication_confirmed": true,
    "publication_channel": "free",
-   "data": "2026-10-14",
-   "tipo": "dupla",
-   "odd": 8.4,
-   "resultado": "red",
+   "data": "2026-10-15",
+   "tipo": "simples",
+   "odd": 2.2,
+   "resultado": null,
    "u": 1.0,
-   "published_at": "2026-10-14T06:03:16+01:00",
+   "published_at": "2026-10-15T06:06:08+01:00",
    "publication_confirmed": true,
    "pernas": [
     {
-     "fixture_id": 1611414,
-     "casa": "ES Setif",
-     "fora": "JS Kabylie",
+     "fixture_id": 1603049,
+     "casa": "Al Khaleej",
+     "fora": "Al Fayha",
      "liga": null,
-     "hora": "18:00",
+     "hora": "15:50",
      "mercado": null,
-     "odd": 2.8,
-     "resultado": "perdido"
-    },
-    {
-     "fixture_id": 1611417,
-     "casa": "Témouchent",
-     "fora": "MB Rouisset",
-     "liga": null,
-     "hora": "18:00",
-     "mercado": null,
-     "odd": 3.0,
-     "resultado": "perdido"
+     "odd": 2.2,
+     "resultado": null
     }
    ]
   },
@@ -4069,6 +3995,31 @@
       "mercado": null,
       "odd": 3.0,
       "resultado": "perdido"
+     }
+    ]
+   },
+   {
+    "ticket_id": "prelive:2026-10-15:1",
+    "ticket_slot": 1,
+    "free_publication_confirmed": true,
+    "publication_channel": "free",
+    "data": "2026-10-15",
+    "tipo": "simples",
+    "odd": 2.2,
+    "resultado": null,
+    "u": 1.0,
+    "published_at": "2026-10-15T06:06:08+01:00",
+    "publication_confirmed": true,
+    "pernas": [
+     {
+      "fixture_id": 1603049,
+      "casa": "Al Khaleej",
+      "fora": "Al Fayha",
+      "liga": null,
+      "hora": "15:50",
+      "mercado": null,
+      "odd": 2.2,
+      "resultado": null
      }
     ]
    }
