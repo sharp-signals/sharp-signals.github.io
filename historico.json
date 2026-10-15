@@ -3825,6 +3825,26 @@
       "justificacao_void": "",
       "golos_apos_casa": 0,
       "golos_apos_fora": 0
+    },
+    {
+      "alerta_id": "ce1:1630374:final",
+      "fixture_id": 1630374,
+      "timestamp": "2026-10-15T15:51:06.878411",
+      "jogo": "Tampines Rovers vs Machida Zelvia",
+      "liga": "AFC Champions League Two",
+      "janela": "FINAL PUSH",
+      "tempo_alerta": 79,
+      "estrelas": 7.0,
+      "cantos_no_ref": 5,
+      "cantos_final": 7,
+      "cantos_apos_alerta": 2,
+      "meta_cantos": 2,
+      "resultado": "WIN",
+      "resultado_tecnico": "WIN",
+      "estado_entrada": "CONFIRMADA",
+      "justificacao_void": "",
+      "golos_apos_casa": 0,
+      "golos_apos_fora": 1
     }
   ]
 }
