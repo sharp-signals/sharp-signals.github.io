@@ -17,8 +17,8 @@
    "pode_nao_publicar": true
   }
  },
- "atualizado": "2026-10-15T18:00:14",
- "dia_trading": "2026-10-15",
+ "atualizado": "2026-10-16T06:02:03",
+ "dia_trading": "2026-10-16",
  "geral": {
   "inicio": "2026-06-06",
   "fim": "2026-10-14",
@@ -113,8 +113,8 @@
   "desde": "2026-06-21"
  },
  "diario": {
-  "inicio": "2026-10-15",
-  "fim": "2026-10-15",
+  "inicio": "2026-10-16",
+  "fim": "2026-10-16",
   "sinais": 0,
   "sinais_financeiros": 0,
   "ganhos": 0,
@@ -133,7 +133,7 @@
  },
  "semanal": {
   "inicio": "2026-10-12",
-  "fim": "2026-10-15",
+  "fim": "2026-10-16",
   "sinais": 11,
   "sinais_financeiros": 11,
   "ganhos": 6,
@@ -166,7 +166,7 @@
  },
  "mensal": {
   "inicio": "2026-10-01",
-  "fim": "2026-10-15",
+  "fim": "2026-10-16",
   "sinais": 44,
   "sinais_financeiros": 44,
   "ganhos": 26,
@@ -1718,8 +1718,8 @@
     }
    },
    "diario": {
-    "inicio": "2026-10-15",
-    "fim": "2026-10-15",
+    "inicio": "2026-10-16",
+    "fim": "2026-10-16",
     "sinais": 0,
     "sinais_financeiros": 0,
     "ganhos": 0,
@@ -1738,7 +1738,7 @@
    },
    "semanal": {
     "inicio": "2026-10-12",
-    "fim": "2026-10-15",
+    "fim": "2026-10-16",
     "sinais": 11,
     "sinais_financeiros": 11,
     "ganhos": 6,
@@ -1771,7 +1771,7 @@
    },
    "mensal": {
     "inicio": "2026-10-01",
-    "fim": "2026-10-15",
+    "fim": "2026-10-16",
     "sinais": 44,
     "sinais_financeiros": 44,
     "ganhos": 26,
@@ -2314,8 +2314,8 @@
     }
    },
    "diario": {
-    "inicio": "2026-10-15",
-    "fim": "2026-10-15",
+    "inicio": "2026-10-16",
+    "fim": "2026-10-16",
     "sinais": 0,
     "sinais_financeiros": 0,
     "ganhos": 0,
@@ -2334,7 +2334,7 @@
    },
    "semanal": {
     "inicio": "2026-10-12",
-    "fim": "2026-10-15",
+    "fim": "2026-10-16",
     "sinais": 0,
     "sinais_financeiros": 0,
     "ganhos": 0,
@@ -2353,7 +2353,7 @@
    },
    "mensal": {
     "inicio": "2026-10-01",
-    "fim": "2026-10-15",
+    "fim": "2026-10-16",
     "sinais": 0,
     "sinais_financeiros": 0,
     "ganhos": 0,
@@ -2449,8 +2449,8 @@
     }
    },
    "diario": {
-    "inicio": "2026-10-15",
-    "fim": "2026-10-15",
+    "inicio": "2026-10-16",
+    "fim": "2026-10-16",
     "sinais": 0,
     "sinais_financeiros": 0,
     "ganhos": 0,
@@ -2469,7 +2469,7 @@
    },
    "semanal": {
     "inicio": "2026-10-12",
-    "fim": "2026-10-15",
+    "fim": "2026-10-16",
     "sinais": 11,
     "sinais_financeiros": 11,
     "ganhos": 6,
@@ -2502,7 +2502,7 @@
    },
    "mensal": {
     "inicio": "2026-10-01",
-    "fim": "2026-10-15",
+    "fim": "2026-10-16",
     "sinais": 38,
     "sinais_financeiros": 38,
     "ganhos": 23,
@@ -2846,8 +2846,8 @@
     }
    },
    "diario": {
-    "inicio": "2026-10-15",
-    "fim": "2026-10-15",
+    "inicio": "2026-10-16",
+    "fim": "2026-10-16",
     "sinais": 0,
     "sinais_financeiros": 0,
     "ganhos": 0,
@@ -2866,7 +2866,7 @@
    },
    "semanal": {
     "inicio": "2026-10-12",
-    "fim": "2026-10-15",
+    "fim": "2026-10-16",
     "sinais": 0,
     "sinais_financeiros": 0,
     "ganhos": 0,
@@ -2885,7 +2885,7 @@
    },
    "mensal": {
     "inicio": "2026-10-01",
-    "fim": "2026-10-15",
+    "fim": "2026-10-16",
     "sinais": 6,
     "sinais_financeiros": 6,
     "ganhos": 3,
@@ -3231,20 +3231,7 @@
    "dias_verde_pct": 41.7
   }
  },
- "tip_do_dia": [
-  {
-   "hora": "15:50",
-   "liga": "Saudi Pro League",
-   "jogo": "Al Khaleej vs Al Fayha",
-   "mercado": "Over 1.5 · 2ª parte",
-   "odd": 2.2,
-   "bilhete": "simples",
-   "ticket_id": "prelive:2026-10-15:1",
-   "ticket_slot": 1,
-   "fire": false,
-   "resultado": "ganho"
-  }
- ],
+ "tip_do_dia": [],
  "por_estrategia": {
   "Golos (arquivo)": {
    "n": 31,
