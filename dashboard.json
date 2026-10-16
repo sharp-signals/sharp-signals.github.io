@@ -17,7 +17,7 @@
    "pode_nao_publicar": true
   }
  },
- "atualizado": "2026-10-16T06:02:03",
+ "atualizado": "2026-10-16T06:24:39",
  "dia_trading": "2026-10-16",
  "geral": {
   "inicio": "2026-06-06",
@@ -3231,7 +3231,44 @@
    "dias_verde_pct": 41.7
   }
  },
- "tip_do_dia": [],
+ "tip_do_dia": [
+  {
+   "hora": "04:00",
+   "liga": "Liga MX",
+   "jogo": "Atlante vs Pumas UNAM",
+   "mercado": "Over 1.5 · 2ª parte",
+   "odd": 1.97,
+   "bilhete": "tripla",
+   "ticket_id": "prelive:2026-10-16:1",
+   "ticket_slot": 1,
+   "fire": false,
+   "resultado": null
+  },
+  {
+   "hora": "19:45",
+   "liga": "First Division",
+   "jogo": "Treaty United vs Cobh Ramblers",
+   "mercado": "Over 1.5 · 2ª parte",
+   "odd": 2.0,
+   "bilhete": "tripla",
+   "ticket_id": "prelive:2026-10-16:1",
+   "ticket_slot": 1,
+   "fire": false,
+   "resultado": null
+  },
+  {
+   "hora": "01:00",
+   "liga": "Primera Nacional",
+   "jogo": "Atletico DE Rafaela vs Quilmes",
+   "mercado": "Over 1.5 · 2ª parte",
+   "odd": 2.8,
+   "bilhete": "tripla",
+   "ticket_id": "prelive:2026-10-16:1",
+   "ticket_slot": 1,
+   "fire": false,
+   "resultado": null
+  }
+ ],
  "por_estrategia": {
   "Golos (arquivo)": {
    "n": 31,
@@ -3277,60 +3314,100 @@
   "nome": "Pré-Live Grátis",
   "descricao": "Bilhete partilhado no canal gratuito · até um por dia · 1u",
   "publication_scope": "free_confirmed_only",
-  "boletins": 17,
+  "boletins": 18,
   "greens": 4,
   "reds": 13,
-  "pendentes": 0,
+  "pendentes": 1,
   "lucro": 10.27,
   "ultimos": [
    {
-    "ticket_id": "prelive:2026-10-15:1",
+    "ticket_id": "prelive:2026-10-16:1",
     "ticket_slot": 1,
     "free_publication_confirmed": true,
     "publication_channel": "free",
-    "data": "2026-10-15",
-    "tipo": "simples",
-    "odd": 2.2,
-    "resultado": "green",
+    "data": "2026-10-16",
+    "tipo": "tripla",
+    "odd": 11.03,
+    "resultado": null,
     "u": 1.0,
-    "published_at": "2026-10-15T06:06:08+01:00",
+    "published_at": "2026-10-16T06:24:02+01:00",
     "publication_confirmed": true,
     "pernas": [
      {
-      "fixture_id": 1603049,
-      "casa": "Al Khaleej",
-      "fora": "Al Fayha",
+      "fixture_id": 1550995,
+      "casa": "Atlante",
+      "fora": "Pumas UNAM",
       "liga": null,
-      "hora": "15:50",
+      "hora": "04:00",
       "mercado": null,
-      "odd": 2.2,
-      "resultado": "ganho"
+      "odd": 1.97,
+      "resultado": null
+     },
+     {
+      "fixture_id": 1492998,
+      "casa": "Treaty United",
+      "fora": "Cobh Ramblers",
+      "liga": null,
+      "hora": "19:45",
+      "mercado": null,
+      "odd": 2.0,
+      "resultado": null
+     },
+     {
+      "fixture_id": 1498885,
+      "casa": "Atletico DE Rafaela",
+      "fora": "Quilmes",
+      "liga": null,
+      "hora": "01:00",
+      "mercado": null,
+      "odd": 2.8,
+      "resultado": null
      }
     ]
    }
   ],
   "ultimo": {
-   "ticket_id": "prelive:2026-10-15:1",
+   "ticket_id": "prelive:2026-10-16:1",
    "ticket_slot": 1,
    "free_publication_confirmed": true,
    "publication_channel": "free",
-   "data": "2026-10-15",
-   "tipo": "simples",
-   "odd": 2.2,
-   "resultado": "green",
+   "data": "2026-10-16",
+   "tipo": "tripla",
+   "odd": 11.03,
+   "resultado": null,
    "u": 1.0,
-   "published_at": "2026-10-15T06:06:08+01:00",
+   "published_at": "2026-10-16T06:24:02+01:00",
    "publication_confirmed": true,
    "pernas": [
     {
-     "fixture_id": 1603049,
-     "casa": "Al Khaleej",
-     "fora": "Al Fayha",
+     "fixture_id": 1550995,
+     "casa": "Atlante",
+     "fora": "Pumas UNAM",
      "liga": null,
-     "hora": "15:50",
+     "hora": "04:00",
      "mercado": null,
-     "odd": 2.2,
-     "resultado": "ganho"
+     "odd": 1.97,
+     "resultado": null
+    },
+    {
+     "fixture_id": 1492998,
+     "casa": "Treaty United",
+     "fora": "Cobh Ramblers",
+     "liga": null,
+     "hora": "19:45",
+     "mercado": null,
+     "odd": 2.0,
+     "resultado": null
+    },
+    {
+     "fixture_id": 1498885,
+     "casa": "Atletico DE Rafaela",
+     "fora": "Quilmes",
+     "liga": null,
+     "hora": "01:00",
+     "mercado": null,
+     "odd": 2.8,
+     "resultado": null
     }
    ]
   },
@@ -4007,6 +4084,51 @@
       "mercado": null,
       "odd": 2.2,
       "resultado": "ganho"
+     }
+    ]
+   },
+   {
+    "ticket_id": "prelive:2026-10-16:1",
+    "ticket_slot": 1,
+    "free_publication_confirmed": true,
+    "publication_channel": "free",
+    "data": "2026-10-16",
+    "tipo": "tripla",
+    "odd": 11.03,
+    "resultado": null,
+    "u": 1.0,
+    "published_at": "2026-10-16T06:24:02+01:00",
+    "publication_confirmed": true,
+    "pernas": [
+     {
+      "fixture_id": 1550995,
+      "casa": "Atlante",
+      "fora": "Pumas UNAM",
+      "liga": null,
+      "hora": "04:00",
+      "mercado": null,
+      "odd": 1.97,
+      "resultado": null
+     },
+     {
+      "fixture_id": 1492998,
+      "casa": "Treaty United",
+      "fora": "Cobh Ramblers",
+      "liga": null,
+      "hora": "19:45",
+      "mercado": null,
+      "odd": 2.0,
+      "resultado": null
+     },
+     {
+      "fixture_id": 1498885,
+      "casa": "Atletico DE Rafaela",
+      "fora": "Quilmes",
+      "liga": null,
+      "hora": "01:00",
+      "mercado": null,
+      "odd": 2.8,
+      "resultado": null
      }
     ]
    }
