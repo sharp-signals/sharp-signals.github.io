@@ -17,8 +17,8 @@
    "pode_nao_publicar": true
   }
  },
- "atualizado": "2026-10-19T04:17:42",
- "dia_trading": "2026-10-18",
+ "atualizado": "2026-10-19T06:06:26",
+ "dia_trading": "2026-10-19",
  "geral": {
   "inicio": "2026-06-06",
   "fim": "2026-10-18",
@@ -113,12 +113,12 @@
   "desde": "2026-06-21"
  },
  "diario": {
-  "inicio": "2026-10-18",
-  "fim": "2026-10-18",
-  "sinais": 10,
-  "sinais_financeiros": 10,
-  "ganhos": 3,
-  "perdidos": 7,
+  "inicio": "2026-10-19",
+  "fim": "2026-10-19",
+  "sinais": 0,
+  "sinais_financeiros": 0,
+  "ganhos": 0,
+  "perdidos": 0,
   "push": 0,
   "pendentes": 0,
   "condicionais": 0,
@@ -126,32 +126,18 @@
   "condicionais_perdidos": 0,
   "condicionais_push": 0,
   "condicionais_pendentes": 0,
-  "wr": 30.0,
-  "lucro_u": -3.7,
-  "roi": -37.0,
-  "por_estrategia": {
-   "Golos 2ª Parte": {
-    "n": 10,
-    "g": 3,
-    "p": 7,
-    "lucro": -3.7,
-    "condicionais": 0,
-    "condicionais_g": 0,
-    "condicionais_p": 0,
-    "condicionais_push": 0,
-    "condicionais_pendentes": 0,
-    "n_financeiros": 10,
-    "wr": 30.0
-   }
-  }
+  "wr": 0.0,
+  "lucro_u": 0.0,
+  "roi": 0.0,
+  "por_estrategia": {}
  },
  "semanal": {
-  "inicio": "2026-10-12",
-  "fim": "2026-10-18",
-  "sinais": 35,
-  "sinais_financeiros": 35,
-  "ganhos": 13,
-  "perdidos": 22,
+  "inicio": "2026-10-19",
+  "fim": "2026-10-19",
+  "sinais": 0,
+  "sinais_financeiros": 0,
+  "ganhos": 0,
+  "perdidos": 0,
   "push": 0,
   "pendentes": 0,
   "condicionais": 0,
@@ -159,28 +145,14 @@
   "condicionais_perdidos": 0,
   "condicionais_push": 0,
   "condicionais_pendentes": 0,
-  "wr": 37.1,
-  "lucro_u": -5.37,
-  "roi": -15.3,
-  "por_estrategia": {
-   "Golos 2ª Parte": {
-    "n": 35,
-    "g": 13,
-    "p": 22,
-    "lucro": -5.37,
-    "condicionais": 0,
-    "condicionais_g": 0,
-    "condicionais_p": 0,
-    "condicionais_push": 0,
-    "condicionais_pendentes": 0,
-    "n_financeiros": 35,
-    "wr": 37.1
-   }
-  }
+  "wr": 0.0,
+  "lucro_u": 0.0,
+  "roi": 0.0,
+  "por_estrategia": {}
  },
  "mensal": {
   "inicio": "2026-10-01",
-  "fim": "2026-10-18",
+  "fim": "2026-10-19",
   "sinais": 68,
   "sinais_financeiros": 68,
   "ganhos": 33,
@@ -1786,12 +1758,12 @@
     }
    },
    "diario": {
-    "inicio": "2026-10-18",
-    "fim": "2026-10-18",
-    "sinais": 10,
-    "sinais_financeiros": 10,
-    "ganhos": 3,
-    "perdidos": 7,
+    "inicio": "2026-10-19",
+    "fim": "2026-10-19",
+    "sinais": 0,
+    "sinais_financeiros": 0,
+    "ganhos": 0,
+    "perdidos": 0,
     "push": 0,
     "pendentes": 0,
     "condicionais": 0,
@@ -1799,32 +1771,18 @@
     "condicionais_perdidos": 0,
     "condicionais_push": 0,
     "condicionais_pendentes": 0,
-    "wr": 30.0,
-    "lucro_u": -3.7,
-    "roi": -37.0,
-    "por_estrategia": {
-     "Golos 2ª Parte": {
-      "n": 10,
-      "g": 3,
-      "p": 7,
-      "lucro": -3.7,
-      "condicionais": 0,
-      "condicionais_g": 0,
-      "condicionais_p": 0,
-      "condicionais_push": 0,
-      "condicionais_pendentes": 0,
-      "n_financeiros": 10,
-      "wr": 30.0
-     }
-    }
+    "wr": 0.0,
+    "lucro_u": 0.0,
+    "roi": 0.0,
+    "por_estrategia": {}
    },
    "semanal": {
-    "inicio": "2026-10-12",
-    "fim": "2026-10-18",
-    "sinais": 35,
-    "sinais_financeiros": 35,
-    "ganhos": 13,
-    "perdidos": 22,
+    "inicio": "2026-10-19",
+    "fim": "2026-10-19",
+    "sinais": 0,
+    "sinais_financeiros": 0,
+    "ganhos": 0,
+    "perdidos": 0,
     "push": 0,
     "pendentes": 0,
     "condicionais": 0,
@@ -1832,28 +1790,14 @@
     "condicionais_perdidos": 0,
     "condicionais_push": 0,
     "condicionais_pendentes": 0,
-    "wr": 37.1,
-    "lucro_u": -5.37,
-    "roi": -15.3,
-    "por_estrategia": {
-     "Golos 2ª Parte": {
-      "n": 35,
-      "g": 13,
-      "p": 22,
-      "lucro": -5.37,
-      "condicionais": 0,
-      "condicionais_g": 0,
-      "condicionais_p": 0,
-      "condicionais_push": 0,
-      "condicionais_pendentes": 0,
-      "n_financeiros": 35,
-      "wr": 37.1
-     }
-    }
+    "wr": 0.0,
+    "lucro_u": 0.0,
+    "roi": 0.0,
+    "por_estrategia": {}
    },
    "mensal": {
     "inicio": "2026-10-01",
-    "fim": "2026-10-18",
+    "fim": "2026-10-19",
     "sinais": 68,
     "sinais_financeiros": 68,
     "ganhos": 33,
@@ -2414,8 +2358,8 @@
     }
    },
    "diario": {
-    "inicio": "2026-10-18",
-    "fim": "2026-10-18",
+    "inicio": "2026-10-19",
+    "fim": "2026-10-19",
     "sinais": 0,
     "sinais_financeiros": 0,
     "ganhos": 0,
@@ -2433,8 +2377,8 @@
     "por_estrategia": {}
    },
    "semanal": {
-    "inicio": "2026-10-12",
-    "fim": "2026-10-18",
+    "inicio": "2026-10-19",
+    "fim": "2026-10-19",
     "sinais": 0,
     "sinais_financeiros": 0,
     "ganhos": 0,
@@ -2453,7 +2397,7 @@
    },
    "mensal": {
     "inicio": "2026-10-01",
-    "fim": "2026-10-18",
+    "fim": "2026-10-19",
     "sinais": 0,
     "sinais_financeiros": 0,
     "ganhos": 0,
@@ -2549,12 +2493,12 @@
     }
    },
    "diario": {
-    "inicio": "2026-10-18",
-    "fim": "2026-10-18",
-    "sinais": 10,
-    "sinais_financeiros": 10,
-    "ganhos": 3,
-    "perdidos": 7,
+    "inicio": "2026-10-19",
+    "fim": "2026-10-19",
+    "sinais": 0,
+    "sinais_financeiros": 0,
+    "ganhos": 0,
+    "perdidos": 0,
     "push": 0,
     "pendentes": 0,
     "condicionais": 0,
@@ -2562,32 +2506,18 @@
     "condicionais_perdidos": 0,
     "condicionais_push": 0,
     "condicionais_pendentes": 0,
-    "wr": 30.0,
-    "lucro_u": -3.7,
-    "roi": -37.0,
-    "por_estrategia": {
-     "Golos 2ª Parte": {
-      "n": 10,
-      "g": 3,
-      "p": 7,
-      "lucro": -3.7,
-      "condicionais": 0,
-      "condicionais_g": 0,
-      "condicionais_p": 0,
-      "condicionais_push": 0,
-      "condicionais_pendentes": 0,
-      "n_financeiros": 10,
-      "wr": 30.0
-     }
-    }
+    "wr": 0.0,
+    "lucro_u": 0.0,
+    "roi": 0.0,
+    "por_estrategia": {}
    },
    "semanal": {
-    "inicio": "2026-10-12",
-    "fim": "2026-10-18",
-    "sinais": 35,
-    "sinais_financeiros": 35,
-    "ganhos": 13,
-    "perdidos": 22,
+    "inicio": "2026-10-19",
+    "fim": "2026-10-19",
+    "sinais": 0,
+    "sinais_financeiros": 0,
+    "ganhos": 0,
+    "perdidos": 0,
     "push": 0,
     "pendentes": 0,
     "condicionais": 0,
@@ -2595,28 +2525,14 @@
     "condicionais_perdidos": 0,
     "condicionais_push": 0,
     "condicionais_pendentes": 0,
-    "wr": 37.1,
-    "lucro_u": -5.37,
-    "roi": -15.3,
-    "por_estrategia": {
-     "Golos 2ª Parte": {
-      "n": 35,
-      "g": 13,
-      "p": 22,
-      "lucro": -5.37,
-      "condicionais": 0,
-      "condicionais_g": 0,
-      "condicionais_p": 0,
-      "condicionais_push": 0,
-      "condicionais_pendentes": 0,
-      "n_financeiros": 35,
-      "wr": 37.1
-     }
-    }
+    "wr": 0.0,
+    "lucro_u": 0.0,
+    "roi": 0.0,
+    "por_estrategia": {}
    },
    "mensal": {
     "inicio": "2026-10-01",
-    "fim": "2026-10-18",
+    "fim": "2026-10-19",
     "sinais": 62,
     "sinais_financeiros": 62,
     "ganhos": 30,
@@ -2978,8 +2894,8 @@
     }
    },
    "diario": {
-    "inicio": "2026-10-18",
-    "fim": "2026-10-18",
+    "inicio": "2026-10-19",
+    "fim": "2026-10-19",
     "sinais": 0,
     "sinais_financeiros": 0,
     "ganhos": 0,
@@ -2997,8 +2913,8 @@
     "por_estrategia": {}
    },
    "semanal": {
-    "inicio": "2026-10-12",
-    "fim": "2026-10-18",
+    "inicio": "2026-10-19",
+    "fim": "2026-10-19",
     "sinais": 0,
     "sinais_financeiros": 0,
     "ganhos": 0,
@@ -3017,7 +2933,7 @@
    },
    "mensal": {
     "inicio": "2026-10-01",
-    "fim": "2026-10-18",
+    "fim": "2026-10-19",
     "sinais": 6,
     "sinais_financeiros": 6,
     "ganhos": 3,
@@ -3365,40 +3281,40 @@
  },
  "tip_do_dia": [
   {
-   "hora": "14:30",
-   "liga": "Bundesliga",
-   "jogo": "Leverkusen vs Freiburg",
+   "hora": "16:00",
+   "liga": "Liga I",
+   "jogo": "U. Cluj vs Champions FC Arges",
    "mercado": "Over 1.5 · 2ª parte",
-   "odd": 1.73,
+   "odd": 2.25,
    "bilhete": "tripla",
-   "ticket_id": "prelive:2026-10-18:1",
+   "ticket_id": "prelive:2026-10-19:1",
    "ticket_slot": 1,
    "fire": false,
-   "resultado": "perdido"
+   "resultado": null
   },
   {
-   "hora": "18:15",
-   "liga": "Ligat Ha'al",
-   "jogo": "Be`er Sheva vs Hapoel Jerusalem",
+   "hora": "18:00",
+   "liga": "Premier League",
+   "jogo": "AL Masry vs Abu Qair Semad",
    "mercado": "Over 1.5 · 2ª parte",
-   "odd": 1.91,
+   "odd": 2.4,
    "bilhete": "tripla",
-   "ticket_id": "prelive:2026-10-18:1",
+   "ticket_id": "prelive:2026-10-19:1",
    "ticket_slot": 1,
    "fire": false,
-   "resultado": "ganho"
+   "resultado": null
   },
   {
-   "hora": "01:30",
-   "liga": "MLS Next Pro",
-   "jogo": "Austin II vs The Town",
+   "hora": "20:00",
+   "liga": "La Liga",
+   "jogo": "Getafe vs Vallecano",
    "mercado": "Over 1.5 · 2ª parte",
-   "odd": 1.95,
+   "odd": 2.7,
    "bilhete": "tripla",
-   "ticket_id": "prelive:2026-10-18:1",
+   "ticket_id": "prelive:2026-10-19:1",
    "ticket_slot": 1,
    "fire": false,
-   "resultado": "ganho"
+   "resultado": null
   }
  ],
  "por_estrategia": {
@@ -3446,100 +3362,100 @@
   "nome": "Pré-Live Grátis",
   "descricao": "Bilhete partilhado no canal gratuito · até um por dia · 1u",
   "publication_scope": "free_confirmed_only",
-  "boletins": 20,
+  "boletins": 21,
   "greens": 4,
   "reds": 16,
-  "pendentes": 0,
+  "pendentes": 1,
   "lucro": 7.27,
   "ultimos": [
    {
-    "ticket_id": "prelive:2026-10-18:1",
+    "ticket_id": "prelive:2026-10-19:1",
     "ticket_slot": 1,
     "free_publication_confirmed": true,
     "publication_channel": "free",
-    "data": "2026-10-18",
+    "data": "2026-10-19",
     "tipo": "tripla",
-    "odd": 6.44,
-    "resultado": "red",
+    "odd": 14.58,
+    "resultado": null,
     "u": 1.0,
-    "published_at": "2026-10-18T06:09:41+01:00",
+    "published_at": "2026-10-19T06:06:15+01:00",
     "publication_confirmed": true,
     "pernas": [
      {
-      "fixture_id": 1575186,
-      "casa": "Leverkusen",
-      "fora": "Freiburg",
+      "fixture_id": 1565276,
+      "casa": "U. Cluj",
+      "fora": "Champions FC Arges",
       "liga": null,
-      "hora": "14:30",
+      "hora": "16:00",
       "mercado": null,
-      "odd": 1.73,
-      "resultado": "perdido"
+      "odd": 2.25,
+      "resultado": null
      },
      {
-      "fixture_id": 1555524,
-      "casa": "Be`er Sheva",
-      "fora": "Hapoel Jerusalem",
+      "fixture_id": 1612260,
+      "casa": "AL Masry",
+      "fora": "Abu Qair Semad",
       "liga": null,
-      "hora": "18:15",
+      "hora": "18:00",
       "mercado": null,
-      "odd": 1.91,
-      "resultado": "ganho"
+      "odd": 2.4,
+      "resultado": null
      },
      {
-      "fixture_id": 1645632,
-      "casa": "Austin II",
-      "fora": "The Town",
+      "fixture_id": 1570417,
+      "casa": "Getafe",
+      "fora": "Vallecano",
       "liga": null,
-      "hora": "01:30",
+      "hora": "20:00",
       "mercado": null,
-      "odd": 1.95,
-      "resultado": "ganho"
+      "odd": 2.7,
+      "resultado": null
      }
     ]
    }
   ],
   "ultimo": {
-   "ticket_id": "prelive:2026-10-18:1",
+   "ticket_id": "prelive:2026-10-19:1",
    "ticket_slot": 1,
    "free_publication_confirmed": true,
    "publication_channel": "free",
-   "data": "2026-10-18",
+   "data": "2026-10-19",
    "tipo": "tripla",
-   "odd": 6.44,
-   "resultado": "red",
+   "odd": 14.58,
+   "resultado": null,
    "u": 1.0,
-   "published_at": "2026-10-18T06:09:41+01:00",
+   "published_at": "2026-10-19T06:06:15+01:00",
    "publication_confirmed": true,
    "pernas": [
     {
-     "fixture_id": 1575186,
-     "casa": "Leverkusen",
-     "fora": "Freiburg",
+     "fixture_id": 1565276,
+     "casa": "U. Cluj",
+     "fora": "Champions FC Arges",
      "liga": null,
-     "hora": "14:30",
+     "hora": "16:00",
      "mercado": null,
-     "odd": 1.73,
-     "resultado": "perdido"
+     "odd": 2.25,
+     "resultado": null
     },
     {
-     "fixture_id": 1555524,
-     "casa": "Be`er Sheva",
-     "fora": "Hapoel Jerusalem",
+     "fixture_id": 1612260,
+     "casa": "AL Masry",
+     "fora": "Abu Qair Semad",
      "liga": null,
-     "hora": "18:15",
+     "hora": "18:00",
      "mercado": null,
-     "odd": 1.91,
-     "resultado": "ganho"
+     "odd": 2.4,
+     "resultado": null
     },
     {
-     "fixture_id": 1645632,
-     "casa": "Austin II",
-     "fora": "The Town",
+     "fixture_id": 1570417,
+     "casa": "Getafe",
+     "fora": "Vallecano",
      "liga": null,
-     "hora": "01:30",
+     "hora": "20:00",
      "mercado": null,
-     "odd": 1.95,
-     "resultado": "ganho"
+     "odd": 2.7,
+     "resultado": null
     }
    ]
   },
@@ -4341,6 +4257,51 @@
       "mercado": null,
       "odd": 1.95,
       "resultado": "ganho"
+     }
+    ]
+   },
+   {
+    "ticket_id": "prelive:2026-10-19:1",
+    "ticket_slot": 1,
+    "free_publication_confirmed": true,
+    "publication_channel": "free",
+    "data": "2026-10-19",
+    "tipo": "tripla",
+    "odd": 14.58,
+    "resultado": null,
+    "u": 1.0,
+    "published_at": "2026-10-19T06:06:15+01:00",
+    "publication_confirmed": true,
+    "pernas": [
+     {
+      "fixture_id": 1565276,
+      "casa": "U. Cluj",
+      "fora": "Champions FC Arges",
+      "liga": null,
+      "hora": "16:00",
+      "mercado": null,
+      "odd": 2.25,
+      "resultado": null
+     },
+     {
+      "fixture_id": 1612260,
+      "casa": "AL Masry",
+      "fora": "Abu Qair Semad",
+      "liga": null,
+      "hora": "18:00",
+      "mercado": null,
+      "odd": 2.4,
+      "resultado": null
+     },
+     {
+      "fixture_id": 1570417,
+      "casa": "Getafe",
+      "fora": "Vallecano",
+      "liga": null,
+      "hora": "20:00",
+      "mercado": null,
+      "odd": 2.7,
+      "resultado": null
      }
     ]
    }
