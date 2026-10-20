@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-20T19:51:09Z",
-  "event_chain_head": "542cda1559d13a9e72008eb05d36cd3939f7c5513c5fc18408f40e4dc8537aeb",
+  "generated_at": "2026-10-20T19:51:19Z",
+  "event_chain_head": "0f2c58e0e1d30f72e0ac8e67449dfddbab2be6147bb8837ee13f359f0cf14901",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,20 +12,43 @@
   },
   "summary": {
     "total": 238,
-    "pending": 10,
+    "pending": 9,
     "signals_settled": 76,
-    "official_entries_settled": 139,
+    "official_entries_settled": 140,
     "cancelled": 23
   },
   "records": [
     {
       "id": "tip_proposal:20261020T193954964949Z:d9a1787e",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-10-20T19:39:55Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "18192d5313c6dc9d225c3f23a0ca6e907db8d4daf9b34b2bf6046267e04bb955",
-      "telegram_message_count": 2
+      "telegram_message_count": 2,
+      "settled_at": "2026-10-20T19:51:19Z",
+      "result": "WIN",
+      "outcome": {
+        "odds": 1.81,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": 0.608,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20261020T193954964949Z:d9a1787e",
+        "market": "⛳ Over 10 corners · FT",
+        "match": "Aldovisi II x Banfield II",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20261020T193909424499Z:2c628eef",
