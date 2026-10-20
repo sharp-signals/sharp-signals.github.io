@@ -17,8 +17,8 @@
    "pode_nao_publicar": true
   }
  },
- "atualizado": "2026-10-19T06:06:26",
- "dia_trading": "2026-10-19",
+ "atualizado": "2026-10-20T21:30:15",
+ "dia_trading": "2026-10-20",
  "geral": {
   "inicio": "2026-06-06",
   "fim": "2026-10-18",
@@ -113,8 +113,8 @@
   "desde": "2026-06-21"
  },
  "diario": {
-  "inicio": "2026-10-19",
-  "fim": "2026-10-19",
+  "inicio": "2026-10-20",
+  "fim": "2026-10-20",
   "sinais": 0,
   "sinais_financeiros": 0,
   "ganhos": 0,
@@ -133,7 +133,7 @@
  },
  "semanal": {
   "inicio": "2026-10-19",
-  "fim": "2026-10-19",
+  "fim": "2026-10-20",
   "sinais": 0,
   "sinais_financeiros": 0,
   "ganhos": 0,
@@ -152,7 +152,7 @@
  },
  "mensal": {
   "inicio": "2026-10-01",
-  "fim": "2026-10-19",
+  "fim": "2026-10-20",
   "sinais": 68,
   "sinais_financeiros": 68,
   "ganhos": 33,
@@ -1758,8 +1758,8 @@
     }
    },
    "diario": {
-    "inicio": "2026-10-19",
-    "fim": "2026-10-19",
+    "inicio": "2026-10-20",
+    "fim": "2026-10-20",
     "sinais": 0,
     "sinais_financeiros": 0,
     "ganhos": 0,
@@ -1778,7 +1778,7 @@
    },
    "semanal": {
     "inicio": "2026-10-19",
-    "fim": "2026-10-19",
+    "fim": "2026-10-20",
     "sinais": 0,
     "sinais_financeiros": 0,
     "ganhos": 0,
@@ -1797,7 +1797,7 @@
    },
    "mensal": {
     "inicio": "2026-10-01",
-    "fim": "2026-10-19",
+    "fim": "2026-10-20",
     "sinais": 68,
     "sinais_financeiros": 68,
     "ganhos": 33,
@@ -2358,8 +2358,8 @@
     }
    },
    "diario": {
-    "inicio": "2026-10-19",
-    "fim": "2026-10-19",
+    "inicio": "2026-10-20",
+    "fim": "2026-10-20",
     "sinais": 0,
     "sinais_financeiros": 0,
     "ganhos": 0,
@@ -2378,7 +2378,7 @@
    },
    "semanal": {
     "inicio": "2026-10-19",
-    "fim": "2026-10-19",
+    "fim": "2026-10-20",
     "sinais": 0,
     "sinais_financeiros": 0,
     "ganhos": 0,
@@ -2397,7 +2397,7 @@
    },
    "mensal": {
     "inicio": "2026-10-01",
-    "fim": "2026-10-19",
+    "fim": "2026-10-20",
     "sinais": 0,
     "sinais_financeiros": 0,
     "ganhos": 0,
@@ -2493,8 +2493,8 @@
     }
    },
    "diario": {
-    "inicio": "2026-10-19",
-    "fim": "2026-10-19",
+    "inicio": "2026-10-20",
+    "fim": "2026-10-20",
     "sinais": 0,
     "sinais_financeiros": 0,
     "ganhos": 0,
@@ -2513,7 +2513,7 @@
    },
    "semanal": {
     "inicio": "2026-10-19",
-    "fim": "2026-10-19",
+    "fim": "2026-10-20",
     "sinais": 0,
     "sinais_financeiros": 0,
     "ganhos": 0,
@@ -2532,7 +2532,7 @@
    },
    "mensal": {
     "inicio": "2026-10-01",
-    "fim": "2026-10-19",
+    "fim": "2026-10-20",
     "sinais": 62,
     "sinais_financeiros": 62,
     "ganhos": 30,
@@ -2894,8 +2894,8 @@
     }
    },
    "diario": {
-    "inicio": "2026-10-19",
-    "fim": "2026-10-19",
+    "inicio": "2026-10-20",
+    "fim": "2026-10-20",
     "sinais": 0,
     "sinais_financeiros": 0,
     "ganhos": 0,
@@ -2914,7 +2914,7 @@
    },
    "semanal": {
     "inicio": "2026-10-19",
-    "fim": "2026-10-19",
+    "fim": "2026-10-20",
     "sinais": 0,
     "sinais_financeiros": 0,
     "ganhos": 0,
@@ -2933,7 +2933,7 @@
    },
    "mensal": {
     "inicio": "2026-10-01",
-    "fim": "2026-10-19",
+    "fim": "2026-10-20",
     "sinais": 6,
     "sinais_financeiros": 6,
     "ganhos": 3,
@@ -3279,44 +3279,7 @@
    "dias_verde_pct": 41.7
   }
  },
- "tip_do_dia": [
-  {
-   "hora": "16:00",
-   "liga": "Liga I",
-   "jogo": "U. Cluj vs Champions FC Arges",
-   "mercado": "Over 1.5 · 2ª parte",
-   "odd": 2.25,
-   "bilhete": "tripla",
-   "ticket_id": "prelive:2026-10-19:1",
-   "ticket_slot": 1,
-   "fire": false,
-   "resultado": null
-  },
-  {
-   "hora": "18:00",
-   "liga": "Premier League",
-   "jogo": "AL Masry vs Abu Qair Semad",
-   "mercado": "Over 1.5 · 2ª parte",
-   "odd": 2.4,
-   "bilhete": "tripla",
-   "ticket_id": "prelive:2026-10-19:1",
-   "ticket_slot": 1,
-   "fire": false,
-   "resultado": null
-  },
-  {
-   "hora": "20:00",
-   "liga": "La Liga",
-   "jogo": "Getafe vs Vallecano",
-   "mercado": "Over 1.5 · 2ª parte",
-   "odd": 2.7,
-   "bilhete": "tripla",
-   "ticket_id": "prelive:2026-10-19:1",
-   "ticket_slot": 1,
-   "fire": false,
-   "resultado": null
-  }
- ],
+ "tip_do_dia": [],
  "por_estrategia": {
   "Golos (arquivo)": {
    "n": 31,
@@ -3364,9 +3327,9 @@
   "publication_scope": "free_confirmed_only",
   "boletins": 21,
   "greens": 4,
-  "reds": 16,
-  "pendentes": 1,
-  "lucro": 7.27,
+  "reds": 17,
+  "pendentes": 0,
+  "lucro": 6.27,
   "ultimos": [
    {
     "ticket_id": "prelive:2026-10-19:1",
@@ -3376,7 +3339,7 @@
     "data": "2026-10-19",
     "tipo": "tripla",
     "odd": 14.58,
-    "resultado": null,
+    "resultado": "red",
     "u": 1.0,
     "published_at": "2026-10-19T06:06:15+01:00",
     "publication_confirmed": true,
@@ -3389,7 +3352,7 @@
       "hora": "16:00",
       "mercado": null,
       "odd": 2.25,
-      "resultado": null
+      "resultado": "perdido"
      },
      {
       "fixture_id": 1612260,
@@ -3399,7 +3362,7 @@
       "hora": "18:00",
       "mercado": null,
       "odd": 2.4,
-      "resultado": null
+      "resultado": "ganho"
      },
      {
       "fixture_id": 1570417,
@@ -3409,7 +3372,7 @@
       "hora": "20:00",
       "mercado": null,
       "odd": 2.7,
-      "resultado": null
+      "resultado": "perdido"
      }
     ]
    }
@@ -3422,7 +3385,7 @@
    "data": "2026-10-19",
    "tipo": "tripla",
    "odd": 14.58,
-   "resultado": null,
+   "resultado": "red",
    "u": 1.0,
    "published_at": "2026-10-19T06:06:15+01:00",
    "publication_confirmed": true,
@@ -3435,7 +3398,7 @@
      "hora": "16:00",
      "mercado": null,
      "odd": 2.25,
-     "resultado": null
+     "resultado": "perdido"
     },
     {
      "fixture_id": 1612260,
@@ -3445,7 +3408,7 @@
      "hora": "18:00",
      "mercado": null,
      "odd": 2.4,
-     "resultado": null
+     "resultado": "ganho"
     },
     {
      "fixture_id": 1570417,
@@ -3455,7 +3418,7 @@
      "hora": "20:00",
      "mercado": null,
      "odd": 2.7,
-     "resultado": null
+     "resultado": "perdido"
     }
    ]
   },
@@ -4268,7 +4231,7 @@
     "data": "2026-10-19",
     "tipo": "tripla",
     "odd": 14.58,
-    "resultado": null,
+    "resultado": "red",
     "u": 1.0,
     "published_at": "2026-10-19T06:06:15+01:00",
     "publication_confirmed": true,
@@ -4281,7 +4244,7 @@
       "hora": "16:00",
       "mercado": null,
       "odd": 2.25,
-      "resultado": null
+      "resultado": "perdido"
      },
      {
       "fixture_id": 1612260,
@@ -4291,7 +4254,7 @@
       "hora": "18:00",
       "mercado": null,
       "odd": 2.4,
-      "resultado": null
+      "resultado": "ganho"
      },
      {
       "fixture_id": 1570417,
@@ -4301,7 +4264,7 @@
       "hora": "20:00",
       "mercado": null,
       "odd": 2.7,
-      "resultado": null
+      "resultado": "perdido"
      }
     ]
    }
