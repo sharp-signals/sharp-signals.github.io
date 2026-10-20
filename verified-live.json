@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-20T19:39:55Z",
-  "event_chain_head": "f4b1bf0aec1bb5427c4a62917c64f3ee8accb229c976833f3f8d4318c5379b12",
+  "generated_at": "2026-10-20T19:51:09Z",
+  "event_chain_head": "542cda1559d13a9e72008eb05d36cd3939f7c5513c5fc18408f40e4dc8537aeb",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,9 +12,9 @@
   },
   "summary": {
     "total": 238,
-    "pending": 11,
+    "pending": 10,
     "signals_settled": 76,
-    "official_entries_settled": 138,
+    "official_entries_settled": 139,
     "cancelled": 23
   },
   "records": [
@@ -30,11 +30,34 @@
     {
       "id": "tip_proposal:20261020T193909424499Z:2c628eef",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-10-20T19:39:09Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "8ff93cadef9aa57f40e4bd0c00529f2b47d25f9122585e49c052cbcf09f3cac8",
-      "telegram_message_count": 2
+      "telegram_message_count": 2,
+      "settled_at": "2026-10-20T19:51:09Z",
+      "result": "WIN",
+      "outcome": {
+        "odds": 1.83,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": 0.623,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20261020T193909424499Z:2c628eef",
+        "market": "⛳ Over 4 corners · FT",
+        "match": "Argentinos Juniores II x Rosario II",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "ce1:1493164:ht",
