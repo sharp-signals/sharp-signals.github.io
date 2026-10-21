@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-21T15:17:22Z",
-  "event_chain_head": "02142fdf297df390a8b08be047c4e2a668476bf2958bc2e956a28540ad55573e",
+  "generated_at": "2026-10-21T15:55:23Z",
+  "event_chain_head": "3f085420d0cc694da0fc2c3ca0c8b4671ca0247ae0898caac9c31e9135d244f2",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,20 +12,43 @@
   },
   "summary": {
     "total": 240,
-    "pending": 11,
+    "pending": 10,
     "signals_settled": 76,
-    "official_entries_settled": 140,
+    "official_entries_settled": 141,
     "cancelled": 23
   },
   "records": [
     {
       "id": "tip_proposal:20261021T151721379124Z:c35f3991",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-10-21T15:17:21Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "f7bcfdb867b4ed347c9cd98dce80fae47d44862bd6d794a05f93ead01fb6e5e7",
-      "telegram_message_count": 2
+      "telegram_message_count": 2,
+      "settled_at": "2026-10-21T15:55:23Z",
+      "result": "LOSS",
+      "outcome": {
+        "odds": 1.81,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": -1.25,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 8,
+        "entry_id": "tip_proposal:20261021T151721379124Z:c35f3991",
+        "market": "⛳ Over 7.5 corners · FT",
+        "match": "AEK Larnaca x Chlorakas",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 1.25
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20261020T204145744258Z:8ff39929",
