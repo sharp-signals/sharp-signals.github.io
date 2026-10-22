@@ -3888,5 +3888,27 @@
       "golos_apos_casa": 0,
       "golos_apos_fora": 0
     }
+  ],
+  "2026-10-22": [
+    {
+      "alerta_id": "ce1:1636308:mid",
+      "fixture_id": 1636308,
+      "timestamp": "2026-10-22T22:19:51.403630",
+      "jogo": "Olympiakos Piraeus vs Sparta Praha",
+      "liga": "UEFA Europa League",
+      "janela": "MID PRESSURE",
+      "tempo_alerta": 67,
+      "estrelas": 7.0,
+      "cantos_no_ref": 15,
+      "cantos_final": 17,
+      "cantos_apos_alerta": 2,
+      "meta_cantos": 3,
+      "resultado": "VOID",
+      "resultado_tecnico": "VOID",
+      "estado_entrada": "CONFIRMADA",
+      "justificacao_void": "Saída em contra-aposta após golo do favorito",
+      "golos_apos_casa": 1,
+      "golos_apos_fora": 0
+    }
   ]
 }
