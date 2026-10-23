@@ -8,9 +8,9 @@
    "fim": "2026-01-31"
   },
   "cresc_pct": 56.91,
-  "apostas": 1182,
+  "apostas": 1183,
   "ganhos": 666,
-  "perdidos": 516,
+  "perdidos": 517,
   "wr": 56.3,
   "meses": [
    {
@@ -79,17 +79,17 @@
    {
     "mes": "2026-10",
     "label": "Out 26",
-    "cresc_pct": 1.41,
-    "apostas": 44,
-    "wr": 52.3
+    "cresc_pct": 0.66,
+    "apostas": 45,
+    "wr": 51.1
    }
   ],
   "por_mercado": [
    {
     "mercado": "Over Cantos FT",
-    "n": 652,
-    "wr": 58.4,
-    "roi": 37.2,
+    "n": 653,
+    "wr": 58.3,
+    "roi": 36.45,
     "pl_eur": 1369.94
    },
    {
@@ -138,7 +138,6 @@
   "forma": [
    "ganho",
    "ganho",
-   "ganho",
    "cashout",
    "ganho",
    "ganho",
@@ -150,7 +149,8 @@
    "perdido",
    "ganho",
    "ganho",
-   "ganho"
+   "ganho",
+   "perdido"
   ],
   "historico": [
    {
@@ -175,13 +175,13 @@
     "jogo": "Mamelodi x Wiliete de Benguela",
     "mercado": "⛳ Over 10.5 corners · FT",
     "categoria": "Over Cantos FT",
-    "odd": null,
-    "pl_pct": null,
+    "odd": 1.84,
+    "pl_pct": -0.75,
     "stake_pct": 0.75,
-    "resultado": "pendente",
+    "resultado": "perdido",
     "verified_id": "tip_proposal:20261023T191421189149Z:c5e00064",
-    "estado_entrada": "aguarda_confirmacao",
-    "tipo_odd": "por_registar",
+    "estado_entrada": "confirmada",
+    "tipo_odd": "referencia_historica",
     "odd_minima_recomendada": 1.81,
     "confianca": 7
    },
