@@ -17,8 +17,8 @@
    "pode_nao_publicar": true
   }
  },
- "atualizado": "2026-10-22T06:06:27",
- "dia_trading": "2026-10-22",
+ "atualizado": "2026-10-23T06:08:13",
+ "dia_trading": "2026-10-23",
  "geral": {
   "inicio": "2026-06-06",
   "fim": "2026-10-21",
@@ -113,8 +113,8 @@
   "desde": "2026-06-21"
  },
  "diario": {
-  "inicio": "2026-10-22",
-  "fim": "2026-10-22",
+  "inicio": "2026-10-23",
+  "fim": "2026-10-23",
   "sinais": 0,
   "sinais_financeiros": 0,
   "ganhos": 0,
@@ -133,7 +133,7 @@
  },
  "semanal": {
   "inicio": "2026-10-19",
-  "fim": "2026-10-22",
+  "fim": "2026-10-23",
   "sinais": 3,
   "sinais_financeiros": 3,
   "ganhos": 1,
@@ -179,7 +179,7 @@
  },
  "mensal": {
   "inicio": "2026-10-01",
-  "fim": "2026-10-22",
+  "fim": "2026-10-23",
   "sinais": 71,
   "sinais_financeiros": 71,
   "ganhos": 34,
@@ -1827,8 +1827,8 @@
     }
    },
    "diario": {
-    "inicio": "2026-10-22",
-    "fim": "2026-10-22",
+    "inicio": "2026-10-23",
+    "fim": "2026-10-23",
     "sinais": 0,
     "sinais_financeiros": 0,
     "ganhos": 0,
@@ -1847,7 +1847,7 @@
    },
    "semanal": {
     "inicio": "2026-10-19",
-    "fim": "2026-10-22",
+    "fim": "2026-10-23",
     "sinais": 3,
     "sinais_financeiros": 3,
     "ganhos": 1,
@@ -1893,7 +1893,7 @@
    },
    "mensal": {
     "inicio": "2026-10-01",
-    "fim": "2026-10-22",
+    "fim": "2026-10-23",
     "sinais": 71,
     "sinais_financeiros": 71,
     "ganhos": 34,
@@ -2466,8 +2466,8 @@
     }
    },
    "diario": {
-    "inicio": "2026-10-22",
-    "fim": "2026-10-22",
+    "inicio": "2026-10-23",
+    "fim": "2026-10-23",
     "sinais": 0,
     "sinais_financeiros": 0,
     "ganhos": 0,
@@ -2486,7 +2486,7 @@
    },
    "semanal": {
     "inicio": "2026-10-19",
-    "fim": "2026-10-22",
+    "fim": "2026-10-23",
     "sinais": 0,
     "sinais_financeiros": 0,
     "ganhos": 0,
@@ -2505,7 +2505,7 @@
    },
    "mensal": {
     "inicio": "2026-10-01",
-    "fim": "2026-10-22",
+    "fim": "2026-10-23",
     "sinais": 0,
     "sinais_financeiros": 0,
     "ganhos": 0,
@@ -2601,8 +2601,8 @@
     }
    },
    "diario": {
-    "inicio": "2026-10-22",
-    "fim": "2026-10-22",
+    "inicio": "2026-10-23",
+    "fim": "2026-10-23",
     "sinais": 0,
     "sinais_financeiros": 0,
     "ganhos": 0,
@@ -2621,7 +2621,7 @@
    },
    "semanal": {
     "inicio": "2026-10-19",
-    "fim": "2026-10-22",
+    "fim": "2026-10-23",
     "sinais": 2,
     "sinais_financeiros": 2,
     "ganhos": 1,
@@ -2654,7 +2654,7 @@
    },
    "mensal": {
     "inicio": "2026-10-01",
-    "fim": "2026-10-22",
+    "fim": "2026-10-23",
     "sinais": 64,
     "sinais_financeiros": 64,
     "ganhos": 31,
@@ -3028,8 +3028,8 @@
     }
    },
    "diario": {
-    "inicio": "2026-10-22",
-    "fim": "2026-10-22",
+    "inicio": "2026-10-23",
+    "fim": "2026-10-23",
     "sinais": 0,
     "sinais_financeiros": 0,
     "ganhos": 0,
@@ -3048,7 +3048,7 @@
    },
    "semanal": {
     "inicio": "2026-10-19",
-    "fim": "2026-10-22",
+    "fim": "2026-10-23",
     "sinais": 1,
     "sinais_financeiros": 1,
     "ganhos": 0,
@@ -3081,7 +3081,7 @@
    },
    "mensal": {
     "inicio": "2026-10-01",
-    "fim": "2026-10-22",
+    "fim": "2026-10-23",
     "sinais": 7,
     "sinais_financeiros": 7,
     "ganhos": 3,
@@ -3433,7 +3433,44 @@
    "dias_verde_pct": 40.8
   }
  },
- "tip_do_dia": [],
+ "tip_do_dia": [
+  {
+   "hora": "19:45",
+   "liga": "Premier League",
+   "jogo": "Caernarfon vs Briton Ferry",
+   "mercado": "Over 1.5 · 2ª parte",
+   "odd": 1.75,
+   "bilhete": "tripla",
+   "ticket_id": "prelive:2026-10-23:1",
+   "ticket_slot": 1,
+   "fire": false,
+   "resultado": null
+  },
+  {
+   "hora": "20:00",
+   "liga": "Premier League",
+   "jogo": "Ipswich vs Nottingham",
+   "mercado": "Over 1.5 · 2ª parte",
+   "odd": 1.97,
+   "bilhete": "tripla",
+   "ticket_id": "prelive:2026-10-23:1",
+   "ticket_slot": 1,
+   "fire": false,
+   "resultado": null
+  },
+  {
+   "hora": "11:00",
+   "liga": "Premier League",
+   "jogo": "Zhytomyr vs Obolon",
+   "mercado": "Over 1.5 · 2ª parte",
+   "odd": 2.15,
+   "bilhete": "tripla",
+   "ticket_id": "prelive:2026-10-23:1",
+   "ticket_slot": 1,
+   "fire": false,
+   "resultado": null
+  }
+ ],
  "por_estrategia": {
   "Golos (arquivo)": {
    "n": 31,
@@ -3479,100 +3516,100 @@
   "nome": "Pré-Live Grátis",
   "descricao": "Bilhete partilhado no canal gratuito · até um por dia · 1u",
   "publication_scope": "free_confirmed_only",
-  "boletins": 22,
+  "boletins": 23,
   "greens": 4,
   "reds": 18,
-  "pendentes": 0,
+  "pendentes": 1,
   "lucro": 5.27,
   "ultimos": [
    {
-    "ticket_id": "prelive:2026-10-21:1",
+    "ticket_id": "prelive:2026-10-23:1",
     "ticket_slot": 1,
     "free_publication_confirmed": true,
     "publication_channel": "free",
-    "data": "2026-10-21",
+    "data": "2026-10-23",
     "tipo": "tripla",
-    "odd": 10.53,
-    "resultado": "red",
+    "odd": 7.41,
+    "resultado": null,
     "u": 1.0,
-    "published_at": "2026-10-21T06:03:44+01:00",
+    "published_at": "2026-10-23T06:07:29+01:00",
     "publication_confirmed": true,
     "pernas": [
      {
-      "fixture_id": 1551007,
-      "casa": "Puebla",
-      "fora": "Monterrey",
+      "fixture_id": 1575989,
+      "casa": "Caernarfon",
+      "fora": "Briton Ferry",
       "liga": null,
-      "hora": "02:00",
+      "hora": "19:45",
       "mercado": null,
-      "odd": 2.0,
-      "resultado": "ganho"
+      "odd": 1.75,
+      "resultado": null
      },
      {
-      "fixture_id": 1556107,
-      "casa": "Shimizu",
-      "fora": "Machida Z",
+      "fixture_id": 1557443,
+      "casa": "Ipswich",
+      "fora": "Nottingham",
+      "liga": null,
+      "hora": "20:00",
+      "mercado": null,
+      "odd": 1.97,
+      "resultado": null
+     },
+     {
+      "fixture_id": 1565510,
+      "casa": "Zhytomyr",
+      "fora": "Obolon",
       "liga": null,
       "hora": "11:00",
       "mercado": null,
-      "odd": 2.29,
-      "resultado": "ganho"
-     },
-     {
-      "fixture_id": 1606710,
-      "casa": "Jubilo I",
-      "fora": "Oita",
-      "liga": null,
-      "hora": "11:00",
-      "mercado": null,
-      "odd": 2.3,
-      "resultado": "perdido"
+      "odd": 2.15,
+      "resultado": null
      }
     ]
    }
   ],
   "ultimo": {
-   "ticket_id": "prelive:2026-10-21:1",
+   "ticket_id": "prelive:2026-10-23:1",
    "ticket_slot": 1,
    "free_publication_confirmed": true,
    "publication_channel": "free",
-   "data": "2026-10-21",
+   "data": "2026-10-23",
    "tipo": "tripla",
-   "odd": 10.53,
-   "resultado": "red",
+   "odd": 7.41,
+   "resultado": null,
    "u": 1.0,
-   "published_at": "2026-10-21T06:03:44+01:00",
+   "published_at": "2026-10-23T06:07:29+01:00",
    "publication_confirmed": true,
    "pernas": [
     {
-     "fixture_id": 1551007,
-     "casa": "Puebla",
-     "fora": "Monterrey",
+     "fixture_id": 1575989,
+     "casa": "Caernarfon",
+     "fora": "Briton Ferry",
      "liga": null,
-     "hora": "02:00",
+     "hora": "19:45",
      "mercado": null,
-     "odd": 2.0,
-     "resultado": "ganho"
+     "odd": 1.75,
+     "resultado": null
     },
     {
-     "fixture_id": 1556107,
-     "casa": "Shimizu",
-     "fora": "Machida Z",
+     "fixture_id": 1557443,
+     "casa": "Ipswich",
+     "fora": "Nottingham",
+     "liga": null,
+     "hora": "20:00",
+     "mercado": null,
+     "odd": 1.97,
+     "resultado": null
+    },
+    {
+     "fixture_id": 1565510,
+     "casa": "Zhytomyr",
+     "fora": "Obolon",
      "liga": null,
      "hora": "11:00",
      "mercado": null,
-     "odd": 2.29,
-     "resultado": "ganho"
-    },
-    {
-     "fixture_id": 1606710,
-     "casa": "Jubilo I",
-     "fora": "Oita",
-     "liga": null,
-     "hora": "11:00",
-     "mercado": null,
-     "odd": 2.3,
-     "resultado": "perdido"
+     "odd": 2.15,
+     "resultado": null
     }
    ]
   },
@@ -4464,6 +4501,51 @@
       "mercado": null,
       "odd": 2.3,
       "resultado": "perdido"
+     }
+    ]
+   },
+   {
+    "ticket_id": "prelive:2026-10-23:1",
+    "ticket_slot": 1,
+    "free_publication_confirmed": true,
+    "publication_channel": "free",
+    "data": "2026-10-23",
+    "tipo": "tripla",
+    "odd": 7.41,
+    "resultado": null,
+    "u": 1.0,
+    "published_at": "2026-10-23T06:07:29+01:00",
+    "publication_confirmed": true,
+    "pernas": [
+     {
+      "fixture_id": 1575989,
+      "casa": "Caernarfon",
+      "fora": "Briton Ferry",
+      "liga": null,
+      "hora": "19:45",
+      "mercado": null,
+      "odd": 1.75,
+      "resultado": null
+     },
+     {
+      "fixture_id": 1557443,
+      "casa": "Ipswich",
+      "fora": "Nottingham",
+      "liga": null,
+      "hora": "20:00",
+      "mercado": null,
+      "odd": 1.97,
+      "resultado": null
+     },
+     {
+      "fixture_id": 1565510,
+      "casa": "Zhytomyr",
+      "fora": "Obolon",
+      "liga": null,
+      "hora": "11:00",
+      "mercado": null,
+      "odd": 2.15,
+      "resultado": null
      }
     ]
    }
