@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-23T19:54:32Z",
-  "event_chain_head": "745ba9bcd8591b7470053b0682c763ee20833e4b065314433f12caa2a90e679a",
+  "generated_at": "2026-10-23T19:54:42Z",
+  "event_chain_head": "5ea6241d7dccde4f45ba85829e7bfab1b4094e7275a7bf262ee101e3e51bb65b",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,20 +12,43 @@
   },
   "summary": {
     "total": 249,
-    "pending": 11,
+    "pending": 10,
     "signals_settled": 79,
-    "official_entries_settled": 146,
+    "official_entries_settled": 147,
     "cancelled": 23
   },
   "records": [
     {
       "id": "tip_proposal:20261023T194132545289Z:a686a4bc",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-10-23T19:41:32Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "c953a316ad6f9423784d34447250d40d834f89ac9f570d77b7fc5cfea3e428ae",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-10-23T19:54:42Z",
+      "result": "LOSS",
+      "outcome": {
+        "odds": 9.0,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": -1.25,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 8,
+        "entry_id": "tip_proposal:20261023T194132545289Z:a686a4bc",
+        "market": "⛳ Over 9 corners · FT",
+        "match": "Mamelodi x Wiliete de Benguela",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 1.25
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20261023T191421189149Z:c5e00064",
