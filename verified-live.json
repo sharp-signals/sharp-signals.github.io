@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-23T14:53:44Z",
-  "event_chain_head": "1baf789e86c4a6b419d34f643df4563ab446e15740b77deb0f5e19a0862ab647",
+  "generated_at": "2026-10-23T14:54:12Z",
+  "event_chain_head": "d9db127601714fc33005dc09ce71c8da56b6b5e5939ece5210a2a1e2d880cde3",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,9 +12,9 @@
   },
   "summary": {
     "total": 246,
-    "pending": 12,
+    "pending": 11,
     "signals_settled": 78,
-    "official_entries_settled": 143,
+    "official_entries_settled": 144,
     "cancelled": 23
   },
   "records": [
@@ -30,11 +30,34 @@
     {
       "id": "tip_proposal:20261023T141908829371Z:f4ca6b2c",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-10-23T14:19:09Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "fcf89578441f6c6136fb376e0ae92b0c0d3833763d28601c56830ccf5452e344",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-10-23T14:54:12Z",
+      "result": "WIN",
+      "outcome": {
+        "odds": 1.81,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": 0.608,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20261023T141908829371Z:f4ca6b2c",
+        "market": "⛳ Over 3.5 corners · FT",
+        "match": "Kafr Qasim x Ashdod",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20261023T140754843956Z:f7182728",
