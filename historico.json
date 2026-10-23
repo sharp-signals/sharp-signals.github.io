@@ -3910,5 +3910,27 @@
       "golos_apos_casa": 1,
       "golos_apos_fora": 0
     }
+  ],
+  "2026-10-23": [
+    {
+      "alerta_id": "ce1:1553203:final",
+      "fixture_id": 1553203,
+      "timestamp": "2026-10-23T19:11:45.642274",
+      "jogo": "Motor Lublin vs Zaglebie Lubin",
+      "liga": "Ekstraklasa",
+      "janela": "FINAL PUSH",
+      "tempo_alerta": 81,
+      "estrelas": 7.0,
+      "cantos_no_ref": 8,
+      "cantos_final": 10,
+      "cantos_apos_alerta": 2,
+      "meta_cantos": 2,
+      "resultado": "WIN",
+      "resultado_tecnico": "WIN",
+      "estado_entrada": "CONFIRMADA",
+      "justificacao_void": "",
+      "golos_apos_casa": 1,
+      "golos_apos_fora": 0
+    }
   ]
 }
