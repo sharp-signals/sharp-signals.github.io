@@ -4033,6 +4033,26 @@
       "justificacao_void": "",
       "golos_apos_casa": 0,
       "golos_apos_fora": 1
+    },
+    {
+      "alerta_id": "ce1:1560055:ht",
+      "fixture_id": 1560055,
+      "timestamp": "2026-10-24T16:14:27.139056",
+      "jogo": "Teplice vs Artis",
+      "liga": "Czech Liga",
+      "janela": "HT ATTACK",
+      "tempo_alerta": 26,
+      "estrelas": 8.5,
+      "cantos_no_ref": 4,
+      "cantos_final": 12,
+      "cantos_apos_alerta": 8,
+      "meta_cantos": 2,
+      "resultado": "WIN",
+      "resultado_tecnico": "WIN",
+      "estado_entrada": "CONFIRMADA",
+      "justificacao_void": "",
+      "golos_apos_casa": 0,
+      "golos_apos_fora": 0
     }
   ]
 }
