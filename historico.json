@@ -3993,6 +3993,26 @@
       "justificacao_void": "",
       "golos_apos_casa": 0,
       "golos_apos_fora": 0
+    },
+    {
+      "alerta_id": "ce1:1576209:shark",
+      "fixture_id": 1576209,
+      "timestamp": "2026-10-24T14:17:48.872802",
+      "jogo": "1. FC Heidenheim vs Energie Cottbus",
+      "liga": "2. Bundesliga",
+      "janela": "SHARK ATTACK",
+      "tempo_alerta": 58,
+      "estrelas": 9.0,
+      "cantos_no_ref": 9,
+      "cantos_final": 17,
+      "cantos_apos_alerta": 8,
+      "meta_cantos": 4,
+      "resultado": "VOID",
+      "resultado_tecnico": "VOID",
+      "estado_entrada": "CONFIRMADA",
+      "justificacao_void": "Não entrada — preço demasiado alto",
+      "golos_apos_casa": 0,
+      "golos_apos_fora": 0
     }
   ]
 }
