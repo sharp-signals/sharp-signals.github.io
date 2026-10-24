@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-24T19:27:58Z",
-  "event_chain_head": "87ae4f87e432f513d551cc145394f7bf5a55a9f81240b9f2a51404b3d6095573",
+  "generated_at": "2026-10-24T20:13:37Z",
+  "event_chain_head": "f7171f9799c545858e692026fe47fb2b4220fe0190fd6a65afb4ca46fc8b4f99",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,8 +12,8 @@
   },
   "summary": {
     "total": 269,
-    "pending": 14,
-    "signals_settled": 88,
+    "pending": 13,
+    "signals_settled": 89,
     "official_entries_settled": 152,
     "cancelled": 26
   },
@@ -30,11 +30,37 @@
     {
       "id": "ce1:1550162:ht",
       "kind": "signal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-10-24T19:14:01Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "485fda7d30aa87e8cb9c7fba11412738707b027bb5a0b6f70a2f15dc240afcd5",
-      "telegram_message_count": 2
+      "telegram_message_count": 2,
+      "settled_at": "2026-10-24T20:13:37Z",
+      "result": "WIN",
+      "outcome": {
+        "corners_reference": 5,
+        "corners_final": 7,
+        "corners_after": 2,
+        "target": 2,
+        "technical_result": "WIN",
+        "entry_status": "confirmed",
+        "void_reason": "",
+        "approved_manually": true
+      },
+      "sealed_payload": {
+        "alert_id": "ce1:1550162:ht",
+        "classification": "scanner_signal_not_confirmed_bet",
+        "confidence": 8.0,
+        "corners_at_alert": 5,
+        "league": "Serie A",
+        "match": "Lazio vs Parma",
+        "minimum_price": 1.75,
+        "minute": 28,
+        "score_at_alert": "0-0",
+        "suggestion": "🎯 ENTRADA SUGERIDA\nOver 6.5 cantos 1ª parte · odd mín. 1.75+\n↳ se sair +1 canto: sobe p/ Over 7.5 ou espera o Over 7",
+        "window": "HT ATTACK"
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20261024T173722006902Z:c47177ef",
