@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-24T14:29:39Z",
-  "event_chain_head": "55a153fc37e843109cf7c6bf73230fe387291282f3533ea3154d5086994e715b",
+  "generated_at": "2026-10-24T14:30:35Z",
+  "event_chain_head": "bf6774836bafc672250505ef0dfe4be48d3b0f631f49470f19bf5a5dd0d358b8",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,20 +12,43 @@
   },
   "summary": {
     "total": 261,
-    "pending": 15,
+    "pending": 14,
     "signals_settled": 83,
     "official_entries_settled": 149,
-    "cancelled": 25
+    "cancelled": 26
   },
   "records": [
     {
       "id": "tip_proposal:20261024T142939380656Z:61df3d4d",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-10-24T14:29:39Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "8cbb7fef99e0a756e92d68be374b3a21091d15dfb6fb058c1914a289406d23b7",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-10-24T14:30:35Z",
+      "result": "CANCELADA",
+      "outcome": {
+        "odds": null,
+        "odds_source": null,
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "cancelled",
+        "profit_loss_percent": null,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20261024T142939380656Z:61df3d4d",
+        "market": "⛳ Over 4.5 corners · 1st half",
+        "match": "Brugges F x Gent F",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20261024T140101262019Z:049f86ac",
