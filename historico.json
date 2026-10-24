@@ -3973,6 +3973,26 @@
       "justificacao_void": "Não entrada — preço demasiado alto",
       "golos_apos_casa": 0,
       "golos_apos_fora": 0
+    },
+    {
+      "alerta_id": "ce1:1576209:final",
+      "fixture_id": 1576209,
+      "timestamp": "2026-10-24T14:17:39.125406",
+      "jogo": "1. FC Heidenheim vs Energie Cottbus",
+      "liga": "2. Bundesliga",
+      "janela": "FINAL PUSH",
+      "tempo_alerta": 79,
+      "estrelas": 8.0,
+      "cantos_no_ref": 14,
+      "cantos_final": 17,
+      "cantos_apos_alerta": 3,
+      "meta_cantos": 2,
+      "resultado": "CANCELADA",
+      "resultado_tecnico": "WIN",
+      "estado_entrada": "CANCELADA",
+      "justificacao_void": "",
+      "golos_apos_casa": 0,
+      "golos_apos_fora": 0
     }
   ]
 }
