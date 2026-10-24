@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-24T14:01:01Z",
-  "event_chain_head": "9e40ef6141390b3fed318b02a17628f11ca834ecb5efc6dbd91c359dd9645140",
+  "generated_at": "2026-10-24T14:13:33Z",
+  "event_chain_head": "635aee99554f7a12e4aa43011edc8c03f14969681510b009a8428832abaa6f6b",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,20 +12,43 @@
   },
   "summary": {
     "total": 260,
-    "pending": 15,
+    "pending": 14,
     "signals_settled": 83,
-    "official_entries_settled": 148,
+    "official_entries_settled": 149,
     "cancelled": 25
   },
   "records": [
     {
       "id": "tip_proposal:20261024T140101262019Z:049f86ac",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-10-24T14:01:01Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "a4c5a3862459be4f2116978d130a2ecd6ce23c4653ef42ebb397d0c48f065d7a",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-10-24T14:13:33Z",
+      "result": "WIN",
+      "outcome": {
+        "odds": 1.81,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": 0.608,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20261024T140101262019Z:049f86ac",
+        "market": "⛳ Over 3.5 corners · 1st half",
+        "match": "Slovan Bratislava x Dukla Bystrica",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20261024T134957799953Z:4a522abb",
