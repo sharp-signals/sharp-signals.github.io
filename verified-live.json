@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-24T17:37:22Z",
-  "event_chain_head": "21fbf2af60e37ee0f29adf555774e88d2aa1d6d2b2706be01f79a64709a02ac9",
+  "generated_at": "2026-10-24T17:47:21Z",
+  "event_chain_head": "fe831fbb30046f0c32d2889e9d1a75f93be22f7a60348c4a6fe6583e315193b4",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,9 +12,9 @@
   },
   "summary": {
     "total": 267,
-    "pending": 16,
+    "pending": 15,
     "signals_settled": 86,
-    "official_entries_settled": 150,
+    "official_entries_settled": 151,
     "cancelled": 26
   },
   "records": [
@@ -30,11 +30,34 @@
     {
       "id": "tip_proposal:20261024T173331011907Z:1620ff67",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-10-24T17:33:31Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "24b182cc2ffb191e6be6b368e8cd53ad83a9eb479a50011c2754875332e8f17f",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-10-24T17:47:21Z",
+      "result": "WIN",
+      "outcome": {
+        "odds": 1.81,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": 0.608,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20261024T173331011907Z:1620ff67",
+        "market": "⛳ Over 14.5 corners · FT",
+        "match": "Mladost Lucani x Vojvodina",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "ce1:1560053:mid",
