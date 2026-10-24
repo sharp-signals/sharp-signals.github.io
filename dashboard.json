@@ -17,7 +17,7 @@
    "pode_nao_publicar": true
   }
  },
- "atualizado": "2026-10-24T19:28:18",
+ "atualizado": "2026-10-24T19:58:29",
  "dia_trading": "2026-10-24",
  "geral": {
   "inicio": "2026-06-06",
@@ -3546,7 +3546,7 @@
    "ticket_id": "prelive:2026-10-24:1",
    "ticket_slot": 1,
    "fire": false,
-   "resultado": null
+   "resultado": "ganho"
   },
   {
    "hora": "17:00",
@@ -3558,7 +3558,7 @@
    "ticket_id": "prelive:2026-10-24:1",
    "ticket_slot": 1,
    "fire": false,
-   "resultado": null
+   "resultado": "perdido"
   },
   {
    "hora": "20:00",
@@ -3620,9 +3620,9 @@
   "publication_scope": "free_confirmed_only",
   "boletins": 24,
   "greens": 4,
-  "reds": 19,
-  "pendentes": 1,
-  "lucro": 4.27,
+  "reds": 20,
+  "pendentes": 0,
+  "lucro": 3.27,
   "ultimos": [
    {
     "ticket_id": "prelive:2026-10-24:1",
@@ -3632,7 +3632,7 @@
     "data": "2026-10-24",
     "tipo": "tripla",
     "odd": 8.6,
-    "resultado": null,
+    "resultado": "red",
     "u": 1.0,
     "published_at": "2026-10-24T06:11:09+01:00",
     "publication_confirmed": true,
@@ -3645,7 +3645,7 @@
       "hora": "16:45",
       "mercado": null,
       "odd": 2.0,
-      "resultado": null
+      "resultado": "ganho"
      },
      {
       "fixture_id": 1551585,
@@ -3655,7 +3655,7 @@
       "hora": "17:00",
       "mercado": null,
       "odd": 2.0,
-      "resultado": null
+      "resultado": "perdido"
      },
      {
       "fixture_id": 1569982,
@@ -3678,7 +3678,7 @@
    "data": "2026-10-24",
    "tipo": "tripla",
    "odd": 8.6,
-   "resultado": null,
+   "resultado": "red",
    "u": 1.0,
    "published_at": "2026-10-24T06:11:09+01:00",
    "publication_confirmed": true,
@@ -3691,7 +3691,7 @@
      "hora": "16:45",
      "mercado": null,
      "odd": 2.0,
-     "resultado": null
+     "resultado": "ganho"
     },
     {
      "fixture_id": 1551585,
@@ -3701,7 +3701,7 @@
      "hora": "17:00",
      "mercado": null,
      "odd": 2.0,
-     "resultado": null
+     "resultado": "perdido"
     },
     {
      "fixture_id": 1569982,
@@ -4659,7 +4659,7 @@
     "data": "2026-10-24",
     "tipo": "tripla",
     "odd": 8.6,
-    "resultado": null,
+    "resultado": "red",
     "u": 1.0,
     "published_at": "2026-10-24T06:11:09+01:00",
     "publication_confirmed": true,
@@ -4672,7 +4672,7 @@
       "hora": "16:45",
       "mercado": null,
       "odd": 2.0,
-      "resultado": null
+      "resultado": "ganho"
      },
      {
       "fixture_id": 1551585,
@@ -4682,7 +4682,7 @@
       "hora": "17:00",
       "mercado": null,
       "odd": 2.0,
-      "resultado": null
+      "resultado": "perdido"
      },
      {
       "fixture_id": 1569982,
