@@ -4093,6 +4093,26 @@
       "justificacao_void": "",
       "golos_apos_casa": 1,
       "golos_apos_fora": 1
+    },
+    {
+      "alerta_id": "ce1:1560053:mid",
+      "fixture_id": 1560053,
+      "timestamp": "2026-10-24T19:17:50.857516",
+      "jogo": "Slavia Praha vs Mlada Boleslav",
+      "liga": "Czech Liga",
+      "janela": "MID PRESSURE",
+      "tempo_alerta": 66,
+      "estrelas": 8.5,
+      "cantos_no_ref": 11,
+      "cantos_final": 16,
+      "cantos_apos_alerta": 5,
+      "meta_cantos": 3,
+      "resultado": "VOID",
+      "resultado_tecnico": "VOID",
+      "estado_entrada": "CONFIRMADA",
+      "justificacao_void": "Não entrada — preço demasiado alto",
+      "golos_apos_casa": 1,
+      "golos_apos_fora": 0
     }
   ]
 }
