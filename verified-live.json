@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-24T17:51:47Z",
-  "event_chain_head": "c247c80e723fe2946485c26ff4fe617281e921808898fdbf62f1943f32cffff9",
+  "generated_at": "2026-10-24T18:08:41Z",
+  "event_chain_head": "791587ef0748ca7d1497e49dec04e33dccdcc00c89aeee6819814a4890e6e010",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,8 +12,8 @@
   },
   "summary": {
     "total": 267,
-    "pending": 14,
-    "signals_settled": 86,
+    "pending": 13,
+    "signals_settled": 87,
     "official_entries_settled": 152,
     "cancelled": 26
   },
@@ -129,11 +129,37 @@
     {
       "id": "ce1:1555531:ht",
       "kind": "signal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-10-24T16:26:45Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "925bb777b70590a7caf8677e3a0cad840cfb1a7e35707e7db866d5aa2f744bf0",
-      "telegram_message_count": 2
+      "telegram_message_count": 2,
+      "settled_at": "2026-10-24T18:08:41Z",
+      "result": "WIN",
+      "outcome": {
+        "corners_reference": 3,
+        "corners_final": 14,
+        "corners_after": 11,
+        "target": 2,
+        "technical_result": "WIN",
+        "entry_status": "confirmed",
+        "void_reason": "",
+        "approved_manually": true
+      },
+      "sealed_payload": {
+        "alert_id": "ce1:1555531:ht",
+        "classification": "scanner_signal_not_confirmed_bet",
+        "confidence": 7.5,
+        "corners_at_alert": 3,
+        "league": "Ligat Ha'al",
+        "match": "Ironi Tiberias vs Maccabi Netanya",
+        "minimum_price": 1.75,
+        "minute": 26,
+        "score_at_alert": "0-0",
+        "suggestion": "🎯 ENTRADA SUGERIDA\nOver 4.5 cantos 1ª parte · odd mín. 1.75+\n↳ se sair +1 canto: sobe p/ Over 5.5 ou espera o Over 5",
+        "window": "HT ATTACK"
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20261024T160007995107Z:2b2b9147",
