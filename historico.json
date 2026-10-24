@@ -4113,6 +4113,26 @@
       "justificacao_void": "Não entrada — preço demasiado alto",
       "golos_apos_casa": 1,
       "golos_apos_fora": 0
+    },
+    {
+      "alerta_id": "ce1:1550162:ht",
+      "fixture_id": 1550162,
+      "timestamp": "2026-10-24T21:13:33.829740",
+      "jogo": "Lazio vs Parma",
+      "liga": "Serie A",
+      "janela": "HT ATTACK",
+      "tempo_alerta": 28,
+      "estrelas": 8.0,
+      "cantos_no_ref": 5,
+      "cantos_final": 7,
+      "cantos_apos_alerta": 2,
+      "meta_cantos": 2,
+      "resultado": "WIN",
+      "resultado_tecnico": "WIN",
+      "estado_entrada": "CONFIRMADA",
+      "justificacao_void": "",
+      "golos_apos_casa": 0,
+      "golos_apos_fora": 0
     }
   ]
 }
