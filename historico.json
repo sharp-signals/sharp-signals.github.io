@@ -3953,6 +3953,26 @@
       "justificacao_void": "Não entrada — preço demasiado alto",
       "golos_apos_casa": 1,
       "golos_apos_fora": 0
+    },
+    {
+      "alerta_id": "ce1:1557438:ht",
+      "fixture_id": 1557438,
+      "timestamp": "2026-10-24T13:31:57.473486",
+      "jogo": "Aston Villa vs Manchester City",
+      "liga": "Premier League",
+      "janela": "HT ATTACK",
+      "tempo_alerta": 26,
+      "estrelas": 7.0,
+      "cantos_no_ref": 7,
+      "cantos_final": 8,
+      "cantos_apos_alerta": 1,
+      "meta_cantos": 2,
+      "resultado": "VOID",
+      "resultado_tecnico": "VOID",
+      "estado_entrada": "CONFIRMADA",
+      "justificacao_void": "Não entrada — preço demasiado alto",
+      "golos_apos_casa": 0,
+      "golos_apos_fora": 0
     }
   ]
 }
