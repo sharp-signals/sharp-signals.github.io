@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-24T11:58:02Z",
-  "event_chain_head": "1547e1c54e947a77175f80f028122d991c0ffe6d2a6189601363e7066402ee90",
+  "generated_at": "2026-10-24T12:17:28Z",
+  "event_chain_head": "23341209c3ec7de397a2dbfccea5d9a4569138b9306b737209ec360a6d0ffa17",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,8 +12,8 @@
   },
   "summary": {
     "total": 252,
-    "pending": 12,
-    "signals_settled": 79,
+    "pending": 11,
+    "signals_settled": 80,
     "official_entries_settled": 147,
     "cancelled": 24
   },
@@ -30,11 +30,37 @@
     {
       "id": "ce1:1561420:final",
       "kind": "signal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-10-24T11:27:04Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "aebd22089bb0f0f90de986644e7a13ffbc6ceccc8b1c356d05144e501eae7c38",
-      "telegram_message_count": 2
+      "telegram_message_count": 2,
+      "settled_at": "2026-10-24T12:17:28Z",
+      "result": "VOID",
+      "outcome": {
+        "corners_reference": 10,
+        "corners_final": 11,
+        "corners_after": 1,
+        "target": 2,
+        "technical_result": "VOID",
+        "entry_status": "confirmed",
+        "void_reason": "Não entrada — preço demasiado alto",
+        "approved_manually": true
+      },
+      "sealed_payload": {
+        "alert_id": "ce1:1561420:final",
+        "classification": "scanner_signal_not_confirmed_bet",
+        "confidence": 7.5,
+        "corners_at_alert": 10,
+        "league": "Premier League",
+        "match": "Akron vs Dynamo",
+        "minimum_price": 1.75,
+        "minute": 80,
+        "score_at_alert": "2-1",
+        "suggestion": "🎯 ENTRADA SUGERIDA\nOver 11.5 cantos · odd mín. 1.75+\n↳ se sair +1 canto: sobe p/ Over 12.5 ou espera o Over 12",
+        "window": "FINAL PUSH"
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20261023T204305866346Z:fe10f0e8",
