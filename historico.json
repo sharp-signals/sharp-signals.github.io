@@ -3932,5 +3932,27 @@
       "golos_apos_casa": 1,
       "golos_apos_fora": 0
     }
+  ],
+  "2026-10-24": [
+    {
+      "alerta_id": "ce1:1561420:final",
+      "fixture_id": 1561420,
+      "timestamp": "2026-10-24T13:17:24.350364",
+      "jogo": "Akron vs Dynamo",
+      "liga": "Premier League",
+      "janela": "FINAL PUSH",
+      "tempo_alerta": 80,
+      "estrelas": 7.5,
+      "cantos_no_ref": 10,
+      "cantos_final": 11,
+      "cantos_apos_alerta": 1,
+      "meta_cantos": 2,
+      "resultado": "VOID",
+      "resultado_tecnico": "VOID",
+      "estado_entrada": "CONFIRMADA",
+      "justificacao_void": "Não entrada — preço demasiado alto",
+      "golos_apos_casa": 1,
+      "golos_apos_fora": 0
+    }
   ]
 }
