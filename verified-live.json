@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-24T16:27:28Z",
-  "event_chain_head": "8ece3b6ddea16e9d7d730bffa7ed8b1ed2d4a882ae3cb33a99d8c7b0f4c32519",
+  "generated_at": "2026-10-24T17:28:29Z",
+  "event_chain_head": "da73a0a6526ecbdf16a3b3a9585ed7a14976252337e9aaf41238f079ebe0b1a7",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,8 +12,8 @@
   },
   "summary": {
     "total": 264,
-    "pending": 14,
-    "signals_settled": 85,
+    "pending": 13,
+    "signals_settled": 86,
     "official_entries_settled": 150,
     "cancelled": 26
   },
@@ -21,11 +21,37 @@
     {
       "id": "ce1:1561949:mid",
       "kind": "signal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-10-24T16:27:28Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "39226daa21c750646837bc984ea2af52a28ed54520bb59cc086f3fea639ba9d4",
-      "telegram_message_count": 2
+      "telegram_message_count": 2,
+      "settled_at": "2026-10-24T17:28:29Z",
+      "result": "VOID",
+      "outcome": {
+        "corners_reference": 7,
+        "corners_final": 10,
+        "corners_after": 3,
+        "target": 3,
+        "technical_result": "VOID",
+        "entry_status": "confirmed",
+        "void_reason": "Saída em contra-aposta após golo do favorito",
+        "approved_manually": true
+      },
+      "sealed_payload": {
+        "alert_id": "ce1:1561949:mid",
+        "classification": "scanner_signal_not_confirmed_bet",
+        "confidence": 7.0,
+        "corners_at_alert": 7,
+        "league": "Bundesliga",
+        "match": "TSV Hartberg vs Wolfsberger AC",
+        "minimum_price": 1.75,
+        "minute": 69,
+        "score_at_alert": "0-0",
+        "suggestion": "🎯 ENTRADA SUGERIDA\nOver 9.5 cantos · odd mín. 1.75+\n↳ se sair +1 canto: sobe p/ Over 10.5 ou espera o Over 10",
+        "window": "MID PRESSURE"
+      },
+      "commitment_valid": true
     },
     {
       "id": "ce1:1555531:ht",
