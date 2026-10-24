@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-24T16:00:08Z",
-  "event_chain_head": "c3afdf21bb78ddf22220fc0af1f8425b7c79b673755a524f17163e2356e75b86",
+  "generated_at": "2026-10-24T16:24:15Z",
+  "event_chain_head": "d1613eff3e14af64389a5df95b0329724fdf09ae3af4dfed0774ca6485374e62",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,20 +12,43 @@
   },
   "summary": {
     "total": 262,
-    "pending": 13,
+    "pending": 12,
     "signals_settled": 85,
-    "official_entries_settled": 149,
+    "official_entries_settled": 150,
     "cancelled": 26
   },
   "records": [
     {
       "id": "tip_proposal:20261024T160007995107Z:2b2b9147",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-10-24T16:00:08Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "f0f6564356babdec1c1a6d5df03651db5f71f225d38e4710e61220cf20d18efb",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-10-24T16:24:15Z",
+      "result": "WIN",
+      "outcome": {
+        "odds": 1.83,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": 0.623,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20261024T160007995107Z:2b2b9147",
+        "market": "⛳ Over 2.5 corners · 1st half",
+        "match": "H. Jerusalem x H. Tel Aviv",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20261024T142939380656Z:61df3d4d",
