@@ -4013,6 +4013,26 @@
       "justificacao_void": "Não entrada — preço demasiado alto",
       "golos_apos_casa": 0,
       "golos_apos_fora": 0
+    },
+    {
+      "alerta_id": "ce1:1570429:shark",
+      "fixture_id": 1570429,
+      "timestamp": "2026-10-24T15:33:04.609363",
+      "jogo": "Rayo Vallecano vs Elche",
+      "liga": "La Liga",
+      "janela": "SHARK ATTACK",
+      "tempo_alerta": 58,
+      "estrelas": 7.0,
+      "cantos_no_ref": 4,
+      "cantos_final": 6,
+      "cantos_apos_alerta": 2,
+      "meta_cantos": 4,
+      "resultado": "LOSS",
+      "resultado_tecnico": "LOSS",
+      "estado_entrada": "CONFIRMADA",
+      "justificacao_void": "",
+      "golos_apos_casa": 0,
+      "golos_apos_fora": 1
     }
   ]
 }
