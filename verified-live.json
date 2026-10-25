@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-25T18:39:04Z",
-  "event_chain_head": "73e9923237b7bb26bc0e3b2d853108f82f6db277cc40f86f84cebbf6416635a1",
+  "generated_at": "2026-10-25T18:52:46Z",
+  "event_chain_head": "f555f46bf545a209b9226e2c5ccb0afa188732c506ae7dca5ee23856b623cea9",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,20 +12,43 @@
   },
   "summary": {
     "total": 290,
-    "pending": 13,
+    "pending": 12,
     "signals_settled": 95,
-    "official_entries_settled": 164,
+    "official_entries_settled": 165,
     "cancelled": 29
   },
   "records": [
     {
       "id": "tip_proposal:20261025T183903699982Z:f1691433",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-10-25T18:39:03Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "9dbcdf69553c39d062756d6d29fc74076972371e5eb3487d34c621812f7bfee5",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-10-25T18:52:46Z",
+      "result": "VOID",
+      "outcome": {
+        "odds": 1.81,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": 0.0,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20261025T183903699982Z:f1691433",
+        "market": "⛳ Over 4 corners · 1st half",
+        "match": "Nacional x Braga",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20261025T174203422135Z:9deadc2e",
