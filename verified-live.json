@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-25T11:56:11Z",
-  "event_chain_head": "8d962898111a6792c29933ab3a668fc0e709764f535c90a49cb867189fff302f",
+  "generated_at": "2026-10-25T12:10:48Z",
+  "event_chain_head": "12e96c6da6b356209c202097f0ccfe908e688c71fc01cf95f111ffe34fa1591a",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,20 +12,43 @@
   },
   "summary": {
     "total": 270,
-    "pending": 13,
+    "pending": 12,
     "signals_settled": 89,
-    "official_entries_settled": 153,
+    "official_entries_settled": 154,
     "cancelled": 26
   },
   "records": [
     {
       "id": "tip_proposal:20261025T115610945973Z:411a7a91",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-10-25T11:56:11Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "6955e101fbbe241faa4691e484e0c2e715e3e3c28778a2f091770d53fcfdda6b",
-      "telegram_message_count": 2
+      "telegram_message_count": 2,
+      "settled_at": "2026-10-25T12:10:48Z",
+      "result": "WIN",
+      "outcome": {
+        "odds": 1.81,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": 0.608,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20261025T115610945973Z:411a7a91",
+        "market": "⛳ Over 9.5 corners · FT",
+        "match": "Pendikspor x Kayserispor",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20261024T192757958563Z:881917b0",
