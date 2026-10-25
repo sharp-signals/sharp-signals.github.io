@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-25T12:50:35Z",
-  "event_chain_head": "980c73370ede227828aaa4ca095d144398880451e6184c6894d78c66dd8407e4",
+  "generated_at": "2026-10-25T12:53:50Z",
+  "event_chain_head": "020848e1f26ceced9f093af65529cfc70d2fbddb7ab66f1367ac526b64952c17",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,9 +12,9 @@
   },
   "summary": {
     "total": 272,
-    "pending": 14,
+    "pending": 13,
     "signals_settled": 89,
-    "official_entries_settled": 154,
+    "official_entries_settled": 155,
     "cancelled": 26
   },
   "records": [
@@ -30,11 +30,34 @@
     {
       "id": "tip_proposal:20261025T124155934982Z:8552a103",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-10-25T12:41:56Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "0eea5e16a0ac40f1628f294677242dd19c05fbeaab57d58866b301709784e8ba",
-      "telegram_message_count": 2
+      "telegram_message_count": 2,
+      "settled_at": "2026-10-25T12:53:50Z",
+      "result": "VOID",
+      "outcome": {
+        "odds": 1.89,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": 0.0,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 8,
+        "entry_id": "tip_proposal:20261025T124155934982Z:8552a103",
+        "market": "⛳ Over 6 corners · FT",
+        "match": "Chanthaburi x Chiangmai",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 1.25
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20261025T115610945973Z:411a7a91",
