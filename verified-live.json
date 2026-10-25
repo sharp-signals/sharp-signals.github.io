@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-25T13:58:23Z",
-  "event_chain_head": "09a9b5e4efa45cee87387715e76ce690052eb9603a5f3e95c65a7a6aa405d4a1",
+  "generated_at": "2026-10-25T14:01:12Z",
+  "event_chain_head": "c08b24ec5405fb29442fea13fd649b2992aaa3edab6240368228add7adb64a57",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,8 +12,8 @@
   },
   "summary": {
     "total": 277,
-    "pending": 16,
-    "signals_settled": 89,
+    "pending": 15,
+    "signals_settled": 90,
     "official_entries_settled": 157,
     "cancelled": 26
   },
@@ -80,11 +80,37 @@
     {
       "id": "ce1:1550161:final",
       "kind": "signal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-10-25T13:08:33Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "f2e9cbfb2dd7b58c35735433376ca4a2d036e7e1dc23cb92566507a1d1566079",
-      "telegram_message_count": 2
+      "telegram_message_count": 2,
+      "settled_at": "2026-10-25T14:01:12Z",
+      "result": "VOID",
+      "outcome": {
+        "corners_reference": 6,
+        "corners_final": 7,
+        "corners_after": 1,
+        "target": 2,
+        "technical_result": "VOID",
+        "entry_status": "confirmed",
+        "void_reason": "Não entrada — preço demasiado alto",
+        "approved_manually": true
+      },
+      "sealed_payload": {
+        "alert_id": "ce1:1550161:final",
+        "classification": "scanner_signal_not_confirmed_bet",
+        "confidence": 7.5,
+        "corners_at_alert": 6,
+        "league": "Serie A",
+        "match": "Inter vs Fiorentina",
+        "minimum_price": 1.75,
+        "minute": 77,
+        "score_at_alert": "0-1",
+        "suggestion": "🎯 ENTRADA SUGERIDA\nOver 7.5 cantos · odd mín. 1.75+\n↳ se sair +1 canto: sobe p/ Over 8.5 ou espera o Over 8",
+        "window": "FINAL PUSH"
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20261025T125034835403Z:15ef5e41",
