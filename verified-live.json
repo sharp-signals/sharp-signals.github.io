@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-25T13:33:52Z",
-  "event_chain_head": "c229832f5d71834967c6b5c7eb2e7bf9e040604d52bb5b8b07f08c5e77b8ddfd",
+  "generated_at": "2026-10-25T13:45:01Z",
+  "event_chain_head": "1d8f0d2a52dde7f22220bfff52dfc9c3f12c1aad75c18bb6e270fb4670064e93",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,20 +12,43 @@
   },
   "summary": {
     "total": 276,
-    "pending": 16,
+    "pending": 15,
     "signals_settled": 89,
-    "official_entries_settled": 156,
+    "official_entries_settled": 157,
     "cancelled": 26
   },
   "records": [
     {
       "id": "tip_proposal:20261025T133352362344Z:5bcc7690",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-10-25T13:33:52Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "d9c538c1f853691337854b1dc3bf7a5119df77c6b739cd10bd874e48f0085c05",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-10-25T13:45:01Z",
+      "result": "CASHOUT",
+      "outcome": {
+        "odds": null,
+        "odds_source": "cashout_loss_reference",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": 0.15,
+        "entry_status": "confirmed",
+        "profit_loss_percent": -0.112,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20261025T133352362344Z:5bcc7690",
+        "market": "⛳ Over 6.5 corners · FT",
+        "match": "Hoffenheim F x Mainz F",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "ce1:1585799:ht",
