@@ -303,7 +303,7 @@ function resumoTips(raw){
   const nomes=['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
   const meses=Object.values(mesesMap).sort((a,b)=>a.mes.localeCompare(b.mes)).map(m=>{const [ano,mm]=m.mes.split('-'),decididas=m.ganhos+m.perdidos;return {...m,label:`${nomes[Number(mm)-1]} ${ano.slice(2)}`,apostas:decididas,wr:decididas?Math.round(1000*m.ganhos/decididas)/10:0,cresc_pct:Math.round(m.cresc_pct*1000)/1000};});
   const mercados={};
-  historico.forEach(x=>{if(!['ganho','perdido','perda','cashout'].includes(x.resultado))return;const nome=x.categoria||'Other',b=mercados[nome]||(mercados[nome]={mercado:nome,n:0,g:0,p:0,roi:0});if(x.resultado==='ganho'){b.n++;b.g++;}else if(x.resultado==='perdido'||x.resultado==='perda'){b.n++;b.p++;}b.roi+=Number(x.pl_pct)||0;});
+  historico.forEach(x=>{if(!['ganho','perdido','perda'].includes(x.resultado))return;const nome=x.categoria||'Other',b=mercados[nome]||(mercados[nome]={mercado:nome,n:0,g:0,p:0,roi:0});if(x.resultado==='ganho'){b.n++;b.g++;}else if(x.resultado==='perdido'||x.resultado==='perda'){b.n++;b.p++;}b.roi+=Number(x.pl_pct)||0;});
   const por_mercado=Object.values(mercados).map(m=>({...m,wr:m.n?Math.round(1000*m.g/m.n)/10:0,roi:Math.round(m.roi*100)/100}));
   const forma=historico.slice().reverse().filter(x=>['ganho','perdido','perda'].includes(x.resultado)).map(x=>x.resultado==='ganho'?'ganho':'perdido').slice(-15);
   const decididas=ganhos+perdidos;

@@ -318,7 +318,7 @@ function resumoTips(raw){
   });
   const mercados={};
   historico.forEach(x=>{
-    if(!['ganho','perdido','perda','cashout'].includes(x.resultado)) return;
+    if(!['ganho','perdido','perda'].includes(x.resultado)) return;
     const nome=x.categoria||'Outro'; const b=mercados[nome]||(mercados[nome]={mercado:nome,n:0,g:0,p:0,roi:0});
     if(x.resultado==='ganho'){b.n++;b.g++;}
     else if(x.resultado==='perdido'||x.resultado==='perda'){b.n++;b.p++;}
