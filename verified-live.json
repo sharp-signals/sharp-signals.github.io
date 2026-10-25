@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-25T14:02:17Z",
-  "event_chain_head": "6cf9c598ee4f54df815bd4fa3a749186a1197760c153b8fd9f78f752e14c7980",
+  "generated_at": "2026-10-25T14:16:44Z",
+  "event_chain_head": "208ba785669a1ea05c96c86e154bf0c242e93ae622597a467f3cb7d11914619b",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,8 +12,8 @@
   },
   "summary": {
     "total": 277,
-    "pending": 14,
-    "signals_settled": 91,
+    "pending": 13,
+    "signals_settled": 92,
     "official_entries_settled": 157,
     "cancelled": 26
   },
@@ -97,11 +97,37 @@
     {
       "id": "ce1:1607708:shark",
       "kind": "signal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-10-25T13:13:14Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "f0877501d27929e6a8aa466f3439d3076bf431b50c54ad6aad6e10cb6da42e7a",
-      "telegram_message_count": 2
+      "telegram_message_count": 2,
+      "settled_at": "2026-10-25T14:16:44Z",
+      "result": "VOID",
+      "outcome": {
+        "corners_reference": 10,
+        "corners_final": 15,
+        "corners_after": 5,
+        "target": 4,
+        "technical_result": "VOID",
+        "entry_status": "confirmed",
+        "void_reason": "Não entrada — preço demasiado alto",
+        "approved_manually": true
+      },
+      "sealed_payload": {
+        "alert_id": "ce1:1607708:shark",
+        "classification": "scanner_signal_not_confirmed_bet",
+        "confidence": 7.5,
+        "corners_at_alert": 8,
+        "league": "FA WSL",
+        "match": "Crystal Palace W vs Chelsea W",
+        "minimum_price": 1.75,
+        "minute": 55,
+        "score_at_alert": "1-1",
+        "suggestion": "🎯 ENTRADA SUGERIDA\nOver 11.5 cantos · odd mín. 1.75+\n↳ se sair +1 canto: sobe p/ Over 12.5 ou espera o Over 12",
+        "window": "SHARK ATTACK"
+      },
+      "commitment_valid": true
     },
     {
       "id": "ce1:1550161:final",
