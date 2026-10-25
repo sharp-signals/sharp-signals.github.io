@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-25T22:07:18Z",
-  "event_chain_head": "88913eab4fe6aaf26e0b1ea6107ccbf961ad0cfb21e2411291423836e1e7b935",
+  "generated_at": "2026-10-25T23:09:14Z",
+  "event_chain_head": "8dd0330fc731ac00e6e2ac41fa6d1c795bd58ebb8a8a36266a35b57f1465a913",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,20 +12,46 @@
   },
   "summary": {
     "total": 294,
-    "pending": 15,
-    "signals_settled": 95,
+    "pending": 14,
+    "signals_settled": 96,
     "official_entries_settled": 166,
-    "cancelled": 29
+    "cancelled": 30
   },
   "records": [
     {
       "id": "ce1:1575525:mid",
       "kind": "signal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-10-25T22:07:18Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "0e2cf0fb5042694c8fded19b7a4eb1b4dc737ed292f6918641de3e26ba38b6bc",
-      "telegram_message_count": 2
+      "telegram_message_count": 2,
+      "settled_at": "2026-10-25T23:09:14Z",
+      "result": "CANCELADA",
+      "outcome": {
+        "corners_reference": 11,
+        "corners_final": 11,
+        "corners_after": 0,
+        "target": 3,
+        "technical_result": "LOSS",
+        "entry_status": "cancelled",
+        "void_reason": "",
+        "approved_manually": true
+      },
+      "sealed_payload": {
+        "alert_id": "ce1:1575525:mid",
+        "classification": "scanner_signal_not_confirmed_bet",
+        "confidence": 7.0,
+        "corners_at_alert": 9,
+        "league": "Primeira Liga",
+        "match": "Sporting CP vs Academico Viseu",
+        "minimum_price": 1.75,
+        "minute": 67,
+        "score_at_alert": "1-1",
+        "suggestion": "🎯 ENTRADA SUGERIDA\nOver 11.5 cantos · odd mín. 1.75+\n↳ se sair +1 canto: sobe p/ Over 12.5 ou espera o Over 12",
+        "window": "MID PRESSURE"
+      },
+      "commitment_valid": true
     },
     {
       "id": "ce1:1575525:shark",
