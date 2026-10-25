@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-25T16:20:35Z",
-  "event_chain_head": "9b24710791e366b0be01f52621a24de2c90cee67acd58469544b871ac41fd7ff",
+  "generated_at": "2026-10-25T16:26:12Z",
+  "event_chain_head": "9e742b9a17943f979ce2e948013a99c9db1d7ee7807f7f48d065ab1dd16eeba7",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,9 +12,9 @@
   },
   "summary": {
     "total": 284,
-    "pending": 14,
+    "pending": 13,
     "signals_settled": 93,
-    "official_entries_settled": 159,
+    "official_entries_settled": 160,
     "cancelled": 29
   },
   "records": [
@@ -30,11 +30,34 @@
     {
       "id": "tip_proposal:20261025T161643167313Z:15cc3412",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-10-25T16:16:43Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "b6c3664a2f9debf6d993be3b5ef99df43eb3889f443eac907695fa91b8b06257",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-10-25T16:26:12Z",
+      "result": "WIN",
+      "outcome": {
+        "odds": 1.81,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": 1.013,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 8,
+        "entry_id": "tip_proposal:20261025T161643167313Z:15cc3412",
+        "market": "⛳ Over 2.5 corners · 1st half",
+        "match": "Volos x Panathinaikos",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 1.25
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20261025T153356042961Z:de962b11",
