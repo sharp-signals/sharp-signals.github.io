@@ -4255,6 +4255,26 @@
       "justificacao_void": "Não entrada — preço demasiado alto",
       "golos_apos_casa": 2,
       "golos_apos_fora": 0
+    },
+    {
+      "alerta_id": "ce1:1575525:mid",
+      "fixture_id": 1575525,
+      "timestamp": "2026-10-25T23:09:09.369334",
+      "jogo": "Sporting CP vs Academico Viseu",
+      "liga": "Primeira Liga",
+      "janela": "MID PRESSURE",
+      "tempo_alerta": 67,
+      "estrelas": 7.0,
+      "cantos_no_ref": 11,
+      "cantos_final": 11,
+      "cantos_apos_alerta": 0,
+      "meta_cantos": 3,
+      "resultado": "CANCELADA",
+      "resultado_tecnico": "LOSS",
+      "estado_entrada": "CANCELADA",
+      "justificacao_void": "",
+      "golos_apos_casa": 0,
+      "golos_apos_fora": 1
     }
   ]
 }
