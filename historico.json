@@ -4175,6 +4175,26 @@
       "justificacao_void": "",
       "golos_apos_casa": 0,
       "golos_apos_fora": 1
+    },
+    {
+      "alerta_id": "ce1:1607708:shark",
+      "fixture_id": 1607708,
+      "timestamp": "2026-10-25T14:16:40.190065",
+      "jogo": "Crystal Palace W vs Chelsea W",
+      "liga": "FA WSL",
+      "janela": "SHARK ATTACK",
+      "tempo_alerta": 55,
+      "estrelas": 7.5,
+      "cantos_no_ref": 10,
+      "cantos_final": 15,
+      "cantos_apos_alerta": 5,
+      "meta_cantos": 4,
+      "resultado": "VOID",
+      "resultado_tecnico": "VOID",
+      "estado_entrada": "CONFIRMADA",
+      "justificacao_void": "Não entrada — preço demasiado alto",
+      "golos_apos_casa": 0,
+      "golos_apos_fora": 2
     }
   ]
 }
