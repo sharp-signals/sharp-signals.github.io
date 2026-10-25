@@ -8,9 +8,9 @@
    "fim": "2026-01-31"
   },
   "cresc_pct": 56.91,
-  "apostas": 1198,
+  "apostas": 1199,
   "ganhos": 675,
-  "perdidos": 523,
+  "perdidos": 524,
   "wr": 56.3,
   "meses": [
    {
@@ -79,9 +79,9 @@
    {
     "mes": "2026-10",
     "label": "Out 26",
-    "cresc_pct": 4.07,
-    "apostas": 60,
-    "wr": 53.3
+    "cresc_pct": 3.88,
+    "apostas": 61,
+    "wr": 52.5
    }
   ],
   "por_mercado": [
@@ -101,9 +101,9 @@
    },
    {
     "mercado": "Cashout",
-    "n": 170,
-    "wr": 44.7,
-    "roi": -4.01,
+    "n": 171,
+    "wr": 44.4,
+    "roi": -4.2,
     "pl_eur": -74.77
    },
    {
@@ -136,7 +136,6 @@
    }
   ],
   "forma": [
-   "perdido",
    "cashout",
    "ganho",
    "ganho",
@@ -150,7 +149,8 @@
    "ganho",
    "ganho",
    "ganho",
-   "ganho"
+   "ganho",
+   "cashout"
   ],
   "historico": [
    {
@@ -158,16 +158,17 @@
     "mes": "2026-10",
     "jogo": "Borac Banja x Sloga Doboj",
     "mercado": "⛳ Over 8.5 corners · FT",
-    "categoria": "Over Cantos FT",
+    "categoria": "Cashout",
     "odd": null,
-    "pl_pct": null,
+    "pl_pct": -0.188,
     "stake_pct": 1.25,
-    "resultado": "pendente",
+    "resultado": "cashout",
     "verified_id": "tip_proposal:20261025T174203422135Z:9deadc2e",
-    "estado_entrada": "aguarda_confirmacao",
-    "tipo_odd": "por_registar",
+    "estado_entrada": "confirmada",
+    "tipo_odd": "referencia_cashout_menos_15_pct",
     "odd_minima_recomendada": 1.81,
-    "confianca": 8
+    "confianca": 8,
+    "cashout_perda_referencia_pct_stake": 15.0
    },
    {
     "data": "2026-10-25",
