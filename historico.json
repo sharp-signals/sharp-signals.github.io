@@ -4195,6 +4195,26 @@
       "justificacao_void": "Não entrada — preço demasiado alto",
       "golos_apos_casa": 0,
       "golos_apos_fora": 2
+    },
+    {
+      "alerta_id": "ce1:1576207:mid",
+      "fixture_id": 1576207,
+      "timestamp": "2026-10-25T14:49:30.083904",
+      "jogo": "Eintracht Braunschweig vs Hannover 96",
+      "liga": "2. Bundesliga",
+      "janela": "MID PRESSURE",
+      "tempo_alerta": 69,
+      "estrelas": 7.0,
+      "cantos_no_ref": 7,
+      "cantos_final": 12,
+      "cantos_apos_alerta": 5,
+      "meta_cantos": 3,
+      "resultado": "WIN",
+      "resultado_tecnico": "WIN",
+      "estado_entrada": "CONFIRMADA",
+      "justificacao_void": "",
+      "golos_apos_casa": 1,
+      "golos_apos_fora": 0
     }
   ]
 }
