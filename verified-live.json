@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-25T15:33:56Z",
-  "event_chain_head": "1dabce71f69a58941e2d9d8e5419712c7a67ca355f72802d9fdb948dc3376a92",
+  "generated_at": "2026-10-25T16:06:46Z",
+  "event_chain_head": "736226c99be91c142b585a38253076ea30128fcd60056148ce1c592fe74206cc",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,20 +12,43 @@
   },
   "summary": {
     "total": 282,
-    "pending": 14,
+    "pending": 13,
     "signals_settled": 93,
-    "official_entries_settled": 157,
+    "official_entries_settled": 158,
     "cancelled": 29
   },
   "records": [
     {
       "id": "tip_proposal:20261025T153356042961Z:de962b11",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-10-25T15:33:56Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "785fbfa8e88e56cd5caff340ee5447e40c51026d1f0135a4ca04f659bb36b48c",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-10-25T16:06:46Z",
+      "result": "LOSS",
+      "outcome": {
+        "odds": null,
+        "odds_source": "historical_reference",
+        "reference_odds": 1.84,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": -0.75,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20261025T153356042961Z:de962b11",
+        "market": "⛳ Over 1.5 corners · FT",
+        "match": "Astana x Kaysar",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20261025T152323595726Z:86186384",
