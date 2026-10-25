@@ -17,7 +17,7 @@
    "pode_nao_publicar": true
   }
  },
- "atualizado": "2026-10-25T19:00:21",
+ "atualizado": "2026-10-25T19:28:22",
  "dia_trading": "2026-10-25",
  "geral": {
   "inicio": "2026-06-06",
@@ -3628,7 +3628,7 @@
    "ticket_id": "prelive:2026-10-25:2",
    "ticket_slot": 2,
    "fire": false,
-   "resultado": null
+   "resultado": "ganho"
   },
   {
    "hora": "13:00",
@@ -3689,10 +3689,10 @@
   "descricao": "Bilhete partilhado no canal gratuito · até um por dia · 1u",
   "publication_scope": "free_confirmed_only",
   "boletins": 25,
-  "greens": 4,
+  "greens": 5,
   "reds": 20,
-  "pendentes": 1,
-  "lucro": 3.27,
+  "pendentes": 0,
+  "lucro": 8.59,
   "ultimos": [
    {
     "ticket_id": "prelive:2026-10-25:2",
@@ -3702,7 +3702,7 @@
     "data": "2026-10-25",
     "tipo": "dupla",
     "odd": 6.32,
-    "resultado": null,
+    "resultado": "green",
     "u": 1.0,
     "published_at": "2026-10-25T06:12:11+00:00",
     "publication_confirmed": true,
@@ -3715,7 +3715,7 @@
       "hora": "17:30",
       "mercado": null,
       "odd": 2.3,
-      "resultado": null
+      "resultado": "ganho"
      },
      {
       "fixture_id": 1569991,
@@ -3738,7 +3738,7 @@
    "data": "2026-10-25",
    "tipo": "dupla",
    "odd": 6.32,
-   "resultado": null,
+   "resultado": "green",
    "u": 1.0,
    "published_at": "2026-10-25T06:12:11+00:00",
    "publication_confirmed": true,
@@ -3751,7 +3751,7 @@
      "hora": "17:30",
      "mercado": null,
      "odd": 2.3,
-     "resultado": null
+     "resultado": "ganho"
     },
     {
      "fixture_id": 1569991,
@@ -4754,7 +4754,7 @@
     "data": "2026-10-25",
     "tipo": "dupla",
     "odd": 6.32,
-    "resultado": null,
+    "resultado": "green",
     "u": 1.0,
     "published_at": "2026-10-25T06:12:11+00:00",
     "publication_confirmed": true,
@@ -4767,7 +4767,7 @@
       "hora": "17:30",
       "mercado": null,
       "odd": 2.3,
-      "resultado": null
+      "resultado": "ganho"
      },
      {
       "fixture_id": 1569991,
