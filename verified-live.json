@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-25T19:34:57Z",
-  "event_chain_head": "4102f781fa87195b6f805aba0a1c0bc0e6de2582ef6851637aeec65e3d8d5d78",
+  "generated_at": "2026-10-25T19:39:28Z",
+  "event_chain_head": "26b433c11654249257d5ed7cbae2d68281f9b58030ba51d3a77c8f53c23689c1",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,9 +12,9 @@
   },
   "summary": {
     "total": 292,
-    "pending": 14,
+    "pending": 13,
     "signals_settled": 95,
-    "official_entries_settled": 165,
+    "official_entries_settled": 166,
     "cancelled": 29
   },
   "records": [
@@ -30,11 +30,34 @@
     {
       "id": "tip_proposal:20261025T191529580027Z:7db6a736",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-10-25T19:15:29Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "3113f5c52bc29bfc31d566e90f6c05e1dc909a63132151471c41f68d645440cb",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-10-25T19:39:27Z",
+      "result": "WIN",
+      "outcome": {
+        "odds": 1.81,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": 0.608,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20261025T191529580027Z:7db6a736",
+        "market": "⛳ Over 7.5 corners · FT",
+        "match": "OFI Crete x PAOK",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20261025T183903699982Z:f1691433",
