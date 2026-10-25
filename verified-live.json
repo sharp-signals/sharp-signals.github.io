@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-25T16:26:12Z",
-  "event_chain_head": "9e742b9a17943f979ce2e948013a99c9db1d7ee7807f7f48d065ab1dd16eeba7",
+  "generated_at": "2026-10-25T16:29:46Z",
+  "event_chain_head": "328c52e04df11fb207d40e754fc094b9acf2069e1078ec2db3d58be9f1bf3d75",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,20 +12,43 @@
   },
   "summary": {
     "total": 284,
-    "pending": 13,
+    "pending": 12,
     "signals_settled": 93,
-    "official_entries_settled": 160,
+    "official_entries_settled": 161,
     "cancelled": 29
   },
   "records": [
     {
       "id": "tip_proposal:20261025T162035259920Z:2ee1ec7f",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-10-25T16:20:35Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "46305e21a92f03c6d5b461ac07b098f217e8cf18a0507fee10522e36d53ab896",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-10-25T16:29:46Z",
+      "result": "WIN",
+      "outcome": {
+        "odds": 1.84,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": 0.63,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20261025T162035259920Z:2ee1ec7f",
+        "market": "⛳ Over 3 corners · 1st half",
+        "match": "Zwolle F x Twente F",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20261025T161643167313Z:15cc3412",
