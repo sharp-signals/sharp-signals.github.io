@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-25T15:17:27Z",
-  "event_chain_head": "f31dcdef7394d4aea61388dec8204511b93ce313e6805ff5896bee57e63262b9",
+  "generated_at": "2026-10-25T15:18:06Z",
+  "event_chain_head": "8c6307514e59bc89fc6391e4c87eeaa169d55c4314575c7fad03c4d79791c88c",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,20 +12,43 @@
   },
   "summary": {
     "total": 280,
-    "pending": 13,
+    "pending": 12,
     "signals_settled": 93,
     "official_entries_settled": 157,
-    "cancelled": 28
+    "cancelled": 29
   },
   "records": [
     {
       "id": "tip_proposal:20261025T151726659124Z:a29c87d2",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-10-25T15:17:27Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "1bf183b6ac6a6dc112f52fad89f13131120b20ce5d37ac3d7fb3e51d05bcc28b",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-10-25T15:18:06Z",
+      "result": "CANCELADA",
+      "outcome": {
+        "odds": null,
+        "odds_source": null,
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "cancelled",
+        "profit_loss_percent": null,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20261025T151726659124Z:a29c87d2",
+        "market": "⛳ Over 4.5 corners · 1st half",
+        "match": "OFK Beograd x Red Star",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20261025T143300968111Z:3658d8d3",
