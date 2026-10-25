@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-25T14:34:35Z",
-  "event_chain_head": "757a90c22817f5a98ed86143c4bb2464f36c543edf3b23be837e081942605320",
+  "generated_at": "2026-10-25T14:49:35Z",
+  "event_chain_head": "13fc7969fdfa827771bcaed8c462eac7ec5414dc0ec51169b0b51f175c599800",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,8 +12,8 @@
   },
   "summary": {
     "total": 279,
-    "pending": 13,
-    "signals_settled": 92,
+    "pending": 12,
+    "signals_settled": 93,
     "official_entries_settled": 157,
     "cancelled": 28
   },
@@ -85,11 +85,37 @@
     {
       "id": "ce1:1576207:mid",
       "kind": "signal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-10-25T13:58:23Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "3e611f07b7047726e1ca249f9cb2a6b2553ef73d87f14ac9e00147c6bef97595",
-      "telegram_message_count": 2
+      "telegram_message_count": 2,
+      "settled_at": "2026-10-25T14:49:34Z",
+      "result": "WIN",
+      "outcome": {
+        "corners_reference": 7,
+        "corners_final": 12,
+        "corners_after": 5,
+        "target": 3,
+        "technical_result": "WIN",
+        "entry_status": "confirmed",
+        "void_reason": "",
+        "approved_manually": true
+      },
+      "sealed_payload": {
+        "alert_id": "ce1:1576207:mid",
+        "classification": "scanner_signal_not_confirmed_bet",
+        "confidence": 7.0,
+        "corners_at_alert": 7,
+        "league": "2. Bundesliga",
+        "match": "Eintracht Braunschweig vs Hannover 96",
+        "minimum_price": 1.75,
+        "minute": 69,
+        "score_at_alert": "1-0",
+        "suggestion": "🎯 ENTRADA SUGERIDA\nOver 9.5 cantos · odd mín. 1.75+\n↳ se sair +1 canto: sobe p/ Over 10.5 ou espera o Over 10",
+        "window": "MID PRESSURE"
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20261025T133352362344Z:5bcc7690",
