@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-25T17:02:15Z",
-  "event_chain_head": "74e4d98599f0752aeec1df7574c6dd6224ae8de8bd3dc9f544e45d14626de52e",
+  "generated_at": "2026-10-25T17:11:14Z",
+  "event_chain_head": "dd25b1aa15ebca1c05200ae905e74fd6f37ecc548de5be56ae0234a9f48e2b98",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,20 +12,43 @@
   },
   "summary": {
     "total": 286,
-    "pending": 13,
+    "pending": 12,
     "signals_settled": 94,
-    "official_entries_settled": 161,
+    "official_entries_settled": 162,
     "cancelled": 29
   },
   "records": [
     {
       "id": "tip_proposal:20261025T164928265179Z:3e6fb7af",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-10-25T16:49:28Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "da57be2627b15e079bc9f11f560ce48e101562dd715915f700b2ca079c306f7b",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-10-25T17:11:14Z",
+      "result": "WIN",
+      "outcome": {
+        "odds": 1.95,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": 1.188,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 8,
+        "entry_id": "tip_proposal:20261025T164928265179Z:3e6fb7af",
+        "market": "⛳ Over 2 corners · 1st half",
+        "match": "Borak Banja x Sloga Doboj",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 1.25
+      },
+      "commitment_valid": true
     },
     {
       "id": "ce1:1593344:ht",
