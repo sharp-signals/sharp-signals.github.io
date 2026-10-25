@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-25T17:58:35Z",
-  "event_chain_head": "55d0d46b4219c9b36261be1754dce54ab9d1484834e12efe86b416caf5a7e33f",
+  "generated_at": "2026-10-25T18:10:37Z",
+  "event_chain_head": "6a6080ce36efd37d899d9696f3be5ee05dca1a9ff327d2c5d9da43e0e1f1a79e",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,8 +12,8 @@
   },
   "summary": {
     "total": 289,
-    "pending": 13,
-    "signals_settled": 94,
+    "pending": 12,
+    "signals_settled": 95,
     "official_entries_settled": 164,
     "cancelled": 29
   },
@@ -53,11 +53,37 @@
     {
       "id": "ce1:1494689:final",
       "kind": "signal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-10-25T17:37:40Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "95a53f97f6e111a8a9b7b100ed626f53bb4a2f4bf5d4fbdbfa35806e80ba09af",
-      "telegram_message_count": 2
+      "telegram_message_count": 2,
+      "settled_at": "2026-10-25T18:10:37Z",
+      "result": "VOID",
+      "outcome": {
+        "corners_reference": 20,
+        "corners_final": 24,
+        "corners_after": 4,
+        "target": 2,
+        "technical_result": "VOID",
+        "entry_status": "confirmed",
+        "void_reason": "Não entrada — preço demasiado alto",
+        "approved_manually": true
+      },
+      "sealed_payload": {
+        "alert_id": "ce1:1494689:final",
+        "classification": "scanner_signal_not_confirmed_bet",
+        "confidence": 8.0,
+        "corners_at_alert": 20,
+        "league": "Eliteserien",
+        "match": "Sarpsborg 08 FF vs Aalesund",
+        "minimum_price": 1.75,
+        "minute": 80,
+        "score_at_alert": "0-1",
+        "suggestion": "🎯 ENTRADA SUGERIDA\nOver 21.5 cantos · odd mín. 1.75+\n↳ se sair +1 canto: sobe p/ Over 22.5 ou espera o Over 22",
+        "window": "FINAL PUSH"
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20261025T172224886966Z:733086fd",
