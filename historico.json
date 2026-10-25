@@ -4295,6 +4295,26 @@
       "justificacao_void": "Não entrada — preço demasiado alto",
       "golos_apos_casa": 1,
       "golos_apos_fora": 1
+    },
+    {
+      "alerta_id": "ce1:1558660:shark",
+      "fixture_id": 1558660,
+      "timestamp": "2026-10-25T23:24:58.309256",
+      "jogo": "Union St. Gilloise vs Cercle Brugge",
+      "liga": "Jupiler Pro League",
+      "janela": "SHARK ATTACK",
+      "tempo_alerta": 58,
+      "estrelas": 9.0,
+      "cantos_no_ref": 6,
+      "cantos_final": 14,
+      "cantos_apos_alerta": 8,
+      "meta_cantos": 4,
+      "resultado": "VOID",
+      "resultado_tecnico": "VOID",
+      "estado_entrada": "CONFIRMADA",
+      "justificacao_void": "Não entrada — preço demasiado alto",
+      "golos_apos_casa": 4,
+      "golos_apos_fora": 0
     }
   ]
 }
