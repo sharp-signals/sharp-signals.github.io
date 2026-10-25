@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-25T16:49:28Z",
-  "event_chain_head": "72b2e215da3dcb262c4405d63a714fb86f67dc3bfdd9f6f7f045e15ed4ac1aee",
+  "generated_at": "2026-10-25T17:02:15Z",
+  "event_chain_head": "74e4d98599f0752aeec1df7574c6dd6224ae8de8bd3dc9f544e45d14626de52e",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,8 +12,8 @@
   },
   "summary": {
     "total": 286,
-    "pending": 14,
-    "signals_settled": 93,
+    "pending": 13,
+    "signals_settled": 94,
     "official_entries_settled": 161,
     "cancelled": 29
   },
@@ -30,11 +30,37 @@
     {
       "id": "ce1:1593344:ht",
       "kind": "signal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-10-25T16:32:02Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "b676c7fc1eb7f6598f14be80caf6637f06f925911755d4cfd30b66a406dce76c",
-      "telegram_message_count": 2
+      "telegram_message_count": 2,
+      "settled_at": "2026-10-25T17:02:15Z",
+      "result": "WIN",
+      "outcome": {
+        "corners_reference": 3,
+        "corners_final": 8,
+        "corners_after": 5,
+        "target": 2,
+        "technical_result": "WIN",
+        "entry_status": "confirmed",
+        "void_reason": "",
+        "approved_manually": true
+      },
+      "sealed_payload": {
+        "alert_id": "ce1:1593344:ht",
+        "classification": "scanner_signal_not_confirmed_bet",
+        "confidence": 7.0,
+        "corners_at_alert": 3,
+        "league": "Super League 1",
+        "match": "Volos NFC vs Panathinaikos",
+        "minimum_price": 1.75,
+        "minute": 29,
+        "score_at_alert": "0-0",
+        "suggestion": "🎯 ENTRADA SUGERIDA\nOver 4.5 cantos 1ª parte · odd mín. 1.75+\n↳ se sair +1 canto: sobe p/ Over 5.5 ou espera o Over 5",
+        "window": "HT ATTACK"
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20261025T162035259920Z:2ee1ec7f",
