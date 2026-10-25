@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-25T23:09:14Z",
-  "event_chain_head": "8dd0330fc731ac00e6e2ac41fa6d1c795bd58ebb8a8a36266a35b57f1465a913",
+  "generated_at": "2026-10-25T23:09:59Z",
+  "event_chain_head": "5e02c859cfdba307cfb711bd277a41a35b61434e2c8ffad30a192daf36e85138",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,8 +12,8 @@
   },
   "summary": {
     "total": 294,
-    "pending": 14,
-    "signals_settled": 96,
+    "pending": 13,
+    "signals_settled": 97,
     "official_entries_settled": 166,
     "cancelled": 30
   },
@@ -56,11 +56,37 @@
     {
       "id": "ce1:1575525:shark",
       "kind": "signal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-10-25T21:58:02Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "d01727f3175778e1159740ef6576a72462ccdf275621b827f2874ab5614631f2",
-      "telegram_message_count": 2
+      "telegram_message_count": 2,
+      "settled_at": "2026-10-25T23:09:59Z",
+      "result": "VOID",
+      "outcome": {
+        "corners_reference": 9,
+        "corners_final": 11,
+        "corners_after": 2,
+        "target": 4,
+        "technical_result": "VOID",
+        "entry_status": "confirmed",
+        "void_reason": "Não entrada — preço demasiado alto",
+        "approved_manually": true
+      },
+      "sealed_payload": {
+        "alert_id": "ce1:1575525:shark",
+        "classification": "scanner_signal_not_confirmed_bet",
+        "confidence": 9.0,
+        "corners_at_alert": 9,
+        "league": "Primeira Liga",
+        "match": "Sporting CP vs Academico Viseu",
+        "minimum_price": 1.75,
+        "minute": 58,
+        "score_at_alert": "0-1",
+        "suggestion": "🎯 ENTRADA SUGERIDA\nOver 12.5 cantos · odd mín. 1.75+\n↳ se sair +1 canto: sobe p/ Over 13.5 ou espera o Over 13",
+        "window": "SHARK ATTACK"
+      },
+      "commitment_valid": true
     },
     {
       "id": "ce1:1558660:shark",
