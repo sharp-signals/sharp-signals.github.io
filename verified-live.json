@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-25T14:17:50Z",
-  "event_chain_head": "7be0313ed9b598b665f8aa1b2ffe338ac1fc014aa44d18cb6b09ae45462a14bb",
+  "generated_at": "2026-10-25T14:19:11Z",
+  "event_chain_head": "94fb66427aa8a3c2cdcbe7a6ee1184f207f21ca33f22bcb568325050c6677c14",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,20 +12,43 @@
   },
   "summary": {
     "total": 278,
-    "pending": 14,
+    "pending": 13,
     "signals_settled": 92,
     "official_entries_settled": 157,
-    "cancelled": 26
+    "cancelled": 27
   },
   "records": [
     {
       "id": "tip_proposal:20261025T141749966876Z:d9f90cc0",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-10-25T14:17:50Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "281ccdb049384efbd08b6ac77317a24ab902bea5db8abc0211b3e19989dc8815",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-10-25T14:19:11Z",
+      "result": "CANCELADA",
+      "outcome": {
+        "odds": null,
+        "odds_source": null,
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "cancelled",
+        "profit_loss_percent": null,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20261025T141749966876Z:d9f90cc0",
+        "market": "⛳ Over 3.5 corners · 1st half",
+        "match": "Olympiakos x Kalamata",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "ce1:1576207:mid",
