@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-25T12:53:50Z",
-  "event_chain_head": "020848e1f26ceced9f093af65529cfc70d2fbddb7ab66f1367ac526b64952c17",
+  "generated_at": "2026-10-25T12:58:47Z",
+  "event_chain_head": "c4f56358a5b1f26b401948d933ebe2c976c4b9a37be84cc1f606bbf0d5a4adc9",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,20 +12,43 @@
   },
   "summary": {
     "total": 272,
-    "pending": 13,
+    "pending": 12,
     "signals_settled": 89,
-    "official_entries_settled": 155,
+    "official_entries_settled": 156,
     "cancelled": 26
   },
   "records": [
     {
       "id": "tip_proposal:20261025T125034835403Z:15ef5e41",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-10-25T12:50:35Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "cc62aab365eed264e94994da50508d2b2a99360a064f357ad8d119e6ef8949e0",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-10-25T12:58:47Z",
+      "result": "CASHOUT",
+      "outcome": {
+        "odds": null,
+        "odds_source": "cashout_loss_reference",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": 0.15,
+        "entry_status": "confirmed",
+        "profit_loss_percent": -0.112,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20261025T125034835403Z:15ef5e41",
+        "market": "⛳ Over 7.5 corners · FT",
+        "match": "Inter x Fiorentina",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20261025T124155934982Z:8552a103",
