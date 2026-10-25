@@ -4235,6 +4235,26 @@
       "justificacao_void": "",
       "golos_apos_casa": 0,
       "golos_apos_fora": 0
+    },
+    {
+      "alerta_id": "ce1:1494689:final",
+      "fixture_id": 1494689,
+      "timestamp": "2026-10-25T18:10:33.190091",
+      "jogo": "Sarpsborg 08 FF vs Aalesund",
+      "liga": "Eliteserien",
+      "janela": "FINAL PUSH",
+      "tempo_alerta": 80,
+      "estrelas": 8.0,
+      "cantos_no_ref": 20,
+      "cantos_final": 24,
+      "cantos_apos_alerta": 4,
+      "meta_cantos": 2,
+      "resultado": "VOID",
+      "resultado_tecnico": "VOID",
+      "estado_entrada": "CONFIRMADA",
+      "justificacao_void": "Não entrada — preço demasiado alto",
+      "golos_apos_casa": 2,
+      "golos_apos_fora": 0
     }
   ]
 }
