@@ -4134,5 +4134,27 @@
       "golos_apos_casa": 0,
       "golos_apos_fora": 0
     }
+  ],
+  "2026-10-25": [
+    {
+      "alerta_id": "ce1:1550161:final",
+      "fixture_id": 1550161,
+      "timestamp": "2026-10-25T14:01:08.803830",
+      "jogo": "Inter vs Fiorentina",
+      "liga": "Serie A",
+      "janela": "FINAL PUSH",
+      "tempo_alerta": 77,
+      "estrelas": 7.5,
+      "cantos_no_ref": 6,
+      "cantos_final": 7,
+      "cantos_apos_alerta": 1,
+      "meta_cantos": 2,
+      "resultado": "VOID",
+      "resultado_tecnico": "VOID",
+      "estado_entrada": "CONFIRMADA",
+      "justificacao_void": "Não entrada — preço demasiado alto",
+      "golos_apos_casa": 2,
+      "golos_apos_fora": 0
+    }
   ]
 }
