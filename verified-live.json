@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-26T17:40:39Z",
-  "event_chain_head": "b120233bedcccbff67ca893acd1939257100ae40eb2d515c2041dbd31a25f93b",
+  "generated_at": "2026-10-26T17:46:51Z",
+  "event_chain_head": "aabe112b0daa3a6cf097e924ccd1acbc84acf1e900aff98f7e3e2e5b760a0fb3",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,20 +12,43 @@
   },
   "summary": {
     "total": 297,
-    "pending": 13,
+    "pending": 12,
     "signals_settled": 98,
-    "official_entries_settled": 168,
+    "official_entries_settled": 169,
     "cancelled": 30
   },
   "records": [
     {
       "id": "tip_proposal:20261026T174039528855Z:bc0c8682",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-10-26T17:40:39Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "c90861b9e81ababcc628683366e0643559cc0078fe318d543fe91873c53f248f",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-10-26T17:46:51Z",
+      "result": "WIN",
+      "outcome": {
+        "odds": 1.84,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": 0.63,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20261026T174039528855Z:bc0c8682",
+        "market": "⛳ Over 5.5 corners · FT",
+        "match": "Al-Ahli Jeddah x Al-Gharafa",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20261026T164143357217Z:ee342e2b",
