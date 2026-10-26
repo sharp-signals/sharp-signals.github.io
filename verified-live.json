@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-26T19:38:23Z",
-  "event_chain_head": "4d040bd68d3f19b3eaec192ccd31c74c9da342c59d91eb99ab8ed7ec6c0c5607",
+  "generated_at": "2026-10-26T20:33:00Z",
+  "event_chain_head": "9d80fe7f1e30315a52be859beca2d395164c30e240f9fa37a4eaeaee24500d3f",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,8 +12,8 @@
   },
   "summary": {
     "total": 299,
-    "pending": 13,
-    "signals_settled": 98,
+    "pending": 12,
+    "signals_settled": 99,
     "official_entries_settled": 170,
     "cancelled": 30
   },
@@ -21,11 +21,37 @@
     {
       "id": "ce1:1549041:final",
       "kind": "signal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-10-26T19:38:23Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "82e39769d3e66bf93399e2572965cef85ae12818f4be78e017c3c5987bc60a4e",
-      "telegram_message_count": 2
+      "telegram_message_count": 2,
+      "settled_at": "2026-10-26T20:33:00Z",
+      "result": "VOID",
+      "outcome": {
+        "corners_reference": 6,
+        "corners_final": 6,
+        "corners_after": 0,
+        "target": 2,
+        "technical_result": "VOID",
+        "entry_status": "confirmed",
+        "void_reason": "Não entrada — preço demasiado alto",
+        "approved_manually": true
+      },
+      "sealed_payload": {
+        "alert_id": "ce1:1549041:final",
+        "classification": "scanner_signal_not_confirmed_bet",
+        "confidence": 8.5,
+        "corners_at_alert": 6,
+        "league": "Superliga",
+        "match": "FC Copenhagen vs Odense",
+        "minimum_price": 1.75,
+        "minute": 78,
+        "score_at_alert": "1-1",
+        "suggestion": "🎯 ENTRADA SUGERIDA\nOver 7.5 cantos · odd mín. 1.75+\n↳ se sair +1 canto: sobe p/ Over 8.5 ou espera o Over 8",
+        "window": "FINAL PUSH"
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20261026T192247388281Z:f853b9fe",
