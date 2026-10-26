@@ -17,17 +17,17 @@
    "pode_nao_publicar": true
   }
  },
- "atualizado": "2026-10-26T18:01:07",
+ "atualizado": "2026-10-26T18:11:13",
  "dia_trading": "2026-10-26",
  "geral": {
   "inicio": "2026-06-06",
   "fim": "2026-10-26",
-  "sinais": 381,
-  "sinais_financeiros": 365,
+  "sinais": 382,
+  "sinais_financeiros": 366,
   "ganhos": 183,
   "perdidos": 177,
   "push": 5,
-  "pendentes": 0,
+  "pendentes": 1,
   "condicionais": 16,
   "condicionais_ganhos": 7,
   "condicionais_perdidos": 9,
@@ -64,7 +64,7 @@
     "wr": 52.3
    },
    "Golos 2ª Parte": {
-    "n": 174,
+    "n": 175,
     "g": 72,
     "p": 86,
     "lucro": -2.44,
@@ -73,7 +73,7 @@
     "condicionais_p": 9,
     "condicionais_push": 0,
     "condicionais_pendentes": 0,
-    "n_financeiros": 158,
+    "n_financeiros": 159,
     "wr": 45.6
    }
   }
@@ -81,12 +81,12 @@
  "verificado": {
   "inicio": "2026-06-21",
   "fim": "2026-10-26",
-  "sinais": 173,
-  "sinais_financeiros": 157,
+  "sinais": 174,
+  "sinais_financeiros": 158,
   "ganhos": 71,
   "perdidos": 86,
   "push": 0,
-  "pendentes": 0,
+  "pendentes": 1,
   "condicionais": 16,
   "condicionais_ganhos": 7,
   "condicionais_perdidos": 9,
@@ -97,7 +97,7 @@
   "roi": -2.2,
   "por_estrategia": {
    "Golos 2ª Parte": {
-    "n": 173,
+    "n": 174,
     "g": 71,
     "p": 86,
     "lucro": -3.49,
@@ -106,7 +106,7 @@
     "condicionais_p": 9,
     "condicionais_push": 0,
     "condicionais_pendentes": 0,
-    "n_financeiros": 157,
+    "n_financeiros": 158,
     "wr": 45.2
    }
   },
@@ -115,12 +115,12 @@
  "diario": {
   "inicio": "2026-10-26",
   "fim": "2026-10-26",
-  "sinais": 3,
-  "sinais_financeiros": 3,
+  "sinais": 4,
+  "sinais_financeiros": 4,
   "ganhos": 1,
   "perdidos": 2,
   "push": 0,
-  "pendentes": 0,
+  "pendentes": 1,
   "condicionais": 0,
   "condicionais_ganhos": 0,
   "condicionais_perdidos": 0,
@@ -131,7 +131,7 @@
   "roi": 25.0,
   "por_estrategia": {
    "Golos 2ª Parte": {
-    "n": 2,
+    "n": 3,
     "g": 1,
     "p": 1,
     "lucro": 1.75,
@@ -140,7 +140,7 @@
     "condicionais_p": 0,
     "condicionais_push": 0,
     "condicionais_pendentes": 0,
-    "n_financeiros": 2,
+    "n_financeiros": 3,
     "wr": 50.0
    },
    "Sharp Pick": {
@@ -161,12 +161,12 @@
  "semanal": {
   "inicio": "2026-10-26",
   "fim": "2026-10-26",
-  "sinais": 3,
-  "sinais_financeiros": 3,
+  "sinais": 4,
+  "sinais_financeiros": 4,
   "ganhos": 1,
   "perdidos": 2,
   "push": 0,
-  "pendentes": 0,
+  "pendentes": 1,
   "condicionais": 0,
   "condicionais_ganhos": 0,
   "condicionais_perdidos": 0,
@@ -177,7 +177,7 @@
   "roi": 25.0,
   "por_estrategia": {
    "Golos 2ª Parte": {
-    "n": 2,
+    "n": 3,
     "g": 1,
     "p": 1,
     "lucro": 1.75,
@@ -186,7 +186,7 @@
     "condicionais_p": 0,
     "condicionais_push": 0,
     "condicionais_pendentes": 0,
-    "n_financeiros": 2,
+    "n_financeiros": 3,
     "wr": 50.0
    },
    "Sharp Pick": {
@@ -207,12 +207,12 @@
  "mensal": {
   "inicio": "2026-10-01",
   "fim": "2026-10-26",
-  "sinais": 94,
-  "sinais_financeiros": 94,
+  "sinais": 95,
+  "sinais_financeiros": 95,
   "ganhos": 43,
   "perdidos": 51,
   "push": 0,
-  "pendentes": 0,
+  "pendentes": 1,
   "condicionais": 0,
   "condicionais_ganhos": 0,
   "condicionais_perdidos": 0,
@@ -223,7 +223,7 @@
   "roi": 3.4,
   "por_estrategia": {
    "Golos 2ª Parte": {
-    "n": 85,
+    "n": 86,
     "g": 40,
     "p": 45,
     "lucro": 6.14,
@@ -232,7 +232,7 @@
     "condicionais_p": 0,
     "condicionais_push": 0,
     "condicionais_pendentes": 0,
-    "n_financeiros": 85,
+    "n_financeiros": 86,
     "wr": 47.1
    },
    "Sharp Pick": {
@@ -739,7 +739,7 @@
   },
   {
    "data": "2026-10-26",
-   "sinais": 3,
+   "sinais": 4,
    "lucro_dia": 0.75,
    "lucro_acum": 12.13
   }
@@ -1234,7 +1234,7 @@
    },
    {
     "data": "2026-10-26",
-    "sinais": 3,
+    "sinais": 4,
     "lucro_dia": 0.75,
     "lucro_acum": 12.13
    }
@@ -1562,7 +1562,7 @@
    },
    {
     "data": "2026-10-26",
-    "sinais": 2,
+    "sinais": 3,
     "lucro_dia": 1.75,
     "lucro_acum": -2.44
    }
@@ -1881,12 +1881,12 @@
    "geral": {
     "inicio": "2026-06-06",
     "fim": "2026-10-26",
-    "sinais": 381,
-    "sinais_financeiros": 365,
+    "sinais": 382,
+    "sinais_financeiros": 366,
     "ganhos": 183,
     "perdidos": 177,
     "push": 5,
-    "pendentes": 0,
+    "pendentes": 1,
     "condicionais": 16,
     "condicionais_ganhos": 7,
     "condicionais_perdidos": 9,
@@ -1923,7 +1923,7 @@
       "wr": 52.3
      },
      "Golos 2ª Parte": {
-      "n": 174,
+      "n": 175,
       "g": 72,
       "p": 86,
       "lucro": -2.44,
@@ -1932,7 +1932,7 @@
       "condicionais_p": 9,
       "condicionais_push": 0,
       "condicionais_pendentes": 0,
-      "n_financeiros": 158,
+      "n_financeiros": 159,
       "wr": 45.6
      }
     }
@@ -1940,12 +1940,12 @@
    "diario": {
     "inicio": "2026-10-26",
     "fim": "2026-10-26",
-    "sinais": 3,
-    "sinais_financeiros": 3,
+    "sinais": 4,
+    "sinais_financeiros": 4,
     "ganhos": 1,
     "perdidos": 2,
     "push": 0,
-    "pendentes": 0,
+    "pendentes": 1,
     "condicionais": 0,
     "condicionais_ganhos": 0,
     "condicionais_perdidos": 0,
@@ -1956,7 +1956,7 @@
     "roi": 25.0,
     "por_estrategia": {
      "Golos 2ª Parte": {
-      "n": 2,
+      "n": 3,
       "g": 1,
       "p": 1,
       "lucro": 1.75,
@@ -1965,7 +1965,7 @@
       "condicionais_p": 0,
       "condicionais_push": 0,
       "condicionais_pendentes": 0,
-      "n_financeiros": 2,
+      "n_financeiros": 3,
       "wr": 50.0
      },
      "Sharp Pick": {
@@ -1986,12 +1986,12 @@
    "semanal": {
     "inicio": "2026-10-26",
     "fim": "2026-10-26",
-    "sinais": 3,
-    "sinais_financeiros": 3,
+    "sinais": 4,
+    "sinais_financeiros": 4,
     "ganhos": 1,
     "perdidos": 2,
     "push": 0,
-    "pendentes": 0,
+    "pendentes": 1,
     "condicionais": 0,
     "condicionais_ganhos": 0,
     "condicionais_perdidos": 0,
@@ -2002,7 +2002,7 @@
     "roi": 25.0,
     "por_estrategia": {
      "Golos 2ª Parte": {
-      "n": 2,
+      "n": 3,
       "g": 1,
       "p": 1,
       "lucro": 1.75,
@@ -2011,7 +2011,7 @@
       "condicionais_p": 0,
       "condicionais_push": 0,
       "condicionais_pendentes": 0,
-      "n_financeiros": 2,
+      "n_financeiros": 3,
       "wr": 50.0
      },
      "Sharp Pick": {
@@ -2032,12 +2032,12 @@
    "mensal": {
     "inicio": "2026-10-01",
     "fim": "2026-10-26",
-    "sinais": 94,
-    "sinais_financeiros": 94,
+    "sinais": 95,
+    "sinais_financeiros": 95,
     "ganhos": 43,
     "perdidos": 51,
     "push": 0,
-    "pendentes": 0,
+    "pendentes": 1,
     "condicionais": 0,
     "condicionais_ganhos": 0,
     "condicionais_perdidos": 0,
@@ -2048,7 +2048,7 @@
     "roi": 3.4,
     "por_estrategia": {
      "Golos 2ª Parte": {
-      "n": 85,
+      "n": 86,
       "g": 40,
       "p": 45,
       "lucro": 6.14,
@@ -2057,7 +2057,7 @@
       "condicionais_p": 0,
       "condicionais_push": 0,
       "condicionais_pendentes": 0,
-      "n_financeiros": 85,
+      "n_financeiros": 86,
       "wr": 47.1
      },
      "Sharp Pick": {
@@ -2564,7 +2564,7 @@
     },
     {
      "data": "2026-10-26",
-     "sinais": 3,
+     "sinais": 4,
      "lucro_dia": 0.75,
      "lucro_acum": 12.13
     }
@@ -2732,12 +2732,12 @@
    "geral": {
     "inicio": "2026-06-06",
     "fim": "2026-10-26",
-    "sinais": 174,
-    "sinais_financeiros": 158,
+    "sinais": 175,
+    "sinais_financeiros": 159,
     "ganhos": 72,
     "perdidos": 86,
     "push": 0,
-    "pendentes": 0,
+    "pendentes": 1,
     "condicionais": 16,
     "condicionais_ganhos": 7,
     "condicionais_perdidos": 9,
@@ -2748,7 +2748,7 @@
     "roi": -1.5,
     "por_estrategia": {
      "Golos 2ª Parte": {
-      "n": 174,
+      "n": 175,
       "g": 72,
       "p": 86,
       "lucro": -2.44,
@@ -2757,7 +2757,7 @@
       "condicionais_p": 9,
       "condicionais_push": 0,
       "condicionais_pendentes": 0,
-      "n_financeiros": 158,
+      "n_financeiros": 159,
       "wr": 45.6
      }
     }
@@ -2765,12 +2765,12 @@
    "diario": {
     "inicio": "2026-10-26",
     "fim": "2026-10-26",
-    "sinais": 2,
-    "sinais_financeiros": 2,
+    "sinais": 3,
+    "sinais_financeiros": 3,
     "ganhos": 1,
     "perdidos": 1,
     "push": 0,
-    "pendentes": 0,
+    "pendentes": 1,
     "condicionais": 0,
     "condicionais_ganhos": 0,
     "condicionais_perdidos": 0,
@@ -2781,7 +2781,7 @@
     "roi": 87.5,
     "por_estrategia": {
      "Golos 2ª Parte": {
-      "n": 2,
+      "n": 3,
       "g": 1,
       "p": 1,
       "lucro": 1.75,
@@ -2790,7 +2790,7 @@
       "condicionais_p": 0,
       "condicionais_push": 0,
       "condicionais_pendentes": 0,
-      "n_financeiros": 2,
+      "n_financeiros": 3,
       "wr": 50.0
      }
     }
@@ -2798,12 +2798,12 @@
    "semanal": {
     "inicio": "2026-10-26",
     "fim": "2026-10-26",
-    "sinais": 2,
-    "sinais_financeiros": 2,
+    "sinais": 3,
+    "sinais_financeiros": 3,
     "ganhos": 1,
     "perdidos": 1,
     "push": 0,
-    "pendentes": 0,
+    "pendentes": 1,
     "condicionais": 0,
     "condicionais_ganhos": 0,
     "condicionais_perdidos": 0,
@@ -2814,7 +2814,7 @@
     "roi": 87.5,
     "por_estrategia": {
      "Golos 2ª Parte": {
-      "n": 2,
+      "n": 3,
       "g": 1,
       "p": 1,
       "lucro": 1.75,
@@ -2823,7 +2823,7 @@
       "condicionais_p": 0,
       "condicionais_push": 0,
       "condicionais_pendentes": 0,
-      "n_financeiros": 2,
+      "n_financeiros": 3,
       "wr": 50.0
      }
     }
@@ -2831,12 +2831,12 @@
    "mensal": {
     "inicio": "2026-10-01",
     "fim": "2026-10-26",
-    "sinais": 85,
-    "sinais_financeiros": 85,
+    "sinais": 86,
+    "sinais_financeiros": 86,
     "ganhos": 40,
     "perdidos": 45,
     "push": 0,
-    "pendentes": 0,
+    "pendentes": 1,
     "condicionais": 0,
     "condicionais_ganhos": 0,
     "condicionais_perdidos": 0,
@@ -2847,7 +2847,7 @@
     "roi": 7.2,
     "por_estrategia": {
      "Golos 2ª Parte": {
-      "n": 85,
+      "n": 86,
       "g": 40,
       "p": 45,
       "lucro": 6.14,
@@ -2856,7 +2856,7 @@
       "condicionais_p": 0,
       "condicionais_push": 0,
       "condicionais_pendentes": 0,
-      "n_financeiros": 85,
+      "n_financeiros": 86,
       "wr": 47.1
      }
     }
@@ -3164,7 +3164,7 @@
     },
     {
      "data": "2026-10-26",
-     "sinais": 2,
+     "sinais": 3,
      "lucro_dia": 1.75,
      "lucro_acum": -2.44
     }
@@ -3725,7 +3725,7 @@
    "wr": 52.3
   },
   "Golos 2ª Parte": {
-   "n": 174,
+   "n": 175,
    "g": 72,
    "p": 86,
    "lucro": -2.44,
@@ -3734,7 +3734,7 @@
    "condicionais_p": 9,
    "condicionais_push": 0,
    "condicionais_pendentes": 0,
-   "n_financeiros": 158,
+   "n_financeiros": 159,
    "wr": 45.6
   }
  },
@@ -10385,6 +10385,21 @@
    "mercado": "Late Goal · Over 1.5 FT",
    "odd": 3.75,
    "resultado": "ganho"
+  },
+  {
+   "signal_id": "000d271aa03ea7411967670d",
+   "fixture_id": 1558256,
+   "published_at": "2026-10-26T18:01:16+00:00",
+   "origem": "automatico",
+   "produto": "over2p",
+   "data": "2026-10-26",
+   "hora": "18:01",
+   "estrategia": "Golos 2ª Parte",
+   "liga": "I Liga",
+   "jogo": "Warta Poznań vs ŁKS Łódź",
+   "mercado": "Over 1.5 · 2ª parte",
+   "odd": 2.3,
+   "resultado": null
   }
  ],
  "historico_condicionais": [
