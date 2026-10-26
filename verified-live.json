@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-26T16:54:40Z",
-  "event_chain_head": "02785d7585366f855d660a48301ba76357fdabdfd052ffe2d00f5f2c704ae7e2",
+  "generated_at": "2026-10-26T16:54:47Z",
+  "event_chain_head": "0c291019e457530cc9fe4a331afa97ddfefd26e4b0afca6fb7b6dd72a2ef5699",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,20 +12,43 @@
   },
   "summary": {
     "total": 296,
-    "pending": 13,
+    "pending": 12,
     "signals_settled": 98,
-    "official_entries_settled": 167,
+    "official_entries_settled": 168,
     "cancelled": 30
   },
   "records": [
     {
       "id": "tip_proposal:20261026T164143357217Z:ee342e2b",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-10-26T16:41:43Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "5adac1c80fac67bd21bacc98742c1f4bec5fc2090900979a40d403bb1e504d32",
-      "telegram_message_count": 2
+      "telegram_message_count": 2,
+      "settled_at": "2026-10-26T16:54:47Z",
+      "result": "LOSS",
+      "outcome": {
+        "odds": null,
+        "odds_source": "historical_reference",
+        "reference_odds": 1.84,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": -0.75,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20261026T164143357217Z:ee342e2b",
+        "market": "⛳ Over 6 corners · FT",
+        "match": "Lok. Plovdiv x Slavia Sofia",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20261026T163642916711Z:3f6dc418",
