@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-26T19:22:47Z",
-  "event_chain_head": "1108213128d7937390ec15a2cf744e49192409d8ddd0147253fef683781af9b7",
+  "generated_at": "2026-10-26T19:36:54Z",
+  "event_chain_head": "f0926aec681179e878ec01de2a96efeec7002a06e5d9581c41534ba85e0e03b1",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,20 +12,43 @@
   },
   "summary": {
     "total": 298,
-    "pending": 13,
+    "pending": 12,
     "signals_settled": 98,
-    "official_entries_settled": 169,
+    "official_entries_settled": 170,
     "cancelled": 30
   },
   "records": [
     {
       "id": "tip_proposal:20261026T192247388281Z:f853b9fe",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-10-26T19:22:47Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "d7aa70f5340e513410fdd77ef988d43a1469b1e53cd41eed1f49486b764f5a7a",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-10-26T19:36:54Z",
+      "result": "CASHOUT",
+      "outcome": {
+        "odds": null,
+        "odds_source": "cashout_loss_reference",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": 0.15,
+        "entry_status": "confirmed",
+        "profit_loss_percent": -0.112,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20261026T192247388281Z:f853b9fe",
+        "market": "⛳ Over 5.5 corners · Copenhaga · FT",
+        "match": "Copenhaga x Odense",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20261026T174039528855Z:bc0c8682",
