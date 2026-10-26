@@ -8,10 +8,10 @@
    "fim": "2026-01-31"
   },
   "cresc_pct": 56.91,
-  "apostas": 1202,
-  "ganhos": 676,
+  "apostas": 1203,
+  "ganhos": 677,
   "perdidos": 526,
-  "wr": 56.2,
+  "wr": 56.3,
   "meses": [
    {
     "mes": "2025-08",
@@ -79,17 +79,17 @@
    {
     "mes": "2026-10",
     "label": "Out 26",
-    "cresc_pct": 2.99,
-    "apostas": 64,
-    "wr": 51.6
+    "cresc_pct": 3.62,
+    "apostas": 65,
+    "wr": 52.3
    }
   ],
   "por_mercado": [
    {
     "mercado": "Over Cantos FT",
-    "n": 661,
-    "wr": 58.2,
-    "roi": 35.39,
+    "n": 662,
+    "wr": 58.3,
+    "roi": 36.02,
     "pl_eur": 1369.94
    },
    {
@@ -138,7 +138,6 @@
   "forma": [
    "ganho",
    "ganho",
-   "ganho",
    "cashout",
    "cashout",
    "perdido",
@@ -150,7 +149,8 @@
    "cashout",
    "ganho",
    "perdido",
-   "perdido"
+   "perdido",
+   "ganho"
   ],
   "historico": [
    {
@@ -159,13 +159,13 @@
     "jogo": "Al-Ahli Jeddah x Al-Gharafa",
     "mercado": "⛳ Over 5.5 corners · FT",
     "categoria": "Over Cantos FT",
-    "odd": null,
-    "pl_pct": null,
+    "odd": 1.84,
+    "pl_pct": 0.63,
     "stake_pct": 0.75,
-    "resultado": "pendente",
+    "resultado": "ganho",
     "verified_id": "tip_proposal:20261026T174039528855Z:bc0c8682",
-    "estado_entrada": "aguarda_confirmacao",
-    "tipo_odd": "por_registar",
+    "estado_entrada": "confirmada",
+    "tipo_odd": "real",
     "odd_minima_recomendada": 1.81,
     "confianca": 7
    },
