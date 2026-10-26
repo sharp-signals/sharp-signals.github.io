@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-26T16:41:43Z",
-  "event_chain_head": "1c0b131f7dfba270f6e489fe5f0dd921b4555d35f728ed38eae8521bd13035c6",
+  "generated_at": "2026-10-26T16:54:40Z",
+  "event_chain_head": "02785d7585366f855d660a48301ba76357fdabdfd052ffe2d00f5f2c704ae7e2",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,9 +12,9 @@
   },
   "summary": {
     "total": 296,
-    "pending": 14,
+    "pending": 13,
     "signals_settled": 98,
-    "official_entries_settled": 166,
+    "official_entries_settled": 167,
     "cancelled": 30
   },
   "records": [
@@ -30,11 +30,34 @@
     {
       "id": "tip_proposal:20261026T163642916711Z:3f6dc418",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-10-26T16:36:43Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "3104a1e2dc23ba059972922b62a596659c770057a6f18c947ac9b489bba30238",
-      "telegram_message_count": 2
+      "telegram_message_count": 2,
+      "settled_at": "2026-10-26T16:54:40Z",
+      "result": "LOSS",
+      "outcome": {
+        "odds": null,
+        "odds_source": "historical_reference",
+        "reference_odds": 1.84,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": -0.75,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20261026T163642916711Z:3f6dc418",
+        "market": "⛳ Over 4 corners · 1st half",
+        "match": "Nea Salamis x Pafos",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "ce1:1575525:mid",
