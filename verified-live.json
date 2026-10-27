@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-27T22:14:34Z",
-  "event_chain_head": "983ca038ae284f0497d808596df7a19bd5f7269302849b7de3c184f072de9d70",
+  "generated_at": "2026-10-27T22:52:15Z",
+  "event_chain_head": "41a91335f9bac6405521180ce898fd2c284e875c189f4580e9480245f6641a19",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,9 +12,9 @@
   },
   "summary": {
     "total": 304,
-    "pending": 14,
+    "pending": 13,
     "signals_settled": 102,
-    "official_entries_settled": 170,
+    "official_entries_settled": 171,
     "cancelled": 30
   },
   "records": [
@@ -56,11 +56,34 @@
     {
       "id": "tip_proposal:20261027T212330498744Z:b7cfcadb",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-10-27T21:23:30Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "a2767814a6516723f4655c783a7d353e194752220dcd2f50ecf56ac16c6b809f",
-      "telegram_message_count": 2
+      "telegram_message_count": 2,
+      "settled_at": "2026-10-27T22:52:15Z",
+      "result": "CASHOUT",
+      "outcome": {
+        "odds": null,
+        "odds_source": "cashout_loss_reference",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": 0.15,
+        "entry_status": "confirmed",
+        "profit_loss_percent": -0.112,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20261027T212330498744Z:b7cfcadb",
+        "market": "⛳ Over 7.5 corners · FT",
+        "match": "Sporting Alcazar x Malaga",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "ce1:1640386:shark",
