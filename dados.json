@@ -8,9 +8,9 @@
    "fim": "2026-01-31"
   },
   "cresc_pct": 56.91,
-  "apostas": 1204,
+  "apostas": 1205,
   "ganhos": 677,
-  "perdidos": 527,
+  "perdidos": 528,
   "wr": 56.2,
   "meses": [
    {
@@ -79,9 +79,9 @@
    {
     "mes": "2026-10",
     "label": "Out 26",
-    "cresc_pct": 3.51,
-    "apostas": 66,
-    "wr": 51.5
+    "cresc_pct": 3.4,
+    "apostas": 67,
+    "wr": 50.7
    }
   ],
   "por_mercado": [
@@ -101,9 +101,9 @@
    },
    {
     "mercado": "Cashout",
-    "n": 172,
-    "wr": 44.2,
-    "roi": -4.31,
+    "n": 173,
+    "wr": 43.9,
+    "roi": -4.42,
     "pl_eur": -74.77
    },
    {
@@ -136,7 +136,6 @@
    }
   ],
   "forma": [
-   "ganho",
    "cashout",
    "cashout",
    "perdido",
@@ -150,6 +149,7 @@
    "perdido",
    "perdido",
    "ganho",
+   "cashout",
    "cashout"
   ],
   "historico": [
@@ -158,16 +158,17 @@
     "mes": "2026-10",
     "jogo": "Sporting Alcazar x Malaga",
     "mercado": "⛳ Over 7.5 corners · FT",
-    "categoria": "Over Cantos FT",
+    "categoria": "Cashout",
     "odd": null,
-    "pl_pct": null,
+    "pl_pct": -0.112,
     "stake_pct": 0.75,
-    "resultado": "pendente",
+    "resultado": "cashout",
     "verified_id": "tip_proposal:20261027T212330498744Z:b7cfcadb",
-    "estado_entrada": "aguarda_confirmacao",
-    "tipo_odd": "por_registar",
+    "estado_entrada": "confirmada",
+    "tipo_odd": "referencia_cashout_menos_15_pct",
     "odd_minima_recomendada": 1.81,
-    "confianca": 7
+    "confianca": 7,
+    "cashout_perda_referencia_pct_stake": 15.0
    },
    {
     "data": "2026-10-26",
