@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-27T21:31:20Z",
-  "event_chain_head": "becfa2513a1de90006ef985b35a4470e993afa93bbc06acc08ffb71fd1824038",
+  "generated_at": "2026-10-27T22:14:26Z",
+  "event_chain_head": "971191d1cea5c697d3bd1a7c16e38242549847c251283115245a832844702ae4",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,8 +12,8 @@
   },
   "summary": {
     "total": 304,
-    "pending": 16,
-    "signals_settled": 100,
+    "pending": 15,
+    "signals_settled": 101,
     "official_entries_settled": 170,
     "cancelled": 30
   },
@@ -21,11 +21,37 @@
     {
       "id": "ce1:1640386:mid",
       "kind": "signal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-10-27T21:31:20Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "bee39b96205b7dfe5921c148407ef09758a5924953f05fbb8d04f4120d50a5f6",
-      "telegram_message_count": 2
+      "telegram_message_count": 2,
+      "settled_at": "2026-10-27T22:14:26Z",
+      "result": "VOID",
+      "outcome": {
+        "corners_reference": 3,
+        "corners_final": 7,
+        "corners_after": 4,
+        "target": 3,
+        "technical_result": "VOID",
+        "entry_status": "confirmed",
+        "void_reason": "Saída em contra-aposta após golo do favorito",
+        "approved_manually": true
+      },
+      "sealed_payload": {
+        "alert_id": "ce1:1640386:mid",
+        "classification": "scanner_signal_not_confirmed_bet",
+        "confidence": 7.5,
+        "corners_at_alert": 3,
+        "league": "League Cup",
+        "match": "Fleetwood Town vs Arsenal",
+        "minimum_price": 1.75,
+        "minute": 69,
+        "score_at_alert": "1-1",
+        "suggestion": "🎯 ENTRADA SUGERIDA\nOver 5.5 cantos · odd mín. 1.75+\n↳ se sair +1 canto: sobe p/ Over 6.5 ou espera o Over 6",
+        "window": "MID PRESSURE"
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20261027T212330498744Z:b7cfcadb",
