@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-28T13:22:21Z",
-  "event_chain_head": "edec604d93a53da4ca6b7357dac3c6f8a54568584061f4f595bd233258c32e70",
+  "generated_at": "2026-10-28T13:45:24Z",
+  "event_chain_head": "123ed36e8b203fe9fe080531e4f30efee619f17b8166fb73e461aaaf6dcff8e9",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,9 +12,9 @@
   },
   "summary": {
     "total": 306,
-    "pending": 14,
+    "pending": 13,
     "signals_settled": 102,
-    "official_entries_settled": 172,
+    "official_entries_settled": 173,
     "cancelled": 30
   },
   "records": [
@@ -53,11 +53,34 @@
     {
       "id": "tip_proposal:20261028T124119013696Z:0695dc32",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-10-28T12:41:19Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "b8e7869e068957761390b297c79a79adef1cee92f714fea61c062570b47c4f00",
-      "telegram_message_count": 2
+      "telegram_message_count": 2,
+      "settled_at": "2026-10-28T13:45:24Z",
+      "result": "WIN",
+      "outcome": {
+        "odds": 1.75,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": 0.562,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20261028T124119013696Z:0695dc32",
+        "market": "⛳ Over 3 corners · Olympiakos · 1st half",
+        "match": "GS Marko x Olympiakos",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "ce1:1640386:mid",
