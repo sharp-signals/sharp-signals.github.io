@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-28T21:55:29Z",
-  "event_chain_head": "6ee253e138527bda94f8028b5f95db53846eb82f8f34f651e26d15881ba7d228",
+  "generated_at": "2026-10-28T22:03:55Z",
+  "event_chain_head": "f0dd78579a5e7f0c1fec77528376b53fa687ef1803dd19549a61c513efcceadb",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,8 +12,8 @@
   },
   "summary": {
     "total": 314,
-    "pending": 14,
-    "signals_settled": 104,
+    "pending": 13,
+    "signals_settled": 105,
     "official_entries_settled": 178,
     "cancelled": 30
   },
@@ -21,11 +21,37 @@
     {
       "id": "ce1:1638557:mid",
       "kind": "signal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-10-28T21:15:44Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "27c8c2560d9e046ad98f42e7c5aa4592df9bc992e0ceda6e57749c7d3efe9779",
-      "telegram_message_count": 2
+      "telegram_message_count": 2,
+      "settled_at": "2026-10-28T22:03:55Z",
+      "result": "VOID",
+      "outcome": {
+        "corners_reference": 12,
+        "corners_final": 16,
+        "corners_after": 4,
+        "target": 3,
+        "technical_result": "VOID",
+        "entry_status": "confirmed",
+        "void_reason": "Não entrada — preço demasiado alto",
+        "approved_manually": true
+      },
+      "sealed_payload": {
+        "alert_id": "ce1:1638557:mid",
+        "classification": "scanner_signal_not_confirmed_bet",
+        "confidence": 7.5,
+        "corners_at_alert": 11,
+        "league": "DFB Pokal",
+        "match": "Bayer Leverkusen vs 1. FC Nürnberg",
+        "minimum_price": 1.75,
+        "minute": 69,
+        "score_at_alert": "2-2",
+        "suggestion": "🎯 ENTRADA SUGERIDA\nOver 13.5 cantos · odd mín. 1.75+\n↳ se sair +1 canto: sobe p/ Over 14.5 ou espera o Over 14",
+        "window": "MID PRESSURE"
+      },
+      "commitment_valid": true
     },
     {
       "id": "ce1:1556689:mid",
