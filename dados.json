@@ -8,8 +8,8 @@
    "fim": "2026-01-31"
   },
   "cresc_pct": 56.91,
-  "apostas": 1209,
-  "ganhos": 679,
+  "apostas": 1210,
+  "ganhos": 680,
   "perdidos": 530,
   "wr": 56.2,
   "meses": [
@@ -79,9 +79,9 @@
    {
     "mes": "2026-10",
     "label": "Out 26",
-    "cresc_pct": 4.71,
-    "apostas": 71,
-    "wr": 50.7
+    "cresc_pct": 5.31,
+    "apostas": 72,
+    "wr": 51.4
    }
   ],
   "por_mercado": [
@@ -115,9 +115,9 @@
    },
    {
     "mercado": "Race to X corners",
-    "n": 47,
-    "wr": 68.1,
-    "roi": 9.52,
+    "n": 48,
+    "wr": 68.8,
+    "roi": 10.12,
     "pl_eur": 324.76
    },
    {
@@ -139,7 +139,6 @@
    "ganho",
    "ganho",
    "ganho",
-   "ganho",
    "cashout",
    "ganho",
    "perdido",
@@ -150,6 +149,7 @@
    "ganho",
    "perdido",
    "perdido",
+   "ganho",
    "ganho"
   ],
   "historico": [
@@ -159,13 +159,13 @@
     "jogo": "LASK x Ried",
     "mercado": "🏁 Race to 7 corners · LASK",
     "categoria": "Race to X corners",
-    "odd": null,
-    "pl_pct": null,
+    "odd": 1.8,
+    "pl_pct": 0.6,
     "stake_pct": 0.75,
-    "resultado": "pendente",
+    "resultado": "ganho",
     "verified_id": "tip_proposal:20261028T210838412756Z:01766a28",
-    "estado_entrada": "aguarda_confirmacao",
-    "tipo_odd": "por_registar",
+    "estado_entrada": "confirmada",
+    "tipo_odd": "real",
     "odd_minima_recomendada": 1.81,
     "confianca": 7
    },
