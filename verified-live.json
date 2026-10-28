@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-28T13:55:11Z",
-  "event_chain_head": "f7bece21cfa3d378aebc67f3ef1ddea7eb026656c37aa10f0ecdd118b24800b1",
+  "generated_at": "2026-10-28T14:20:56Z",
+  "event_chain_head": "0184ba179f80bc6b52e3e9d8578e7fecc8c31a99a06db0c34ea2601284c839d4",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,20 +12,43 @@
   },
   "summary": {
     "total": 307,
-    "pending": 14,
+    "pending": 13,
     "signals_settled": 102,
-    "official_entries_settled": 173,
+    "official_entries_settled": 174,
     "cancelled": 30
   },
   "records": [
     {
       "id": "tip_proposal:20261028T135511249120Z:419d9e91",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-10-28T13:55:11Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "81b032850407f31b90644ac68e54753b2974ff80c7b93f76c80eaf5efc7bf4f0",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-10-28T14:20:56Z",
+      "result": "LOSS",
+      "outcome": {
+        "odds": 1.89,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": -0.75,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20261028T135511249120Z:419d9e91",
+        "market": "⛳ Over 10.5 corners · FT",
+        "match": "Brabrand x Horsens",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20261028T130948777725Z:64474a00",
