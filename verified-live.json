@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-28T20:19:52Z",
-  "event_chain_head": "92915e2c062f2603142a4a3eb078bb828607c74dc68dd1daaeef47b1a0ca2240",
+  "generated_at": "2026-10-28T20:20:07Z",
+  "event_chain_head": "fba44c1d0b31b0529c86ee04c6cfac3c46cb17787996c5b3dc9d1134bb198595",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,20 +12,43 @@
   },
   "summary": {
     "total": 310,
-    "pending": 14,
+    "pending": 13,
     "signals_settled": 103,
-    "official_entries_settled": 175,
+    "official_entries_settled": 176,
     "cancelled": 30
   },
   "records": [
     {
       "id": "tip_proposal:20261028T191354886990Z:33737667",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-10-28T19:13:55Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "59d5c77058ebd969215994e69871080a3f7828aabbd0d364821437cc1f5d0918",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-10-28T20:20:07Z",
+      "result": "WIN",
+      "outcome": {
+        "odds": 4.0,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": 2.25,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20261028T191354886990Z:33737667",
+        "market": "⛳ Over 4 corners · FT",
+        "match": "Milan x Bologna",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20261028T185255481730Z:78ed4274",
