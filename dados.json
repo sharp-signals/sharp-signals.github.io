@@ -8,10 +8,10 @@
    "fim": "2026-01-31"
   },
   "cresc_pct": 56.91,
-  "apostas": 1207,
+  "apostas": 1208,
   "ganhos": 678,
-  "perdidos": 529,
-  "wr": 56.2,
+  "perdidos": 530,
+  "wr": 56.1,
   "meses": [
    {
     "mes": "2025-08",
@@ -79,17 +79,17 @@
    {
     "mes": "2026-10",
     "label": "Out 26",
-    "cresc_pct": 3.21,
-    "apostas": 69,
-    "wr": 50.7
+    "cresc_pct": 2.46,
+    "apostas": 70,
+    "wr": 50.0
    }
   ],
   "por_mercado": [
    {
     "mercado": "Over Cantos FT",
-    "n": 663,
-    "wr": 58.2,
-    "roi": 35.27,
+    "n": 664,
+    "wr": 58.1,
+    "roi": 34.52,
     "pl_eur": 1369.94
    },
    {
@@ -137,7 +137,6 @@
   ],
   "forma": [
    "perdido",
-   "perdido",
    "ganho",
    "ganho",
    "ganho",
@@ -150,6 +149,7 @@
    "cashout",
    "cashout",
    "ganho",
+   "perdido",
    "perdido"
   ],
   "historico": [
@@ -175,13 +175,13 @@
     "jogo": "Milan x Bologna",
     "mercado": "⛳ Over 5.5 corners · FT",
     "categoria": "Over Cantos FT",
-    "odd": null,
-    "pl_pct": null,
+    "odd": 1.84,
+    "pl_pct": -0.75,
     "stake_pct": 0.75,
-    "resultado": "pendente",
+    "resultado": "perdido",
     "verified_id": "tip_proposal:20261028T185255481730Z:78ed4274",
-    "estado_entrada": "aguarda_confirmacao",
-    "tipo_odd": "por_registar",
+    "estado_entrada": "confirmada",
+    "tipo_odd": "referencia_historica",
     "odd_minima_recomendada": 1.81,
     "confianca": 7
    },
