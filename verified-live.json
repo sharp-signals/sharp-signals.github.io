@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-28T21:28:58Z",
-  "event_chain_head": "f4e7418ef5c420ab2894f4a73dc7cf5a95b085b2f59a7ea15a95fc59de530de0",
+  "generated_at": "2026-10-28T21:29:18Z",
+  "event_chain_head": "046a616e6c552342896bce8fb8eb8e1b06e66254ab0ea5a53e044539d0404186",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,9 +12,9 @@
   },
   "summary": {
     "total": 314,
-    "pending": 16,
+    "pending": 15,
     "signals_settled": 103,
-    "official_entries_settled": 177,
+    "official_entries_settled": 178,
     "cancelled": 30
   },
   "records": [
@@ -71,11 +71,34 @@
     {
       "id": "tip_proposal:20261028T210542481583Z:3682d379",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-10-28T21:05:42Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "4c2984fd723a501e71b00f9392c23a638c8195e1fe3dd806e90705a5db285ff5",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-10-28T21:29:18Z",
+      "result": "LOSS",
+      "outcome": {
+        "odds": 1.81,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": -0.75,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20261028T210542481583Z:3682d379",
+        "market": "⛳ Over 7.5 corners · FT",
+        "match": "LASK x Ried",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20261028T191354886990Z:33737667",
