@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-28T21:15:44Z",
-  "event_chain_head": "1d5bfc62a787574f2dbb8e506d4a84ef995b63f1d752f697ae9d42bd333eb2b5",
+  "generated_at": "2026-10-28T21:28:58Z",
+  "event_chain_head": "f4e7418ef5c420ab2894f4a73dc7cf5a95b085b2f59a7ea15a95fc59de530de0",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,9 +12,9 @@
   },
   "summary": {
     "total": 314,
-    "pending": 17,
+    "pending": 16,
     "signals_settled": 103,
-    "official_entries_settled": 176,
+    "official_entries_settled": 177,
     "cancelled": 30
   },
   "records": [
@@ -39,11 +39,34 @@
     {
       "id": "tip_proposal:20261028T210838412756Z:01766a28",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-10-28T21:08:38Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "300a79cdb09ae43014d7242628ef9cec338bef94291f56b1b63065c14bfe3687",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-10-28T21:28:58Z",
+      "result": "WIN",
+      "outcome": {
+        "odds": 1.8,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": 0.6,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20261028T210838412756Z:01766a28",
+        "market": "🏁 Race to 7 corners · LASK",
+        "match": "LASK x Ried",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20261028T210542481583Z:3682d379",
