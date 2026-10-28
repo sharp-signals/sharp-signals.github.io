@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-28T21:29:18Z",
-  "event_chain_head": "046a616e6c552342896bce8fb8eb8e1b06e66254ab0ea5a53e044539d0404186",
+  "generated_at": "2026-10-28T21:55:29Z",
+  "event_chain_head": "6ee253e138527bda94f8028b5f95db53846eb82f8f34f651e26d15881ba7d228",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,8 +12,8 @@
   },
   "summary": {
     "total": 314,
-    "pending": 15,
-    "signals_settled": 103,
+    "pending": 14,
+    "signals_settled": 104,
     "official_entries_settled": 178,
     "cancelled": 30
   },
@@ -30,11 +30,37 @@
     {
       "id": "ce1:1556689:mid",
       "kind": "signal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-10-28T21:13:09Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "3c2f3dc064e7bac08eec9bd829f3d35f5aeceda5b041d901eed47ed23e345de9",
-      "telegram_message_count": 2
+      "telegram_message_count": 2,
+      "settled_at": "2026-10-28T21:55:29Z",
+      "result": "VOID",
+      "outcome": {
+        "corners_reference": 12,
+        "corners_final": 18,
+        "corners_after": 6,
+        "target": 3,
+        "technical_result": "VOID",
+        "entry_status": "confirmed",
+        "void_reason": "Não entrada — preço demasiado alto",
+        "approved_manually": true
+      },
+      "sealed_payload": {
+        "alert_id": "ce1:1556689:mid",
+        "classification": "scanner_signal_not_confirmed_bet",
+        "confidence": 8.5,
+        "corners_at_alert": 12,
+        "league": "Premiership",
+        "match": "Celtic vs Dundee Utd",
+        "minimum_price": 1.75,
+        "minute": 69,
+        "score_at_alert": "2-2",
+        "suggestion": "🎯 ENTRADA SUGERIDA\nOver 14.5 cantos · odd mín. 1.75+\n↳ se sair +1 canto: sobe p/ Over 15.5 ou espera o Over 15",
+        "window": "MID PRESSURE"
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20261028T210838412756Z:01766a28",
