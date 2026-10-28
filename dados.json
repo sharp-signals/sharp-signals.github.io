@@ -8,9 +8,9 @@
    "fim": "2026-01-31"
   },
   "cresc_pct": 56.91,
-  "apostas": 1206,
+  "apostas": 1207,
   "ganhos": 678,
-  "perdidos": 528,
+  "perdidos": 529,
   "wr": 56.2,
   "meses": [
    {
@@ -79,17 +79,17 @@
    {
     "mes": "2026-10",
     "label": "Out 26",
-    "cresc_pct": 3.96,
-    "apostas": 68,
-    "wr": 51.5
+    "cresc_pct": 3.21,
+    "apostas": 69,
+    "wr": 50.7
    }
   ],
   "por_mercado": [
    {
     "mercado": "Over Cantos FT",
-    "n": 662,
-    "wr": 58.3,
-    "roi": 36.02,
+    "n": 663,
+    "wr": 58.2,
+    "roi": 35.27,
     "pl_eur": 1369.94
    },
    {
@@ -136,7 +136,6 @@
    }
   ],
   "forma": [
-   "cashout",
    "perdido",
    "perdido",
    "ganho",
@@ -150,7 +149,8 @@
    "ganho",
    "cashout",
    "cashout",
-   "ganho"
+   "ganho",
+   "perdido"
   ],
   "historico": [
    {
@@ -159,13 +159,13 @@
     "jogo": "Brabrand x Horsens",
     "mercado": "⛳ Over 10.5 corners · FT",
     "categoria": "Over Cantos FT",
-    "odd": null,
-    "pl_pct": null,
+    "odd": 1.89,
+    "pl_pct": -0.75,
     "stake_pct": 0.75,
-    "resultado": "pendente",
+    "resultado": "perdido",
     "verified_id": "tip_proposal:20261028T135511249120Z:419d9e91",
-    "estado_entrada": "aguarda_confirmacao",
-    "tipo_odd": "por_registar",
+    "estado_entrada": "confirmada",
+    "tipo_odd": "real",
     "odd_minima_recomendada": 1.81,
     "confianca": 7
    },
