@@ -4441,6 +4441,26 @@
       "justificacao_void": "Não entrada — preço demasiado alto",
       "golos_apos_casa": 0,
       "golos_apos_fora": 0
+    },
+    {
+      "alerta_id": "ce1:1638557:mid",
+      "fixture_id": 1638557,
+      "timestamp": "2026-10-28T22:03:51.877700",
+      "jogo": "Bayer Leverkusen vs 1. FC Nürnberg",
+      "liga": "DFB Pokal",
+      "janela": "MID PRESSURE",
+      "tempo_alerta": 69,
+      "estrelas": 7.5,
+      "cantos_no_ref": 12,
+      "cantos_final": 16,
+      "cantos_apos_alerta": 4,
+      "meta_cantos": 3,
+      "resultado": "VOID",
+      "resultado_tecnico": "VOID",
+      "estado_entrada": "CONFIRMADA",
+      "justificacao_void": "Não entrada — preço demasiado alto",
+      "golos_apos_casa": 3,
+      "golos_apos_fora": 0
     }
   ]
 }
