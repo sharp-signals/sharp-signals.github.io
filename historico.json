@@ -4421,6 +4421,26 @@
       "justificacao_void": "",
       "golos_apos_casa": 0,
       "golos_apos_fora": 0
+    },
+    {
+      "alerta_id": "ce1:1556689:mid",
+      "fixture_id": 1556689,
+      "timestamp": "2026-10-28T21:55:25.109470",
+      "jogo": "Celtic vs Dundee Utd",
+      "liga": "Premiership",
+      "janela": "MID PRESSURE",
+      "tempo_alerta": 69,
+      "estrelas": 8.5,
+      "cantos_no_ref": 12,
+      "cantos_final": 18,
+      "cantos_apos_alerta": 6,
+      "meta_cantos": 3,
+      "resultado": "VOID",
+      "resultado_tecnico": "VOID",
+      "estado_entrada": "CONFIRMADA",
+      "justificacao_void": "Não entrada — preço demasiado alto",
+      "golos_apos_casa": 0,
+      "golos_apos_fora": 0
     }
   ]
 }
