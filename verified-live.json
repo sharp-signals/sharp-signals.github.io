@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-28T22:03:55Z",
-  "event_chain_head": "f0dd78579a5e7f0c1fec77528376b53fa687ef1803dd19549a61c513efcceadb",
+  "generated_at": "2026-10-29T00:40:59Z",
+  "event_chain_head": "90f9cca7773df7f9ca30665612160ab64e575934075ba2d12f801cb9c7dd5b92",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -163,13 +163,14 @@
       "settled_at": "2026-10-28T20:20:07Z",
       "result": "WIN",
       "outcome": {
-        "odds": 4.0,
-        "odds_source": "recorded",
+        "odds": 1.84,
+        "odds_source": "recorded_after_settlement",
         "reference_odds": null,
         "cashout_loss_fraction_reference": null,
         "entry_status": "confirmed",
-        "profit_loss_percent": 2.25,
-        "settled_manually": true
+        "profit_loss_percent": 0.63,
+        "settled_manually": true,
+        "odds_corrected_manually": true
       },
       "sealed_payload": {
         "classification": "published_tip_awaiting_activation",
