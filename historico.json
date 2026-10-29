@@ -4462,5 +4462,27 @@
       "golos_apos_casa": 3,
       "golos_apos_fora": 0
     }
+  ],
+  "2026-10-29": [
+    {
+      "alerta_id": "ce1:1630387:final",
+      "fixture_id": 1630387,
+      "timestamp": "2026-10-29T14:36:13.942301",
+      "jogo": "Phnom Penh Crown vs Kitchee",
+      "liga": "AFC Champions League Two",
+      "janela": "FINAL PUSH",
+      "tempo_alerta": 78,
+      "estrelas": 8.0,
+      "cantos_no_ref": 12,
+      "cantos_final": 12,
+      "cantos_apos_alerta": 0,
+      "meta_cantos": 2,
+      "resultado": "LOSS",
+      "resultado_tecnico": "LOSS",
+      "estado_entrada": "CONFIRMADA",
+      "justificacao_void": "",
+      "golos_apos_casa": 2,
+      "golos_apos_fora": 0
+    }
   ]
 }
