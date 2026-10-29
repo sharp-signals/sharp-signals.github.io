@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-29T00:40:59Z",
-  "event_chain_head": "90f9cca7773df7f9ca30665612160ab64e575934075ba2d12f801cb9c7dd5b92",
+  "generated_at": "2026-10-29T13:51:26Z",
+  "event_chain_head": "8c4ee870bc809fc34df6545d89b70be57608ba9454193cdd63173fddb968565e",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -11,13 +11,22 @@
     "pending_privacy": "Antes da liquidação são públicos apenas a hora, o tipo e o compromisso SHA-256."
   },
   "summary": {
-    "total": 314,
-    "pending": 13,
+    "total": 315,
+    "pending": 14,
     "signals_settled": 105,
     "official_entries_settled": 178,
     "cancelled": 30
   },
   "records": [
+    {
+      "id": "ce1:1630387:final",
+      "kind": "signal",
+      "status": "pending",
+      "published_at": "2026-10-29T13:51:26Z",
+      "commitment_algorithm": "SHA-256",
+      "commitment": "e0fcf0c4b1567b6a01b4164e5d80cda80aa5b7ec69b33def3df8c16c52cb3d0f",
+      "telegram_message_count": 2
+    },
     {
       "id": "ce1:1638557:mid",
       "kind": "signal",
@@ -448,7 +457,7 @@
         "suggestion": "🎯 ENTRADA SUGERIDA\nOver 6.5 cantos · odd mín. 1.75+\n↳ se sair +1 canto: sobe p/ Over 7.5 ou espera o Over 7",
         "window": "SHARK ATTACK"
       },
-      "commitment_valid": true
+      "commitment_valid": false
     },
     {
       "id": "ce1:1638562:ht",
@@ -690,7 +699,7 @@
         "suggestion": "🎯 ENTRADA SUGERIDA\nOver 11.5 cantos · odd mín. 1.75+\n↳ se sair +1 canto: sobe p/ Over 12.5 ou espera o Over 12",
         "window": "MID PRESSURE"
       },
-      "commitment_valid": true
+      "commitment_valid": false
     },
     {
       "id": "ce1:1575525:shark",
@@ -725,7 +734,7 @@
         "suggestion": "🎯 ENTRADA SUGERIDA\nOver 12.5 cantos · odd mín. 1.75+\n↳ se sair +1 canto: sobe p/ Over 13.5 ou espera o Over 13",
         "window": "SHARK ATTACK"
       },
-      "commitment_valid": true
+      "commitment_valid": false
     },
     {
       "id": "ce1:1558660:shark",
@@ -760,7 +769,7 @@
         "suggestion": "🎯 ENTRADA SUGERIDA\nOver 9.5 cantos · odd mín. 1.75+\n↳ se sair +1 canto: sobe p/ Over 10.5 ou espera o Over 10",
         "window": "SHARK ATTACK"
       },
-      "commitment_valid": true
+      "commitment_valid": false
     },
     {
       "id": "tip_proposal:20261025T191529580027Z:7db6a736",
@@ -891,7 +900,7 @@
         "suggestion": "🎯 ENTRADA SUGERIDA\nOver 21.5 cantos · odd mín. 1.75+\n↳ se sair +1 canto: sobe p/ Over 22.5 ou espera o Over 22",
         "window": "FINAL PUSH"
       },
-      "commitment_valid": true
+      "commitment_valid": false
     },
     {
       "id": "tip_proposal:20261025T172224886966Z:733086fd",
@@ -990,7 +999,7 @@
         "suggestion": "🎯 ENTRADA SUGERIDA\nOver 4.5 cantos 1ª parte · odd mín. 1.75+\n↳ se sair +1 canto: sobe p/ Over 5.5 ou espera o Over 5",
         "window": "HT ATTACK"
       },
-      "commitment_valid": true
+      "commitment_valid": false
     },
     {
       "id": "tip_proposal:20261025T162035259920Z:2ee1ec7f",
@@ -1249,7 +1258,7 @@
         "suggestion": "🎯 ENTRADA SUGERIDA\nOver 9.5 cantos · odd mín. 1.75+\n↳ se sair +1 canto: sobe p/ Over 10.5 ou espera o Over 10",
         "window": "MID PRESSURE"
       },
-      "commitment_valid": true
+      "commitment_valid": false
     },
     {
       "id": "tip_proposal:20261025T133352362344Z:5bcc7690",
@@ -1549,7 +1558,7 @@
         "suggestion": "🎯 ENTRADA SUGERIDA\nOver 6.5 cantos 1ª parte · odd mín. 1.75+\n↳ se sair +1 canto: sobe p/ Over 7.5 ou espera o Over 7",
         "window": "HT ATTACK"
       },
-      "commitment_valid": true
+      "commitment_valid": false
     },
     {
       "id": "tip_proposal:20261024T173722006902Z:c47177ef",
@@ -1683,7 +1692,7 @@
         "suggestion": "🎯 ENTRADA SUGERIDA\nOver 9.5 cantos · odd mín. 1.75+\n↳ se sair +1 canto: sobe p/ Over 10.5 ou espera o Over 10",
         "window": "MID PRESSURE"
       },
-      "commitment_valid": true
+      "commitment_valid": false
     },
     {
       "id": "ce1:1555531:ht",
@@ -1916,7 +1925,7 @@
         "suggestion": "🎯 ENTRADA SUGERIDA\nOver 7.5 cantos · odd mín. 1.75+\n↳ se sair +1 canto: sobe p/ Over 8.5 ou espera o Over 8",
         "window": "SHARK ATTACK"
       },
-      "commitment_valid": true
+      "commitment_valid": false
     },
     {
       "id": "tip_proposal:20261024T130601800365Z:33736b67",
@@ -1969,7 +1978,7 @@
         "suggestion": "🎯 ENTRADA SUGERIDA\nOver 13.5 cantos · odd mín. 1.75+\n↳ se sair +1 canto: sobe p/ Over 14.5 ou espera o Over 14",
         "window": "FINAL PUSH"
       },
-      "commitment_valid": true
+      "commitment_valid": false
     },
     {
       "id": "ce1:1576209:shark",
@@ -2004,7 +2013,7 @@
         "suggestion": "🎯 ENTRADA SUGERIDA\nOver 11.5 cantos · odd mín. 1.75+\n↳ se sair +1 canto: sobe p/ Over 12.5 ou espera o Over 12",
         "window": "SHARK ATTACK"
       },
-      "commitment_valid": true
+      "commitment_valid": false
     },
     {
       "id": "ce1:1557438:ht",
@@ -2039,7 +2048,7 @@
         "suggestion": "🎯 ENTRADA SUGERIDA\nOver 7.5 cantos 1ª parte · odd mín. 1.75+\n↳ se sair +1 canto: sobe p/ Over 8.5 ou espera o Over 8",
         "window": "HT ATTACK"
       },
-      "commitment_valid": true
+      "commitment_valid": false
     },
     {
       "id": "ce1:1561420:final",
@@ -2205,7 +2214,7 @@
         "suggestion": "🎯 ENTRADA SUGERIDA\nOver 9.5 cantos · odd mín. 1.75+\n↳ se sair +1 canto: sobe p/ Over 10.5 ou espera o Over 10",
         "window": "FINAL PUSH"
       },
-      "commitment_valid": true
+      "commitment_valid": false
     },
     {
       "id": "tip_proposal:20261023T142623099111Z:93a6c105",
@@ -2368,7 +2377,7 @@
         "suggestion": "🎯 ENTRADA SUGERIDA\nOver 17.5 cantos · odd mín. 1.75+\n↳ se sair +1 canto: sobe p/ Over 18.5 ou espera o Over 18",
         "window": "MID PRESSURE"
       },
-      "commitment_valid": true
+      "commitment_valid": false
     },
     {
       "id": "ce1:1646596:ht",
@@ -2403,7 +2412,7 @@
         "suggestion": "🎯 ENTRADA SUGERIDA\nOver 7.5 cantos 1ª parte · odd mín. 1.75+\n↳ se sair +1 canto: sobe p/ Over 8.5 ou espera o Over 8",
         "window": "HT ATTACK"
       },
-      "commitment_valid": true
+      "commitment_valid": false
     },
     {
       "id": "tip_proposal:20261021T151721379124Z:c35f3991",
@@ -2578,7 +2587,7 @@
         "suggestion": "🎯 ENTRADA SUGERIDA\nOver 13.5 cantos · odd mín. 1.75+\n↳ se sair +1 canto: sobe p/ Over 14.5 ou espera o Over 14",
         "window": "FINAL PUSH"
       },
-      "commitment_valid": true
+      "commitment_valid": false
     },
     {
       "id": "tip_proposal:20261014T200145994925Z:876a0f1e",
@@ -2840,7 +2849,7 @@
         "suggestion": "🎯 ENTRADA SUGERIDA\nOver 14.5 cantos · odd mín. 1.75+\n↳ se sair +1 canto: sobe p/ Over 15.5 ou espera o Over 15",
         "window": "SHARK ATTACK"
       },
-      "commitment_valid": true
+      "commitment_valid": false
     },
     {
       "id": "ce1:1635671:shark",
@@ -2875,7 +2884,7 @@
         "suggestion": "🎯 ENTRADA SUGERIDA\nOver 9.5 cantos · odd mín. 1.75+\n↳ se sair +1 canto: sobe p/ Over 10.5 ou espera o Over 10",
         "window": "SHARK ATTACK"
       },
-      "commitment_valid": true
+      "commitment_valid": false
     },
     {
       "id": "ce1:1635721:mid",
@@ -2910,7 +2919,7 @@
         "suggestion": "🎯 ENTRADA SUGERIDA\nOver 8.5 cantos · odd mín. 1.75+\n↳ se sair +1 canto: sobe p/ Over 9.5 ou espera o Over 9",
         "window": "MID PRESSURE"
       },
-      "commitment_valid": true
+      "commitment_valid": false
     },
     {
       "id": "tip_proposal:20261011T165214023127Z:e39d88ac",
@@ -3009,7 +3018,7 @@
         "suggestion": "🎯 ENTRADA SUGERIDA\nOver 6.5 cantos · odd mín. 1.75+\n↳ se sair +1 canto: sobe p/ Over 7.5 ou espera o Over 7",
         "window": "FINAL PUSH"
       },
-      "commitment_valid": true
+      "commitment_valid": false
     },
     {
       "id": "ce1:1565264:ht",
@@ -3367,7 +3376,7 @@
         "odds": null,
         "stake_percent": 2
       },
-      "commitment_valid": true
+      "commitment_valid": false
     },
     {
       "id": "tip_proposal:20261010T180137321020Z:e0a9f540",
@@ -3754,7 +3763,7 @@
         "suggestion": "🎯 ENTRADA SUGERIDA\nOver 13.5 cantos · odd mín. 1.75+\n↳ se sair +1 canto: sobe p/ Over 14.5 ou espera o Over 14",
         "window": "FINAL PUSH"
       },
-      "commitment_valid": true
+      "commitment_valid": false
     },
     {
       "id": "ce1:1493170:mid",
@@ -4002,7 +4011,7 @@
         "suggestion": "🎯 ENTRADA SUGERIDA\nOver 8.5 cantos · odd mín. 1.75+\n↳ se sair +1 canto: sobe p/ Over 9.5 ou espera o Over 9",
         "window": "FINAL PUSH"
       },
-      "commitment_valid": true
+      "commitment_valid": false
     },
     {
       "id": "ce1:1588845:mid",
@@ -4037,7 +4046,7 @@
         "suggestion": "🎯 ENTRADA SUGERIDA\nOver 11.5 cantos · odd mín. 1.75+\n↳ se sair +1 canto: sobe p/ Over 12.5 ou espera o Over 12",
         "window": "MID PRESSURE"
       },
-      "commitment_valid": true
+      "commitment_valid": false
     },
     {
       "id": "ce1:1588910:ht",
@@ -4107,7 +4116,7 @@
         "suggestion": "🎯 ENTRADA SUGERIDA\nOver 6.5 cantos · odd mín. 1.75+\n↳ se sair +1 canto: sobe p/ Over 7.5 ou espera o Over 7",
         "window": "FINAL PUSH"
       },
-      "commitment_valid": true
+      "commitment_valid": false
     },
     {
       "id": "ce1:1528941:mid",
@@ -4142,7 +4151,7 @@
         "suggestion": "🎯 ENTRADA SUGERIDA\nOver 10.5 cantos · odd mín. 1.75+\n↳ se sair +1 canto: sobe p/ Over 11.5 ou espera o Over 11",
         "window": "MID PRESSURE"
       },
-      "commitment_valid": true
+      "commitment_valid": false
     },
     {
       "id": "ce1:1528939:ht",
@@ -4177,7 +4186,7 @@
         "suggestion": "🎯 ENTRADA SUGERIDA\nOver 4.5 cantos 1ª parte · odd mín. 1.75+\n↳ se sair +1 canto: sobe p/ Over 5.5 ou espera o Over 5",
         "window": "HT ATTACK"
       },
-      "commitment_valid": true
+      "commitment_valid": false
     },
     {
       "id": "tip_proposal:20261004T164413260968Z:66333741",
@@ -4416,7 +4425,7 @@
         "suggestion": "🎯 ENTRADA SUGERIDA\nOver 11.5 cantos · odd mín. 1.75+\n↳ se sair +1 canto: sobe p/ Over 12.5 ou espera o Over 12",
         "window": "FINAL PUSH"
       },
-      "commitment_valid": true
+      "commitment_valid": false
     },
     {
       "id": "ce1:1563786:final",
@@ -4451,7 +4460,7 @@
         "suggestion": "🎯 ENTRADA SUGERIDA\nOver 13.5 cantos · odd mín. 1.75+\n↳ se sair +1 canto: sobe p/ Over 14.5 ou espera o Over 14",
         "window": "FINAL PUSH"
       },
-      "commitment_valid": true
+      "commitment_valid": false
     },
     {
       "id": "ce1:1563789:shark",
@@ -4486,7 +4495,7 @@
         "suggestion": "🎯 ENTRADA SUGERIDA\nOver 14.5 cantos · odd mín. 1.75+\n↳ se sair +1 canto: sobe p/ Over 15.5 ou espera o Over 15",
         "window": "SHARK ATTACK"
       },
-      "commitment_valid": true
+      "commitment_valid": false
     },
     {
       "id": "ce1:1563781:final",
@@ -4588,7 +4597,7 @@
         "suggestion": "🎯 ENTRADA SUGERIDA\nOver 13.5 cantos · odd mín. 1.75+\n↳ se sair +1 canto: sobe p/ Over 14.5 ou espera o Over 14",
         "window": "FINAL PUSH"
       },
-      "commitment_valid": true
+      "commitment_valid": false
     },
     {
       "id": "tip_proposal:20261002T192113688975Z:64b27d89",
@@ -4687,7 +4696,7 @@
         "suggestion": "🎯 ENTRADA SUGERIDA\nOver 6.5 cantos 1ª parte · odd mín. 1.75+\n↳ se sair +1 canto: sobe p/ Over 7.5 ou espera o Over 7",
         "window": "HT ATTACK"
       },
-      "commitment_valid": true
+      "commitment_valid": false
     },
     {
       "id": "tip_proposal:20261001T173856058826Z:246d14b6",
@@ -4882,7 +4891,7 @@
         "suggestion": "🎯 ENTRADA SUGERIDA\nOver 8.5 cantos · odd mín. 1.75+\n↳ se sair +1 canto: sobe p/ Over 9.5 ou espera o Over 9",
         "window": "MID PRESSURE"
       },
-      "commitment_valid": true
+      "commitment_valid": false
     },
     {
       "id": "tip_proposal:20260929T194428106999Z:07250830",
@@ -5191,7 +5200,7 @@
         "suggestion": "🎯 ENTRADA SUGERIDA\nOver 7.5 cantos · odd mín. 1.75+\n↳ se sair +1 canto: sobe p/ Over 8.5 ou espera o Over 8",
         "window": "FINAL PUSH"
       },
-      "commitment_valid": true
+      "commitment_valid": false
     },
     {
       "id": "ce1:1563768:mid",
@@ -5226,7 +5235,7 @@
         "suggestion": "🎯 ENTRADA SUGERIDA\nOver 11.5 cantos · odd mín. 1.75+\n↳ se sair +1 canto: sobe p/ Over 12.5 ou espera o Over 12",
         "window": "MID PRESSURE"
       },
-      "commitment_valid": true
+      "commitment_valid": false
     },
     {
       "id": "tip_proposal:20260926T101303337961Z:c31f2b13",
@@ -5293,7 +5302,7 @@
         "suggestion": "🎯 ENTRADA SUGERIDA\nOver 6.5 cantos · odd mín. 1.75+\n↳ se sair +1 canto: sobe p/ Over 7.5 ou espera o Over 7",
         "window": "SHARK ATTACK"
       },
-      "commitment_valid": true
+      "commitment_valid": false
     },
     {
       "id": "tip_proposal:20260925T190029743566Z:9c52acb8",
@@ -5747,7 +5756,7 @@
         "suggestion": "🎯 ENTRADA SUGERIDA\nOver 4.5 cantos 1ª parte · odd mín. 1.75+\n↳ se sair +1 canto: sobe p/ Over 5.5 ou espera o Over 5",
         "window": "HT ATTACK"
       },
-      "commitment_valid": true
+      "commitment_valid": false
     },
     {
       "id": "ce1:1557411:final",
@@ -5782,7 +5791,7 @@
         "suggestion": "🎯 ENTRADA SUGERIDA\nOver 13.5 cantos · odd mín. 1.75+\n↳ se sair +1 canto: sobe p/ Over 14.5 ou espera o Over 14",
         "window": "FINAL PUSH"
       },
-      "commitment_valid": true
+      "commitment_valid": false
     },
     {
       "id": "ce1:1494769:shark",
@@ -5852,7 +5861,7 @@
         "suggestion": "🎯 ENTRADA SUGERIDA\nOver 4.5 cantos · odd mín. 1.75+\n↳ se sair +1 canto: sobe p/ Over 5.5 ou espera o Over 5",
         "window": "MID PRESSURE"
       },
-      "commitment_valid": true
+      "commitment_valid": false
     },
     {
       "id": "ce1:1520886:shark",
@@ -6487,7 +6496,7 @@
         "suggestion": "🎯 ENTRADA SUGERIDA\nOver 15.5 cantos · odd mín. 1.75+\n↳ se sair +1 canto: sobe p/ Over 16.5 ou espera o Over 16",
         "window": "MID PRESSURE"
       },
-      "commitment_valid": true
+      "commitment_valid": false
     },
     {
       "id": "tip_proposal:20260919T152719282992Z:2bac090b",
@@ -6621,7 +6630,7 @@
         "suggestion": "🎯 ENTRADA SUGERIDA\nOver 6.5 cantos 1ª parte · odd mín. 1.75+\n↳ se sair +1 canto: sobe p/ Over 7.5 ou espera o Over 7",
         "window": "HT ATTACK"
       },
-      "commitment_valid": true
+      "commitment_valid": false
     },
     {
       "id": "ce1:1564308:final",
@@ -6656,7 +6665,7 @@
         "suggestion": "🎯 ENTRADA SUGERIDA\nOver 13.5 cantos · odd mín. 1.75+\n↳ se sair +1 canto: sobe p/ Over 14.5 ou espera o Over 14",
         "window": "FINAL PUSH"
       },
-      "commitment_valid": true
+      "commitment_valid": false
     },
     {
       "id": "ce1:1557416:ht",
@@ -7285,7 +7294,7 @@
         "suggestion": "🎯 ENTRADA SUGERIDA\nOver 9.5 cantos · odd mín. 1.75+\n↳ se sair +1 canto: sobe p/ Over 10.5 ou espera o Over 10",
         "window": "MID PRESSURE"
       },
-      "commitment_valid": true
+      "commitment_valid": false
     },
     {
       "id": "ce1:1570384:ht",
@@ -7320,7 +7329,7 @@
         "suggestion": "🎯 ENTRADA SUGERIDA\nOver 1.5 cantos 1ª parte · odd mín. 1.75+\n↳ se sair +1 canto: sobe p/ Over 2.5 ou espera o Over 2",
         "window": "HT ATTACK"
       },
-      "commitment_valid": true
+      "commitment_valid": false
     },
     {
       "id": "ce1:1561402:shark",
@@ -7585,7 +7594,7 @@
         "suggestion": "🎯 ENTRADA SUGERIDA\nOver 4.5 cantos 1ª parte · odd mín. 1.75+\n↳ se sair +1 canto: sobe p/ Over 5.5 ou espera o Over 5",
         "window": "HT ATTACK"
       },
-      "commitment_valid": true
+      "commitment_valid": false
     },
     {
       "id": "ce1:1555504:shark",
@@ -7620,7 +7629,7 @@
         "suggestion": "🎯 ENTRADA SUGERIDA\nOver 11.5 cantos · odd mín. 1.75+\n↳ se sair +1 canto: sobe p/ Over 12.5 ou espera o Over 12",
         "window": "SHARK ATTACK"
       },
-      "commitment_valid": true
+      "commitment_valid": false
     },
     {
       "id": "ce1:1628957:final",
@@ -7655,7 +7664,7 @@
         "suggestion": "🎯 ENTRADA SUGERIDA\nOver 11.5 cantos · odd mín. 1.75+\n↳ se sair +1 canto: sobe p/ Over 12.5 ou espera o Over 12",
         "window": "FINAL PUSH"
       },
-      "commitment_valid": true
+      "commitment_valid": false
     },
     {
       "id": "tip_proposal:20260915T171041922655Z:033953c1",
@@ -7859,7 +7868,7 @@
         "suggestion": "🎯 ENTRADA SUGERIDA\nOver 8.5 cantos · odd mín. 1.75+\n↳ se sair +1 canto: sobe p/ Over 9.5 ou espera o Over 9",
         "window": "SHARK ATTACK"
       },
-      "commitment_valid": true
+      "commitment_valid": false
     },
     {
       "id": "ce1:1550120:ht",
@@ -7961,7 +7970,7 @@
         "suggestion": "🎯 ENTRADA SUGERIDA\nOver 2.5 cantos 1ª parte · odd mín. 1.75+\n↳ se sair +1 canto: sobe p/ Over 3.5 ou espera o Over 3",
         "window": "HT ATTACK"
       },
-      "commitment_valid": true
+      "commitment_valid": false
     },
     {
       "id": "tip_proposal:20260914T162809608314Z:ceb86afb",
@@ -8270,7 +8279,7 @@
         "suggestion": "🎯 ENTRADA SUGERIDA\nOver 11.5 cantos · odd mín. 1.75+\n↳ se sair +1 canto: sobe p/ Over 12.5 ou espera o Over 12",
         "window": "MID PRESSURE"
       },
-      "commitment_valid": true
+      "commitment_valid": false
     },
     {
       "id": "tip_proposal:20260913T151915194352Z:7946f0ca",
@@ -8337,7 +8346,7 @@
         "suggestion": "🎯 ENTRADA SUGERIDA\nOver 9.5 cantos · odd mín. 1.75+\n↳ se sair +1 canto: sobe p/ Over 10.5 ou espera o Over 10",
         "window": "MID PRESSURE"
       },
-      "commitment_valid": true
+      "commitment_valid": false
     },
     {
       "id": "ce1:1569920:shark",
@@ -8372,7 +8381,7 @@
         "suggestion": "🎯 ENTRADA SUGERIDA\nOver 8.5 cantos · odd mín. 1.75+\n↳ se sair +1 canto: sobe p/ Over 9.5 ou espera o Over 9",
         "window": "SHARK ATTACK"
       },
-      "commitment_valid": true
+      "commitment_valid": false
     },
     {
       "id": "ce1:1576174:shark",
@@ -8407,7 +8416,7 @@
         "suggestion": "🎯 ENTRADA SUGERIDA\nOver 11.5 cantos · odd mín. 1.75+\n↳ se sair +1 canto: sobe p/ Over 12.5 ou espera o Over 12",
         "window": "SHARK ATTACK"
       },
-      "commitment_valid": true
+      "commitment_valid": false
     },
     {
       "id": "tip_proposal:20260913T122645581428Z:0bb0c2cc",
@@ -8474,7 +8483,7 @@
         "suggestion": "🎯 ENTRADA SUGERIDA\nOver 3.5 cantos 1ª parte · odd mín. 1.75+\n↳ se sair +1 canto: sobe p/ Over 4.5 ou espera o Over 4",
         "window": "HT ATTACK"
       },
-      "commitment_valid": true
+      "commitment_valid": false
     },
     {
       "id": "tip_proposal:20260912T214633363642Z:c49c8c29",
@@ -8669,7 +8678,7 @@
         "suggestion": "🎯 ENTRADA SUGERIDA\nOver 7.5 cantos · odd mín. 1.75+\n↳ se sair +1 canto: sobe p/ Over 8.5 ou espera o Over 8",
         "window": "FINAL PUSH"
       },
-      "commitment_valid": true
+      "commitment_valid": false
     },
     {
       "id": "tip_proposal:20260912T174602083786Z:84730834",
@@ -8832,7 +8841,7 @@
         "suggestion": "🎯 ENTRADA SUGERIDA\nOver 7.5 cantos · odd mín. 1.75+\n↳ se sair +1 canto: sobe p/ Over 8.5 ou espera o Over 8",
         "window": "MID PRESSURE"
       },
-      "commitment_valid": true
+      "commitment_valid": false
     },
     {
       "id": "tip_proposal:20260912T164110120786Z:dd7e7326",
@@ -8963,7 +8972,7 @@
         "suggestion": "🎯 ENTRADA SUGERIDA\nOver 8.5 cantos · odd mín. 1.75+\n↳ se sair +1 canto: sobe p/ Over 9.5 ou espera o Over 9",
         "window": "MID PRESSURE"
       },
-      "commitment_valid": true
+      "commitment_valid": false
     },
     {
       "id": "ce1:1563753:shark",
@@ -8998,7 +9007,7 @@
         "suggestion": "🎯 ENTRADA SUGERIDA\nOver 12.5 cantos · odd mín. 1.75+\n↳ se sair +1 canto: sobe p/ Over 13.5 ou espera o Over 13",
         "window": "SHARK ATTACK"
       },
-      "commitment_valid": true
+      "commitment_valid": false
     },
     {
       "id": "ce1:1575162:final",
@@ -9033,7 +9042,7 @@
         "suggestion": "🎯 ENTRADA SUGERIDA\nOver 15.5 cantos · odd mín. 1.75+\n↳ se sair +1 canto: sobe p/ Over 16.5 ou espera o Over 16",
         "window": "FINAL PUSH"
       },
-      "commitment_valid": true
+      "commitment_valid": false
     },
     {
       "id": "ce1:1563753:ht",
@@ -9068,7 +9077,7 @@
         "suggestion": "🎯 ENTRADA SUGERIDA\nOver 3.5 cantos 1ª parte · odd mín. 1.75+\n↳ se sair +1 canto: sobe p/ Over 4.5 ou espera o Over 4",
         "window": "HT ATTACK"
       },
-      "commitment_valid": true
+      "commitment_valid": false
     },
     {
       "id": "tip_proposal:20260912T125228896715Z:a93c3c51",
@@ -9308,7 +9317,7 @@
         "odds": null,
         "stake_percent": 1
       },
-      "commitment_valid": true
+      "commitment_valid": false
     },
     {
       "id": "tip_proposal:20260911T112653019441Z:c02f4fe6",
@@ -9340,7 +9349,7 @@
         "odds": null,
         "stake_percent": 1
       },
-      "commitment_valid": true
+      "commitment_valid": false
     },
     {
       "id": "tip_proposal:20260911T112354262761Z:e7549322",
@@ -9535,7 +9544,7 @@
         "odds": null,
         "stake_percent": 2
       },
-      "commitment_valid": true
+      "commitment_valid": false
     },
     {
       "id": "tip_proposal:20260910T150108270219Z:41a448af",
@@ -9693,7 +9702,7 @@
         "suggestion": "🎯 ENTRADA SUGERIDA\nOver 9.5 cantos · odd mín. 1.75+\n↳ se sair +1 canto: sobe p/ Over 10.5 ou espera o Over 10",
         "window": "MID PRESSURE"
       },
-      "commitment_valid": true
+      "commitment_valid": false
     },
     {
       "id": "ce1:1565245:ht",
@@ -10047,7 +10056,7 @@
         "suggestion": "🎯 ENTRADA SUGERIDA\nOver 4.5 cantos 1ª parte · odd mín. 1.75+\n↳ se sair +1 canto: sobe p/ Over 5.5 ou espera o Over 5",
         "window": "HT ATTACK"
       },
-      "commitment_valid": true
+      "commitment_valid": false
     }
   ]
 }
