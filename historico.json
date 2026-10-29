@@ -4483,6 +4483,26 @@
       "justificacao_void": "",
       "golos_apos_casa": 2,
       "golos_apos_fora": 0
+    },
+    {
+      "alerta_id": "ce1:1641967:shark",
+      "fixture_id": 1641967,
+      "timestamp": "2026-10-29T21:22:00.292885",
+      "jogo": "De Treffers vs Heracles",
+      "liga": "KNVB Beker",
+      "janela": "SHARK ATTACK",
+      "tempo_alerta": 58,
+      "estrelas": 9.0,
+      "cantos_no_ref": 10,
+      "cantos_final": 12,
+      "cantos_apos_alerta": 2,
+      "meta_cantos": 4,
+      "resultado": "CANCELADA",
+      "resultado_tecnico": "LOSS",
+      "estado_entrada": "CANCELADA",
+      "justificacao_void": "",
+      "golos_apos_casa": 1,
+      "golos_apos_fora": 0
     }
   ]
 }
