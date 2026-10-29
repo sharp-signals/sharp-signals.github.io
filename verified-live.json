@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-29T18:31:54Z",
-  "event_chain_head": "87f36ee6b9d68ca1764f92bb51f32da97706bcb1e8044b5216c9de192f462ada",
+  "generated_at": "2026-10-29T19:06:18Z",
+  "event_chain_head": "5653d881cdc3dbe2bce8fefb5c61071159b8986a613ecd893e510e64ad8321c2",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,20 +12,43 @@
   },
   "summary": {
     "total": 316,
-    "pending": 14,
+    "pending": 13,
     "signals_settled": 106,
-    "official_entries_settled": 178,
+    "official_entries_settled": 179,
     "cancelled": 30
   },
   "records": [
     {
       "id": "tip_proposal:20261029T183153827193Z:fe163fea",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-10-29T18:31:54Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "de7e18bbe5722652ca3ba465793d47772227769f1db034a66b7eb3af6a91cd17",
-      "telegram_message_count": 2
+      "telegram_message_count": 2,
+      "settled_at": "2026-10-29T19:06:18Z",
+      "result": "WIN",
+      "outcome": {
+        "odds": 1.81,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": 0.608,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20261029T183153827193Z:fe163fea",
+        "market": "⛳ Over 9.5 corners · FT",
+        "match": "Voluntari x Uni. Craiova",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "ce1:1630387:final",
