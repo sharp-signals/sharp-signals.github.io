@@ -17,7 +17,7 @@
    "pode_nao_publicar": true
   }
  },
- "atualizado": "2026-10-30T19:54:33",
+ "atualizado": "2026-10-30T21:54:56",
  "dia_trading": "2026-10-30",
  "geral": {
   "inicio": "2026-06-06",
@@ -3762,7 +3762,7 @@
    "ticket_id": "prelive:2026-10-30:2",
    "ticket_slot": 2,
    "fire": false,
-   "resultado": null
+   "resultado": "perdido"
   },
   {
    "hora": "16:45",
@@ -3849,7 +3849,7 @@
       "hora": "19:00",
       "mercado": null,
       "odd": 3.0,
-      "resultado": null
+      "resultado": "perdido"
      },
      {
       "fixture_id": 1611435,
@@ -3885,7 +3885,7 @@
      "hora": "19:00",
      "mercado": null,
      "odd": 3.0,
-     "resultado": null
+     "resultado": "perdido"
     },
     {
      "fixture_id": 1611435,
@@ -5051,7 +5051,7 @@
       "hora": "19:00",
       "mercado": null,
       "odd": 3.0,
-      "resultado": null
+      "resultado": "perdido"
      },
      {
       "fixture_id": 1611435,
