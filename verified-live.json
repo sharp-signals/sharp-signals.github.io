@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-30T21:36:56Z",
-  "event_chain_head": "5bfbe710931b93194703f5e0e4d02950d01d20cd0ae2de3fa1ed3ea2ffcfd992",
+  "generated_at": "2026-10-30T21:37:04Z",
+  "event_chain_head": "e74fa885b9580c5c1f1e30f31c42d2e195fcbeb3d03b5f9bd37d4bd5de2ce04a",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,20 +12,43 @@
   },
   "summary": {
     "total": 329,
-    "pending": 15,
+    "pending": 14,
     "signals_settled": 106,
-    "official_entries_settled": 188,
+    "official_entries_settled": 189,
     "cancelled": 32
   },
   "records": [
     {
       "id": "tip_proposal:20261030T211939215939Z:27b469b7",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-10-30T21:19:40Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "3bfbbdbc0da200ecbddca2f17b5fb3dd4fa85062f08427d778cd3f9386200b6e",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-10-30T21:37:04Z",
+      "result": "WIN",
+      "outcome": {
+        "odds": 1.81,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": 0.608,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20261030T211939215939Z:27b469b7",
+        "market": "⛳ Over 6.5 corners · FT",
+        "match": "Sligo Rovers x Derry City",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20261030T211040160333Z:964d94b6",
