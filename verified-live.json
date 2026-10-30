@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-30T16:26:19Z",
-  "event_chain_head": "f291b2a71e7419ea48e008444fb2ba265def14232dae655c52eae1830b66425f",
+  "generated_at": "2026-10-30T16:28:46Z",
+  "event_chain_head": "857781ad95b5b65038366ee67026e9dc0b8573a9051b14915858d9056a1c3a56",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,9 +12,9 @@
   },
   "summary": {
     "total": 319,
-    "pending": 16,
+    "pending": 15,
     "signals_settled": 106,
-    "official_entries_settled": 179,
+    "official_entries_settled": 180,
     "cancelled": 30
   },
   "records": [
@@ -30,11 +30,34 @@
     {
       "id": "tip_proposal:20261030T154348249278Z:198fc6dd",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-10-30T15:43:48Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "86c895c088d5e9f66e3aac75af547b834b470ed4c2571c794c6b874d32b9bbc3",
-      "telegram_message_count": 2
+      "telegram_message_count": 2,
+      "settled_at": "2026-10-30T16:28:46Z",
+      "result": "WIN",
+      "outcome": {
+        "odds": 1.84,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": 0.63,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20261030T154348249278Z:198fc6dd",
+        "market": "⛳ Over 9.5 corners · FT",
+        "match": "Turan x Sabah Baku",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "ce1:1641967:shark",
