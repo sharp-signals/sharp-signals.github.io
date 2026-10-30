@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-30T19:50:02Z",
-  "event_chain_head": "7bb2945998c811121f978af2a2c828860cbf8b58fe8895736335199787aed1fd",
+  "generated_at": "2026-10-30T19:50:30Z",
+  "event_chain_head": "29edc63a3cf655e3975a7effa3512221477c8cc84d885776b338b52f19532978",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,9 +12,9 @@
   },
   "summary": {
     "total": 327,
-    "pending": 16,
+    "pending": 15,
     "signals_settled": 106,
-    "official_entries_settled": 185,
+    "official_entries_settled": 186,
     "cancelled": 32
   },
   "records": [
@@ -30,11 +30,34 @@
     {
       "id": "tip_proposal:20261030T193026801645Z:30196b14",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-10-30T19:30:27Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "5467b252bdb8d990a3e6164cfb966fbfa12af42fc9e4a7d64b73191ac68563a4",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-10-30T19:50:29Z",
+      "result": "LOSS",
+      "outcome": {
+        "odds": 1.81,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": -0.75,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20261030T193026801645Z:30196b14",
+        "market": "⛳ Over 2.5 corners · 1st half",
+        "match": "Seraing x Liege",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20261030T190921958899Z:e211f07d",
