@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-30T17:51:14Z",
-  "event_chain_head": "f44bb26f3f7ee611cb456979d9c8176e3a8391f47372430e06bca4db27912d1b",
+  "generated_at": "2026-10-30T17:51:54Z",
+  "event_chain_head": "58d694d7a7799633c9fbe96e6f2e4c148d73531b6b6dc2db4d2d01c567842bed",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,20 +12,43 @@
   },
   "summary": {
     "total": 322,
-    "pending": 15,
+    "pending": 14,
     "signals_settled": 106,
     "official_entries_settled": 183,
-    "cancelled": 30
+    "cancelled": 31
   },
   "records": [
     {
       "id": "tip_proposal:20261030T175113678606Z:12634fec",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-10-30T17:51:13Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "da378ddbc1453c76a48de9a56f4d90e09cc3348627aa8b2d30d32090bc5b5696",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-10-30T17:51:54Z",
+      "result": "CANCELADA",
+      "outcome": {
+        "odds": null,
+        "odds_source": null,
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "cancelled",
+        "profit_loss_percent": null,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20261030T175113678606Z:12634fec",
+        "market": "⛳ Over 4.5 corners · 1st half",
+        "match": "Elfsborg F x Alingsas F",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20261030T171434416863Z:1303c6b7",
