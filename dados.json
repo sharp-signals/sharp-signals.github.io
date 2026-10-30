@@ -8,8 +8,8 @@
    "fim": "2026-01-31"
   },
   "cresc_pct": 56.91,
-  "apostas": 1212,
-  "ganhos": 681,
+  "apostas": 1213,
+  "ganhos": 682,
   "perdidos": 531,
   "wr": 56.2,
   "meses": [
@@ -79,17 +79,17 @@
    {
     "mes": "2026-10",
     "label": "Out 26",
-    "cresc_pct": 5.17,
-    "apostas": 74,
-    "wr": 51.4
+    "cresc_pct": 5.8,
+    "apostas": 75,
+    "wr": 52.0
    }
   ],
   "por_mercado": [
    {
     "mercado": "Over Cantos FT",
-    "n": 667,
+    "n": 668,
     "wr": 58.2,
-    "roi": 36.63,
+    "roi": 37.26,
     "pl_eur": 1369.94
    },
    {
@@ -136,7 +136,6 @@
    }
   ],
   "forma": [
-   "ganho",
    "cashout",
    "ganho",
    "perdido",
@@ -150,6 +149,7 @@
    "ganho",
    "ganho",
    "perdido",
+   "ganho",
    "ganho"
   ],
   "historico": [
@@ -175,13 +175,13 @@
     "jogo": "Turan x Sabah Baku",
     "mercado": "⛳ Over 9.5 corners · FT",
     "categoria": "Over Cantos FT",
-    "odd": null,
-    "pl_pct": null,
+    "odd": 1.84,
+    "pl_pct": 0.63,
     "stake_pct": 0.75,
-    "resultado": "pendente",
+    "resultado": "ganho",
     "verified_id": "tip_proposal:20261030T154348249278Z:198fc6dd",
-    "estado_entrada": "aguarda_confirmacao",
-    "tipo_odd": "por_registar",
+    "estado_entrada": "confirmada",
+    "tipo_odd": "real",
     "odd_minima_recomendada": 1.81,
     "confianca": 7
    },
