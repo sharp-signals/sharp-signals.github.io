@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-30T17:14:34Z",
-  "event_chain_head": "811e929a1b7042caab7b61b98c3a83eddd4b75068f97e4d57ff3b14fb117fd94",
+  "generated_at": "2026-10-30T17:30:08Z",
+  "event_chain_head": "1c15d3df55b16b6476904dbae9e7e2087b3088187fb63483603acd43b32dad6d",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,20 +12,43 @@
   },
   "summary": {
     "total": 321,
-    "pending": 15,
+    "pending": 14,
     "signals_settled": 106,
-    "official_entries_settled": 182,
+    "official_entries_settled": 183,
     "cancelled": 30
   },
   "records": [
     {
       "id": "tip_proposal:20261030T171434416863Z:1303c6b7",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-10-30T17:14:34Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "5a954ea6449858720d4dbef18eb70f8bd278469af1f03df5c11864babe009b73",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-10-30T17:30:08Z",
+      "result": "WIN",
+      "outcome": {
+        "odds": 1.89,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": 1.78,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 9,
+        "entry_id": "tip_proposal:20261030T171434416863Z:1303c6b7",
+        "market": "⛳ Over 4.5 corners · FT",
+        "match": "Shakhtar x Obolon Kyiv",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 2.0
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20261030T163813200700Z:b46a8362",
