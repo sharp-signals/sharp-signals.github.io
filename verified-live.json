@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-30T19:09:22Z",
-  "event_chain_head": "4c9b90d543c383a446e4b04a80442ec0f9540a025af63237072154c9f028d8da",
+  "generated_at": "2026-10-30T19:24:14Z",
+  "event_chain_head": "83e84ee785e9f0860c2369e3c9d4ab6d85023cf4b3db1edc8f881b2301e50e8c",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,20 +12,43 @@
   },
   "summary": {
     "total": 325,
-    "pending": 15,
+    "pending": 14,
     "signals_settled": 106,
-    "official_entries_settled": 184,
+    "official_entries_settled": 185,
     "cancelled": 32
   },
   "records": [
     {
       "id": "tip_proposal:20261030T190921958899Z:e211f07d",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-10-30T19:09:22Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "b774c7559b9a400fe08d28dd06d0c14caedf4ade92a1e2fbe5b68c36fd489597",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-10-30T19:24:14Z",
+      "result": "VOID",
+      "outcome": {
+        "odds": null,
+        "odds_source": "historical_reference",
+        "reference_odds": 1.84,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": 0.0,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 8,
+        "entry_id": "tip_proposal:20261030T190921958899Z:e211f07d",
+        "market": "⛳ Over 3 corners · 1st half",
+        "match": "Rapid Bucarest x Miercurea Ciuc",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 1.25
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20261030T190308271436Z:1f43d8f6",
