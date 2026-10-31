@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-31T15:11:01Z",
-  "event_chain_head": "bd0295a1805c6bf8ec9a52e965d649fe5dfc3f951c17a626a758b48d2498703a",
+  "generated_at": "2026-10-31T15:22:20Z",
+  "event_chain_head": "8a267edd5d848a9aa6140136f4af3bf2ae5d6c4da45d79bc152d869816806c85",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,20 +12,43 @@
   },
   "summary": {
     "total": 333,
-    "pending": 15,
+    "pending": 14,
     "signals_settled": 108,
-    "official_entries_settled": 190,
+    "official_entries_settled": 191,
     "cancelled": 33
   },
   "records": [
     {
       "id": "tip_proposal:20261031T151100694679Z:7b3dd040",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-10-31T15:11:01Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "d784b1346e6f32e6a991d33532b99cd6e10c75bc5fb1552e3b102a1c8eae2d6e",
-      "telegram_message_count": 2
+      "telegram_message_count": 2,
+      "settled_at": "2026-10-31T15:22:20Z",
+      "result": "LOSS",
+      "outcome": {
+        "odds": 1.9,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": -0.75,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20261031T151100694679Z:7b3dd040",
+        "market": "⛳ Over 11 corners · FT",
+        "match": "Gabala x Qarabag",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "ce1:1563232:shark",
