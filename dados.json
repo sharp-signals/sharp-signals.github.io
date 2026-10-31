@@ -8,9 +8,9 @@
    "fim": "2026-01-31"
   },
   "cresc_pct": 56.91,
-  "apostas": 1224,
+  "apostas": 1225,
   "ganhos": 688,
-  "perdidos": 536,
+  "perdidos": 537,
   "wr": 56.2,
   "meses": [
    {
@@ -79,9 +79,9 @@
    {
     "mes": "2026-10",
     "label": "Out 26",
-    "cresc_pct": 8.31,
-    "apostas": 86,
-    "wr": 52.3
+    "cresc_pct": 8.12,
+    "apostas": 87,
+    "wr": 51.7
    }
   ],
   "por_mercado": [
@@ -101,9 +101,9 @@
    },
    {
     "mercado": "Cashout",
-    "n": 174,
-    "wr": 43.7,
-    "roi": -4.61,
+    "n": 175,
+    "wr": 43.4,
+    "roi": -4.8,
     "pl_eur": -74.77
    },
    {
@@ -136,7 +136,6 @@
    }
   ],
   "forma": [
-   "ganho",
    "perdido",
    "ganho",
    "ganho",
@@ -150,7 +149,8 @@
    "ganho",
    "ganho",
    "perdido",
-   "ganho"
+   "ganho",
+   "cashout"
   ],
   "historico": [
    {
@@ -158,16 +158,17 @@
     "mes": "2026-10",
     "jogo": "Macva x Red Star",
     "mercado": "⛳ Over 8 corners · FT",
-    "categoria": "Over Cantos FT",
+    "categoria": "Cashout",
     "odd": null,
-    "pl_pct": null,
+    "pl_pct": -0.188,
     "stake_pct": 1.25,
-    "resultado": "pendente",
+    "resultado": "cashout",
     "verified_id": "tip_proposal:20261031T173743494710Z:3b9e594c",
-    "estado_entrada": "aguarda_confirmacao",
-    "tipo_odd": "por_registar",
+    "estado_entrada": "confirmada",
+    "tipo_odd": "referencia_cashout_menos_15_pct",
     "odd_minima_recomendada": 1.81,
-    "confianca": 8
+    "confianca": 8,
+    "cashout_perda_referencia_pct_stake": 15.0
    },
    {
     "data": "2026-10-31",
