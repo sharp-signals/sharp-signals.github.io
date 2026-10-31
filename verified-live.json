@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-31T13:12:08Z",
-  "event_chain_head": "253bc2c605668d79f0f93b4f507b6daf893109f84a189b7f979dc28d856081ab",
+  "generated_at": "2026-10-31T13:35:25Z",
+  "event_chain_head": "d15e2d2f42848a46c55c43ee86afc22a0ae29a53da0ebbfaaf0b95053606b6de",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,20 +12,43 @@
   },
   "summary": {
     "total": 331,
-    "pending": 15,
+    "pending": 14,
     "signals_settled": 107,
-    "official_entries_settled": 189,
+    "official_entries_settled": 190,
     "cancelled": 33
   },
   "records": [
     {
       "id": "tip_proposal:20261031T131207761223Z:808c8387",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-10-31T13:12:08Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "d59a90f8834320cb70a97ff21153b3b5ccc423c942afd23ab4775f793fdc82e8",
-      "telegram_message_count": 2
+      "telegram_message_count": 2,
+      "settled_at": "2026-10-31T13:35:24Z",
+      "result": "WIN",
+      "outcome": {
+        "odds": 1.81,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": 1.013,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 8,
+        "entry_id": "tip_proposal:20261031T131207761223Z:808c8387",
+        "market": "⛳ Over 3 corners · 1st half",
+        "match": "Beitar Jerusalem x Kiryat Shmona",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 1.25
+      },
+      "commitment_valid": true
     },
     {
       "id": "ce1:1576223:ht",
