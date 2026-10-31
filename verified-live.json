@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-31T17:41:35Z",
-  "event_chain_head": "656d2185c9fd597e609c2cbdae68d1ed7af3c03fc88dadf726c25f44bb53f3df",
+  "generated_at": "2026-10-31T17:52:10Z",
+  "event_chain_head": "b199ddad70aa414f1a2685932993af94de7c0bb7184c10315d3d6c3fec1cf89a",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,9 +12,9 @@
   },
   "summary": {
     "total": 338,
-    "pending": 16,
+    "pending": 15,
     "signals_settled": 108,
-    "official_entries_settled": 194,
+    "official_entries_settled": 195,
     "cancelled": 33
   },
   "records": [
@@ -62,11 +62,34 @@
     {
       "id": "tip_proposal:20261031T171755409265Z:7a55dc1e",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-10-31T17:17:55Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "38e2e37fbdb7e676ffc19688c5010b5cd817edaddf2201529858291d1c39bb44",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-10-31T17:52:10Z",
+      "result": "LOSS",
+      "outcome": {
+        "odds": null,
+        "odds_source": "historical_reference",
+        "reference_odds": 1.84,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": -2.0,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 9,
+        "entry_id": "tip_proposal:20261031T171755409265Z:7a55dc1e",
+        "market": "⛳ Over 10 corners · FT",
+        "match": "Macva x Red Star",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 2.0
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20261031T154912544682Z:d2902122",
