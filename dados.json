@@ -8,8 +8,8 @@
    "fim": "2026-01-31"
   },
   "cresc_pct": 56.91,
-  "apostas": 1228,
-  "ganhos": 689,
+  "apostas": 1229,
+  "ganhos": 690,
   "perdidos": 539,
   "wr": 56.1,
   "meses": [
@@ -79,9 +79,9 @@
    {
     "mes": "2026-10",
     "label": "Out 26",
-    "cresc_pct": 5.98,
-    "apostas": 90,
-    "wr": 51.1
+    "cresc_pct": 6.58,
+    "apostas": 91,
+    "wr": 51.6
    }
   ],
   "por_mercado": [
@@ -115,9 +115,9 @@
    },
    {
     "mercado": "Race to X corners",
-    "n": 48,
-    "wr": 68.8,
-    "roi": 10.12,
+    "n": 49,
+    "wr": 69.4,
+    "roi": 10.72,
     "pl_eur": 324.76
    },
    {
@@ -137,7 +137,6 @@
   ],
   "forma": [
    "perdido",
-   "perdido",
    "ganho",
    "ganho",
    "perdido",
@@ -150,6 +149,7 @@
    "cashout",
    "perdido",
    "perdido",
+   "ganho",
    "ganho"
   ],
   "historico": [
@@ -175,13 +175,13 @@
     "jogo": "CSKA Sofia x Slavia Sofia",
     "mercado": "🏁 Race to 9 corners · CSKA Sofia",
     "categoria": "Race to X corners",
-    "odd": null,
-    "pl_pct": null,
+    "odd": 1.8,
+    "pl_pct": 0.6,
     "stake_pct": 0.75,
-    "resultado": "pendente",
+    "resultado": "ganho",
     "verified_id": "tip_proposal:20261031T190627704295Z:86c9257e",
-    "estado_entrada": "aguarda_confirmacao",
-    "tipo_odd": "por_registar",
+    "estado_entrada": "confirmada",
+    "tipo_odd": "real",
     "odd_minima_recomendada": 1.81,
     "confianca": 7
    },
