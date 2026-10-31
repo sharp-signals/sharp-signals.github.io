@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-31T20:03:05Z",
-  "event_chain_head": "85d23c8ab037a51571384933c8f210efddd8d8b67bd2e88594c09a2e0607187d",
+  "generated_at": "2026-10-31T20:19:38Z",
+  "event_chain_head": "e91e4d03ccd16422fd56154cf18ecdd3d4d908d72f854aba9a99bd69ecb8c183",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,10 +12,10 @@
   },
   "summary": {
     "total": 342,
-    "pending": 15,
+    "pending": 14,
     "signals_settled": 108,
     "official_entries_settled": 199,
-    "cancelled": 33
+    "cancelled": 34
   },
   "records": [
     {
@@ -5947,11 +5947,34 @@
     {
       "id": "tip_proposal:20260926T225454140279Z:4a6e5ed2",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-09-26T22:54:54Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "128a8bfa93f1ad18a8d45d94f45dda5fc117f134dd8dd1f047683daabbadf721",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-10-31T20:19:38Z",
+      "result": "CANCELADA",
+      "outcome": {
+        "odds": null,
+        "odds_source": null,
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "cancelled",
+        "profit_loss_percent": null,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20260926T225454140279Z:4a6e5ed2",
+        "market": "⛳ Over 8.5 corners · FT",
+        "match": "Penarol x Boston River",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20260926T202031671197Z:2cd14470",
