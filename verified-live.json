@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-31T15:49:12Z",
-  "event_chain_head": "6c89b23c729725c9fb0b8f1159d8404467d6bc77c1999d8f9915f648da87d1a8",
+  "generated_at": "2026-10-31T16:28:21Z",
+  "event_chain_head": "37d51bbd0ddfcb9fbc64831c17545f9ae2fd789c4d85441bf267233689d07922",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,20 +12,43 @@
   },
   "summary": {
     "total": 335,
-    "pending": 15,
+    "pending": 14,
     "signals_settled": 108,
-    "official_entries_settled": 192,
+    "official_entries_settled": 193,
     "cancelled": 33
   },
   "records": [
     {
       "id": "tip_proposal:20261031T154912544682Z:d2902122",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-10-31T15:49:12Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "c6692e1d19f7b91fa73436d321ab4ab75575270619a8e49fe74a6142045136f4",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-10-31T16:28:21Z",
+      "result": "WIN",
+      "outcome": {
+        "odds": 1.89,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": 0.667,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20261031T154912544682Z:d2902122",
+        "market": "⛳ Over 10.5 corners · FT",
+        "match": "Dunav Ruse x Levski",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20261031T153706687629Z:f7de6a76",
