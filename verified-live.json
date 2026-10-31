@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-31T13:45:47Z",
-  "event_chain_head": "54649be602dbed5d9e74696d1ca43616d93ece4220a8b6a979847fb5faf0e7c8",
+  "generated_at": "2026-10-31T14:54:41Z",
+  "event_chain_head": "91431e3898068b6c2f53769556520418fd9d917413748210d89190aae1b16d24",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,8 +12,8 @@
   },
   "summary": {
     "total": 332,
-    "pending": 15,
-    "signals_settled": 107,
+    "pending": 14,
+    "signals_settled": 108,
     "official_entries_settled": 190,
     "cancelled": 33
   },
@@ -21,11 +21,37 @@
     {
       "id": "ce1:1563232:shark",
       "kind": "signal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-10-31T13:45:47Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "50e31457d15b3f5c7c37a76dc233b04414068f27f1b1382fd0a9e71ff63fd7fd",
-      "telegram_message_count": 2
+      "telegram_message_count": 2,
+      "settled_at": "2026-10-31T14:54:41Z",
+      "result": "VOID",
+      "outcome": {
+        "corners_reference": 9,
+        "corners_final": 11,
+        "corners_after": 2,
+        "target": 4,
+        "technical_result": "VOID",
+        "entry_status": "confirmed",
+        "void_reason": "Não entrada — preço demasiado alto",
+        "approved_manually": true
+      },
+      "sealed_payload": {
+        "alert_id": "ce1:1563232:shark",
+        "classification": "scanner_signal_not_confirmed_bet",
+        "confidence": 8.0,
+        "corners_at_alert": 7,
+        "league": "Championship",
+        "match": "Norwich vs Watford",
+        "minimum_price": 1.75,
+        "minute": 55,
+        "score_at_alert": "1-2",
+        "suggestion": "🎯 ENTRADA SUGERIDA\nOver 10.5 cantos · odd mín. 1.75+\n↳ se sair +1 canto: sobe p/ Over 11.5 ou espera o Over 11",
+        "window": "SHARK ATTACK"
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20261031T131207761223Z:808c8387",
