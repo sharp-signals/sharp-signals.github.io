@@ -4524,5 +4524,27 @@
       "golos_apos_casa": 0,
       "golos_apos_fora": 0
     }
+  ],
+  "2026-10-31": [
+    {
+      "alerta_id": "ce1:1576223:ht",
+      "fixture_id": 1576223,
+      "timestamp": "2026-10-31T13:03:07.381778",
+      "jogo": "VfL Wolfsburg vs VfL Osnabrück",
+      "liga": "2. Bundesliga",
+      "janela": "HT ATTACK",
+      "tempo_alerta": 29,
+      "estrelas": 8.5,
+      "cantos_no_ref": 5,
+      "cantos_final": 6,
+      "cantos_apos_alerta": 1,
+      "meta_cantos": 2,
+      "resultado": "CANCELADA",
+      "resultado_tecnico": "LOSS",
+      "estado_entrada": "CANCELADA",
+      "justificacao_void": "",
+      "golos_apos_casa": 1,
+      "golos_apos_fora": 0
+    }
   ]
 }
