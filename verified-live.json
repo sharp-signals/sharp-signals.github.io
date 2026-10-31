@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-31T15:37:07Z",
-  "event_chain_head": "d852599d9c3068bf73ae5abfe4723464d972c7a0582739473decf0b8fa2f9255",
+  "generated_at": "2026-10-31T15:47:34Z",
+  "event_chain_head": "883440b12750e912c2692f92ffb2862c61efb8988cf102ba894566d37745497b",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,20 +12,43 @@
   },
   "summary": {
     "total": 334,
-    "pending": 15,
+    "pending": 14,
     "signals_settled": 108,
-    "official_entries_settled": 191,
+    "official_entries_settled": 192,
     "cancelled": 33
   },
   "records": [
     {
       "id": "tip_proposal:20261031T153706687629Z:f7de6a76",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-10-31T15:37:07Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "c493cc8de3eb964efbfe0a9c3446c313376665f1fb9bdd5394a8693c2fb8fa46",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-10-31T15:47:34Z",
+      "result": "VOID",
+      "outcome": {
+        "odds": null,
+        "odds_source": "historical_reference",
+        "reference_odds": 1.84,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": 0.0,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20261031T153706687629Z:f7de6a76",
+        "market": "⛳ Over 4 corners · 1st half",
+        "match": "Oldham x Crawley Town",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20261031T151100694679Z:7b3dd040",
