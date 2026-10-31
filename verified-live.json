@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-31T20:19:38Z",
-  "event_chain_head": "e91e4d03ccd16422fd56154cf18ecdd3d4d908d72f854aba9a99bd69ecb8c183",
+  "generated_at": "2026-10-31T20:19:49Z",
+  "event_chain_head": "bb6eae787d4fc838332728b683076aaa56265fda39d54a7cf5a3d3a087aa0a5a",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,20 +12,43 @@
   },
   "summary": {
     "total": 342,
-    "pending": 14,
+    "pending": 13,
     "signals_settled": 108,
-    "official_entries_settled": 199,
+    "official_entries_settled": 200,
     "cancelled": 34
   },
   "records": [
     {
       "id": "tip_proposal:20261031T200304899120Z:2a888c2d",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-10-31T20:03:05Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "d8b7486a18b87662bf8c0d133a769914b8c01f553f8032f7daab6c450e95e855",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-10-31T20:19:49Z",
+      "result": "VOID",
+      "outcome": {
+        "odds": 1.81,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": 0.0,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20261031T200304899120Z:2a888c2d",
+        "market": "⛳ Over 3 corners · 1st half",
+        "match": "Penarol x Montevideu Wanderers",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20261031T191703968591Z:9ca70069",
