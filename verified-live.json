@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-31T19:28:05Z",
-  "event_chain_head": "681bf723be9a2085321abf0919699bd6bbba87a94ce3b286e68efd5ce300d6ea",
+  "generated_at": "2026-10-31T19:28:12Z",
+  "event_chain_head": "a8fd2a7ce2a2c7a5fb666ae3a562eb43a99209da9cccc4061cba4f4e1b8d5fa0",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,20 +12,43 @@
   },
   "summary": {
     "total": 341,
-    "pending": 15,
+    "pending": 14,
     "signals_settled": 108,
-    "official_entries_settled": 198,
+    "official_entries_settled": 199,
     "cancelled": 33
   },
   "records": [
     {
       "id": "tip_proposal:20261031T191703968591Z:9ca70069",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-10-31T19:17:04Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "dbc9b2a0a0719d239267321863cda05faf0cd340f350e43b17c99266e97291c5",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-10-31T19:28:12Z",
+      "result": "WIN",
+      "outcome": {
+        "odds": 1.81,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": 0.608,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20261031T191703968591Z:9ca70069",
+        "market": "⛳ Over 12 corners · FT",
+        "match": "CSKA Sofia x Slavia Sofia",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20261031T190627704295Z:86c9257e",
