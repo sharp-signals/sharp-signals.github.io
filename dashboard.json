@@ -17,8 +17,8 @@
    "pode_nao_publicar": true
   }
  },
- "atualizado": "2026-10-30T21:54:56",
- "dia_trading": "2026-10-30",
+ "atualizado": "2026-10-31T06:14:01",
+ "dia_trading": "2026-10-31",
  "geral": {
   "inicio": "2026-06-06",
   "fim": "2026-10-30",
@@ -113,11 +113,11 @@
   "desde": "2026-06-21"
  },
  "diario": {
-  "inicio": "2026-10-30",
-  "fim": "2026-10-30",
-  "sinais": 1,
-  "sinais_financeiros": 1,
-  "ganhos": 1,
+  "inicio": "2026-10-31",
+  "fim": "2026-10-31",
+  "sinais": 0,
+  "sinais_financeiros": 0,
+  "ganhos": 0,
   "perdidos": 0,
   "push": 0,
   "pendentes": 0,
@@ -126,28 +126,14 @@
   "condicionais_perdidos": 0,
   "condicionais_push": 0,
   "condicionais_pendentes": 0,
-  "wr": 100.0,
-  "lucro_u": 1.75,
-  "roi": 175.0,
-  "por_estrategia": {
-   "Golos 2ª Parte": {
-    "n": 1,
-    "g": 1,
-    "p": 0,
-    "lucro": 1.75,
-    "condicionais": 0,
-    "condicionais_g": 0,
-    "condicionais_p": 0,
-    "condicionais_push": 0,
-    "condicionais_pendentes": 0,
-    "n_financeiros": 1,
-    "wr": 100.0
-   }
-  }
+  "wr": 0.0,
+  "lucro_u": 0.0,
+  "roi": 0.0,
+  "por_estrategia": {}
  },
  "semanal": {
   "inicio": "2026-10-26",
-  "fim": "2026-10-30",
+  "fim": "2026-10-31",
   "sinais": 17,
   "sinais_financeiros": 17,
   "ganhos": 8,
@@ -193,7 +179,7 @@
  },
  "mensal": {
   "inicio": "2026-10-01",
-  "fim": "2026-10-30",
+  "fim": "2026-10-31",
   "sinais": 108,
   "sinais_financeiros": 108,
   "ganhos": 50,
@@ -2003,11 +1989,11 @@
     }
    },
    "diario": {
-    "inicio": "2026-10-30",
-    "fim": "2026-10-30",
-    "sinais": 1,
-    "sinais_financeiros": 1,
-    "ganhos": 1,
+    "inicio": "2026-10-31",
+    "fim": "2026-10-31",
+    "sinais": 0,
+    "sinais_financeiros": 0,
+    "ganhos": 0,
     "perdidos": 0,
     "push": 0,
     "pendentes": 0,
@@ -2016,28 +2002,14 @@
     "condicionais_perdidos": 0,
     "condicionais_push": 0,
     "condicionais_pendentes": 0,
-    "wr": 100.0,
-    "lucro_u": 1.75,
-    "roi": 175.0,
-    "por_estrategia": {
-     "Golos 2ª Parte": {
-      "n": 1,
-      "g": 1,
-      "p": 0,
-      "lucro": 1.75,
-      "condicionais": 0,
-      "condicionais_g": 0,
-      "condicionais_p": 0,
-      "condicionais_push": 0,
-      "condicionais_pendentes": 0,
-      "n_financeiros": 1,
-      "wr": 100.0
-     }
-    }
+    "wr": 0.0,
+    "lucro_u": 0.0,
+    "roi": 0.0,
+    "por_estrategia": {}
    },
    "semanal": {
     "inicio": "2026-10-26",
-    "fim": "2026-10-30",
+    "fim": "2026-10-31",
     "sinais": 17,
     "sinais_financeiros": 17,
     "ganhos": 8,
@@ -2083,7 +2055,7 @@
    },
    "mensal": {
     "inicio": "2026-10-01",
-    "fim": "2026-10-30",
+    "fim": "2026-10-31",
     "sinais": 108,
     "sinais_financeiros": 108,
     "ganhos": 50,
@@ -2704,8 +2676,8 @@
     }
    },
    "diario": {
-    "inicio": "2026-10-30",
-    "fim": "2026-10-30",
+    "inicio": "2026-10-31",
+    "fim": "2026-10-31",
     "sinais": 0,
     "sinais_financeiros": 0,
     "ganhos": 0,
@@ -2724,7 +2696,7 @@
    },
    "semanal": {
     "inicio": "2026-10-26",
-    "fim": "2026-10-30",
+    "fim": "2026-10-31",
     "sinais": 0,
     "sinais_financeiros": 0,
     "ganhos": 0,
@@ -2743,7 +2715,7 @@
    },
    "mensal": {
     "inicio": "2026-10-01",
-    "fim": "2026-10-30",
+    "fim": "2026-10-31",
     "sinais": 0,
     "sinais_financeiros": 0,
     "ganhos": 0,
@@ -2839,11 +2811,11 @@
     }
    },
    "diario": {
-    "inicio": "2026-10-30",
-    "fim": "2026-10-30",
-    "sinais": 1,
-    "sinais_financeiros": 1,
-    "ganhos": 1,
+    "inicio": "2026-10-31",
+    "fim": "2026-10-31",
+    "sinais": 0,
+    "sinais_financeiros": 0,
+    "ganhos": 0,
     "perdidos": 0,
     "push": 0,
     "pendentes": 0,
@@ -2852,28 +2824,14 @@
     "condicionais_perdidos": 0,
     "condicionais_push": 0,
     "condicionais_pendentes": 0,
-    "wr": 100.0,
-    "lucro_u": 1.75,
-    "roi": 175.0,
-    "por_estrategia": {
-     "Golos 2ª Parte": {
-      "n": 1,
-      "g": 1,
-      "p": 0,
-      "lucro": 1.75,
-      "condicionais": 0,
-      "condicionais_g": 0,
-      "condicionais_p": 0,
-      "condicionais_push": 0,
-      "condicionais_pendentes": 0,
-      "n_financeiros": 1,
-      "wr": 100.0
-     }
-    }
+    "wr": 0.0,
+    "lucro_u": 0.0,
+    "roi": 0.0,
+    "por_estrategia": {}
    },
    "semanal": {
     "inicio": "2026-10-26",
-    "fim": "2026-10-30",
+    "fim": "2026-10-31",
     "sinais": 9,
     "sinais_financeiros": 9,
     "ganhos": 2,
@@ -2906,7 +2864,7 @@
    },
    "mensal": {
     "inicio": "2026-10-01",
-    "fim": "2026-10-30",
+    "fim": "2026-10-31",
     "sinais": 92,
     "sinais_financeiros": 92,
     "ganhos": 41,
@@ -3328,8 +3286,8 @@
     }
    },
    "diario": {
-    "inicio": "2026-10-30",
-    "fim": "2026-10-30",
+    "inicio": "2026-10-31",
+    "fim": "2026-10-31",
     "sinais": 0,
     "sinais_financeiros": 0,
     "ganhos": 0,
@@ -3348,7 +3306,7 @@
    },
    "semanal": {
     "inicio": "2026-10-26",
-    "fim": "2026-10-30",
+    "fim": "2026-10-31",
     "sinais": 8,
     "sinais_financeiros": 8,
     "ganhos": 6,
@@ -3381,7 +3339,7 @@
    },
    "mensal": {
     "inicio": "2026-10-01",
-    "fim": "2026-10-30",
+    "fim": "2026-10-31",
     "sinais": 16,
     "sinais_financeiros": 16,
     "ganhos": 9,
@@ -3753,28 +3711,28 @@
  },
  "tip_do_dia": [
   {
-   "hora": "19:00",
-   "liga": "Ligue 1",
-   "jogo": "MC Oran vs Olympique Akbou",
+   "hora": "16:00",
+   "liga": "Süper Lig",
+   "jogo": "Fenerbahce vs Goztepe",
    "mercado": "Over 1.5 · 2ª parte",
-   "odd": 3.0,
+   "odd": 1.73,
    "bilhete": "dupla",
-   "ticket_id": "prelive:2026-10-30:2",
-   "ticket_slot": 2,
-   "fire": false,
-   "resultado": "perdido"
+   "ticket_id": "prelive:2026-10-31:1",
+   "ticket_slot": 1,
+   "fire": true,
+   "resultado": null
   },
   {
-   "hora": "16:45",
-   "liga": "Ligue 1",
-   "jogo": "ASO Chlef vs ES Setif",
+   "hora": "17:15",
+   "liga": "Premier League",
+   "jogo": "New Saints vs Connah`s Quay",
    "mercado": "Over 1.5 · 2ª parte",
-   "odd": 3.0,
+   "odd": 1.85,
    "bilhete": "dupla",
-   "ticket_id": "prelive:2026-10-30:2",
-   "ticket_slot": 2,
-   "fire": false,
-   "resultado": "perdido"
+   "ticket_id": "prelive:2026-10-31:1",
+   "ticket_slot": 1,
+   "fire": true,
+   "resultado": null
   }
  ],
  "por_estrategia": {
@@ -3822,80 +3780,80 @@
   "nome": "Pré-Live Grátis",
   "descricao": "Bilhete partilhado no canal gratuito · até um por dia · 1u",
   "publication_scope": "free_confirmed_only",
-  "boletins": 29,
+  "boletins": 30,
   "greens": 5,
   "reds": 24,
-  "pendentes": 0,
+  "pendentes": 1,
   "lucro": 4.59,
   "ultimos": [
    {
-    "ticket_id": "prelive:2026-10-30:2",
-    "ticket_slot": 2,
+    "ticket_id": "prelive:2026-10-31:1",
+    "ticket_slot": 1,
     "free_publication_confirmed": true,
     "publication_channel": "free",
-    "data": "2026-10-30",
+    "data": "2026-10-31",
     "tipo": "dupla",
-    "odd": 9.0,
-    "resultado": "red",
+    "odd": 3.2,
+    "resultado": null,
     "u": 1.0,
-    "published_at": "2026-10-30T06:09:05+00:00",
+    "published_at": "2026-10-31T06:12:20+00:00",
     "publication_confirmed": true,
     "pernas": [
      {
-      "fixture_id": 1611440,
-      "casa": "MC Oran",
-      "fora": "Olympique Akbou",
+      "fixture_id": 1584451,
+      "casa": "Fenerbahce",
+      "fora": "Goztepe",
       "liga": null,
-      "hora": "19:00",
+      "hora": "16:00",
       "mercado": null,
-      "odd": 3.0,
-      "resultado": "perdido"
+      "odd": 1.73,
+      "resultado": null
      },
      {
-      "fixture_id": 1611435,
-      "casa": "ASO Chlef",
-      "fora": "ES Setif",
+      "fixture_id": 1576003,
+      "casa": "New Saints",
+      "fora": "Connah`s Quay",
       "liga": null,
-      "hora": "16:45",
+      "hora": "17:15",
       "mercado": null,
-      "odd": 3.0,
-      "resultado": "perdido"
+      "odd": 1.85,
+      "resultado": null
      }
     ]
    }
   ],
   "ultimo": {
-   "ticket_id": "prelive:2026-10-30:2",
-   "ticket_slot": 2,
+   "ticket_id": "prelive:2026-10-31:1",
+   "ticket_slot": 1,
    "free_publication_confirmed": true,
    "publication_channel": "free",
-   "data": "2026-10-30",
+   "data": "2026-10-31",
    "tipo": "dupla",
-   "odd": 9.0,
-   "resultado": "red",
+   "odd": 3.2,
+   "resultado": null,
    "u": 1.0,
-   "published_at": "2026-10-30T06:09:05+00:00",
+   "published_at": "2026-10-31T06:12:20+00:00",
    "publication_confirmed": true,
    "pernas": [
     {
-     "fixture_id": 1611440,
-     "casa": "MC Oran",
-     "fora": "Olympique Akbou",
+     "fixture_id": 1584451,
+     "casa": "Fenerbahce",
+     "fora": "Goztepe",
      "liga": null,
-     "hora": "19:00",
+     "hora": "16:00",
      "mercado": null,
-     "odd": 3.0,
-     "resultado": "perdido"
+     "odd": 1.73,
+     "resultado": null
     },
     {
-     "fixture_id": 1611435,
-     "casa": "ASO Chlef",
-     "fora": "ES Setif",
+     "fixture_id": 1576003,
+     "casa": "New Saints",
+     "fora": "Connah`s Quay",
      "liga": null,
-     "hora": "16:45",
+     "hora": "17:15",
      "mercado": null,
-     "odd": 3.0,
-     "resultado": "perdido"
+     "odd": 1.85,
+     "resultado": null
     }
    ]
   },
@@ -5062,6 +5020,41 @@
       "mercado": null,
       "odd": 3.0,
       "resultado": "perdido"
+     }
+    ]
+   },
+   {
+    "ticket_id": "prelive:2026-10-31:1",
+    "ticket_slot": 1,
+    "free_publication_confirmed": true,
+    "publication_channel": "free",
+    "data": "2026-10-31",
+    "tipo": "dupla",
+    "odd": 3.2,
+    "resultado": null,
+    "u": 1.0,
+    "published_at": "2026-10-31T06:12:20+00:00",
+    "publication_confirmed": true,
+    "pernas": [
+     {
+      "fixture_id": 1584451,
+      "casa": "Fenerbahce",
+      "fora": "Goztepe",
+      "liga": null,
+      "hora": "16:00",
+      "mercado": null,
+      "odd": 1.73,
+      "resultado": null
+     },
+     {
+      "fixture_id": 1576003,
+      "casa": "New Saints",
+      "fora": "Connah`s Quay",
+      "liga": null,
+      "hora": "17:15",
+      "mercado": null,
+      "odd": 1.85,
+      "resultado": null
      }
     ]
    }
