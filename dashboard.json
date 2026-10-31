@@ -17,7 +17,7 @@
    "pode_nao_publicar": true
   }
  },
- "atualizado": "2026-10-31T19:20:26",
+ "atualizado": "2026-10-31T20:00:48",
  "dia_trading": "2026-10-31",
  "geral": {
   "inicio": "2026-06-06",
@@ -3856,7 +3856,7 @@
    "ticket_id": "prelive:2026-10-31:1",
    "ticket_slot": 1,
    "fire": true,
-   "resultado": null
+   "resultado": "perdido"
   }
  ],
  "por_estrategia": {
@@ -3906,9 +3906,9 @@
   "publication_scope": "free_confirmed_only",
   "boletins": 30,
   "greens": 5,
-  "reds": 24,
-  "pendentes": 1,
-  "lucro": 4.59,
+  "reds": 25,
+  "pendentes": 0,
+  "lucro": 3.59,
   "ultimos": [
    {
     "ticket_id": "prelive:2026-10-31:1",
@@ -3918,7 +3918,7 @@
     "data": "2026-10-31",
     "tipo": "dupla",
     "odd": 3.2,
-    "resultado": null,
+    "resultado": "red",
     "u": 1.0,
     "published_at": "2026-10-31T06:12:20+00:00",
     "publication_confirmed": true,
@@ -3941,7 +3941,7 @@
       "hora": "17:15",
       "mercado": null,
       "odd": 1.85,
-      "resultado": null
+      "resultado": "perdido"
      }
     ]
    }
@@ -3954,7 +3954,7 @@
    "data": "2026-10-31",
    "tipo": "dupla",
    "odd": 3.2,
-   "resultado": null,
+   "resultado": "red",
    "u": 1.0,
    "published_at": "2026-10-31T06:12:20+00:00",
    "publication_confirmed": true,
@@ -3977,7 +3977,7 @@
      "hora": "17:15",
      "mercado": null,
      "odd": 1.85,
-     "resultado": null
+     "resultado": "perdido"
     }
    ]
   },
@@ -5155,7 +5155,7 @@
     "data": "2026-10-31",
     "tipo": "dupla",
     "odd": 3.2,
-    "resultado": null,
+    "resultado": "red",
     "u": 1.0,
     "published_at": "2026-10-31T06:12:20+00:00",
     "publication_confirmed": true,
@@ -5178,7 +5178,7 @@
       "hora": "17:15",
       "mercado": null,
       "odd": 1.85,
-      "resultado": null
+      "resultado": "perdido"
      }
     ]
    }
