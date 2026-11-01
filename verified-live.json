@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-01T11:23:55Z",
-  "event_chain_head": "29be29bbc2e0a1375cf665e02239890a8cc2c2d9526b35a5357d358fda999c6c",
+  "generated_at": "2026-11-01T11:24:24Z",
+  "event_chain_head": "49501c27f057bbb8ce1a67a8af3cd115a85d0726908c7a98fda7bb176e05c9d8",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,20 +12,43 @@
   },
   "summary": {
     "total": 345,
-    "pending": 14,
+    "pending": 13,
     "signals_settled": 108,
     "official_entries_settled": 202,
-    "cancelled": 34
+    "cancelled": 35
   },
   "records": [
     {
       "id": "tip_proposal:20261101T112354791873Z:103a94a2",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-11-01T11:23:55Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "1de2bbee7d3ca3497e0a0b903922b3862ca56cc980fbefe74395cc5ecfd9778d",
-      "telegram_message_count": 2
+      "telegram_message_count": 2,
+      "settled_at": "2026-11-01T11:24:24Z",
+      "result": "CANCELADA",
+      "outcome": {
+        "odds": null,
+        "odds_source": null,
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "cancelled",
+        "profit_loss_percent": null,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20261101T112354791873Z:103a94a2",
+        "market": "⛳ Over 2 corners · 1st half",
+        "match": "Ogre Utd. x Riga FC",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20261031T210424309171Z:d9c88d66",
