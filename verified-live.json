@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-01T19:22:01Z",
-  "event_chain_head": "685e5aedd9bbf88023bd6007117abd110318e458d9c416be8e0659c1cb6acd55",
+  "generated_at": "2026-11-01T20:52:09Z",
+  "event_chain_head": "c9c122f5115a9ad7f7e5a3808e8f0ce796f531ee34cc3fcc3371b08a6279110e",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,9 +12,9 @@
   },
   "summary": {
     "total": 366,
-    "pending": 16,
+    "pending": 15,
     "signals_settled": 116,
-    "official_entries_settled": 210,
+    "official_entries_settled": 211,
     "cancelled": 37
   },
   "records": [
@@ -30,11 +30,34 @@
     {
       "id": "tip_proposal:20261101T192026339964Z:bbe98b45",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-11-01T19:20:26Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "1c30f969aa213bd97b6c6a230a646bd7b8da64791f6155f4d940bd67bfff4102",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-11-01T20:52:09Z",
+      "result": "LOSS",
+      "outcome": {
+        "odds": 1.81,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": -2.0,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 9,
+        "entry_id": "tip_proposal:20261101T192026339964Z:bbe98b45",
+        "market": "⛳ Over 3.5 corners · FT",
+        "match": "M. Petah Tikva x H. Be'er Sheva",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 2.0
+      },
+      "commitment_valid": true
     },
     {
       "id": "ce1:1560057:final",
