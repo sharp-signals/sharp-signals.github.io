@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-01T17:51:55Z",
-  "event_chain_head": "18c7c6042a23b44ec00e2f245572b4b0de323385d4ec5462d746c1afa1f54856",
+  "generated_at": "2026-11-01T18:14:58Z",
+  "event_chain_head": "853a4e55d08860ca5bd967f0066c4cc5632a586200bdad278995581d1a4402fb",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,8 +12,8 @@
   },
   "summary": {
     "total": 361,
-    "pending": 16,
-    "signals_settled": 114,
+    "pending": 15,
+    "signals_settled": 115,
     "official_entries_settled": 208,
     "cancelled": 36
   },
@@ -30,11 +30,37 @@
     {
       "id": "ce1:1549046:ht",
       "kind": "signal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-11-01T17:27:38Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "8c77e339cfb8b429a608ef14cafee9fa39fe52bcbcfd22b04cc75ec263692bcf",
-      "telegram_message_count": 2
+      "telegram_message_count": 2,
+      "settled_at": "2026-11-01T18:14:58Z",
+      "result": "VOID",
+      "outcome": {
+        "corners_reference": 6,
+        "corners_final": 9,
+        "corners_after": 3,
+        "target": 2,
+        "technical_result": "VOID",
+        "entry_status": "confirmed",
+        "void_reason": "Não entrada — preço demasiado alto",
+        "approved_manually": true
+      },
+      "sealed_payload": {
+        "alert_id": "ce1:1549046:ht",
+        "classification": "scanner_signal_not_confirmed_bet",
+        "confidence": 7.5,
+        "corners_at_alert": 6,
+        "league": "Superliga",
+        "match": "Brondby vs Aarhus",
+        "minimum_price": 1.75,
+        "minute": 26,
+        "score_at_alert": "0-0",
+        "suggestion": "🎯 ENTRADA SUGERIDA\nOver 7.5 cantos 1ª parte · odd mín. 1.75+\n↳ se sair +1 canto: sobe p/ Over 8.5 ou espera o Over 8",
+        "window": "HT ATTACK"
+      },
+      "commitment_valid": true
     },
     {
       "id": "ce1:1494322:mid",
