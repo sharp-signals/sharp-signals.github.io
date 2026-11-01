@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-01T13:29:15Z",
-  "event_chain_head": "1cd2d017e0673a3388329b4c77878a68a32042330c444a6c4ea569f70df0db4f",
+  "generated_at": "2026-11-01T13:30:36Z",
+  "event_chain_head": "b526a710a4bc8668ffe6e4d8cc80c147f2e57674c9419a1ae1a5559bd077c7f5",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,9 +12,9 @@
   },
   "summary": {
     "total": 348,
-    "pending": 15,
+    "pending": 14,
     "signals_settled": 109,
-    "official_entries_settled": 202,
+    "official_entries_settled": 203,
     "cancelled": 35
   },
   "records": [
@@ -30,11 +30,34 @@
     {
       "id": "tip_proposal:20261101T132815035447Z:7a27fc38",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-11-01T13:28:15Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "30335a38ef72fecef605b3093968d6b40f9d56134c00314b7ea115a6cde61353",
-      "telegram_message_count": 2
+      "telegram_message_count": 2,
+      "settled_at": "2026-11-01T13:30:36Z",
+      "result": "CASHOUT",
+      "outcome": {
+        "odds": null,
+        "odds_source": "cashout_loss_reference",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": 0.15,
+        "entry_status": "confirmed",
+        "profit_loss_percent": null,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": null,
+        "entry_id": "tip_proposal:20261101T132815035447Z:7a27fc38",
+        "market": "2.5. 7",
+        "match": "Banja Luka x Saraievo",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": null
+      },
+      "commitment_valid": true
     },
     {
       "id": "ce1:1550180:ht",
