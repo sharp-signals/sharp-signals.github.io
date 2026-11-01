@@ -8,10 +8,10 @@
    "fim": "2026-01-31"
   },
   "cresc_pct": 56.91,
-  "apostas": 1233,
-  "ganhos": 692,
+  "apostas": 1234,
+  "ganhos": 693,
   "perdidos": 541,
-  "wr": 56.1,
+  "wr": 56.2,
   "meses": [
    {
     "mes": "2025-08",
@@ -86,17 +86,17 @@
    {
     "mes": "2026-11",
     "label": "Nov 26",
-    "cresc_pct": 0.0,
-    "apostas": 1,
-    "wr": 0.0
+    "cresc_pct": 0.68,
+    "apostas": 2,
+    "wr": 50.0
    }
   ],
   "por_mercado": [
    {
     "mercado": "Over Cantos FT",
-    "n": 678,
-    "wr": 58.4,
-    "roi": 39.69,
+    "n": 679,
+    "wr": 58.5,
+    "roi": 40.36,
     "pl_eur": 1369.94
    },
    {
@@ -143,7 +143,6 @@
    }
   ],
   "forma": [
-   "cashout",
    "ganho",
    "ganho",
    "ganho",
@@ -157,7 +156,8 @@
    "ganho",
    "cashout",
    "ganho",
-   "cashout"
+   "cashout",
+   "ganho"
   ],
   "historico": [
    {
@@ -166,13 +166,13 @@
     "jogo": "Falirk x Celtic",
     "mercado": "⛳ Over 7.5 corners · Celtic · FT",
     "categoria": "Over Cantos FT",
-    "odd": null,
-    "pl_pct": null,
+    "odd": 1.9,
+    "pl_pct": 0.675,
     "stake_pct": 0.75,
-    "resultado": "pendente",
+    "resultado": "ganho",
     "verified_id": "tip_proposal:20261101T141149463811Z:959a61fd",
-    "estado_entrada": "aguarda_confirmacao",
-    "tipo_odd": "por_registar",
+    "estado_entrada": "confirmada",
+    "tipo_odd": "real",
     "odd_minima_recomendada": 1.81,
     "confianca": 7
    },
