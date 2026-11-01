@@ -8,10 +8,10 @@
    "fim": "2026-01-31"
   },
   "cresc_pct": 56.91,
-  "apostas": 1232,
+  "apostas": 1233,
   "ganhos": 692,
-  "perdidos": 540,
-  "wr": 56.2,
+  "perdidos": 541,
+  "wr": 56.1,
   "meses": [
    {
     "mes": "2025-08",
@@ -82,6 +82,13 @@
     "cresc_pct": 7.72,
     "apostas": 94,
     "wr": 52.1
+   },
+   {
+    "mes": "2026-11",
+    "label": "Nov 26",
+    "cresc_pct": 0.0,
+    "apostas": 1,
+    "wr": 0.0
    }
   ],
   "por_mercado": [
@@ -101,8 +108,8 @@
    },
    {
     "mercado": "Cashout",
-    "n": 176,
-    "wr": 43.2,
+    "n": 177,
+    "wr": 42.9,
     "roi": -4.91,
     "pl_eur": -74.77
    },
@@ -136,7 +143,6 @@
    }
   ],
   "forma": [
-   "perdido",
    "cashout",
    "ganho",
    "ganho",
@@ -150,7 +156,8 @@
    "ganho",
    "ganho",
    "cashout",
-   "ganho"
+   "ganho",
+   "cashout"
   ],
   "historico": [
    {
@@ -158,15 +165,16 @@
     "mes": "2026-11",
     "jogo": "Banja Luka x Saraievo",
     "mercado": "2.5. 7",
-    "categoria": null,
+    "categoria": "Cashout",
     "odd": null,
     "pl_pct": null,
     "stake_pct": null,
-    "resultado": "pendente",
+    "resultado": "cashout",
     "verified_id": "tip_proposal:20261101T132815035447Z:7a27fc38",
-    "estado_entrada": "aguarda_confirmacao",
-    "tipo_odd": "por_registar",
-    "odd_minima_recomendada": 1.81
+    "estado_entrada": "confirmada",
+    "tipo_odd": "referencia_cashout_menos_15_pct",
+    "odd_minima_recomendada": 1.81,
+    "cashout_perda_referencia_pct_stake": 15.0
    },
    {
     "data": "2026-11-01",
