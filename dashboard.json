@@ -17,7 +17,7 @@
    "pode_nao_publicar": true
   }
  },
- "atualizado": "2026-11-01T13:28:19",
+ "atualizado": "2026-11-01T13:58:44",
  "dia_trading": "2026-11-01",
  "geral": {
   "inicio": "2026-06-06",
@@ -3794,7 +3794,7 @@
    "ticket_id": "prelive:2026-11-01:1",
    "ticket_slot": 1,
    "fire": true,
-   "resultado": null
+   "resultado": "perdido"
   },
   {
    "hora": "10:30",
@@ -3806,7 +3806,7 @@
    "ticket_id": "prelive:2026-11-01:1",
    "ticket_slot": 1,
    "fire": false,
-   "resultado": null
+   "resultado": "ganho"
   }
  ],
  "por_estrategia": {
@@ -3856,9 +3856,9 @@
   "publication_scope": "free_confirmed_only",
   "boletins": 31,
   "greens": 5,
-  "reds": 25,
-  "pendentes": 1,
-  "lucro": 3.59,
+  "reds": 26,
+  "pendentes": 0,
+  "lucro": 2.59,
   "ultimos": [
    {
     "ticket_id": "prelive:2026-11-01:1",
@@ -3868,7 +3868,7 @@
     "data": "2026-11-01",
     "tipo": "dupla",
     "odd": 3.48,
-    "resultado": null,
+    "resultado": "red",
     "u": 1.0,
     "published_at": "2026-11-01T06:13:41+00:00",
     "publication_confirmed": true,
@@ -3881,7 +3881,7 @@
       "hora": "11:15",
       "mercado": null,
       "odd": 1.82,
-      "resultado": null
+      "resultado": "perdido"
      },
      {
       "fixture_id": 1584448,
@@ -3891,7 +3891,7 @@
       "hora": "10:30",
       "mercado": null,
       "odd": 1.91,
-      "resultado": null
+      "resultado": "ganho"
      }
     ]
    }
@@ -3904,7 +3904,7 @@
    "data": "2026-11-01",
    "tipo": "dupla",
    "odd": 3.48,
-   "resultado": null,
+   "resultado": "red",
    "u": 1.0,
    "published_at": "2026-11-01T06:13:41+00:00",
    "publication_confirmed": true,
@@ -3917,7 +3917,7 @@
      "hora": "11:15",
      "mercado": null,
      "odd": 1.82,
-     "resultado": null
+     "resultado": "perdido"
     },
     {
      "fixture_id": 1584448,
@@ -3927,7 +3927,7 @@
      "hora": "10:30",
      "mercado": null,
      "odd": 1.91,
-     "resultado": null
+     "resultado": "ganho"
     }
    ]
   },
@@ -5140,7 +5140,7 @@
     "data": "2026-11-01",
     "tipo": "dupla",
     "odd": 3.48,
-    "resultado": null,
+    "resultado": "red",
     "u": 1.0,
     "published_at": "2026-11-01T06:13:41+00:00",
     "publication_confirmed": true,
@@ -5153,7 +5153,7 @@
       "hora": "11:15",
       "mercado": null,
       "odd": 1.82,
-      "resultado": null
+      "resultado": "perdido"
      },
      {
       "fixture_id": 1584448,
@@ -5163,7 +5163,7 @@
       "hora": "10:30",
       "mercado": null,
       "odd": 1.91,
-      "resultado": null
+      "resultado": "ganho"
      }
     ]
    }
