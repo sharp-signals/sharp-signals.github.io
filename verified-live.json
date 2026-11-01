@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-01T15:49:03Z",
-  "event_chain_head": "a3e45cd1b379abdd2b57010230fd91c9547d38d9f5c8b29788c8167449aa1726",
+  "generated_at": "2026-11-01T15:49:15Z",
+  "event_chain_head": "7e3d9f07a53a506360cb89e2c0bd70af9e9e86745d3abde85bd7a13d291469db",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,20 +12,43 @@
   },
   "summary": {
     "total": 355,
-    "pending": 17,
+    "pending": 16,
     "signals_settled": 110,
-    "official_entries_settled": 205,
+    "official_entries_settled": 206,
     "cancelled": 36
   },
   "records": [
     {
       "id": "tip_proposal:20261101T153314350935Z:89a1f628",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-11-01T15:33:14Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "b5d75420b296436b65a69ca548f74a3bdd850bb562f6cf457e38e3c1ffe9eed3",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-11-01T15:49:15Z",
+      "result": "WIN",
+      "outcome": {
+        "odds": 1.83,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": 0.623,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20261101T153314350935Z:89a1f628",
+        "market": "⛳ Over 9 corners · FT",
+        "match": "Rijeka x Varazdin",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20261101T152757323539Z:f6d50fd8",
