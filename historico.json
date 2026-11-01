@@ -4707,6 +4707,26 @@
       "justificacao_void": "Não entrada — preço demasiado alto",
       "golos_apos_casa": 1,
       "golos_apos_fora": 0
+    },
+    {
+      "alerta_id": "ce1:1560057:final",
+      "fixture_id": 1560057,
+      "timestamp": "2026-11-01T19:16:35.100330",
+      "jogo": "Bohemians 1905 vs Sparta Praha",
+      "liga": "Czech Liga",
+      "janela": "FINAL PUSH",
+      "tempo_alerta": 80,
+      "estrelas": 9.0,
+      "cantos_no_ref": 13,
+      "cantos_final": 15,
+      "cantos_apos_alerta": 2,
+      "meta_cantos": 2,
+      "resultado": "WIN",
+      "resultado_tecnico": "WIN",
+      "estado_entrada": "CONFIRMADA",
+      "justificacao_void": "",
+      "golos_apos_casa": 0,
+      "golos_apos_fora": 0
     }
   ]
 }
