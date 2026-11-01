@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-01T14:30:49Z",
-  "event_chain_head": "9ec245649d6a9727c69a032bbce723b5e2a60e70e5ea7e2f1b13422f38e63a3d",
+  "generated_at": "2026-11-01T14:34:48Z",
+  "event_chain_head": "85aabd9de696a2442a87601731a44f5d120b2456c99abcdba320034919343e47",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,9 +12,9 @@
   },
   "summary": {
     "total": 350,
-    "pending": 16,
+    "pending": 15,
     "signals_settled": 109,
-    "official_entries_settled": 203,
+    "official_entries_settled": 204,
     "cancelled": 35
   },
   "records": [
@@ -30,11 +30,34 @@
     {
       "id": "tip_proposal:20261101T141149463811Z:959a61fd",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-11-01T14:11:49Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "112e826c8d61aa90d38fc840d28da719056af78d6f7da2c9c3cd3eafc792bd5b",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-11-01T14:34:47Z",
+      "result": "WIN",
+      "outcome": {
+        "odds": 1.9,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": 0.675,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20261101T141149463811Z:959a61fd",
+        "market": "⛳ Over 7.5 corners · Celtic · FT",
+        "match": "Falirk x Celtic",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "ce1:1494325:ht",
