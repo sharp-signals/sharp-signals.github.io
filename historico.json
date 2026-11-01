@@ -4687,6 +4687,26 @@
       "justificacao_void": "",
       "golos_apos_casa": 1,
       "golos_apos_fora": 0
+    },
+    {
+      "alerta_id": "ce1:1549046:ht",
+      "fixture_id": 1549046,
+      "timestamp": "2026-11-01T18:14:54.043322",
+      "jogo": "Brondby vs Aarhus",
+      "liga": "Superliga",
+      "janela": "HT ATTACK",
+      "tempo_alerta": 26,
+      "estrelas": 7.5,
+      "cantos_no_ref": 6,
+      "cantos_final": 9,
+      "cantos_apos_alerta": 3,
+      "meta_cantos": 2,
+      "resultado": "VOID",
+      "resultado_tecnico": "VOID",
+      "estado_entrada": "CONFIRMADA",
+      "justificacao_void": "Não entrada — preço demasiado alto",
+      "golos_apos_casa": 1,
+      "golos_apos_fora": 0
     }
   ]
 }
