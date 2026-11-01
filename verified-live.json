@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-01T16:04:24Z",
-  "event_chain_head": "002649f69ce563641d08fc3848334dbd31f1a7182e73a6de72214d61f235be56",
+  "generated_at": "2026-11-01T16:08:08Z",
+  "event_chain_head": "a144570310af2c9816e99c51d58527e026bc63cb5b13ca27a5e89554de891fd4",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,20 +12,43 @@
   },
   "summary": {
     "total": 356,
-    "pending": 16,
+    "pending": 15,
     "signals_settled": 111,
-    "official_entries_settled": 206,
+    "official_entries_settled": 207,
     "cancelled": 36
   },
   "records": [
     {
       "id": "tip_proposal:20261101T160423905761Z:8a1a2781",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-11-01T16:04:24Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "54b1ce2a57d6cb79b9cc0e01695ce119317e9b4ead401fe36ac059205042ae01",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-11-01T16:08:08Z",
+      "result": "WIN",
+      "outcome": {
+        "odds": 1.81,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": 0.608,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20261101T160423905761Z:8a1a2781",
+        "market": "⛳ Over 2 corners · 1st half",
+        "match": "Elfsborg x Orgryte",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20261101T153314350935Z:89a1f628",
