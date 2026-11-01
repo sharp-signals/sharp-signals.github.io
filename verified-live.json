@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-01T15:27:04Z",
-  "event_chain_head": "bf142322f344f29e84b5715b415522e976d78b401df99e1e79ec6762add6d336",
+  "generated_at": "2026-11-01T15:27:27Z",
+  "event_chain_head": "36ccd6df1c6dd36caee2f3c445bf9c2879baa8f82e74382daa6384468757dfc3",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,8 +12,8 @@
   },
   "summary": {
     "total": 353,
-    "pending": 17,
-    "signals_settled": 109,
+    "pending": 16,
+    "signals_settled": 110,
     "official_entries_settled": 204,
     "cancelled": 36
   },
@@ -112,11 +112,37 @@
     {
       "id": "ce1:1494325:ht",
       "kind": "signal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-11-01T13:29:15Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "1e4e9954111b6e730c4f751791810c580b64640934e08a576f5709cfe471bb62",
-      "telegram_message_count": 2
+      "telegram_message_count": 2,
+      "settled_at": "2026-11-01T15:27:27Z",
+      "result": "VOID",
+      "outcome": {
+        "corners_reference": 3,
+        "corners_final": 6,
+        "corners_after": 3,
+        "target": 2,
+        "technical_result": "VOID",
+        "entry_status": "confirmed",
+        "void_reason": "Não entrada — preço demasiado alto",
+        "approved_manually": true
+      },
+      "sealed_payload": {
+        "alert_id": "ce1:1494325:ht",
+        "classification": "scanner_signal_not_confirmed_bet",
+        "confidence": 7.5,
+        "corners_at_alert": 3,
+        "league": "Allsvenskan",
+        "match": "Malmo FF vs Hammarby FF",
+        "minimum_price": 1.75,
+        "minute": 29,
+        "score_at_alert": "1-0",
+        "suggestion": "🎯 ENTRADA SUGERIDA\nOver 4.5 cantos 1ª parte · odd mín. 1.75+\n↳ se sair +1 canto: sobe p/ Over 5.5 ou espera o Over 5",
+        "window": "HT ATTACK"
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20261101T132815035447Z:7a27fc38",
