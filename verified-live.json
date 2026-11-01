@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-01T20:52:09Z",
-  "event_chain_head": "c9c122f5115a9ad7f7e5a3808e8f0ce796f531ee34cc3fcc3371b08a6279110e",
+  "generated_at": "2026-11-01T20:52:21Z",
+  "event_chain_head": "8e820501cb9750240457adb348df68ef2be719024f5eccd4442c04ece23c157f",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,20 +12,43 @@
   },
   "summary": {
     "total": 366,
-    "pending": 15,
+    "pending": 14,
     "signals_settled": 116,
-    "official_entries_settled": 211,
+    "official_entries_settled": 212,
     "cancelled": 37
   },
   "records": [
     {
       "id": "tip_proposal:20261101T192201071449Z:94110528",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-11-01T19:22:01Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "3efcb97ba5c4b777085dfdc228a31336a018df1fb3b1a72a16950fcae51a7fa3",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-11-01T20:52:21Z",
+      "result": "LOSS",
+      "outcome": {
+        "odds": 2.1,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": -0.75,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20261101T192201071449Z:94110528",
+        "market": "🏁 Race to 3 corners · H. Be'er Sheva",
+        "match": "M. Petah Tikva x H. Be'er Sheva",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20261101T192026339964Z:bbe98b45",
