@@ -8,10 +8,10 @@
    "fim": "2026-01-31"
   },
   "cresc_pct": 56.91,
-  "apostas": 1234,
+  "apostas": 1235,
   "ganhos": 693,
-  "perdidos": 541,
-  "wr": 56.2,
+  "perdidos": 542,
+  "wr": 56.1,
   "meses": [
    {
     "mes": "2025-08",
@@ -86,9 +86,9 @@
    {
     "mes": "2026-11",
     "label": "Nov 26",
-    "cresc_pct": 0.68,
-    "apostas": 2,
-    "wr": 50.0
+    "cresc_pct": 0.57,
+    "apostas": 3,
+    "wr": 33.3
    }
   ],
   "por_mercado": [
@@ -108,9 +108,9 @@
    },
    {
     "mercado": "Cashout",
-    "n": 177,
-    "wr": 42.9,
-    "roi": -4.91,
+    "n": 178,
+    "wr": 42.7,
+    "roi": -5.02,
     "pl_eur": -74.77
    },
    {
@@ -145,7 +145,6 @@
   "forma": [
    "ganho",
    "ganho",
-   "ganho",
    "perdido",
    "ganho",
    "cashout",
@@ -157,7 +156,8 @@
    "cashout",
    "ganho",
    "cashout",
-   "ganho"
+   "ganho",
+   "cashout"
   ],
   "historico": [
    {
@@ -181,16 +181,17 @@
     "mes": "2026-11",
     "jogo": "Lazio x Cagliari",
     "mercado": "⛳ Over 5.5 corners · FT",
-    "categoria": "Over Cantos FT",
+    "categoria": "Cashout",
     "odd": null,
-    "pl_pct": null,
+    "pl_pct": -0.112,
     "stake_pct": 0.75,
-    "resultado": "pendente",
+    "resultado": "cashout",
     "verified_id": "tip_proposal:20261101T152757323539Z:f6d50fd8",
-    "estado_entrada": "aguarda_confirmacao",
-    "tipo_odd": "por_registar",
+    "estado_entrada": "confirmada",
+    "tipo_odd": "referencia_cashout_menos_15_pct",
     "odd_minima_recomendada": 1.81,
-    "confianca": 7
+    "confianca": 7,
+    "cashout_perda_referencia_pct_stake": 15.0
    },
    {
     "data": "2026-11-01",
