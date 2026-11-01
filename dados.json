@@ -8,9 +8,9 @@
    "fim": "2026-01-31"
   },
   "cresc_pct": 56.91,
-  "apostas": 1238,
+  "apostas": 1239,
   "ganhos": 696,
-  "perdidos": 542,
+  "perdidos": 543,
   "wr": 56.2,
   "meses": [
    {
@@ -86,17 +86,17 @@
    {
     "mes": "2026-11",
     "label": "Nov 26",
-    "cresc_pct": 2.41,
-    "apostas": 6,
-    "wr": 66.7
+    "cresc_pct": 1.66,
+    "apostas": 7,
+    "wr": 57.1
    }
   ],
   "por_mercado": [
    {
     "mercado": "Over Cantos FT",
-    "n": 680,
-    "wr": 58.5,
-    "roi": 40.98,
+    "n": 681,
+    "wr": 58.4,
+    "roi": 40.23,
     "pl_eur": 1369.94
    },
    {
@@ -143,7 +143,6 @@
    }
   ],
   "forma": [
-   "ganho",
    "cashout",
    "perdido",
    "perdido",
@@ -157,7 +156,8 @@
    "cashout",
    "ganho",
    "ganho",
-   "ganho"
+   "ganho",
+   "perdido"
   ],
   "historico": [
    {
@@ -182,13 +182,13 @@
     "jogo": "Liverpool x Arsenal",
     "mercado": "⛳ Over 8.5 corners · Liverpool · FT",
     "categoria": "Over Cantos FT",
-    "odd": null,
-    "pl_pct": null,
+    "odd": 1.94,
+    "pl_pct": -0.75,
     "stake_pct": 0.75,
-    "resultado": "pendente",
+    "resultado": "perdido",
     "verified_id": "tip_proposal:20261101T175154847584Z:37e2a369",
-    "estado_entrada": "aguarda_confirmacao",
-    "tipo_odd": "por_registar",
+    "estado_entrada": "confirmada",
+    "tipo_odd": "real",
     "odd_minima_recomendada": 1.81,
     "confianca": 7
    },
