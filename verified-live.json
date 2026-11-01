@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-01T18:17:27Z",
-  "event_chain_head": "2347c953e6e2506a4fb8deade55c9e9d608c9e89c0345cf5a569bb01a5a6f03f",
+  "generated_at": "2026-11-01T18:27:34Z",
+  "event_chain_head": "cb9940400972f6e546ce19bf8f18be7ab1a9951f60fdd19387524cc040135987",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,9 +12,9 @@
   },
   "summary": {
     "total": 362,
-    "pending": 15,
+    "pending": 14,
     "signals_settled": 115,
-    "official_entries_settled": 208,
+    "official_entries_settled": 209,
     "cancelled": 37
   },
   "records": [
@@ -53,11 +53,34 @@
     {
       "id": "tip_proposal:20261101T175154847584Z:37e2a369",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-11-01T17:51:55Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "33fd7e4757a053bc62351bcf08477b46b038c9ae44fd1265aae22cfb1936eda8",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-11-01T18:27:34Z",
+      "result": "LOSS",
+      "outcome": {
+        "odds": 1.94,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": -0.75,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20261101T175154847584Z:37e2a369",
+        "market": "⛳ Over 8.5 corners · Liverpool · FT",
+        "match": "Liverpool x Arsenal",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "ce1:1549046:ht",
