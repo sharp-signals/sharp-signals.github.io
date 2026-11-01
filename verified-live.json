@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-01T14:56:14Z",
-  "event_chain_head": "f2cee3fca5c8d5282f9b1471eaeb260da1961b87e0b6a606a16bff97f9ca04d8",
+  "generated_at": "2026-11-01T14:57:03Z",
+  "event_chain_head": "4832006fb40faf86784ae68504df2201ff5ab78ca807d8c12388b6f0b7808bd4",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,20 +12,43 @@
   },
   "summary": {
     "total": 351,
-    "pending": 16,
+    "pending": 15,
     "signals_settled": 109,
     "official_entries_settled": 204,
-    "cancelled": 35
+    "cancelled": 36
   },
   "records": [
     {
       "id": "tip_proposal:20261101T145614138020Z:98fc323f",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-11-01T14:56:14Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "cadedffb1096a746796d41001ddb7489b608c95726767e6168087018f06ea301",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-11-01T14:57:03Z",
+      "result": "CANCELADA",
+      "outcome": {
+        "odds": null,
+        "odds_source": null,
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "cancelled",
+        "profit_loss_percent": null,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20261101T145614138020Z:98fc323f",
+        "market": "⛳ Over 7.5 corners · FT",
+        "match": "Wolfsberger x Sturm Graz",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "ce1:1607715:ht",
