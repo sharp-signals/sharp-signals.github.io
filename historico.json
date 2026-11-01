@@ -4607,6 +4607,26 @@
       "justificacao_void": "Não entrada — preço demasiado alto",
       "golos_apos_casa": 0,
       "golos_apos_fora": 2
+    },
+    {
+      "alerta_id": "ce1:1560267:ht",
+      "fixture_id": 1560267,
+      "timestamp": "2026-11-01T16:04:06.980810",
+      "jogo": "Ferencvarosi TC vs Paks",
+      "liga": "NB I",
+      "janela": "HT ATTACK",
+      "tempo_alerta": 26,
+      "estrelas": 9.5,
+      "cantos_no_ref": 7,
+      "cantos_final": 9,
+      "cantos_apos_alerta": 2,
+      "meta_cantos": 2,
+      "resultado": "VOID",
+      "resultado_tecnico": "VOID",
+      "estado_entrada": "CONFIRMADA",
+      "justificacao_void": "Não entrada — preço demasiado alto",
+      "golos_apos_casa": 0,
+      "golos_apos_fora": 0
     }
   ]
 }
