@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-01T15:33:14Z",
-  "event_chain_head": "2960457d958e327feccd83d91c3a69d59782e4ac130e6f451af8b031c13592ed",
+  "generated_at": "2026-11-01T15:49:03Z",
+  "event_chain_head": "a3e45cd1b379abdd2b57010230fd91c9547d38d9f5c8b29788c8167449aa1726",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,9 +12,9 @@
   },
   "summary": {
     "total": 355,
-    "pending": 18,
+    "pending": 17,
     "signals_settled": 110,
-    "official_entries_settled": 204,
+    "official_entries_settled": 205,
     "cancelled": 36
   },
   "records": [
@@ -30,11 +30,34 @@
     {
       "id": "tip_proposal:20261101T152757323539Z:f6d50fd8",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-11-01T15:27:57Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "b0ba860955f2c5116187f88008067280204d423192a92da9927bd18a280daf12",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-11-01T15:49:02Z",
+      "result": "CASHOUT",
+      "outcome": {
+        "odds": null,
+        "odds_source": "cashout_loss_reference",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": 0.15,
+        "entry_status": "confirmed",
+        "profit_loss_percent": -0.112,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20261101T152757323539Z:f6d50fd8",
+        "market": "⛳ Over 5.5 corners · FT",
+        "match": "Lazio x Cagliari",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "ce1:1560267:ht",
