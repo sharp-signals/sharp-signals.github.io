@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-01T16:26:17Z",
-  "event_chain_head": "7cd93821ad7d4364094141acc269ccd771006f93782cbc336647c795e9eab370",
+  "generated_at": "2026-11-01T16:40:41Z",
+  "event_chain_head": "84149b5609f43c8ce3dc421e8d6cececa02d7131f5d50f286d8a704636f0b62a",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,9 +12,9 @@
   },
   "summary": {
     "total": 358,
-    "pending": 16,
+    "pending": 15,
     "signals_settled": 112,
-    "official_entries_settled": 207,
+    "official_entries_settled": 208,
     "cancelled": 36
   },
   "records": [
@@ -30,11 +30,34 @@
     {
       "id": "tip_proposal:20261101T161848845294Z:b1bb5f63",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-11-01T16:18:49Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "4e5b4ff4c9216e541b682b2dd1c1655f96f399a2e45e94b8dfa6c566fcfbd564",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-11-01T16:40:41Z",
+      "result": "WIN",
+      "outcome": {
+        "odds": 1.81,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": 0.608,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20261101T161848845294Z:b1bb5f63",
+        "market": "⛳ Over 3.5 corners · 1st half",
+        "match": "Partizan x Zemun",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20261101T160423905761Z:8a1a2781",
