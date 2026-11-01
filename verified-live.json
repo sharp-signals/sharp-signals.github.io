@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-01T17:27:38Z",
-  "event_chain_head": "44519563c77ff1233990be1876129da463901dc8e077beaa3b40e2b6229e24a6",
+  "generated_at": "2026-11-01T17:41:28Z",
+  "event_chain_head": "9834be9770cdf4052b5908426e64c094b0c93c3bd892fffcc536d1f1d3e1eadd",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,8 +12,8 @@
   },
   "summary": {
     "total": 360,
-    "pending": 16,
-    "signals_settled": 113,
+    "pending": 15,
+    "signals_settled": 114,
     "official_entries_settled": 208,
     "cancelled": 36
   },
@@ -30,11 +30,37 @@
     {
       "id": "ce1:1494322:mid",
       "kind": "signal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-11-01T16:55:35Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "9f46f648747b56673cb865cf7152e57e55caa3ad09c2791c13d73aba3f42f2bd",
-      "telegram_message_count": 2
+      "telegram_message_count": 2,
+      "settled_at": "2026-11-01T17:41:28Z",
+      "result": "WIN",
+      "outcome": {
+        "corners_reference": 9,
+        "corners_final": 13,
+        "corners_after": 4,
+        "target": 3,
+        "technical_result": "WIN",
+        "entry_status": "confirmed",
+        "void_reason": "",
+        "approved_manually": true
+      },
+      "sealed_payload": {
+        "alert_id": "ce1:1494322:mid",
+        "classification": "scanner_signal_not_confirmed_bet",
+        "confidence": 8.5,
+        "corners_at_alert": 9,
+        "league": "Allsvenskan",
+        "match": "IF Elfsborg vs Orgryte IS",
+        "minimum_price": 1.75,
+        "minute": 69,
+        "score_at_alert": "1-1",
+        "suggestion": "🎯 ENTRADA SUGERIDA\nOver 11.5 cantos · odd mín. 1.75+\n↳ se sair +1 canto: sobe p/ Over 12.5 ou espera o Over 12",
+        "window": "MID PRESSURE"
+      },
+      "commitment_valid": true
     },
     {
       "id": "ce1:1494794:ht",
