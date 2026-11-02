@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-02T20:56:32Z",
-  "event_chain_head": "e038014cb1b53b33ce02f331433910a3c8185147c00ca24d33051f16aa3f61fe",
+  "generated_at": "2026-11-02T21:04:05Z",
+  "event_chain_head": "ea9c560736021f7ae9f356a93c2f61465c69c8b02efcbcb3f791e4afebd6ffe2",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,8 +12,8 @@
   },
   "summary": {
     "total": 372,
-    "pending": 16,
-    "signals_settled": 116,
+    "pending": 15,
+    "signals_settled": 117,
     "official_entries_settled": 214,
     "cancelled": 39
   },
@@ -21,11 +21,37 @@
     {
       "id": "ce1:1569998:ht",
       "kind": "signal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-11-02T20:29:46Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "4b6b6e0bfbafadeaa22b220d73afac4d5f58ee326b2af07e67bd4b475ba808f1",
-      "telegram_message_count": 2
+      "telegram_message_count": 2,
+      "settled_at": "2026-11-02T21:04:05Z",
+      "result": "LOSS",
+      "outcome": {
+        "corners_reference": 5,
+        "corners_final": 5,
+        "corners_after": 0,
+        "target": 2,
+        "technical_result": "LOSS",
+        "entry_status": "confirmed",
+        "void_reason": "",
+        "approved_manually": true
+      },
+      "sealed_payload": {
+        "alert_id": "ce1:1569998:ht",
+        "classification": "scanner_signal_not_confirmed_bet",
+        "confidence": 7.0,
+        "corners_at_alert": 4,
+        "league": "Segunda División",
+        "match": "Mallorca vs Cadiz",
+        "minimum_price": 1.75,
+        "minute": 26,
+        "score_at_alert": "0-0",
+        "suggestion": "🎯 ENTRADA SUGERIDA\nOver 5.5 cantos 1ª parte · odd mín. 1.75+\n↳ se sair +1 canto: sobe p/ Over 6.5 ou espera o Over 6",
+        "window": "HT ATTACK"
+      },
+      "commitment_valid": true
     },
     {
       "id": "ce1:1551865:mid",
