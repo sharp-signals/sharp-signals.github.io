@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-02T18:19:40Z",
-  "event_chain_head": "669ecb48ff9514806115ef9f81c78c6b67afc8c6269a2d2f65d63b100e78ce57",
+  "generated_at": "2026-11-02T18:20:43Z",
+  "event_chain_head": "b8e1f0f348b64a80d0b4ac4cd38458021d95fb28dc26d657b015ca1542642758",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,20 +12,43 @@
   },
   "summary": {
     "total": 368,
-    "pending": 15,
+    "pending": 14,
     "signals_settled": 116,
     "official_entries_settled": 212,
-    "cancelled": 38
+    "cancelled": 39
   },
   "records": [
     {
       "id": "tip_proposal:20261102T181939951539Z:3a8a9077",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-11-02T18:19:40Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "612ae09aa3d30cb9574d1b1b20fdf24da3d9aca5264017dca38a1e74848bde09",
-      "telegram_message_count": 2
+      "telegram_message_count": 2,
+      "settled_at": "2026-11-02T18:20:43Z",
+      "result": "CANCELADA",
+      "outcome": {
+        "odds": null,
+        "odds_source": null,
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "cancelled",
+        "profit_loss_percent": null,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20261102T181939951539Z:3a8a9077",
+        "market": "⛳ Over 2.5 corners · 1st half",
+        "match": "Sonderjyske x Copenhagen",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20261102T153022278385Z:b809cc56",
