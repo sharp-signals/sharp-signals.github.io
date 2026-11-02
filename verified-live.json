@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-02T21:04:05Z",
-  "event_chain_head": "ea9c560736021f7ae9f356a93c2f61465c69c8b02efcbcb3f791e4afebd6ffe2",
+  "generated_at": "2026-11-02T21:21:03Z",
+  "event_chain_head": "17e0a62daf6b1c9d5beb7acb04300e70987f1c5088cfa4e16fb2d53fff425641",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,8 +12,8 @@
   },
   "summary": {
     "total": 372,
-    "pending": 15,
-    "signals_settled": 117,
+    "pending": 14,
+    "signals_settled": 118,
     "official_entries_settled": 214,
     "cancelled": 39
   },
@@ -56,11 +56,37 @@
     {
       "id": "ce1:1551865:mid",
       "kind": "signal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-11-02T20:24:51Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "dae994267c952bc9911fce93dd77a3757b8234a0bfdd995032e92177c165811b",
-      "telegram_message_count": 2
+      "telegram_message_count": 2,
+      "settled_at": "2026-11-02T21:21:03Z",
+      "result": "LOSS",
+      "outcome": {
+        "corners_reference": 4,
+        "corners_final": 4,
+        "corners_after": 0,
+        "target": 3,
+        "technical_result": "LOSS",
+        "entry_status": "confirmed",
+        "void_reason": "",
+        "approved_manually": true
+      },
+      "sealed_payload": {
+        "alert_id": "ce1:1551865:mid",
+        "classification": "scanner_signal_not_confirmed_bet",
+        "confidence": 7.5,
+        "corners_at_alert": 4,
+        "league": "Eerste Divisie",
+        "match": "Jong PSV U21 vs NAC Breda",
+        "minimum_price": 1.75,
+        "minute": 65,
+        "score_at_alert": "0-0",
+        "suggestion": "🎯 ENTRADA SUGERIDA\nOver 6.5 cantos · odd mín. 1.75+\n↳ se sair +1 canto: sobe p/ Over 7.5 ou espera o Over 7",
+        "window": "MID PRESSURE"
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20261102T193546833161Z:4c39c592",
