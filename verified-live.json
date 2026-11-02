@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-02T15:30:22Z",
-  "event_chain_head": "1627dcaa9b34d398111d04656f35115b3772513dfd669437e3e08f5596209f3a",
+  "generated_at": "2026-11-02T15:30:45Z",
+  "event_chain_head": "f664a99ffcaa655765b6cbc8b97c032c59cf1593d794b524892bdb98f9398f09",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,20 +12,43 @@
   },
   "summary": {
     "total": 367,
-    "pending": 15,
+    "pending": 14,
     "signals_settled": 116,
     "official_entries_settled": 212,
-    "cancelled": 37
+    "cancelled": 38
   },
   "records": [
     {
       "id": "tip_proposal:20261102T153022278385Z:b809cc56",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-11-02T15:30:22Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "9208638af1a84e1989b31bbed5277994f5a34e849134093c28d4cae38e148721",
-      "telegram_message_count": 2
+      "telegram_message_count": 2,
+      "settled_at": "2026-11-02T15:30:45Z",
+      "result": "CANCELADA",
+      "outcome": {
+        "odds": null,
+        "odds_source": null,
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "cancelled",
+        "profit_loss_percent": null,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20261102T153022278385Z:b809cc56",
+        "market": "⛳ Over 8 corners · FT",
+        "match": "Nacional Montevideu II x Oriental II",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20261101T192201071449Z:94110528",
