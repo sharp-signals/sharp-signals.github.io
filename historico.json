@@ -4749,6 +4749,26 @@
       "justificacao_void": "",
       "golos_apos_casa": 0,
       "golos_apos_fora": 0
+    },
+    {
+      "alerta_id": "ce1:1551865:mid",
+      "fixture_id": 1551865,
+      "timestamp": "2026-11-02T21:20:59.497028",
+      "jogo": "Jong PSV U21 vs NAC Breda",
+      "liga": "Eerste Divisie",
+      "janela": "MID PRESSURE",
+      "tempo_alerta": 65,
+      "estrelas": 7.5,
+      "cantos_no_ref": 4,
+      "cantos_final": 4,
+      "cantos_apos_alerta": 0,
+      "meta_cantos": 3,
+      "resultado": "LOSS",
+      "resultado_tecnico": "LOSS",
+      "estado_entrada": "CONFIRMADA",
+      "justificacao_void": "",
+      "golos_apos_casa": 0,
+      "golos_apos_fora": 2
     }
   ]
 }
