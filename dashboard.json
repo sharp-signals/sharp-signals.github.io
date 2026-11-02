@@ -17,7 +17,7 @@
    "pode_nao_publicar": true
   }
  },
- "atualizado": "2026-11-02T15:01:09",
+ "atualizado": "2026-11-02T20:02:48",
  "dia_trading": "2026-11-02",
  "geral": {
   "inicio": "2026-06-06",
@@ -3784,7 +3784,7 @@
    "ticket_id": "prelive:2026-11-02:2",
    "ticket_slot": 2,
    "fire": false,
-   "resultado": null
+   "resultado": "perdido"
   },
   {
    "hora": "05:00",
@@ -3846,9 +3846,9 @@
   "publication_scope": "free_confirmed_only",
   "boletins": 32,
   "greens": 5,
-  "reds": 26,
-  "pendentes": 1,
-  "lucro": 2.59,
+  "reds": 27,
+  "pendentes": 0,
+  "lucro": 1.59,
   "ultimos": [
    {
     "ticket_id": "prelive:2026-11-02:2",
@@ -3858,7 +3858,7 @@
     "data": "2026-11-02",
     "tipo": "dupla",
     "odd": 6.24,
-    "resultado": null,
+    "resultado": "red",
     "u": 1.0,
     "published_at": "2026-11-02T06:07:59+00:00",
     "publication_confirmed": true,
@@ -3871,7 +3871,7 @@
       "hora": "18:00",
       "mercado": null,
       "odd": 2.38,
-      "resultado": null
+      "resultado": "perdido"
      },
      {
       "fixture_id": 1606743,
@@ -3894,7 +3894,7 @@
    "data": "2026-11-02",
    "tipo": "dupla",
    "odd": 6.24,
-   "resultado": null,
+   "resultado": "red",
    "u": 1.0,
    "published_at": "2026-11-02T06:07:59+00:00",
    "publication_confirmed": true,
@@ -3907,7 +3907,7 @@
      "hora": "18:00",
      "mercado": null,
      "odd": 2.38,
-     "resultado": null
+     "resultado": "perdido"
     },
     {
      "fixture_id": 1606743,
@@ -5165,7 +5165,7 @@
     "data": "2026-11-02",
     "tipo": "dupla",
     "odd": 6.24,
-    "resultado": null,
+    "resultado": "red",
     "u": 1.0,
     "published_at": "2026-11-02T06:07:59+00:00",
     "publication_confirmed": true,
@@ -5178,7 +5178,7 @@
       "hora": "18:00",
       "mercado": null,
       "odd": 2.38,
-      "resultado": null
+      "resultado": "perdido"
      },
      {
       "fixture_id": 1606743,
