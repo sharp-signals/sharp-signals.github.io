@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-02T20:56:20Z",
-  "event_chain_head": "7c67805d71d9b2893dc91caaa17fe05e4e277c09e107e336dc53298908a1e2ec",
+  "generated_at": "2026-11-02T20:56:32Z",
+  "event_chain_head": "e038014cb1b53b33ce02f331433910a3c8185147c00ca24d33051f16aa3f61fe",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,9 +12,9 @@
   },
   "summary": {
     "total": 372,
-    "pending": 17,
+    "pending": 16,
     "signals_settled": 116,
-    "official_entries_settled": 213,
+    "official_entries_settled": 214,
     "cancelled": 39
   },
   "records": [
@@ -39,11 +39,34 @@
     {
       "id": "tip_proposal:20261102T193546833161Z:4c39c592",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-11-02T19:35:47Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "9415c8a0e4379efb09dcad50060b255226ca5c15c88f105b9883b9e5e7a04993",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-11-02T20:56:32Z",
+      "result": "VOID",
+      "outcome": {
+        "odds": 1.84,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": 0.0,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20261102T193546833161Z:4c39c592",
+        "market": "⛳ Over 1 corners · 1st half",
+        "match": "PSV II x Nac Breda",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20261102T193010737535Z:627b1d44",
