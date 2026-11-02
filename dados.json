@@ -8,8 +8,8 @@
    "fim": "2026-01-31"
   },
   "cresc_pct": 56.91,
-  "apostas": 1243,
-  "ganhos": 696,
+  "apostas": 1244,
+  "ganhos": 697,
   "perdidos": 547,
   "wr": 56.0,
   "meses": [
@@ -86,17 +86,17 @@
    {
     "mes": "2026-11",
     "label": "Nov 26",
-    "cresc_pct": -3.09,
-    "apostas": 11,
-    "wr": 36.4
+    "cresc_pct": -2.44,
+    "apostas": 12,
+    "wr": 41.7
    }
   ],
   "por_mercado": [
    {
     "mercado": "Over Cantos FT",
-    "n": 682,
+    "n": 683,
     "wr": 58.4,
-    "roi": 38.23,
+    "roi": 38.88,
     "pl_eur": 1369.94
    },
    {
@@ -144,7 +144,6 @@
   ],
   "forma": [
    "ganho",
-   "ganho",
    "cashout",
    "ganho",
    "cashout",
@@ -157,7 +156,8 @@
    "perdido",
    "perdido",
    "perdido",
-   "perdido"
+   "perdido",
+   "ganho"
   ],
   "historico": [
    {
@@ -166,13 +166,13 @@
     "jogo": "Mallorca x Cadiz",
     "mercado": "⛳ Over 11 corners · FT",
     "categoria": "Over Cantos FT",
-    "odd": null,
-    "pl_pct": null,
+    "odd": 1.87,
+    "pl_pct": 0.653,
     "stake_pct": 0.75,
-    "resultado": "pendente",
+    "resultado": "ganho",
     "verified_id": "tip_proposal:20261102T214507704308Z:f03a8a79",
-    "estado_entrada": "aguarda_confirmacao",
-    "tipo_odd": "por_registar",
+    "estado_entrada": "confirmada",
+    "tipo_odd": "real",
     "odd_minima_recomendada": 1.81,
     "confianca": 7
    },
