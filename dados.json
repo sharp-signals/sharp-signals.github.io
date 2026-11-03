@@ -8,10 +8,10 @@
    "fim": "2026-01-31"
   },
   "cresc_pct": 56.91,
-  "apostas": 1244,
-  "ganhos": 697,
+  "apostas": 1245,
+  "ganhos": 698,
   "perdidos": 547,
-  "wr": 56.0,
+  "wr": 56.1,
   "meses": [
    {
     "mes": "2025-08",
@@ -86,9 +86,9 @@
    {
     "mes": "2026-11",
     "label": "Nov 26",
-    "cresc_pct": -2.44,
-    "apostas": 12,
-    "wr": 41.7
+    "cresc_pct": -1.82,
+    "apostas": 13,
+    "wr": 46.2
    }
   ],
   "por_mercado": [
@@ -122,9 +122,9 @@
    },
    {
     "mercado": "Race to X corners",
-    "n": 50,
-    "wr": 68.0,
-    "roi": 9.97,
+    "n": 51,
+    "wr": 68.6,
+    "roi": 10.59,
     "pl_eur": 324.76
    },
    {
@@ -143,7 +143,6 @@
    }
   ],
   "forma": [
-   "ganho",
    "cashout",
    "ganho",
    "cashout",
@@ -157,6 +156,7 @@
    "perdido",
    "perdido",
    "perdido",
+   "ganho",
    "ganho"
   ],
   "historico": [
@@ -166,13 +166,13 @@
     "jogo": "Kobe x Ratchaburi",
     "mercado": "🏁 Race to 7 corners · Kobe",
     "categoria": "Race to X corners",
-    "odd": null,
-    "pl_pct": null,
+    "odd": 1.83,
+    "pl_pct": 0.623,
     "stake_pct": 0.75,
-    "resultado": "pendente",
+    "resultado": "ganho",
     "verified_id": "tip_proposal:20261103T113204402048Z:d6f34307",
-    "estado_entrada": "aguarda_confirmacao",
-    "tipo_odd": "por_registar",
+    "estado_entrada": "confirmada",
+    "tipo_odd": "real",
     "odd_minima_recomendada": 1.81,
     "confianca": 7
    },
