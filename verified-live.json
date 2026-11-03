@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-03T11:47:26Z",
-  "event_chain_head": "be8ed2a3cac0b76d803ac99ba7dbcd8a2bc01040b2edfc56d29a93ef6faafc01",
+  "generated_at": "2026-11-03T12:12:19Z",
+  "event_chain_head": "8e0b2e99d1080c61c3f6840d4e91f9118d801ec2fb870e4f26670674a11a97d4",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,8 +12,8 @@
   },
   "summary": {
     "total": 375,
-    "pending": 15,
-    "signals_settled": 118,
+    "pending": 14,
+    "signals_settled": 119,
     "official_entries_settled": 216,
     "cancelled": 39
   },
@@ -53,11 +53,37 @@
     {
       "id": "ce1:1629966:mid",
       "kind": "signal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-11-03T11:27:10Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "ed4baaeb244fd91243847639259644edc1ac7c76627961d5ee4d8c87461deb97",
-      "telegram_message_count": 2
+      "telegram_message_count": 2,
+      "settled_at": "2026-11-03T12:12:19Z",
+      "result": "WIN",
+      "outcome": {
+        "corners_reference": 3,
+        "corners_final": 7,
+        "corners_after": 4,
+        "target": 3,
+        "technical_result": "WIN",
+        "entry_status": "confirmed",
+        "void_reason": "",
+        "approved_manually": true
+      },
+      "sealed_payload": {
+        "alert_id": "ce1:1629966:mid",
+        "classification": "scanner_signal_not_confirmed_bet",
+        "confidence": 7.5,
+        "corners_at_alert": 3,
+        "league": "AFC Champions League Elite",
+        "match": "Jeonbuk Motors vs Johor Darul Takzim FC",
+        "minimum_price": 1.75,
+        "minute": 68,
+        "score_at_alert": "2-0",
+        "suggestion": "🎯 ENTRADA SUGERIDA\nOver 5.5 cantos · odd mín. 1.75+\n↳ se sair +1 canto: sobe p/ Over 6.5 ou espera o Over 6",
+        "window": "MID PRESSURE"
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20261102T214507704308Z:f03a8a79",
