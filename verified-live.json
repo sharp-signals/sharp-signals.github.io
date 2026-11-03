@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-03T19:44:10Z",
-  "event_chain_head": "7d7074db967f0a8ac9a25abd288418bd9f098acdf15e88cfca0b9691cb5c48be",
+  "generated_at": "2026-11-03T19:58:31Z",
+  "event_chain_head": "75801b3e62d082dba3b16b83e7e3eb011663dcb82c184c91b5d57b58871de5e8",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,20 +12,43 @@
   },
   "summary": {
     "total": 376,
-    "pending": 15,
+    "pending": 14,
     "signals_settled": 119,
-    "official_entries_settled": 216,
+    "official_entries_settled": 217,
     "cancelled": 39
   },
   "records": [
     {
       "id": "tip_proposal:20261103T194409850701Z:cee192b3",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-11-03T19:44:10Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "bfe57948ed08278afd0cf2417eb170164783c0273899c869681663d6b9e10050",
-      "telegram_message_count": 2
+      "telegram_message_count": 2,
+      "settled_at": "2026-11-03T19:58:31Z",
+      "result": "LOSS",
+      "outcome": {
+        "odds": 1.89,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": -0.75,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20261103T194409850701Z:cee192b3",
+        "market": "⛳ Over 9.5 corners · FT",
+        "match": "Sarmiento II x Banfield II",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20261103T113204402048Z:d6f34307",
