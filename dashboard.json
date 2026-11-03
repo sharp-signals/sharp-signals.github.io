@@ -17,7 +17,7 @@
    "pode_nao_publicar": true
   }
  },
- "atualizado": "2026-11-03T06:07:23",
+ "atualizado": "2026-11-03T07:58:28",
  "dia_trading": "2026-11-03",
  "geral": {
   "inicio": "2026-06-06",
@@ -3814,7 +3814,7 @@
       "hora": "05:00",
       "mercado": null,
       "odd": 2.62,
-      "resultado": null
+      "resultado": "perdido"
      }
     ]
    }
@@ -3850,7 +3850,7 @@
      "hora": "05:00",
      "mercado": null,
      "odd": 2.62,
-     "resultado": null
+     "resultado": "perdido"
     }
    ]
   },
@@ -5121,7 +5121,7 @@
       "hora": "05:00",
       "mercado": null,
       "odd": 2.62,
-      "resultado": null
+      "resultado": "perdido"
      }
     ]
    }
