@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-03T11:32:04Z",
-  "event_chain_head": "82dd759d5f5531fb79754fd69d1a7a86a5ad79fc29e0ee11b936dcea76dac6a2",
+  "generated_at": "2026-11-03T11:47:26Z",
+  "event_chain_head": "be8ed2a3cac0b76d803ac99ba7dbcd8a2bc01040b2edfc56d29a93ef6faafc01",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,20 +12,43 @@
   },
   "summary": {
     "total": 375,
-    "pending": 16,
+    "pending": 15,
     "signals_settled": 118,
-    "official_entries_settled": 215,
+    "official_entries_settled": 216,
     "cancelled": 39
   },
   "records": [
     {
       "id": "tip_proposal:20261103T113204402048Z:d6f34307",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-11-03T11:32:04Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "2a22b7c06a478afe5b9524c187ef5be0ca6ac8325eea2e358d1313978c4937b2",
-      "telegram_message_count": 2
+      "telegram_message_count": 2,
+      "settled_at": "2026-11-03T11:47:26Z",
+      "result": "WIN",
+      "outcome": {
+        "odds": 1.83,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": 0.623,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20261103T113204402048Z:d6f34307",
+        "market": "🏁 Race to 7 corners · Kobe",
+        "match": "Kobe x Ratchaburi",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "ce1:1629966:mid",
