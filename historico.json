@@ -4770,5 +4770,27 @@
       "golos_apos_casa": 0,
       "golos_apos_fora": 2
     }
+  ],
+  "2026-11-03": [
+    {
+      "alerta_id": "ce1:1629966:mid",
+      "fixture_id": 1629966,
+      "timestamp": "2026-11-03T12:12:15.716529",
+      "jogo": "Jeonbuk Motors vs Johor Darul Takzim FC",
+      "liga": "AFC Champions League Elite",
+      "janela": "MID PRESSURE",
+      "tempo_alerta": 68,
+      "estrelas": 7.5,
+      "cantos_no_ref": 3,
+      "cantos_final": 7,
+      "cantos_apos_alerta": 4,
+      "meta_cantos": 3,
+      "resultado": "WIN",
+      "resultado_tecnico": "WIN",
+      "estado_entrada": "CONFIRMADA",
+      "justificacao_void": "",
+      "golos_apos_casa": 0,
+      "golos_apos_fora": 0
+    }
   ]
 }
