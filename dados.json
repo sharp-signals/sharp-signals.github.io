@@ -8,9 +8,9 @@
    "fim": "2026-01-31"
   },
   "cresc_pct": 56.91,
-  "apostas": 1246,
+  "apostas": 1247,
   "ganhos": 698,
-  "perdidos": 548,
+  "perdidos": 549,
   "wr": 56.0,
   "meses": [
    {
@@ -86,9 +86,9 @@
    {
     "mes": "2026-11",
     "label": "Nov 26",
-    "cresc_pct": -2.57,
-    "apostas": 14,
-    "wr": 42.9
+    "cresc_pct": -2.68,
+    "apostas": 15,
+    "wr": 40.0
    }
   ],
   "por_mercado": [
@@ -108,9 +108,9 @@
    },
    {
     "mercado": "Cashout",
-    "n": 178,
-    "wr": 42.7,
-    "roi": -5.02,
+    "n": 179,
+    "wr": 42.5,
+    "roi": -5.13,
     "pl_eur": -74.77
    },
    {
@@ -143,7 +143,6 @@
    }
   ],
   "forma": [
-   "ganho",
    "cashout",
    "ganho",
    "cashout",
@@ -157,7 +156,8 @@
    "perdido",
    "ganho",
    "ganho",
-   "perdido"
+   "perdido",
+   "cashout"
   ],
   "historico": [
    {
@@ -165,16 +165,17 @@
     "mes": "2026-11",
     "jogo": "Copenhagen u19 x Din. Tiblisi u19",
     "mercado": "⛳ Over 6.5 corners · FT",
-    "categoria": "Over Cantos FT",
+    "categoria": "Cashout",
     "odd": null,
-    "pl_pct": null,
+    "pl_pct": -0.112,
     "stake_pct": 0.75,
-    "resultado": "pendente",
+    "resultado": "cashout",
     "verified_id": "tip_proposal:20261104T142201466725Z:706e984f",
-    "estado_entrada": "aguarda_confirmacao",
-    "tipo_odd": "por_registar",
+    "estado_entrada": "confirmada",
+    "tipo_odd": "referencia_cashout_menos_15_pct",
     "odd_minima_recomendada": 1.81,
-    "confianca": 7
+    "confianca": 7,
+    "cashout_perda_referencia_pct_stake": 15.0
    },
    {
     "data": "2026-11-04",
