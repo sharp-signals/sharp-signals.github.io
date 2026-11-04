@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-04T14:45:13Z",
-  "event_chain_head": "e967f43fd4f8784be7a24cf3d21cdf825824223c571a995a63c11d6950c3297a",
+  "generated_at": "2026-11-04T14:59:42Z",
+  "event_chain_head": "69c38fc242099fc991da68d25a4180e651ba792158f542ad0278f3e0129b8d72",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,9 +12,9 @@
   },
   "summary": {
     "total": 380,
-    "pending": 16,
+    "pending": 15,
     "signals_settled": 120,
-    "official_entries_settled": 218,
+    "official_entries_settled": 219,
     "cancelled": 39
   },
   "records": [
@@ -62,11 +62,34 @@
     {
       "id": "tip_proposal:20261104T141243221411Z:e32f1c04",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-11-04T14:12:43Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "2dfe9bc103c97249fd1f87f95fab0b465b15be1cb04a442c2be097431213d946",
-      "telegram_message_count": 2
+      "telegram_message_count": 2,
+      "settled_at": "2026-11-04T14:59:42Z",
+      "result": "LOSS",
+      "outcome": {
+        "odds": null,
+        "odds_source": "historical_reference",
+        "reference_odds": 1.84,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": -0.75,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20261104T141243221411Z:e32f1c04",
+        "market": "⛳ Over 7.5 corners · FT",
+        "match": "Copenhagen u19 x Din. Tiblisi u19",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "ce1:1639831:mid",
