@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-04T20:31:29Z",
-  "event_chain_head": "b7cfe455d43679f8cd763de168fbb5623b0ef8a7f99711ef0e1ccf362ff818db",
+  "generated_at": "2026-11-04T21:07:30Z",
+  "event_chain_head": "7952bd0d2d9e101fa1c5d77888548e89acca4e8730369c7d6a9ba37313f197c7",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,8 +12,8 @@
   },
   "summary": {
     "total": 382,
-    "pending": 15,
-    "signals_settled": 121,
+    "pending": 14,
+    "signals_settled": 122,
     "official_entries_settled": 220,
     "cancelled": 39
   },
@@ -21,11 +21,37 @@
     {
       "id": "ce1:1636664:ht",
       "kind": "signal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-11-04T20:31:29Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "5be969f981474c8d67b4cbc1d2fcc1c3de40e3d1d1213dbc39e200209ef45ac9",
-      "telegram_message_count": 2
+      "telegram_message_count": 2,
+      "settled_at": "2026-11-04T21:07:30Z",
+      "result": "WIN",
+      "outcome": {
+        "corners_reference": 3,
+        "corners_final": 6,
+        "corners_after": 3,
+        "target": 2,
+        "technical_result": "WIN",
+        "entry_status": "confirmed",
+        "void_reason": "",
+        "approved_manually": true
+      },
+      "sealed_payload": {
+        "alert_id": "ce1:1636664:ht",
+        "classification": "scanner_signal_not_confirmed_bet",
+        "confidence": 7.0,
+        "corners_at_alert": 3,
+        "league": "Botola Pro",
+        "match": "FAR Rabat vs Raja Casablanca",
+        "minimum_price": 1.75,
+        "minute": 27,
+        "score_at_alert": "1-1",
+        "suggestion": "🎯 ENTRADA SUGERIDA\nOver 4.5 cantos 1ª parte · odd mín. 1.75+\n↳ se sair +1 canto: sobe p/ Over 5.5 ou espera o Over 5",
+        "window": "HT ATTACK"
+      },
+      "commitment_valid": true
     },
     {
       "id": "ce1:1635658:shark",
