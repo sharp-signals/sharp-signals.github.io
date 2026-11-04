@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-04T21:30:16Z",
-  "event_chain_head": "946acb5669310282129907b70eb670674a9900a7284db7112d571c4d3bf6768f",
+  "generated_at": "2026-11-04T22:13:38Z",
+  "event_chain_head": "7699b1ce1000a1f8f844362f8c9e8a24076dc2d6fd37a8906186159588c1d9ab",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,8 +12,8 @@
   },
   "summary": {
     "total": 384,
-    "pending": 16,
-    "signals_settled": 122,
+    "pending": 15,
+    "signals_settled": 123,
     "official_entries_settled": 220,
     "cancelled": 39
   },
@@ -30,11 +30,37 @@
     {
       "id": "ce1:1635707:shark",
       "kind": "signal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-11-04T21:19:10Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "807902dd08d9d2543bd2e348f208512bafc1265743670177ff7e3eb5d783702f",
-      "telegram_message_count": 2
+      "telegram_message_count": 2,
+      "settled_at": "2026-11-04T22:13:38Z",
+      "result": "VOID",
+      "outcome": {
+        "corners_reference": 9,
+        "corners_final": 13,
+        "corners_after": 4,
+        "target": 4,
+        "technical_result": "VOID",
+        "entry_status": "confirmed",
+        "void_reason": "Não entrada — preço demasiado alto",
+        "approved_manually": true
+      },
+      "sealed_payload": {
+        "alert_id": "ce1:1635707:shark",
+        "classification": "scanner_signal_not_confirmed_bet",
+        "confidence": 7.5,
+        "corners_at_alert": 8,
+        "league": "UEFA Champions League",
+        "match": "PSV Eindhoven vs Club Brugge KV",
+        "minimum_price": 1.75,
+        "minute": 58,
+        "score_at_alert": "1-1",
+        "suggestion": "🎯 ENTRADA SUGERIDA\nOver 11.5 cantos · odd mín. 1.75+\n↳ se sair +1 canto: sobe p/ Over 12.5 ou espera o Over 12",
+        "window": "SHARK ATTACK"
+      },
+      "commitment_valid": true
     },
     {
       "id": "ce1:1636664:ht",
