@@ -4873,6 +4873,26 @@
       "justificacao_void": "Não entrada — preço demasiado alto",
       "golos_apos_casa": 0,
       "golos_apos_fora": 1
+    },
+    {
+      "alerta_id": "ce1:1635707:mid",
+      "fixture_id": 1635707,
+      "timestamp": "2026-11-04T22:25:28.910756",
+      "jogo": "PSV Eindhoven vs Club Brugge KV",
+      "liga": "UEFA Champions League",
+      "janela": "MID PRESSURE",
+      "tempo_alerta": 68,
+      "estrelas": 9.0,
+      "cantos_no_ref": 11,
+      "cantos_final": 13,
+      "cantos_apos_alerta": 2,
+      "meta_cantos": 3,
+      "resultado": "CANCELADA",
+      "resultado_tecnico": "LOSS",
+      "estado_entrada": "CANCELADA",
+      "justificacao_void": "",
+      "golos_apos_casa": 0,
+      "golos_apos_fora": 0
     }
   ]
 }
