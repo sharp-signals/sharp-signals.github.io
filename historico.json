@@ -4812,5 +4812,27 @@
       "golos_apos_casa": 1,
       "golos_apos_fora": 1
     }
+  ],
+  "2026-11-04": [
+    {
+      "alerta_id": "ce1:1635658:shark",
+      "fixture_id": 1635658,
+      "timestamp": "2026-11-04T20:08:59.419955",
+      "jogo": "Fenerbahçe vs Liverpool",
+      "liga": "UEFA Champions League",
+      "janela": "SHARK ATTACK",
+      "tempo_alerta": 58,
+      "estrelas": 7.5,
+      "cantos_no_ref": 11,
+      "cantos_final": 16,
+      "cantos_apos_alerta": 5,
+      "meta_cantos": 4,
+      "resultado": "VOID",
+      "resultado_tecnico": "VOID",
+      "estado_entrada": "CONFIRMADA",
+      "justificacao_void": "Não entrada — preço demasiado alto",
+      "golos_apos_casa": 2,
+      "golos_apos_fora": 1
+    }
   ]
 }
