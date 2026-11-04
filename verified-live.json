@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-04T22:13:38Z",
-  "event_chain_head": "7699b1ce1000a1f8f844362f8c9e8a24076dc2d6fd37a8906186159588c1d9ab",
+  "generated_at": "2026-11-04T22:25:33Z",
+  "event_chain_head": "9649051f7289adc9793148e5c6534f7529f53f61d48889b7ef66ef4b06b05d36",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,20 +12,46 @@
   },
   "summary": {
     "total": 384,
-    "pending": 15,
-    "signals_settled": 123,
+    "pending": 14,
+    "signals_settled": 124,
     "official_entries_settled": 220,
-    "cancelled": 39
+    "cancelled": 40
   },
   "records": [
     {
       "id": "ce1:1635707:mid",
       "kind": "signal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-11-04T21:30:16Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "1e1b7f541d73c04f00c2bcbd38968e415f2577fad7b0803eacd10e0bafbd6508",
-      "telegram_message_count": 2
+      "telegram_message_count": 2,
+      "settled_at": "2026-11-04T22:25:33Z",
+      "result": "CANCELADA",
+      "outcome": {
+        "corners_reference": 11,
+        "corners_final": 13,
+        "corners_after": 2,
+        "target": 3,
+        "technical_result": "LOSS",
+        "entry_status": "cancelled",
+        "void_reason": "",
+        "approved_manually": true
+      },
+      "sealed_payload": {
+        "alert_id": "ce1:1635707:mid",
+        "classification": "scanner_signal_not_confirmed_bet",
+        "confidence": 9.0,
+        "corners_at_alert": 11,
+        "league": "UEFA Champions League",
+        "match": "PSV Eindhoven vs Club Brugge KV",
+        "minimum_price": 1.75,
+        "minute": 68,
+        "score_at_alert": "1-2",
+        "suggestion": "🎯 ENTRADA SUGERIDA\nOver 13.5 cantos · odd mín. 1.75+\n↳ se sair +1 canto: sobe p/ Over 14.5 ou espera o Over 14",
+        "window": "MID PRESSURE"
+      },
+      "commitment_valid": true
     },
     {
       "id": "ce1:1635707:shark",
