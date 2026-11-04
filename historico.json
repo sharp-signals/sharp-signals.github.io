@@ -4853,6 +4853,26 @@
       "justificacao_void": "",
       "golos_apos_casa": 0,
       "golos_apos_fora": 1
+    },
+    {
+      "alerta_id": "ce1:1635707:shark",
+      "fixture_id": 1635707,
+      "timestamp": "2026-11-04T22:13:34.290366",
+      "jogo": "PSV Eindhoven vs Club Brugge KV",
+      "liga": "UEFA Champions League",
+      "janela": "SHARK ATTACK",
+      "tempo_alerta": 58,
+      "estrelas": 7.5,
+      "cantos_no_ref": 9,
+      "cantos_final": 13,
+      "cantos_apos_alerta": 4,
+      "meta_cantos": 4,
+      "resultado": "VOID",
+      "resultado_tecnico": "VOID",
+      "estado_entrada": "CONFIRMADA",
+      "justificacao_void": "Não entrada — preço demasiado alto",
+      "golos_apos_casa": 0,
+      "golos_apos_fora": 1
     }
   ]
 }
