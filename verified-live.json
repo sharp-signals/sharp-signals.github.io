@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-06T14:39:45Z",
-  "event_chain_head": "1e154a3b0e9ce9ce54717cfc2a2ae454e4697840ea2d88022f5cff270837e060",
+  "generated_at": "2026-11-06T14:40:30Z",
+  "event_chain_head": "56712f2cf0d40afefd177a62de5027156b4c0a8a5f2ef71fd91b1e65ba606400",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,20 +12,43 @@
   },
   "summary": {
     "total": 385,
-    "pending": 15,
+    "pending": 14,
     "signals_settled": 124,
     "official_entries_settled": 220,
-    "cancelled": 40
+    "cancelled": 41
   },
   "records": [
     {
       "id": "tip_proposal:20261106T143944684425Z:98a3e38d",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-11-06T14:39:45Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "90ae6c09d76efd2002b46db3f9d971a2b6bf1935af9c2e74499fec3927b87a45",
-      "telegram_message_count": 2
+      "telegram_message_count": 2,
+      "settled_at": "2026-11-06T14:40:30Z",
+      "result": "CANCELADA",
+      "outcome": {
+        "odds": null,
+        "odds_source": null,
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "cancelled",
+        "profit_loss_percent": null,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20261106T143944684425Z:98a3e38d",
+        "market": "⛳ Over 2.5 corners · 1st half",
+        "match": "Qarabag x Turan",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "ce1:1635707:mid",
