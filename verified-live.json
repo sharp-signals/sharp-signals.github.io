@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-07T18:56:40Z",
-  "event_chain_head": "e416c31b12871559867f0b86ced2a6b9842cf27e1de675a3471506fe9662c715",
+  "generated_at": "2026-11-07T19:13:13Z",
+  "event_chain_head": "0a36b6452d5a034f27d9e3bdca24acf8bb4f139649364eeb22b17be25b9fd134",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,20 +12,43 @@
   },
   "summary": {
     "total": 403,
-    "pending": 17,
+    "pending": 16,
     "signals_settled": 129,
-    "official_entries_settled": 230,
+    "official_entries_settled": 231,
     "cancelled": 42
   },
   "records": [
     {
       "id": "tip_proposal:20261107T185639923008Z:72d8714f",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-11-07T18:56:40Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "50f6fdd4067fa43e83c0a55b046b4b6ff8df1008008b01dbe38c219bc6367bcc",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-11-07T19:13:13Z",
+      "result": "CASHOUT",
+      "outcome": {
+        "odds": null,
+        "odds_source": "cashout_loss_reference",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": 0.15,
+        "entry_status": "confirmed",
+        "profit_loss_percent": -0.112,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20261107T185639923008Z:72d8714f",
+        "market": "⛳ Over 4.5 corners · FT",
+        "match": "Ironi Tiberias x Beitar Jerusalem",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20261107T182640342797Z:51fbbde1",
