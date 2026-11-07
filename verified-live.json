@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-07T13:35:06Z",
-  "event_chain_head": "dd7e04e36e22fc7918b4642c5f08f9d7755993942817c83d0e1d0cc8dce141d7",
+  "generated_at": "2026-11-07T13:35:16Z",
+  "event_chain_head": "df12ccadbe21ce2d5348fc89a1a35b165ceaa8d5b999ea0b5a2bbbacc6e0de3e",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,9 +12,9 @@
   },
   "summary": {
     "total": 390,
-    "pending": 17,
+    "pending": 16,
     "signals_settled": 126,
-    "official_entries_settled": 220,
+    "official_entries_settled": 221,
     "cancelled": 42
   },
   "records": [
@@ -30,11 +30,34 @@
     {
       "id": "tip_proposal:20261107T131835942511Z:e7d576b8",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-11-07T13:18:36Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "4e831fc9c7b27dc8ab7e123d521ea7e0ad69ee27a9626a4502b61cfe9bc49ac3",
-      "telegram_message_count": 2
+      "telegram_message_count": 2,
+      "settled_at": "2026-11-07T13:35:16Z",
+      "result": "LOSS",
+      "outcome": {
+        "odds": 2.1,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": -0.75,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20261107T131835942511Z:e7d576b8",
+        "market": "⛳ Over 9 corners · Isloch · FT",
+        "match": "Belshina x Isloch",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "ce1:1553220:mid",
