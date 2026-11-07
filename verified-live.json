@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-07T18:47:42Z",
-  "event_chain_head": "fbfab1a58ae7138072502a20e5609c2ac469a945c07603a2568b87741fcfcc54",
+  "generated_at": "2026-11-07T18:55:47Z",
+  "event_chain_head": "2a78111d1955e060fc5b7268a10847d3e6b09c64bc55aca69a5d35fbb5231296",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,8 +12,8 @@
   },
   "summary": {
     "total": 402,
-    "pending": 17,
-    "signals_settled": 128,
+    "pending": 16,
+    "signals_settled": 129,
     "official_entries_settled": 230,
     "cancelled": 42
   },
@@ -53,11 +53,37 @@
     {
       "id": "ce1:1553218:final",
       "kind": "signal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-11-07T18:14:34Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "ff9392b71412314df69a65287ae40a76d3613cf75f6a33a12ecbbf112f23b13f",
-      "telegram_message_count": 2
+      "telegram_message_count": 2,
+      "settled_at": "2026-11-07T18:55:47Z",
+      "result": "VOID",
+      "outcome": {
+        "corners_reference": 8,
+        "corners_final": 8,
+        "corners_after": 0,
+        "target": 2,
+        "technical_result": "VOID",
+        "entry_status": "confirmed",
+        "void_reason": "Não entrada — preço demasiado alto",
+        "approved_manually": true
+      },
+      "sealed_payload": {
+        "alert_id": "ce1:1553218:final",
+        "classification": "scanner_signal_not_confirmed_bet",
+        "confidence": 7.5,
+        "corners_at_alert": 6,
+        "league": "Ekstraklasa",
+        "match": "Gornik Zabrze vs Wieczysta Kraków",
+        "minimum_price": 1.75,
+        "minute": 79,
+        "score_at_alert": "1-1",
+        "suggestion": "🎯 ENTRADA SUGERIDA\nOver 7.5 cantos · odd mín. 1.75+\n↳ se sair +1 canto: sobe p/ Over 8.5 ou espera o Over 8",
+        "window": "FINAL PUSH"
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20261107T181410448218Z:e8e4b07d",
