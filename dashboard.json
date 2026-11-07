@@ -17,8 +17,8 @@
    "pode_nao_publicar": true
   }
  },
- "atualizado": "2026-11-06T22:45:10",
- "dia_trading": "2026-11-06",
+ "atualizado": "2026-11-07T06:13:13",
+ "dia_trading": "2026-11-07",
  "geral": {
   "inicio": "2026-06-06",
   "fim": "2026-11-06",
@@ -113,12 +113,12 @@
   "desde": "2026-06-21"
  },
  "diario": {
-  "inicio": "2026-11-06",
-  "fim": "2026-11-06",
-  "sinais": 5,
-  "sinais_financeiros": 5,
-  "ganhos": 2,
-  "perdidos": 3,
+  "inicio": "2026-11-07",
+  "fim": "2026-11-07",
+  "sinais": 0,
+  "sinais_financeiros": 0,
+  "ganhos": 0,
+  "perdidos": 0,
   "push": 0,
   "pendentes": 0,
   "condicionais": 0,
@@ -126,28 +126,14 @@
   "condicionais_perdidos": 0,
   "condicionais_push": 0,
   "condicionais_pendentes": 0,
-  "wr": 40.0,
-  "lucro_u": -0.95,
-  "roi": -19.0,
-  "por_estrategia": {
-   "Sharp Pick": {
-    "n": 5,
-    "g": 2,
-    "p": 3,
-    "lucro": -0.95,
-    "condicionais": 0,
-    "condicionais_g": 0,
-    "condicionais_p": 0,
-    "condicionais_push": 0,
-    "condicionais_pendentes": 0,
-    "n_financeiros": 5,
-    "wr": 40.0
-   }
-  }
+  "wr": 0.0,
+  "lucro_u": 0.0,
+  "roi": 0.0,
+  "por_estrategia": {}
  },
  "semanal": {
   "inicio": "2026-11-02",
-  "fim": "2026-11-06",
+  "fim": "2026-11-07",
   "sinais": 8,
   "sinais_financeiros": 8,
   "ganhos": 2,
@@ -193,7 +179,7 @@
  },
  "mensal": {
   "inicio": "2026-11-01",
-  "fim": "2026-11-06",
+  "fim": "2026-11-07",
   "sinais": 13,
   "sinais_financeiros": 13,
   "ganhos": 4,
@@ -2117,12 +2103,12 @@
     }
    },
    "diario": {
-    "inicio": "2026-11-06",
-    "fim": "2026-11-06",
-    "sinais": 5,
-    "sinais_financeiros": 5,
-    "ganhos": 2,
-    "perdidos": 3,
+    "inicio": "2026-11-07",
+    "fim": "2026-11-07",
+    "sinais": 0,
+    "sinais_financeiros": 0,
+    "ganhos": 0,
+    "perdidos": 0,
     "push": 0,
     "pendentes": 0,
     "condicionais": 0,
@@ -2130,28 +2116,14 @@
     "condicionais_perdidos": 0,
     "condicionais_push": 0,
     "condicionais_pendentes": 0,
-    "wr": 40.0,
-    "lucro_u": -0.95,
-    "roi": -19.0,
-    "por_estrategia": {
-     "Sharp Pick": {
-      "n": 5,
-      "g": 2,
-      "p": 3,
-      "lucro": -0.95,
-      "condicionais": 0,
-      "condicionais_g": 0,
-      "condicionais_p": 0,
-      "condicionais_push": 0,
-      "condicionais_pendentes": 0,
-      "n_financeiros": 5,
-      "wr": 40.0
-     }
-    }
+    "wr": 0.0,
+    "lucro_u": 0.0,
+    "roi": 0.0,
+    "por_estrategia": {}
    },
    "semanal": {
     "inicio": "2026-11-02",
-    "fim": "2026-11-06",
+    "fim": "2026-11-07",
     "sinais": 8,
     "sinais_financeiros": 8,
     "ganhos": 2,
@@ -2197,7 +2169,7 @@
    },
    "mensal": {
     "inicio": "2026-11-01",
-    "fim": "2026-11-06",
+    "fim": "2026-11-07",
     "sinais": 13,
     "sinais_financeiros": 13,
     "ganhos": 4,
@@ -2854,8 +2826,8 @@
     }
    },
    "diario": {
-    "inicio": "2026-11-06",
-    "fim": "2026-11-06",
+    "inicio": "2026-11-07",
+    "fim": "2026-11-07",
     "sinais": 0,
     "sinais_financeiros": 0,
     "ganhos": 0,
@@ -2874,7 +2846,7 @@
    },
    "semanal": {
     "inicio": "2026-11-02",
-    "fim": "2026-11-06",
+    "fim": "2026-11-07",
     "sinais": 0,
     "sinais_financeiros": 0,
     "ganhos": 0,
@@ -2893,7 +2865,7 @@
    },
    "mensal": {
     "inicio": "2026-11-01",
-    "fim": "2026-11-06",
+    "fim": "2026-11-07",
     "sinais": 0,
     "sinais_financeiros": 0,
     "ganhos": 0,
@@ -2989,8 +2961,8 @@
     }
    },
    "diario": {
-    "inicio": "2026-11-06",
-    "fim": "2026-11-06",
+    "inicio": "2026-11-07",
+    "fim": "2026-11-07",
     "sinais": 0,
     "sinais_financeiros": 0,
     "ganhos": 0,
@@ -3009,7 +2981,7 @@
    },
    "semanal": {
     "inicio": "2026-11-02",
-    "fim": "2026-11-06",
+    "fim": "2026-11-07",
     "sinais": 3,
     "sinais_financeiros": 3,
     "ganhos": 0,
@@ -3042,7 +3014,7 @@
    },
    "mensal": {
     "inicio": "2026-11-01",
-    "fim": "2026-11-06",
+    "fim": "2026-11-07",
     "sinais": 8,
     "sinais_financeiros": 8,
     "ganhos": 2,
@@ -3494,12 +3466,12 @@
     }
    },
    "diario": {
-    "inicio": "2026-11-06",
-    "fim": "2026-11-06",
-    "sinais": 5,
-    "sinais_financeiros": 5,
-    "ganhos": 2,
-    "perdidos": 3,
+    "inicio": "2026-11-07",
+    "fim": "2026-11-07",
+    "sinais": 0,
+    "sinais_financeiros": 0,
+    "ganhos": 0,
+    "perdidos": 0,
     "push": 0,
     "pendentes": 0,
     "condicionais": 0,
@@ -3507,28 +3479,14 @@
     "condicionais_perdidos": 0,
     "condicionais_push": 0,
     "condicionais_pendentes": 0,
-    "wr": 40.0,
-    "lucro_u": -0.95,
-    "roi": -19.0,
-    "por_estrategia": {
-     "Sharp Pick": {
-      "n": 5,
-      "g": 2,
-      "p": 3,
-      "lucro": -0.95,
-      "condicionais": 0,
-      "condicionais_g": 0,
-      "condicionais_p": 0,
-      "condicionais_push": 0,
-      "condicionais_pendentes": 0,
-      "n_financeiros": 5,
-      "wr": 40.0
-     }
-    }
+    "wr": 0.0,
+    "lucro_u": 0.0,
+    "roi": 0.0,
+    "por_estrategia": {}
    },
    "semanal": {
     "inicio": "2026-11-02",
-    "fim": "2026-11-06",
+    "fim": "2026-11-07",
     "sinais": 5,
     "sinais_financeiros": 5,
     "ganhos": 2,
@@ -3561,7 +3519,7 @@
    },
    "mensal": {
     "inicio": "2026-11-01",
-    "fim": "2026-11-06",
+    "fim": "2026-11-07",
     "sinais": 5,
     "sinais_financeiros": 5,
     "ganhos": 2,
@@ -3943,32 +3901,7 @@
    "dias_verde_pct": 40.7
   }
  },
- "tip_do_dia": [
-  {
-   "hora": "19:30",
-   "liga": "Bundesliga",
-   "jogo": "Hamburg vs B. Monchengladbach",
-   "mercado": "Over 1.5 · 2ª parte",
-   "odd": 1.93,
-   "bilhete": "dupla",
-   "ticket_id": "prelive:2026-11-06:2",
-   "ticket_slot": 2,
-   "fire": true,
-   "resultado": "ganho"
-  },
-  {
-   "hora": "19:45",
-   "liga": "Ligue 1",
-   "jogo": "Toulouse vs Strasbourg",
-   "mercado": "Over 1.5 · 2ª parte",
-   "odd": 1.91,
-   "bilhete": "dupla",
-   "ticket_id": "prelive:2026-11-06:2",
-   "ticket_slot": 2,
-   "fire": true,
-   "resultado": "ganho"
-  }
- ],
+ "tip_do_dia": [],
  "por_estrategia": {
   "Golos (arquivo)": {
    "n": 31,
