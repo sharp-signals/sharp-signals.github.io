@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-07T17:36:56Z",
-  "event_chain_head": "5e2fbe6d322cc5a9788b9fa02fd9dcfa2096477a2d4bee97302ebdca61ff3c88",
+  "generated_at": "2026-11-07T18:01:19Z",
+  "event_chain_head": "8fd108cd6fd8a8ebb314d910005d0fa637d072639c3f385829770093b563bdab",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,9 +12,9 @@
   },
   "summary": {
     "total": 399,
-    "pending": 18,
+    "pending": 17,
     "signals_settled": 128,
-    "official_entries_settled": 226,
+    "official_entries_settled": 227,
     "cancelled": 42
   },
   "records": [
@@ -39,11 +39,34 @@
     {
       "id": "tip_proposal:20261107T171222455261Z:42f7e4d0",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-11-07T17:12:22Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "6e186f922998c6c776b59baa2495fa03a68cf5379f9e40930c7fce427c2e4b92",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-11-07T18:01:19Z",
+      "result": "VOID",
+      "outcome": {
+        "odds": 1.84,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": 0.0,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20261107T171222455261Z:42f7e4d0",
+        "market": "⛳ Over 3 corners · 1st half",
+        "match": "DAC x Kosice",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "ce1:1550188:final",
