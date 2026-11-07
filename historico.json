@@ -4936,5 +4936,27 @@
       "golos_apos_casa": 0,
       "golos_apos_fora": 2
     }
+  ],
+  "2026-11-07": [
+    {
+      "alerta_id": "ce1:1553220:mid",
+      "fixture_id": 1553220,
+      "timestamp": "2026-11-07T13:32:46.829892",
+      "jogo": "Korona Kielce vs Radomiak Radom",
+      "liga": "Ekstraklasa",
+      "janela": "MID PRESSURE",
+      "tempo_alerta": 68,
+      "estrelas": 8.5,
+      "cantos_no_ref": 13,
+      "cantos_final": 23,
+      "cantos_apos_alerta": 10,
+      "meta_cantos": 3,
+      "resultado": "VOID",
+      "resultado_tecnico": "VOID",
+      "estado_entrada": "CONFIRMADA",
+      "justificacao_void": "Não entrada — preço demasiado alto",
+      "golos_apos_casa": 0,
+      "golos_apos_fora": 2
+    }
   ]
 }
