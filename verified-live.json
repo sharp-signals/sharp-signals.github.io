@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-07T13:41:48Z",
-  "event_chain_head": "683559b0b5f526ac34989b8303b9a5cdbf568dd6b9439089408d6d9c6f3f9d7d",
+  "generated_at": "2026-11-07T13:51:45Z",
+  "event_chain_head": "ed20ec2e0b7a8e174b58df0610c63e5daf1da83f1a6656cbae8673923fe5650d",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,9 +12,9 @@
   },
   "summary": {
     "total": 391,
-    "pending": 17,
+    "pending": 16,
     "signals_settled": 126,
-    "official_entries_settled": 221,
+    "official_entries_settled": 222,
     "cancelled": 42
   },
   "records": [
@@ -30,11 +30,34 @@
     {
       "id": "tip_proposal:20261107T132742284176Z:35bf8cac",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-11-07T13:27:42Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "84c6517a4fdfe4dd79d7bdfa0670a53dbed5daaadf6b6bb074e4ac66efb4811a",
-      "telegram_message_count": 2
+      "telegram_message_count": 2,
+      "settled_at": "2026-11-07T13:51:45Z",
+      "result": "WIN",
+      "outcome": {
+        "odds": 1.97,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": 0.728,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20261107T132742284176Z:35bf8cac",
+        "market": "⛳ Over 10.5 corners · FT",
+        "match": "Zemun x Novi Beograd",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20261107T131835942511Z:e7d576b8",
