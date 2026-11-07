@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-07T13:27:42Z",
-  "event_chain_head": "b88677baa930eea1f8f5c5119f256874c236575ed5326cc5bfe4580f8054c2dc",
+  "generated_at": "2026-11-07T13:32:50Z",
+  "event_chain_head": "4ffb247111ef36f6196532c17dd272c595b106b58191198de55fd49407d71d5a",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,8 +12,8 @@
   },
   "summary": {
     "total": 390,
-    "pending": 19,
-    "signals_settled": 124,
+    "pending": 18,
+    "signals_settled": 125,
     "official_entries_settled": 220,
     "cancelled": 41
   },
@@ -39,11 +39,37 @@
     {
       "id": "ce1:1553220:mid",
       "kind": "signal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-11-07T12:45:43Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "d1159390184badb9cb9c26524435971d8ae393633aea8743d1eda4df53a1eb3e",
-      "telegram_message_count": 2
+      "telegram_message_count": 2,
+      "settled_at": "2026-11-07T13:32:50Z",
+      "result": "VOID",
+      "outcome": {
+        "corners_reference": 13,
+        "corners_final": 23,
+        "corners_after": 10,
+        "target": 3,
+        "technical_result": "VOID",
+        "entry_status": "confirmed",
+        "void_reason": "Não entrada — preço demasiado alto",
+        "approved_manually": true
+      },
+      "sealed_payload": {
+        "alert_id": "ce1:1553220:mid",
+        "classification": "scanner_signal_not_confirmed_bet",
+        "confidence": 8.5,
+        "corners_at_alert": 13,
+        "league": "Ekstraklasa",
+        "match": "Korona Kielce vs Radomiak Radom",
+        "minimum_price": 1.75,
+        "minute": 68,
+        "score_at_alert": "0-0",
+        "suggestion": "🎯 ENTRADA SUGERIDA\nOver 15.5 cantos · odd mín. 1.75+\n↳ se sair +1 canto: sobe p/ Over 16.5 ou espera o Over 16",
+        "window": "MID PRESSURE"
+      },
+      "commitment_valid": true
     },
     {
       "id": "ce1:1553220:shark",
