@@ -17,7 +17,7 @@
    "pode_nao_publicar": true
   }
  },
- "atualizado": "2026-11-07T06:13:13",
+ "atualizado": "2026-11-07T06:24:42",
  "dia_trading": "2026-11-07",
  "geral": {
   "inicio": "2026-06-06",
@@ -3901,7 +3901,32 @@
    "dias_verde_pct": 40.7
   }
  },
- "tip_do_dia": [],
+ "tip_do_dia": [
+  {
+   "hora": "15:45",
+   "liga": "NB I",
+   "jogo": "MTK Budapest vs Honved",
+   "mercado": "Over 1.5 · 2ª parte",
+   "odd": 1.85,
+   "bilhete": "dupla",
+   "ticket_id": "prelive:2026-11-07:2",
+   "ticket_slot": 2,
+   "fire": false,
+   "resultado": null
+  },
+  {
+   "hora": "01:00",
+   "liga": "Liga MX",
+   "jogo": "Tigres vs Cruz Azul",
+   "mercado": "Over 1.5 · 2ª parte",
+   "odd": 1.9,
+   "bilhete": "dupla",
+   "ticket_id": "prelive:2026-11-07:2",
+   "ticket_slot": 2,
+   "fire": false,
+   "resultado": null
+  }
+ ],
  "por_estrategia": {
   "Golos (arquivo)": {
    "n": 31,
@@ -3947,80 +3972,80 @@
   "nome": "Pré-Live Grátis",
   "descricao": "Bilhete partilhado no canal gratuito · até um por dia · 1u",
   "publication_scope": "free_confirmed_only",
-  "boletins": 33,
+  "boletins": 34,
   "greens": 6,
   "reds": 27,
-  "pendentes": 0,
+  "pendentes": 1,
   "lucro": 4.28,
   "ultimos": [
    {
-    "ticket_id": "prelive:2026-11-06:2",
+    "ticket_id": "prelive:2026-11-07:2",
     "ticket_slot": 2,
     "free_publication_confirmed": true,
     "publication_channel": "free",
-    "data": "2026-11-06",
+    "data": "2026-11-07",
     "tipo": "dupla",
-    "odd": 3.69,
-    "resultado": "green",
+    "odd": 3.52,
+    "resultado": null,
     "u": 1.0,
-    "published_at": "2026-11-06T10:43:41+00:00",
+    "published_at": "2026-11-07T06:15:53+00:00",
     "publication_confirmed": true,
     "pernas": [
      {
-      "fixture_id": 1575218,
-      "casa": "Hamburg",
-      "fora": "B. Monchengladbach",
+      "fixture_id": 1560275,
+      "casa": "MTK Budapest",
+      "fora": "Honved",
       "liga": null,
-      "hora": "19:30",
+      "hora": "15:45",
       "mercado": null,
-      "odd": 1.93,
-      "resultado": "ganho"
+      "odd": 1.85,
+      "resultado": null
      },
      {
-      "fixture_id": 1552817,
-      "casa": "Toulouse",
-      "fora": "Strasbourg",
+      "fixture_id": 1551033,
+      "casa": "Tigres",
+      "fora": "Cruz Azul",
       "liga": null,
-      "hora": "19:45",
+      "hora": "01:00",
       "mercado": null,
-      "odd": 1.91,
-      "resultado": "ganho"
+      "odd": 1.9,
+      "resultado": null
      }
     ]
    }
   ],
   "ultimo": {
-   "ticket_id": "prelive:2026-11-06:2",
+   "ticket_id": "prelive:2026-11-07:2",
    "ticket_slot": 2,
    "free_publication_confirmed": true,
    "publication_channel": "free",
-   "data": "2026-11-06",
+   "data": "2026-11-07",
    "tipo": "dupla",
-   "odd": 3.69,
-   "resultado": "green",
+   "odd": 3.52,
+   "resultado": null,
    "u": 1.0,
-   "published_at": "2026-11-06T10:43:41+00:00",
+   "published_at": "2026-11-07T06:15:53+00:00",
    "publication_confirmed": true,
    "pernas": [
     {
-     "fixture_id": 1575218,
-     "casa": "Hamburg",
-     "fora": "B. Monchengladbach",
+     "fixture_id": 1560275,
+     "casa": "MTK Budapest",
+     "fora": "Honved",
      "liga": null,
-     "hora": "19:30",
+     "hora": "15:45",
      "mercado": null,
-     "odd": 1.93,
-     "resultado": "ganho"
+     "odd": 1.85,
+     "resultado": null
     },
     {
-     "fixture_id": 1552817,
-     "casa": "Toulouse",
-     "fora": "Strasbourg",
+     "fixture_id": 1551033,
+     "casa": "Tigres",
+     "fora": "Cruz Azul",
      "liga": null,
-     "hora": "19:45",
+     "hora": "01:00",
      "mercado": null,
-     "odd": 1.91,
-     "resultado": "ganho"
+     "odd": 1.9,
+     "resultado": null
     }
    ]
   },
@@ -5327,6 +5352,41 @@
       "mercado": null,
       "odd": 1.91,
       "resultado": "ganho"
+     }
+    ]
+   },
+   {
+    "ticket_id": "prelive:2026-11-07:2",
+    "ticket_slot": 2,
+    "free_publication_confirmed": true,
+    "publication_channel": "free",
+    "data": "2026-11-07",
+    "tipo": "dupla",
+    "odd": 3.52,
+    "resultado": null,
+    "u": 1.0,
+    "published_at": "2026-11-07T06:15:53+00:00",
+    "publication_confirmed": true,
+    "pernas": [
+     {
+      "fixture_id": 1560275,
+      "casa": "MTK Budapest",
+      "fora": "Honved",
+      "liga": null,
+      "hora": "15:45",
+      "mercado": null,
+      "odd": 1.85,
+      "resultado": null
+     },
+     {
+      "fixture_id": 1551033,
+      "casa": "Tigres",
+      "fora": "Cruz Azul",
+      "liga": null,
+      "hora": "01:00",
+      "mercado": null,
+      "odd": 1.9,
+      "resultado": null
      }
     ]
    }
