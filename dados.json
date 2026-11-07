@@ -8,9 +8,9 @@
    "fim": "2026-01-31"
   },
   "cresc_pct": 56.91,
-  "apostas": 1250,
+  "apostas": 1251,
   "ganhos": 699,
-  "perdidos": 551,
+  "perdidos": 552,
   "wr": 55.9,
   "meses": [
    {
@@ -86,9 +86,9 @@
    {
     "mes": "2026-11",
     "label": "Nov 26",
-    "cresc_pct": -2.97,
-    "apostas": 18,
-    "wr": 38.9
+    "cresc_pct": -3.72,
+    "apostas": 19,
+    "wr": 36.8
    }
   ],
   "por_mercado": [
@@ -115,9 +115,9 @@
    },
    {
     "mercado": "Over cantos Individual",
-    "n": 76,
-    "wr": 47.4,
-    "roi": -6.92,
+    "n": 77,
+    "wr": 46.8,
+    "roi": -7.67,
     "pl_eur": -339.22
    },
    {
@@ -145,7 +145,6 @@
   "forma": [
    "ganho",
    "ganho",
-   "ganho",
    "perdido",
    "perdido",
    "perdido",
@@ -157,7 +156,8 @@
    "cashout",
    "perdido",
    "perdido",
-   "ganho"
+   "ganho",
+   "perdido"
   ],
   "historico": [
    {
@@ -182,13 +182,13 @@
     "jogo": "Belshina x Isloch",
     "mercado": "⛳ Over 9 corners · Isloch · FT",
     "categoria": "Over cantos Individual",
-    "odd": null,
-    "pl_pct": null,
+    "odd": 2.1,
+    "pl_pct": -0.75,
     "stake_pct": 0.75,
-    "resultado": "pendente",
+    "resultado": "perdido",
     "verified_id": "tip_proposal:20261107T131835942511Z:e7d576b8",
-    "estado_entrada": "aguarda_confirmacao",
-    "tipo_odd": "por_registar",
+    "estado_entrada": "confirmada",
+    "tipo_odd": "real",
     "odd_minima_recomendada": 1.81,
     "confianca": 7
    },
