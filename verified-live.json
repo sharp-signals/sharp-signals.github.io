@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-07T15:43:59Z",
-  "event_chain_head": "f575c2ba201e76b4e5b8a7fbb310a7058aa540a5b459d59578ca056820a7a0ee",
+  "generated_at": "2026-11-07T15:52:11Z",
+  "event_chain_head": "896bb2c9b475a41fed5245d5989e5f09f9f26bd4d2f82df2f11cd18fee662b41",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,9 +12,9 @@
   },
   "summary": {
     "total": 396,
-    "pending": 18,
+    "pending": 17,
     "signals_settled": 127,
-    "official_entries_settled": 224,
+    "official_entries_settled": 225,
     "cancelled": 42
   },
   "records": [
@@ -30,11 +30,34 @@
     {
       "id": "tip_proposal:20261107T154342116683Z:0fe30a0f",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-11-07T15:43:42Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "51f49aa8ca91297d12b02090d693e54fdff447daa4de42b4931b6bb0c05475c7",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-11-07T15:52:11Z",
+      "result": "WIN",
+      "outcome": {
+        "odds": 1.81,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": 0.608,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20261107T154342116683Z:0fe30a0f",
+        "market": "⛳ Over 7.5 corners · FT",
+        "match": "Slavia Sofia x Cherno More",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20261107T153901058045Z:0ec35dc1",
