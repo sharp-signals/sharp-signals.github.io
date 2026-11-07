@@ -5117,6 +5117,26 @@
       "justificacao_void": "",
       "golos_apos_casa": 0,
       "golos_apos_fora": 0
+    },
+    {
+      "alerta_id": "ce1:1581012:final",
+      "fixture_id": 1581012,
+      "timestamp": "2026-11-07T22:29:10.039941",
+      "jogo": "Saint-Malo W vs Marseille W",
+      "liga": "Feminine Division 1",
+      "janela": "FINAL PUSH",
+      "tempo_alerta": 78,
+      "estrelas": 10.0,
+      "cantos_no_ref": 7,
+      "cantos_final": 7,
+      "cantos_apos_alerta": 0,
+      "meta_cantos": 2,
+      "resultado": "CANCELADA",
+      "resultado_tecnico": "LOSS",
+      "estado_entrada": "CANCELADA",
+      "justificacao_void": "",
+      "golos_apos_casa": 0,
+      "golos_apos_fora": 1
     }
   ]
 }
