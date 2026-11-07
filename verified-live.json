@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-07T18:14:34Z",
-  "event_chain_head": "b427ea58d2cdd2dd89b08fa5f45ffc4508d898e8cd89d6bf0182cc97bbc610b6",
+  "generated_at": "2026-11-07T18:20:57Z",
+  "event_chain_head": "46705f400c6e45bda1eeff078b20acfee64ca67ff2c245feedba7adb9001f3de",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,9 +12,9 @@
   },
   "summary": {
     "total": 401,
-    "pending": 18,
+    "pending": 17,
     "signals_settled": 128,
-    "official_entries_settled": 228,
+    "official_entries_settled": 229,
     "cancelled": 42
   },
   "records": [
@@ -30,11 +30,34 @@
     {
       "id": "tip_proposal:20261107T181410448218Z:e8e4b07d",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-11-07T18:14:10Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "bb036c51ff3821c6709ba6202af6bf2823df71e23b13d6e42c34e0f2196d3a69",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-11-07T18:20:57Z",
+      "result": "WIN",
+      "outcome": {
+        "odds": 1.96,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": 1.2,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 8,
+        "entry_id": "tip_proposal:20261107T181410448218Z:e8e4b07d",
+        "market": "⛳ Over 9 corners · FT",
+        "match": "Ludogorets x CSKA Sofia",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 1.25
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20261107T173655839336Z:a960d994",
