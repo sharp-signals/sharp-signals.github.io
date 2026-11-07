@@ -5017,6 +5017,26 @@
       "justificacao_void": "Não entrada — preço demasiado alto",
       "golos_apos_casa": 0,
       "golos_apos_fora": 0
+    },
+    {
+      "alerta_id": "ce1:1553218:final",
+      "fixture_id": 1553218,
+      "timestamp": "2026-11-07T18:55:42.680410",
+      "jogo": "Gornik Zabrze vs Wieczysta Kraków",
+      "liga": "Ekstraklasa",
+      "janela": "FINAL PUSH",
+      "tempo_alerta": 79,
+      "estrelas": 7.5,
+      "cantos_no_ref": 8,
+      "cantos_final": 8,
+      "cantos_apos_alerta": 0,
+      "meta_cantos": 2,
+      "resultado": "VOID",
+      "resultado_tecnico": "VOID",
+      "estado_entrada": "CONFIRMADA",
+      "justificacao_void": "Não entrada — preço demasiado alto",
+      "golos_apos_casa": 1,
+      "golos_apos_fora": 0
     }
   ]
 }
