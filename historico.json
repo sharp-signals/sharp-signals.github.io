@@ -5057,6 +5057,26 @@
       "justificacao_void": "Não entrada — preço demasiado alto",
       "golos_apos_casa": 1,
       "golos_apos_fora": 2
+    },
+    {
+      "alerta_id": "ce1:1565300:mid",
+      "fixture_id": 1565300,
+      "timestamp": "2026-11-07T21:06:46.154609",
+      "jogo": "FCSB vs Corvinul Hunedoara",
+      "liga": "Liga I",
+      "janela": "MID PRESSURE",
+      "tempo_alerta": 69,
+      "estrelas": 8.0,
+      "cantos_no_ref": 6,
+      "cantos_final": 8,
+      "cantos_apos_alerta": 2,
+      "meta_cantos": 3,
+      "resultado": "LOSS",
+      "resultado_tecnico": "LOSS",
+      "estado_entrada": "CONFIRMADA",
+      "justificacao_void": "",
+      "golos_apos_casa": 0,
+      "golos_apos_fora": 0
     }
   ]
 }
