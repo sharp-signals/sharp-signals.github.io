@@ -8,8 +8,8 @@
    "fim": "2026-01-31"
   },
   "cresc_pct": 56.91,
-  "apostas": 1257,
-  "ganhos": 704,
+  "apostas": 1258,
+  "ganhos": 705,
   "perdidos": 553,
   "wr": 56.0,
   "meses": [
@@ -86,9 +86,9 @@
    {
     "mes": "2026-11",
     "label": "Nov 26",
-    "cresc_pct": -0.51,
-    "apostas": 25,
-    "wr": 48.0
+    "cresc_pct": 0.09,
+    "apostas": 26,
+    "wr": 50.0
    }
   ],
   "por_mercado": [
@@ -122,9 +122,9 @@
    },
    {
     "mercado": "Race to X corners",
-    "n": 51,
-    "wr": 68.6,
-    "roi": 10.59,
+    "n": 52,
+    "wr": 69.2,
+    "roi": 11.19,
     "pl_eur": 324.76
    },
    {
@@ -143,7 +143,6 @@
    }
   ],
   "forma": [
-   "perdido",
    "ganho",
    "ganho",
    "perdido",
@@ -157,6 +156,7 @@
    "perdido",
    "ganho",
    "ganho",
+   "ganho",
    "ganho"
   ],
   "historico": [
@@ -166,13 +166,13 @@
     "jogo": "DAC x Kosice",
     "mercado": "🏁 Race to 9 corners · DAC",
     "categoria": "Race to X corners",
-    "odd": null,
-    "pl_pct": null,
+    "odd": 1.8,
+    "pl_pct": 0.6,
     "stake_pct": 0.75,
-    "resultado": "pendente",
+    "resultado": "ganho",
     "verified_id": "tip_proposal:20261107T182640342797Z:51fbbde1",
-    "estado_entrada": "aguarda_confirmacao",
-    "tipo_odd": "por_registar",
+    "estado_entrada": "confirmada",
+    "tipo_odd": "real",
     "odd_minima_recomendada": 1.81,
     "confianca": 7
    },
