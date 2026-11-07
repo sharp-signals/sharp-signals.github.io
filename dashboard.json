@@ -17,7 +17,7 @@
    "pode_nao_publicar": true
   }
  },
- "atualizado": "2026-11-07T17:27:25",
+ "atualizado": "2026-11-07T17:57:44",
  "dia_trading": "2026-11-07",
  "geral": {
   "inicio": "2026-06-06",
@@ -3984,7 +3984,7 @@
    "ticket_id": "prelive:2026-11-07:2",
    "ticket_slot": 2,
    "fire": false,
-   "resultado": null
+   "resultado": "ganho"
   },
   {
    "hora": "01:00",
@@ -4071,7 +4071,7 @@
       "hora": "15:45",
       "mercado": null,
       "odd": 1.85,
-      "resultado": null
+      "resultado": "ganho"
      },
      {
       "fixture_id": 1551033,
@@ -4107,7 +4107,7 @@
      "hora": "15:45",
      "mercado": null,
      "odd": 1.85,
-     "resultado": null
+     "resultado": "ganho"
     },
     {
      "fixture_id": 1551033,
@@ -5448,7 +5448,7 @@
       "hora": "15:45",
       "mercado": null,
       "odd": 1.85,
-      "resultado": null
+      "resultado": "ganho"
      },
      {
       "fixture_id": 1551033,
