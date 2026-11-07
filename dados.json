@@ -8,8 +8,8 @@
    "fim": "2026-01-31"
   },
   "cresc_pct": 56.91,
-  "apostas": 1252,
-  "ganhos": 700,
+  "apostas": 1253,
+  "ganhos": 701,
   "perdidos": 552,
   "wr": 55.9,
   "meses": [
@@ -86,17 +86,17 @@
    {
     "mes": "2026-11",
     "label": "Nov 26",
-    "cresc_pct": -2.99,
-    "apostas": 20,
-    "wr": 40.0
+    "cresc_pct": -2.26,
+    "apostas": 21,
+    "wr": 42.9
    }
   ],
   "por_mercado": [
    {
     "mercado": "Over Cantos FT",
-    "n": 687,
+    "n": 688,
     "wr": 58.4,
-    "roi": 39.32,
+    "roi": 40.05,
     "pl_eur": 1369.94
    },
    {
@@ -143,7 +143,6 @@
    }
   ],
   "forma": [
-   "ganho",
    "perdido",
    "perdido",
    "perdido",
@@ -157,6 +156,7 @@
    "perdido",
    "ganho",
    "perdido",
+   "ganho",
    "ganho"
   ],
   "historico": [
@@ -166,13 +166,13 @@
     "jogo": "Zemun x Novi Beograd",
     "mercado": "⛳ Over 10 corners · FT",
     "categoria": "Over Cantos FT",
-    "odd": null,
-    "pl_pct": null,
+    "odd": 1.98,
+    "pl_pct": 0.735,
     "stake_pct": 0.75,
-    "resultado": "pendente",
+    "resultado": "ganho",
     "verified_id": "tip_proposal:20261107T134147756533Z:7d9a6d9d",
-    "estado_entrada": "aguarda_confirmacao",
-    "tipo_odd": "por_registar",
+    "estado_entrada": "confirmada",
+    "tipo_odd": "real",
     "odd_minima_recomendada": 1.81,
     "confianca": 7
    },
