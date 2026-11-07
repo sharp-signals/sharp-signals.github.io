@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-07T22:24:41Z",
-  "event_chain_head": "a2ea1a5361b7d3e5dfc07381b0824233788f41c0944a6e1fcc434e98571b1840",
+  "generated_at": "2026-11-07T22:24:57Z",
+  "event_chain_head": "8ac6a9541b9d82a70ed589235150af2bce7cd6832e76b564753904cc205b1556",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,8 +12,8 @@
   },
   "summary": {
     "total": 409,
-    "pending": 19,
-    "signals_settled": 132,
+    "pending": 18,
+    "signals_settled": 133,
     "official_entries_settled": 231,
     "cancelled": 42
   },
@@ -74,11 +74,37 @@
     {
       "id": "ce1:1575543:ht",
       "kind": "signal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-11-07T20:56:38Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "3bb4e21db1f90afe6b8b8c27db338525b98d404aa7de3479aa7725dc77a00876",
-      "telegram_message_count": 2
+      "telegram_message_count": 2,
+      "settled_at": "2026-11-07T22:24:56Z",
+      "result": "WIN",
+      "outcome": {
+        "corners_reference": 6,
+        "corners_final": 10,
+        "corners_after": 4,
+        "target": 2,
+        "technical_result": "WIN",
+        "entry_status": "confirmed",
+        "void_reason": "",
+        "approved_manually": true
+      },
+      "sealed_payload": {
+        "alert_id": "ce1:1575543:ht",
+        "classification": "scanner_signal_not_confirmed_bet",
+        "confidence": 7.5,
+        "corners_at_alert": 6,
+        "league": "Primeira Liga",
+        "match": "Sporting CP vs Moreirense",
+        "minimum_price": 1.75,
+        "minute": 26,
+        "score_at_alert": "0-0",
+        "suggestion": "🎯 ENTRADA SUGERIDA\nOver 7.5 cantos 1ª parte · odd mín. 1.75+\n↳ se sair +1 canto: sobe p/ Over 8.5 ou espera o Over 8",
+        "window": "HT ATTACK"
+      },
+      "commitment_valid": true
     },
     {
       "id": "ce1:1565300:mid",
