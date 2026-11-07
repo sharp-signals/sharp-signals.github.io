@@ -4977,6 +4977,26 @@
       "justificacao_void": "",
       "golos_apos_casa": 0,
       "golos_apos_fora": 2
+    },
+    {
+      "alerta_id": "ce1:1563262:final",
+      "fixture_id": 1563262,
+      "timestamp": "2026-11-07T14:50:32.161673",
+      "jogo": "Wrexham vs Wolves",
+      "liga": "Championship",
+      "janela": "FINAL PUSH",
+      "tempo_alerta": 78,
+      "estrelas": 8.5,
+      "cantos_no_ref": 9,
+      "cantos_final": 9,
+      "cantos_apos_alerta": 0,
+      "meta_cantos": 2,
+      "resultado": "LOSS",
+      "resultado_tecnico": "LOSS",
+      "estado_entrada": "CONFIRMADA",
+      "justificacao_void": "",
+      "golos_apos_casa": 0,
+      "golos_apos_fora": 0
     }
   ]
 }
