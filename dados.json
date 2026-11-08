@@ -8,8 +8,8 @@
    "fim": "2026-01-31"
   },
   "cresc_pct": 56.91,
-  "apostas": 1262,
-  "ganhos": 705,
+  "apostas": 1263,
+  "ganhos": 706,
   "perdidos": 557,
   "wr": 55.9,
   "meses": [
@@ -86,17 +86,17 @@
    {
     "mes": "2026-11",
     "label": "Nov 26",
-    "cresc_pct": -2.27,
-    "apostas": 30,
-    "wr": 43.3
+    "cresc_pct": -1.66,
+    "apostas": 31,
+    "wr": 45.2
    }
   ],
   "por_mercado": [
    {
     "mercado": "Over Cantos FT",
-    "n": 693,
-    "wr": 58.3,
-    "roi": 39.61,
+    "n": 694,
+    "wr": 58.4,
+    "roi": 40.22,
     "pl_eur": 1369.94
    },
    {
@@ -144,7 +144,6 @@
   ],
   "forma": [
    "perdido",
-   "perdido",
    "ganho",
    "perdido",
    "ganho",
@@ -157,7 +156,8 @@
    "cashout",
    "perdido",
    "perdido",
-   "perdido"
+   "perdido",
+   "ganho"
   ],
   "historico": [
    {
@@ -182,13 +182,13 @@
     "jogo": "Ajman Club x Baniyas",
     "mercado": "⛳ Over 7.5 corners · FT",
     "categoria": "Over Cantos FT",
-    "odd": null,
-    "pl_pct": null,
+    "odd": 1.81,
+    "pl_pct": 0.608,
     "stake_pct": 0.75,
-    "resultado": "pendente",
+    "resultado": "ganho",
     "verified_id": "tip_proposal:20261108T170226971238Z:602a1760",
-    "estado_entrada": "aguarda_confirmacao",
-    "tipo_odd": "por_registar",
+    "estado_entrada": "confirmada",
+    "tipo_odd": "real",
     "odd_minima_recomendada": 1.81,
     "confianca": 7
    },
