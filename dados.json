@@ -8,8 +8,8 @@
    "fim": "2026-01-31"
   },
   "cresc_pct": 56.91,
-  "apostas": 1264,
-  "ganhos": 706,
+  "apostas": 1265,
+  "ganhos": 707,
   "perdidos": 558,
   "wr": 55.9,
   "meses": [
@@ -86,9 +86,9 @@
    {
     "mes": "2026-11",
     "label": "Nov 26",
-    "cresc_pct": -2.41,
-    "apostas": 32,
-    "wr": 43.8
+    "cresc_pct": -1.74,
+    "apostas": 33,
+    "wr": 45.5
    }
   ],
   "por_mercado": [
@@ -115,9 +115,9 @@
    },
    {
     "mercado": "Over cantos Individual",
-    "n": 77,
-    "wr": 46.8,
-    "roi": -7.67,
+    "n": 78,
+    "wr": 47.4,
+    "roi": -7.0,
     "pl_eur": -339.22
    },
    {
@@ -143,7 +143,6 @@
    }
   ],
   "forma": [
-   "ganho",
    "perdido",
    "ganho",
    "ganho",
@@ -157,7 +156,8 @@
    "perdido",
    "perdido",
    "ganho",
-   "perdido"
+   "perdido",
+   "ganho"
   ],
   "historico": [
    {
@@ -166,13 +166,13 @@
     "jogo": "Guimaraes x Porto",
     "mercado": "⛳ Over 4.5 corners · Porto · FT",
     "categoria": "Over cantos Individual",
-    "odd": null,
-    "pl_pct": null,
+    "odd": 1.89,
+    "pl_pct": 0.667,
     "stake_pct": 0.75,
-    "resultado": "pendente",
+    "resultado": "ganho",
     "verified_id": "tip_proposal:20261108T194356259862Z:704a2768",
-    "estado_entrada": "aguarda_confirmacao",
-    "tipo_odd": "por_registar",
+    "estado_entrada": "confirmada",
+    "tipo_odd": "real",
     "odd_minima_recomendada": 1.81,
     "confianca": 7
    },
