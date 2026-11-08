@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-08T18:24:05Z",
-  "event_chain_head": "5d8976f769c9f168274dea246d48d7fa33adc9a98bd7ddfed598ac5adcd93623",
+  "generated_at": "2026-11-08T18:24:22Z",
+  "event_chain_head": "637dc472a5245fac102c874f439cfa5c8283d1c8f4f8bece4f45bd66a9a62ef2",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,20 +12,43 @@
   },
   "summary": {
     "total": 416,
-    "pending": 19,
+    "pending": 18,
     "signals_settled": 135,
-    "official_entries_settled": 235,
+    "official_entries_settled": 236,
     "cancelled": 43
   },
   "records": [
     {
       "id": "tip_proposal:20261108T171312338105Z:0b162548",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-11-08T17:13:12Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "49cecde27d4ff38277de0a8da41aa8514e684fb38519fc7c88e13b3c7ffd817d",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-11-08T18:24:22Z",
+      "result": "VOID",
+      "outcome": {
+        "odds": 1.81,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": 0.0,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20261108T171312338105Z:0b162548",
+        "market": "⛳ Over 5 corners · FT",
+        "match": "Iraklis x Panathinaikos",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20261108T170226971238Z:602a1760",
