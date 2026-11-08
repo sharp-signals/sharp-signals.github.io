@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-08T12:42:50Z",
-  "event_chain_head": "5a8c6f34dab73abe68edf887b5928be65490b623378428f2b46c4ca256d57f5c",
+  "generated_at": "2026-11-08T13:10:43Z",
+  "event_chain_head": "91a520448356f6155643790e60cc90597f4f65b33f462107a9fd5ef2e40d6789",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,20 +12,43 @@
   },
   "summary": {
     "total": 411,
-    "pending": 18,
+    "pending": 17,
     "signals_settled": 135,
-    "official_entries_settled": 231,
+    "official_entries_settled": 232,
     "cancelled": 43
   },
   "records": [
     {
       "id": "tip_proposal:20261108T124250148393Z:1af9b790",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-11-08T12:42:50Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "8226db2f31736ec89f181a4b341c898c266748fb87f882283b1a2339b08cd49a",
-      "telegram_message_count": 2
+      "telegram_message_count": 2,
+      "settled_at": "2026-11-08T13:10:43Z",
+      "result": "LOSS",
+      "outcome": {
+        "odds": 1.86,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": -0.75,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20261108T124250148393Z:1af9b790",
+        "market": "⛳ Over 6.5 corners · FT",
+        "match": "Heerenveen x Feyenoord",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "ce1:1639858:final",
