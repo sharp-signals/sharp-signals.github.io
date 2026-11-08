@@ -8,8 +8,8 @@
    "fim": "2026-01-31"
   },
   "cresc_pct": 56.91,
-  "apostas": 1268,
-  "ganhos": 709,
+  "apostas": 1269,
+  "ganhos": 710,
   "perdidos": 559,
   "wr": 55.9,
   "meses": [
@@ -86,17 +86,17 @@
    {
     "mes": "2026-11",
     "label": "Nov 26",
-    "cresc_pct": 0.34,
-    "apostas": 36,
-    "wr": 47.2
+    "cresc_pct": 0.97,
+    "apostas": 37,
+    "wr": 48.6
    }
   ],
   "por_mercado": [
    {
     "mercado": "Over Cantos FT",
-    "n": 696,
-    "wr": 58.3,
-    "roi": 40.52,
+    "n": 697,
+    "wr": 58.4,
+    "roi": 41.15,
     "pl_eur": 1369.94
    },
    {
@@ -143,7 +143,6 @@
    }
   ],
   "forma": [
-   "perdido",
    "ganho",
    "ganho",
    "ganho",
@@ -156,6 +155,7 @@
    "perdido",
    "ganho",
    "cashout",
+   "ganho",
    "ganho",
    "ganho"
   ],
@@ -166,13 +166,13 @@
     "jogo": "Estr. Amadora x Benfica",
     "mercado": "⛳ Over 8.5 corners · FT",
     "categoria": "Over Cantos FT",
-    "odd": null,
-    "pl_pct": null,
+    "odd": 1.84,
+    "pl_pct": 0.63,
     "stake_pct": 0.75,
-    "resultado": "pendente",
+    "resultado": "ganho",
     "verified_id": "tip_proposal:20261108T221828004330Z:7f432d62",
-    "estado_entrada": "aguarda_confirmacao",
-    "tipo_odd": "por_registar",
+    "estado_entrada": "confirmada",
+    "tipo_odd": "real",
     "odd_minima_recomendada": 1.81,
     "confianca": 7
    },
