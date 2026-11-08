@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-08T17:13:12Z",
-  "event_chain_head": "67591706a3b819bab3171d3a4577606d069bb6bbb9a46e00aa52a4f0bbc45041",
+  "generated_at": "2026-11-08T18:23:25Z",
+  "event_chain_head": "0557c76a0c45f02bba41b964ac6202d1ff458e3c954f7c9ce70cb7e66ef061a2",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,9 +12,9 @@
   },
   "summary": {
     "total": 416,
-    "pending": 22,
+    "pending": 21,
     "signals_settled": 135,
-    "official_entries_settled": 232,
+    "official_entries_settled": 233,
     "cancelled": 43
   },
   "records": [
@@ -48,11 +48,34 @@
     {
       "id": "tip_proposal:20261108T163509346676Z:a3a897c0",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-11-08T16:35:09Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "0b750777f4584acdd0d13c7da167eb97d341f55bbecc2867a17d3b64907a9590",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-11-08T18:23:25Z",
+      "result": "VOID",
+      "outcome": {
+        "odds": 1.81,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": 0.0,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20261108T163509346676Z:a3a897c0",
+        "market": "⛳ Over 2 corners · 1st half",
+        "match": "Partizan x Macva",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20261108T162227916106Z:8da5b0e3",
