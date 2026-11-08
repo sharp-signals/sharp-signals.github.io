@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-08T18:29:02Z",
-  "event_chain_head": "70a0357b291093d8d626ad21294b791254ba7475d1bd6365c7708a729bda1b3d",
+  "generated_at": "2026-11-08T18:50:06Z",
+  "event_chain_head": "adf372c77a646fc178a91e6ac9d5347993bfd4163494c7b3850e9577d67aff6c",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,20 +12,43 @@
   },
   "summary": {
     "total": 417,
-    "pending": 18,
+    "pending": 17,
     "signals_settled": 135,
-    "official_entries_settled": 237,
+    "official_entries_settled": 238,
     "cancelled": 43
   },
   "records": [
     {
       "id": "tip_proposal:20261108T182902051310Z:67d27ff8",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-11-08T18:29:02Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "84c0152baebe85c4839683527c5324423d4c49ce1827b6c7c66c832396f4f8a1",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-11-08T18:50:05Z",
+      "result": "VOID",
+      "outcome": {
+        "odds": 1.81,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": 0.0,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20261108T182902051310Z:67d27ff8",
+        "market": "⛳ Over 6 corners · FT",
+        "match": "CFR Cluj x Uni. Craiova",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20261108T171312338105Z:0b162548",
