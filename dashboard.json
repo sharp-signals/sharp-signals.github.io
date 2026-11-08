@@ -17,7 +17,7 @@
    "pode_nao_publicar": true
   }
  },
- "atualizado": "2026-11-08T06:12:48",
+ "atualizado": "2026-11-08T06:24:07",
  "dia_trading": "2026-11-08",
  "geral": {
   "inicio": "2026-06-06",
@@ -4015,7 +4015,32 @@
    "dias_verde_pct": 40.0
   }
  },
- "tip_do_dia": [],
+ "tip_do_dia": [
+  {
+   "hora": "13:00",
+   "liga": "Süper Lig",
+   "jogo": "Corum vs Fenerbahce",
+   "mercado": "Over 1.5 · 2ª parte",
+   "odd": 1.85,
+   "bilhete": "dupla",
+   "ticket_id": "prelive:2026-11-08:1",
+   "ticket_slot": 1,
+   "fire": true,
+   "resultado": null
+  },
+  {
+   "hora": "16:30",
+   "liga": "Bundesliga",
+   "jogo": "Freiburg vs Berlin",
+   "mercado": "Over 1.5 · 2ª parte",
+   "odd": 1.85,
+   "bilhete": "dupla",
+   "ticket_id": "prelive:2026-11-08:1",
+   "ticket_slot": 1,
+   "fire": true,
+   "resultado": null
+  }
+ ],
  "por_estrategia": {
   "Golos (arquivo)": {
    "n": 31,
@@ -4061,80 +4086,80 @@
   "nome": "Pré-Live Grátis",
   "descricao": "Bilhete partilhado no canal gratuito · até um por dia · 1u",
   "publication_scope": "free_confirmed_only",
-  "boletins": 34,
+  "boletins": 35,
   "greens": 7,
   "reds": 27,
-  "pendentes": 0,
+  "pendentes": 1,
   "lucro": 6.8,
   "ultimos": [
    {
-    "ticket_id": "prelive:2026-11-07:2",
-    "ticket_slot": 2,
+    "ticket_id": "prelive:2026-11-08:1",
+    "ticket_slot": 1,
     "free_publication_confirmed": true,
     "publication_channel": "free",
-    "data": "2026-11-07",
+    "data": "2026-11-08",
     "tipo": "dupla",
-    "odd": 3.52,
-    "resultado": "green",
+    "odd": 3.42,
+    "resultado": null,
     "u": 1.0,
-    "published_at": "2026-11-07T06:15:53+00:00",
+    "published_at": "2026-11-08T06:15:49+00:00",
     "publication_confirmed": true,
     "pernas": [
      {
-      "fixture_id": 1560275,
-      "casa": "MTK Budapest",
-      "fora": "Honved",
+      "fixture_id": 1584459,
+      "casa": "Corum",
+      "fora": "Fenerbahce",
       "liga": null,
-      "hora": "15:45",
+      "hora": "13:00",
       "mercado": null,
       "odd": 1.85,
-      "resultado": "ganho"
+      "resultado": null
      },
      {
-      "fixture_id": 1551033,
-      "casa": "Tigres",
-      "fora": "Cruz Azul",
+      "fixture_id": 1575216,
+      "casa": "Freiburg",
+      "fora": "Berlin",
       "liga": null,
-      "hora": "01:00",
+      "hora": "16:30",
       "mercado": null,
-      "odd": 1.9,
-      "resultado": "ganho"
+      "odd": 1.85,
+      "resultado": null
      }
     ]
    }
   ],
   "ultimo": {
-   "ticket_id": "prelive:2026-11-07:2",
-   "ticket_slot": 2,
+   "ticket_id": "prelive:2026-11-08:1",
+   "ticket_slot": 1,
    "free_publication_confirmed": true,
    "publication_channel": "free",
-   "data": "2026-11-07",
+   "data": "2026-11-08",
    "tipo": "dupla",
-   "odd": 3.52,
-   "resultado": "green",
+   "odd": 3.42,
+   "resultado": null,
    "u": 1.0,
-   "published_at": "2026-11-07T06:15:53+00:00",
+   "published_at": "2026-11-08T06:15:49+00:00",
    "publication_confirmed": true,
    "pernas": [
     {
-     "fixture_id": 1560275,
-     "casa": "MTK Budapest",
-     "fora": "Honved",
+     "fixture_id": 1584459,
+     "casa": "Corum",
+     "fora": "Fenerbahce",
      "liga": null,
-     "hora": "15:45",
+     "hora": "13:00",
      "mercado": null,
      "odd": 1.85,
-     "resultado": "ganho"
+     "resultado": null
     },
     {
-     "fixture_id": 1551033,
-     "casa": "Tigres",
-     "fora": "Cruz Azul",
+     "fixture_id": 1575216,
+     "casa": "Freiburg",
+     "fora": "Berlin",
      "liga": null,
-     "hora": "01:00",
+     "hora": "16:30",
      "mercado": null,
-     "odd": 1.9,
-     "resultado": "ganho"
+     "odd": 1.85,
+     "resultado": null
     }
    ]
   },
@@ -5476,6 +5501,41 @@
       "mercado": null,
       "odd": 1.9,
       "resultado": "ganho"
+     }
+    ]
+   },
+   {
+    "ticket_id": "prelive:2026-11-08:1",
+    "ticket_slot": 1,
+    "free_publication_confirmed": true,
+    "publication_channel": "free",
+    "data": "2026-11-08",
+    "tipo": "dupla",
+    "odd": 3.42,
+    "resultado": null,
+    "u": 1.0,
+    "published_at": "2026-11-08T06:15:49+00:00",
+    "publication_confirmed": true,
+    "pernas": [
+     {
+      "fixture_id": 1584459,
+      "casa": "Corum",
+      "fora": "Fenerbahce",
+      "liga": null,
+      "hora": "13:00",
+      "mercado": null,
+      "odd": 1.85,
+      "resultado": null
+     },
+     {
+      "fixture_id": 1575216,
+      "casa": "Freiburg",
+      "fora": "Berlin",
+      "liga": null,
+      "hora": "16:30",
+      "mercado": null,
+      "odd": 1.85,
+      "resultado": null
      }
     ]
    }
