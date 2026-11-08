@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-08T22:18:28Z",
-  "event_chain_head": "3c3f40e792271b82c6a46430b78107c5b1675fdc67ed0887217a3612a12ca8a5",
+  "generated_at": "2026-11-08T22:23:46Z",
+  "event_chain_head": "f5f648bfffa8d72fa89b8dd3acb8ae06ce7810eef6004c90d55d034b5e659999",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,20 +12,43 @@
   },
   "summary": {
     "total": 424,
-    "pending": 18,
+    "pending": 17,
     "signals_settled": 135,
-    "official_entries_settled": 243,
+    "official_entries_settled": 244,
     "cancelled": 44
   },
   "records": [
     {
       "id": "tip_proposal:20261108T221828004330Z:7f432d62",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-11-08T22:18:28Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "1a4773be6c7878356b0f6108d82f44b618ad36355a4726d951841da4acfe03c5",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-11-08T22:23:46Z",
+      "result": "WIN",
+      "outcome": {
+        "odds": 1.84,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": 0.63,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20261108T221828004330Z:7f432d62",
+        "market": "⛳ Over 8.5 corners · FT",
+        "match": "Estr. Amadora x Benfica",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20261108T220738886914Z:8265d721",
