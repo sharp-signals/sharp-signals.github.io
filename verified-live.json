@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-08T22:07:39Z",
-  "event_chain_head": "fbbd39ba8e625860d183cf3ee957a60f971a6e3e386ac0a031e27ac575f9dcaa",
+  "generated_at": "2026-11-08T22:16:48Z",
+  "event_chain_head": "05e068336d5deb7ad3615272f49f677f6cea12248c8046aab02d14573c95d31c",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,9 +12,9 @@
   },
   "summary": {
     "total": 423,
-    "pending": 19,
+    "pending": 18,
     "signals_settled": 135,
-    "official_entries_settled": 241,
+    "official_entries_settled": 242,
     "cancelled": 44
   },
   "records": [
@@ -30,11 +30,34 @@
     {
       "id": "tip_proposal:20261108T220714195891Z:91f390be",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-11-08T22:07:14Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "6714cb6952db209ccaec491ee98be722714de33a622d09fc89b5a49fbe24238a",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-11-08T22:16:48Z",
+      "result": "WIN",
+      "outcome": {
+        "odds": 2.62,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": 1.215,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20261108T220714195891Z:91f390be",
+        "market": "🏁 Race to 7 corners · Benfica",
+        "match": "Estr. Amadora x Benfica",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20261108T214811537843Z:16503e14",
