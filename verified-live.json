@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-08T19:57:30Z",
-  "event_chain_head": "83f0be39f9139c3c8374a4f414f34ffe12817dff345349a5681fa77e79eec291",
+  "generated_at": "2026-11-08T19:57:41Z",
+  "event_chain_head": "a98645c8c739468c8ad028b3b16fe29b3e96a7740f8779324d66513a907fafd1",
   "event_chain_algorithm": "SHA-256 linked events",
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -12,20 +12,43 @@
   },
   "summary": {
     "total": 419,
-    "pending": 17,
+    "pending": 16,
     "signals_settled": 135,
-    "official_entries_settled": 239,
+    "official_entries_settled": 240,
     "cancelled": 44
   },
   "records": [
     {
       "id": "tip_proposal:20261108T194356259862Z:704a2768",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-11-08T19:43:56Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "0f684a6711bbf54f646102c4b718cf78b1102dddbe0a8ac115ca917fe9e93848",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-11-08T19:57:41Z",
+      "result": "WIN",
+      "outcome": {
+        "odds": 1.89,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": 0.667,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20261108T194356259862Z:704a2768",
+        "market": "⛳ Over 4.5 corners · Porto · FT",
+        "match": "Guimaraes x Porto",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20261108T190003508633Z:6181980e",
