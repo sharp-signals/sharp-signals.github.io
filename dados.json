@@ -8,10 +8,10 @@
    "fim": "2026-01-31"
   },
   "cresc_pct": 56.91,
-  "apostas": 1266,
-  "ganhos": 707,
+  "apostas": 1267,
+  "ganhos": 708,
   "perdidos": 559,
-  "wr": 55.8,
+  "wr": 55.9,
   "meses": [
    {
     "mes": "2025-08",
@@ -86,9 +86,9 @@
    {
     "mes": "2026-11",
     "label": "Nov 26",
-    "cresc_pct": -1.93,
-    "apostas": 34,
-    "wr": 44.1
+    "cresc_pct": -0.71,
+    "apostas": 35,
+    "wr": 45.7
    }
   ],
   "por_mercado": [
@@ -122,9 +122,9 @@
    },
    {
     "mercado": "Race to X corners",
-    "n": 52,
-    "wr": 69.2,
-    "roi": 11.19,
+    "n": 53,
+    "wr": 69.8,
+    "roi": 12.4,
     "pl_eur": 324.76
    },
    {
@@ -144,7 +144,6 @@
   ],
   "forma": [
    "ganho",
-   "ganho",
    "perdido",
    "ganho",
    "ganho",
@@ -157,7 +156,8 @@
    "ganho",
    "perdido",
    "ganho",
-   "cashout"
+   "cashout",
+   "ganho"
   ],
   "historico": [
    {
@@ -182,13 +182,13 @@
     "jogo": "Estr. Amadora x Benfica",
     "mercado": "🏁 Race to 7 corners · Benfica",
     "categoria": "Race to X corners",
-    "odd": null,
-    "pl_pct": null,
+    "odd": 2.62,
+    "pl_pct": 1.215,
     "stake_pct": 0.75,
-    "resultado": "pendente",
+    "resultado": "ganho",
     "verified_id": "tip_proposal:20261108T220714195891Z:91f390be",
-    "estado_entrada": "aguarda_confirmacao",
-    "tipo_odd": "por_registar",
+    "estado_entrada": "confirmada",
+    "tipo_odd": "real",
     "odd_minima_recomendada": 1.81,
     "confianca": 7
    },
