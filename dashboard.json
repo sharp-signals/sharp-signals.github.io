@@ -17,7 +17,7 @@
    "pode_nao_publicar": true
   }
  },
- "atualizado": "2026-11-09T06:06:31",
+ "atualizado": "2026-11-09T06:16:58",
  "dia_trading": "2026-11-09",
  "geral": {
   "inicio": "2026-06-06",
@@ -3891,7 +3891,32 @@
    "dias_verde_pct": 40.0
   }
  },
- "tip_do_dia": [],
+ "tip_do_dia": [
+  {
+   "hora": "17:00",
+   "liga": "Prva Liga",
+   "jogo": "Ivanjica vs Backa Topola",
+   "mercado": "Over 1.5 · 2ª parte",
+   "odd": 1.98,
+   "bilhete": "dupla",
+   "ticket_id": "prelive:2026-11-09:1",
+   "ticket_slot": 1,
+   "fire": false,
+   "resultado": null
+  },
+  {
+   "hora": "15:30",
+   "liga": "Vtora Liga",
+   "jogo": "Fratria vs Svoge",
+   "mercado": "Over 1.5 · 2ª parte",
+   "odd": 1.96,
+   "bilhete": "dupla",
+   "ticket_id": "prelive:2026-11-09:1",
+   "ticket_slot": 1,
+   "fire": false,
+   "resultado": null
+  }
+ ],
  "por_estrategia": {
   "Golos (arquivo)": {
    "n": 31,
@@ -3937,80 +3962,80 @@
   "nome": "Pré-Live Grátis",
   "descricao": "Bilhete partilhado no canal gratuito · até um por dia · 1u",
   "publication_scope": "free_confirmed_only",
-  "boletins": 35,
+  "boletins": 36,
   "greens": 8,
   "reds": 27,
-  "pendentes": 0,
+  "pendentes": 1,
   "lucro": 9.22,
   "ultimos": [
    {
-    "ticket_id": "prelive:2026-11-08:1",
+    "ticket_id": "prelive:2026-11-09:1",
     "ticket_slot": 1,
     "free_publication_confirmed": true,
     "publication_channel": "free",
-    "data": "2026-11-08",
+    "data": "2026-11-09",
     "tipo": "dupla",
-    "odd": 3.42,
-    "resultado": "green",
+    "odd": 3.88,
+    "resultado": null,
     "u": 1.0,
-    "published_at": "2026-11-08T06:15:49+00:00",
+    "published_at": "2026-11-09T06:15:49+00:00",
     "publication_confirmed": true,
     "pernas": [
      {
-      "fixture_id": 1584459,
-      "casa": "Corum",
-      "fora": "Fenerbahce",
+      "fixture_id": 1554211,
+      "casa": "Ivanjica",
+      "fora": "Backa Topola",
       "liga": null,
-      "hora": "13:00",
+      "hora": "17:00",
       "mercado": null,
-      "odd": 1.85,
-      "resultado": "ganho"
+      "odd": 1.98,
+      "resultado": null
      },
      {
-      "fixture_id": 1575216,
-      "casa": "Freiburg",
-      "fora": "Berlin",
+      "fixture_id": 1571614,
+      "casa": "Fratria",
+      "fora": "Svoge",
       "liga": null,
-      "hora": "16:30",
+      "hora": "15:30",
       "mercado": null,
-      "odd": 1.85,
-      "resultado": "ganho"
+      "odd": 1.96,
+      "resultado": null
      }
     ]
    }
   ],
   "ultimo": {
-   "ticket_id": "prelive:2026-11-08:1",
+   "ticket_id": "prelive:2026-11-09:1",
    "ticket_slot": 1,
    "free_publication_confirmed": true,
    "publication_channel": "free",
-   "data": "2026-11-08",
+   "data": "2026-11-09",
    "tipo": "dupla",
-   "odd": 3.42,
-   "resultado": "green",
+   "odd": 3.88,
+   "resultado": null,
    "u": 1.0,
-   "published_at": "2026-11-08T06:15:49+00:00",
+   "published_at": "2026-11-09T06:15:49+00:00",
    "publication_confirmed": true,
    "pernas": [
     {
-     "fixture_id": 1584459,
-     "casa": "Corum",
-     "fora": "Fenerbahce",
+     "fixture_id": 1554211,
+     "casa": "Ivanjica",
+     "fora": "Backa Topola",
      "liga": null,
-     "hora": "13:00",
+     "hora": "17:00",
      "mercado": null,
-     "odd": 1.85,
-     "resultado": "ganho"
+     "odd": 1.98,
+     "resultado": null
     },
     {
-     "fixture_id": 1575216,
-     "casa": "Freiburg",
-     "fora": "Berlin",
+     "fixture_id": 1571614,
+     "casa": "Fratria",
+     "fora": "Svoge",
      "liga": null,
-     "hora": "16:30",
+     "hora": "15:30",
      "mercado": null,
-     "odd": 1.85,
-     "resultado": "ganho"
+     "odd": 1.96,
+     "resultado": null
     }
    ]
   },
@@ -5387,6 +5412,41 @@
       "mercado": null,
       "odd": 1.85,
       "resultado": "ganho"
+     }
+    ]
+   },
+   {
+    "ticket_id": "prelive:2026-11-09:1",
+    "ticket_slot": 1,
+    "free_publication_confirmed": true,
+    "publication_channel": "free",
+    "data": "2026-11-09",
+    "tipo": "dupla",
+    "odd": 3.88,
+    "resultado": null,
+    "u": 1.0,
+    "published_at": "2026-11-09T06:15:49+00:00",
+    "publication_confirmed": true,
+    "pernas": [
+     {
+      "fixture_id": 1554211,
+      "casa": "Ivanjica",
+      "fora": "Backa Topola",
+      "liga": null,
+      "hora": "17:00",
+      "mercado": null,
+      "odd": 1.98,
+      "resultado": null
+     },
+     {
+      "fixture_id": 1571614,
+      "casa": "Fratria",
+      "fora": "Svoge",
+      "liga": null,
+      "hora": "15:30",
+      "mercado": null,
+      "odd": 1.96,
+      "resultado": null
      }
     ]
    }
