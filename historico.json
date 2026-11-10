@@ -5160,5 +5160,27 @@
       "golos_apos_casa": 0,
       "golos_apos_fora": 0
     }
+  ],
+  "2026-11-10": [
+    {
+      "alerta_id": "ce1:1638328:ht",
+      "fixture_id": 1638328,
+      "timestamp": "2026-11-10T21:33:03.802591",
+      "jogo": "Paris Saint Germain W vs Bayern Munich W",
+      "liga": "UEFA Champions League Women",
+      "janela": "HT ATTACK",
+      "tempo_alerta": 26,
+      "estrelas": 7.5,
+      "cantos_no_ref": 3,
+      "cantos_final": 5,
+      "cantos_apos_alerta": 2,
+      "meta_cantos": 2,
+      "resultado": "VOID",
+      "resultado_tecnico": "VOID",
+      "estado_entrada": "CONFIRMADA",
+      "justificacao_void": "Saída em contra-aposta após golo do favorito",
+      "golos_apos_casa": 0,
+      "golos_apos_fora": 2
+    }
   ]
 }
