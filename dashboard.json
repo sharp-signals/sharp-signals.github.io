@@ -17,8 +17,8 @@
    "pode_nao_publicar": true
   }
  },
- "atualizado": "2026-11-09T20:00:59",
- "dia_trading": "2026-11-09",
+ "atualizado": "2026-11-10T06:05:33",
+ "dia_trading": "2026-11-10",
  "geral": {
   "inicio": "2026-06-06",
   "fim": "2026-11-08",
@@ -113,8 +113,8 @@
   "desde": "2026-06-21"
  },
  "diario": {
-  "inicio": "2026-11-09",
-  "fim": "2026-11-09",
+  "inicio": "2026-11-10",
+  "fim": "2026-11-10",
   "sinais": 0,
   "sinais_financeiros": 0,
   "ganhos": 0,
@@ -133,7 +133,7 @@
  },
  "semanal": {
   "inicio": "2026-11-09",
-  "fim": "2026-11-09",
+  "fim": "2026-11-10",
   "sinais": 0,
   "sinais_financeiros": 0,
   "ganhos": 0,
@@ -152,7 +152,7 @@
  },
  "mensal": {
   "inicio": "2026-11-01",
-  "fim": "2026-11-09",
+  "fim": "2026-11-10",
   "sinais": 27,
   "sinais_financeiros": 27,
   "ganhos": 11,
@@ -2118,8 +2118,8 @@
     }
    },
    "diario": {
-    "inicio": "2026-11-09",
-    "fim": "2026-11-09",
+    "inicio": "2026-11-10",
+    "fim": "2026-11-10",
     "sinais": 0,
     "sinais_financeiros": 0,
     "ganhos": 0,
@@ -2138,7 +2138,7 @@
    },
    "semanal": {
     "inicio": "2026-11-09",
-    "fim": "2026-11-09",
+    "fim": "2026-11-10",
     "sinais": 0,
     "sinais_financeiros": 0,
     "ganhos": 0,
@@ -2157,7 +2157,7 @@
    },
    "mensal": {
     "inicio": "2026-11-01",
-    "fim": "2026-11-09",
+    "fim": "2026-11-10",
     "sinais": 27,
     "sinais_financeiros": 27,
     "ganhos": 11,
@@ -2826,8 +2826,8 @@
     }
    },
    "diario": {
-    "inicio": "2026-11-09",
-    "fim": "2026-11-09",
+    "inicio": "2026-11-10",
+    "fim": "2026-11-10",
     "sinais": 0,
     "sinais_financeiros": 0,
     "ganhos": 0,
@@ -2846,7 +2846,7 @@
    },
    "semanal": {
     "inicio": "2026-11-09",
-    "fim": "2026-11-09",
+    "fim": "2026-11-10",
     "sinais": 0,
     "sinais_financeiros": 0,
     "ganhos": 0,
@@ -2865,7 +2865,7 @@
    },
    "mensal": {
     "inicio": "2026-11-01",
-    "fim": "2026-11-09",
+    "fim": "2026-11-10",
     "sinais": 0,
     "sinais_financeiros": 0,
     "ganhos": 0,
@@ -2961,8 +2961,8 @@
     }
    },
    "diario": {
-    "inicio": "2026-11-09",
-    "fim": "2026-11-09",
+    "inicio": "2026-11-10",
+    "fim": "2026-11-10",
     "sinais": 0,
     "sinais_financeiros": 0,
     "ganhos": 0,
@@ -2981,7 +2981,7 @@
    },
    "semanal": {
     "inicio": "2026-11-09",
-    "fim": "2026-11-09",
+    "fim": "2026-11-10",
     "sinais": 0,
     "sinais_financeiros": 0,
     "ganhos": 0,
@@ -3000,7 +3000,7 @@
    },
    "mensal": {
     "inicio": "2026-11-01",
-    "fim": "2026-11-09",
+    "fim": "2026-11-10",
     "sinais": 19,
     "sinais_financeiros": 19,
     "ganhos": 8,
@@ -3464,8 +3464,8 @@
     }
    },
    "diario": {
-    "inicio": "2026-11-09",
-    "fim": "2026-11-09",
+    "inicio": "2026-11-10",
+    "fim": "2026-11-10",
     "sinais": 0,
     "sinais_financeiros": 0,
     "ganhos": 0,
@@ -3484,7 +3484,7 @@
    },
    "semanal": {
     "inicio": "2026-11-09",
-    "fim": "2026-11-09",
+    "fim": "2026-11-10",
     "sinais": 0,
     "sinais_financeiros": 0,
     "ganhos": 0,
@@ -3503,7 +3503,7 @@
    },
    "mensal": {
     "inicio": "2026-11-01",
-    "fim": "2026-11-09",
+    "fim": "2026-11-10",
     "sinais": 8,
     "sinais_financeiros": 8,
     "ganhos": 3,
@@ -3891,32 +3891,7 @@
    "dias_verde_pct": 40.0
   }
  },
- "tip_do_dia": [
-  {
-   "hora": "17:00",
-   "liga": "Prva Liga",
-   "jogo": "Ivanjica vs Backa Topola",
-   "mercado": "Over 1.5 · 2ª parte",
-   "odd": 1.98,
-   "bilhete": "dupla",
-   "ticket_id": "prelive:2026-11-09:1",
-   "ticket_slot": 1,
-   "fire": false,
-   "resultado": "perdido"
-  },
-  {
-   "hora": "15:30",
-   "liga": "Vtora Liga",
-   "jogo": "Fratria vs Svoge",
-   "mercado": "Over 1.5 · 2ª parte",
-   "odd": 1.96,
-   "bilhete": "dupla",
-   "ticket_id": "prelive:2026-11-09:1",
-   "ticket_slot": 1,
-   "fire": false,
-   "resultado": "ganho"
-  }
- ],
+ "tip_do_dia": [],
  "por_estrategia": {
   "Golos (arquivo)": {
    "n": 31,
