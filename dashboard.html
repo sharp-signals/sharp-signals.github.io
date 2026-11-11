@@ -441,7 +441,7 @@ function vistaTips(d){
       <b>Note on counter-bets:</b> this is a defensive exit after a real entry. It is not a VOID: it is logged as a loss and, when the exact value is unavailable, uses the historical reference of 15% of the original stake.
     </div>
     <div class="pgnote" style="margin-top:8px;line-height:1.5">
-      <b>Note on odds:</b> a tip may be published before the market reaches the intended price. An entry is only confirmed when its real odd is logged; bot entries use 1.81 as the minimum reference. The 1.84 odd remains only the historical average for older personal tips.
+      <b>Note on odds:</b> a tip may be published before the market reaches the intended price. An entry is only confirmed when its real odd is logged; bot entries use 1.80+ as the minimum reference. The 1.84 odd remains only the historical average for older personal tips.
     </div>`;
 
   const vis=d.historico.slice((PAG-1)*POR_PAG, PAG*POR_PAG);
