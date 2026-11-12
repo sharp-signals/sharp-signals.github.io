@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-12T19:46:02Z",
-  "event_chain_head": "4cc1f517a656bd2773bc25bf361df7159bf75ea63224c321e5da3a82360eb4a8",
+  "generated_at": "2026-11-12T19:46:34Z",
+  "event_chain_head": "1bf37809f372180e99d71c35c5c23c78facf59ba9f2be0e17e007230057fc4bb",
   "event_chain_algorithm": "SHA-256 linked events",
   "event_chain_integrity": {
     "status": "valid_from_checkpoint",
-    "events": 844,
+    "events": 845,
     "broken_links": [],
     "content_hash_mismatches": [
       {
@@ -142,7 +142,7 @@
       }
     ],
     "unacknowledged_content_hashes": [],
-    "head": "4cc1f517a656bd2773bc25bf361df7159bf75ea63224c321e5da3a82360eb4a8"
+    "head": "1bf37809f372180e99d71c35c5c23c78facf59ba9f2be0e17e007230057fc4bb"
   },
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -153,20 +153,43 @@
   },
   "summary": {
     "total": 431,
-    "pending": 20,
+    "pending": 19,
     "signals_settled": 137,
-    "official_entries_settled": 246,
+    "official_entries_settled": 247,
     "cancelled": 45
   },
   "records": [
     {
       "id": "tip_proposal:20261112T193904264040Z:81d0ba96",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-11-12T19:39:04Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "b0416a7a6acc65e83cf1bc833cac387ae76346b4e16a6eb33f6bb965529f5456",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-11-12T19:46:34Z",
+      "result": "WIN",
+      "outcome": {
+        "odds": 1.92,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": 0.69,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20261112T193904264040Z:81d0ba96",
+        "market": "⛳ Over 6 corners · FT",
+        "match": "Tarancom x Levante",
+        "minimum_recommended_odds": 1.8,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20261112T193714344748Z:2b86e778",
