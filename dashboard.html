@@ -133,12 +133,13 @@ header.top{text-align:center;padding:34px 0 8px}
 .equity-toggle:hover{border-color:var(--series);color:var(--txt)}.equity-toggle.on{color:var(--txt);border-color:var(--series);background:rgba(255,255,255,.055)}
 .equity-swatch{width:9px;height:9px;border-radius:50%;background:var(--series);box-shadow:0 0 9px var(--series)}
 .equity-toggle:not(.on) .equity-swatch{background:transparent;border:1px solid var(--series);box-shadow:none}
-.equity-chart{position:relative;height:330px;border:1px solid rgba(255,255,255,.07);border-radius:13px;background:linear-gradient(180deg,rgba(4,11,22,.8),rgba(8,19,36,.6));overflow:hidden}
-.equity-chart svg{display:block;width:100%;height:100%}.equity-grid{stroke:rgba(255,255,255,.07);stroke-width:1}.equity-zero{stroke:rgba(201,162,39,.38);stroke-width:1.2;stroke-dasharray:5 6}.equity-axis{fill:#7f8da5;font:10px 'Raleway',sans-serif}
-.equity-line{fill:none;stroke-width:2.6;stroke-linecap:round;stroke-linejoin:round;vector-effect:non-scaling-stroke;filter:drop-shadow(0 0 4px rgba(0,0,0,.45))}.equity-line.primary{stroke-width:3.5}
+.equity-chart{position:relative;height:330px;border:1px solid rgba(201,162,39,.16);border-radius:16px;background:radial-gradient(circle at 72% 0,rgba(39,194,255,.08),transparent 38%),linear-gradient(180deg,rgba(4,11,22,.9),rgba(8,19,36,.66));overflow:hidden;box-shadow:inset 0 1px 0 rgba(255,255,255,.025)}
+.equity-chart svg{display:block;width:100%;height:100%}.equity-grid{stroke:rgba(157,177,204,.11);stroke-width:1;stroke-dasharray:2 7}.equity-zero{stroke:rgba(231,195,90,.5);stroke-width:1.15;stroke-dasharray:4 7}.equity-axis{fill:#8796ad;font:10px 'Raleway',sans-serif}
+.equity-line{fill:none;stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round;vector-effect:non-scaling-stroke;filter:drop-shadow(0 0 5px color-mix(in srgb,var(--curve) 38%,transparent))}.equity-line.primary{stroke-width:3.5}.equity-area{pointer-events:none;opacity:.72}.equity-end-label{font:600 10px 'Raleway',sans-serif;paint-order:stroke;stroke:#06101d;stroke-width:4px;stroke-linejoin:round}.equity-end-value{font:700 10px 'Cinzel',serif;paint-order:stroke;stroke:#06101d;stroke-width:4px;stroke-linejoin:round}
 .equity-hover{fill:transparent;stroke:transparent;stroke-width:18;cursor:crosshair;pointer-events:stroke}.equity-dot{stroke:#07101d;stroke-width:2;pointer-events:none}
 .equity-tip{position:absolute;z-index:5;display:none;min-width:190px;max-width:260px;padding:10px 12px;border-radius:10px;background:rgba(4,10,20,.96);border:1px solid rgba(201,162,39,.35);box-shadow:0 12px 28px rgba(0,0,0,.42);pointer-events:none;font-size:11px;color:var(--muted)}
 .equity-tip b{display:block;color:var(--txt);font-size:12px;margin-bottom:4px}.equity-tip .et-val{font-family:'Cinzel',serif;font-size:16px;font-weight:700;margin-top:5px}.equity-note{font-size:10.5px;color:rgba(248,244,237,.48);line-height:1.5;margin-top:10px}
+.bankroll-curve{margin-top:16px}.bankroll-curve-head{display:flex;justify-content:space-between;align-items:end;gap:12px;margin-bottom:8px}.bankroll-curve-title{font-family:'Cinzel',serif;color:var(--gold3);font-size:13px;font-weight:700}.bankroll-curve-sub{font-size:10px;color:var(--muted);margin-top:3px}.bankroll-dd{text-align:right}.bankroll-dd span{display:block;font-size:9px;letter-spacing:1.1px;text-transform:uppercase;color:var(--muted)}.bankroll-dd b{font-family:'Cinzel',serif;color:var(--red);font-size:14px}.bankroll-chart{position:relative;height:230px;border:1px solid rgba(201,162,39,.16);border-radius:14px;background:radial-gradient(circle at 72% 0,rgba(39,194,255,.07),transparent 42%),rgba(4,11,22,.62);overflow:hidden}.bankroll-chart svg{display:block;width:100%;height:100%}.bankroll-line{fill:none;stroke:#e7c35a;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;vector-effect:non-scaling-stroke;filter:drop-shadow(0 0 6px rgba(231,195,90,.32))}.bankroll-area{fill:url(#bankrollAurora);opacity:.72}.bankroll-dot{fill:#e7c35a;stroke:#07101d;stroke-width:2}.bankroll-empty{height:120px;display:grid;place-items:center;color:var(--muted);font-size:12px}
 @media(max-width:700px){.equity-card{padding:14px}.equity-chart{height:280px}.equity-kpis{width:100%;justify-content:space-between}.equity-kpi{text-align:left}.equity-toggle{padding:6px 8px;font-size:10px}}
 
 .bars{display:flex;align-items:stretch;gap:10px;height:210px;padding:14px 4px 0}
@@ -310,23 +311,23 @@ function resumoTips(raw){
   return {...raw,historico,ganhos,perdidos,cashouts,voids,canceladas,pendentes,apostas:decididas,simuladas:decididas+cashouts,wr:decididas?Math.round(1000*ganhos/decididas)/10:0,cresc_pct:Math.round(historico.reduce((s,x)=>s+(Number(x.pl_pct)||0),0)*1000)/1000,meses,por_mercado,forma};
 }
 
+function ordenarEntradasFinanceiras(lista){return lista.map((x,i)=>({x,i})).sort((a,b)=>String(a.x.data||'').localeCompare(String(b.x.data||''))||a.i-b.i).map(v=>v.x);}
+function escBanca(v){return String(v==null?'':v).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
+function drawdownBanca(points){let peak=points.length?points[0].balance:0,worst=0;points.forEach(p=>{peak=Math.max(peak,p.balance);if(peak>0)worst=Math.min(worst,(p.balance/peak-1)*100);});return worst;}
+function desenharCurvaBanca(id,points){const root=document.getElementById(id);if(!root)return;const dd=drawdownBanca(points);if(points.length<2){root.innerHTML='<div class="bankroll-empty">No financial entries to draw this curve.</div>';return;}const W=1000,H=230,L=72,R=28,T=18,B=34,minV=Math.min(...points.map(p=>p.balance)),maxV=Math.max(...points.map(p=>p.balance)),spread=Math.max(1,maxV-minV),lo=Math.max(0,minV-spread*.14),hi=maxV+spread*.14,X=i=>L+i*(W-L-R)/(points.length-1),Y=v=>T+(hi-v)*(H-T-B)/(hi-lo),coords=points.map((p,i)=>[Number(X(i).toFixed(1)),Number(Y(p.balance).toFixed(1))]),curve=window.equitySmoothPath(coords),fmtE=v=>'€'+v.toLocaleString(undefined,{maximumFractionDigits:0});let grid='';for(let i=0;i<4;i++){const v=hi-(hi-lo)*i/3,y=Y(v);grid+=`<line class="equity-grid" x1="${L}" y1="${y}" x2="${W-R}" y2="${y}"/><text class="equity-axis" x="${L-9}" y="${y+3}" text-anchor="end">${fmtE(v)}</text>`;}const marks=[0,Math.floor((points.length-1)/2),points.length-1];marks.forEach(i=>{const p=points[i],label=i===0?'Start':(p.label||`#${i}`);grid+=`<text class="equity-axis" x="${X(i)}" y="${H-10}" text-anchor="middle">${escBanca(label)}</text>`;});const last=coords[coords.length-1];root.innerHTML=`<div class="bankroll-curve-head"><div><div class="bankroll-curve-title">Chronological bankroll evolution</div><div class="bankroll-curve-sub">Stake recalculated from the available bankroll after every entry</div></div><div class="bankroll-dd"><span>Maximum drawdown</span><b>${dd.toFixed(2)}%</b></div></div><div class="bankroll-chart"><svg viewBox="0 0 ${W} ${H}" preserveAspectRatio="none"><defs><linearGradient id="bankrollAurora" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e7c35a" stop-opacity=".28"/><stop offset="1" stop-color="#27c2ff" stop-opacity=".02"/></linearGradient></defs>${grid}<path class="bankroll-area" d="${curve} L ${last[0]} ${H-B} L ${coords[0][0]} ${H-B} Z"/><path class="bankroll-line" d="${curve}"/><circle class="bankroll-dot" cx="${last[0]}" cy="${last[1]}" r="5"/></svg></div>`;}
+
 function calcularSimulador(){
   const bEl=document.getElementById('sim-bankroll'), sEl=document.getElementById('sim-stake');
   const gEl=document.getElementById('sim-out-growth'), fEl=document.getElementById('sim-out-final'), pEl=document.getElementById('sim-out-profit');
   if(!bEl||!sEl||!VIEW_TIPS) return;
   const bankroll=parseFloat(bEl.value)||0, stake=parseFloat(sEl.value)||0;
-  const hist=(VIEW_TIPS.historico||[]).filter(x=>['ganho','perdido','perda','cashout'].includes(x.resultado));
-  let somaPct=0;
-  hist.forEach(x=>{
-    if(x.resultado==='ganho'){ somaPct += stake*((x.odd||1.84)-1); }
-    else if(x.resultado==='cashout'){const base=Number(x.stake_pct)||0,pl=Number(x.pl_pct);somaPct+=Number.isFinite(pl)&&base>0?stake*(pl/base):-stake*0.15;}
-    else { somaPct -= stake; }
-  });
-  const bankrollFinal=bankroll*(1+somaPct/100), lucro=bankrollFinal-bankroll;
-  gEl.textContent=(somaPct>=0?'+':'')+somaPct.toFixed(1)+'%'; gEl.className='so-v '+cls(somaPct);
+  const hist=ordenarEntradasFinanceiras((VIEW_TIPS.historico||[]).filter(x=>['ganho','perdido','perda','cashout'].includes(x.resultado)));let bancaAtual=bankroll;const points=[{balance:bancaAtual,label:'Start'}];
+  hist.forEach((x,i)=>{const valorStake=bancaAtual*stake/100;if(x.resultado==='ganho')bancaAtual+=valorStake*((Number(x.odd)||1.84)-1);else if(x.resultado==='cashout'){const base=Number(x.stake_pct)||0,hasPl=x.pl_pct!==null&&x.pl_pct!==''&&Number.isFinite(Number(x.pl_pct)),ratio=hasPl&&base>0?Number(x.pl_pct)/base:-.15;bancaAtual+=valorStake*ratio;}else bancaAtual-=valorStake;points.push({balance:bancaAtual,label:x.data?String(x.data).slice(5).split('-').reverse().join('/'):('#'+(i+1))});});
+  const bankrollFinal=bancaAtual,lucro=bankrollFinal-bankroll,somaPct=bankroll>0?(bankrollFinal/bankroll-1)*100:0;
+  gEl.textContent=(somaPct>=0?'+':'')+somaPct.toFixed(2)+'%'; gEl.className='so-v '+cls(somaPct);
   fEl.textContent='€'+bankrollFinal.toLocaleString(undefined,{minimumFractionDigits:2,maximumFractionDigits:2});
   pEl.textContent=(lucro>=0?'+€':'-€')+Math.abs(lucro).toLocaleString(undefined,{minimumFractionDigits:2,maximumFractionDigits:2});
-  pEl.className='so-v '+cls(lucro);
+  pEl.className='so-v '+cls(lucro);desenharCurvaBanca('sim-bankroll-curve',points);
 }
 
 function vistaTips(d){
@@ -355,7 +356,7 @@ function vistaTips(d){
   ${blocoGraficoAcumulado()}
   <div class="sec-t">Stake &amp; Bankroll Simulator</div>
   <div class="card simcard">
-    <div class="fc-sub">Applies one flat stake to the ${d.simuladas} financial entries in the selected season. CASHOUT affects bankroll but not win rate; VOID and CANCELLED do not move bankroll. Missing odds use the 1.84 historical reference.</div>
+    <div class="fc-sub">Applies the selected stake percentage to the available bankroll across ${d.simuladas} chronological financial entries. CASHOUT affects bankroll but not win rate; VOID and CANCELLED do not move bankroll. Missing odds use the 1.84 historical reference.</div>
     <div class="sim-row">
       <div class="sim-field"><label>Starting bankroll (€)</label>
         <input type="number" id="sim-bankroll" value="1000" min="0" step="50" oninput="calcularSimulador()"></div>
@@ -367,6 +368,7 @@ function vistaTips(d){
       <div class="so-item"><div class="so-l">Final bankroll</div><div class="so-v gold" id="sim-out-final">—</div></div>
       <div class="so-item"><div class="so-l">Profit / Loss</div><div class="so-v" id="sim-out-profit">—</div></div>
     </div>
+    <div class="bankroll-curve" id="sim-bankroll-curve"></div>
   </div>`;
 
   const maxPos=Math.max(...d.meses.map(m=>Math.max(m.cresc_pct,0)),0);
@@ -474,10 +476,10 @@ function resumoBot(raw){
 }
 function calcularSimuladorBot(){
   const bEl=document.getElementById('bot-sim-bankroll'),sEl=document.getElementById('bot-sim-stake'),gEl=document.getElementById('bot-sim-growth'),fEl=document.getElementById('bot-sim-final'),pEl=document.getElementById('bot-sim-profit');if(!bEl||!sEl||!VIEW_BOT)return;
-  const bankroll=parseFloat(bEl.value)||0,stake=parseFloat(sEl.value)||0;let somaPct=0;
-  VIEW_BOT.confirmadas.forEach(x=>{if(x.resultado==='ganho')somaPct+=stake*(1.84-1);else if(x.resultado==='perdido')somaPct-=stake;});
-  const bankrollFinal=bankroll*(1+somaPct/100),lucro=bankrollFinal-bankroll;
-  gEl.textContent=(somaPct>=0?'+':'')+somaPct.toFixed(2)+'%';gEl.className='so-v '+cls(somaPct);fEl.textContent='€'+bankrollFinal.toLocaleString(undefined,{minimumFractionDigits:2,maximumFractionDigits:2});pEl.textContent=(lucro>=0?'+€':'-€')+Math.abs(lucro).toLocaleString(undefined,{minimumFractionDigits:2,maximumFractionDigits:2});pEl.className='so-v '+cls(lucro);
+  const bankroll=parseFloat(bEl.value)||0,stake=parseFloat(sEl.value)||0,hist=ordenarEntradasFinanceiras(VIEW_BOT.confirmadas.filter(x=>['ganho','perdido','cashout'].includes(x.resultado)));let bancaAtual=bankroll;const points=[{balance:bancaAtual,label:'Start'}];
+  hist.forEach((x,i)=>{const valorStake=bancaAtual*stake/100;if(x.resultado==='ganho')bancaAtual+=valorStake*(1.84-1);else if(x.resultado==='cashout'){const base=Number(x.stake_pct)||.75,hasPl=x.pl_pct!==null&&x.pl_pct!==''&&Number.isFinite(Number(x.pl_pct)),ratio=hasPl?Number(x.pl_pct)/base:-.15;bancaAtual+=valorStake*ratio;}else bancaAtual-=valorStake;points.push({balance:bancaAtual,label:x.data?String(x.data).slice(5).split('-').reverse().join('/'):('#'+(i+1))});});
+  const bankrollFinal=bancaAtual,lucro=bankrollFinal-bankroll,somaPct=bankroll>0?(bankrollFinal/bankroll-1)*100:0;
+  gEl.textContent=(somaPct>=0?'+':'')+somaPct.toFixed(2)+'%';gEl.className='so-v '+cls(somaPct);fEl.textContent='€'+bankrollFinal.toLocaleString(undefined,{minimumFractionDigits:2,maximumFractionDigits:2});pEl.textContent=(lucro>=0?'+€':'-€')+Math.abs(lucro).toLocaleString(undefined,{minimumFractionDigits:2,maximumFractionDigits:2});pEl.className='so-v '+cls(lucro);desenharCurvaBanca('bot-sim-bankroll-curve',points);
 }
 
 function vistaBot(d){
@@ -507,9 +509,9 @@ function vistaBot(d){
   </div>
   ${blocoGraficoAcumulado()}
   <div class="sec-t">Simulator — Confirmed entries</div>
-  <div class="card simcard"><div class="fc-sub">Includes WIN and LOSS from the first alert: earlier historical records plus entries verified by the current model. Uses a 0.75% reference stake and 1.84 reference odds. CANCELLED and VOID do not move bankroll.</div>
+  <div class="card simcard"><div class="fc-sub">Includes chronological WIN, LOSS and CASHOUT entries from the first alert: earlier historical records plus entries verified by the current model. The selected stake is recalculated from the available bankroll and wins use the 1.84 reference odds. CANCELLED and VOID do not move bankroll.</div>
     <div class="sim-row"><div class="sim-field"><label>Starting bankroll (€)</label><input type="number" id="bot-sim-bankroll" value="1000" min="0" step="50" oninput="calcularSimuladorBot()"></div><div class="sim-field"><label>Stake per entry (%)</label><input type="number" id="bot-sim-stake" value="0.75" min="0" max="10" step="0.25" oninput="calcularSimuladorBot()"></div></div>
-    <div class="sim-out"><div class="so-item"><div class="so-l">Growth</div><div class="so-v" id="bot-sim-growth">—</div></div><div class="so-item"><div class="so-l">Final bankroll</div><div class="so-v gold" id="bot-sim-final">—</div></div><div class="so-item"><div class="so-l">Profit / Loss</div><div class="so-v" id="bot-sim-profit">—</div></div></div>
+    <div class="sim-out"><div class="so-item"><div class="so-l">Growth</div><div class="so-v" id="bot-sim-growth">—</div></div><div class="so-item"><div class="so-l">Final bankroll</div><div class="so-v gold" id="bot-sim-final">—</div></div><div class="so-item"><div class="so-l">Profit / Loss</div><div class="so-v" id="bot-sim-profit">—</div></div></div><div class="bankroll-curve" id="bot-sim-bankroll-curve"></div>
   </div>`;
 
   const donut=(pct,label,sub)=>{
