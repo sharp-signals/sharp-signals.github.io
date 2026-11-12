@@ -8,10 +8,10 @@
    "fim": "2026-01-31"
   },
   "cresc_pct": 56.91,
-  "apostas": 1269,
-  "ganhos": 710,
+  "apostas": 1270,
+  "ganhos": 711,
   "perdidos": 559,
-  "wr": 55.9,
+  "wr": 56.0,
   "meses": [
    {
     "mes": "2025-08",
@@ -86,17 +86,17 @@
    {
     "mes": "2026-11",
     "label": "Nov 26",
-    "cresc_pct": 0.97,
-    "apostas": 37,
-    "wr": 48.6
+    "cresc_pct": 1.59,
+    "apostas": 38,
+    "wr": 50.0
    }
   ],
   "por_mercado": [
    {
     "mercado": "Over Cantos FT",
-    "n": 697,
-    "wr": 58.4,
-    "roi": 41.15,
+    "n": 698,
+    "wr": 58.5,
+    "roi": 41.77,
     "pl_eur": 1369.94
    },
    {
@@ -146,7 +146,6 @@
    "ganho",
    "ganho",
    "ganho",
-   "ganho",
    "cashout",
    "perdido",
    "perdido",
@@ -155,6 +154,7 @@
    "perdido",
    "ganho",
    "cashout",
+   "ganho",
    "ganho",
    "ganho",
    "ganho"
@@ -198,13 +198,13 @@
     "jogo": "Navalcarnero x Betis",
     "mercado": "⛳ Over 4.5 corners · FT",
     "categoria": "Over Cantos FT",
-    "odd": null,
-    "pl_pct": null,
+    "odd": 1.83,
+    "pl_pct": 0.623,
     "stake_pct": 0.75,
-    "resultado": "pendente",
+    "resultado": "ganho",
     "verified_id": "tip_proposal:20261112T191552572168Z:d82f579b",
-    "estado_entrada": "aguarda_confirmacao",
-    "tipo_odd": "por_registar",
+    "estado_entrada": "confirmada",
+    "tipo_odd": "real",
     "odd_minima_recomendada": 1.8,
     "confianca": 7
    },
