@@ -8,8 +8,8 @@
    "fim": "2026-01-31"
   },
   "cresc_pct": 56.91,
-  "apostas": 1272,
-  "ganhos": 713,
+  "apostas": 1273,
+  "ganhos": 714,
   "perdidos": 559,
   "wr": 56.1,
   "meses": [
@@ -86,17 +86,17 @@
    {
     "mes": "2026-11",
     "label": "Nov 26",
-    "cresc_pct": 2.88,
-    "apostas": 40,
-    "wr": 52.5
+    "cresc_pct": 3.53,
+    "apostas": 41,
+    "wr": 53.7
    }
   ],
   "por_mercado": [
    {
     "mercado": "Over Cantos FT",
-    "n": 700,
+    "n": 701,
     "wr": 58.6,
-    "roi": 43.06,
+    "roi": 43.71,
     "pl_eur": 1369.94
    },
    {
@@ -143,7 +143,6 @@
    }
   ],
   "forma": [
-   "ganho",
    "cashout",
    "perdido",
    "perdido",
@@ -152,6 +151,7 @@
    "perdido",
    "ganho",
    "cashout",
+   "ganho",
    "ganho",
    "ganho",
    "ganho",
@@ -214,13 +214,13 @@
     "jogo": "Tarancom x Levante",
     "mercado": "⛳ Over 8.5 corners · FT",
     "categoria": "Over Cantos FT",
-    "odd": null,
-    "pl_pct": null,
+    "odd": 1.87,
+    "pl_pct": 0.653,
     "stake_pct": 0.75,
-    "resultado": "pendente",
+    "resultado": "ganho",
     "verified_id": "tip_proposal:20261112T191447957022Z:16547340",
-    "estado_entrada": "aguarda_confirmacao",
-    "tipo_odd": "por_registar",
+    "estado_entrada": "confirmada",
+    "tipo_odd": "real",
     "odd_minima_recomendada": 1.8,
     "confianca": 7
    },
