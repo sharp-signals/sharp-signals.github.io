@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-12T19:39:04Z",
-  "event_chain_head": "137469341ec6ab7844af0e5bc30bcb3fb16f8cf78c54defd9105885c19fc7198",
+  "generated_at": "2026-11-12T19:45:55Z",
+  "event_chain_head": "524a7bfd867404bd4a97ee76f21873e28732ee6696c8300f9ce57910ce70fc81",
   "event_chain_algorithm": "SHA-256 linked events",
   "event_chain_integrity": {
     "status": "valid_from_checkpoint",
-    "events": 842,
+    "events": 843,
     "broken_links": [],
     "content_hash_mismatches": [
       {
@@ -142,7 +142,7 @@
       }
     ],
     "unacknowledged_content_hashes": [],
-    "head": "137469341ec6ab7844af0e5bc30bcb3fb16f8cf78c54defd9105885c19fc7198"
+    "head": "524a7bfd867404bd4a97ee76f21873e28732ee6696c8300f9ce57910ce70fc81"
   },
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -153,9 +153,9 @@
   },
   "summary": {
     "total": 431,
-    "pending": 22,
+    "pending": 21,
     "signals_settled": 137,
-    "official_entries_settled": 244,
+    "official_entries_settled": 245,
     "cancelled": 45
   },
   "records": [
@@ -180,11 +180,34 @@
     {
       "id": "tip_proposal:20261112T191552572168Z:d82f579b",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-11-12T19:15:52Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "c8e248e01f8ead06159b3971d2ac5ac6efc9b27137afa67fe4bb0cd51b6b3939",
-      "telegram_message_count": 2
+      "telegram_message_count": 2,
+      "settled_at": "2026-11-12T19:45:55Z",
+      "result": "WIN",
+      "outcome": {
+        "odds": 1.83,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": 0.623,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20261112T191552572168Z:d82f579b",
+        "market": "⛳ Over 4.5 corners · FT",
+        "match": "Navalcarnero x Betis",
+        "minimum_recommended_odds": 1.8,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20261112T191447957022Z:16547340",
