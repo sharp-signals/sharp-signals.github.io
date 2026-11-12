@@ -1,8 +1,149 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-10T21:33:07Z",
-  "event_chain_head": "689c64f2bcbdeff72851d635c5b4f16b8f8be30e35a7b5ee54beb6c1c1509933",
+  "generated_at": "2026-11-12T11:16:52Z",
+  "event_chain_head": "0d51ad3bc5a97a8683d9de5899c6a4ced0dcef68feb57d2e195cd21c9b435779",
   "event_chain_algorithm": "SHA-256 linked events",
+  "event_chain_integrity": {
+    "status": "valid_from_checkpoint",
+    "events": 836,
+    "broken_links": [],
+    "content_hash_mismatches": [
+      {
+        "line": 6,
+        "event_hash": "f1504848c00a8fb027e560e0a7bf4e48e1edac827eb8c00004a525405b7fbd04"
+      },
+      {
+        "line": 18,
+        "event_hash": "c84223bdc90ff3a4a8e0ad31e94ef83122f785823ffb8405191c5507cf2cd198"
+      },
+      {
+        "line": 37,
+        "event_hash": "22ecf328dc51fdcb8fd1e8baaee39255e1299bbfea5dca782b2fd8606f46b6a8"
+      },
+      {
+        "line": 48,
+        "event_hash": "f2ec58f24c2fb5863cba3adcb347ee16141f89ac8b7ee82f47402beae70e894f"
+      },
+      {
+        "line": 73,
+        "event_hash": "c5e5bf450a72734acdfb58d52c13aa19db7976120352da0901704fd38791b969"
+      },
+      {
+        "line": 79,
+        "event_hash": "c97d8992824967bd014292147ee32ffa76f2e90d8d4315ebb4199c44066bfbc6"
+      },
+      {
+        "line": 94,
+        "event_hash": "1e0a05f618e8c0b8b5dc37b15da4d4a4554c5c29a6de2c2b78e7051dd4f8e5f6"
+      },
+      {
+        "line": 116,
+        "event_hash": "9a5bd5ed54f4e618b25a4e483397e75dfa6a31ea7e4ee085bcd3bdf965550882"
+      },
+      {
+        "line": 124,
+        "event_hash": "5e9228401034b761fd5de3e51a289507807c4c4959b4462fcf5e92cff9235764"
+      },
+      {
+        "line": 134,
+        "event_hash": "a8c7eb9df07036a8c0e8757c43cb060f2f469616d3d833364668b1b73b6591fb"
+      },
+      {
+        "line": 141,
+        "event_hash": "19ffb7549109b2516cad506bea8ca63104926646c3d4916a4de3644d47bf8c54"
+      },
+      {
+        "line": 161,
+        "event_hash": "3da07c8195cc40706aeacb72788dc868a30aabf59ad0f7b454d4ff721f0c2a48"
+      },
+      {
+        "line": 165,
+        "event_hash": "dac60dd08ddcbd438d19a0b2ee86eb635c0bfae434a9a2fab46fdfbf414993c9"
+      },
+      {
+        "line": 194,
+        "event_hash": "1d387342e8aeb96d85cbfe97d59d7da1e891055d54daed8ba0806c89199ecc63"
+      },
+      {
+        "line": 195,
+        "event_hash": "caae5e0282cebf5c0f9eed42f92aecfd4474ae0d5b4848b2b4b114e23ebbf0a8"
+      },
+      {
+        "line": 270,
+        "event_hash": "1ad1df944f3daeccf362e3b4cf9a9ede6fa9e61f2417bf865f11584166883ce3"
+      },
+      {
+        "line": 304,
+        "event_hash": "11b979e1f5f3bb0b6ec01a81dc1bbf165e7a2766a03c0f858e130b0c92eb199e"
+      },
+      {
+        "line": 322,
+        "event_hash": "6a06dd40c723186a1f0b8b6f7c741a0752bfc68587050046c628213cf38573af"
+      },
+      {
+        "line": 357,
+        "event_hash": "8bda21feb68f219b8e718641e70c10c21e4b1e55aa0aa008970c44f394b440a6"
+      },
+      {
+        "line": 383,
+        "event_hash": "cab6d45d100da4f4a9932fafae1c775d0560250252cf433c9558f233a7b06653"
+      },
+      {
+        "line": 409,
+        "event_hash": "e4e9b8a7425b76c946131e1313287d6cf1dccd08c88e99d6bc3ce4885aa4708e"
+      },
+      {
+        "line": 414,
+        "event_hash": "5d61ca1ca43c7d42471087757a95851a6c72d0f22409cca777bf2ff126bc357c"
+      },
+      {
+        "line": 423,
+        "event_hash": "bb1b90eee82d402f8c5ecdada673c4aa26c80912608048ecd6a3b890499cde14"
+      },
+      {
+        "line": 425,
+        "event_hash": "4318bcbb4883e7384c461a369a63a2a67ba4481d314ff94cac5a717fcbb9f22e"
+      },
+      {
+        "line": 428,
+        "event_hash": "d67aaf790ec5ec3e14697fac5f1f35629d31b8ebfe3f8c4c84ebc6d87c6f13db"
+      },
+      {
+        "line": 456,
+        "event_hash": "db7f1bffe917b7aa7eb0d949a29e4c44906f9746043c3f313c597a88f336b623"
+      },
+      {
+        "line": 479,
+        "event_hash": "c8abd1314537b3657c408db4f63550fd3f6997018ee8d307187d842a862afbd0"
+      },
+      {
+        "line": 488,
+        "event_hash": "5ea6241d7dccde4f45ba85829e7bfab1b4094e7275a7bf262ee101e3e51bb65b"
+      },
+      {
+        "line": 520,
+        "event_hash": "c247c80e723fe2946485c26ff4fe617281e921808898fdbf62f1943f32cffff9"
+      },
+      {
+        "line": 531,
+        "event_hash": "020848e1f26ceced9f093af65529cfc70d2fbddb7ab66f1367ac526b64952c17"
+      },
+      {
+        "line": 568,
+        "event_hash": "f555f46bf545a209b9226e2c5ccb0afa188732c506ae7dca5ee23856b623cea9"
+      },
+      {
+        "line": 598,
+        "event_hash": "edec604d93a53da4ca6b7357dac3c6f8a54568584061f4f595bd233258c32e70"
+      },
+      {
+        "line": 607,
+        "event_hash": "fba44c1d0b31b0529c86ee04c6cfac3c46cb17787996c5b3dc9d1134bb198595"
+      }
+    ],
+    "unacknowledged_content_hashes": [],
+    "head": "0d51ad3bc5a97a8683d9de5899c6a4ced0dcef68feb57d2e195cd21c9b435779"
+  },
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
     "official_entry": "Entrada pessoal publicada; pode entrar nas métricas financeiras quando tem odd e stake válidas.",
