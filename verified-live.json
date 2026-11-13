@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-13T17:48:48Z",
-  "event_chain_head": "f2f491bef8a8ea5bfc35af7201e2244fc0dfcaa3363b889335737a8521743fe6",
+  "generated_at": "2026-11-13T18:18:25Z",
+  "event_chain_head": "dc26d844881d2e3c7a4a86ed6395bc69fe95d18836cb9f9799a9164d9e22f3c4",
   "event_chain_algorithm": "SHA-256 linked events",
   "event_chain_integrity": {
     "status": "valid_from_checkpoint",
-    "events": 849,
+    "events": 850,
     "broken_links": [],
     "content_hash_mismatches": [
       {
@@ -142,7 +142,7 @@
       }
     ],
     "unacknowledged_content_hashes": [],
-    "head": "f2f491bef8a8ea5bfc35af7201e2244fc0dfcaa3363b889335737a8521743fe6"
+    "head": "dc26d844881d2e3c7a4a86ed6395bc69fe95d18836cb9f9799a9164d9e22f3c4"
   },
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -153,8 +153,8 @@
   },
   "summary": {
     "total": 433,
-    "pending": 19,
-    "signals_settled": 137,
+    "pending": 18,
+    "signals_settled": 138,
     "official_entries_settled": 249,
     "cancelled": 45
   },
@@ -162,11 +162,39 @@
     {
       "id": "ce1:1545883:final",
       "kind": "signal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-11-13T17:43:17Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "77826e8b6e5fca2def78a6540973cf32b69d2a9768df1e806da82d09e32c0261",
-      "telegram_message_count": 3
+      "telegram_message_count": 3,
+      "settled_at": "2026-11-13T18:18:25Z",
+      "result": "WIN",
+      "outcome": {
+        "corners_reference": 10,
+        "corners_final": 12,
+        "corners_after": 2,
+        "target": 2,
+        "technical_result": "WIN",
+        "entry_status": "confirmada",
+        "potential_market_result": "",
+        "price_condition": "",
+        "void_reason": "",
+        "approved_manually": true
+      },
+      "sealed_payload": {
+        "alert_id": "ce1:1545883:final",
+        "classification": "scanner_signal_not_confirmed_bet",
+        "confidence": 7.0,
+        "corners_at_alert": 10,
+        "league": "Africa Cup of Nations - Qualification",
+        "match": "Tunisia vs Libya",
+        "minimum_price": 1.8,
+        "minute": 78,
+        "score_at_alert": "0-2",
+        "suggestion": "🎯 REFERÊNCIA\nOver 11.5 cantos · preço de referência @1.80+\n⚠️ Validar mercado e contexto · alerta não é entrada automática",
+        "window": "FINAL PUSH"
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20261113T172402664949Z:99169d0d",
