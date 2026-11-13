@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-13T21:30:32Z",
-  "event_chain_head": "415b6e4e15c864be9acbd888eaac512cae38d3198d1f6cbff606abfab56d9263",
+  "generated_at": "2026-11-13T21:57:58Z",
+  "event_chain_head": "7222f224fbc450789aba07812147486838a98a1d1cf44cddfb727672f91533d8",
   "event_chain_algorithm": "SHA-256 linked events",
   "event_chain_integrity": {
     "status": "valid_from_checkpoint",
-    "events": 859,
+    "events": 860,
     "broken_links": [],
     "content_hash_mismatches": [
       {
@@ -142,7 +142,7 @@
       }
     ],
     "unacknowledged_content_hashes": [],
-    "head": "415b6e4e15c864be9acbd888eaac512cae38d3198d1f6cbff606abfab56d9263"
+    "head": "7222f224fbc450789aba07812147486838a98a1d1cf44cddfb727672f91533d8"
   },
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -153,8 +153,8 @@
   },
   "summary": {
     "total": 438,
-    "pending": 19,
-    "signals_settled": 140,
+    "pending": 18,
+    "signals_settled": 141,
     "official_entries_settled": 250,
     "cancelled": 47
   },
@@ -162,11 +162,39 @@
     {
       "id": "ce1:1528967:final",
       "kind": "signal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-11-13T21:20:59Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "9f7d7e4ed21ac7d77384eba3b4da5eabd277969b0d412d14ba2428cd157f4f70",
-      "telegram_message_count": 2
+      "telegram_message_count": 2,
+      "settled_at": "2026-11-13T21:57:58Z",
+      "result": "WIN",
+      "outcome": {
+        "corners_reference": 10,
+        "corners_final": 14,
+        "corners_after": 4,
+        "target": 2,
+        "technical_result": "WIN",
+        "entry_status": "confirmada",
+        "potential_market_result": "",
+        "price_condition": "",
+        "void_reason": "",
+        "approved_manually": true
+      },
+      "sealed_payload": {
+        "alert_id": "ce1:1528967:final",
+        "classification": "scanner_signal_not_confirmed_bet",
+        "confidence": 7.5,
+        "corners_at_alert": 10,
+        "league": "UEFA Nations League",
+        "match": "Slovakia vs Faroe Islands",
+        "minimum_price": 1.8,
+        "minute": 77,
+        "score_at_alert": "2-2",
+        "suggestion": "🎯 REFERÊNCIA\nOver 11.5 cantos · preço de referência @1.80+\n⚠️ Validar mercado e contexto · alerta não é entrada automática",
+        "window": "FINAL PUSH"
+      },
+      "commitment_valid": true
     },
     {
       "id": "ce1:1545877:final",
