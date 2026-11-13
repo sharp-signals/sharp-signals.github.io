@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-13T20:43:08Z",
-  "event_chain_head": "cf841833502ccc6c28de5157c3b4debd34092bf54dc577240d616a1a485009ef",
+  "generated_at": "2026-11-13T20:48:39Z",
+  "event_chain_head": "fe7b7c58af49b2a7d9e4a35b36b27c51edaa8a2085913cf5b64b75b0b2b82acd",
   "event_chain_algorithm": "SHA-256 linked events",
   "event_chain_integrity": {
     "status": "valid_from_checkpoint",
-    "events": 855,
+    "events": 856,
     "broken_links": [],
     "content_hash_mismatches": [
       {
@@ -142,7 +142,7 @@
       }
     ],
     "unacknowledged_content_hashes": [],
-    "head": "cf841833502ccc6c28de5157c3b4debd34092bf54dc577240d616a1a485009ef"
+    "head": "fe7b7c58af49b2a7d9e4a35b36b27c51edaa8a2085913cf5b64b75b0b2b82acd"
   },
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -153,8 +153,8 @@
   },
   "summary": {
     "total": 437,
-    "pending": 21,
-    "signals_settled": 138,
+    "pending": 20,
+    "signals_settled": 139,
     "official_entries_settled": 249,
     "cancelled": 46
   },
@@ -212,11 +212,39 @@
     {
       "id": "ce1:1545659:ht",
       "kind": "signal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-11-13T20:16:39Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "a9a186666e196f53830e822b17e8b2952d3cf8d6ed55bd2ac385c8912026cc48",
-      "telegram_message_count": 2
+      "telegram_message_count": 2,
+      "settled_at": "2026-11-13T20:48:39Z",
+      "result": "WIN",
+      "outcome": {
+        "corners_reference": 4,
+        "corners_final": 7,
+        "corners_after": 3,
+        "target": 2,
+        "technical_result": "WIN",
+        "entry_status": "confirmada",
+        "potential_market_result": "",
+        "price_condition": "",
+        "void_reason": "",
+        "approved_manually": true
+      },
+      "sealed_payload": {
+        "alert_id": "ce1:1545659:ht",
+        "classification": "scanner_signal_not_confirmed_bet",
+        "confidence": 7.0,
+        "corners_at_alert": 4,
+        "league": "UEFA Nations League",
+        "match": "Scotland vs FYR Macedonia",
+        "minimum_price": 1.8,
+        "minute": 29,
+        "score_at_alert": "0-0",
+        "suggestion": "🎯 REFERÊNCIA\nOver 5.5 cantos 1ª parte · preço de referência @1.80+\n⚠️ Validar mercado e contexto · alerta não é entrada automática",
+        "window": "HT ATTACK"
+      },
+      "commitment_valid": true
     },
     {
       "id": "ce1:1545883:final",
