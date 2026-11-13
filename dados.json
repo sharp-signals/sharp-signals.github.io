@@ -8,10 +8,10 @@
    "fim": "2026-01-31"
   },
   "cresc_pct": 56.91,
-  "apostas": 1274,
-  "ganhos": 714,
+  "apostas": 1275,
+  "ganhos": 715,
   "perdidos": 560,
-  "wr": 56.0,
+  "wr": 56.1,
   "meses": [
    {
     "mes": "2025-08",
@@ -86,17 +86,17 @@
    {
     "mes": "2026-11",
     "label": "Nov 26",
-    "cresc_pct": 3.42,
-    "apostas": 42,
-    "wr": 52.4
+    "cresc_pct": 4.5,
+    "apostas": 43,
+    "wr": 53.5
    }
   ],
   "por_mercado": [
    {
     "mercado": "Over Cantos FT",
-    "n": 701,
-    "wr": 58.6,
-    "roi": 43.71,
+    "n": 702,
+    "wr": 58.7,
+    "roi": 44.79,
     "pl_eur": 1369.94
    },
    {
@@ -145,7 +145,6 @@
   "forma": [
    "perdido",
    "perdido",
-   "perdido",
    "ganho",
    "perdido",
    "ganho",
@@ -157,7 +156,8 @@
    "ganho",
    "ganho",
    "ganho",
-   "cashout"
+   "cashout",
+   "ganho"
   ],
   "historico": [
    {
@@ -166,13 +166,13 @@
     "jogo": "Mali x Ruanda",
     "mercado": "⛳ Over 6.5 corners · FT",
     "categoria": "Over Cantos FT",
-    "odd": null,
-    "pl_pct": null,
+    "odd": 1.86,
+    "pl_pct": 1.075,
     "stake_pct": 1.25,
-    "resultado": "pendente",
+    "resultado": "ganho",
     "verified_id": "tip_proposal:20261113T202929085799Z:a617d181",
-    "estado_entrada": "aguarda_confirmacao",
-    "tipo_odd": "por_registar",
+    "estado_entrada": "confirmada",
+    "tipo_odd": "real",
     "odd_minima_recomendada": 1.8,
     "confianca": 8
    },
