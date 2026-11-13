@@ -1,0 +1,54 @@
+name: Deploy Sharp Signals to Cloudflare Pages
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "dados.json"
+      - "historico.json"
+      - "dashboard.json"
+      - "goal-prelive-history.json"
+      - "*.html"
+      - "*.js"
+      - "*.css"
+      - "*.png"
+      - "*.jpg"
+      - "*.jpeg"
+      - "*.webp"
+      - "*.svg"
+      - "*.pdf"
+      - ".github/workflows/pages-deployment.yml"
+  schedule:
+    - cron: "17 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  deployments: write
+
+concurrency:
+  group: cloudflare-pages-production
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    name: Deploy production site
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Prepare static site
+        shell: bash
+        run: |
+          mkdir -p dist
+          find . -maxdepth 1 -type f -exec cp {} dist/ \;
+
+      - name: Deploy to Cloudflare Pages
+        uses: cloudflare/wrangler-action@v4
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: pages deploy dist --project-name=sharpsignals-preview --branch=main
+          gitHubToken: ${{ secrets.GITHUB_TOKEN }}
