@@ -5273,6 +5273,28 @@
       "justificacao_void": "Não entrada — outro motivo",
       "golos_apos_casa": 1,
       "golos_apos_fora": 0
+    },
+    {
+      "alerta_id": "ce1:1528967:final",
+      "fixture_id": 1528967,
+      "timestamp": "2026-11-13T21:57:53.696057",
+      "jogo": "Slovakia vs Faroe Islands",
+      "liga": "UEFA Nations League",
+      "janela": "FINAL PUSH",
+      "tempo_alerta": 77,
+      "estrelas": 7.5,
+      "cantos_no_ref": 10,
+      "cantos_final": 14,
+      "cantos_apos_alerta": 4,
+      "meta_cantos": 2,
+      "resultado": "WIN",
+      "resultado_tecnico": "WIN",
+      "estado_entrada": "CONFIRMADA",
+      "resultado_mercado_potencial": "",
+      "condicao_preco": "",
+      "justificacao_void": "",
+      "golos_apos_casa": 0,
+      "golos_apos_fora": 0
     }
   ]
 }
