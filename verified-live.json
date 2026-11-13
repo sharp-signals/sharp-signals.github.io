@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-13T20:48:39Z",
-  "event_chain_head": "fe7b7c58af49b2a7d9e4a35b36b27c51edaa8a2085913cf5b64b75b0b2b82acd",
+  "generated_at": "2026-11-13T20:51:30Z",
+  "event_chain_head": "ed84a524e0e62e375828f85ba9f41e56ed09ccd0e58d130a1763fda0f1ec6d8c",
   "event_chain_algorithm": "SHA-256 linked events",
   "event_chain_integrity": {
     "status": "valid_from_checkpoint",
-    "events": 856,
+    "events": 857,
     "broken_links": [],
     "content_hash_mismatches": [
       {
@@ -142,7 +142,7 @@
       }
     ],
     "unacknowledged_content_hashes": [],
-    "head": "fe7b7c58af49b2a7d9e4a35b36b27c51edaa8a2085913cf5b64b75b0b2b82acd"
+    "head": "ed84a524e0e62e375828f85ba9f41e56ed09ccd0e58d130a1763fda0f1ec6d8c"
   },
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -153,9 +153,9 @@
   },
   "summary": {
     "total": 437,
-    "pending": 20,
+    "pending": 19,
     "signals_settled": 139,
-    "official_entries_settled": 249,
+    "official_entries_settled": 250,
     "cancelled": 46
   },
   "records": [
@@ -171,11 +171,34 @@
     {
       "id": "tip_proposal:20261113T202929085799Z:a617d181",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-11-13T20:29:29Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "51b67bf470b2dced2ad653ddf9694e4aa39d8f347635b6d683552017ffaad6bf",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-11-13T20:51:30Z",
+      "result": "WIN",
+      "outcome": {
+        "odds": 1.86,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": 1.075,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 8,
+        "entry_id": "tip_proposal:20261113T202929085799Z:a617d181",
+        "market": "⛳ Over 6.5 corners · FT",
+        "match": "Mali x Ruanda",
+        "minimum_recommended_odds": 1.8,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 1.25
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20261113T201728180449Z:413759d5",
