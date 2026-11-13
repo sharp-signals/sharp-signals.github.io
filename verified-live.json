@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-13T21:20:59Z",
-  "event_chain_head": "35eee40a488a43c5b233f43e07bb35b3c50d68959da0736140c8c0e0618a105d",
+  "generated_at": "2026-11-13T21:30:32Z",
+  "event_chain_head": "415b6e4e15c864be9acbd888eaac512cae38d3198d1f6cbff606abfab56d9263",
   "event_chain_algorithm": "SHA-256 linked events",
   "event_chain_integrity": {
     "status": "valid_from_checkpoint",
-    "events": 858,
+    "events": 859,
     "broken_links": [],
     "content_hash_mismatches": [
       {
@@ -142,7 +142,7 @@
       }
     ],
     "unacknowledged_content_hashes": [],
-    "head": "35eee40a488a43c5b233f43e07bb35b3c50d68959da0736140c8c0e0618a105d"
+    "head": "415b6e4e15c864be9acbd888eaac512cae38d3198d1f6cbff606abfab56d9263"
   },
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -153,10 +153,10 @@
   },
   "summary": {
     "total": 438,
-    "pending": 20,
-    "signals_settled": 139,
+    "pending": 19,
+    "signals_settled": 140,
     "official_entries_settled": 250,
-    "cancelled": 46
+    "cancelled": 47
   },
   "records": [
     {
@@ -171,11 +171,39 @@
     {
       "id": "ce1:1545877:final",
       "kind": "signal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-11-13T20:43:07Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "9131c2bb8f1a19ec861ff6bda047f029ec03abd85b1dedb689e1390822794618",
-      "telegram_message_count": 2
+      "telegram_message_count": 2,
+      "settled_at": "2026-11-13T21:30:32Z",
+      "result": "CANCELADA",
+      "outcome": {
+        "corners_reference": 7,
+        "corners_final": 10,
+        "corners_after": 3,
+        "target": 2,
+        "technical_result": "WIN",
+        "entry_status": "sem_entrada",
+        "potential_market_result": "",
+        "price_condition": "",
+        "void_reason": "Não entrada — outro motivo",
+        "approved_manually": true
+      },
+      "sealed_payload": {
+        "alert_id": "ce1:1545877:final",
+        "classification": "scanner_signal_not_confirmed_bet",
+        "confidence": 8.0,
+        "corners_at_alert": 7,
+        "league": "Africa Cup of Nations - Qualification",
+        "match": "Mali vs Rwanda",
+        "minimum_price": 1.8,
+        "minute": 78,
+        "score_at_alert": "2-2",
+        "suggestion": "🎯 REFERÊNCIA\nOver 8.5 cantos · preço de referência @1.80+\n⚠️ Validar mercado e contexto · alerta não é entrada automática",
+        "window": "FINAL PUSH"
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20261113T202929085799Z:a617d181",
