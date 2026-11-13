@@ -5251,6 +5251,28 @@
       "justificacao_void": "",
       "golos_apos_casa": 0,
       "golos_apos_fora": 0
+    },
+    {
+      "alerta_id": "ce1:1545877:final",
+      "fixture_id": 1545877,
+      "timestamp": "2026-11-13T21:30:27.902959",
+      "jogo": "Mali vs Rwanda",
+      "liga": "Africa Cup of Nations - Qualification",
+      "janela": "FINAL PUSH",
+      "tempo_alerta": 78,
+      "estrelas": 8.0,
+      "cantos_no_ref": 7,
+      "cantos_final": 10,
+      "cantos_apos_alerta": 3,
+      "meta_cantos": 2,
+      "resultado": "CANCELADA",
+      "resultado_tecnico": "WIN",
+      "estado_entrada": "SEM_ENTRADA",
+      "resultado_mercado_potencial": "",
+      "condicao_preco": "",
+      "justificacao_void": "Não entrada — outro motivo",
+      "golos_apos_casa": 1,
+      "golos_apos_fora": 0
     }
   ]
 }
