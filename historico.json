@@ -5206,5 +5206,29 @@
       "golos_apos_casa": 0,
       "golos_apos_fora": 0
     }
+  ],
+  "2026-11-13": [
+    {
+      "alerta_id": "ce1:1545883:final",
+      "fixture_id": 1545883,
+      "timestamp": "2026-11-13T18:18:21.138913",
+      "jogo": "Tunisia vs Libya",
+      "liga": "Africa Cup of Nations - Qualification",
+      "janela": "FINAL PUSH",
+      "tempo_alerta": 78,
+      "estrelas": 7.0,
+      "cantos_no_ref": 10,
+      "cantos_final": 12,
+      "cantos_apos_alerta": 2,
+      "meta_cantos": 2,
+      "resultado": "WIN",
+      "resultado_tecnico": "WIN",
+      "estado_entrada": "CONFIRMADA",
+      "resultado_mercado_potencial": "",
+      "condicao_preco": "",
+      "justificacao_void": "",
+      "golos_apos_casa": 0,
+      "golos_apos_fora": 0
+    }
   ]
 }
