@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-13T17:43:18Z",
-  "event_chain_head": "2dc3b3b5538b0ce4ae02048cd7636cd4c07a57e466ce347f8bd38c1f8d5e0e0a",
+  "generated_at": "2026-11-13T17:48:48Z",
+  "event_chain_head": "f2f491bef8a8ea5bfc35af7201e2244fc0dfcaa3363b889335737a8521743fe6",
   "event_chain_algorithm": "SHA-256 linked events",
   "event_chain_integrity": {
     "status": "valid_from_checkpoint",
-    "events": 848,
+    "events": 849,
     "broken_links": [],
     "content_hash_mismatches": [
       {
@@ -142,7 +142,7 @@
       }
     ],
     "unacknowledged_content_hashes": [],
-    "head": "2dc3b3b5538b0ce4ae02048cd7636cd4c07a57e466ce347f8bd38c1f8d5e0e0a"
+    "head": "f2f491bef8a8ea5bfc35af7201e2244fc0dfcaa3363b889335737a8521743fe6"
   },
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -153,9 +153,9 @@
   },
   "summary": {
     "total": 433,
-    "pending": 20,
+    "pending": 19,
     "signals_settled": 137,
-    "official_entries_settled": 248,
+    "official_entries_settled": 249,
     "cancelled": 45
   },
   "records": [
@@ -171,11 +171,34 @@
     {
       "id": "tip_proposal:20261113T172402664949Z:99169d0d",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-11-13T17:24:03Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "9fc5cb7a68ac17d5b8d2a943b7c42c073b59a06b33797b83039fa0661d8982bb",
-      "telegram_message_count": 2
+      "telegram_message_count": 2,
+      "settled_at": "2026-11-13T17:48:48Z",
+      "result": "CASHOUT",
+      "outcome": {
+        "odds": null,
+        "odds_source": "cashout_loss_reference",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": 0.15,
+        "entry_status": "confirmed",
+        "profit_loss_percent": -0.112,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20261113T172402664949Z:99169d0d",
+        "market": "⛳ Over 8.5 corners · FT",
+        "match": "Afr. do Sul x Quénia",
+        "minimum_recommended_odds": 1.8,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20261112T193904264040Z:81d0ba96",
