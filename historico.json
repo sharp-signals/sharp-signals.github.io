@@ -5319,6 +5319,28 @@
       "justificacao_void": "Não entrada — preço demasiado alto",
       "golos_apos_casa": 0,
       "golos_apos_fora": 1
+    },
+    {
+      "alerta_id": "ce1:1551879:shark",
+      "fixture_id": 1551879,
+      "timestamp": "2026-11-14T21:11:16.650789",
+      "jogo": "De Graafschap vs FC OSS",
+      "liga": "Eerste Divisie",
+      "janela": "SHARK ATTACK",
+      "tempo_alerta": 57,
+      "estrelas": 8.0,
+      "cantos_no_ref": 13,
+      "cantos_final": 17,
+      "cantos_apos_alerta": 4,
+      "meta_cantos": 4,
+      "resultado": "CANCELADA",
+      "resultado_tecnico": "WIN",
+      "estado_entrada": "SEM_ENTRADA",
+      "resultado_mercado_potencial": "VOID",
+      "condicao_preco": "O alvo técnico era linha de VOID",
+      "justificacao_void": "Não entrada — preço demasiado alto",
+      "golos_apos_casa": 0,
+      "golos_apos_fora": 1
     }
   ]
 }
