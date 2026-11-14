@@ -8,8 +8,8 @@
    "fim": "2026-01-31"
   },
   "cresc_pct": 56.91,
-  "apostas": 1275,
-  "ganhos": 715,
+  "apostas": 1276,
+  "ganhos": 716,
   "perdidos": 560,
   "wr": 56.1,
   "meses": [
@@ -86,17 +86,17 @@
    {
     "mes": "2026-11",
     "label": "Nov 26",
-    "cresc_pct": 4.5,
-    "apostas": 43,
-    "wr": 53.5
+    "cresc_pct": 5.21,
+    "apostas": 44,
+    "wr": 54.5
    }
   ],
   "por_mercado": [
    {
     "mercado": "Over Cantos FT",
-    "n": 702,
+    "n": 703,
     "wr": 58.7,
-    "roi": 44.79,
+    "roi": 45.5,
     "pl_eur": 1369.94
    },
    {
@@ -144,7 +144,6 @@
   ],
   "forma": [
    "perdido",
-   "perdido",
    "ganho",
    "perdido",
    "ganho",
@@ -157,6 +156,7 @@
    "ganho",
    "ganho",
    "cashout",
+   "ganho",
    "ganho"
   ],
   "historico": [
@@ -166,13 +166,13 @@
     "jogo": "Tourcoing x Reims",
     "mercado": "⛳ Over 5 corners · FT",
     "categoria": "Over Cantos FT",
-    "odd": null,
-    "pl_pct": null,
+    "odd": 1.95,
+    "pl_pct": 0.712,
     "stake_pct": 0.75,
-    "resultado": "pendente",
+    "resultado": "ganho",
     "verified_id": "tip_proposal:20261114T143845128823Z:dc43bfba",
-    "estado_entrada": "aguarda_confirmacao",
-    "tipo_odd": "por_registar",
+    "estado_entrada": "confirmada",
+    "tipo_odd": "real",
     "odd_minima_recomendada": 1.8,
     "confianca": 7
    },
