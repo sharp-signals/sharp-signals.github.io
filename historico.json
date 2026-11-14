@@ -5296,5 +5296,29 @@
       "golos_apos_casa": 0,
       "golos_apos_fora": 0
     }
+  ],
+  "2026-11-14": [
+    {
+      "alerta_id": "ce1:1551880:ht",
+      "fixture_id": 1551880,
+      "timestamp": "2026-11-14T20:00:50.627271",
+      "jogo": "Dordrecht vs Heracles",
+      "liga": "Eerste Divisie",
+      "janela": "HT ATTACK",
+      "tempo_alerta": 30,
+      "estrelas": 7.5,
+      "cantos_no_ref": 6,
+      "cantos_final": 8,
+      "cantos_apos_alerta": 2,
+      "meta_cantos": 2,
+      "resultado": "CANCELADA",
+      "resultado_tecnico": "WIN",
+      "estado_entrada": "SEM_ENTRADA",
+      "resultado_mercado_potencial": "VOID",
+      "condicao_preco": "O alvo técnico era linha de VOID",
+      "justificacao_void": "Não entrada — preço demasiado alto",
+      "golos_apos_casa": 0,
+      "golos_apos_fora": 1
+    }
   ]
 }
