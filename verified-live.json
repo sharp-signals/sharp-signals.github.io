@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-14T15:52:12Z",
-  "event_chain_head": "4034be807d02b98b55f50c5d6f3627a511e9db5f796e4296d541a4a1ac8bd3c8",
+  "generated_at": "2026-11-14T16:06:01Z",
+  "event_chain_head": "319d7ba17ded11c356ab206f14e662b18f173408137c5f916c2ecbb2e933f775",
   "event_chain_algorithm": "SHA-256 linked events",
   "event_chain_integrity": {
     "status": "valid_from_checkpoint",
-    "events": 863,
+    "events": 864,
     "broken_links": [],
     "content_hash_mismatches": [
       {
@@ -142,7 +142,7 @@
       }
     ],
     "unacknowledged_content_hashes": [],
-    "head": "4034be807d02b98b55f50c5d6f3627a511e9db5f796e4296d541a4a1ac8bd3c8"
+    "head": "319d7ba17ded11c356ab206f14e662b18f173408137c5f916c2ecbb2e933f775"
   },
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -153,20 +153,43 @@
   },
   "summary": {
     "total": 440,
-    "pending": 19,
+    "pending": 18,
     "signals_settled": 141,
-    "official_entries_settled": 251,
+    "official_entries_settled": 252,
     "cancelled": 47
   },
   "records": [
     {
       "id": "tip_proposal:20261114T155211928541Z:9bb32eb9",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-11-14T15:52:12Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "92ff90518d1a127703d64140637503574b4489cfce5a810b1310d83248342da0",
-      "telegram_message_count": 2
+      "telegram_message_count": 2,
+      "settled_at": "2026-11-14T16:06:01Z",
+      "result": "WIN",
+      "outcome": {
+        "odds": 1.85,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": 0.638,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20261114T155211928541Z:9bb32eb9",
+        "market": "⛳ Over 3 corners · 1st half",
+        "match": "Hatta Club x Al Ain",
+        "minimum_recommended_odds": 1.8,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20261114T143845128823Z:dc43bfba",
