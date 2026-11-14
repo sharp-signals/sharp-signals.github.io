@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-14T21:11:23Z",
-  "event_chain_head": "3f760949b71ca58a0db157bb70331d38e019b322817cf83ae9c132c4236bb5e0",
+  "generated_at": "2026-11-14T21:57:26Z",
+  "event_chain_head": "968ce35376f5a18deee1738e36755e60944cb2cf4d13d2ac7336e0494c4e9b4e",
   "event_chain_algorithm": "SHA-256 linked events",
   "event_chain_integrity": {
     "status": "valid_from_checkpoint",
-    "events": 873,
+    "events": 874,
     "broken_links": [],
     "content_hash_mismatches": [
       {
@@ -142,7 +142,7 @@
       }
     ],
     "unacknowledged_content_hashes": [],
-    "head": "3f760949b71ca58a0db157bb70331d38e019b322817cf83ae9c132c4236bb5e0"
+    "head": "968ce35376f5a18deee1738e36755e60944cb2cf4d13d2ac7336e0494c4e9b4e"
   },
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -153,20 +153,48 @@
   },
   "summary": {
     "total": 445,
-    "pending": 19,
-    "signals_settled": 143,
+    "pending": 18,
+    "signals_settled": 144,
     "official_entries_settled": 252,
-    "cancelled": 51
+    "cancelled": 52
   },
   "records": [
     {
       "id": "ce1:1520972:shark",
       "kind": "signal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-11-14T20:58:46Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "433df5cfaacf14ac904143f61addc40838a4f9850ab5441790553c7fd955e871",
-      "telegram_message_count": 2
+      "telegram_message_count": 2,
+      "settled_at": "2026-11-14T21:57:26Z",
+      "result": "CANCELADA",
+      "outcome": {
+        "corners_reference": 13,
+        "corners_final": 20,
+        "corners_after": 7,
+        "target": 4,
+        "technical_result": "WIN",
+        "entry_status": "sem_entrada",
+        "potential_market_result": "WIN",
+        "price_condition": "Precisava de mais um canto do que o alvo para WIN",
+        "void_reason": "Não entrada — preço demasiado alto",
+        "approved_manually": true
+      },
+      "sealed_payload": {
+        "alert_id": "ce1:1520972:shark",
+        "classification": "scanner_signal_not_confirmed_bet",
+        "confidence": 8.0,
+        "corners_at_alert": 11,
+        "league": "Serie B",
+        "match": "CRB vs Ceara",
+        "minimum_price": 1.8,
+        "minute": 58,
+        "score_at_alert": "0-1",
+        "suggestion": "🎯 REFERÊNCIA\nOver 14.5 cantos · preço de referência @1.80+\n⚠️ Validar mercado e contexto · alerta não é entrada automática",
+        "window": "SHARK ATTACK"
+      },
+      "commitment_valid": true
     },
     {
       "id": "ce1:1551879:shark",
