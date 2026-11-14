@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-14T19:37:39Z",
-  "event_chain_head": "5a11e001f8257497a4ef874d81c02861510a38b94f5fecdf21d756ae8ceb0600",
+  "generated_at": "2026-11-14T20:00:57Z",
+  "event_chain_head": "263ac504f24c7d9ff12613e31816c12861fd1ac0934427eac06c6c6812c710c6",
   "event_chain_algorithm": "SHA-256 linked events",
   "event_chain_integrity": {
     "status": "valid_from_checkpoint",
-    "events": 869,
+    "events": 870,
     "broken_links": [],
     "content_hash_mismatches": [
       {
@@ -142,7 +142,7 @@
       }
     ],
     "unacknowledged_content_hashes": [],
-    "head": "5a11e001f8257497a4ef874d81c02861510a38b94f5fecdf21d756ae8ceb0600"
+    "head": "263ac504f24c7d9ff12613e31816c12861fd1ac0934427eac06c6c6812c710c6"
   },
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -153,10 +153,10 @@
   },
   "summary": {
     "total": 443,
-    "pending": 19,
-    "signals_settled": 141,
+    "pending": 18,
+    "signals_settled": 142,
     "official_entries_settled": 252,
-    "cancelled": 49
+    "cancelled": 50
   },
   "records": [
     {
@@ -194,11 +194,39 @@
     {
       "id": "ce1:1551880:ht",
       "kind": "signal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-11-14T19:29:45Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "bab2e33146bff02e4fd7d167e9345e4b0606bcda0e14a472f46027e2b998c5af",
-      "telegram_message_count": 3
+      "telegram_message_count": 3,
+      "settled_at": "2026-11-14T20:00:57Z",
+      "result": "CANCELADA",
+      "outcome": {
+        "corners_reference": 6,
+        "corners_final": 8,
+        "corners_after": 2,
+        "target": 2,
+        "technical_result": "WIN",
+        "entry_status": "sem_entrada",
+        "potential_market_result": "VOID",
+        "price_condition": "O alvo técnico era linha de VOID",
+        "void_reason": "Não entrada — preço demasiado alto",
+        "approved_manually": true
+      },
+      "sealed_payload": {
+        "alert_id": "ce1:1551880:ht",
+        "classification": "scanner_signal_not_confirmed_bet",
+        "confidence": 7.5,
+        "corners_at_alert": 5,
+        "league": "Eerste Divisie",
+        "match": "Dordrecht vs Heracles",
+        "minimum_price": 1.8,
+        "minute": 30,
+        "score_at_alert": "0-0",
+        "suggestion": "🎯 REFERÊNCIA\nOver 6.5 cantos 1ª parte · preço de referência @1.80+\n⚠️ Validar mercado e contexto · alerta não é entrada automática",
+        "window": "HT ATTACK"
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20261114T163936214980Z:1e23ca74",
