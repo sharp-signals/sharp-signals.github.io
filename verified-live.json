@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-14T14:38:45Z",
-  "event_chain_head": "d902546de4e6551daf6f5ad0c326fa92741ef934bf06eba02aa64527c9338c9f",
+  "generated_at": "2026-11-14T14:51:41Z",
+  "event_chain_head": "b999ed7941f6fde8fbda222dbc1bb9bb419d58e420b4d97e91fa510dcefa340a",
   "event_chain_algorithm": "SHA-256 linked events",
   "event_chain_integrity": {
     "status": "valid_from_checkpoint",
-    "events": 861,
+    "events": 862,
     "broken_links": [],
     "content_hash_mismatches": [
       {
@@ -142,7 +142,7 @@
       }
     ],
     "unacknowledged_content_hashes": [],
-    "head": "d902546de4e6551daf6f5ad0c326fa92741ef934bf06eba02aa64527c9338c9f"
+    "head": "b999ed7941f6fde8fbda222dbc1bb9bb419d58e420b4d97e91fa510dcefa340a"
   },
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -153,20 +153,43 @@
   },
   "summary": {
     "total": 439,
-    "pending": 19,
+    "pending": 18,
     "signals_settled": 141,
-    "official_entries_settled": 250,
+    "official_entries_settled": 251,
     "cancelled": 47
   },
   "records": [
     {
       "id": "tip_proposal:20261114T143845128823Z:dc43bfba",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-11-14T14:38:45Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "7df9d36830ca1739671da997f7ac14722dd157c6e4fd33a517e55fe2ba9ee090",
-      "telegram_message_count": 2
+      "telegram_message_count": 2,
+      "settled_at": "2026-11-14T14:51:40Z",
+      "result": "WIN",
+      "outcome": {
+        "odds": 1.95,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": 0.712,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20261114T143845128823Z:dc43bfba",
+        "market": "⛳ Over 5 corners · FT",
+        "match": "Tourcoing x Reims",
+        "minimum_recommended_odds": 1.8,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "ce1:1528967:final",
