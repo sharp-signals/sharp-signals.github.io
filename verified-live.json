@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-14T20:58:46Z",
-  "event_chain_head": "f33273492cefffb1d491f59684832c779e74f9d580d808bb112274c934a4fc97",
+  "generated_at": "2026-11-14T21:11:23Z",
+  "event_chain_head": "3f760949b71ca58a0db157bb70331d38e019b322817cf83ae9c132c4236bb5e0",
   "event_chain_algorithm": "SHA-256 linked events",
   "event_chain_integrity": {
     "status": "valid_from_checkpoint",
-    "events": 872,
+    "events": 873,
     "broken_links": [],
     "content_hash_mismatches": [
       {
@@ -142,7 +142,7 @@
       }
     ],
     "unacknowledged_content_hashes": [],
-    "head": "f33273492cefffb1d491f59684832c779e74f9d580d808bb112274c934a4fc97"
+    "head": "3f760949b71ca58a0db157bb70331d38e019b322817cf83ae9c132c4236bb5e0"
   },
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -153,10 +153,10 @@
   },
   "summary": {
     "total": 445,
-    "pending": 20,
-    "signals_settled": 142,
+    "pending": 19,
+    "signals_settled": 143,
     "official_entries_settled": 252,
-    "cancelled": 50
+    "cancelled": 51
   },
   "records": [
     {
@@ -171,11 +171,39 @@
     {
       "id": "ce1:1551879:shark",
       "kind": "signal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-11-14T20:15:27Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "ba4f77f16917a9e3aafceb188345681398d110f39160460f8db2deb6a719d8f8",
-      "telegram_message_count": 2
+      "telegram_message_count": 2,
+      "settled_at": "2026-11-14T21:11:23Z",
+      "result": "CANCELADA",
+      "outcome": {
+        "corners_reference": 13,
+        "corners_final": 17,
+        "corners_after": 4,
+        "target": 4,
+        "technical_result": "WIN",
+        "entry_status": "sem_entrada",
+        "potential_market_result": "VOID",
+        "price_condition": "O alvo técnico era linha de VOID",
+        "void_reason": "Não entrada — preço demasiado alto",
+        "approved_manually": true
+      },
+      "sealed_payload": {
+        "alert_id": "ce1:1551879:shark",
+        "classification": "scanner_signal_not_confirmed_bet",
+        "confidence": 8.0,
+        "corners_at_alert": 9,
+        "league": "Eerste Divisie",
+        "match": "De Graafschap vs FC OSS",
+        "minimum_price": 1.8,
+        "minute": 57,
+        "score_at_alert": "1-1",
+        "suggestion": "🎯 REFERÊNCIA\nOver 12.5 cantos · preço de referência @1.80+\n⚠️ Validar mercado e contexto · alerta não é entrada automática",
+        "window": "SHARK ATTACK"
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20261114T193528100366Z:be7e5fcf",
