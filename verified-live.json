@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-15T21:29:12Z",
-  "event_chain_head": "9ddbac6a6a5a3a6f85a31a72782d213fc0e2f0015f01dfbee2e7e15086d7b767",
+  "generated_at": "2026-11-15T22:11:11Z",
+  "event_chain_head": "9a3b18eb13737f135e8e53373d51d650dc342ac6d588837e233cde82203d2245",
   "event_chain_algorithm": "SHA-256 linked events",
   "event_chain_integrity": {
     "status": "valid_from_checkpoint",
-    "events": 887,
+    "events": 888,
     "broken_links": [],
     "content_hash_mismatches": [
       {
@@ -142,7 +142,7 @@
       }
     ],
     "unacknowledged_content_hashes": [],
-    "head": "9ddbac6a6a5a3a6f85a31a72782d213fc0e2f0015f01dfbee2e7e15086d7b767"
+    "head": "9a3b18eb13737f135e8e53373d51d650dc342ac6d588837e233cde82203d2245"
   },
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -153,20 +153,48 @@
   },
   "summary": {
     "total": 452,
-    "pending": 19,
-    "signals_settled": 145,
+    "pending": 18,
+    "signals_settled": 146,
     "official_entries_settled": 257,
-    "cancelled": 52
+    "cancelled": 53
   },
   "records": [
     {
       "id": "ce1:1528984:final",
       "kind": "signal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-11-15T21:29:12Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "beac16c3ca3d64f2b6c40f3925a9d1c2917080d9886d09557f5c7c6694f5f359",
-      "telegram_message_count": 2
+      "telegram_message_count": 2,
+      "settled_at": "2026-11-15T22:11:11Z",
+      "result": "CANCELADA",
+      "outcome": {
+        "corners_reference": 9,
+        "corners_final": 10,
+        "corners_after": 1,
+        "target": 2,
+        "technical_result": "LOSS",
+        "entry_status": "sem_entrada",
+        "potential_market_result": "LOSS",
+        "price_condition": "O alvo técnico era linha de VOID",
+        "void_reason": "Não entrada — preço demasiado alto",
+        "approved_manually": true
+      },
+      "sealed_payload": {
+        "alert_id": "ce1:1528984:final",
+        "classification": "scanner_signal_not_confirmed_bet",
+        "confidence": 8.5,
+        "corners_at_alert": 8,
+        "league": "UEFA Nations League",
+        "match": "Spain vs England",
+        "minimum_price": 1.8,
+        "minute": 79,
+        "score_at_alert": "2-3",
+        "suggestion": "🎯 REFERÊNCIA\nOver 9.5 cantos · preço de referência @1.80+\n⚠️ Validar mercado e contexto · alerta não é entrada automática",
+        "window": "FINAL PUSH"
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20261115T172820984526Z:c2bac327",
