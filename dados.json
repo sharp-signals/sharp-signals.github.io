@@ -8,10 +8,10 @@
    "fim": "2026-01-31"
   },
   "cresc_pct": 56.91,
-  "apostas": 1279,
-  "ganhos": 718,
+  "apostas": 1280,
+  "ganhos": 719,
   "perdidos": 561,
-  "wr": 56.1,
+  "wr": 56.2,
   "meses": [
    {
     "mes": "2025-08",
@@ -86,17 +86,17 @@
    {
     "mes": "2026-11",
     "label": "Nov 26",
-    "cresc_pct": 6.17,
-    "apostas": 47,
-    "wr": 55.3
+    "cresc_pct": 6.94,
+    "apostas": 48,
+    "wr": 56.2
    }
   ],
   "por_mercado": [
    {
     "mercado": "Over Cantos FT",
-    "n": 705,
-    "wr": 58.7,
-    "roi": 45.83,
+    "n": 706,
+    "wr": 58.8,
+    "roi": 46.6,
     "pl_eur": 1369.94
    },
    {
@@ -143,7 +143,6 @@
    }
   ],
   "forma": [
-   "ganho",
    "cashout",
    "ganho",
    "ganho",
@@ -157,6 +156,7 @@
    "ganho",
    "ganho",
    "perdido",
+   "ganho",
    "ganho"
   ],
   "historico": [
@@ -182,13 +182,13 @@
     "jogo": "Al Ittihad Kalba x Shabab Dubai",
     "mercado": "⛳ Over 7 corners · FT",
     "categoria": "Over Cantos FT",
-    "odd": null,
-    "pl_pct": null,
+    "odd": 2.03,
+    "pl_pct": 0.772,
     "stake_pct": 0.75,
-    "resultado": "pendente",
+    "resultado": "ganho",
     "verified_id": "tip_proposal:20261115T171338895653Z:fc526732",
-    "estado_entrada": "aguarda_confirmacao",
-    "tipo_odd": "por_registar",
+    "estado_entrada": "confirmada",
+    "tipo_odd": "real",
     "odd_minima_recomendada": 1.8,
     "confianca": 7
    },
