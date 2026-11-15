@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-15T20:01:57Z",
-  "event_chain_head": "8ab29725ac4c1c58e070a1c163847101d2ebb8c76713288245f9d81fed09da69",
+  "generated_at": "2026-11-15T20:07:19Z",
+  "event_chain_head": "f7f7741aced295b0f795d13767780b13ca500279a2fd51b1c4cdab3f9438d064",
   "event_chain_algorithm": "SHA-256 linked events",
   "event_chain_integrity": {
     "status": "valid_from_checkpoint",
-    "events": 885,
+    "events": 886,
     "broken_links": [],
     "content_hash_mismatches": [
       {
@@ -142,7 +142,7 @@
       }
     ],
     "unacknowledged_content_hashes": [],
-    "head": "8ab29725ac4c1c58e070a1c163847101d2ebb8c76713288245f9d81fed09da69"
+    "head": "f7f7741aced295b0f795d13767780b13ca500279a2fd51b1c4cdab3f9438d064"
   },
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -153,20 +153,43 @@
   },
   "summary": {
     "total": 451,
-    "pending": 19,
+    "pending": 18,
     "signals_settled": 145,
-    "official_entries_settled": 256,
+    "official_entries_settled": 257,
     "cancelled": 52
   },
   "records": [
     {
       "id": "tip_proposal:20261115T172820984526Z:c2bac327",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-11-15T17:28:21Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "f7adf1323b22de063564ae5ba4b6b46a259d909a6af9cf374f563fe8ba684a16",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-11-15T20:07:19Z",
+      "result": "WIN",
+      "outcome": {
+        "odds": 1.94,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": 0.705,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20261115T172820984526Z:c2bac327",
+        "market": "⛳ Over 5.5 corners · FT",
+        "match": "Alkmaar F x Ajax F",
+        "minimum_recommended_odds": 1.8,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20261115T171338895653Z:fc526732",
