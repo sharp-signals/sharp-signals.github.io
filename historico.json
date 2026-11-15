@@ -5387,6 +5387,28 @@
       "justificacao_void": "",
       "golos_apos_casa": 0,
       "golos_apos_fora": 0
+    },
+    {
+      "alerta_id": "ce1:1528984:final",
+      "fixture_id": 1528984,
+      "timestamp": "2026-11-15T22:11:07.357431",
+      "jogo": "Spain vs England",
+      "liga": "UEFA Nations League",
+      "janela": "FINAL PUSH",
+      "tempo_alerta": 79,
+      "estrelas": 8.5,
+      "cantos_no_ref": 9,
+      "cantos_final": 10,
+      "cantos_apos_alerta": 1,
+      "meta_cantos": 2,
+      "resultado": "CANCELADA",
+      "resultado_tecnico": "LOSS",
+      "estado_entrada": "SEM_ENTRADA",
+      "resultado_mercado_potencial": "LOSS",
+      "condicao_preco": "O alvo técnico era linha de VOID",
+      "justificacao_void": "Não entrada — preço demasiado alto",
+      "golos_apos_casa": 0,
+      "golos_apos_fora": 0
     }
   ]
 }
