@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-15T14:21:01Z",
-  "event_chain_head": "5c0a7ee8fa8e7727e1672529cface8674904fa58157e39456abdee8e9bf8c0de",
+  "generated_at": "2026-11-15T14:34:04Z",
+  "event_chain_head": "6e33dcf936fab834ca22592609059d54d9b5e463908484b3c980f19c1ac5c074",
   "event_chain_algorithm": "SHA-256 linked events",
   "event_chain_integrity": {
     "status": "valid_from_checkpoint",
-    "events": 877,
+    "events": 878,
     "broken_links": [],
     "content_hash_mismatches": [
       {
@@ -142,7 +142,7 @@
       }
     ],
     "unacknowledged_content_hashes": [],
-    "head": "5c0a7ee8fa8e7727e1672529cface8674904fa58157e39456abdee8e9bf8c0de"
+    "head": "6e33dcf936fab834ca22592609059d54d9b5e463908484b3c980f19c1ac5c074"
   },
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -153,8 +153,8 @@
   },
   "summary": {
     "total": 447,
-    "pending": 19,
-    "signals_settled": 144,
+    "pending": 18,
+    "signals_settled": 145,
     "official_entries_settled": 253,
     "cancelled": 52
   },
@@ -194,11 +194,39 @@
     {
       "id": "ce1:1551884:ht",
       "kind": "signal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-11-15T13:59:55Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "d8776321b2b0ce00b76cd5f74ca16d8a06f99d0a51cf469be03cfd328a01a51e",
-      "telegram_message_count": 3
+      "telegram_message_count": 3,
+      "settled_at": "2026-11-15T14:34:03Z",
+      "result": "VOID",
+      "outcome": {
+        "corners_reference": 7,
+        "corners_final": 10,
+        "corners_after": 3,
+        "target": 2,
+        "technical_result": "WIN",
+        "entry_status": "confirmada",
+        "potential_market_result": "",
+        "price_condition": "",
+        "void_reason": "",
+        "approved_manually": true
+      },
+      "sealed_payload": {
+        "alert_id": "ce1:1551884:ht",
+        "classification": "scanner_signal_not_confirmed_bet",
+        "confidence": 7.0,
+        "corners_at_alert": 5,
+        "league": "Eerste Divisie",
+        "match": "MVV vs Vitesse",
+        "minimum_price": 1.8,
+        "minute": 28,
+        "score_at_alert": "1-0",
+        "suggestion": "🎯 REFERÊNCIA\nOver 6.5 cantos 1ª parte · preço de referência @1.80+\n⚠️ Validar mercado e contexto · alerta não é entrada automática",
+        "window": "HT ATTACK"
+      },
+      "commitment_valid": true
     },
     {
       "id": "ce1:1520972:shark",
