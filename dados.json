@@ -8,8 +8,8 @@
    "fim": "2026-01-31"
   },
   "cresc_pct": 56.91,
-  "apostas": 1280,
-  "ganhos": 719,
+  "apostas": 1281,
+  "ganhos": 720,
   "perdidos": 561,
   "wr": 56.2,
   "meses": [
@@ -86,17 +86,17 @@
    {
     "mes": "2026-11",
     "label": "Nov 26",
-    "cresc_pct": 6.94,
-    "apostas": 48,
-    "wr": 56.2
+    "cresc_pct": 7.65,
+    "apostas": 49,
+    "wr": 57.1
    }
   ],
   "por_mercado": [
    {
     "mercado": "Over Cantos FT",
-    "n": 706,
+    "n": 707,
     "wr": 58.8,
-    "roi": 46.6,
+    "roi": 47.3,
     "pl_eur": 1369.94
    },
    {
@@ -143,7 +143,6 @@
    }
   ],
   "forma": [
-   "cashout",
    "ganho",
    "ganho",
    "ganho",
@@ -157,6 +156,7 @@
    "ganho",
    "perdido",
    "ganho",
+   "ganho",
    "ganho"
   ],
   "historico": [
@@ -166,13 +166,13 @@
     "jogo": "Alkmaar F x Ajax F",
     "mercado": "⛳ Over 5.5 corners · FT",
     "categoria": "Over Cantos FT",
-    "odd": null,
-    "pl_pct": null,
+    "odd": 1.94,
+    "pl_pct": 0.705,
     "stake_pct": 0.75,
-    "resultado": "pendente",
+    "resultado": "ganho",
     "verified_id": "tip_proposal:20261115T172820984526Z:c2bac327",
-    "estado_entrada": "aguarda_confirmacao",
-    "tipo_odd": "por_registar",
+    "estado_entrada": "confirmada",
+    "tipo_odd": "real",
     "odd_minima_recomendada": 1.8,
     "confianca": 7
    },
