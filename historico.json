@@ -5364,5 +5364,29 @@
       "golos_apos_casa": 1,
       "golos_apos_fora": 0
     }
+  ],
+  "2026-11-15": [
+    {
+      "alerta_id": "ce1:1551884:ht",
+      "fixture_id": 1551884,
+      "timestamp": "2026-11-15T14:33:59.755844",
+      "jogo": "MVV vs Vitesse",
+      "liga": "Eerste Divisie",
+      "janela": "HT ATTACK",
+      "tempo_alerta": 28,
+      "estrelas": 7.0,
+      "cantos_no_ref": 7,
+      "cantos_final": 10,
+      "cantos_apos_alerta": 3,
+      "meta_cantos": 2,
+      "resultado": "VOID",
+      "resultado_tecnico": "WIN",
+      "estado_entrada": "CONFIRMADA",
+      "resultado_mercado_potencial": "",
+      "condicao_preco": "",
+      "justificacao_void": "",
+      "golos_apos_casa": 0,
+      "golos_apos_fora": 0
+    }
   ]
 }
