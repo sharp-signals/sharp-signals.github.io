@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-15T14:04:42Z",
-  "event_chain_head": "49246a3eb8a6d54c429741d912cd5de9fe408a2ba606ea7b0e1414c2a6ee04ca",
+  "generated_at": "2026-11-15T14:21:01Z",
+  "event_chain_head": "5c0a7ee8fa8e7727e1672529cface8674904fa58157e39456abdee8e9bf8c0de",
   "event_chain_algorithm": "SHA-256 linked events",
   "event_chain_integrity": {
     "status": "valid_from_checkpoint",
-    "events": 876,
+    "events": 877,
     "broken_links": [],
     "content_hash_mismatches": [
       {
@@ -142,7 +142,7 @@
       }
     ],
     "unacknowledged_content_hashes": [],
-    "head": "49246a3eb8a6d54c429741d912cd5de9fe408a2ba606ea7b0e1414c2a6ee04ca"
+    "head": "5c0a7ee8fa8e7727e1672529cface8674904fa58157e39456abdee8e9bf8c0de"
   },
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -153,20 +153,43 @@
   },
   "summary": {
     "total": 447,
-    "pending": 20,
+    "pending": 19,
     "signals_settled": 144,
-    "official_entries_settled": 252,
+    "official_entries_settled": 253,
     "cancelled": 52
   },
   "records": [
     {
       "id": "tip_proposal:20261115T140442047334Z:002b1ee8",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-11-15T14:04:42Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "cc9ea5256982048695cbf791fb8a8c09077a4f0f713ffbbd39433845c73755a5",
-      "telegram_message_count": 2
+      "telegram_message_count": 2,
+      "settled_at": "2026-11-15T14:21:01Z",
+      "result": "VOID",
+      "outcome": {
+        "odds": 1.92,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": 0.0,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20261115T140442047334Z:002b1ee8",
+        "market": "⛳ Over 2 corners · 1st half",
+        "match": "Spezia x Vado",
+        "minimum_recommended_odds": 1.8,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "ce1:1551884:ht",
