@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-15T19:49:58Z",
-  "event_chain_head": "ab724408640216e8a75136724ef9d6ecb336af4e0bacbd1c12f4b73246fb3dae",
+  "generated_at": "2026-11-15T20:01:57Z",
+  "event_chain_head": "8ab29725ac4c1c58e070a1c163847101d2ebb8c76713288245f9d81fed09da69",
   "event_chain_algorithm": "SHA-256 linked events",
   "event_chain_integrity": {
     "status": "valid_from_checkpoint",
-    "events": 884,
+    "events": 885,
     "broken_links": [],
     "content_hash_mismatches": [
       {
@@ -142,7 +142,7 @@
       }
     ],
     "unacknowledged_content_hashes": [],
-    "head": "ab724408640216e8a75136724ef9d6ecb336af4e0bacbd1c12f4b73246fb3dae"
+    "head": "8ab29725ac4c1c58e070a1c163847101d2ebb8c76713288245f9d81fed09da69"
   },
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -153,9 +153,9 @@
   },
   "summary": {
     "total": 451,
-    "pending": 20,
+    "pending": 19,
     "signals_settled": 145,
-    "official_entries_settled": 255,
+    "official_entries_settled": 256,
     "cancelled": 52
   },
   "records": [
@@ -171,11 +171,34 @@
     {
       "id": "tip_proposal:20261115T171338895653Z:fc526732",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-11-15T17:13:39Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "2cd8cc9f510f5327312d5d17041fed97d73f840dc24f20b3b106edb1031b60cb",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-11-15T20:01:57Z",
+      "result": "WIN",
+      "outcome": {
+        "odds": 2.03,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": 0.772,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20261115T171338895653Z:fc526732",
+        "market": "⛳ Over 7 corners · FT",
+        "match": "Al Ittihad Kalba x Shabab Dubai",
+        "minimum_recommended_odds": 1.8,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20261115T170633536384Z:ed6b0925",
