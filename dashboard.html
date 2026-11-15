@@ -292,12 +292,12 @@ function seletorEpoca(){
   return `<div class="segwrap"><div class="segbar">${op.map(x=>`<span class="seg epoca-seg ${x[0]===EPOCA?'on':''}" data-epoca="${x[0]}">${x[1]}</span>`).join('')}</div></div>`;
 }
 function resumoTips(raw){
-  const historico=(raw.historico||[]).filter(pertenceEpoca);
+  const tipCancelada=x=>String((x&&x.resultado)||'').toLowerCase()==='cancelada'||/cancel|sem entrada/i.test(String((x&&x.estado_entrada)||''));
+  const historico=(raw.historico||[]).filter(pertenceEpoca).filter(x=>!tipCancelada(x));
   const ganhos=historico.filter(x=>x.resultado==='ganho').length;
   const perdidos=historico.filter(x=>x.resultado==='perdido'||x.resultado==='perda').length;
   const cashouts=historico.filter(x=>x.resultado==='cashout').length;
   const voids=historico.filter(x=>x.resultado==='void').length;
-  const canceladas=historico.filter(x=>x.resultado==='cancelada').length;
   const pendentes=historico.filter(x=>x.resultado==='pendente').length;
   const mesesMap={};
   historico.forEach(x=>{const mes=mesDaEntrada(x);if(!mes)return;const b=mesesMap[mes]||(mesesMap[mes]={mes,ganhos:0,perdidos:0,cashouts:0,cresc_pct:0});if(x.resultado==='ganho')b.ganhos++;else if(x.resultado==='perdido'||x.resultado==='perda')b.perdidos++;else if(x.resultado==='cashout')b.cashouts++;b.cresc_pct+=Number(x.pl_pct)||0;});
@@ -308,7 +308,7 @@ function resumoTips(raw){
   const por_mercado=Object.values(mercados).map(m=>({...m,wr:m.n?Math.round(1000*m.g/m.n)/10:0,roi:Math.round(m.roi*100)/100}));
   const forma=historico.slice().reverse().filter(x=>['ganho','perdido','perda'].includes(x.resultado)).map(x=>x.resultado==='ganho'?'ganho':'perdido').slice(-15);
   const decididas=ganhos+perdidos;
-  return {...raw,historico,ganhos,perdidos,cashouts,voids,canceladas,pendentes,apostas:decididas,simuladas:decididas+cashouts,wr:decididas?Math.round(1000*ganhos/decididas)/10:0,cresc_pct:Math.round(historico.reduce((s,x)=>s+(Number(x.pl_pct)||0),0)*1000)/1000,meses,por_mercado,forma};
+  return {...raw,historico,ganhos,perdidos,cashouts,voids,canceladas:0,pendentes,apostas:decididas,simuladas:decididas+cashouts,wr:decididas?Math.round(1000*ganhos/decididas)/10:0,cresc_pct:Math.round(historico.reduce((s,x)=>s+(Number(x.pl_pct)||0),0)*1000)/1000,meses,por_mercado,forma};
 }
 
 function ordenarEntradasFinanceiras(lista){return lista.map((x,i)=>({x,i})).sort((a,b)=>String(a.x.data||'').localeCompare(String(b.x.data||''))||a.i-b.i).map(v=>v.x);}
@@ -345,7 +345,7 @@ function vistaTips(d){
       <div class="sub">✅ ${d.ganhos} · ❌ ${d.perdidos} · cashouts excluded</div></div>
     <div class="card kpi"><div class="lbl">Decided entries</div>
       <div class="val">${d.apostas}</div>
-      <div class="sub">${d.cashouts} cashouts · ${d.voids} voids · ${d.canceladas} cancelled</div></div>
+      <div class="sub">${d.cashouts} cashouts · ${d.voids} voids</div></div>
   </div>
   <div class="card formcard" style="margin-top:14px">
     <div><div class="fc-big">${emoji} <b>${s.n}</b> ${txt}</div>
@@ -356,7 +356,7 @@ function vistaTips(d){
   ${blocoGraficoAcumulado()}
   <div class="sec-t">Stake &amp; Bankroll Simulator</div>
   <div class="card simcard">
-    <div class="fc-sub">Applies the selected stake percentage to the available bankroll across ${d.simuladas} chronological financial entries. CASHOUT affects bankroll but not win rate; VOID and CANCELLED do not move bankroll. Missing odds use the 1.84 historical reference.</div>
+    <div class="fc-sub">Applies the selected stake percentage to the available bankroll across ${d.simuladas} chronological financial entries. CASHOUT affects bankroll but not win rate; VOID does not move bankroll. Missing odds use the 1.84 historical reference.</div>
     <div class="sim-row">
       <div class="sim-field"><label>Starting bankroll (€)</label>
         <input type="number" id="sim-bankroll" value="1000" min="0" step="50" oninput="calcularSimulador()"></div>

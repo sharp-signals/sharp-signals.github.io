@@ -295,12 +295,12 @@ function seletorEpoca(){
   return `<div class="segwrap"><div class="segbar">${op.map(x=>`<span class="seg epoca-seg ${x[0]===EPOCA?'on':''}" data-epoca="${x[0]}">${x[1]}</span>`).join('')}</div></div>`;
 }
 function resumoTips(raw){
-  const historico=(raw.historico||[]).filter(pertenceEpoca);
+  const tipCancelada=x=>String((x&&x.resultado)||'').toLowerCase()==='cancelada'||/cancel|sem entrada/i.test(String((x&&x.estado_entrada)||''));
+  const historico=(raw.historico||[]).filter(pertenceEpoca).filter(x=>!tipCancelada(x));
   const ganhos=historico.filter(x=>x.resultado==='ganho').length;
   const perdidos=historico.filter(x=>x.resultado==='perdido'||x.resultado==='perda').length;
   const cashouts=historico.filter(x=>x.resultado==='cashout').length;
   const voids=historico.filter(x=>x.resultado==='void').length;
-  const canceladas=historico.filter(x=>x.resultado==='cancelada').length;
   const pendentes=historico.filter(x=>x.resultado==='pendente').length;
   const mesesMap={};
   historico.forEach(x=>{
@@ -329,7 +329,7 @@ function resumoTips(raw){
   const forma=historico.slice().reverse().filter(x=>['ganho','perdido','perda'].includes(x.resultado))
     .map(x=>x.resultado==='ganho'?'ganho':'perdido').slice(-15);
   const decididas=ganhos+perdidos;
-  return {...raw,historico,ganhos,perdidos,cashouts,voids,canceladas,pendentes,
+  return {...raw,historico,ganhos,perdidos,cashouts,voids,canceladas:0,pendentes,
     apostas:decididas,simuladas:decididas+cashouts,wr:decididas?Math.round(1000*ganhos/decididas)/10:0,
     cresc_pct:Math.round(historico.reduce((s,x)=>s+(Number(x.pl_pct)||0),0)*1000)/1000,
     meses,por_mercado,forma};
@@ -369,7 +369,7 @@ function vistaTips(d){
       <div class="sub">✅ ${d.ganhos} · ❌ ${d.perdidos} · cashouts excluídos</div></div>
     <div class="card kpi"><div class="lbl">Entradas decididas</div>
       <div class="val">${d.apostas}</div>
-      <div class="sub">${d.cashouts} cashouts · ${d.voids} voids · ${d.canceladas} canceladas</div></div>
+      <div class="sub">${d.cashouts} cashouts · ${d.voids} voids</div></div>
   </div>
   <div class="card formcard" style="margin-top:14px">
     <div><div class="fc-big">${emoji} <b>${s.n}</b> ${txt}</div>
@@ -380,7 +380,7 @@ function vistaTips(d){
   ${blocoGraficoAcumulado()}
   <div class="sec-t">Simulador de Stake e Banca</div>
   <div class="card simcard">
-    <div class="fc-sub">Aplica a percentagem de stake escolhida à banca disponível ao longo das ${d.simuladas} entradas financeiras cronológicas da época. CASHOUT afeta a banca, mas não a taxa de acerto; VOID e CANCELADA não movimentam a banca. Sem odd real, usa a referência histórica 1.84.</div>
+    <div class="fc-sub">Aplica a percentagem de stake escolhida à banca disponível ao longo das ${d.simuladas} entradas financeiras cronológicas da época. CASHOUT afeta a banca, mas não a taxa de acerto; VOID não movimenta a banca. Sem odd real, usa a referência histórica 1.84.</div>
     <div class="sim-row">
       <div class="sim-field"><label>Banca inicial (€)</label>
         <input type="number" id="sim-bankroll" value="1000" min="0" step="50" oninput="calcularSimulador()"></div>
