@@ -8,8 +8,8 @@
    "fim": "2026-01-31"
   },
   "cresc_pct": 56.91,
-  "apostas": 1281,
-  "ganhos": 720,
+  "apostas": 1282,
+  "ganhos": 721,
   "perdidos": 561,
   "wr": 56.2,
   "meses": [
@@ -86,17 +86,17 @@
    {
     "mes": "2026-11",
     "label": "Nov 26",
-    "cresc_pct": 7.65,
-    "apostas": 49,
-    "wr": 57.1
+    "cresc_pct": 8.29,
+    "apostas": 50,
+    "wr": 58.0
    }
   ],
   "por_mercado": [
    {
     "mercado": "Over Cantos FT",
-    "n": 707,
-    "wr": 58.8,
-    "roi": 47.3,
+    "n": 708,
+    "wr": 58.9,
+    "roi": 47.94,
     "pl_eur": 1369.94
    },
    {
@@ -149,12 +149,12 @@
    "ganho",
    "ganho",
    "ganho",
-   "ganho",
    "cashout",
    "ganho",
    "ganho",
    "ganho",
    "perdido",
+   "ganho",
    "ganho",
    "ganho",
    "ganho"
@@ -166,13 +166,13 @@
     "jogo": "Lanus F x Talleres F",
     "mercado": "⛳ Over 5 corners · FT",
     "categoria": "Over Cantos FT",
-    "odd": null,
-    "pl_pct": null,
+    "odd": 1.85,
+    "pl_pct": 0.638,
     "stake_pct": 0.75,
-    "resultado": "pendente",
+    "resultado": "ganho",
     "verified_id": "tip_proposal:20261116T194919630010Z:2bcafbcd",
-    "estado_entrada": "aguarda_confirmacao",
-    "tipo_odd": "por_registar",
+    "estado_entrada": "confirmada",
+    "tipo_odd": "real",
     "odd_minima_recomendada": 1.8,
     "confianca": 7
    },
