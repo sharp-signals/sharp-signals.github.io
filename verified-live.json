@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-16T19:49:20Z",
-  "event_chain_head": "70c82cdebac90f80520d9fba3cc2d542521e8a751c49373e8ad9ab8fd7c47655",
+  "generated_at": "2026-11-16T20:02:44Z",
+  "event_chain_head": "6cbd5a56f89c0e3da568c6d5c1df77fa03b2d0a04431c0abc9bfc55220bbaaaa",
   "event_chain_algorithm": "SHA-256 linked events",
   "event_chain_integrity": {
     "status": "valid_from_checkpoint",
-    "events": 889,
+    "events": 890,
     "broken_links": [],
     "content_hash_mismatches": [
       {
@@ -142,7 +142,7 @@
       }
     ],
     "unacknowledged_content_hashes": [],
-    "head": "70c82cdebac90f80520d9fba3cc2d542521e8a751c49373e8ad9ab8fd7c47655"
+    "head": "6cbd5a56f89c0e3da568c6d5c1df77fa03b2d0a04431c0abc9bfc55220bbaaaa"
   },
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -153,20 +153,43 @@
   },
   "summary": {
     "total": 453,
-    "pending": 19,
+    "pending": 18,
     "signals_settled": 146,
-    "official_entries_settled": 257,
+    "official_entries_settled": 258,
     "cancelled": 53
   },
   "records": [
     {
       "id": "tip_proposal:20261116T194919630010Z:2bcafbcd",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-11-16T19:49:20Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "b02bf9257d5e911499b41df1839201b9347b52f0cf97c775d37c4a7fe42060ec",
-      "telegram_message_count": 2
+      "telegram_message_count": 2,
+      "settled_at": "2026-11-16T20:02:44Z",
+      "result": "WIN",
+      "outcome": {
+        "odds": 1.85,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": 0.638,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20261116T194919630010Z:2bcafbcd",
+        "market": "⛳ Over 5 corners · FT",
+        "match": "Lanus F x Talleres F",
+        "minimum_recommended_odds": 1.8,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "ce1:1528984:final",
