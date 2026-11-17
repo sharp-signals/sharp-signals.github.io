@@ -167,7 +167,7 @@
     "mercado": "⛳ Over 2.5 corners · 1st half",
     "categoria": "Cashout",
     "odd": null,
-    "pl_pct": -0.188,
+    "pl_pct": -0.06,
     "stake_pct": 1.25,
     "resultado": "cashout",
     "verified_id": "tip_proposal:20261117T131625244070Z:8b7963ff",
@@ -175,7 +175,8 @@
     "tipo_odd": "referencia_cashout_menos_15_pct",
     "odd_minima_recomendada": 1.8,
     "confianca": 8,
-    "cashout_perda_referencia_pct_stake": 15.0
+    "cashout_perda_referencia_pct_stake": null,
+    "pl_source": "cashout_real_reportado"
    },
    {
     "data": "2026-11-16",
