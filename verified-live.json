@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-17T13:40:24Z",
-  "event_chain_head": "501a4fb1c2a4d523b8bb5e4a0dd36dc6b760b0f4fb9528c6007a90b66e1b64c0",
+  "generated_at": "2026-11-17T14:07:30Z",
+  "event_chain_head": "407a2fb25985fada1679c65a2b8ee5659af8a1c7dc112ad63d453ee8ed552afb",
   "event_chain_algorithm": "SHA-256 linked events",
   "event_chain_integrity": {
     "status": "valid_from_checkpoint",
-    "events": 894,
+    "events": 895,
     "broken_links": [],
     "content_hash_mismatches": [
       {
@@ -142,7 +142,7 @@
       }
     ],
     "unacknowledged_content_hashes": [],
-    "head": "501a4fb1c2a4d523b8bb5e4a0dd36dc6b760b0f4fb9528c6007a90b66e1b64c0"
+    "head": "407a2fb25985fada1679c65a2b8ee5659af8a1c7dc112ad63d453ee8ed552afb"
   },
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -153,20 +153,43 @@
   },
   "summary": {
     "total": 455,
-    "pending": 19,
+    "pending": 18,
     "signals_settled": 146,
-    "official_entries_settled": 258,
+    "official_entries_settled": 259,
     "cancelled": 53
   },
   "records": [
     {
       "id": "tip_proposal:20261117T134023780031Z:0fbe16b3",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-11-17T13:40:24Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "c19a312957fac5ed45f7f625199f0f0149ed91da27abd778f8dbefcac6fc879f",
-      "telegram_message_count": 2
+      "telegram_message_count": 2,
+      "settled_at": "2026-11-17T14:07:30Z",
+      "result": "WIN",
+      "outcome": {
+        "odds": 1.89,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": 0.667,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20261117T134023780031Z:0fbe16b3",
+        "market": "⛳ Over 5.5 corners · FT",
+        "match": "Chipre u19 x Armenia u19",
+        "minimum_recommended_odds": 1.8,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20261117T131625244070Z:8b7963ff",
