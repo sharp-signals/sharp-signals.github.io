@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-17T14:42:19Z",
-  "event_chain_head": "08f16755d5c0fe5b7ef5b8ae19a867d26aaaab337372ed65a58bcac2a5758d21",
+  "generated_at": "2026-11-17T14:43:20Z",
+  "event_chain_head": "9aeb46d46da6919aa718b31defa243644e8e5618ac801aa8401e4b1494e7d235",
   "event_chain_algorithm": "SHA-256 linked events",
   "event_chain_integrity": {
     "status": "valid_from_checkpoint",
-    "events": 896,
+    "events": 897,
     "broken_links": [],
     "content_hash_mismatches": [
       {
@@ -142,7 +142,7 @@
       }
     ],
     "unacknowledged_content_hashes": [],
-    "head": "08f16755d5c0fe5b7ef5b8ae19a867d26aaaab337372ed65a58bcac2a5758d21"
+    "head": "9aeb46d46da6919aa718b31defa243644e8e5618ac801aa8401e4b1494e7d235"
   },
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -153,20 +153,43 @@
   },
   "summary": {
     "total": 456,
-    "pending": 19,
+    "pending": 18,
     "signals_settled": 146,
     "official_entries_settled": 259,
-    "cancelled": 53
+    "cancelled": 54
   },
   "records": [
     {
       "id": "tip_proposal:20261117T144218119791Z:5dc65c9a",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-11-17T14:42:18Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "a99889e3af3f8c3e555b7fe342cc584ac5cf0d18a51a834e8ae0e2e8ca07051e",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-11-17T14:43:20Z",
+      "result": "CANCELADA",
+      "outcome": {
+        "odds": null,
+        "odds_source": null,
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "cancelled",
+        "profit_loss_percent": null,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20261117T144218119791Z:5dc65c9a",
+        "market": "⛳ Over 11 corners · FT",
+        "match": "Malawi x Egito",
+        "minimum_recommended_odds": 1.8,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20261117T134023780031Z:0fbe16b3",
