@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-17T19:45:03Z",
-  "event_chain_head": "7e78a5117da1745e8902727b9113d001d4ba16ffae6ad82c44baf59d0d978219",
+  "generated_at": "2026-11-17T19:52:31Z",
+  "event_chain_head": "2c9a791fe289048469da8957358b01e29f12d6f4bea71f353606cacb150cb9d3",
   "event_chain_algorithm": "SHA-256 linked events",
   "event_chain_integrity": {
     "status": "valid_from_checkpoint",
-    "events": 900,
+    "events": 901,
     "broken_links": [],
     "content_hash_mismatches": [
       {
@@ -142,7 +142,7 @@
       }
     ],
     "unacknowledged_content_hashes": [],
-    "head": "7e78a5117da1745e8902727b9113d001d4ba16ffae6ad82c44baf59d0d978219"
+    "head": "2c9a791fe289048469da8957358b01e29f12d6f4bea71f353606cacb150cb9d3"
   },
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -153,20 +153,43 @@
   },
   "summary": {
     "total": 458,
-    "pending": 19,
+    "pending": 18,
     "signals_settled": 146,
-    "official_entries_settled": 260,
+    "official_entries_settled": 261,
     "cancelled": 54
   },
   "records": [
     {
       "id": "tip_proposal:20261117T194502583039Z:fb0b03ba",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-11-17T19:45:02Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "a2ba288ab53359a10f2b4a65f72171cb15df2053e614a884224a0a37dbd4b67a",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-11-17T19:52:31Z",
+      "result": "WIN",
+      "outcome": {
+        "odds": 1.9,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": 0.675,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20261117T194502583039Z:fb0b03ba",
+        "market": "⛳ Over 10.5 corners · FT",
+        "match": "Defensa e Justicia II x Huracan II",
+        "minimum_recommended_odds": 1.8,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20261117T164026760347Z:4475b56c",
