@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-17T13:16:25Z",
-  "event_chain_head": "9a2a97537862a7a3b90f488eae7c0e9baea53eca8041c2a297fb9054fefda864",
+  "generated_at": "2026-11-17T13:30:55Z",
+  "event_chain_head": "bde6e5f76c539ddf5b89a3873126dcb964d84c98c2897444e223feccce6da201",
   "event_chain_algorithm": "SHA-256 linked events",
   "event_chain_integrity": {
     "status": "valid_from_checkpoint",
-    "events": 891,
+    "events": 892,
     "broken_links": [],
     "content_hash_mismatches": [
       {
@@ -142,7 +142,7 @@
       }
     ],
     "unacknowledged_content_hashes": [],
-    "head": "9a2a97537862a7a3b90f488eae7c0e9baea53eca8041c2a297fb9054fefda864"
+    "head": "bde6e5f76c539ddf5b89a3873126dcb964d84c98c2897444e223feccce6da201"
   },
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -153,20 +153,43 @@
   },
   "summary": {
     "total": 454,
-    "pending": 19,
+    "pending": 18,
     "signals_settled": 146,
-    "official_entries_settled": 258,
+    "official_entries_settled": 259,
     "cancelled": 53
   },
   "records": [
     {
       "id": "tip_proposal:20261117T131625244070Z:8b7963ff",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-11-17T13:16:25Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "311385ec1be8326482ba3717d15beeba4bb44ce00b9ea878c59ecd851eae2591",
-      "telegram_message_count": 2
+      "telegram_message_count": 2,
+      "settled_at": "2026-11-17T13:30:55Z",
+      "result": "CASHOUT",
+      "outcome": {
+        "odds": null,
+        "odds_source": "cashout_loss_reference",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": 0.15,
+        "entry_status": "confirmed",
+        "profit_loss_percent": -0.188,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 8,
+        "entry_id": "tip_proposal:20261117T131625244070Z:8b7963ff",
+        "market": "⛳ Over 2.5 corners · 1st half",
+        "match": "Sul Sudão x Angola",
+        "minimum_recommended_odds": 1.8,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 1.25
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20261116T194919630010Z:2bcafbcd",
