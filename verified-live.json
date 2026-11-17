@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-17T16:40:27Z",
-  "event_chain_head": "a05e707e662ff13a47402e50a1351353afc6a6d39a669103dfc80ceae8d25b67",
+  "generated_at": "2026-11-17T19:07:49Z",
+  "event_chain_head": "4085ab9db7d8d06fd35966ed629c15cb6b7940edd110b87b5342748ab34bb556",
   "event_chain_algorithm": "SHA-256 linked events",
   "event_chain_integrity": {
     "status": "valid_from_checkpoint",
-    "events": 898,
+    "events": 899,
     "broken_links": [],
     "content_hash_mismatches": [
       {
@@ -142,7 +142,7 @@
       }
     ],
     "unacknowledged_content_hashes": [],
-    "head": "a05e707e662ff13a47402e50a1351353afc6a6d39a669103dfc80ceae8d25b67"
+    "head": "4085ab9db7d8d06fd35966ed629c15cb6b7940edd110b87b5342748ab34bb556"
   },
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -153,20 +153,43 @@
   },
   "summary": {
     "total": 457,
-    "pending": 19,
+    "pending": 18,
     "signals_settled": 146,
-    "official_entries_settled": 259,
+    "official_entries_settled": 260,
     "cancelled": 54
   },
   "records": [
     {
       "id": "tip_proposal:20261117T164026760347Z:4475b56c",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-11-17T16:40:27Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "629e54dc788f48a56d69095ce962e911cbbf650b0d063d6d32eb3e8b40b93e43",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-11-17T19:07:49Z",
+      "result": "LOSS",
+      "outcome": {
+        "odds": 1.81,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": -0.75,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20261117T164026760347Z:4475b56c",
+        "market": "⛳ Over 4 corners · FT",
+        "match": "Montenegro u19 x Servia u19",
+        "minimum_recommended_odds": 1.8,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20261117T144218119791Z:5dc65c9a",
