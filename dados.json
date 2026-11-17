@@ -8,9 +8,9 @@
    "fim": "2026-01-31"
   },
   "cresc_pct": 56.91,
-  "apostas": 1282,
+  "apostas": 1283,
   "ganhos": 721,
-  "perdidos": 561,
+  "perdidos": 562,
   "wr": 56.2,
   "meses": [
    {
@@ -86,9 +86,9 @@
    {
     "mes": "2026-11",
     "label": "Nov 26",
-    "cresc_pct": 8.29,
-    "apostas": 50,
-    "wr": 58.0
+    "cresc_pct": 8.1,
+    "apostas": 51,
+    "wr": 56.9
    }
   ],
   "por_mercado": [
@@ -108,9 +108,9 @@
    },
    {
     "mercado": "Cashout",
-    "n": 182,
-    "wr": 41.8,
-    "roi": -5.54,
+    "n": 183,
+    "wr": 41.5,
+    "roi": -5.73,
     "pl_eur": -74.77
    },
    {
@@ -148,7 +148,6 @@
    "ganho",
    "ganho",
    "ganho",
-   "ganho",
    "cashout",
    "ganho",
    "ganho",
@@ -157,7 +156,8 @@
    "ganho",
    "ganho",
    "ganho",
-   "ganho"
+   "ganho",
+   "cashout"
   ],
   "historico": [
    {
@@ -165,16 +165,17 @@
     "mes": "2026-11",
     "jogo": "Sul Sudão x Angola",
     "mercado": "⛳ Over 2.5 corners · 1st half",
-    "categoria": "Over Cantos HT",
+    "categoria": "Cashout",
     "odd": null,
-    "pl_pct": null,
+    "pl_pct": -0.188,
     "stake_pct": 1.25,
-    "resultado": "pendente",
+    "resultado": "cashout",
     "verified_id": "tip_proposal:20261117T131625244070Z:8b7963ff",
-    "estado_entrada": "aguarda_confirmacao",
-    "tipo_odd": "por_registar",
+    "estado_entrada": "confirmada",
+    "tipo_odd": "referencia_cashout_menos_15_pct",
     "odd_minima_recomendada": 1.8,
-    "confianca": 8
+    "confianca": 8,
+    "cashout_perda_referencia_pct_stake": 15.0
    },
    {
     "data": "2026-11-16",
