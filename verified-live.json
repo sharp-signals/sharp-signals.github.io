@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-17T20:15:42Z",
-  "event_chain_head": "9130e8bf6f57cdcfd0684b63d923456910866faf757c97309cd9004497117f5c",
+  "generated_at": "2026-11-17T20:18:06Z",
+  "event_chain_head": "e1b6fa41195512e293686bd95c1c5ccdb63959fc5464e314f4ba371de3011adf",
   "event_chain_algorithm": "SHA-256 linked events",
   "event_chain_integrity": {
     "status": "valid_from_checkpoint",
-    "events": 902,
+    "events": 903,
     "broken_links": [],
     "content_hash_mismatches": [
       {
@@ -142,7 +142,7 @@
       }
     ],
     "unacknowledged_content_hashes": [],
-    "head": "9130e8bf6f57cdcfd0684b63d923456910866faf757c97309cd9004497117f5c"
+    "head": "e1b6fa41195512e293686bd95c1c5ccdb63959fc5464e314f4ba371de3011adf"
   },
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -153,20 +153,43 @@
   },
   "summary": {
     "total": 459,
-    "pending": 19,
+    "pending": 18,
     "signals_settled": 146,
     "official_entries_settled": 261,
-    "cancelled": 54
+    "cancelled": 55
   },
   "records": [
     {
       "id": "tip_proposal:20261117T201541839794Z:642ea6a7",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-11-17T20:15:42Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "9e5e2e2be7d41a71f41ec6a8d591496f10b229ce201a987f620861eee5b8d24d",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-11-17T20:18:06Z",
+      "result": "CANCELADA",
+      "outcome": {
+        "odds": null,
+        "odds_source": null,
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "cancelled",
+        "profit_loss_percent": null,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20261117T201541839794Z:642ea6a7",
+        "market": "⛳ Over 4 corners · 1st half",
+        "match": "Marrocos x Niger",
+        "minimum_recommended_odds": 1.8,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20261117T194502583039Z:fb0b03ba",
