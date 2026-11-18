@@ -8,10 +8,10 @@
    "fim": "2026-01-31"
   },
   "cresc_pct": 56.91,
-  "apostas": 1287,
+  "apostas": 1288,
   "ganhos": 723,
-  "perdidos": 564,
-  "wr": 56.2,
+  "perdidos": 565,
+  "wr": 56.1,
   "meses": [
    {
     "mes": "2025-08",
@@ -86,17 +86,17 @@
    {
     "mes": "2026-11",
     "label": "Nov 26",
-    "cresc_pct": 7.95,
-    "apostas": 55,
-    "wr": 56.4
+    "cresc_pct": 7.2,
+    "apostas": 56,
+    "wr": 55.4
    }
   ],
   "por_mercado": [
    {
     "mercado": "Over Cantos FT",
-    "n": 712,
+    "n": 713,
     "wr": 58.8,
-    "roi": 47.78,
+    "roi": 47.03,
     "pl_eur": 1369.94
    },
    {
@@ -143,7 +143,6 @@
    }
   ],
   "forma": [
-   "ganho",
    "cashout",
    "ganho",
    "ganho",
@@ -157,6 +156,7 @@
    "ganho",
    "perdido",
    "ganho",
+   "perdido",
    "perdido"
   ],
   "historico": [
@@ -166,13 +166,13 @@
     "jogo": "Al Adalh x Al Orobah",
     "mercado": "⛳ Over 10 corners · FT",
     "categoria": "Over Cantos FT",
-    "odd": null,
-    "pl_pct": null,
+    "odd": 2.02,
+    "pl_pct": -0.75,
     "stake_pct": 0.75,
-    "resultado": "pendente",
+    "resultado": "perdido",
     "verified_id": "tip_proposal:20261118T161941183613Z:0cd7a5f3",
-    "estado_entrada": "aguarda_confirmacao",
-    "tipo_odd": "por_registar",
+    "estado_entrada": "confirmada",
+    "tipo_odd": "real",
     "odd_minima_recomendada": 1.8,
     "confianca": 7
    },
