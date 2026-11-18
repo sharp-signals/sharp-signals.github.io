@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-18T21:12:23Z",
-  "event_chain_head": "cdcd18aad301c1f24922eca9e8e01862e664f70f4a468eb38f32d8e8991104a3",
+  "generated_at": "2026-11-18T22:22:13Z",
+  "event_chain_head": "710658b046bca551bd0e59e163cd83023739966958adc16ae5c757dd565c0347",
   "event_chain_algorithm": "SHA-256 linked events",
   "event_chain_integrity": {
     "status": "valid_from_checkpoint",
-    "events": 912,
+    "events": 913,
     "broken_links": [],
     "content_hash_mismatches": [
       {
@@ -142,7 +142,7 @@
       }
     ],
     "unacknowledged_content_hashes": [],
-    "head": "cdcd18aad301c1f24922eca9e8e01862e664f70f4a468eb38f32d8e8991104a3"
+    "head": "710658b046bca551bd0e59e163cd83023739966958adc16ae5c757dd565c0347"
   },
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -153,20 +153,43 @@
   },
   "summary": {
     "total": 464,
-    "pending": 19,
+    "pending": 18,
     "signals_settled": 146,
-    "official_entries_settled": 265,
+    "official_entries_settled": 266,
     "cancelled": 55
   },
   "records": [
     {
       "id": "tip_proposal:20261118T211223202908Z:5d545c7a",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-11-18T21:12:23Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "c4d06b5fc2886f7493d83d7847550e731f07e3e8456ef8e826a620211db4624a",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-11-18T22:22:13Z",
+      "result": "WIN",
+      "outcome": {
+        "odds": 1.89,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": 0.667,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20261118T211223202908Z:5d545c7a",
+        "market": "⛳ Over 7.5 corners · FT",
+        "match": "Juventus F x Leuven F",
+        "minimum_recommended_odds": 1.8,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20261118T204438787864Z:99d817be",
