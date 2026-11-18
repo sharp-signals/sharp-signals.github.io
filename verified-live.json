@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-18T16:19:41Z",
-  "event_chain_head": "2b2527f55166fcaf2d753f8d21a7f0d92b3529933c903b290894780a728a653f",
+  "generated_at": "2026-11-18T16:31:25Z",
+  "event_chain_head": "1c8826c640bb650d5c7f8d0f047ec8ebd1d73344ddfb78285de715d2d044ff91",
   "event_chain_algorithm": "SHA-256 linked events",
   "event_chain_integrity": {
     "status": "valid_from_checkpoint",
-    "events": 905,
+    "events": 906,
     "broken_links": [],
     "content_hash_mismatches": [
       {
@@ -142,7 +142,7 @@
       }
     ],
     "unacknowledged_content_hashes": [],
-    "head": "2b2527f55166fcaf2d753f8d21a7f0d92b3529933c903b290894780a728a653f"
+    "head": "1c8826c640bb650d5c7f8d0f047ec8ebd1d73344ddfb78285de715d2d044ff91"
   },
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -153,9 +153,9 @@
   },
   "summary": {
     "total": 461,
-    "pending": 20,
+    "pending": 19,
     "signals_settled": 146,
-    "official_entries_settled": 261,
+    "official_entries_settled": 262,
     "cancelled": 55
   },
   "records": [
@@ -171,11 +171,34 @@
     {
       "id": "tip_proposal:20261118T161318743955Z:24a20e0c",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-11-18T16:13:19Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "1b769d41fe89f1bd99a368750f2b650ada27f1590a68a4b201b3dc1b6a61e30b",
-      "telegram_message_count": 2
+      "telegram_message_count": 2,
+      "settled_at": "2026-11-18T16:31:25Z",
+      "result": "LOSS",
+      "outcome": {
+        "odds": 1.9,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": -0.75,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20261118T161318743955Z:24a20e0c",
+        "market": "⛳ Over 10.5 corners · FT",
+        "match": "Al Adalh x Al Orobah",
+        "minimum_recommended_odds": 1.8,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20261117T201541839794Z:642ea6a7",
