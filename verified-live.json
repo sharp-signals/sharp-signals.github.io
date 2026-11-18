@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-18T19:44:21Z",
-  "event_chain_head": "b3a688725e27f73621368208d83b85fd58ff82410b15796e4b4b13ac87bf1109",
+  "generated_at": "2026-11-18T19:49:24Z",
+  "event_chain_head": "90f443c2566f172fd99acdef859b9918e87f757c89ca22bdfcbebf63a57d306b",
   "event_chain_algorithm": "SHA-256 linked events",
   "event_chain_integrity": {
     "status": "valid_from_checkpoint",
-    "events": 908,
+    "events": 909,
     "broken_links": [],
     "content_hash_mismatches": [
       {
@@ -142,7 +142,7 @@
       }
     ],
     "unacknowledged_content_hashes": [],
-    "head": "b3a688725e27f73621368208d83b85fd58ff82410b15796e4b4b13ac87bf1109"
+    "head": "90f443c2566f172fd99acdef859b9918e87f757c89ca22bdfcbebf63a57d306b"
   },
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -153,20 +153,43 @@
   },
   "summary": {
     "total": 462,
-    "pending": 19,
+    "pending": 18,
     "signals_settled": 146,
-    "official_entries_settled": 263,
+    "official_entries_settled": 264,
     "cancelled": 55
   },
   "records": [
     {
       "id": "tip_proposal:20261118T194421245463Z:1e1856cb",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-11-18T19:44:21Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "b69e4a81047a95608df1da4281fc1476f785cac7c30e07afd8067c105bd7c036",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-11-18T19:49:24Z",
+      "result": "WIN",
+      "outcome": {
+        "odds": 1.86,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": 0.645,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20261118T194421245463Z:1e1856cb",
+        "market": "⛳ Over 9.5 corners · FT",
+        "match": "Velez II x Rosario II",
+        "minimum_recommended_odds": 1.8,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20261118T161941183613Z:0cd7a5f3",
