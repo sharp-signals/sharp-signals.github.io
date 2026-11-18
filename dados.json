@@ -8,10 +8,10 @@
    "fim": "2026-01-31"
   },
   "cresc_pct": 56.91,
-  "apostas": 1289,
+  "apostas": 1290,
   "ganhos": 724,
-  "perdidos": 565,
-  "wr": 56.2,
+  "perdidos": 566,
+  "wr": 56.1,
   "meses": [
    {
     "mes": "2025-08",
@@ -86,9 +86,9 @@
    {
     "mes": "2026-11",
     "label": "Nov 26",
-    "cresc_pct": 7.85,
-    "apostas": 57,
-    "wr": 56.1
+    "cresc_pct": 7.1,
+    "apostas": 58,
+    "wr": 55.2
    }
   ],
   "por_mercado": [
@@ -115,9 +115,9 @@
    },
    {
     "mercado": "Over cantos Individual",
-    "n": 78,
-    "wr": 47.4,
-    "roi": -7.0,
+    "n": 79,
+    "wr": 46.8,
+    "roi": -7.75,
     "pl_eur": -339.22
    },
    {
@@ -145,7 +145,6 @@
   "forma": [
    "ganho",
    "ganho",
-   "ganho",
    "perdido",
    "ganho",
    "ganho",
@@ -157,7 +156,8 @@
    "ganho",
    "perdido",
    "perdido",
-   "ganho"
+   "ganho",
+   "perdido"
   ],
   "historico": [
    {
@@ -166,13 +166,13 @@
     "jogo": "Alcoyano x Mallorca",
     "mercado": "⛳ Over 2.5 corners · Mallorca · FT",
     "categoria": "Over cantos Individual",
-    "odd": null,
-    "pl_pct": null,
+    "odd": 1.89,
+    "pl_pct": -0.75,
     "stake_pct": 0.75,
-    "resultado": "pendente",
+    "resultado": "perdido",
     "verified_id": "tip_proposal:20261118T204438787864Z:99d817be",
-    "estado_entrada": "aguarda_confirmacao",
-    "tipo_odd": "por_registar",
+    "estado_entrada": "confirmada",
+    "tipo_odd": "real",
     "odd_minima_recomendada": 1.8,
     "confianca": 7
    },
