@@ -379,7 +379,7 @@ function vistaTips(d){
       <div class="val">${d.apostas}</div>
       <div class="sub">${d.cashouts} cashouts · ${d.voids} voids</div></div>
     <div class="card kpi"><div class="lbl">Average odds</div>
-      <div class="val gold">${d.odd_media!=null?'@'+d.odd_media.toFixed(2):'—'}</div>
+      <div class="val gold">${d.odd_media!=null?d.odd_media.toFixed(2):'—'}</div>
       <div class="sub">${d.odds_registadas} validated entries · cancelled excluded</div></div>
   </div>
   <div class="card formcard" style="margin-top:14px">
