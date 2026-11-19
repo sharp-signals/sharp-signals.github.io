@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-19T20:16:20Z",
-  "event_chain_head": "4f1c7a00b580d765c7980ab4be871fdd75c172fc685913fd8b3ba895f472652b",
+  "generated_at": "2026-11-19T20:17:20Z",
+  "event_chain_head": "6a91de6f205c3b0af114abfa22de409b786a3a6d55fd0dcccd5fb06f984002b4",
   "event_chain_algorithm": "SHA-256 linked events",
   "event_chain_integrity": {
     "status": "valid_from_checkpoint",
-    "events": 920,
+    "events": 921,
     "broken_links": [],
     "content_hash_mismatches": [
       {
@@ -142,7 +142,7 @@
       }
     ],
     "unacknowledged_content_hashes": [],
-    "head": "4f1c7a00b580d765c7980ab4be871fdd75c172fc685913fd8b3ba895f472652b"
+    "head": "6a91de6f205c3b0af114abfa22de409b786a3a6d55fd0dcccd5fb06f984002b4"
   },
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -153,20 +153,43 @@
   },
   "summary": {
     "total": 468,
-    "pending": 19,
+    "pending": 18,
     "signals_settled": 147,
-    "official_entries_settled": 268,
+    "official_entries_settled": 269,
     "cancelled": 56
   },
   "records": [
     {
       "id": "tip_proposal:20261119T194249922732Z:0f8f1067",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-11-19T19:42:50Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "cb20943bc82ce061a47f4f4527f601ee94803a1a0f9db670b505e3d10444787c",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-11-19T20:17:20Z",
+      "result": "WIN",
+      "outcome": {
+        "odds": 1.82,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": 0.615,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20261119T194249922732Z:0f8f1067",
+        "market": "⛳ Over 3 corners · FT",
+        "match": "Celta F x Espanyol F",
+        "minimum_recommended_odds": 1.8,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20261119T191857836673Z:f7d8f82f",
