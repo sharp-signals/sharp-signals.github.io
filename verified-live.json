@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-19T14:01:45Z",
-  "event_chain_head": "52aa943d3c494202c91c46efcaef9ae03222e45474d6e361edaf0e42bbfba7af",
+  "generated_at": "2026-11-19T14:28:45Z",
+  "event_chain_head": "d68310c6f6eaea21d078de54eb3ce18ebca1d48039ccb4cf86c332e0466cc670",
   "event_chain_algorithm": "SHA-256 linked events",
   "event_chain_integrity": {
     "status": "valid_from_checkpoint",
-    "events": 914,
+    "events": 915,
     "broken_links": [],
     "content_hash_mismatches": [
       {
@@ -142,7 +142,7 @@
       }
     ],
     "unacknowledged_content_hashes": [],
-    "head": "52aa943d3c494202c91c46efcaef9ae03222e45474d6e361edaf0e42bbfba7af"
+    "head": "d68310c6f6eaea21d078de54eb3ce18ebca1d48039ccb4cf86c332e0466cc670"
   },
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -153,20 +153,43 @@
   },
   "summary": {
     "total": 465,
-    "pending": 19,
+    "pending": 18,
     "signals_settled": 146,
-    "official_entries_settled": 266,
+    "official_entries_settled": 267,
     "cancelled": 55
   },
   "records": [
     {
       "id": "tip_proposal:20261119T140144939888Z:6e6800e4",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-11-19T14:01:45Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "080858576495bd4124e8466c3ca3b430c7d216bd7ddb4c61b81d7f03ed438edd",
-      "telegram_message_count": 2
+      "telegram_message_count": 2,
+      "settled_at": "2026-11-19T14:28:45Z",
+      "result": "WIN",
+      "outcome": {
+        "odds": 1.83,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": 0.623,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20261119T140144939888Z:6e6800e4",
+        "market": "⛳ Over 5.5 corners · FT",
+        "match": "El Daklyeh x Ismaily",
+        "minimum_recommended_odds": 1.8,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20261118T211223202908Z:5d545c7a",
