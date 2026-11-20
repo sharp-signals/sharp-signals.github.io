@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-20T11:19:16Z",
-  "event_chain_head": "fcfe20cdb4667bb638e7d4ccb39e21a6ef754942c77be26fb225a8b132d652c4",
+  "generated_at": "2026-11-20T12:05:49Z",
+  "event_chain_head": "ea3253a7746a289f6f38cb254d32889cbe7f619df3c9d62c41de994c8a429ab8",
   "event_chain_algorithm": "SHA-256 linked events",
   "event_chain_integrity": {
     "status": "valid_from_checkpoint",
-    "events": 925,
+    "events": 926,
     "broken_links": [],
     "content_hash_mismatches": [
       {
@@ -142,7 +142,7 @@
       }
     ],
     "unacknowledged_content_hashes": [],
-    "head": "fcfe20cdb4667bb638e7d4ccb39e21a6ef754942c77be26fb225a8b132d652c4"
+    "head": "ea3253a7746a289f6f38cb254d32889cbe7f619df3c9d62c41de994c8a429ab8"
   },
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -153,9 +153,9 @@
   },
   "summary": {
     "total": 471,
-    "pending": 20,
+    "pending": 19,
     "signals_settled": 147,
-    "official_entries_settled": 269,
+    "official_entries_settled": 270,
     "cancelled": 57
   },
   "records": [
@@ -203,11 +203,34 @@
     {
       "id": "tip_proposal:20261120T104321285093Z:e445e459",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-11-20T10:43:21Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "610c1b829835922e0d7e8772bf6e2c39c6e7891a8d678450be29e7d5d311034f",
-      "telegram_message_count": 2
+      "telegram_message_count": 2,
+      "settled_at": "2026-11-20T12:05:49Z",
+      "result": "LOSS",
+      "outcome": {
+        "odds": 1.83,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": -0.75,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20261120T104321285093Z:e445e459",
+        "market": "🏁 Race to 9 corners · Kobe",
+        "match": "Kobe x Mito",
+        "minimum_recommended_odds": 1.8,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20261119T194249922732Z:0f8f1067",
