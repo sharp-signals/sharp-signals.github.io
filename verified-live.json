@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-20T18:25:14Z",
-  "event_chain_head": "10f8f4de797107c3d7525068e97b8c34d5fa23779dcc38d16a4a3a63536ce303",
+  "generated_at": "2026-11-20T19:13:36Z",
+  "event_chain_head": "2f59871d549d93b275e0bd2f6c83f80e1da3d2a214e59c67f68faab5a951dd4c",
   "event_chain_algorithm": "SHA-256 linked events",
   "event_chain_integrity": {
     "status": "valid_from_checkpoint",
-    "events": 932,
+    "events": 933,
     "broken_links": [],
     "content_hash_mismatches": [
       {
@@ -142,7 +142,7 @@
       }
     ],
     "unacknowledged_content_hashes": [],
-    "head": "10f8f4de797107c3d7525068e97b8c34d5fa23779dcc38d16a4a3a63536ce303"
+    "head": "2f59871d549d93b275e0bd2f6c83f80e1da3d2a214e59c67f68faab5a951dd4c"
   },
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -153,8 +153,8 @@
   },
   "summary": {
     "total": 474,
-    "pending": 19,
-    "signals_settled": 148,
+    "pending": 18,
+    "signals_settled": 149,
     "official_entries_settled": 272,
     "cancelled": 58
   },
@@ -162,11 +162,39 @@
     {
       "id": "ce1:1585833:mid",
       "kind": "signal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-11-20T18:25:14Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "9ce4406b556fb5ffa1c467e49739ed942e8e94ab05bf63f144b35441b749c26f",
-      "telegram_message_count": 2
+      "telegram_message_count": 2,
+      "settled_at": "2026-11-20T19:13:36Z",
+      "result": "WIN",
+      "outcome": {
+        "corners_reference": 4,
+        "corners_final": 11,
+        "corners_after": 7,
+        "target": 3,
+        "technical_result": "WIN",
+        "entry_status": "confirmada",
+        "potential_market_result": "",
+        "price_condition": "",
+        "void_reason": "",
+        "approved_manually": true
+      },
+      "sealed_payload": {
+        "alert_id": "ce1:1585833:mid",
+        "classification": "scanner_signal_not_confirmed_bet",
+        "confidence": 8.0,
+        "corners_at_alert": 4,
+        "league": "1. Lig",
+        "match": "Iğdır FK vs Ümraniyespor",
+        "minimum_price": 1.8,
+        "minute": 68,
+        "score_at_alert": "1-2",
+        "suggestion": "🎯 REFERÊNCIA\nOver 6.5 cantos · preço de referência @1.80+\n⚠️ Validar mercado e contexto · alerta não é entrada automática",
+        "window": "MID PRESSURE"
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20261120T174803424118Z:b584c940",
