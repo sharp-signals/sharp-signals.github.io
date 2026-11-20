@@ -17,7 +17,7 @@
    "pode_nao_publicar": true
   }
  },
- "atualizado": "2026-11-20T06:11:16",
+ "atualizado": "2026-11-20T06:22:14",
  "dia_trading": "2026-11-20",
  "geral": {
   "inicio": "2026-06-06",
@@ -3963,7 +3963,32 @@
    "dias_verde_pct": 42.1
   }
  },
- "tip_do_dia": [],
+ "tip_do_dia": [
+  {
+   "hora": "10:00",
+   "liga": "J1 League",
+   "jogo": "Kobe vs Mito H",
+   "mercado": "Over 1.5 · 2ª parte",
+   "odd": 2.05,
+   "bilhete": "dupla",
+   "ticket_id": "prelive:2026-11-20:2",
+   "ticket_slot": 2,
+   "fire": false,
+   "resultado": null
+  },
+  {
+   "hora": "03:00",
+   "liga": "Liga MX",
+   "jogo": "Juarez vs Atlas",
+   "mercado": "Over 1.5 · 2ª parte",
+   "odd": 1.89,
+   "bilhete": "dupla",
+   "ticket_id": "prelive:2026-11-20:2",
+   "ticket_slot": 2,
+   "fire": false,
+   "resultado": null
+  }
+ ],
  "por_estrategia": {
   "Golos (arquivo)": {
    "n": 31,
@@ -4009,80 +4034,80 @@
   "nome": "Pré-Live Grátis",
   "descricao": "Bilhete partilhado no canal gratuito · até um por dia · 1u",
   "publication_scope": "free_confirmed_only",
-  "boletins": 37,
+  "boletins": 38,
   "greens": 8,
   "reds": 29,
-  "pendentes": 0,
+  "pendentes": 1,
   "lucro": 7.22,
   "ultimos": [
    {
-    "ticket_id": "prelive:2026-11-15:2",
+    "ticket_id": "prelive:2026-11-20:2",
     "ticket_slot": 2,
     "free_publication_confirmed": true,
     "publication_channel": "free",
-    "data": "2026-11-15",
+    "data": "2026-11-20",
     "tipo": "dupla",
-    "odd": 4.73,
-    "resultado": "red",
+    "odd": 3.87,
+    "resultado": null,
     "u": 1.0,
-    "published_at": "2026-11-15T06:15:49+00:00",
+    "published_at": "2026-11-20T06:15:59+00:00",
     "publication_confirmed": true,
     "pernas": [
      {
-      "fixture_id": 1576534,
-      "casa": "Leixoes",
-      "fora": "Chaves",
+      "fixture_id": 1556150,
+      "casa": "Kobe",
+      "fora": "Mito H",
       "liga": null,
-      "hora": "18:00",
+      "hora": "10:00",
       "mercado": null,
-      "odd": 2.1,
-      "resultado": "perdido"
+      "odd": 2.05,
+      "resultado": null
      },
      {
-      "fixture_id": 1571626,
-      "casa": "Svoge",
-      "fora": "Spartak Pleven",
+      "fixture_id": 1551040,
+      "casa": "Juarez",
+      "fora": "Atlas",
       "liga": null,
-      "hora": "12:30",
+      "hora": "03:00",
       "mercado": null,
-      "odd": 2.25,
-      "resultado": "perdido"
+      "odd": 1.89,
+      "resultado": null
      }
     ]
    }
   ],
   "ultimo": {
-   "ticket_id": "prelive:2026-11-15:2",
+   "ticket_id": "prelive:2026-11-20:2",
    "ticket_slot": 2,
    "free_publication_confirmed": true,
    "publication_channel": "free",
-   "data": "2026-11-15",
+   "data": "2026-11-20",
    "tipo": "dupla",
-   "odd": 4.73,
-   "resultado": "red",
+   "odd": 3.87,
+   "resultado": null,
    "u": 1.0,
-   "published_at": "2026-11-15T06:15:49+00:00",
+   "published_at": "2026-11-20T06:15:59+00:00",
    "publication_confirmed": true,
    "pernas": [
     {
-     "fixture_id": 1576534,
-     "casa": "Leixoes",
-     "fora": "Chaves",
+     "fixture_id": 1556150,
+     "casa": "Kobe",
+     "fora": "Mito H",
      "liga": null,
-     "hora": "18:00",
+     "hora": "10:00",
      "mercado": null,
-     "odd": 2.1,
-     "resultado": "perdido"
+     "odd": 2.05,
+     "resultado": null
     },
     {
-     "fixture_id": 1571626,
-     "casa": "Svoge",
-     "fora": "Spartak Pleven",
+     "fixture_id": 1551040,
+     "casa": "Juarez",
+     "fora": "Atlas",
      "liga": null,
-     "hora": "12:30",
+     "hora": "03:00",
      "mercado": null,
-     "odd": 2.25,
-     "resultado": "perdido"
+     "odd": 1.89,
+     "resultado": null
     }
    ]
   },
@@ -5529,6 +5554,41 @@
       "mercado": null,
       "odd": 2.25,
       "resultado": "perdido"
+     }
+    ]
+   },
+   {
+    "ticket_id": "prelive:2026-11-20:2",
+    "ticket_slot": 2,
+    "free_publication_confirmed": true,
+    "publication_channel": "free",
+    "data": "2026-11-20",
+    "tipo": "dupla",
+    "odd": 3.87,
+    "resultado": null,
+    "u": 1.0,
+    "published_at": "2026-11-20T06:15:59+00:00",
+    "publication_confirmed": true,
+    "pernas": [
+     {
+      "fixture_id": 1556150,
+      "casa": "Kobe",
+      "fora": "Mito H",
+      "liga": null,
+      "hora": "10:00",
+      "mercado": null,
+      "odd": 2.05,
+      "resultado": null
+     },
+     {
+      "fixture_id": 1551040,
+      "casa": "Juarez",
+      "fora": "Atlas",
+      "liga": null,
+      "hora": "03:00",
+      "mercado": null,
+      "odd": 1.89,
+      "resultado": null
      }
     ]
    }
