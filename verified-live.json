@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-20T14:40:29Z",
-  "event_chain_head": "7bd7656c90c051a77bc0aff3b313f8914d392ff9ffda255cf6c413692626c641",
+  "generated_at": "2026-11-20T15:21:06Z",
+  "event_chain_head": "be00809cb88225890115c9f0eb55b5ebb61209dbdb85db66b749299bc78e6345",
   "event_chain_algorithm": "SHA-256 linked events",
   "event_chain_integrity": {
     "status": "valid_from_checkpoint",
-    "events": 928,
+    "events": 929,
     "broken_links": [],
     "content_hash_mismatches": [
       {
@@ -142,7 +142,7 @@
       }
     ],
     "unacknowledged_content_hashes": [],
-    "head": "7bd7656c90c051a77bc0aff3b313f8914d392ff9ffda255cf6c413692626c641"
+    "head": "be00809cb88225890115c9f0eb55b5ebb61209dbdb85db66b749299bc78e6345"
   },
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -153,20 +153,48 @@
   },
   "summary": {
     "total": 472,
-    "pending": 19,
-    "signals_settled": 147,
+    "pending": 18,
+    "signals_settled": 148,
     "official_entries_settled": 271,
-    "cancelled": 57
+    "cancelled": 58
   },
   "records": [
     {
       "id": "ce1:1597963:final",
       "kind": "signal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-11-20T14:40:29Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "c536c2dfae67a63318dfe11e2b250138df942f8d7b97b6db07ccfdc9a3e68d3f",
-      "telegram_message_count": 3
+      "telegram_message_count": 3,
+      "settled_at": "2026-11-20T15:21:06Z",
+      "result": "CANCELADA",
+      "outcome": {
+        "corners_reference": 12,
+        "corners_final": 17,
+        "corners_after": 5,
+        "target": 2,
+        "technical_result": "WIN",
+        "entry_status": "sem_entrada",
+        "potential_market_result": "WIN",
+        "price_condition": "Precisava de mais um canto do que o alvo para WIN",
+        "void_reason": "Não entrada — preço demasiado alto",
+        "approved_manually": true
+      },
+      "sealed_payload": {
+        "alert_id": "ce1:1597963:final",
+        "classification": "scanner_signal_not_confirmed_bet",
+        "confidence": 7.0,
+        "corners_at_alert": 12,
+        "league": "Stars League",
+        "match": "Al-Duhail SC vs Qatar SC",
+        "minimum_price": 1.8,
+        "minute": 77,
+        "score_at_alert": "1-1",
+        "suggestion": "🎯 REFERÊNCIA\nOver 13.5 cantos · preço de referência @1.80+\n⚠️ Validar mercado e contexto · alerta não é entrada automática",
+        "window": "FINAL PUSH"
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20261120T111729465222Z:d8bf1934",
