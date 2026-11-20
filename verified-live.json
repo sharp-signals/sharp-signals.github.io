@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-20T22:12:43Z",
-  "event_chain_head": "807a57fee6e5b37e4cea57ab8b461e79579656d0b3f900d2b9e289b9db2f1f85",
+  "generated_at": "2026-11-20T22:28:34Z",
+  "event_chain_head": "73fa72bc40dbe30c695f91a121c09159062edef58724a9e1cab9bb84fac0fffa",
   "event_chain_algorithm": "SHA-256 linked events",
   "event_chain_integrity": {
     "status": "valid_from_checkpoint",
-    "events": 936,
+    "events": 937,
     "broken_links": [],
     "content_hash_mismatches": [
       {
@@ -142,7 +142,7 @@
       }
     ],
     "unacknowledged_content_hashes": [],
-    "head": "807a57fee6e5b37e4cea57ab8b461e79579656d0b3f900d2b9e289b9db2f1f85"
+    "head": "73fa72bc40dbe30c695f91a121c09159062edef58724a9e1cab9bb84fac0fffa"
   },
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -153,20 +153,43 @@
   },
   "summary": {
     "total": 476,
-    "pending": 19,
+    "pending": 18,
     "signals_settled": 149,
-    "official_entries_settled": 272,
+    "official_entries_settled": 273,
     "cancelled": 59
   },
   "records": [
     {
       "id": "tip_proposal:20261120T221243306768Z:650c9eac",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-11-20T22:12:43Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "7cbbc2d0fcf0834c79e82057c910ce03e67a66d9e09cf0cc0aaa374e1d16997e",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-11-20T22:28:34Z",
+      "result": "WIN",
+      "outcome": {
+        "odds": 1.86,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": 1.075,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 8,
+        "entry_id": "tip_proposal:20261120T221243306768Z:650c9eac",
+        "market": "⛳ Over 7 corners · FT",
+        "match": "Porto x Paredes",
+        "minimum_recommended_odds": 1.8,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 1.25
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20261120T212707473261Z:977a589f",
