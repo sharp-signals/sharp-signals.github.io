@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-21T12:24:34Z",
-  "event_chain_head": "2afdbdef5f2c03c12138f0593a148a201b2cab79db2620f2d2d103d7c2a2d616",
+  "generated_at": "2026-11-21T12:55:32Z",
+  "event_chain_head": "038c6301bb157dcbac797a153c2802dbc85cd14935ee7b175d5d1329e78051c9",
   "event_chain_algorithm": "SHA-256 linked events",
   "event_chain_integrity": {
     "status": "valid_from_checkpoint",
-    "events": 940,
+    "events": 941,
     "broken_links": [],
     "content_hash_mismatches": [
       {
@@ -142,7 +142,7 @@
       }
     ],
     "unacknowledged_content_hashes": [],
-    "head": "2afdbdef5f2c03c12138f0593a148a201b2cab79db2620f2d2d103d7c2a2d616"
+    "head": "038c6301bb157dcbac797a153c2802dbc85cd14935ee7b175d5d1329e78051c9"
   },
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -153,20 +153,43 @@
   },
   "summary": {
     "total": 478,
-    "pending": 19,
+    "pending": 18,
     "signals_settled": 149,
-    "official_entries_settled": 274,
+    "official_entries_settled": 275,
     "cancelled": 59
   },
   "records": [
     {
       "id": "tip_proposal:20261121T122434291354Z:d18b5fad",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-11-21T12:24:34Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "86c875cb5411ed506013d50a9c6b5340b198bba964d0fad604cb46e66a0f91f9",
-      "telegram_message_count": 2
+      "telegram_message_count": 2,
+      "settled_at": "2026-11-21T12:55:32Z",
+      "result": "LOSS",
+      "outcome": {
+        "odds": null,
+        "odds_source": "historical_reference",
+        "reference_odds": 1.84,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": -1.25,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 8,
+        "entry_id": "tip_proposal:20261121T122434291354Z:d18b5fad",
+        "market": "⛳ Over 1.5 corners · 1st half",
+        "match": "Banja Luka x Zrinjski",
+        "minimum_recommended_odds": 1.8,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 1.25
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20261121T113347300333Z:8a209da3",
