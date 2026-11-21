@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-21T22:15:28Z",
-  "event_chain_head": "f048082e6f26130bac99d4ee3f1ca0aa42119c70d7ba5b1a8d51e2be3e77363e",
+  "generated_at": "2026-11-21T22:52:45Z",
+  "event_chain_head": "44a55a74ecfe12ecff6359eabb90322c45320419dda0710a203d34accee6d08f",
   "event_chain_algorithm": "SHA-256 linked events",
   "event_chain_integrity": {
     "status": "valid_from_checkpoint",
-    "events": 962,
+    "events": 963,
     "broken_links": [],
     "content_hash_mismatches": [
       {
@@ -142,7 +142,7 @@
       }
     ],
     "unacknowledged_content_hashes": [],
-    "head": "f048082e6f26130bac99d4ee3f1ca0aa42119c70d7ba5b1a8d51e2be3e77363e"
+    "head": "44a55a74ecfe12ecff6359eabb90322c45320419dda0710a203d34accee6d08f"
   },
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -153,20 +153,48 @@
   },
   "summary": {
     "total": 489,
-    "pending": 19,
-    "signals_settled": 153,
+    "pending": 18,
+    "signals_settled": 154,
     "official_entries_settled": 280,
-    "cancelled": 63
+    "cancelled": 64
   },
   "records": [
     {
       "id": "ce1:1492462:mid",
       "kind": "signal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-11-21T21:58:12Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "c28fe5fa2ab465e089eb0e3e421e395fd3f137c7ba55b60176be4b1e7445a156",
-      "telegram_message_count": 2
+      "telegram_message_count": 2,
+      "settled_at": "2026-11-21T22:52:45Z",
+      "result": "CANCELADA",
+      "outcome": {
+        "corners_reference": 14,
+        "corners_final": 17,
+        "corners_after": 3,
+        "target": 3,
+        "technical_result": "WIN",
+        "entry_status": "sem_entrada",
+        "potential_market_result": "VOID",
+        "price_condition": "Precisava de mais um canto do que o alvo para WIN",
+        "void_reason": "Não entrada — preço demasiado alto",
+        "approved_manually": true
+      },
+      "sealed_payload": {
+        "alert_id": "ce1:1492462:mid",
+        "classification": "scanner_signal_not_confirmed_bet",
+        "confidence": 8.0,
+        "corners_at_alert": 14,
+        "league": "Serie A",
+        "match": "Bahia vs Coritiba",
+        "minimum_price": 1.8,
+        "minute": 65,
+        "score_at_alert": "0-0",
+        "suggestion": "🎯 REFERÊNCIA\nOver 16.5 cantos · preço de referência @1.80+\n⚠️ Validar mercado e contexto · alerta não é entrada automática",
+        "window": "MID PRESSURE"
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20261121T214352001373Z:7c247cbc",
