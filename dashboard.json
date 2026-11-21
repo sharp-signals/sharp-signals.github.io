@@ -17,7 +17,7 @@
    "pode_nao_publicar": true
   }
  },
- "atualizado": "2026-11-21T06:14:14",
+ "atualizado": "2026-11-21T07:56:01",
  "dia_trading": "2026-11-21",
  "geral": {
   "inicio": "2026-06-06",
@@ -4010,10 +4010,10 @@
   "descricao": "Bilhete partilhado no canal gratuito · até um por dia · 1u",
   "publication_scope": "free_confirmed_only",
   "boletins": 38,
-  "greens": 8,
+  "greens": 9,
   "reds": 29,
-  "pendentes": 1,
-  "lucro": 7.22,
+  "pendentes": 0,
+  "lucro": 10.09,
   "ultimos": [
    {
     "ticket_id": "prelive:2026-11-20:2",
@@ -4023,7 +4023,7 @@
     "data": "2026-11-20",
     "tipo": "dupla",
     "odd": 3.87,
-    "resultado": null,
+    "resultado": "green",
     "u": 1.0,
     "published_at": "2026-11-20T06:15:59+00:00",
     "publication_confirmed": true,
@@ -4046,7 +4046,7 @@
       "hora": "03:00",
       "mercado": null,
       "odd": 1.89,
-      "resultado": null
+      "resultado": "ganho"
      }
     ]
    }
@@ -4059,7 +4059,7 @@
    "data": "2026-11-20",
    "tipo": "dupla",
    "odd": 3.87,
-   "resultado": null,
+   "resultado": "green",
    "u": 1.0,
    "published_at": "2026-11-20T06:15:59+00:00",
    "publication_confirmed": true,
@@ -4082,7 +4082,7 @@
      "hora": "03:00",
      "mercado": null,
      "odd": 1.89,
-     "resultado": null
+     "resultado": "ganho"
     }
    ]
   },
@@ -5540,7 +5540,7 @@
     "data": "2026-11-20",
     "tipo": "dupla",
     "odd": 3.87,
-    "resultado": null,
+    "resultado": "green",
     "u": 1.0,
     "published_at": "2026-11-20T06:15:59+00:00",
     "publication_confirmed": true,
@@ -5563,7 +5563,7 @@
       "hora": "03:00",
       "mercado": null,
       "odd": 1.89,
-      "resultado": null
+      "resultado": "ganho"
      }
     ]
    }
