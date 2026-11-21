@@ -17,8 +17,8 @@
    "pode_nao_publicar": true
   }
  },
- "atualizado": "2026-11-20T13:54:40",
- "dia_trading": "2026-11-20",
+ "atualizado": "2026-11-21T06:14:14",
+ "dia_trading": "2026-11-21",
  "geral": {
   "inicio": "2026-06-06",
   "fim": "2026-11-15",
@@ -113,8 +113,8 @@
   "desde": "2026-06-21"
  },
  "diario": {
-  "inicio": "2026-11-20",
-  "fim": "2026-11-20",
+  "inicio": "2026-11-21",
+  "fim": "2026-11-21",
   "sinais": 0,
   "sinais_financeiros": 0,
   "ganhos": 0,
@@ -133,7 +133,7 @@
  },
  "semanal": {
   "inicio": "2026-11-16",
-  "fim": "2026-11-20",
+  "fim": "2026-11-21",
   "sinais": 0,
   "sinais_financeiros": 0,
   "ganhos": 0,
@@ -152,7 +152,7 @@
  },
  "mensal": {
   "inicio": "2026-11-01",
-  "fim": "2026-11-20",
+  "fim": "2026-11-21",
   "sinais": 36,
   "sinais_financeiros": 36,
   "ganhos": 15,
@@ -2160,8 +2160,8 @@
     }
    },
    "diario": {
-    "inicio": "2026-11-20",
-    "fim": "2026-11-20",
+    "inicio": "2026-11-21",
+    "fim": "2026-11-21",
     "sinais": 0,
     "sinais_financeiros": 0,
     "ganhos": 0,
@@ -2180,7 +2180,7 @@
    },
    "semanal": {
     "inicio": "2026-11-16",
-    "fim": "2026-11-20",
+    "fim": "2026-11-21",
     "sinais": 0,
     "sinais_financeiros": 0,
     "ganhos": 0,
@@ -2199,7 +2199,7 @@
    },
    "mensal": {
     "inicio": "2026-11-01",
-    "fim": "2026-11-20",
+    "fim": "2026-11-21",
     "sinais": 36,
     "sinais_financeiros": 36,
     "ganhos": 15,
@@ -2880,8 +2880,8 @@
     }
    },
    "diario": {
-    "inicio": "2026-11-20",
-    "fim": "2026-11-20",
+    "inicio": "2026-11-21",
+    "fim": "2026-11-21",
     "sinais": 0,
     "sinais_financeiros": 0,
     "ganhos": 0,
@@ -2900,7 +2900,7 @@
    },
    "semanal": {
     "inicio": "2026-11-16",
-    "fim": "2026-11-20",
+    "fim": "2026-11-21",
     "sinais": 0,
     "sinais_financeiros": 0,
     "ganhos": 0,
@@ -2919,7 +2919,7 @@
    },
    "mensal": {
     "inicio": "2026-11-01",
-    "fim": "2026-11-20",
+    "fim": "2026-11-21",
     "sinais": 0,
     "sinais_financeiros": 0,
     "ganhos": 0,
@@ -3015,8 +3015,8 @@
     }
    },
    "diario": {
-    "inicio": "2026-11-20",
-    "fim": "2026-11-20",
+    "inicio": "2026-11-21",
+    "fim": "2026-11-21",
     "sinais": 0,
     "sinais_financeiros": 0,
     "ganhos": 0,
@@ -3035,7 +3035,7 @@
    },
    "semanal": {
     "inicio": "2026-11-16",
-    "fim": "2026-11-20",
+    "fim": "2026-11-21",
     "sinais": 0,
     "sinais_financeiros": 0,
     "ganhos": 0,
@@ -3054,7 +3054,7 @@
    },
    "mensal": {
     "inicio": "2026-11-01",
-    "fim": "2026-11-20",
+    "fim": "2026-11-21",
     "sinais": 21,
     "sinais_financeiros": 21,
     "ganhos": 8,
@@ -3524,8 +3524,8 @@
     }
    },
    "diario": {
-    "inicio": "2026-11-20",
-    "fim": "2026-11-20",
+    "inicio": "2026-11-21",
+    "fim": "2026-11-21",
     "sinais": 0,
     "sinais_financeiros": 0,
     "ganhos": 0,
@@ -3544,7 +3544,7 @@
    },
    "semanal": {
     "inicio": "2026-11-16",
-    "fim": "2026-11-20",
+    "fim": "2026-11-21",
     "sinais": 0,
     "sinais_financeiros": 0,
     "ganhos": 0,
@@ -3563,7 +3563,7 @@
    },
    "mensal": {
     "inicio": "2026-11-01",
-    "fim": "2026-11-20",
+    "fim": "2026-11-21",
     "sinais": 15,
     "sinais_financeiros": 15,
     "ganhos": 7,
@@ -3963,32 +3963,7 @@
    "dias_verde_pct": 42.1
   }
  },
- "tip_do_dia": [
-  {
-   "hora": "10:00",
-   "liga": "J1 League",
-   "jogo": "Kobe vs Mito H",
-   "mercado": "Over 1.5 · 2ª parte",
-   "odd": 2.05,
-   "bilhete": "dupla",
-   "ticket_id": "prelive:2026-11-20:2",
-   "ticket_slot": 2,
-   "fire": false,
-   "resultado": "ganho"
-  },
-  {
-   "hora": "03:00",
-   "liga": "Liga MX",
-   "jogo": "Juarez vs Atlas",
-   "mercado": "Over 1.5 · 2ª parte",
-   "odd": 1.89,
-   "bilhete": "dupla",
-   "ticket_id": "prelive:2026-11-20:2",
-   "ticket_slot": 2,
-   "fire": false,
-   "resultado": null
-  }
- ],
+ "tip_do_dia": [],
  "por_estrategia": {
   "Golos (arquivo)": {
    "n": 31,
