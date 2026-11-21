@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-21T21:43:52Z",
-  "event_chain_head": "6adee41effef3ef24430dce8318f6469361aa25881f1643d19cbcc52b34cb97b",
+  "generated_at": "2026-11-21T21:53:33Z",
+  "event_chain_head": "abc0a073eb347054525ed1345a6aca7e3558ab1a91d0f616595d128f3b0f6ecc",
   "event_chain_algorithm": "SHA-256 linked events",
   "event_chain_integrity": {
     "status": "valid_from_checkpoint",
-    "events": 958,
+    "events": 959,
     "broken_links": [],
     "content_hash_mismatches": [
       {
@@ -142,7 +142,7 @@
       }
     ],
     "unacknowledged_content_hashes": [],
-    "head": "6adee41effef3ef24430dce8318f6469361aa25881f1643d19cbcc52b34cb97b"
+    "head": "abc0a073eb347054525ed1345a6aca7e3558ab1a91d0f616595d128f3b0f6ecc"
   },
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -153,9 +153,9 @@
   },
   "summary": {
     "total": 488,
-    "pending": 21,
+    "pending": 20,
     "signals_settled": 152,
-    "official_entries_settled": 278,
+    "official_entries_settled": 279,
     "cancelled": 63
   },
   "records": [
@@ -171,11 +171,34 @@
     {
       "id": "tip_proposal:20261121T214230997146Z:958e5806",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-11-21T21:42:31Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "78c94d7cc4495d131b80d4bffb09fb927daffef0438e1f40a17554ab88e64d69",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-11-21T21:53:33Z",
+      "result": "WIN",
+      "outcome": {
+        "odds": 1.83,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": 0.623,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20261121T214230997146Z:958e5806",
+        "market": "Handicap de cantos · Rangers -8.5 · FT",
+        "match": "Motherwell x Rangers",
+        "minimum_recommended_odds": 1.8,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "ce1:1552231:final",
