@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-21T13:22:53Z",
-  "event_chain_head": "dd376df2710dc4e64fde1ab6f39d50a2fdc3c52165fb81faf6e77c68df31ea6d",
+  "generated_at": "2026-11-21T13:59:00Z",
+  "event_chain_head": "7c97807b29a75e6a3dea8f2c17dbef9e66db24bc018da95538ab35238fbfc8d0",
   "event_chain_algorithm": "SHA-256 linked events",
   "event_chain_integrity": {
     "status": "valid_from_checkpoint",
-    "events": 944,
+    "events": 945,
     "broken_links": [],
     "content_hash_mismatches": [
       {
@@ -142,7 +142,7 @@
       }
     ],
     "unacknowledged_content_hashes": [],
-    "head": "dd376df2710dc4e64fde1ab6f39d50a2fdc3c52165fb81faf6e77c68df31ea6d"
+    "head": "7c97807b29a75e6a3dea8f2c17dbef9e66db24bc018da95538ab35238fbfc8d0"
   },
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -153,10 +153,10 @@
   },
   "summary": {
     "total": 481,
-    "pending": 21,
-    "signals_settled": 149,
+    "pending": 20,
+    "signals_settled": 150,
     "official_entries_settled": 275,
-    "cancelled": 59
+    "cancelled": 60
   },
   "records": [
     {
@@ -171,11 +171,39 @@
     {
       "id": "ce1:1563270:ht",
       "kind": "signal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-11-21T13:01:42Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "2dee810fef9e25104dd128f855b0edf22808687064c5c407305ea027f6592618",
-      "telegram_message_count": 2
+      "telegram_message_count": 2,
+      "settled_at": "2026-11-21T13:59:00Z",
+      "result": "CANCELADA",
+      "outcome": {
+        "corners_reference": 4,
+        "corners_final": 6,
+        "corners_after": 2,
+        "target": 2,
+        "technical_result": "WIN",
+        "entry_status": "sem_entrada",
+        "potential_market_result": "VOID",
+        "price_condition": "O alvo técnico era linha de VOID",
+        "void_reason": "Não entrada — preço demasiado alto",
+        "approved_manually": true
+      },
+      "sealed_payload": {
+        "alert_id": "ce1:1563270:ht",
+        "classification": "scanner_signal_not_confirmed_bet",
+        "confidence": 7.5,
+        "corners_at_alert": 3,
+        "league": "Championship",
+        "match": "Southampton vs Derby",
+        "minimum_price": 1.8,
+        "minute": 30,
+        "score_at_alert": "0-0",
+        "suggestion": "🎯 REFERÊNCIA\nOver 4.5 cantos 1ª parte · preço de referência @1.80+\n⚠️ Validar mercado e contexto · alerta não é entrada automática",
+        "window": "HT ATTACK"
+      },
+      "commitment_valid": true
     },
     {
       "id": "ce1:1564426:ht",
