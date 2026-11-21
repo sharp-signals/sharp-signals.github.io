@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-21T21:53:33Z",
-  "event_chain_head": "abc0a073eb347054525ed1345a6aca7e3558ab1a91d0f616595d128f3b0f6ecc",
+  "generated_at": "2026-11-21T21:54:16Z",
+  "event_chain_head": "814bf2f66542ef7b8f4269569ed96301ec438b0d26ea7f9625f21dfcd5d44efd",
   "event_chain_algorithm": "SHA-256 linked events",
   "event_chain_integrity": {
     "status": "valid_from_checkpoint",
-    "events": 959,
+    "events": 960,
     "broken_links": [],
     "content_hash_mismatches": [
       {
@@ -142,7 +142,7 @@
       }
     ],
     "unacknowledged_content_hashes": [],
-    "head": "abc0a073eb347054525ed1345a6aca7e3558ab1a91d0f616595d128f3b0f6ecc"
+    "head": "814bf2f66542ef7b8f4269569ed96301ec438b0d26ea7f9625f21dfcd5d44efd"
   },
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -153,20 +153,43 @@
   },
   "summary": {
     "total": 488,
-    "pending": 20,
+    "pending": 19,
     "signals_settled": 152,
-    "official_entries_settled": 279,
+    "official_entries_settled": 280,
     "cancelled": 63
   },
   "records": [
     {
       "id": "tip_proposal:20261121T214352001373Z:7c247cbc",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-11-21T21:43:52Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "cdb8a914738eb7304232db034974489f1925df44f336fd29b83688bd97e8f07a",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-11-21T21:54:16Z",
+      "result": "VOID",
+      "outcome": {
+        "odds": 1.95,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": 0.0,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20261121T214352001373Z:7c247cbc",
+        "market": "⛳ Over 17 corners · FT",
+        "match": "Motherwell x Rangers",
+        "minimum_recommended_odds": 1.8,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20261121T214230997146Z:958e5806",
