@@ -5525,6 +5525,28 @@
       "justificacao_void": "Não entrada — preço demasiado alto",
       "golos_apos_casa": 0,
       "golos_apos_fora": 0
+    },
+    {
+      "alerta_id": "ce1:1564426:final",
+      "fixture_id": 1564426,
+      "timestamp": "2026-11-21T20:10:41.857019",
+      "jogo": "Reading vs Bromley",
+      "liga": "League One",
+      "janela": "FINAL PUSH",
+      "tempo_alerta": 79,
+      "estrelas": 7.0,
+      "cantos_no_ref": 12,
+      "cantos_final": 14,
+      "cantos_apos_alerta": 2,
+      "meta_cantos": 2,
+      "resultado": "CANCELADA",
+      "resultado_tecnico": "WIN",
+      "estado_entrada": "SEM_ENTRADA",
+      "resultado_mercado_potencial": "VOID",
+      "condicao_preco": "O alvo técnico era linha de VOID",
+      "justificacao_void": "Não entrada — preço demasiado alto",
+      "golos_apos_casa": 0,
+      "golos_apos_fora": 0
     }
   ]
 }
