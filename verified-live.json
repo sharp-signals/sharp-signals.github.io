@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-21T19:06:31Z",
-  "event_chain_head": "9d5df70259a5830e0de61d4964112ddd6be1dc9e1467cf5968bdc47b2d090dee",
+  "generated_at": "2026-11-21T19:07:44Z",
+  "event_chain_head": "c342ee03bedca51e4dfa3654c99c1bdd205b4c1a10cb1e7bdadd0ec4ee754c7c",
   "event_chain_algorithm": "SHA-256 linked events",
   "event_chain_integrity": {
     "status": "valid_from_checkpoint",
-    "events": 951,
+    "events": 952,
     "broken_links": [],
     "content_hash_mismatches": [
       {
@@ -142,7 +142,7 @@
       }
     ],
     "unacknowledged_content_hashes": [],
-    "head": "9d5df70259a5830e0de61d4964112ddd6be1dc9e1467cf5968bdc47b2d090dee"
+    "head": "c342ee03bedca51e4dfa3654c99c1bdd205b4c1a10cb1e7bdadd0ec4ee754c7c"
   },
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -153,20 +153,43 @@
   },
   "summary": {
     "total": 484,
-    "pending": 20,
+    "pending": 19,
     "signals_settled": 151,
     "official_entries_settled": 277,
-    "cancelled": 61
+    "cancelled": 62
   },
   "records": [
     {
       "id": "tip_proposal:20261121T190631425209Z:799aba6f",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-11-21T19:06:31Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "149d34c53c8b1b9e92695663205dcd09df35ec984835060732c8b0e2f144f7cb",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-11-21T19:07:43Z",
+      "result": "CANCELADA",
+      "outcome": {
+        "odds": null,
+        "odds_source": null,
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "cancelled",
+        "profit_loss_percent": null,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20261121T190631425209Z:799aba6f",
+        "market": "🏁 Race to 9 corners · Ferencvaros",
+        "match": "Ferencvaros x Gyor",
+        "minimum_recommended_odds": 1.8,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20261121T180410973502Z:ea945f21",
