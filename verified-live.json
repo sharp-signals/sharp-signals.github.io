@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-21T11:33:48Z",
-  "event_chain_head": "3d2c9a808287e771fc30a82fa39677f5c0de53afd7ad09ff97e8679a11eca110",
+  "generated_at": "2026-11-21T11:50:26Z",
+  "event_chain_head": "3399797045fb816a6b09bda7ccc11bb38b26072b77b344c2c3ee228703dd88be",
   "event_chain_algorithm": "SHA-256 linked events",
   "event_chain_integrity": {
     "status": "valid_from_checkpoint",
-    "events": 938,
+    "events": 939,
     "broken_links": [],
     "content_hash_mismatches": [
       {
@@ -142,7 +142,7 @@
       }
     ],
     "unacknowledged_content_hashes": [],
-    "head": "3d2c9a808287e771fc30a82fa39677f5c0de53afd7ad09ff97e8679a11eca110"
+    "head": "3399797045fb816a6b09bda7ccc11bb38b26072b77b344c2c3ee228703dd88be"
   },
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -153,20 +153,43 @@
   },
   "summary": {
     "total": 477,
-    "pending": 19,
+    "pending": 18,
     "signals_settled": 149,
-    "official_entries_settled": 273,
+    "official_entries_settled": 274,
     "cancelled": 59
   },
   "records": [
     {
       "id": "tip_proposal:20261121T113347300333Z:8a209da3",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-11-21T11:33:47Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "980ecf68af7d4e59fc331b2340aa5b163eb928bf8f08f88bda31edf4243e9450",
-      "telegram_message_count": 2
+      "telegram_message_count": 2,
+      "settled_at": "2026-11-21T11:50:25Z",
+      "result": "VOID",
+      "outcome": {
+        "odds": 1.81,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": 0.0,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20261121T113347300333Z:8a209da3",
+        "market": "⛳ Over 3 corners · 1st half",
+        "match": "Nam Dinh x Hai Phong",
+        "minimum_recommended_odds": 1.8,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20261120T221243306768Z:650c9eac",
