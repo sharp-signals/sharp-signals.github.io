@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-21T13:59:10Z",
-  "event_chain_head": "700fb486ab21007ec0375ab4933a8cc7190b67e50ff207158ebc103848a691eb",
+  "generated_at": "2026-11-21T13:59:44Z",
+  "event_chain_head": "6979d9f1b2f522c6e6c00cdb5a8e2bd384252fd24a57a929f41ac854c81db3b8",
   "event_chain_algorithm": "SHA-256 linked events",
   "event_chain_integrity": {
     "status": "valid_from_checkpoint",
-    "events": 946,
+    "events": 947,
     "broken_links": [],
     "content_hash_mismatches": [
       {
@@ -142,7 +142,7 @@
       }
     ],
     "unacknowledged_content_hashes": [],
-    "head": "700fb486ab21007ec0375ab4933a8cc7190b67e50ff207158ebc103848a691eb"
+    "head": "6979d9f1b2f522c6e6c00cdb5a8e2bd384252fd24a57a929f41ac854c81db3b8"
   },
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -153,20 +153,43 @@
   },
   "summary": {
     "total": 481,
-    "pending": 19,
+    "pending": 18,
     "signals_settled": 151,
-    "official_entries_settled": 275,
+    "official_entries_settled": 276,
     "cancelled": 61
   },
   "records": [
     {
       "id": "tip_proposal:20261121T132252973866Z:139f5192",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-11-21T13:22:53Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "9b552f52fdab9dbd011df47e3d7c86c8244cfa85a04036dde974143f8a11c877",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-11-21T13:59:44Z",
+      "result": "WIN",
+      "outcome": {
+        "odds": 1.84,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": 0.63,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20261121T132252973866Z:139f5192",
+        "market": "⛳ Over 4 corners · FT",
+        "match": "Banja Luka x Zrinjski",
+        "minimum_recommended_odds": 1.8,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "ce1:1563270:ht",
