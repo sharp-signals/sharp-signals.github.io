@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-21T13:59:00Z",
-  "event_chain_head": "7c97807b29a75e6a3dea8f2c17dbef9e66db24bc018da95538ab35238fbfc8d0",
+  "generated_at": "2026-11-21T13:59:10Z",
+  "event_chain_head": "700fb486ab21007ec0375ab4933a8cc7190b67e50ff207158ebc103848a691eb",
   "event_chain_algorithm": "SHA-256 linked events",
   "event_chain_integrity": {
     "status": "valid_from_checkpoint",
-    "events": 945,
+    "events": 946,
     "broken_links": [],
     "content_hash_mismatches": [
       {
@@ -142,7 +142,7 @@
       }
     ],
     "unacknowledged_content_hashes": [],
-    "head": "7c97807b29a75e6a3dea8f2c17dbef9e66db24bc018da95538ab35238fbfc8d0"
+    "head": "700fb486ab21007ec0375ab4933a8cc7190b67e50ff207158ebc103848a691eb"
   },
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -153,10 +153,10 @@
   },
   "summary": {
     "total": 481,
-    "pending": 20,
-    "signals_settled": 150,
+    "pending": 19,
+    "signals_settled": 151,
     "official_entries_settled": 275,
-    "cancelled": 60
+    "cancelled": 61
   },
   "records": [
     {
@@ -208,11 +208,39 @@
     {
       "id": "ce1:1564426:ht",
       "kind": "signal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-11-21T12:59:13Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "286a895e0246fc1ff7d2fae4069d47b5ee33f71ab56540a8ca131fb7020e7042",
-      "telegram_message_count": 3
+      "telegram_message_count": 3,
+      "settled_at": "2026-11-21T13:59:09Z",
+      "result": "CANCELADA",
+      "outcome": {
+        "corners_reference": 3,
+        "corners_final": 6,
+        "corners_after": 3,
+        "target": 2,
+        "technical_result": "WIN",
+        "entry_status": "sem_entrada",
+        "potential_market_result": "WIN",
+        "price_condition": "O alvo técnico era linha de VOID",
+        "void_reason": "Não entrada — preço demasiado alto",
+        "approved_manually": true
+      },
+      "sealed_payload": {
+        "alert_id": "ce1:1564426:ht",
+        "classification": "scanner_signal_not_confirmed_bet",
+        "confidence": 7.5,
+        "corners_at_alert": 3,
+        "league": "League One",
+        "match": "Reading vs Bromley",
+        "minimum_price": 1.8,
+        "minute": 27,
+        "score_at_alert": "0-0",
+        "suggestion": "🎯 REFERÊNCIA\nOver 4.5 cantos 1ª parte · preço de referência @1.80+\n⚠️ Validar mercado e contexto · alerta não é entrada automática",
+        "window": "HT ATTACK"
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20261121T122434291354Z:d18b5fad",
