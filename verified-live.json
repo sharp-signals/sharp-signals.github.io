@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-21T18:04:11Z",
-  "event_chain_head": "c8465469807822bc5ca359e43680570927c6933b723c90142f636ac9f1bec934",
+  "generated_at": "2026-11-21T18:28:20Z",
+  "event_chain_head": "ae4a0afd767b8fe8661e28ad4ae56b903c0f2f45867e3af830d41ee09398a51e",
   "event_chain_algorithm": "SHA-256 linked events",
   "event_chain_integrity": {
     "status": "valid_from_checkpoint",
-    "events": 949,
+    "events": 950,
     "broken_links": [],
     "content_hash_mismatches": [
       {
@@ -142,7 +142,7 @@
       }
     ],
     "unacknowledged_content_hashes": [],
-    "head": "c8465469807822bc5ca359e43680570927c6933b723c90142f636ac9f1bec934"
+    "head": "ae4a0afd767b8fe8661e28ad4ae56b903c0f2f45867e3af830d41ee09398a51e"
   },
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -153,20 +153,43 @@
   },
   "summary": {
     "total": 483,
-    "pending": 20,
+    "pending": 19,
     "signals_settled": 151,
-    "official_entries_settled": 276,
+    "official_entries_settled": 277,
     "cancelled": 61
   },
   "records": [
     {
       "id": "tip_proposal:20261121T180410973502Z:ea945f21",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-11-21T18:04:11Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "044dfb0a68ad25b69aa7e83a11bc664e7fda04cfb89ef33f98bab878d78b33f3",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-11-21T18:28:20Z",
+      "result": "WIN",
+      "outcome": {
+        "odds": 1.84,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": 0.63,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20261121T180410973502Z:ea945f21",
+        "market": "⛳ Over 3.5 corners · 1st half",
+        "match": "Feyenoord x Excelsior",
+        "minimum_recommended_odds": 1.8,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "ce1:1564426:final",
