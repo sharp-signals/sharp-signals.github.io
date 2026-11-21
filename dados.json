@@ -8,8 +8,8 @@
    "fim": "2026-01-31"
   },
   "cresc_pct": 56.91,
-  "apostas": 1301,
-  "ganhos": 731,
+  "apostas": 1302,
+  "ganhos": 732,
   "perdidos": 570,
   "wr": 56.2,
   "meses": [
@@ -86,17 +86,17 @@
    {
     "mes": "2026-11",
     "label": "Nov 26",
-    "cresc_pct": 8.46,
-    "apostas": 69,
-    "wr": 56.5
+    "cresc_pct": 9.07,
+    "apostas": 70,
+    "wr": 57.1
    }
   ],
   "por_mercado": [
    {
     "mercado": "Over Cantos FT",
-    "n": 720,
-    "wr": 59.0,
-    "roi": 50.55,
+    "n": 721,
+    "wr": 59.1,
+    "roi": 51.16,
     "pl_eur": 1369.94
    },
    {
@@ -144,7 +144,6 @@
   ],
   "forma": [
    "perdido",
-   "perdido",
    "ganho",
    "perdido",
    "ganho",
@@ -156,6 +155,7 @@
    "ganho",
    "ganho",
    "perdido",
+   "ganho",
    "ganho",
    "ganho"
   ],
@@ -166,13 +166,13 @@
     "jogo": "Napoli x Torino",
     "mercado": "⛳ Over 9.5 corners · FT",
     "categoria": "Over Cantos FT",
-    "odd": null,
-    "pl_pct": null,
+    "odd": 1.81,
+    "pl_pct": 0.608,
     "stake_pct": 0.75,
-    "resultado": "pendente",
+    "resultado": "ganho",
     "verified_id": "tip_proposal:20261121T210354331706Z:8e9505ed",
-    "estado_entrada": "aguarda_confirmacao",
-    "tipo_odd": "por_registar",
+    "estado_entrada": "confirmada",
+    "tipo_odd": "real",
     "odd_minima_recomendada": 1.8,
     "confianca": 7
    },
