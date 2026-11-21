@@ -5569,6 +5569,28 @@
       "justificacao_void": "",
       "golos_apos_casa": 0,
       "golos_apos_fora": 0
+    },
+    {
+      "alerta_id": "ce1:1492462:mid",
+      "fixture_id": 1492462,
+      "timestamp": "2026-11-21T22:52:40.194633",
+      "jogo": "Bahia vs Coritiba",
+      "liga": "Serie A",
+      "janela": "MID PRESSURE",
+      "tempo_alerta": 65,
+      "estrelas": 8.0,
+      "cantos_no_ref": 14,
+      "cantos_final": 17,
+      "cantos_apos_alerta": 3,
+      "meta_cantos": 3,
+      "resultado": "CANCELADA",
+      "resultado_tecnico": "WIN",
+      "estado_entrada": "SEM_ENTRADA",
+      "resultado_mercado_potencial": "VOID",
+      "condicao_preco": "Precisava de mais um canto do que o alvo para WIN",
+      "justificacao_void": "Não entrada — preço demasiado alto",
+      "golos_apos_casa": 0,
+      "golos_apos_fora": 1
     }
   ]
 }
