@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-21T21:03:54Z",
-  "event_chain_head": "49c8913a8c13d83eb94a19b02b144c8e3cfc8db9d8398716237e6d42fe9c4608",
+  "generated_at": "2026-11-21T21:28:58Z",
+  "event_chain_head": "114e76b35c16a1946dd8f0cdad7f3f35428e2a7c5e68a22921e0abb25e3c50ee",
   "event_chain_algorithm": "SHA-256 linked events",
   "event_chain_integrity": {
     "status": "valid_from_checkpoint",
-    "events": 954,
+    "events": 955,
     "broken_links": [],
     "content_hash_mismatches": [
       {
@@ -142,7 +142,7 @@
       }
     ],
     "unacknowledged_content_hashes": [],
-    "head": "49c8913a8c13d83eb94a19b02b144c8e3cfc8db9d8398716237e6d42fe9c4608"
+    "head": "114e76b35c16a1946dd8f0cdad7f3f35428e2a7c5e68a22921e0abb25e3c50ee"
   },
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -153,20 +153,43 @@
   },
   "summary": {
     "total": 485,
-    "pending": 19,
+    "pending": 18,
     "signals_settled": 152,
-    "official_entries_settled": 277,
+    "official_entries_settled": 278,
     "cancelled": 63
   },
   "records": [
     {
       "id": "tip_proposal:20261121T210354331706Z:8e9505ed",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-11-21T21:03:54Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "c130440046e621dcd421bc83718f6a56720688c5be2a3281350e12f92f18f05c",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-11-21T21:28:58Z",
+      "result": "WIN",
+      "outcome": {
+        "odds": 1.81,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": 0.608,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20261121T210354331706Z:8e9505ed",
+        "market": "⛳ Over 9.5 corners · FT",
+        "match": "Napoli x Torino",
+        "minimum_recommended_odds": 1.8,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20261121T190631425209Z:799aba6f",
