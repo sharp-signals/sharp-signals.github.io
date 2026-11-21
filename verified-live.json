@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-21T21:58:12Z",
-  "event_chain_head": "5398f592ed984495fcf8168ff4f39cdfd3986a73ba35ceb7dc18dfd238c0d021",
+  "generated_at": "2026-11-21T22:15:28Z",
+  "event_chain_head": "f048082e6f26130bac99d4ee3f1ca0aa42119c70d7ba5b1a8d51e2be3e77363e",
   "event_chain_algorithm": "SHA-256 linked events",
   "event_chain_integrity": {
     "status": "valid_from_checkpoint",
-    "events": 961,
+    "events": 962,
     "broken_links": [],
     "content_hash_mismatches": [
       {
@@ -142,7 +142,7 @@
       }
     ],
     "unacknowledged_content_hashes": [],
-    "head": "5398f592ed984495fcf8168ff4f39cdfd3986a73ba35ceb7dc18dfd238c0d021"
+    "head": "f048082e6f26130bac99d4ee3f1ca0aa42119c70d7ba5b1a8d51e2be3e77363e"
   },
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -153,8 +153,8 @@
   },
   "summary": {
     "total": 489,
-    "pending": 20,
-    "signals_settled": 152,
+    "pending": 19,
+    "signals_settled": 153,
     "official_entries_settled": 280,
     "cancelled": 63
   },
@@ -235,11 +235,39 @@
     {
       "id": "ce1:1552231:final",
       "kind": "signal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-11-21T21:39:05Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "5232ff5662e5c2d11c6f0a40c5ac8b156876419e78306e5564c3066f4ecc6f18",
-      "telegram_message_count": 2
+      "telegram_message_count": 2,
+      "settled_at": "2026-11-21T22:15:28Z",
+      "result": "WIN",
+      "outcome": {
+        "corners_reference": 16,
+        "corners_final": 18,
+        "corners_after": 2,
+        "target": 2,
+        "technical_result": "WIN",
+        "entry_status": "confirmada",
+        "potential_market_result": "",
+        "price_condition": "",
+        "void_reason": "",
+        "approved_manually": true
+      },
+      "sealed_payload": {
+        "alert_id": "ce1:1552231:final",
+        "classification": "scanner_signal_not_confirmed_bet",
+        "confidence": 7.5,
+        "corners_at_alert": 15,
+        "league": "Eredivisie",
+        "match": "Telstar vs PEC Zwolle",
+        "minimum_price": 1.8,
+        "minute": 80,
+        "score_at_alert": "1-3",
+        "suggestion": "🎯 REFERÊNCIA\nOver 16.5 cantos · preço de referência @1.80+\n⚠️ Validar mercado e contexto · alerta não é entrada automática",
+        "window": "FINAL PUSH"
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20261121T210354331706Z:8e9505ed",
