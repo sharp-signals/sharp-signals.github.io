@@ -5547,6 +5547,28 @@
       "justificacao_void": "Não entrada — preço demasiado alto",
       "golos_apos_casa": 0,
       "golos_apos_fora": 0
+    },
+    {
+      "alerta_id": "ce1:1552231:final",
+      "fixture_id": 1552231,
+      "timestamp": "2026-11-21T22:15:22.173785",
+      "jogo": "Telstar vs PEC Zwolle",
+      "liga": "Eredivisie",
+      "janela": "FINAL PUSH",
+      "tempo_alerta": 80,
+      "estrelas": 7.5,
+      "cantos_no_ref": 16,
+      "cantos_final": 18,
+      "cantos_apos_alerta": 2,
+      "meta_cantos": 2,
+      "resultado": "WIN",
+      "resultado_tecnico": "WIN",
+      "estado_entrada": "CONFIRMADA",
+      "resultado_mercado_potencial": "",
+      "condicao_preco": "",
+      "justificacao_void": "",
+      "golos_apos_casa": 0,
+      "golos_apos_fora": 0
     }
   ]
 }
