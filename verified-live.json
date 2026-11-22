@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-22T17:22:21Z",
-  "event_chain_head": "1ea83d6a515725932a72e53711f8db1b7252ddd928ef67621837c85251077856",
+  "generated_at": "2026-11-22T17:27:45Z",
+  "event_chain_head": "f9d6a2d5417507472321e494e4806721b9967cf3d42b6058f6df2af0108d6c7b",
   "event_chain_algorithm": "SHA-256 linked events",
   "event_chain_integrity": {
     "status": "valid_from_checkpoint",
-    "events": 975,
+    "events": 976,
     "broken_links": [],
     "content_hash_mismatches": [
       {
@@ -142,7 +142,7 @@
       }
     ],
     "unacknowledged_content_hashes": [],
-    "head": "1ea83d6a515725932a72e53711f8db1b7252ddd928ef67621837c85251077856"
+    "head": "f9d6a2d5417507472321e494e4806721b9967cf3d42b6058f6df2af0108d6c7b"
   },
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -153,20 +153,43 @@
   },
   "summary": {
     "total": 495,
-    "pending": 19,
+    "pending": 18,
     "signals_settled": 156,
-    "official_entries_settled": 281,
+    "official_entries_settled": 282,
     "cancelled": 67
   },
   "records": [
     {
       "id": "tip_proposal:20261122T172220628372Z:6e467162",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-11-22T17:22:20Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "06699218d741457beab9aa0f776d52b7188f1e9ff230d6a7cab49166b99f0eaa",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-11-22T17:27:45Z",
+      "result": "WIN",
+      "outcome": {
+        "odds": 1.83,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": 0.623,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20261122T172220628372Z:6e467162",
+        "market": "⛳ Over 9.5 corners · FT",
+        "match": "PSV F x Zwrolle F",
+        "minimum_recommended_odds": 1.8,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20261122T152139560143Z:dcc8ce47",
