@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-22T22:04:27Z",
-  "event_chain_head": "18a61167f2dcbfa9cb1bbc732de6411510f532fc71cef794f00b9df38a9f289f",
+  "generated_at": "2026-11-22T22:24:20Z",
+  "event_chain_head": "e658637112286916511e0db6df37cef980033c8563dfebd39fbe665232f4d1a7",
   "event_chain_algorithm": "SHA-256 linked events",
   "event_chain_integrity": {
     "status": "valid_from_checkpoint",
-    "events": 984,
+    "events": 985,
     "broken_links": [],
     "content_hash_mismatches": [
       {
@@ -142,7 +142,7 @@
       }
     ],
     "unacknowledged_content_hashes": [],
-    "head": "18a61167f2dcbfa9cb1bbc732de6411510f532fc71cef794f00b9df38a9f289f"
+    "head": "e658637112286916511e0db6df37cef980033c8563dfebd39fbe665232f4d1a7"
   },
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -153,20 +153,43 @@
   },
   "summary": {
     "total": 499,
-    "pending": 19,
+    "pending": 18,
     "signals_settled": 156,
-    "official_entries_settled": 284,
+    "official_entries_settled": 285,
     "cancelled": 67
   },
   "records": [
     {
       "id": "tip_proposal:20261122T220427406312Z:b0660773",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-11-22T22:04:27Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "01778dcdbfe55a8923109036b0fe028b12692d2f4a03054b5d1d91d866ce3fce",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-11-22T22:24:19Z",
+      "result": "CASHOUT",
+      "outcome": {
+        "odds": null,
+        "odds_source": "cashout_loss_reference",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": 0.15,
+        "entry_status": "confirmed",
+        "profit_loss_percent": -0.188,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 8,
+        "entry_id": "tip_proposal:20261122T220427406312Z:b0660773",
+        "market": "⛳ Over 6.5 corners · FT",
+        "match": "Torreense x Benfica",
+        "minimum_recommended_odds": 1.8,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 1.25
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20261122T175537311875Z:d31afb9e",
