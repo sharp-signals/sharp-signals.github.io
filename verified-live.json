@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-22T12:44:06Z",
-  "event_chain_head": "b9712b3da87a28608c90a6ca059cd9c37c0751c9e31a5afbe396b16d95db3c00",
+  "generated_at": "2026-11-22T13:57:50Z",
+  "event_chain_head": "995a1c67323ade2b9fde8b73daabc2b613ea051721f65e62c0de2801d8309b4c",
   "event_chain_algorithm": "SHA-256 linked events",
   "event_chain_integrity": {
     "status": "valid_from_checkpoint",
-    "events": 964,
+    "events": 965,
     "broken_links": [],
     "content_hash_mismatches": [
       {
@@ -142,7 +142,7 @@
       }
     ],
     "unacknowledged_content_hashes": [],
-    "head": "b9712b3da87a28608c90a6ca059cd9c37c0751c9e31a5afbe396b16d95db3c00"
+    "head": "995a1c67323ade2b9fde8b73daabc2b613ea051721f65e62c0de2801d8309b4c"
   },
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -153,20 +153,48 @@
   },
   "summary": {
     "total": 490,
-    "pending": 19,
-    "signals_settled": 154,
+    "pending": 18,
+    "signals_settled": 155,
     "official_entries_settled": 280,
-    "cancelled": 64
+    "cancelled": 65
   },
   "records": [
     {
       "id": "ce1:1552232:mid",
       "kind": "signal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-11-22T12:44:06Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "19b00c7a262eeaa2b51a9ab3f5f360fe45795cdfa8e011b356e89ee90eab8f24",
-      "telegram_message_count": 3
+      "telegram_message_count": 3,
+      "settled_at": "2026-11-22T13:57:50Z",
+      "result": "CANCELADA",
+      "outcome": {
+        "corners_reference": 5,
+        "corners_final": 6,
+        "corners_after": 1,
+        "target": 3,
+        "technical_result": "LOSS",
+        "entry_status": "sem_entrada",
+        "potential_market_result": "LOSS",
+        "price_condition": "Precisava de mais um canto do que o alvo para WIN",
+        "void_reason": "Não entrada — preço demasiado alto",
+        "approved_manually": true
+      },
+      "sealed_payload": {
+        "alert_id": "ce1:1552232:mid",
+        "classification": "scanner_signal_not_confirmed_bet",
+        "confidence": 9.5,
+        "corners_at_alert": 5,
+        "league": "Eredivisie",
+        "match": "Twente vs Willem II",
+        "minimum_price": 1.8,
+        "minute": 67,
+        "score_at_alert": "1-1",
+        "suggestion": "🎯 REFERÊNCIA\nOver 7.5 cantos · preço de referência @1.80+\n⚠️ Validar mercado e contexto · alerta não é entrada automática",
+        "window": "MID PRESSURE"
+      },
+      "commitment_valid": true
     },
     {
       "id": "ce1:1492462:mid",
