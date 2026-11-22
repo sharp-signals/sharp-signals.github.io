@@ -5592,5 +5592,29 @@
       "golos_apos_casa": 0,
       "golos_apos_fora": 1
     }
+  ],
+  "2026-11-22": [
+    {
+      "alerta_id": "ce1:1552232:mid",
+      "fixture_id": 1552232,
+      "timestamp": "2026-11-22T13:57:45.971423",
+      "jogo": "Twente vs Willem II",
+      "liga": "Eredivisie",
+      "janela": "MID PRESSURE",
+      "tempo_alerta": 67,
+      "estrelas": 9.5,
+      "cantos_no_ref": 5,
+      "cantos_final": 6,
+      "cantos_apos_alerta": 1,
+      "meta_cantos": 3,
+      "resultado": "CANCELADA",
+      "resultado_tecnico": "LOSS",
+      "estado_entrada": "SEM_ENTRADA",
+      "resultado_mercado_potencial": "LOSS",
+      "condicao_preco": "Precisava de mais um canto do que o alvo para WIN",
+      "justificacao_void": "Não entrada — preço demasiado alto",
+      "golos_apos_casa": 1,
+      "golos_apos_fora": 0
+    }
   ]
 }
