@@ -8,8 +8,8 @@
    "fim": "2026-01-31"
   },
   "cresc_pct": 56.91,
-  "apostas": 1305,
-  "ganhos": 733,
+  "apostas": 1306,
+  "ganhos": 734,
   "perdidos": 572,
   "wr": 56.2,
   "meses": [
@@ -86,17 +86,17 @@
    {
     "mes": "2026-11",
     "label": "Nov 26",
-    "cresc_pct": 8.83,
-    "apostas": 73,
-    "wr": 56.2
+    "cresc_pct": 9.45,
+    "apostas": 74,
+    "wr": 56.8
    }
   ],
   "por_mercado": [
    {
     "mercado": "Over Cantos FT",
-    "n": 722,
-    "wr": 59.0,
-    "roi": 50.41,
+    "n": 723,
+    "wr": 59.1,
+    "roi": 51.03,
     "pl_eur": 1369.94
    },
    {
@@ -144,7 +144,6 @@
   ],
   "forma": [
    "ganho",
-   "ganho",
    "perdido",
    "ganho",
    "perdido",
@@ -157,7 +156,8 @@
    "ganho",
    "ganho",
    "cashout",
-   "perdido"
+   "perdido",
+   "ganho"
   ],
   "historico": [
    {
@@ -166,13 +166,13 @@
     "jogo": "PSV F x Zwrolle F",
     "mercado": "⛳ Over 9.5 corners · FT",
     "categoria": "Over Cantos FT",
-    "odd": null,
-    "pl_pct": null,
+    "odd": 1.83,
+    "pl_pct": 0.623,
     "stake_pct": 0.75,
-    "resultado": "pendente",
+    "resultado": "ganho",
     "verified_id": "tip_proposal:20261122T172220628372Z:6e467162",
-    "estado_entrada": "aguarda_confirmacao",
-    "tipo_odd": "por_registar",
+    "estado_entrada": "confirmada",
+    "tipo_odd": "real",
     "odd_minima_recomendada": 1.8,
     "confianca": 7
    },
