@@ -17,7 +17,7 @@
    "pode_nao_publicar": true
   }
  },
- "atualizado": "2026-11-22T06:10:39",
+ "atualizado": "2026-11-22T06:21:36",
  "dia_trading": "2026-11-22",
  "geral": {
   "inicio": "2026-06-06",
@@ -4087,7 +4087,32 @@
    "dias_verde_pct": 43.1
   }
  },
- "tip_do_dia": [],
+ "tip_do_dia": [
+  {
+   "hora": "11:30",
+   "liga": "Serie A",
+   "jogo": "Juventus vs Venezia",
+   "mercado": "Over 1.5 · 2ª parte",
+   "odd": 1.95,
+   "bilhete": "dupla",
+   "ticket_id": "prelive:2026-11-22:2",
+   "ticket_slot": 2,
+   "fire": false,
+   "resultado": null
+  },
+  {
+   "hora": "16:00",
+   "liga": "2. SNL",
+   "jogo": "Velenje vs Beltinci",
+   "mercado": "Over 1.5 · 2ª parte",
+   "odd": 1.85,
+   "bilhete": "dupla",
+   "ticket_id": "prelive:2026-11-22:2",
+   "ticket_slot": 2,
+   "fire": false,
+   "resultado": null
+  }
+ ],
  "por_estrategia": {
   "Golos (arquivo)": {
    "n": 31,
@@ -4133,80 +4158,80 @@
   "nome": "Pré-Live Grátis",
   "descricao": "Bilhete partilhado no canal gratuito · até um por dia · 1u",
   "publication_scope": "free_confirmed_only",
-  "boletins": 38,
+  "boletins": 39,
   "greens": 9,
   "reds": 29,
-  "pendentes": 0,
+  "pendentes": 1,
   "lucro": 10.09,
   "ultimos": [
    {
-    "ticket_id": "prelive:2026-11-20:2",
+    "ticket_id": "prelive:2026-11-22:2",
     "ticket_slot": 2,
     "free_publication_confirmed": true,
     "publication_channel": "free",
-    "data": "2026-11-20",
+    "data": "2026-11-22",
     "tipo": "dupla",
-    "odd": 3.87,
-    "resultado": "green",
+    "odd": 3.61,
+    "resultado": null,
     "u": 1.0,
-    "published_at": "2026-11-20T06:15:59+00:00",
+    "published_at": "2026-11-22T06:15:53+00:00",
     "publication_confirmed": true,
     "pernas": [
      {
-      "fixture_id": 1556150,
-      "casa": "Kobe",
-      "fora": "Mito H",
+      "fixture_id": 1550201,
+      "casa": "Juventus",
+      "fora": "Venezia",
       "liga": null,
-      "hora": "10:00",
+      "hora": "11:30",
       "mercado": null,
-      "odd": 2.05,
-      "resultado": "ganho"
+      "odd": 1.95,
+      "resultado": null
      },
      {
-      "fixture_id": 1551040,
-      "casa": "Juarez",
-      "fora": "Atlas",
+      "fixture_id": 1559011,
+      "casa": "Velenje",
+      "fora": "Beltinci",
       "liga": null,
-      "hora": "03:00",
+      "hora": "16:00",
       "mercado": null,
-      "odd": 1.89,
-      "resultado": "ganho"
+      "odd": 1.85,
+      "resultado": null
      }
     ]
    }
   ],
   "ultimo": {
-   "ticket_id": "prelive:2026-11-20:2",
+   "ticket_id": "prelive:2026-11-22:2",
    "ticket_slot": 2,
    "free_publication_confirmed": true,
    "publication_channel": "free",
-   "data": "2026-11-20",
+   "data": "2026-11-22",
    "tipo": "dupla",
-   "odd": 3.87,
-   "resultado": "green",
+   "odd": 3.61,
+   "resultado": null,
    "u": 1.0,
-   "published_at": "2026-11-20T06:15:59+00:00",
+   "published_at": "2026-11-22T06:15:53+00:00",
    "publication_confirmed": true,
    "pernas": [
     {
-     "fixture_id": 1556150,
-     "casa": "Kobe",
-     "fora": "Mito H",
+     "fixture_id": 1550201,
+     "casa": "Juventus",
+     "fora": "Venezia",
      "liga": null,
-     "hora": "10:00",
+     "hora": "11:30",
      "mercado": null,
-     "odd": 2.05,
-     "resultado": "ganho"
+     "odd": 1.95,
+     "resultado": null
     },
     {
-     "fixture_id": 1551040,
-     "casa": "Juarez",
-     "fora": "Atlas",
+     "fixture_id": 1559011,
+     "casa": "Velenje",
+     "fora": "Beltinci",
      "liga": null,
-     "hora": "03:00",
+     "hora": "16:00",
      "mercado": null,
-     "odd": 1.89,
-     "resultado": "ganho"
+     "odd": 1.85,
+     "resultado": null
     }
    ]
   },
@@ -5688,6 +5713,41 @@
       "mercado": null,
       "odd": 1.89,
       "resultado": "ganho"
+     }
+    ]
+   },
+   {
+    "ticket_id": "prelive:2026-11-22:2",
+    "ticket_slot": 2,
+    "free_publication_confirmed": true,
+    "publication_channel": "free",
+    "data": "2026-11-22",
+    "tipo": "dupla",
+    "odd": 3.61,
+    "resultado": null,
+    "u": 1.0,
+    "published_at": "2026-11-22T06:15:53+00:00",
+    "publication_confirmed": true,
+    "pernas": [
+     {
+      "fixture_id": 1550201,
+      "casa": "Juventus",
+      "fora": "Venezia",
+      "liga": null,
+      "hora": "11:30",
+      "mercado": null,
+      "odd": 1.95,
+      "resultado": null
+     },
+     {
+      "fixture_id": 1559011,
+      "casa": "Velenje",
+      "fora": "Beltinci",
+      "liga": null,
+      "hora": "16:00",
+      "mercado": null,
+      "odd": 1.85,
+      "resultado": null
      }
     ]
    }
