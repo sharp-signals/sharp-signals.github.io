@@ -5615,6 +5615,28 @@
       "justificacao_void": "Não entrada — preço demasiado alto",
       "golos_apos_casa": 1,
       "golos_apos_fora": 0
+    },
+    {
+      "alerta_id": "ce1:1561971:ht",
+      "fixture_id": 1561971,
+      "timestamp": "2026-11-22T15:44:40.316039",
+      "jogo": "Wolfsberger AC vs Ried",
+      "liga": "Bundesliga",
+      "janela": "HT ATTACK",
+      "tempo_alerta": 27,
+      "estrelas": 7.0,
+      "cantos_no_ref": 4,
+      "cantos_final": 12,
+      "cantos_apos_alerta": 8,
+      "meta_cantos": 2,
+      "resultado": "CANCELADA",
+      "resultado_tecnico": "WIN",
+      "estado_entrada": "SEM_ENTRADA",
+      "resultado_mercado_potencial": "",
+      "condicao_preco": "",
+      "justificacao_void": "Não entrada — outro motivo",
+      "golos_apos_casa": 1,
+      "golos_apos_fora": 2
     }
   ]
 }
