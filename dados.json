@@ -8,9 +8,9 @@
    "fim": "2026-01-31"
   },
   "cresc_pct": 56.91,
-  "apostas": 1307,
+  "apostas": 1308,
   "ganhos": 735,
-  "perdidos": 572,
+  "perdidos": 573,
   "wr": 56.2,
   "meses": [
    {
@@ -86,9 +86,9 @@
    {
     "mes": "2026-11",
     "label": "Nov 26",
-    "cresc_pct": 10.07,
-    "apostas": 75,
-    "wr": 57.3
+    "cresc_pct": 9.96,
+    "apostas": 76,
+    "wr": 56.6
    }
   ],
   "por_mercado": [
@@ -108,9 +108,9 @@
    },
    {
     "mercado": "Cashout",
-    "n": 184,
-    "wr": 41.3,
-    "roi": -5.84,
+    "n": 185,
+    "wr": 41.1,
+    "roi": -5.95,
     "pl_eur": -74.77
    },
    {
@@ -143,7 +143,6 @@
    }
   ],
   "forma": [
-   "perdido",
    "ganho",
    "perdido",
    "perdido",
@@ -157,7 +156,8 @@
    "cashout",
    "perdido",
    "ganho",
-   "ganho"
+   "ganho",
+   "cashout"
   ],
   "historico": [
    {
@@ -181,16 +181,17 @@
     "mes": "2026-11",
     "jogo": "Olympiakos x Iraklis",
     "mercado": "🏁 Race to 9 corners · Olympiakos",
-    "categoria": "Race to X corners",
+    "categoria": "Cashout",
     "odd": null,
-    "pl_pct": null,
+    "pl_pct": -0.112,
     "stake_pct": 0.75,
-    "resultado": "pendente",
+    "resultado": "cashout",
     "verified_id": "tip_proposal:20261122T174319042660Z:55441d8d",
-    "estado_entrada": "aguarda_confirmacao",
-    "tipo_odd": "por_registar",
+    "estado_entrada": "confirmada",
+    "tipo_odd": "referencia_cashout_menos_15_pct",
     "odd_minima_recomendada": 1.8,
-    "confianca": 7
+    "confianca": 7,
+    "cashout_perda_referencia_pct_stake": 15.0
    },
    {
     "data": "2026-11-22",
