@@ -8,10 +8,10 @@
    "fim": "2026-01-31"
   },
   "cresc_pct": 56.91,
-  "apostas": 1308,
+  "apostas": 1309,
   "ganhos": 735,
-  "perdidos": 573,
-  "wr": 56.2,
+  "perdidos": 574,
+  "wr": 56.1,
   "meses": [
    {
     "mes": "2025-08",
@@ -86,17 +86,17 @@
    {
     "mes": "2026-11",
     "label": "Nov 26",
-    "cresc_pct": 9.96,
-    "apostas": 76,
-    "wr": 56.6
+    "cresc_pct": 9.21,
+    "apostas": 77,
+    "wr": 55.8
    }
   ],
   "por_mercado": [
    {
     "mercado": "Over Cantos FT",
-    "n": 723,
-    "wr": 59.1,
-    "roi": 51.03,
+    "n": 724,
+    "wr": 59.0,
+    "roi": 50.28,
     "pl_eur": 1369.94
    },
    {
@@ -143,7 +143,6 @@
    }
   ],
   "forma": [
-   "ganho",
    "perdido",
    "perdido",
    "ganho",
@@ -157,7 +156,8 @@
    "perdido",
    "ganho",
    "ganho",
-   "cashout"
+   "cashout",
+   "perdido"
   ],
   "historico": [
    {
@@ -166,13 +166,13 @@
     "jogo": "Celje x NK Brinje",
     "mercado": "⛳ Over 5.5 corners · FT",
     "categoria": "Over Cantos FT",
-    "odd": null,
-    "pl_pct": null,
+    "odd": 1.83,
+    "pl_pct": -0.75,
     "stake_pct": 0.75,
-    "resultado": "pendente",
+    "resultado": "perdido",
     "verified_id": "tip_proposal:20261122T175537311875Z:d31afb9e",
-    "estado_entrada": "aguarda_confirmacao",
-    "tipo_odd": "por_registar",
+    "estado_entrada": "confirmada",
+    "tipo_odd": "real",
     "odd_minima_recomendada": 1.8,
     "confianca": 7
    },
