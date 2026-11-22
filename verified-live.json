@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-22T14:35:47Z",
-  "event_chain_head": "ab1de945019f778175c2e9a2ec4d003d4a48633934e7f9be8001df36b25721f8",
+  "generated_at": "2026-11-22T14:37:38Z",
+  "event_chain_head": "138b396c8ca512ea1d03bedb84a2247ff0c8018f53a0a5a8580b0cfee6bec340",
   "event_chain_algorithm": "SHA-256 linked events",
   "event_chain_integrity": {
     "status": "valid_from_checkpoint",
-    "events": 969,
+    "events": 970,
     "broken_links": [],
     "content_hash_mismatches": [
       {
@@ -142,7 +142,7 @@
       }
     ],
     "unacknowledged_content_hashes": [],
-    "head": "ab1de945019f778175c2e9a2ec4d003d4a48633934e7f9be8001df36b25721f8"
+    "head": "138b396c8ca512ea1d03bedb84a2247ff0c8018f53a0a5a8580b0cfee6bec340"
   },
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -153,20 +153,43 @@
   },
   "summary": {
     "total": 493,
-    "pending": 20,
+    "pending": 19,
     "signals_settled": 155,
-    "official_entries_settled": 280,
+    "official_entries_settled": 281,
     "cancelled": 66
   },
   "records": [
     {
       "id": "tip_proposal:20261122T143546797902Z:14487e58",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-11-22T14:35:47Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "bffcd6c2e382c2344f500067bfbbf05e3b67ee534eec4d5dce1991679c702a13",
-      "telegram_message_count": 2
+      "telegram_message_count": 2,
+      "settled_at": "2026-11-22T14:37:38Z",
+      "result": "CASHOUT",
+      "outcome": {
+        "odds": null,
+        "odds_source": "cashout_loss_reference",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": 0.15,
+        "entry_status": "confirmed",
+        "profit_loss_percent": -0.112,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20261122T143546797902Z:14487e58",
+        "market": "⛳ Over 5.5 corners · FT",
+        "match": "Konyaspor x Besiktas",
+        "minimum_recommended_odds": 1.8,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20261122T143109741818Z:83cab3f2",
