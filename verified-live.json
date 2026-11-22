@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-22T14:37:38Z",
-  "event_chain_head": "138b396c8ca512ea1d03bedb84a2247ff0c8018f53a0a5a8580b0cfee6bec340",
+  "generated_at": "2026-11-22T14:59:54Z",
+  "event_chain_head": "69e6b1767ee18351324153ec71d79f41bee237df7b3fcbf3cf79ebabc943a490",
   "event_chain_algorithm": "SHA-256 linked events",
   "event_chain_integrity": {
     "status": "valid_from_checkpoint",
-    "events": 970,
+    "events": 971,
     "broken_links": [],
     "content_hash_mismatches": [
       {
@@ -142,7 +142,7 @@
       }
     ],
     "unacknowledged_content_hashes": [],
-    "head": "138b396c8ca512ea1d03bedb84a2247ff0c8018f53a0a5a8580b0cfee6bec340"
+    "head": "69e6b1767ee18351324153ec71d79f41bee237df7b3fcbf3cf79ebabc943a490"
   },
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -155,7 +155,7 @@
     "total": 493,
     "pending": 19,
     "signals_settled": 155,
-    "official_entries_settled": 281,
+    "official_entries_settled": 280,
     "cancelled": 66
   },
   "records": [
@@ -170,14 +170,11 @@
       "settled_at": "2026-11-22T14:37:38Z",
       "result": "CASHOUT",
       "outcome": {
-        "odds": null,
-        "odds_source": "cashout_loss_reference",
-        "reference_odds": null,
-        "cashout_loss_fraction_reference": 0.15,
-        "entry_status": "confirmed",
-        "profit_loss_percent": -0.112,
-        "settled_manually": true
+        "profit_loss_percent": -0.18,
+        "profit_loss_source": "actual_cashout_reported",
+        "cashout_loss_fraction_reference": null
       },
+      "corrected_at": "2026-11-22T14:59:54Z",
       "sealed_payload": {
         "classification": "published_tip_awaiting_activation",
         "confidence": 7,
