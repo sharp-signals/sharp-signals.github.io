@@ -167,7 +167,7 @@
     "mercado": "⛳ Over 5.5 corners · FT",
     "categoria": "Cashout",
     "odd": null,
-    "pl_pct": -0.112,
+    "pl_pct": -0.18,
     "stake_pct": 0.75,
     "resultado": "cashout",
     "verified_id": "tip_proposal:20261122T143546797902Z:14487e58",
@@ -175,7 +175,8 @@
     "tipo_odd": "referencia_cashout_menos_15_pct",
     "odd_minima_recomendada": 1.8,
     "confianca": 7,
-    "cashout_perda_referencia_pct_stake": 15.0
+    "cashout_perda_referencia_pct_stake": null,
+    "pl_source": "cashout_real_reportado"
    },
    {
     "data": "2026-11-22",
