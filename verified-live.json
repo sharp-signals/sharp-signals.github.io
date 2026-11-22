@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-22T18:15:39Z",
-  "event_chain_head": "519de4f50b9d1d27417109120531df9c7e99b380b881affb6fe78a594b06738f",
+  "generated_at": "2026-11-22T18:16:27Z",
+  "event_chain_head": "a1bfe785a4faf0b8db864c5b0d462ed5780ecf86b0c0f200052708d8410655f7",
   "event_chain_algorithm": "SHA-256 linked events",
   "event_chain_integrity": {
     "status": "valid_from_checkpoint",
-    "events": 982,
+    "events": 983,
     "broken_links": [],
     "content_hash_mismatches": [
       {
@@ -142,7 +142,7 @@
       }
     ],
     "unacknowledged_content_hashes": [],
-    "head": "519de4f50b9d1d27417109120531df9c7e99b380b881affb6fe78a594b06738f"
+    "head": "a1bfe785a4faf0b8db864c5b0d462ed5780ecf86b0c0f200052708d8410655f7"
   },
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -153,20 +153,43 @@
   },
   "summary": {
     "total": 498,
-    "pending": 19,
+    "pending": 18,
     "signals_settled": 156,
-    "official_entries_settled": 283,
+    "official_entries_settled": 284,
     "cancelled": 67
   },
   "records": [
     {
       "id": "tip_proposal:20261122T175537311875Z:d31afb9e",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-11-22T17:55:37Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "2de5eb49a328321c803ef5e65c0551f99b4430575e2cb4c243679eaf75750f91",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-11-22T18:16:26Z",
+      "result": "LOSS",
+      "outcome": {
+        "odds": 1.83,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": -0.75,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20261122T175537311875Z:d31afb9e",
+        "market": "⛳ Over 5.5 corners · FT",
+        "match": "Celje x NK Brinje",
+        "minimum_recommended_odds": 1.8,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20261122T174319042660Z:55441d8d",
