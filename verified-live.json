@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-22T17:43:19Z",
-  "event_chain_head": "dc9e7bb17b6de0e7ef2449a6b7b9be2e66d9ca39cb16c80703ffb4e14427628b",
+  "generated_at": "2026-11-22T17:48:40Z",
+  "event_chain_head": "42dc4c6fb34d2cfc2e15cfaf9d8903d20454589e83394f43a57322b210f729d2",
   "event_chain_algorithm": "SHA-256 linked events",
   "event_chain_integrity": {
     "status": "valid_from_checkpoint",
-    "events": 978,
+    "events": 979,
     "broken_links": [],
     "content_hash_mismatches": [
       {
@@ -142,7 +142,7 @@
       }
     ],
     "unacknowledged_content_hashes": [],
-    "head": "dc9e7bb17b6de0e7ef2449a6b7b9be2e66d9ca39cb16c80703ffb4e14427628b"
+    "head": "42dc4c6fb34d2cfc2e15cfaf9d8903d20454589e83394f43a57322b210f729d2"
   },
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -153,9 +153,9 @@
   },
   "summary": {
     "total": 497,
-    "pending": 20,
+    "pending": 19,
     "signals_settled": 156,
-    "official_entries_settled": 282,
+    "official_entries_settled": 283,
     "cancelled": 67
   },
   "records": [
@@ -171,11 +171,34 @@
     {
       "id": "tip_proposal:20261122T173007597817Z:ef1c577b",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-11-22T17:30:07Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "d437ab589fed21ea12ae805d9a5b4b8c616e2a3d2e7a04a6fe603db7b3b87e2f",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-11-22T17:48:40Z",
+      "result": "WIN",
+      "outcome": {
+        "odds": 1.83,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": 0.623,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20261122T173007597817Z:ef1c577b",
+        "market": "⛳ Over 3.5 corners · 1st half",
+        "match": "Olympiakos x Iraklis",
+        "minimum_recommended_odds": 1.8,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20261122T172220628372Z:6e467162",
