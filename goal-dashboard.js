@@ -16,6 +16,7 @@
     return null; // Unknown products must not silently enter Goal accounts.
   }
   function ticketKey(b) {
+    if (typeof b.ticket_id === 'string' && b.ticket_id) return b.ticket_id;
     return [b.data, b.tipo, ...(b.pernas || []).map(p => p.fixture_id || `${p.casa}|${p.fora}`)].join('|');
   }
   function confirmed(b) {
@@ -28,6 +29,25 @@
     // restart. Keep a verified public snapshot available, but never merge it over
     // an authoritative full history (including an intentionally empty history).
     const c = d.combinada || {};
+    const accounting = d.prelive_resultados;
+    if (accounting?.publication_scope === 'all_confirmed_accounting_v1' &&
+        Array.isArray(accounting.historico) && !accounting.indisponivel) {
+      const unique = new Map();
+      for (const b of accounting.historico) {
+        if (b.publication_confirmed !== true || b.accounting_confirmed !== true ||
+            !b.ticket_id || !['goal','free'].includes(b.publication_channel)) continue;
+        if (b.publication_channel === 'free' && !confirmed(b)) continue;
+        if (b.publication_channel === 'goal' &&
+            (b.free_publication_confirmed !== false ||
+             (b.legs_disclosed === false ? (b.pernas || []).length !== 0 :
+              b.legs_disclosed !== true || !(b.pernas || []).length ||
+              b.pernas.some(p=>!['ganho','perdido','push'].includes(p.resultado))))) continue;
+        unique.set(ticketKey(b), b);
+      }
+      return [...unique.values()].map(b => ({...b, id:ticketKey(b), category:'prelive',
+        resultado:result(b.resultado), units:number(b.u ?? 1), odd:number(b.odd),
+        legs:b.pernas || [], published_at:b.published_at || '', hora:b.hora || ''}));
+    }
     const authoritative = Array.isArray(c.historico);
     const rows = authoritative ? c.historico : [
       ...(fallback?.historico || []), ...(c.ultimos || []), ...(c.ultimo ? [c.ultimo] : [])
@@ -128,12 +148,16 @@
     return `${esc(s.data)}<br><small>${esc(s.hora)}</small>`;
   }
   function legs(b) {
+    if (b.legs_disclosed === false) return `<p class="scope-note">${tr(
+      'Bilhete Goal confirmado. Os jogos ficam visíveis depois de todas as pernas estarem resolvidas.',
+      'Confirmed Goal ticket. Matches become visible once all legs are settled.')}</p>`;
     return b.legs.map(p => `<div class="ticket-leg"><div>${esc(p.casa)} vs ${esc(p.fora)}
       <small>${esc(p.hora || '')}${p.liga && !/^\d+$/.test(p.liga) ? ' · '+esc(p.liga) : ''}</small></div>
       <div>${esc(p.mercado || tr('Over 1,5 · 2.ª parte','Over 1.5 · 2nd half'))}
       <b class="gold">@ ${odds(number(p.odd))}</b> ${badge(result(p.resultado))}</div></div>`).join('');
   }
-  function ticketName(b) { return b.legs.length === 1 ? tr('Simples','Single') : b.legs.length === 2 ? tr('Dupla','Double') : tr('Tripla','Treble'); }
+  function legCount(b) { return b.leg_count ?? b.legs.length; }
+  function ticketName(b) { return legCount(b) === 1 ? tr('Simples','Single') : legCount(b) === 2 ? tr('Dupla','Double') : tr('Tripla','Treble'); }
   function history(rows) {
     const sorted = rows.slice().sort((a,b) => stamp(b)-stamp(a) || a.id.localeCompare(b.id));
     const pages = Math.max(1,Math.ceil(rows.length/pageSize)); page = Math.min(page,pages);
@@ -144,7 +168,7 @@
         tr('Jogo / bilhete','Match / ticket'),tr('Mercado','Market'),'Odd',tr('Resultado','Result')].map(x=>`<th>${x}</th>`).join('')}</tr></thead><tbody>${
         sorted.slice(start,start+pageSize).map(s => {
           const ticket = s.category === 'prelive';
-          const name = ticket ? `<details><summary>${ticketName(s)} · ${s.legs.length} ${s.legs.length===1?tr('jogo','match'):tr('jogos','matches')}</summary>${legs(s)}</details>` : esc(s.jogo);
+          const name = ticket ? `<details><summary>${ticketName(s)}${s.ticket_slot ? ' · #'+esc(s.ticket_slot) : ''} · ${legCount(s)} ${legCount(s)===1?tr('jogo','match'):tr('jogos','matches')}</summary>${legs(s)}</details>` : esc(s.jogo);
           const product = ticket ? labels.prelive : s.category==='elite' ? (isLate(s)?'Late Goal':'Elite') : labels[s.category];
           return `<tr><td class="date-cell">${dateCell(s)}</td><td><span class="product product-${s.category}">${product}</span>
             <small>${s.category==='elite'?tr('Elite · Manual','Elite · Manual'):ticket?tr('Bilhete Pré-live','Pre-live ticket'):tr('Bot · Ao vivo','Bot · Live')}</small></td>
@@ -161,13 +185,13 @@
     const dayTickets = latest ? ts.filter(b=>b.data===latest.data).sort((a,b)=>(a.ticket_slot||1)-(b.ticket_slot||1)) : [];
     return `<div class="sec-t">${tr('Pré-live · contas separadas','Pre-live · separate accounts')}</div>
       <div class="card tipday">${dayTickets.length ? dayTickets.map(b=>`<div class="hd"><b>${ticketName(b)}${dayTickets.length>1?` · #${b.ticket_slot||dayTickets.indexOf(b)+1}`:''}</b><span class="free">${
-        tr('Publicado no gratuito','Shared in the free channel')}</span></div>
+        b.free_publication_confirmed ? tr('Partilhado no gratuito','Shared in the free channel') : tr('Publicado no Goal','Published in Goal')}</span></div>
         ${legs(b)}<div class="tiprow"><span>${esc(b.data)} · 1u · ${tr('Odd do bilhete','Ticket odds')} <b class="gold">${odds(b.odd)}</b></span>${badge(b.resultado)}</div>`).join('')
         : `<p class="scope-note">${tr('Ainda não há bilhetes publicados disponíveis.','No published tickets available yet.')}</p>`}
       <div class="ticket-summary"><span>${st.sinais} ${tr('bilhetes','tickets')} · ✅ ${st.ganhos} · ❌ ${st.perdidos}
       · <b class="${cls(st.lucro_u)}">${f2(st.lucro_u)}u</b></span>
       <button class="btn" data-filter="prelive">${tr('Ver histórico Pré-live','View Pre-live history')}</button></div>
-      <p class="scope-note">${tr('Aqui aparecem apenas os bilhetes publicados no canal gratuito: até um por dia, 1u por bilhete. Pode haver dias sem seleção.','Only tickets published in the free channel appear here: up to one per day, 1u per ticket. Some days may have no selection.')}</p></div>`;
+      <p class="scope-note">${tr('Histórico de todos os bilhetes Pré-live confirmados. Cada bilhete conta uma vez; a cópia no gratuito não é outra aposta. Jogos privados só aparecem após todas as pernas estarem resolvidas.','History of all confirmed Pre-live tickets. Each ticket counts once; the free-channel copy is not another bet. Private matches appear only after all legs settle.')}</p></div>`;
   }
   function productCards(rows) {
     return categories.map(key => { const st=stats(select(rows,key));
@@ -182,7 +206,7 @@
     const today=tradingDay(), p=panel(financial,today), pre=active==='prelive';
     const title=active==='all'?tr('Ao vivo + Elite','Live + Elite'):labels[active];
     const conditionals=(DATA.historico_condicionais || []).filter(s=>category(s) && (active==='all' || category(s)===active)).length;
-    const partialPrelive = !Array.isArray(DATA.combinada?.historico) && !Array.isArray(fallback?.historico);
+    const partialPrelive = !Array.isArray(DATA.prelive_resultados?.historico) || DATA.prelive_resultados?.indisponivel;
     document.getElementById('brand').textContent='GOAL SHARP ELITE';
     document.getElementById('tag').textContent=DATA.marca?.tagline || 'Live Goal Intelligence';
     document.getElementById('upd').textContent=tr('Dados atualizados: ','Data updated: ')+(DATA.atualizado || '').replace('T',' ');
@@ -191,8 +215,8 @@
       <div class="scope-head"><h2>${title}</h2><p>${active==='all'
         ? tr('Totais de Live 2.ª parte, Late Goal e Elite/manual. Pré-live à parte; histórico conjunto abaixo.',
              'Totals for Live 2nd half, Late Goal and Elite/manual. Pre-live separate; combined history below.')
-        : pre ? tr('Apenas bilhetes confirmados no canal gratuito. Contas separadas; cada bilhete conta uma vez.',
-                   'Only tickets confirmed in the free channel. Separate accounts; each ticket counts once.')
+        : pre ? tr('Todos os bilhetes Pré-live com publicação confirmada. Contas separadas; cada bilhete conta uma vez.',
+                   'All Pre-live tickets with confirmed publication. Separate accounts; each ticket counts once.')
         : active==='elite' ? tr('Entradas manuais, incluindo Late Goal enviado para o Elite.','Manual entries, including Late Goal sent to Elite.')
         : tr('Sinais automáticos do bot. Entradas manuais estão no Elite.','Automatic bot signals. Manual entries are under Elite.')}</p></div>
       ${(partialPrelive||DATA.combinada?.indisponivel)&&(pre||active==='all')?`<p class="scope-note">${tr('Histórico Pré-live temporariamente indisponível ou incompleto.','Pre-live history temporarily unavailable or incomplete.')}</p>`:''}
