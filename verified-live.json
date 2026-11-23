@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-23T22:59:59Z",
-  "event_chain_head": "80a9ceb42ce4e4642b1c0f02a6c075d5f87c6d0dd71cbbc5b813c7107300a0b9",
+  "generated_at": "2026-11-23T23:37:49Z",
+  "event_chain_head": "7cf2f9bf13257bc2d3f38b6a79b7cf80cc8c2ccac1b48ca77c131f0a83d7f2f0",
   "event_chain_algorithm": "SHA-256 linked events",
   "event_chain_integrity": {
     "status": "valid_from_checkpoint",
-    "events": 998,
+    "events": 999,
     "broken_links": [],
     "content_hash_mismatches": [
       {
@@ -142,7 +142,7 @@
       }
     ],
     "unacknowledged_content_hashes": [],
-    "head": "80a9ceb42ce4e4642b1c0f02a6c075d5f87c6d0dd71cbbc5b813c7107300a0b9"
+    "head": "7cf2f9bf13257bc2d3f38b6a79b7cf80cc8c2ccac1b48ca77c131f0a83d7f2f0"
   },
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -153,20 +153,48 @@
   },
   "summary": {
     "total": 506,
-    "pending": 19,
-    "signals_settled": 157,
+    "pending": 18,
+    "signals_settled": 158,
     "official_entries_settled": 289,
-    "cancelled": 69
+    "cancelled": 70
   },
   "records": [
     {
       "id": "ce1:1492467:ht",
       "kind": "signal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-11-23T22:59:59Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "7464c4e8eac68da2cc9793749f7f6c3609220270ec8d47cb790c97cadec2159e",
-      "telegram_message_count": 3
+      "telegram_message_count": 3,
+      "settled_at": "2026-11-23T23:37:48Z",
+      "result": "CANCELADA",
+      "outcome": {
+        "corners_reference": 7,
+        "corners_final": 9,
+        "corners_after": 2,
+        "target": 2,
+        "technical_result": "WIN",
+        "entry_status": "sem_entrada",
+        "potential_market_result": "VOID",
+        "price_condition": "Precisava de mais um canto do que o alvo para WIN",
+        "void_reason": "Não entrada — preço demasiado alto",
+        "approved_manually": true
+      },
+      "sealed_payload": {
+        "alert_id": "ce1:1492467:ht",
+        "classification": "scanner_signal_not_confirmed_bet",
+        "confidence": 8.0,
+        "corners_at_alert": 7,
+        "league": "Serie A",
+        "match": "Internacional vs Vitoria",
+        "minimum_price": 1.8,
+        "minute": 30,
+        "score_at_alert": "0-2",
+        "suggestion": "🎯 REFERÊNCIA\nOver 8.5 cantos 1ª parte · preço de referência @1.80+\n⚠️ Validar mercado e contexto · alerta não é entrada automática",
+        "window": "HT ATTACK"
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20261123T185637933176Z:232cac76",
