@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-23T17:52:09Z",
-  "event_chain_head": "82aad7c224ca214e0abc2c56df461655110faba233a14b47f0586c267d9b196e",
+  "generated_at": "2026-11-23T17:52:25Z",
+  "event_chain_head": "86b9dc80c9cb5c9141f2a9d50bc8129a75bd84bea08936027c99d28965b6d38d",
   "event_chain_algorithm": "SHA-256 linked events",
   "event_chain_integrity": {
     "status": "valid_from_checkpoint",
-    "events": 993,
+    "events": 994,
     "broken_links": [],
     "content_hash_mismatches": [
       {
@@ -142,7 +142,7 @@
       }
     ],
     "unacknowledged_content_hashes": [],
-    "head": "82aad7c224ca214e0abc2c56df461655110faba233a14b47f0586c267d9b196e"
+    "head": "86b9dc80c9cb5c9141f2a9d50bc8129a75bd84bea08936027c99d28965b6d38d"
   },
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -153,9 +153,9 @@
   },
   "summary": {
     "total": 504,
-    "pending": 20,
+    "pending": 19,
     "signals_settled": 157,
-    "official_entries_settled": 286,
+    "official_entries_settled": 287,
     "cancelled": 69
   },
   "records": [
@@ -171,11 +171,34 @@
     {
       "id": "tip_proposal:20261123T162100864417Z:37691871",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-11-23T16:21:01Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "94cc79c0b2b428ce779def7e7ebe35a2df0a299891b0a066ae063c85046ba6c6",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-11-23T17:52:25Z",
+      "result": "LOSS",
+      "outcome": {
+        "odds": 1.95,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": -0.75,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20261123T162100864417Z:37691871",
+        "market": "⛳ Over 3.5 corners · 1st half",
+        "match": "Ludogorets x Dunav Ruse",
+        "minimum_recommended_odds": 1.8,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20261123T161459961576Z:a34a85bf",
