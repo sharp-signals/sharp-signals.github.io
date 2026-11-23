@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-23T18:56:38Z",
-  "event_chain_head": "6e78e03c3a4b54b193f28340fca02a85f9e207bb2d910634aa35604591cc9799",
+  "generated_at": "2026-11-23T19:05:49Z",
+  "event_chain_head": "3e8b7395d44d122e246558f762e082038fb9989efd0a252fa6f4233fc8399183",
   "event_chain_algorithm": "SHA-256 linked events",
   "event_chain_integrity": {
     "status": "valid_from_checkpoint",
-    "events": 996,
+    "events": 997,
     "broken_links": [],
     "content_hash_mismatches": [
       {
@@ -142,7 +142,7 @@
       }
     ],
     "unacknowledged_content_hashes": [],
-    "head": "6e78e03c3a4b54b193f28340fca02a85f9e207bb2d910634aa35604591cc9799"
+    "head": "3e8b7395d44d122e246558f762e082038fb9989efd0a252fa6f4233fc8399183"
   },
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -153,20 +153,43 @@
   },
   "summary": {
     "total": 505,
-    "pending": 19,
+    "pending": 18,
     "signals_settled": 157,
-    "official_entries_settled": 288,
+    "official_entries_settled": 289,
     "cancelled": 69
   },
   "records": [
     {
       "id": "tip_proposal:20261123T185637933176Z:232cac76",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-11-23T18:56:38Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "664326c567b2918b4c6ffa52f3fcaa18691ef00f76515300eb628520b0b5213d",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-11-23T19:05:49Z",
+      "result": "WIN",
+      "outcome": {
+        "odds": 1.87,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": 0.653,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20261123T185637933176Z:232cac76",
+        "market": "⛳ Over 1.5 corners · 1st half",
+        "match": "DVTK x Karcagi",
+        "minimum_recommended_odds": 1.8,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20261123T162557595233Z:19bb3d30",
