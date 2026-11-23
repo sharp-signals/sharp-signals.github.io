@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-22T23:27:31Z",
-  "event_chain_head": "1c14eaef6baf3c398a7d2f6055d3b7540fdadaa5521f0d4a7ebd7af71dfa6d2d",
+  "generated_at": "2026-11-23T00:26:34Z",
+  "event_chain_head": "0305042020b4e7c62da9d6d82e39b9fe6dd26fc05c0dac6b1b95ac4c66021637",
   "event_chain_algorithm": "SHA-256 linked events",
   "event_chain_integrity": {
     "status": "valid_from_checkpoint",
-    "events": 986,
+    "events": 987,
     "broken_links": [],
     "content_hash_mismatches": [
       {
@@ -142,7 +142,7 @@
       }
     ],
     "unacknowledged_content_hashes": [],
-    "head": "1c14eaef6baf3c398a7d2f6055d3b7540fdadaa5521f0d4a7ebd7af71dfa6d2d"
+    "head": "0305042020b4e7c62da9d6d82e39b9fe6dd26fc05c0dac6b1b95ac4c66021637"
   },
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -153,20 +153,48 @@
   },
   "summary": {
     "total": 500,
-    "pending": 19,
-    "signals_settled": 156,
+    "pending": 18,
+    "signals_settled": 157,
     "official_entries_settled": 285,
-    "cancelled": 67
+    "cancelled": 68
   },
   "records": [
     {
       "id": "ce1:1649569:mid",
       "kind": "signal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-11-22T23:27:31Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "b5b1e226a04b54e223ba01f325be0aba59f7765c30f1b9a75655e8582ff94f90",
-      "telegram_message_count": 2
+      "telegram_message_count": 2,
+      "settled_at": "2026-11-23T00:26:34Z",
+      "result": "CANCELADA",
+      "outcome": {
+        "corners_reference": 8,
+        "corners_final": 9,
+        "corners_after": 1,
+        "target": 3,
+        "technical_result": "LOSS",
+        "entry_status": "sem_entrada",
+        "potential_market_result": "",
+        "price_condition": "",
+        "void_reason": "Não entrada — outro motivo",
+        "approved_manually": true
+      },
+      "sealed_payload": {
+        "alert_id": "ce1:1649569:mid",
+        "classification": "scanner_signal_not_confirmed_bet",
+        "confidence": 8.5,
+        "corners_at_alert": 7,
+        "league": "Liga Profesional Argentina",
+        "match": "River Plate vs Lanus",
+        "minimum_price": 1.8,
+        "minute": 66,
+        "score_at_alert": "1-1",
+        "suggestion": "🎯 REFERÊNCIA\nOver 9.5 cantos · preço de referência @1.80+\n⚠️ Validar mercado e contexto · alerta não é entrada automática",
+        "window": "MID PRESSURE"
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20261122T220427406312Z:b0660773",
