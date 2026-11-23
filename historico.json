@@ -5661,6 +5661,28 @@
       "justificacao_void": "Não entrada — outro motivo",
       "golos_apos_casa": 2,
       "golos_apos_fora": 0
+    },
+    {
+      "alerta_id": "ce1:1492467:ht",
+      "fixture_id": 1492467,
+      "timestamp": "2026-11-23T23:37:43.497510",
+      "jogo": "Internacional vs Vitoria",
+      "liga": "Serie A",
+      "janela": "HT ATTACK",
+      "tempo_alerta": 30,
+      "estrelas": 8.0,
+      "cantos_no_ref": 7,
+      "cantos_final": 9,
+      "cantos_apos_alerta": 2,
+      "meta_cantos": 2,
+      "resultado": "CANCELADA",
+      "resultado_tecnico": "WIN",
+      "estado_entrada": "SEM_ENTRADA",
+      "resultado_mercado_potencial": "VOID",
+      "condicao_preco": "Precisava de mais um canto do que o alvo para WIN",
+      "justificacao_void": "Não entrada — preço demasiado alto",
+      "golos_apos_casa": 1,
+      "golos_apos_fora": 0
     }
   ]
 }
