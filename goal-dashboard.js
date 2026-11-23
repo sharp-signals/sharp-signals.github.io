@@ -2,6 +2,16 @@
 (function () {
   'use strict';
   const categories = ['live', 'late', 'prelive', 'elite'];
+  const preliveStart = '2026-11-06'; // First confirmed PDF-origin publications, not installation date.
+  const preliveViews = ['pdf', 'archive', 'complete'];
+  function scopePrelive(rows, view = 'pdf') {
+    if (!preliveViews.includes(view)) view = 'pdf';
+    return rows.filter(s => {
+      if (s.category !== 'prelive' || view === 'complete') return true;
+      const current = /^\d{4}-\d{2}-\d{2}$/.test(s.data || '') && s.data >= preliveStart;
+      return view === 'pdf' ? current : !current;
+    });
+  }
   const esc = value => String(value ?? '').replace(/[&<>"']/g,
     c => ({'&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;', "'":'&#39;'}[c]));
   const number = value => value === null || value === '' || typeof value === 'boolean'
@@ -124,7 +134,7 @@
     return key === 'all' ? rows.filter(s => !financial || s.category !== 'prelive')
       : rows.filter(s => s.category === key);
   }
-  const api = {category,isLate,ticketKey,tickets,normalize,stats,profit,priced,tradingDay,stamp,panel,select,esc};
+  const api = {category,isLate,ticketKey,tickets,normalize,stats,profit,priced,tradingDay,stamp,panel,select,esc,scopePrelive,preliveStart};
   if (typeof module !== 'undefined' && module.exports) { module.exports = api; return; }
 
   const pt = document.documentElement.lang.startsWith('pt');
@@ -135,6 +145,20 @@
     'Combinada do Dia':'prelive','Pré-Live Grátis':'prelive',Late:'late'};
   const query = new URLSearchParams(location.search).get('strat');
   let active = categories.includes(query) ? query : aliases[query] || 'all', page = 1, fallback = null;
+  const requestedView = new URLSearchParams(location.search).get('prelive_scope');
+  let preliveView = preliveViews.includes(requestedView) ? requestedView : 'pdf';
+  const viewLabel = view => view === 'archive' ? tr('Pré-live · arquivo anterior a 06/11/2026','Pre-live · archive before 06 Nov 2026')
+    : view === 'complete' ? tr('Pré-live · histórico completo','Pre-live · full history')
+    : tr('Pré-live PDF — desde 06/11/2026','Pre-live PDF — since 06 Nov 2026');
+  function preliveScopeControls(all, view) {
+    const current = stats(select(scopePrelive(all, 'pdf'), 'prelive'));
+    const archived = stats(select(scopePrelive(all, 'archive'), 'prelive'));
+    return `<div class="card"><div class="segs" aria-label="${tr('Período do Pré-live','Pre-live period')}">${preliveViews.map(v=>
+      `<button class="seg ${v===view?'on':''}" data-prelive-scope="${v}" aria-pressed="${v===view}">${v==='pdf'?tr('PDF desde 6/11','PDF since 6 Nov'):v==='archive'?tr('Arquivo anterior','Earlier archive'):tr('Histórico completo','Full history')}</button>`).join('')}</div>
+      <p class="scope-note">${tr('Mudança de método em 06/11/2026. Os resultados principais contam apenas o período PDF; os bilhetes anteriores foram separados, não apagados. O arquivo inclui ganhos, perdas e pendentes.','Method change on 06 Nov 2026. Main results cover only the PDF period; earlier tickets are separate, not deleted. The archive includes wins, losses and pending tickets.')}</p>
+      <p class="scope-note">PDF: ${current.sinais} ${tr('bilhetes','tickets')} · ${f2(current.lucro_u)}u.
+      ${tr('Arquivo anterior','Earlier archive')}: ${archived.sinais} ${tr('bilhetes','tickets')} · ${f2(archived.lucro_u)}u · ${archived.pendentes} ${tr('pendentes','pending')}.</p></div>`;
+  }
   const pageSize = 40, odds = n => Number.isFinite(n) && n > 1 ? n.toFixed(2) : '—';
   const badge = r => `<span class="badge ${r==='ganho'?'b-g':r==='perdido'?'b-p':r==='push'?'b-x':'b-w'}">${
     r==='ganho'?tr('GANHO','WIN'):r==='perdido'?tr('PERDIDO','LOSS'):r==='push'?'PUSH':tr('PENDENTE','PENDING')}</span>`;
@@ -180,10 +204,10 @@
       <span>${rows.length?start+1:0}–${Math.min(start+pageSize,rows.length)} / ${rows.length}</span>
       <button class="btn" data-page="${page+1}" ${page===pages?'disabled':''}>${tr('Seguinte','Next')}</button></div>`;
   }
-  function ticketCard(all, today) {
+  function ticketCard(all, today, view) {
     const ts = select(all,'prelive'), st = stats(ts), latest = ts.slice().sort((a,b)=>stamp(b)-stamp(a))[0];
     const dayTickets = latest ? ts.filter(b=>b.data===latest.data).sort((a,b)=>(a.ticket_slot||1)-(b.ticket_slot||1)) : [];
-    return `<div class="sec-t">${tr('Pré-live · contas separadas','Pre-live · separate accounts')}</div>
+    return `<div class="sec-t">${viewLabel(view)}</div>
       <div class="card tipday">${dayTickets.length ? dayTickets.map(b=>`<div class="hd"><b>${ticketName(b)}${dayTickets.length>1?` · #${b.ticket_slot||dayTickets.indexOf(b)+1}`:''}</b><span class="free">${
         b.free_publication_confirmed ? tr('Partilhado no gratuito','Shared in the free channel') : tr('Publicado no Goal','Published in Goal')}</span></div>
         ${legs(b)}<div class="tiprow"><span>${esc(b.data)} · 1u · ${tr('Odd do bilhete','Ticket odds')} <b class="gold">${odds(b.odd)}</b></span>${badge(b.resultado)}</div>`).join('')
@@ -191,20 +215,21 @@
       <div class="ticket-summary"><span>${st.sinais} ${tr('bilhetes','tickets')} · ✅ ${st.ganhos} · ❌ ${st.perdidos}
       · <b class="${cls(st.lucro_u)}">${f2(st.lucro_u)}u</b></span>
       <button class="btn" data-filter="prelive">${tr('Ver histórico Pré-live','View Pre-live history')}</button></div>
-      <p class="scope-note">${tr('Histórico de todos os bilhetes Pré-live confirmados. Cada bilhete conta uma vez; a cópia no gratuito não é outra aposta. Jogos privados só aparecem após todas as pernas estarem resolvidas.','History of all confirmed Pre-live tickets. Each ticket counts once; the free-channel copy is not another bet. Private matches appear only after all legs settle.')}</p></div>`;
+      <p class="scope-note">${tr('Bilhetes confirmados do período indicado. Cada bilhete conta uma vez; a cópia no gratuito não é outra aposta. Jogos privados só aparecem após todas as pernas estarem resolvidas.','Confirmed tickets for the stated period. Each ticket counts once; the free-channel copy is not another bet. Private matches appear only after all legs settle.')}</p></div>`;
   }
-  function productCards(rows) {
+  function productCards(rows, view) {
     return categories.map(key => { const st=stats(select(rows,key));
-      return `<button class="est" data-filter="${key}"><div class="e-top"><span class="e-name">${labels[key]}</span>
+      return `<button class="est" data-filter="${key}"><div class="e-top"><span class="e-name">${key==='prelive'?viewLabel(view):labels[key]}</span>
         <span class="e-n">${st.sinais} ${key==='prelive'?tr('bilhetes','tickets'):tr('sinais','signals')}</span></div>
         <div class="bar"><div style="width:${st.wr}%"></div></div><div class="e-bot"><span>✅ ${st.ganhos} ❌ ${st.perdidos}
         · ${st.wr.toFixed(1)}%</span><strong class="${cls(st.lucro_u)}">${f2(st.lucro_u)}u</strong></div></button>`;
     }).join('');
   }
   function render() {
-    const rows=normalize(DATA,fallback), financial=select(rows,active,true), visible=select(rows,active);
+    const allRows=normalize(DATA,fallback), view=active==='prelive'?preliveView:'pdf';
+    const rows=scopePrelive(allRows,view), financial=select(rows,active,true), visible=select(rows,active);
     const today=tradingDay(), p=panel(financial,today), pre=active==='prelive';
-    const title=active==='all'?tr('Ao vivo + Elite','Live + Elite'):labels[active];
+    const title=active==='all'?tr('Ao vivo + Elite','Live + Elite'):pre?viewLabel(view):labels[active];
     const conditionals=(DATA.historico_condicionais || []).filter(s=>category(s) && (active==='all' || category(s)===active)).length;
     const partialPrelive = !Array.isArray(DATA.prelive_resultados?.historico) || DATA.prelive_resultados?.indisponivel;
     document.getElementById('brand').textContent='GOAL SHARP ELITE';
@@ -213,12 +238,13 @@
     document.getElementById('app').innerHTML=`<div class="segwrap"><div class="segs" aria-label="${tr('Filtrar produto','Filter product')}">
       ${['all',...categories].map(k=>`<button class="seg ${k===active?'on':''}" aria-pressed="${k===active}" data-filter="${k}">${labels[k]}</button>`).join('')}</div></div>
       <div class="scope-head"><h2>${title}</h2><p>${active==='all'
-        ? tr('Totais de Live 2.ª parte, Late Goal e Elite/manual. Pré-live à parte; histórico conjunto abaixo.',
-             'Totals for Live 2nd half, Late Goal and Elite/manual. Pre-live separate; combined history below.')
-        : pre ? tr('Todos os bilhetes Pré-live com publicação confirmada. Contas separadas; cada bilhete conta uma vez.',
-                   'All Pre-live tickets with confirmed publication. Separate accounts; each ticket counts once.')
+        ? tr('Totais de Live 2.ª parte, Late Goal e Elite/manual. Pré-live PDF desde 06/11 à parte; métodos anteriores no arquivo Pré-live.',
+             'Totals for Live 2nd half, Late Goal and Elite/manual. Pre-live PDF since 06 Nov is separate; earlier methods are in the Pre-live archive.')
+        : pre ? tr('Publicações confirmadas do período indicado. Cada bilhete conta uma vez. O histórico completo continua disponível abaixo.',
+                   'Confirmed publications for the stated period. Each ticket counts once. Full history remains available below.')
         : active==='elite' ? tr('Entradas manuais, incluindo Late Goal enviado para o Elite.','Manual entries, including Late Goal sent to Elite.')
         : tr('Sinais automáticos do bot. Entradas manuais estão no Elite.','Automatic bot signals. Manual entries are under Elite.')}</p></div>
+      ${pre?preliveScopeControls(allRows,view):''}
       ${(partialPrelive||DATA.combinada?.indisponivel)&&(pre||active==='all')?`<p class="scope-note">${tr('Histórico Pré-live temporariamente indisponível ou incompleto.','Pre-live history temporarily unavailable or incomplete.')}</p>`:''}
       <div id="kpis">${kpisFor(p.geral).replace(pre?(pt?'Sinais':'Signals'):'__never__',tr('Bilhetes','Tickets'))}</div>
       <p class="scope-note accounting">${tr('Resultado teórico às odds registadas; não comprova apostas executadas.','Theoretical results at recorded odds; not proof of executed bets.')}
@@ -227,19 +253,24 @@
       ${formCard(p)}${periodsFor(p).replaceAll(pre?(pt?'sinais':'signals'):'__never__',tr('bilhetes','tickets'))}
       <p class="scope-note">${tr('Dia de atividade:','Activity day:')} ${today} · 06:00–06:00 Europe/Lisbon</p>
       <div class="sec-t" id="banca">${tr('Evolução em unidades','Cumulative units')} — ${title}</div>${chart(p.serie)}
-      ${active==='all'||pre?ticketCard(rows,today):''}
-      <div class="sec-t" id="estrat">${tr('Resultados por produto','Results by product')}</div><div class="grid estrats">${productCards(rows)}</div>
-      <div class="sec-t" id="hist">${tr('Histórico','History')} — ${active==='all'?tr('todos os produtos','all products'):labels[active]}</div>${history(visible)}
-      <p class="scope-note">${tr('O antigo arquivo de Golos e os bilhetes legados não integram esta vista nem os seus totais. Os registos originais foram preservados.',
-        'The old Goals archive and legacy tickets are outside this view and its totals. Original records are preserved.')}</p>`;
+      ${active==='all'||pre?ticketCard(rows,today,view):''}
+      <div class="sec-t" id="estrat">${tr('Resultados por produto','Results by product')}</div><div class="grid estrats">${productCards(rows,view)}</div>
+      <div class="sec-t" id="hist">${tr('Histórico','History')} — ${active==='all'?tr('todos os produtos · Pré-live PDF desde 6/11','all products · Pre-live PDF since 6 Nov'):pre?viewLabel(view):labels[active]}</div>${history(visible)}
+      <p class="scope-note">${tr('Os registos originais foram preservados. O Pré-live anterior a 06/11 está no arquivo separado e não entra nos totais do período PDF. O antigo arquivo de Golos continua fora desta vista.',
+        'Original records are preserved. Pre-live before 06 Nov is in a separate archive and excluded from PDF-period totals. The old Goals archive remains outside this view.')}</p>`;
     document.querySelectorAll('[data-filter]').forEach(el=>el.addEventListener('click',()=>{
-      active=el.dataset.filter;page=1; const url=new URL(location.href);url.searchParams.set('strat',active);
+      active=el.dataset.filter;page=1;preliveView='pdf'; const url=new URL(location.href);url.searchParams.set('strat',active);url.searchParams.delete('prelive_scope');
+      window.history.replaceState(null,'',url);render();
+    }));
+    document.querySelectorAll('[data-prelive-scope]').forEach(el=>el.addEventListener('click',()=>{
+      preliveView=el.dataset.preliveScope;page=1; const url=new URL(location.href);url.searchParams.set('prelive_scope',preliveView);
       window.history.replaceState(null,'',url);render();
     }));
     document.querySelectorAll('[data-page]').forEach(el=>el.addEventListener('click',()=>{
       page=+el.dataset.page;render();document.getElementById('hist').scrollIntoView({block:'start'});
     }));
-    document.querySelectorAll('.langswitch a').forEach(a=>{const url=new URL(a.href);url.searchParams.set('strat',active);a.href=url.href;});
+    document.querySelectorAll('.langswitch a').forEach(a=>{const url=new URL(a.href);url.searchParams.set('strat',active);
+      if(active==='prelive'&&preliveView!=='pdf')url.searchParams.set('prelive_scope',preliveView);else url.searchParams.delete('prelive_scope');a.href=url.href;});
     runAnims();document.querySelectorAll('.reveal').forEach(el=>el.classList.add('in'));
   }
   stakeEl.addEventListener('input',()=>{STAKE=Math.min(1000000,Math.max(1,Number(stakeEl.value)||1));if(DATA)render();});
