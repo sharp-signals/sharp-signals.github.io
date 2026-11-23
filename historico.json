@@ -5638,5 +5638,29 @@
       "golos_apos_casa": 1,
       "golos_apos_fora": 2
     }
+  ],
+  "2026-11-23": [
+    {
+      "alerta_id": "ce1:1649569:mid",
+      "fixture_id": 1649569,
+      "timestamp": "2026-11-23T00:26:25.775474",
+      "jogo": "River Plate vs Lanus",
+      "liga": "Liga Profesional Argentina",
+      "janela": "MID PRESSURE",
+      "tempo_alerta": 66,
+      "estrelas": 8.5,
+      "cantos_no_ref": 8,
+      "cantos_final": 9,
+      "cantos_apos_alerta": 1,
+      "meta_cantos": 3,
+      "resultado": "CANCELADA",
+      "resultado_tecnico": "LOSS",
+      "estado_entrada": "SEM_ENTRADA",
+      "resultado_mercado_potencial": "",
+      "condicao_preco": "",
+      "justificacao_void": "Não entrada — outro motivo",
+      "golos_apos_casa": 2,
+      "golos_apos_fora": 0
+    }
   ]
 }
