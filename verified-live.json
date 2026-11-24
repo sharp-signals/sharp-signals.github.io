@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-24T16:48:27Z",
-  "event_chain_head": "0b0332b584643121da2abb17b0c73749c88de9801d8da8a1201e633bc18b32ac",
+  "generated_at": "2026-11-24T16:48:55Z",
+  "event_chain_head": "fafa94aca2004f755cd9dccaa14444c333fcb562590b1ca3015e5ff0f2927441",
   "event_chain_algorithm": "SHA-256 linked events",
   "event_chain_integrity": {
     "status": "valid_from_checkpoint",
-    "events": 1004,
+    "events": 1005,
     "broken_links": [],
     "content_hash_mismatches": [
       {
@@ -142,7 +142,7 @@
       }
     ],
     "unacknowledged_content_hashes": [],
-    "head": "0b0332b584643121da2abb17b0c73749c88de9801d8da8a1201e633bc18b32ac"
+    "head": "fafa94aca2004f755cd9dccaa14444c333fcb562590b1ca3015e5ff0f2927441"
   },
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -153,9 +153,9 @@
   },
   "summary": {
     "total": 510,
-    "pending": 21,
+    "pending": 20,
     "signals_settled": 158,
-    "official_entries_settled": 290,
+    "official_entries_settled": 291,
     "cancelled": 70
   },
   "records": [
@@ -171,11 +171,34 @@
     {
       "id": "tip_proposal:20261124T160410159744Z:a8823a7e",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-11-24T16:04:10Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "a26d2da0ab14ced77130091c9cb2645a3994aa428eb7e9796d36a501604d808b",
-      "telegram_message_count": 2
+      "telegram_message_count": 2,
+      "settled_at": "2026-11-24T16:48:55Z",
+      "result": "VOID",
+      "outcome": {
+        "odds": 1.85,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": 0.0,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20261124T160410159744Z:a8823a7e",
+        "market": "⛳ Over 5 corners · FT",
+        "match": "Hajer Club x Al-Ta'ee",
+        "minimum_recommended_odds": 1.8,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20261124T154609706073Z:d0c63af2",
