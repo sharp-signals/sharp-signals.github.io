@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-24T16:48:55Z",
-  "event_chain_head": "fafa94aca2004f755cd9dccaa14444c333fcb562590b1ca3015e5ff0f2927441",
+  "generated_at": "2026-11-24T16:49:33Z",
+  "event_chain_head": "164db8c6b3e595f83d438159330d35ca1fd042510bd72b1445cc18eeda930b30",
   "event_chain_algorithm": "SHA-256 linked events",
   "event_chain_integrity": {
     "status": "valid_from_checkpoint",
-    "events": 1005,
+    "events": 1006,
     "broken_links": [],
     "content_hash_mismatches": [
       {
@@ -142,7 +142,7 @@
       }
     ],
     "unacknowledged_content_hashes": [],
-    "head": "fafa94aca2004f755cd9dccaa14444c333fcb562590b1ca3015e5ff0f2927441"
+    "head": "164db8c6b3e595f83d438159330d35ca1fd042510bd72b1445cc18eeda930b30"
   },
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -153,20 +153,43 @@
   },
   "summary": {
     "total": 510,
-    "pending": 20,
+    "pending": 19,
     "signals_settled": 158,
-    "official_entries_settled": 291,
+    "official_entries_settled": 292,
     "cancelled": 70
   },
   "records": [
     {
       "id": "tip_proposal:20261124T162518460106Z:326eaa9a",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-11-24T16:25:18Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "1f2ea1f3196cc95bdda740040a3eea76a6c3b98517cc05303f2f918a1d9288d8",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-11-24T16:49:33Z",
+      "result": "WIN",
+      "outcome": {
+        "odds": 1.81,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": 0.608,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20261124T162518460106Z:326eaa9a",
+        "market": "⛳ Over 7.5 corners · FT",
+        "match": "Real Madrid u19 x PSV u19",
+        "minimum_recommended_odds": 1.8,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20261124T160410159744Z:a8823a7e",
