@@ -69,7 +69,7 @@ header.top{text-align:center;padding:34px 0 8px}
 .stakebar input:focus{outline:none;border-color:var(--gold2)}
 
 .grid{display:grid;gap:14px}
-.kpis{grid-template-columns:repeat(4,1fr);margin:8px 0 16px}
+.kpis{grid-template-columns:repeat(5,1fr);margin:8px 0 16px}
 .card{background:linear-gradient(180deg,var(--panel),var(--panel2));border:1px solid var(--line);
   border-radius:16px;padding:18px;position:relative;overflow:hidden}
 .kpi{text-align:center}
@@ -116,6 +116,14 @@ header.top{text-align:center;padding:34px 0 8px}
 .chip.on{background:linear-gradient(145deg,var(--gold3),var(--gold2));color:#0a0f1c;
   border-color:transparent;font-weight:700}
 .chart{position:relative}
+.chart-caption{display:flex;justify-content:space-between;gap:16px;color:var(--muted);font-size:13px}
+.chart-caption strong{font-size:22px;font-family:'Cinzel',serif}
+.chart svg{height:auto;max-height:340px}
+.market-table{min-width:670px}
+.market-table th[scope=row]{color:var(--txt);text-transform:none;letter-spacing:0;font-weight:600}
+.market-table tfoot{border-top:2px solid var(--gold)}
+.market-table td:not(:first-child){white-space:nowrap}
+@media(max-width:760px){.kpis .kpi:last-child{grid-column:1 / -1}}
 svg{width:100%;height:250px;display:block}
 
 .estrats{grid-template-columns:repeat(3,1fr)}
@@ -283,29 +291,26 @@ document.getElementById('yr').textContent=new Date().getFullYear();
 
 const eur=(u)=>{const v=u*STAKE;return (v>=0?'+':'')+Math.round(v)+'€';};
 
-function animate(el,to,fmt){const dur=1000,t0=performance.now();
-  (function s(t){const k=Math.min((t-t0)/dur,1),e=1-Math.pow(1-k,3);
-   el.textContent=fmt(to*e);if(k<1)requestAnimationFrame(s);})(t0);}
-
 function kpisFor(g){
   g=g||{lucro_u:0,roi:0,wr:0,sinais:0,ganhos:0,perdidos:0};
   return `<div class="grid kpis" id="kbox">
     <div class="card kpi"><div class="lbl">Total Profit</div>
-      <div class="val ${cls(g.lucro_u)}" data-anim="${g.lucro_u}" data-fmt="u">+0.0u</div>
+      <div class="val ${cls(g.lucro_u)}" >${f2(g.lucro_u)}u</div>
       <div class="sub ${cls(g.lucro_u)}">${eur(g.lucro_u)} @ ${STAKE}€</div></div>
     <div class="card kpi"><div class="lbl">ROI</div>
-      <div class="val ${cls(g.roi)}" data-anim="${g.roi}" data-fmt="pct">+0.0%</div>
+      <div class="val ${cls(g.roi)}" >${f1(g.roi)}%</div>
       <div class="sub">return / bet</div></div>
     <div class="card kpi"><div class="lbl">Win Rate</div>
-      <div class="val gold" data-anim="${g.wr}" data-fmt="wr">0%</div>
+      <div class="val gold" >${g.wr.toFixed(1)}%</div>
       <div class="sub">✅${g.ganhos} ❌${g.perdidos}</div></div>
     <div class="card kpi"><div class="lbl">Signals</div>
-      <div class="val" data-anim="${g.sinais}" data-fmt="int">0</div>
-      <div class="sub">sent</div></div></div>`;
+      <div class="val" >${g.sinais}</div>
+      <div class="sub">sent</div></div>
+    <div class="card kpi"><div class="lbl">Average odds</div>
+      <div class="val gold">${g.odd_media===null || g.odd_media===undefined?'—':g.odd_media.toFixed(2)}</div>
+      <div class="sub">${g.odd_media_n||0} valid odds · all entries</div></div></div>`;
 }
-function runAnims(){document.querySelectorAll('[data-anim]').forEach(el=>{
-  const to=+el.dataset.anim,t=el.dataset.fmt;
-  animate(el,to,v=>t==='u'?f2(v)+'u':t==='pct'?f1(v)+'%':t==='wr'?v.toFixed(0)+'%':Math.round(v));});}
+function runAnims() { /* Show exact accounting values immediately, without a count-up. */ }
 
 function periodsFor(p){
   const P=(lbl,st)=>{st=st||{lucro_u:0,roi:0,sinais:0,wr:0};return `<div class="per"><div class="pl">${lbl}</div>
@@ -330,26 +335,11 @@ function formCard(p){
 }
 
 function chart(serie){
-  if(!serie||serie.length<2) return '<div class="card chart"><div class="err">Not enough history.</div></div>';
-  const W=1080,H=250,pad=30,ys=serie.map(p=>p.lucro_acum);
-  let mn=Math.min(0,...ys),mx=Math.max(0,...ys); if(mn===mx)mx=mn+1;
-  const X=i=>pad+i*(W-2*pad)/(serie.length-1), Y=v=>H-pad-(v-mn)*(H-2*pad)/(mx-mn);
-  const pts=serie.map((p,i)=>`${X(i).toFixed(1)},${Y(p.lucro_acum).toFixed(1)}`).join(' ');
-  const area=`${pad},${Y(0)} ${pts} ${X(serie.length-1)},${Y(0)}`, zero=Y(0), last=ys[ys.length-1];
-  return `<div class="card chart"><svg viewBox="0 0 ${W} ${H}" preserveAspectRatio="none">
-    <defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#c9a227" stop-opacity="0.30"/>
-      <stop offset="1" stop-color="#c9a227" stop-opacity="0"/></linearGradient></defs>
-    <line x1="${pad}" y1="${zero}" x2="${W-pad}" y2="${zero}" stroke="#2a3a5c" stroke-dasharray="4 4"/>
-    <polygon points="${area}" fill="url(#g)"/>
-    <polyline points="${pts}" fill="none" stroke="#c9a227" stroke-width="2.5"/>
-    <text x="${pad}" y="16" fill="#8493ab" font-size="12">${serie[0].data}</text>
-    <text x="${W-pad}" y="16" fill="#8493ab" font-size="12" text-anchor="end">${serie[serie.length-1].data}</text>
-    <text x="${W-pad}" y="${H-8}" fill="${last>=0?'#2ecc71':'#e74c3c'}" font-size="13" text-anchor="end" font-weight="700">${f2(last)}u (${eur(last)})</text>
-  </svg></div>`;
+  return window.GoalMetrics.cumulativeChart(serie,{pt:false,stake:STAKE,
+    width:Math.max(300,(document.getElementById('app').clientWidth||1000)-36)});
 }
 
 </script>
-<script src="goal-dashboard.js?v=20261123-pdf-cohort"></script>
+<script src="goal-dashboard.js?v=20261124-metrics"></script>
 </body>
 </html>

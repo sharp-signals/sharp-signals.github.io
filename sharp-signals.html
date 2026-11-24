@@ -53,7 +53,7 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;padding:1rem 2rem;display:fl
 .hero-sub b{color:var(--white);font-weight:500}
 .hero-btns{display:flex;gap:1rem;justify-content:center;flex-wrap:wrap;margin-bottom:2rem}
 .trust{color:var(--white3);font-size:11px;letter-spacing:2px;text-transform:uppercase}
-.kstrip{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--gold-b);margin-top:3rem}
+.kstrip{display:grid;grid-template-columns:repeat(5,1fr);gap:1px;background:var(--gold-b);margin-top:3rem}
 .kbox{background:var(--navy2);padding:1.75rem 1rem;text-align:center;position:relative}
 .kbox::before{content:"";position:absolute;top:0;left:0;right:0;height:2px;background:linear-gradient(90deg,transparent,var(--gold),transparent)}
 .kbox .v{font-family:'Cinzel',serif;font-size:2.2rem;font-weight:700;color:var(--gold-l);display:block;line-height:1}
@@ -187,6 +187,7 @@ footer{border-top:1px solid var(--gold-b);padding:2.5rem 2rem;text-align:center}
 .hero a:focus-visible,.goal-plan a:focus-visible,#join a:focus-visible,#performance a:focus-visible{outline:3px solid var(--gold-l);outline-offset:5px}
 @media(max-width:600px){.hero{padding:8rem 1.25rem 3rem}.hero-btns{flex-direction:column}.hero-btns a{width:100%;padding:1rem}.goal-data-note{padding:0 .5rem}}
 @media(prefers-reduced-motion:reduce){.reveal{opacity:1;transform:none;transition:none}.aurora{animation:none}html{scroll-behavior:auto}}
+@media(max-width:600px){.kstrip .kbox:last-child{grid-column:1/-1}}
 </style>
 <noscript><style>.reveal{opacity:1;transform:none}</style></noscript>
 </head>
@@ -201,7 +202,7 @@ footer{border-top:1px solid var(--gold-b);padding:2.5rem 2rem;text-align:center}
     <a href="#plans" class="nav-link">Plans</a>
     <a href="#performance" class="nav-link">Performance</a>
   </div>
-  <a href="https://sharp-signals.github.io/index.html" class="nav-cta" style="margin-right:0.5rem;border-color:rgba(201,162,39,0.4);color:var(--white2)">← Home</a><a href="#plans" class="nav-cta">View Plans</a>
+  <a href="index.html" class="nav-cta" style="margin-right:0.5rem;border-color:rgba(201,162,39,0.4);color:var(--white2)">← Home</a><a href="#plans" class="nav-cta">View Plans</a>
 </nav>
 
 <header class="hero">
@@ -215,12 +216,13 @@ footer{border-top:1px solid var(--gold-b);padding:2.5rem 2rem;text-align:center}
     <a class="btn-secondary" href="#performance">View the public record</a>
   </div>
   <div class="trust">€27.90 / month · Membership confirmed manually · 18+ · Betting involves risk</div>
-  <p class="goal-data-note">Goal public history, not the standalone results of the current model. Check the dates and context below.</p>
+  <p class="goal-data-note">Live + Elite/manual · the same cohort as the dashboard's All tab. Pre-live is separate.</p>
   <div class="kstrip">
     <div class="kbox"><span class="v gold" data-k="wr">—</span><span class="l">Win Rate</span></div>
     <div class="kbox"><span class="v" data-k="roi">—</span><span class="l">ROI</span></div>
     <div class="kbox"><span class="v" data-k="lucro">—</span><span class="l">Profit (units)</span></div>
     <div class="kbox"><span class="v" data-k="sinais">—</span><span class="l">Alerts Logged</span></div>
+    <div class="kbox"><span class="v gold" data-k="odd">—</span><span class="l">Average odds</span></div>
   </div>
 </header>
 
@@ -287,18 +289,19 @@ footer{border-top:1px solid var(--gold-b);padding:2.5rem 2rem;text-align:center}
   <div class="section-label reveal">Public Record</div>
   <div class="section-title reveal">Goal history, with context</div>
   <div class="gold-line"></div>
-  <p class="section-sub reveal">This history includes public goal alerts from different model versions. It is not the standalone result of the current model.
-    Sharp Pick, imported archives, shadow tests and the private pilot are excluded from these cards.</p>
+  <p class="section-sub reveal">HT, Late Goal and Elite/manual totals, calculated from the same records as the dashboard's All tab. Not the standalone results of the current bot version.
+    Pre-live is separate; the old Goals archive and shadow tests are excluded.</p>
   <p id="goal-data-status" class="goal-data-status" role="status" aria-live="polite">Loading the period and sample…</p>
   <div class="kstrip reveal">
     <div class="kbox"><span class="v gold" data-k="wr">—</span><span class="l">Win Rate</span></div>
     <div class="kbox"><span class="v" data-k="roi">—</span><span class="l">ROI</span></div>
     <div class="kbox"><span class="v" data-k="lucro">—</span><span class="l">Cumulative Profit</span></div>
     <div class="kbox"><span class="v" data-k="sinais">—</span><span class="l">Alerts</span></div>
+    <div class="kbox"><span class="v gold" data-k="odd">—</span><span class="l">Average odds</span></div>
   </div>
   <div class="perf-cta reveal">
-    <a class="btn-primary" href="https://sharp-signals.github.io/dashboard_mv.html?strat=LIVE" style="font-size:13px;padding:1rem 2.5rem">📊 View the detailed record →</a>
-    <div class="goal-data-note">The full dashboard contains other tabs. Check the strategy and date range before comparing results.</div>
+    <a class="btn-primary" href="dashboard_mv.html?strat=all" style="font-size:13px;padding:1rem 2.5rem">📊 View the detailed record →</a>
+    <div class="goal-data-note">This link opens All, with exactly the same cohort. Individual tabs show each product separately.</div>
   </div>
 </section>
 
@@ -406,6 +409,7 @@ footer{border-top:1px solid var(--gold-b);padding:2.5rem 2rem;text-align:center}
   <a href="sharp-signals-pt.html">PT</a>
 </div>
 
+<script src="goal-dashboard.js?v=20261124-metrics"></script>
 <script>
 const GOAL_TELEGRAM = "https://t.me/sharsignalselite";
 const GOAL_PT = document.documentElement.lang.toLowerCase().startsWith('pt');
@@ -416,35 +420,12 @@ if ('IntersectionObserver' in window) {
 } else {
   document.querySelectorAll('.reveal').forEach(el=>el.classList.add('in'));
 }
-function goalNumber(value) {
-  return typeof value==='number' && Number.isFinite(value) ? value : null;
-}
-function goalISO(value) {
-  if(typeof value!=='string' || !/^\d{4}-\d{2}-\d{2}$/.test(value)) return false;
-  const parsed=new Date(value+'T00:00:00Z');
-  return Number.isFinite(parsed.getTime()) && parsed.toISOString().slice(0,10)===value;
-}
 function goalPublicStats(data) {
-  const g=data && data.verificado;
-  if(!g || typeof g!=='object' || Array.isArray(g)) return null;
-  const n=goalNumber(g.sinais);
-  if(n===null || !Number.isInteger(n) || n<0) return null;
-  const groups=g.por_estrategia;
-  if(!groups || typeof groups!=='object' || Array.isArray(groups)) return null;
-  const names=Object.keys(groups);
-  if((n>0 && names.length===0) || names.some(name=>name!=='Golos 2ª Parte')) return null;
-  const counts=['ganhos','perdidos','push','pendentes'].map(key=>goalNumber(g[key]));
-  if(counts.some(v=>v===null || !Number.isInteger(v) || v<0)) return null;
-  const [wins,losses,push,pending]=counts;
-  if(wins+losses+push+pending>n) return null;
-  const resolved=wins+losses;
-  const validDates=goalISO(g.inicio) && goalISO(g.fim) && g.inicio<=g.fim;
-  const wr=goalNumber(g.wr);
-  return {n,settled:resolved+push,pending,
-    wr:resolved>0 && wr!==null && wr>=0 && wr<=100 ? wr : null,
-    roi:resolved>0 ? goalNumber(g.roi) : null,
-    balance:resolved>0 ? goalNumber(g.lucro_u) : null,
-    start:validDates?g.inicio:null,end:validDates?g.fim:null};
+  const g=window.GoalMetrics.publicSummary(data);
+  if(!g)return null;
+  const resolved=g.ganhos+g.perdidos;
+  return {...g,n:g.sinais,pending:g.pendentes,
+    wr:resolved?g.wr:null,roi:resolved?g.roi:null,balance:g.lucro_u};
 }
 function goalUnavailable() {
   document.querySelectorAll('[data-k]').forEach(el=>{el.textContent='—';el.classList.remove('neg','pos');});
@@ -456,22 +437,23 @@ function goalRender(data) {
   const g=goalPublicStats(data);
   if(!g){goalUnavailable();return;}
   const decimal=v=>v.toLocaleString(GOAL_PT?'pt-PT':'en-GB',{minimumFractionDigits:1,maximumFractionDigits:1});
-  const signed=v=>(v>=0?'+':'')+decimal(v);
-  const values={wr:g.wr,roi:g.roi,lucro:g.balance,sinais:g.n};
+  const signed=(v,digits=1)=>(v>=0?'+':'')+v.toLocaleString(GOAL_PT?'pt-PT':'en-GB',{minimumFractionDigits:digits,maximumFractionDigits:digits});
+  const values={wr:g.wr,roi:g.roi,lucro:g.balance,sinais:g.n,odd:g.odd_media};
   document.querySelectorAll('[data-k]').forEach(el=>{
     const key=el.dataset.k, value=values[key];
     el.classList.remove('neg','pos');
     el.textContent=value===null || value===undefined ? '—'
       : key==='sinais' ? String(value)
+      : key==='odd' ? value.toLocaleString(GOAL_PT?'pt-PT':'en-GB',{minimumFractionDigits:2,maximumFractionDigits:2})
       : key==='wr' ? decimal(value)+'%'
-      : key==='roi' ? signed(value)+'%' : signed(value)+'u';
+      : key==='roi' ? signed(value)+'%' : signed(value,2)+'u';
     if(value!==null && value!==undefined && (key==='roi'||key==='lucro')) el.classList.add(value<0?'neg':'pos');
   });
   const fmt=date=>GOAL_PT ? date.split('-').reverse().join('/') : date;
   const period=g.start ? fmt(g.start)+' – '+fmt(g.end) : (GOAL_PT?'Período indisponível':'Date range unavailable');
   document.getElementById('goal-data-status').textContent=GOAL_PT
-    ? period+' · '+g.n+' sinais · '+g.settled+' apurados · '+g.pending+' pendentes. Saldo calculado a 1u por aposta.'
-    : period+' · '+g.n+' alerts · '+g.settled+' settled · '+g.pending+' pending. Balance calculated at 1u per bet.';
+    ? period+' · '+g.n+' sinais · '+g.settled+' apurados · '+g.pending+' pendentes. Saldo teórico a 1u por entrada. '+g.sem_preco+' sem odd válida fora do acerto e saldo. Mesmo conjunto de «Todos»: HT + Late + Elite/manual; pré-live separado.'
+    : period+' · '+g.n+' alerts · '+g.settled+' settled · '+g.pending+' pending. Theoretical balance at 1u per entry. '+g.sem_preco+' without valid odds excluded from win rate and balance. Same cohort as All: HT + Late + Elite/manual; pre-live separate.';
 }
 fetch('dashboard.json?'+Date.now(),{cache:'no-store'})
   .then(response=>{if(!response.ok)throw new Error('public-data-unavailable');return response.json();})

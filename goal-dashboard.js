@@ -90,7 +90,10 @@
     const losses = decided.filter(s => s.resultado === 'perdido').length;
     const stake = decided.reduce((n,s) => n + (s.resultado === 'push' ? 0 : s.units), 0);
     const pl = decided.reduce((n,s) => n + profit(s), 0);
+    const quoted = rows.filter(priced);
     return {sinais:rows.length, ganhos:wins, perdidos:losses, lucro_u:pl,
+      odd_media:quoted.length ? quoted.reduce((n,s)=>n+s.odd,0)/quoted.length : null,
+      odd_media_n:quoted.length,
       roi:stake ? pl / stake * 100 : 0, wr:wins+losses ? Math.round(wins/(wins+losses)*1000)/10 : 0,
       pendentes:rows.filter(s => !['ganho','perdido','push'].includes(s.resultado)).length,
       sem_preco:rows.filter(s => !priced(s)).length};
@@ -134,8 +137,57 @@
     return key === 'all' ? rows.filter(s => !financial || s.category !== 'prelive')
       : rows.filter(s => s.category === key);
   }
-  const api = {category,isLate,ticketKey,tickets,normalize,stats,profit,priced,tradingDay,stamp,panel,select,esc,scopePrelive,preliveStart};
+  function publicSummary(data) {
+    if (!data || !Array.isArray(data.historico_sinais)) return null;
+    const rows=select(scopePrelive(normalize(data)),'all',true), g=stats(rows);
+    const dates=rows.map(s=>s.data).filter(d=>/^\d{4}-\d{2}-\d{2}$/.test(d||'')).sort();
+    return {...g,start:dates[0]||null,end:dates.at(-1)||null,
+      settled:rows.filter(settled).length};
+  }
+  function manualMarkets(rows) {
+    const groups=new Map();
+    for(const s of rows.filter(s=>s.category==='elite')) {
+      // Keep the published market and line; never infer a half from product or score.
+      let market=String(s.mercado||'').trim().replace(/\s+/g,' ') || '—';
+      market=market.replace(/(\d),(\d)/g,'$1.$2');
+      if(isLate(s) && !/late\s*goal/i.test(market)) market='Late Goal · '+market;
+      if(!groups.has(market))groups.set(market,[]);
+      groups.get(market).push(s);
+    }
+    return [...groups].sort(([a],[b])=>a.localeCompare(b,'pt',{numeric:true}))
+      .map(([market,items])=>({market,...stats(items)}));
+  }
+  function cumulativeChart(serie, {pt=true,stake=10,width=1000}={}) {
+    const points=(serie||[]).filter(p=>Number.isFinite(p.lucro_acum)&&/^\d{4}-\d{2}-\d{2}$/.test(p.data||''));
+    if(!points.length)return `<div class="card chart"><p class="scope-note">${pt?'Sem resultados apurados para traçar o gráfico.':'No settled results to plot.'}</p></div>`;
+    const W=Math.max(300,Math.min(1100,Number(width)||1000)), H=290, L=62,R=18,T=24,B=48;
+    const ys=points.map(p=>p.lucro_acum), lo=Math.min(0,...ys),hi=Math.max(0,...ys);
+    const raw=(hi-lo||1)/4,base=10**Math.floor(Math.log10(raw));
+    const step=[1,2,2.5,5,10].map(n=>n*base).find(n=>n>=raw);
+    const mn=Math.floor(lo/step)*step,mx=hi===lo?mn+step*4:Math.ceil(hi/step)*step;
+    const times=points.map(p=>Date.parse(p.data+'T00:00:00Z')),span=times.at(-1)-times[0];
+    const x=i=>L+(span?(times[i]-times[0])/span:0)*(W-L-R),y=v=>H-B-(v-mn)*(H-T-B)/(mx-mn);
+    const fmt=v=>(v>0?'+':'')+v.toLocaleString(pt?'pt-PT':'en-GB',{minimumFractionDigits:2,maximumFractionDigits:2});
+    const axis=v=>(Math.abs(v)<step/1000?'0':v.toLocaleString(pt?'pt-PT':'en-GB',{maximumFractionDigits:Math.max(1,-Math.floor(Math.log10(step))+1)}))+'u';
+    const ticks=[];for(let v=mn;v<=mx+step/1000;v+=step)ticks.push(v);
+    const grid=ticks.map(v=>`<g class="chart-tick"><line x1="${L}" x2="${W-R}" y1="${y(v)}" y2="${y(v)}" stroke="${Math.abs(v)<step/1000?'#c9a227':'#31405a'}" stroke-dasharray="${Math.abs(v)<step/1000?'0':'3 5'}"/><text x="${L-10}" y="${y(v)+4}" text-anchor="end" fill="#c5ccda" font-size="12">${axis(v)}</text></g>`).join('');
+    const date=d=>`${d.slice(8,10)}/${d.slice(5,7)}/${d.slice(2,4)}`;
+    const middle=times.reduce((best,t,i)=>Math.abs(t-times[0]-span/2)<Math.abs(times[best]-times[0]-span/2)?i:best,0);
+    const indices=[...new Set([0,...(W>=600&&x(middle)>L+100&&x(middle)<W-R-100?[middle]:[]),points.length-1])];
+    const dates=indices.map(i=>`<text x="${x(i)}" y="${H-18}" text-anchor="${i===0?'start':i===points.length-1?'end':'middle'}" fill="#c5ccda" font-size="12">${date(points[i].data)}</text>`).join('');
+    const path=points.map((p,i)=>`${x(i)},${y(p.lucro_acum)}`).join(' '),last=ys.at(-1);
+    const summary=`${pt?'Saldo acumulado':'Cumulative balance'}: ${fmt(last)}u · ${date(points[0].data)} – ${date(points.at(-1).data)}`;
+    return `<div class="card chart"><div class="chart-caption"><span>${pt?'Saldo acumulado · unidades':'Cumulative balance · units'}</span><strong class="${last<0?'neg':'pos'}">${fmt(last)}u</strong></div>
+      <svg viewBox="0 0 ${W} ${H}" role="img" aria-label="${esc(summary)}"><title>${esc(summary)}</title>
+      ${grid}<polygon points="${x(0)},${y(0)} ${path} ${x(points.length-1)},${y(0)}" fill="#c9a227" opacity=".08"/>
+      <polyline points="${path}" fill="none" stroke="#e8c96e" stroke-width="2.5" stroke-linejoin="round"/>
+      ${points.map((p,i)=>`<circle cx="${x(i)}" cy="${y(p.lucro_acum)}" r="${points.length===1?4:3}" fill="#e8c96e"><title>${date(p.data)}: ${fmt(p.lucro_acum)}u</title></circle>`).join('')}${dates}</svg>
+      <p class="scope-note">${pt?'Linha dourada horizontal = 0u (ponto de equilíbrio). Cada ponto é o saldo no fim de um dia com resultados apurados.':'Horizontal gold line = 0u (break-even). Each point is the closing balance of a day with settled results.'} ${pt?'Conversão ilustrativa':'Illustrative conversion'}: ${fmt(last*stake)}€ @ ${stake}€/u.</p></div>`;
+  }
+  const api = {category,isLate,ticketKey,tickets,normalize,stats,profit,priced,tradingDay,stamp,panel,select,esc,scopePrelive,preliveStart,publicSummary,manualMarkets,cumulativeChart};
   if (typeof module !== 'undefined' && module.exports) { module.exports = api; return; }
+  window.GoalMetrics=api;
+  if(!document.getElementById('app') || !document.getElementById('stake'))return;
 
   const pt = document.documentElement.lang.startsWith('pt');
   const tr = (a,b) => pt ? a : b;
@@ -225,6 +277,17 @@
         · ${st.wr.toFixed(1)}%</span><strong class="${cls(st.lucro_u)}">${f2(st.lucro_u)}u</strong></div></button>`;
     }).join('');
   }
+  function marketTable(rows) {
+    const items=select(rows,'elite'), groups=manualMarkets(items), total=stats(items);
+    const cells=g=>`<td>${g.sinais}</td><td>${g.ganhos}</td><td>${g.perdidos}</td><td>${g.ganhos+g.perdidos?g.wr.toFixed(1)+'%':'—'}</td><td>${odds(g.odd_media)}</td><td class="${cls(g.lucro_u)}">${f2(g.lucro_u)}u</td>`;
+    return `<section id="elite-markets"><div class="sec-t">${tr('Elite / manual — resultados por mercado','Elite / manual — results by market')}</div>
+      <p class="scope-note">${tr('Mercado e linha tal como foram registados. FT = jogo completo; 2.ª parte é um mercado distinto. Late manual separado do automático.','Market and line as recorded. FT = full match; second half is a separate market. Manual Late is separate from automatic signals.')}</p>
+      <div class="tblhint">${tr('Desliza a tabela para ver greens, reds, odd média e unidades →','Swipe the table to see wins, losses, average odds and units →')}</div>
+      <div class="card tbl"><table class="market-table"><thead><tr>${[tr('Mercado','Market'),tr('Entradas','Entries'),'Greens','Reds',tr('Acerto','Win rate'),tr('Odd média','Avg odds'),tr('Resultado','Result')].map(s=>`<th>${s}</th>`).join('')}</tr></thead>
+      <tbody>${groups.map(g=>`<tr><th scope="row">${esc(g.market)}</th>${cells(g)}</tr>`).join('')||`<tr><td colspan="7">${tr('Sem entradas manuais.','No manual entries.')}</td></tr>`}</tbody>
+      <tfoot><tr><th scope="row">${tr('Total Elite','Elite total')}</th>${cells(total)}</tr></tfoot></table></div>
+      <p class="scope-note">${total.pendentes} ${tr('pendentes','pending')} · ${total.sem_preco} ${tr('sem odd válida (fora de acerto e unidades). Média simples das odds válidas, incluindo pendentes; não ponderada pela stake.','without valid odds (excluded from win rate and units). Simple mean of valid odds, including pending entries; not stake-weighted.')}</p></section>`;
+  }
   function render() {
     const allRows=normalize(DATA,fallback), view=active==='prelive'?preliveView:'pdf';
     const rows=scopePrelive(allRows,view), financial=select(rows,active,true), visible=select(rows,active);
@@ -248,9 +311,11 @@
       ${(partialPrelive||DATA.combinada?.indisponivel)&&(pre||active==='all')?`<p class="scope-note">${tr('Histórico Pré-live temporariamente indisponível ou incompleto.','Pre-live history temporarily unavailable or incomplete.')}</p>`:''}
       <div id="kpis">${kpisFor(p.geral).replace(pre?(pt?'Sinais':'Signals'):'__never__',tr('Bilhetes','Tickets'))}</div>
       <p class="scope-note accounting">${tr('Resultado teórico às odds registadas; não comprova apostas executadas.','Theoretical results at recorded odds; not proof of executed bets.')}
+      ${tr('Odd média: média simples de todas as cotações válidas do conjunto selecionado, incluindo pendentes.','Average odds: simple mean of all valid prices in the selected cohort, including pending entries.')}
       ${conditionals ? `${conditionals} ${tr('condicionais sem preço confirmado fora destas contas.','conditionals without confirmed odds excluded from these accounts.')}` : ''}
       ${p.geral.sem_preco ? `${p.geral.sem_preco} ${tr('registos sem preço válido excluídos de P/L e acerto.','records without valid odds excluded from P/L and win rate.')}` : ''}</p>
       ${formCard(p)}${periodsFor(p).replaceAll(pre?(pt?'sinais':'signals'):'__never__',tr('bilhetes','tickets'))}
+      ${active==='elite'?marketTable(rows):''}
       <p class="scope-note">${tr('Dia de atividade:','Activity day:')} ${today} · 06:00–06:00 Europe/Lisbon</p>
       <div class="sec-t" id="banca">${tr('Evolução em unidades','Cumulative units')} — ${title}</div>${chart(p.serie)}
       ${active==='all'||pre?ticketCard(rows,today,view):''}
