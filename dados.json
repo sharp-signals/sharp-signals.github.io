@@ -8,8 +8,8 @@
    "fim": "2026-01-31"
   },
   "cresc_pct": 56.91,
-  "apostas": 1315,
-  "ganhos": 736,
+  "apostas": 1316,
+  "ganhos": 737,
   "perdidos": 579,
   "wr": 56.0,
   "meses": [
@@ -86,17 +86,17 @@
    {
     "mes": "2026-11",
     "label": "Nov 26",
-    "cresc_pct": 6.67,
-    "apostas": 83,
-    "wr": 53.0
+    "cresc_pct": 7.28,
+    "apostas": 84,
+    "wr": 53.6
    }
   ],
   "por_mercado": [
    {
     "mercado": "Over Cantos FT",
-    "n": 725,
-    "wr": 58.9,
-    "roi": 49.53,
+    "n": 726,
+    "wr": 59.0,
+    "roi": 50.14,
     "pl_eur": 1369.94
    },
    {
@@ -145,7 +145,6 @@
   "forma": [
    "ganho",
    "ganho",
-   "ganho",
    "cashout",
    "perdido",
    "ganho",
@@ -157,7 +156,8 @@
    "perdido",
    "perdido",
    "ganho",
-   "perdido"
+   "perdido",
+   "ganho"
   ],
   "historico": [
    {
@@ -166,13 +166,13 @@
     "jogo": "Real Madrid u19 x PSV u19",
     "mercado": "⛳ Over 7.5 corners · FT",
     "categoria": "Over Cantos FT",
-    "odd": null,
-    "pl_pct": null,
+    "odd": 1.81,
+    "pl_pct": 0.608,
     "stake_pct": 0.75,
-    "resultado": "pendente",
+    "resultado": "ganho",
     "verified_id": "tip_proposal:20261124T162518460106Z:326eaa9a",
-    "estado_entrada": "aguarda_confirmacao",
-    "tipo_odd": "por_registar",
+    "estado_entrada": "confirmada",
+    "tipo_odd": "real",
     "odd_minima_recomendada": 1.8,
     "confianca": 7
    },
