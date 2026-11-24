@@ -5707,6 +5707,28 @@
       "justificacao_void": "",
       "golos_apos_casa": 1,
       "golos_apos_fora": 0
+    },
+    {
+      "alerta_id": "ce1:1630405:shark",
+      "fixture_id": 1630405,
+      "timestamp": "2026-11-24T21:08:14.943723",
+      "jogo": "East Bengal II vs Al Hussein",
+      "liga": "AFC Champions League Two",
+      "janela": "SHARK ATTACK",
+      "tempo_alerta": 58,
+      "estrelas": 8.5,
+      "cantos_no_ref": 11,
+      "cantos_final": 15,
+      "cantos_apos_alerta": 4,
+      "meta_cantos": 4,
+      "resultado": "CANCELADA",
+      "resultado_tecnico": "WIN",
+      "estado_entrada": "SEM_ENTRADA",
+      "resultado_mercado_potencial": "",
+      "condicao_preco": "",
+      "justificacao_void": "Não entrada — outro motivo",
+      "golos_apos_casa": 1,
+      "golos_apos_fora": 0
     }
   ]
 }
