@@ -5684,5 +5684,29 @@
       "golos_apos_casa": 1,
       "golos_apos_fora": 0
     }
+  ],
+  "2026-11-24": [
+    {
+      "alerta_id": "ce1:1588819:shark",
+      "fixture_id": 1588819,
+      "timestamp": "2026-11-24T21:08:02.337583",
+      "jogo": "Salford City vs Sunderland U21",
+      "liga": "EFL Trophy",
+      "janela": "SHARK ATTACK",
+      "tempo_alerta": 57,
+      "estrelas": 8.0,
+      "cantos_no_ref": 4,
+      "cantos_final": 8,
+      "cantos_apos_alerta": 4,
+      "meta_cantos": 4,
+      "resultado": "WIN",
+      "resultado_tecnico": "WIN",
+      "estado_entrada": "CONFIRMADA",
+      "resultado_mercado_potencial": "",
+      "condicao_preco": "",
+      "justificacao_void": "",
+      "golos_apos_casa": 1,
+      "golos_apos_fora": 0
+    }
   ]
 }
