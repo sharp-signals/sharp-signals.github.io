@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-24T20:16:02Z",
-  "event_chain_head": "d36b692676f6b10be4b3929a61b8208d0f94ca3e79743fa8118c6468ba6a17b9",
+  "generated_at": "2026-11-24T21:08:09Z",
+  "event_chain_head": "d2fbddf8bdacc531600819211a2262d5a6b56f078b5606ffe22360f1d29ca5d4",
   "event_chain_algorithm": "SHA-256 linked events",
   "event_chain_integrity": {
     "status": "valid_from_checkpoint",
-    "events": 1007,
+    "events": 1008,
     "broken_links": [],
     "content_hash_mismatches": [
       {
@@ -142,7 +142,7 @@
       }
     ],
     "unacknowledged_content_hashes": [],
-    "head": "d36b692676f6b10be4b3929a61b8208d0f94ca3e79743fa8118c6468ba6a17b9"
+    "head": "d2fbddf8bdacc531600819211a2262d5a6b56f078b5606ffe22360f1d29ca5d4"
   },
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -153,8 +153,8 @@
   },
   "summary": {
     "total": 511,
-    "pending": 20,
-    "signals_settled": 158,
+    "pending": 19,
+    "signals_settled": 159,
     "official_entries_settled": 292,
     "cancelled": 70
   },
@@ -162,11 +162,39 @@
     {
       "id": "ce1:1588819:shark",
       "kind": "signal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-11-24T20:16:02Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "1b5632206b455a2f76511dd5fc481c354fc76af1e382322b5755de9182b38c43",
-      "telegram_message_count": 2
+      "telegram_message_count": 2,
+      "settled_at": "2026-11-24T21:08:08Z",
+      "result": "WIN",
+      "outcome": {
+        "corners_reference": 4,
+        "corners_final": 8,
+        "corners_after": 4,
+        "target": 4,
+        "technical_result": "WIN",
+        "entry_status": "confirmada",
+        "potential_market_result": "",
+        "price_condition": "",
+        "void_reason": "",
+        "approved_manually": true
+      },
+      "sealed_payload": {
+        "alert_id": "ce1:1588819:shark",
+        "classification": "scanner_signal_not_confirmed_bet",
+        "confidence": 8.0,
+        "corners_at_alert": 4,
+        "league": "EFL Trophy",
+        "match": "Salford City vs Sunderland U21",
+        "minimum_price": 1.8,
+        "minute": 57,
+        "score_at_alert": "2-2",
+        "suggestion": "🎯 REFERÊNCIA\nOver 7.5 cantos · preço de referência @1.80+\n⚠️ Validar mercado e contexto · alerta não é entrada automática",
+        "window": "SHARK ATTACK"
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20261124T162518460106Z:326eaa9a",
