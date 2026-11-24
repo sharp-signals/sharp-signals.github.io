@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-24T21:08:09Z",
-  "event_chain_head": "d2fbddf8bdacc531600819211a2262d5a6b56f078b5606ffe22360f1d29ca5d4",
+  "generated_at": "2026-11-24T21:08:21Z",
+  "event_chain_head": "5ee2f4f5bd7968a7be78209261e2f82e131de1673302b1ebb7c522fe441c464c",
   "event_chain_algorithm": "SHA-256 linked events",
   "event_chain_integrity": {
     "status": "valid_from_checkpoint",
-    "events": 1008,
+    "events": 1009,
     "broken_links": [],
     "content_hash_mismatches": [
       {
@@ -142,7 +142,7 @@
       }
     ],
     "unacknowledged_content_hashes": [],
-    "head": "d2fbddf8bdacc531600819211a2262d5a6b56f078b5606ffe22360f1d29ca5d4"
+    "head": "5ee2f4f5bd7968a7be78209261e2f82e131de1673302b1ebb7c522fe441c464c"
   },
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -153,10 +153,10 @@
   },
   "summary": {
     "total": 511,
-    "pending": 19,
-    "signals_settled": 159,
+    "pending": 18,
+    "signals_settled": 160,
     "official_entries_settled": 292,
-    "cancelled": 70
+    "cancelled": 71
   },
   "records": [
     {
@@ -295,11 +295,39 @@
     {
       "id": "ce1:1630405:shark",
       "kind": "signal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-11-24T15:01:42Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "86fb5db67140b597ab6ab4d769cfb8c2301f15cf75b619a38542bfa185386176",
-      "telegram_message_count": 3
+      "telegram_message_count": 3,
+      "settled_at": "2026-11-24T21:08:21Z",
+      "result": "CANCELADA",
+      "outcome": {
+        "corners_reference": 11,
+        "corners_final": 15,
+        "corners_after": 4,
+        "target": 4,
+        "technical_result": "WIN",
+        "entry_status": "sem_entrada",
+        "potential_market_result": "",
+        "price_condition": "",
+        "void_reason": "Não entrada — outro motivo",
+        "approved_manually": true
+      },
+      "sealed_payload": {
+        "alert_id": "ce1:1630405:shark",
+        "classification": "scanner_signal_not_confirmed_bet",
+        "confidence": 8.5,
+        "corners_at_alert": 11,
+        "league": "AFC Champions League Two",
+        "match": "East Bengal II vs Al Hussein",
+        "minimum_price": 1.8,
+        "minute": 58,
+        "score_at_alert": "0-0",
+        "suggestion": "🎯 REFERÊNCIA\nOver 14.5 cantos · preço de referência @1.80+\n⚠️ Validar mercado e contexto · alerta não é entrada automática",
+        "window": "SHARK ATTACK"
+      },
+      "commitment_valid": true
     },
     {
       "id": "ce1:1492467:ht",
