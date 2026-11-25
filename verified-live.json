@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-25T19:56:12Z",
-  "event_chain_head": "8207cbe64f5552905b2a94cfedb5c41da3ef0925caeec2102434b948588313c8",
+  "generated_at": "2026-11-25T20:39:00Z",
+  "event_chain_head": "1fa916b938507e346fe33fe115bea89619a7ffb292f8698ed75f8df024de781d",
   "event_chain_algorithm": "SHA-256 linked events",
   "event_chain_integrity": {
     "status": "valid_from_checkpoint",
-    "events": 1010,
+    "events": 1011,
     "broken_links": [],
     "content_hash_mismatches": [
       {
@@ -142,7 +142,7 @@
       }
     ],
     "unacknowledged_content_hashes": [],
-    "head": "8207cbe64f5552905b2a94cfedb5c41da3ef0925caeec2102434b948588313c8"
+    "head": "1fa916b938507e346fe33fe115bea89619a7ffb292f8698ed75f8df024de781d"
   },
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -153,8 +153,8 @@
   },
   "summary": {
     "total": 512,
-    "pending": 19,
-    "signals_settled": 160,
+    "pending": 18,
+    "signals_settled": 161,
     "official_entries_settled": 292,
     "cancelled": 71
   },
@@ -162,11 +162,39 @@
     {
       "id": "ce1:1630413:final",
       "kind": "signal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-11-25T19:56:12Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "8604620f8ef5bf95c5a4c7ed0ecd93c02e24af2117377ef9e12b6c0f212d8bce",
-      "telegram_message_count": 3
+      "telegram_message_count": 3,
+      "settled_at": "2026-11-25T20:39:00Z",
+      "result": "WIN",
+      "outcome": {
+        "corners_reference": 2,
+        "corners_final": 5,
+        "corners_after": 3,
+        "target": 2,
+        "technical_result": "WIN",
+        "entry_status": "confirmada",
+        "potential_market_result": "",
+        "price_condition": "",
+        "void_reason": "",
+        "approved_manually": true
+      },
+      "sealed_payload": {
+        "alert_id": "ce1:1630413:final",
+        "classification": "scanner_signal_not_confirmed_bet",
+        "confidence": 7.5,
+        "corners_at_alert": 2,
+        "league": "AFC Champions League Two",
+        "match": "Al Taawon vs Al-Nahda",
+        "minimum_price": 1.8,
+        "minute": 81,
+        "score_at_alert": "0-0",
+        "suggestion": "🎯 REFERÊNCIA\nOver 3.5 cantos · preço de referência @1.80+\n⚠️ Validar mercado e contexto · alerta não é entrada automática",
+        "window": "FINAL PUSH"
+      },
+      "commitment_valid": true
     },
     {
       "id": "ce1:1588819:shark",
