@@ -17,7 +17,7 @@
    "pode_nao_publicar": true
   }
  },
- "atualizado": "2026-11-25T06:05:31",
+ "atualizado": "2026-11-25T06:16:27",
  "dia_trading": "2026-11-25",
  "geral": {
   "inicio": "2026-06-06",
@@ -4189,7 +4189,32 @@
    "dias_verde_pct": 43.3
   }
  },
- "tip_do_dia": [],
+ "tip_do_dia": [
+  {
+   "hora": "10:00",
+   "liga": "J1 League",
+   "jogo": "Tokyo vs Hiroshima",
+   "mercado": "Over 1.5 · 2ª parte",
+   "odd": 1.91,
+   "bilhete": "dupla",
+   "ticket_id": "prelive:2026-11-25:1",
+   "ticket_slot": 1,
+   "fire": false,
+   "resultado": null
+  },
+  {
+   "hora": "03:10",
+   "liga": "Liga MX",
+   "jogo": "Monterrey vs Club America",
+   "mercado": "Over 1.5 · 2ª parte",
+   "odd": 2.1,
+   "bilhete": "dupla",
+   "ticket_id": "prelive:2026-11-25:1",
+   "ticket_slot": 1,
+   "fire": false,
+   "resultado": null
+  }
+ ],
  "por_estrategia": {
   "Golos (arquivo)": {
    "n": 31,
@@ -4235,80 +4260,80 @@
   "nome": "Pré-Live Grátis",
   "descricao": "Bilhete partilhado no canal gratuito · até um por dia · 1u",
   "publication_scope": "free_confirmed_only",
-  "boletins": 39,
+  "boletins": 40,
   "greens": 9,
   "reds": 30,
-  "pendentes": 0,
+  "pendentes": 1,
   "lucro": 9.09,
   "ultimos": [
    {
-    "ticket_id": "prelive:2026-11-22:2",
-    "ticket_slot": 2,
+    "ticket_id": "prelive:2026-11-25:1",
+    "ticket_slot": 1,
     "free_publication_confirmed": true,
     "publication_channel": "free",
-    "data": "2026-11-22",
+    "data": "2026-11-25",
     "tipo": "dupla",
-    "odd": 3.61,
-    "resultado": "red",
+    "odd": 4.01,
+    "resultado": null,
     "u": 1.0,
-    "published_at": "2026-11-22T06:15:53+00:00",
+    "published_at": "2026-11-25T06:15:37+00:00",
     "publication_confirmed": true,
     "pernas": [
      {
-      "fixture_id": 1550201,
-      "casa": "Juventus",
-      "fora": "Venezia",
+      "fixture_id": 1556153,
+      "casa": "Tokyo",
+      "fora": "Hiroshima",
       "liga": null,
-      "hora": "11:30",
+      "hora": "10:00",
       "mercado": null,
-      "odd": 1.95,
-      "resultado": "ganho"
+      "odd": 1.91,
+      "resultado": null
      },
      {
-      "fixture_id": 1559011,
-      "casa": "Velenje",
-      "fora": "Beltinci",
+      "fixture_id": 1651503,
+      "casa": "Monterrey",
+      "fora": "Club America",
       "liga": null,
-      "hora": "16:00",
+      "hora": "03:10",
       "mercado": null,
-      "odd": 1.85,
-      "resultado": "perdido"
+      "odd": 2.1,
+      "resultado": null
      }
     ]
    }
   ],
   "ultimo": {
-   "ticket_id": "prelive:2026-11-22:2",
-   "ticket_slot": 2,
+   "ticket_id": "prelive:2026-11-25:1",
+   "ticket_slot": 1,
    "free_publication_confirmed": true,
    "publication_channel": "free",
-   "data": "2026-11-22",
+   "data": "2026-11-25",
    "tipo": "dupla",
-   "odd": 3.61,
-   "resultado": "red",
+   "odd": 4.01,
+   "resultado": null,
    "u": 1.0,
-   "published_at": "2026-11-22T06:15:53+00:00",
+   "published_at": "2026-11-25T06:15:37+00:00",
    "publication_confirmed": true,
    "pernas": [
     {
-     "fixture_id": 1550201,
-     "casa": "Juventus",
-     "fora": "Venezia",
+     "fixture_id": 1556153,
+     "casa": "Tokyo",
+     "fora": "Hiroshima",
      "liga": null,
-     "hora": "11:30",
+     "hora": "10:00",
      "mercado": null,
-     "odd": 1.95,
-     "resultado": "ganho"
+     "odd": 1.91,
+     "resultado": null
     },
     {
-     "fixture_id": 1559011,
-     "casa": "Velenje",
-     "fora": "Beltinci",
+     "fixture_id": 1651503,
+     "casa": "Monterrey",
+     "fora": "Club America",
      "liga": null,
-     "hora": "16:00",
+     "hora": "03:10",
      "mercado": null,
-     "odd": 1.85,
-     "resultado": "perdido"
+     "odd": 2.1,
+     "resultado": null
     }
    ]
   },
@@ -5825,6 +5850,41 @@
       "mercado": null,
       "odd": 1.85,
       "resultado": "perdido"
+     }
+    ]
+   },
+   {
+    "ticket_id": "prelive:2026-11-25:1",
+    "ticket_slot": 1,
+    "free_publication_confirmed": true,
+    "publication_channel": "free",
+    "data": "2026-11-25",
+    "tipo": "dupla",
+    "odd": 4.01,
+    "resultado": null,
+    "u": 1.0,
+    "published_at": "2026-11-25T06:15:37+00:00",
+    "publication_confirmed": true,
+    "pernas": [
+     {
+      "fixture_id": 1556153,
+      "casa": "Tokyo",
+      "fora": "Hiroshima",
+      "liga": null,
+      "hora": "10:00",
+      "mercado": null,
+      "odd": 1.91,
+      "resultado": null
+     },
+     {
+      "fixture_id": 1651503,
+      "casa": "Monterrey",
+      "fora": "Club America",
+      "liga": null,
+      "hora": "03:10",
+      "mercado": null,
+      "odd": 2.1,
+      "resultado": null
      }
     ]
    }
@@ -8259,12 +8319,50 @@
     "accounting_confirmed": true,
     "leg_count": 2,
     "legs_disclosed": true
+   },
+   {
+    "ticket_id": "prelive:2026-11-25:1",
+    "ticket_slot": 1,
+    "free_publication_confirmed": true,
+    "publication_channel": "free",
+    "data": "2026-11-25",
+    "tipo": "dupla",
+    "odd": 4.01,
+    "resultado": null,
+    "u": 1.0,
+    "published_at": "2026-11-25T06:15:37+00:00",
+    "publication_confirmed": true,
+    "pernas": [
+     {
+      "fixture_id": 1556153,
+      "casa": "Tokyo",
+      "fora": "Hiroshima",
+      "liga": null,
+      "hora": "10:00",
+      "mercado": null,
+      "odd": 1.91,
+      "resultado": null
+     },
+     {
+      "fixture_id": 1651503,
+      "casa": "Monterrey",
+      "fora": "Club America",
+      "liga": null,
+      "hora": "03:10",
+      "mercado": null,
+      "odd": 2.1,
+      "resultado": null
+     }
+    ],
+    "accounting_confirmed": true,
+    "leg_count": 2,
+    "legs_disclosed": true
    }
   ],
-  "boletins": 60,
+  "boletins": 61,
   "greens": 12,
   "reds": 47,
-  "pendentes": 1,
+  "pendentes": 2,
   "lucro": -0.56,
   "excluidos_sem_recibo_valido": 0
  },
