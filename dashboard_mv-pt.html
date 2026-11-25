@@ -247,6 +247,34 @@ button.est{font-family:inherit;color:inherit;text-align:left;cursor:pointer}
 .scope-note{font-size:11px}.nav-links{display:none}}
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}html{scroll-behavior:auto}}
 
+
+/* Monthly performance and accessible hover/touch inspection. */
+.period-heading{text-align:center;color:var(--gold3);font-size:14px;margin:8px 0 16px;text-transform:capitalize}
+.manual-controls{margin:0 auto 12px;text-align:center}
+.manual-controls .segs{border-radius:14px;justify-content:center}
+.manual-controls .seg small{opacity:.75;margin-left:5px}
+.chart-controls{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin:0 0 12px}
+.chart-controls label{color:var(--gold);font-size:14px;font-weight:600}
+.chart-controls select{background:#0a1628;border:1px solid var(--gold);border-radius:9px;padding:10px 32px 10px 12px;color:var(--txt);font:inherit;min-width:210px;text-transform:capitalize}
+.chart-controls span{font-size:13px;color:var(--muted)}
+.chart-plot{position:relative}
+.chart-hit{cursor:crosshair}
+.chart-hit:focus{outline:none;stroke:var(--gold);stroke-width:1}
+.chart-tooltip{position:absolute;top:12px;z-index:4;width:280px;max-width:calc(100% - 12px);background:#081321f5;border:1px solid var(--gold);border-radius:12px;padding:13px;box-shadow:0 10px 35px #0009;pointer-events:none;font-size:13px;line-height:1.7;color:var(--txt)}
+.chart-tooltip[hidden]{display:none}
+.chart-tooltip b{display:block;color:var(--gold3);font-size:15px}
+.chart-tooltip strong{display:block;font-size:19px}
+.chart-tooltip small{color:var(--muted);font-size:12px}
+.monthly-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+.month-card{font:inherit;text-align:left;color:var(--txt);padding:18px;border-radius:14px;border:1px solid var(--line);background:linear-gradient(160deg,var(--panel),var(--panel2));cursor:pointer;transition:border-color .2s,transform .2s}
+.month-card:hover{transform:translateY(-2px);border-color:var(--gold)}
+.month-card.on{border-color:var(--gold);box-shadow:inset 0 0 0 1px var(--gold)}
+.month-card>span{display:block;color:var(--gold3);text-transform:capitalize;font-size:14px;font-weight:600}
+.month-card>strong{display:block;font-size:26px;margin:8px 0;font-family:'Cinzel',serif}
+.month-card>small{display:block;color:var(--muted);font-size:13px;line-height:1.7}
+@media(max-width:700px){.monthly-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.month-card{padding:14px}.chart-controls select{width:100%}.chart-tooltip strong{font-size:17px}.manual-controls .seg{padding:9px 12px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.month-card{transition:none}}
+
 </style>
 </head>
 <body>
@@ -301,7 +329,7 @@ function kpisFor(g){
       <div class="val ${cls(g.roi)}" >${f1(g.roi)}%</div>
       <div class="sub">retorno / aposta</div></div>
     <div class="card kpi"><div class="lbl">Taxa de acerto</div>
-      <div class="val gold" >${g.wr.toFixed(1)}%</div>
+      <div class="val gold">${g.ganhos+g.perdidos?g.wr.toFixed(1)+'%':'—'}</div>
       <div class="sub">✅${g.ganhos} ❌${g.perdidos}</div></div>
     <div class="card kpi"><div class="lbl">Sinais</div>
       <div class="val" >${g.sinais}</div>
@@ -340,6 +368,6 @@ function chart(serie){
 }
 
 </script>
-<script src="goal-dashboard.js?v=20261124-metrics"></script>
+<script src="goal-dashboard.js?v=20261125-monthly"></script>
 </body>
 </html>

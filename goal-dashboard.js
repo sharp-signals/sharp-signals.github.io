@@ -157,6 +157,37 @@
     return [...groups].sort(([a],[b])=>a.localeCompare(b,'pt',{numeric:true}))
       .map(([market,items])=>({market,...stats(items)}));
   }
+  function manualKind(s) {
+    if(isLate(s))return 'late';
+    const market=String(s.mercado||'').trim();
+    if(/^over\b/i.test(market) && /2[.ªaº°\s-]*(parte|half)|2nd half/i.test(market))return 'over_2h';
+    if(/^over\s+\d+(?:[.,]\d+)?\s+FT$/i.test(market))return 'over_ft';
+    // produto=over2p is a legacy exporter default, NOT evidence of a 2H market.
+    return 'other';
+  }
+  function selectManual(rows,key='all') {
+    return rows.filter(s=>s.category==='elite' && (key==='all'||manualKind(s)===key));
+  }
+  function monthRows(rows,month='all') {
+    return month==='all'?rows:rows.filter(s=>String(s.data||'').slice(0,7)===month);
+  }
+  function monthlyStats(rows) {
+    const groups=new Map();
+    for(const s of rows)if(/^\d{4}-(0[1-9]|1[0-2])-\d{2}$/.test(s.data||'')){
+      const month=s.data.slice(0,7);if(!groups.has(month))groups.set(month,[]);groups.get(month).push(s);
+    }
+    return [...groups].sort(([a],[b])=>b.localeCompare(a)).map(([month,r])=>({month,...stats(r)}));
+  }
+  function equitySeries(rows) {
+    const daily=new Map();
+    for(const s of rows.filter(settled))if(/^\d{4}-\d{2}-\d{2}$/.test(s.data||'')){
+      if(!daily.has(s.data))daily.set(s.data,[]);daily.get(s.data).push(s);
+    }
+    let total=0;
+    return [...daily].sort(([a],[b])=>a.localeCompare(b)).map(([data,items])=>{
+      const g=stats(items);return {data,lucro_acum:(total+=g.lucro_u),delta:g.lucro_u,sinais:g.sinais,ganhos:g.ganhos,perdidos:g.perdidos};
+    });
+  }
   function cumulativeChart(serie, {pt=true,stake=10,width=1000}={}) {
     const points=(serie||[]).filter(p=>Number.isFinite(p.lucro_acum)&&/^\d{4}-\d{2}-\d{2}$/.test(p.data||''));
     if(!points.length)return `<div class="card chart"><p class="scope-note">${pt?'Sem resultados apurados para traçar o gráfico.':'No settled results to plot.'}</p></div>`;
@@ -178,13 +209,40 @@
     const path=points.map((p,i)=>`${x(i)},${y(p.lucro_acum)}`).join(' '),last=ys.at(-1);
     const summary=`${pt?'Saldo acumulado':'Cumulative balance'}: ${fmt(last)}u · ${date(points[0].data)} – ${date(points.at(-1).data)}`;
     return `<div class="card chart"><div class="chart-caption"><span>${pt?'Saldo acumulado · unidades':'Cumulative balance · units'}</span><strong class="${last<0?'neg':'pos'}">${fmt(last)}u</strong></div>
-      <svg viewBox="0 0 ${W} ${H}" role="img" aria-label="${esc(summary)}"><title>${esc(summary)}</title>
+      <div class="chart-plot"><svg viewBox="0 0 ${W} ${H}" role="group" aria-label="${esc(summary)}"><title>${esc(summary)}</title>
       ${grid}<polygon points="${x(0)},${y(0)} ${path} ${x(points.length-1)},${y(0)}" fill="#c9a227" opacity=".08"/>
       <polyline points="${path}" fill="none" stroke="#e8c96e" stroke-width="2.5" stroke-linejoin="round"/>
-      ${points.map((p,i)=>`<circle cx="${x(i)}" cy="${y(p.lucro_acum)}" r="${points.length===1?4:3}" fill="#e8c96e"><title>${date(p.data)}: ${fmt(p.lucro_acum)}u</title></circle>`).join('')}${dates}</svg>
-      <p class="scope-note">${pt?'Linha dourada horizontal = 0u (ponto de equilíbrio). Cada ponto é o saldo no fim de um dia com resultados apurados.':'Horizontal gold line = 0u (break-even). Each point is the closing balance of a day with settled results.'} ${pt?'Conversão ilustrativa':'Illustrative conversion'}: ${fmt(last*stake)}€ @ ${stake}€/u.</p></div>`;
+      ${points.map((p,i)=>`<circle cx="${x(i)}" cy="${y(p.lucro_acum)}" r="${points.length===1?4:3}" fill="#e8c96e"/>`).join('')}${dates}
+      <line class="chart-cursor" x1="0" x2="0" y1="${T}" y2="${H-B}" stroke="#f8f4ed" stroke-dasharray="3 4" visibility="hidden"/>
+      ${points.map((p,i)=>{const left=i?(x(i-1)+x(i))/2:L,right=i<points.length-1?(x(i)+x(i+1))/2:W-R;
+        return `<rect class="chart-hit" x="${left}" y="${T}" width="${Math.max(1,right-left)}" height="${H-T-B}" fill="transparent" tabindex="0" role="button" data-point="${i}" data-x="${x(i)}" aria-label="${esc(date(p.data)+': '+fmt(p.lucro_acum)+'u')}"><title>${date(p.data)}: ${fmt(p.lucro_acum)}u</title></rect>`;}).join('')}
+      </svg><div class="chart-tooltip" role="status" aria-live="polite" hidden></div></div>
+      <p class="scope-note">${pt?'Passa o rato, toca ou usa Tab nos pontos para ver a data e o P/L. Linha horizontal dourada = 0u.':'Hover, tap or tab through points to see the date and P/L. Horizontal gold line = 0u.'} ${pt?'Conversão ilustrativa':'Illustrative conversion'}: ${fmt(last*stake)}€ @ ${stake}€/u.</p></div>`;
   }
-  const api = {category,isLate,ticketKey,tickets,normalize,stats,profit,priced,tradingDay,stamp,panel,select,esc,scopePrelive,preliveStart,publicSummary,manualMarkets,cumulativeChart};
+  function bindChart(root,series,{pt=true,stake=10}={}) {
+    if(!root)return;
+    const tip=root.querySelector('.chart-tooltip'),cursor=root.querySelector('.chart-cursor');
+    if(!tip||!cursor)return;
+    const fmt=n=>(n>=0?'+':'')+n.toLocaleString(pt?'pt-PT':'en-GB',{minimumFractionDigits:2,maximumFractionDigits:2});
+    const hide=()=>{tip.hidden=true;cursor.setAttribute('visibility','hidden');};
+    root.querySelectorAll('.chart-hit').forEach(hit=>{
+      const show=e=>{
+        const p=series[Number(hit.dataset.point)];if(!p)return;
+        const label=p.data.split('-').reverse().join('/');
+        tip.innerHTML=`<b>${esc(label)}</b><div>${pt?'P/L acumulado do período':'Cumulative period P/L'}</div><strong class="${p.lucro_acum<0?'neg':'pos'}">${fmt(p.lucro_acum)}u · ${fmt(p.lucro_acum*stake)}€</strong><div>${pt?'P/L do dia':'Day P/L'}: ${fmt(p.delta||0)}u · ${fmt((p.delta||0)*stake)}€</div><small>${p.sinais||0} ${pt?'entradas':'entries'} · ${p.ganhos||0}G / ${p.perdidos||0}R · ${stake}€/u</small>`;
+        tip.hidden=false;
+        const box=root.getBoundingClientRect(),point=hit.getBoundingClientRect();
+        const x=Number.isFinite(e?.clientX)?e.clientX-box.left:point.left-box.left+point.width/2;
+        tip.style.left=Math.max(6,Math.min(box.width-tip.offsetWidth-6,x+12))+'px';
+        cursor.setAttribute('x1',hit.dataset.x);cursor.setAttribute('x2',hit.dataset.x);cursor.setAttribute('visibility','visible');
+      };
+      for(const event of ['pointerenter','pointermove','focus','click'])hit.addEventListener(event,show);
+      hit.addEventListener('keydown',e=>{if(e.key==='Escape')hide();if(e.key==='Enter'||e.key===' '){e.preventDefault();show(e);}});
+      hit.addEventListener('blur',hide);
+    });
+    root.addEventListener('pointerleave',hide);
+  }
+  const api = {category,isLate,ticketKey,tickets,normalize,stats,profit,priced,tradingDay,stamp,panel,select,esc,scopePrelive,preliveStart,publicSummary,manualMarkets,manualKind,selectManual,monthRows,monthlyStats,equitySeries,cumulativeChart,bindChart};
   if (typeof module !== 'undefined' && module.exports) { module.exports = api; return; }
   window.GoalMetrics=api;
   if(!document.getElementById('app') || !document.getElementById('stake'))return;
@@ -199,16 +257,41 @@
   let active = categories.includes(query) ? query : aliases[query] || 'all', page = 1, fallback = null;
   const requestedView = new URLSearchParams(location.search).get('prelive_scope');
   let preliveView = preliveViews.includes(requestedView) ? requestedView : 'pdf';
+  const manualKeys=['all','over_ft','over_2h','late','other'];
+  const manualLabels={all:tr('Todos os mercados','All markets'),over_ft:'Over FT',over_2h:tr('Over 2.ª parte','2nd-half Over'),late:'Late Goal',other:tr('Outros · histórico','Other · history')};
+  const params=new URLSearchParams(location.search);
+  let eliteMarket=manualKeys.includes(params.get('elite_market'))?params.get('elite_market'):'all';
+  let period=/^\d{4}-(0[1-9]|1[0-2])$/.test(params.get('month')||'')?params.get('month'):'all';
+  const monthLabel=m=>new Intl.DateTimeFormat(pt?'pt-PT':'en-GB',{month:'long',year:'numeric',timeZone:'UTC'}).format(new Date(m+'-01T12:00:00Z'));
+  function manualControls(rows) {
+    const keys=manualKeys.filter(k=>k==='all'||selectManual(rows,k).length);
+    return `<div class="manual-controls"><div class="segs" aria-label="${tr('Mercados Elite','Elite markets')}">${keys.map(k=>`<button class="seg ${eliteMarket===k?'on':''}" data-manual="${k}" aria-pressed="${eliteMarket===k}">${manualLabels[k]}</button>`).join('')}</div>
+      <p class="scope-note">${tr('O filtro altera indicadores, gráfico e histórico. Over FT conserva a linha registada; só classificamos como Late quando existe essa identificação.','This filter changes the metrics, chart and history. Over FT retains the recorded line; only identified Late entries are classified as Late.')}</p></div>`;
+  }
+  function monthControls(months) {
+    return `<div class="chart-controls"><label for="chart-month">${tr('Período','Period')}</label><select id="chart-month"><option value="all" ${period==='all'?'selected':''}>${tr('Histórico completo','Full history')}</option>${months.map(m=>`<option value="${m.month}" ${period===m.month?'selected':''}>${monthLabel(m.month)}</option>`).join('')}</select>
+      <span>${period==='all'?tr('Acumulado de todo o período','Full-period cumulative P/L'):tr('Acumulado do mês, a partir de 0u','Monthly cumulative P/L, starting from 0u')}</span></div>`;
+  }
+  function monthlyCards(months) {
+    return `<section id="monthly-performance"><div class="sec-t">${tr('Performance por mês','Monthly performance')}</div><div class="monthly-grid">${months.map(m=>`<button class="month-card ${period===m.month?'on':''}" data-month="${m.month}" aria-pressed="${period===m.month}"><span>${monthLabel(m.month)}</span><strong class="${cls(m.lucro_u)}">${f2(m.lucro_u)}u</strong><small>${m.sinais} ${tr('entradas','entries')} · ${m.ganhos}G / ${m.perdidos}R</small><small>${tr('Acerto','Win rate')} ${m.ganhos+m.perdidos?m.wr.toFixed(1)+'%':'—'} · ROI ${m.ganhos+m.perdidos?f1(m.roi)+'%':'—'}</small><small>${tr('Odd média','Avg odds')} ${odds(m.odd_media)}${m.pendentes?' · '+m.pendentes+' '+tr('pendentes','pending'):''}</small></button>`).join('')||`<p class="scope-note">${tr('Sem meses com registos.','No months with records.')}</p>`}</div></section>`;
+  }
+  function syncURL() {
+    const u=new URL(location.href);u.searchParams.set('strat',active);
+    if(active==='prelive'&&preliveView!=='pdf')u.searchParams.set('prelive_scope',preliveView);else u.searchParams.delete('prelive_scope');
+    if(active==='elite'&&eliteMarket!=='all')u.searchParams.set('elite_market',eliteMarket);else u.searchParams.delete('elite_market');
+    if(period!=='all')u.searchParams.set('month',period);else u.searchParams.delete('month');
+    window.history.replaceState(null,'',u);
+  }
   const viewLabel = view => view === 'archive' ? tr('Pré-live · arquivo anterior a 06/11/2026','Pre-live · archive before 06 Nov 2026')
     : view === 'complete' ? tr('Pré-live · histórico completo','Pre-live · full history')
-    : tr('Pré-live PDF — desde 06/11/2026','Pre-live PDF — since 06 Nov 2026');
+    : tr('Pré-live · versão atual — desde 06/11/2026','Pre-live · current version — since 06 Nov 2026');
   function preliveScopeControls(all, view) {
     const current = stats(select(scopePrelive(all, 'pdf'), 'prelive'));
     const archived = stats(select(scopePrelive(all, 'archive'), 'prelive'));
     return `<div class="card"><div class="segs" aria-label="${tr('Período do Pré-live','Pre-live period')}">${preliveViews.map(v=>
-      `<button class="seg ${v===view?'on':''}" data-prelive-scope="${v}" aria-pressed="${v===view}">${v==='pdf'?tr('PDF desde 6/11','PDF since 6 Nov'):v==='archive'?tr('Arquivo anterior','Earlier archive'):tr('Histórico completo','Full history')}</button>`).join('')}</div>
-      <p class="scope-note">${tr('Mudança de método em 06/11/2026. Os resultados principais contam apenas o período PDF; os bilhetes anteriores foram separados, não apagados. O arquivo inclui ganhos, perdas e pendentes.','Method change on 06 Nov 2026. Main results cover only the PDF period; earlier tickets are separate, not deleted. The archive includes wins, losses and pending tickets.')}</p>
-      <p class="scope-note">PDF: ${current.sinais} ${tr('bilhetes','tickets')} · ${f2(current.lucro_u)}u.
+      `<button class="seg ${v===view?'on':''}" data-prelive-scope="${v}" aria-pressed="${v===view}">${v==='pdf'?tr('Versão atual','Current version'):v==='archive'?tr('Arquivo anterior','Earlier archive'):tr('Histórico completo','Full history')}</button>`).join('')}</div>
+      <p class="scope-note">${tr('Versão atual desde 06/11/2026. As versões anteriores continuam no arquivo, com ganhos, perdas e pendentes.','Current version since 06 Nov 2026. Earlier versions remain in the archive, including wins, losses and pending tickets.')}</p>
+      <p class="scope-note">${tr('Versão atual','Current version')}: ${current.sinais} ${tr('bilhetes','tickets')} · ${f2(current.lucro_u)}u.
       ${tr('Arquivo anterior','Earlier archive')}: ${archived.sinais} ${tr('bilhetes','tickets')} · ${f2(archived.lucro_u)}u · ${archived.pendentes} ${tr('pendentes','pending')}.</p></div>`;
   }
   const pageSize = 40, odds = n => Number.isFinite(n) && n > 1 ? n.toFixed(2) : '—';
@@ -277,22 +360,14 @@
         · ${st.wr.toFixed(1)}%</span><strong class="${cls(st.lucro_u)}">${f2(st.lucro_u)}u</strong></div></button>`;
     }).join('');
   }
-  function marketTable(rows) {
-    const items=select(rows,'elite'), groups=manualMarkets(items), total=stats(items);
-    const cells=g=>`<td>${g.sinais}</td><td>${g.ganhos}</td><td>${g.perdidos}</td><td>${g.ganhos+g.perdidos?g.wr.toFixed(1)+'%':'—'}</td><td>${odds(g.odd_media)}</td><td class="${cls(g.lucro_u)}">${f2(g.lucro_u)}u</td>`;
-    return `<section id="elite-markets"><div class="sec-t">${tr('Elite / manual — resultados por mercado','Elite / manual — results by market')}</div>
-      <p class="scope-note">${tr('Mercado e linha tal como foram registados. FT = jogo completo; 2.ª parte é um mercado distinto. Late manual separado do automático.','Market and line as recorded. FT = full match; second half is a separate market. Manual Late is separate from automatic signals.')}</p>
-      <div class="tblhint">${tr('Desliza a tabela para ver greens, reds, odd média e unidades →','Swipe the table to see wins, losses, average odds and units →')}</div>
-      <div class="card tbl"><table class="market-table"><thead><tr>${[tr('Mercado','Market'),tr('Entradas','Entries'),'Greens','Reds',tr('Acerto','Win rate'),tr('Odd média','Avg odds'),tr('Resultado','Result')].map(s=>`<th>${s}</th>`).join('')}</tr></thead>
-      <tbody>${groups.map(g=>`<tr><th scope="row">${esc(g.market)}</th>${cells(g)}</tr>`).join('')||`<tr><td colspan="7">${tr('Sem entradas manuais.','No manual entries.')}</td></tr>`}</tbody>
-      <tfoot><tr><th scope="row">${tr('Total Elite','Elite total')}</th>${cells(total)}</tr></tfoot></table></div>
-      <p class="scope-note">${total.pendentes} ${tr('pendentes','pending')} · ${total.sem_preco} ${tr('sem odd válida (fora de acerto e unidades). Média simples das odds válidas, incluindo pendentes; não ponderada pela stake.','without valid odds (excluded from win rate and units). Simple mean of valid odds, including pending entries; not stake-weighted.')}</p></section>`;
-  }
   function render() {
     const allRows=normalize(DATA,fallback), view=active==='prelive'?preliveView:'pdf';
-    const rows=scopePrelive(allRows,view), financial=select(rows,active,true), visible=select(rows,active);
+    const scoped=scopePrelive(allRows,view), base=active==='elite'?selectManual(scoped,eliteMarket):select(scoped,active,true);
+    const months=monthlyStats(base);
+    if(period!=='all'&&!months.some(m=>m.month===period))period='all';
+    const rows=monthRows(scoped,period),financial=monthRows(base,period),visible=active==='elite'?selectManual(rows,eliteMarket):select(rows,active);
     const today=tradingDay(), p=panel(financial,today), pre=active==='prelive';
-    const title=active==='all'?tr('Ao vivo + Elite','Live + Elite'):pre?viewLabel(view):labels[active];
+    const title=active==='all'?tr('Ao vivo + Elite','Live + Elite'):pre?viewLabel(view):labels[active]+(active==='elite'&&eliteMarket!=='all'?' · '+manualLabels[eliteMarket]:'');
     const conditionals=(DATA.historico_condicionais || []).filter(s=>category(s) && (active==='all' || category(s)===active)).length;
     const partialPrelive = !Array.isArray(DATA.prelive_resultados?.historico) || DATA.prelive_resultados?.indisponivel;
     document.getElementById('brand').textContent='GOAL SHARP ELITE';
@@ -301,41 +376,49 @@
     document.getElementById('app').innerHTML=`<div class="segwrap"><div class="segs" aria-label="${tr('Filtrar produto','Filter product')}">
       ${['all',...categories].map(k=>`<button class="seg ${k===active?'on':''}" aria-pressed="${k===active}" data-filter="${k}">${labels[k]}</button>`).join('')}</div></div>
       <div class="scope-head"><h2>${title}</h2><p>${active==='all'
-        ? tr('Totais de Live 2.ª parte, Late Goal e Elite/manual. Pré-live PDF desde 06/11 à parte; métodos anteriores no arquivo Pré-live.',
-             'Totals for Live 2nd half, Late Goal and Elite/manual. Pre-live PDF since 06 Nov is separate; earlier methods are in the Pre-live archive.')
+        ? tr('Totais de Live 2.ª parte, Late Goal e Elite/manual. Pré-live da versão atual à parte; métodos anteriores no arquivo Pré-live.',
+             'Totals for Live 2nd half, Late Goal and Elite/manual. Current-version pre-live is separate; earlier methods are in the Pre-live archive.')
         : pre ? tr('Publicações confirmadas do período indicado. Cada bilhete conta uma vez. O histórico completo continua disponível abaixo.',
                    'Confirmed publications for the stated period. Each ticket counts once. Full history remains available below.')
         : active==='elite' ? tr('Entradas manuais, incluindo Late Goal enviado para o Elite.','Manual entries, including Late Goal sent to Elite.')
         : tr('Sinais automáticos do bot. Entradas manuais estão no Elite.','Automatic bot signals. Manual entries are under Elite.')}</p></div>
       ${pre?preliveScopeControls(allRows,view):''}
+      ${active==='elite'?manualControls(scoped):''}
+      <p class="period-heading">${tr('Período:','Period:')} ${period==='all'?tr('Histórico completo','Full history'):monthLabel(period)}</p>
       ${(partialPrelive||DATA.combinada?.indisponivel)&&(pre||active==='all')?`<p class="scope-note">${tr('Histórico Pré-live temporariamente indisponível ou incompleto.','Pre-live history temporarily unavailable or incomplete.')}</p>`:''}
       <div id="kpis">${kpisFor(p.geral).replace(pre?(pt?'Sinais':'Signals'):'__never__',tr('Bilhetes','Tickets'))}</div>
       <p class="scope-note accounting">${tr('Resultado teórico às odds registadas; não comprova apostas executadas.','Theoretical results at recorded odds; not proof of executed bets.')}
       ${tr('Odd média: média simples de todas as cotações válidas do conjunto selecionado, incluindo pendentes.','Average odds: simple mean of all valid prices in the selected cohort, including pending entries.')}
       ${conditionals ? `${conditionals} ${tr('condicionais sem preço confirmado fora destas contas.','conditionals without confirmed odds excluded from these accounts.')}` : ''}
       ${p.geral.sem_preco ? `${p.geral.sem_preco} ${tr('registos sem preço válido excluídos de P/L e acerto.','records without valid odds excluded from P/L and win rate.')}` : ''}</p>
-      ${formCard(p)}${periodsFor(p).replaceAll(pre?(pt?'sinais':'signals'):'__never__',tr('bilhetes','tickets'))}
-      ${active==='elite'?marketTable(rows):''}
+      ${formCard(p)}${period==='all'?periodsFor(p).replaceAll(pre?(pt?'sinais':'signals'):'__never__',tr('bilhetes','tickets')):''}
       <p class="scope-note">${tr('Dia de atividade:','Activity day:')} ${today} · 06:00–06:00 Europe/Lisbon</p>
-      <div class="sec-t" id="banca">${tr('Evolução em unidades','Cumulative units')} — ${title}</div>${chart(p.serie)}
+      <div class="sec-t" id="banca">${tr('Evolução em unidades','Cumulative units')} — ${title}</div>${monthControls(months)}${chart(equitySeries(financial))}${monthlyCards(months)}
       ${active==='all'||pre?ticketCard(rows,today,view):''}
-      <div class="sec-t" id="estrat">${tr('Resultados por produto','Results by product')}</div><div class="grid estrats">${productCards(rows,view)}</div>
-      <div class="sec-t" id="hist">${tr('Histórico','History')} — ${active==='all'?tr('todos os produtos · Pré-live PDF desde 6/11','all products · Pre-live PDF since 6 Nov'):pre?viewLabel(view):labels[active]}</div>${history(visible)}
-      <p class="scope-note">${tr('Os registos originais foram preservados. O Pré-live anterior a 06/11 está no arquivo separado e não entra nos totais do período PDF. O antigo arquivo de Golos continua fora desta vista.',
-        'Original records are preserved. Pre-live before 06 Nov is in a separate archive and excluded from PDF-period totals. The old Goals archive remains outside this view.')}</p>`;
+      <div class="sec-t" id="estrat">${tr('Resultados por produto · todos os mercados','Results by product · all markets')}</div><div class="grid estrats">${productCards(rows,view)}</div>
+      <div class="sec-t" id="hist">${tr('Histórico','History')} — ${active==='all'?tr('todos os produtos · Pré-live Versão atual','all products · Pre-live Current version'):title}</div>${history(visible)}
+      <p class="scope-note">${tr('Os registos originais foram preservados. O Pré-live anterior a 06/11 está no arquivo separado e não entra nos totais da versão atual. O antigo arquivo de Golos continua fora desta vista.',
+        'Original records are preserved. Pre-live before 06 Nov is in a separate archive and excluded from current-version totals. The old Goals archive remains outside this view.')}</p>`;
     document.querySelectorAll('[data-filter]').forEach(el=>el.addEventListener('click',()=>{
-      active=el.dataset.filter;page=1;preliveView='pdf'; const url=new URL(location.href);url.searchParams.set('strat',active);url.searchParams.delete('prelive_scope');
-      window.history.replaceState(null,'',url);render();
+      active=el.dataset.filter;page=1;preliveView='pdf';eliteMarket='all';render();syncURL();
     }));
     document.querySelectorAll('[data-prelive-scope]').forEach(el=>el.addEventListener('click',()=>{
-      preliveView=el.dataset.preliveScope;page=1; const url=new URL(location.href);url.searchParams.set('prelive_scope',preliveView);
-      window.history.replaceState(null,'',url);render();
+      preliveView=el.dataset.preliveScope;page=1;render();syncURL();
     }));
+    document.querySelectorAll('[data-manual]').forEach(el=>el.addEventListener('click',()=>{
+      eliteMarket=el.dataset.manual;page=1;render();syncURL();
+    }));
+    function changeMonth(value,focus=false){period=value;page=1;render();syncURL();document.getElementById('banca').scrollIntoView({block:'start'});if(focus)document.getElementById('chart-month').focus({preventScroll:true});}
+    document.getElementById('chart-month').addEventListener('change',e=>changeMonth(e.target.value,true));
+    document.querySelectorAll('[data-month]').forEach(el=>el.addEventListener('click',()=>changeMonth(el.dataset.month)));
     document.querySelectorAll('[data-page]').forEach(el=>el.addEventListener('click',()=>{
       page=+el.dataset.page;render();document.getElementById('hist').scrollIntoView({block:'start'});
     }));
+    bindChart(document.querySelector('.chart-plot'),equitySeries(financial),{pt,stake:STAKE});
     document.querySelectorAll('.langswitch a').forEach(a=>{const url=new URL(a.href);url.searchParams.set('strat',active);
-      if(active==='prelive'&&preliveView!=='pdf')url.searchParams.set('prelive_scope',preliveView);else url.searchParams.delete('prelive_scope');a.href=url.href;});
+      if(active==='prelive'&&preliveView!=='pdf')url.searchParams.set('prelive_scope',preliveView);else url.searchParams.delete('prelive_scope');
+      if(active==='elite'&&eliteMarket!=='all')url.searchParams.set('elite_market',eliteMarket);else url.searchParams.delete('elite_market');
+      if(period!=='all')url.searchParams.set('month',period);else url.searchParams.delete('month');a.href=url.href;});
     runAnims();document.querySelectorAll('.reveal').forEach(el=>el.classList.add('in'));
   }
   stakeEl.addEventListener('input',()=>{STAKE=Math.min(1000000,Math.max(1,Number(stakeEl.value)||1));if(DATA)render();});
