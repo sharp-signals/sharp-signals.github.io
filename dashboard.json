@@ -17,7 +17,7 @@
    "pode_nao_publicar": true
   }
  },
- "atualizado": "2026-11-26T06:02:50",
+ "atualizado": "2026-11-26T07:53:30",
  "dia_trading": "2026-11-26",
  "geral": {
   "inicio": "2026-06-06",
@@ -4237,9 +4237,9 @@
   "publication_scope": "free_confirmed_only",
   "boletins": 40,
   "greens": 9,
-  "reds": 30,
-  "pendentes": 1,
-  "lucro": 9.09,
+  "reds": 31,
+  "pendentes": 0,
+  "lucro": 8.09,
   "ultimos": [
    {
     "ticket_id": "prelive:2026-11-25:1",
@@ -4249,7 +4249,7 @@
     "data": "2026-11-25",
     "tipo": "dupla",
     "odd": 4.01,
-    "resultado": null,
+    "resultado": "red",
     "u": 1.0,
     "published_at": "2026-11-25T06:15:37+00:00",
     "publication_confirmed": true,
@@ -4272,7 +4272,7 @@
       "hora": "03:10",
       "mercado": null,
       "odd": 2.1,
-      "resultado": null
+      "resultado": "perdido"
      }
     ]
    }
@@ -4285,7 +4285,7 @@
    "data": "2026-11-25",
    "tipo": "dupla",
    "odd": 4.01,
-   "resultado": null,
+   "resultado": "red",
    "u": 1.0,
    "published_at": "2026-11-25T06:15:37+00:00",
    "publication_confirmed": true,
@@ -4308,7 +4308,7 @@
      "hora": "03:10",
      "mercado": null,
      "odd": 2.1,
-     "resultado": null
+     "resultado": "perdido"
     }
    ]
   },
@@ -5836,7 +5836,7 @@
     "data": "2026-11-25",
     "tipo": "dupla",
     "odd": 4.01,
-    "resultado": null,
+    "resultado": "red",
     "u": 1.0,
     "published_at": "2026-11-25T06:15:37+00:00",
     "publication_confirmed": true,
@@ -5859,7 +5859,7 @@
       "hora": "03:10",
       "mercado": null,
       "odd": 2.1,
-      "resultado": null
+      "resultado": "perdido"
      }
     ]
    }
@@ -8303,7 +8303,7 @@
     "data": "2026-11-25",
     "tipo": "dupla",
     "odd": 4.01,
-    "resultado": null,
+    "resultado": "red",
     "u": 1.0,
     "published_at": "2026-11-25T06:15:37+00:00",
     "publication_confirmed": true,
@@ -8326,7 +8326,7 @@
       "hora": "03:10",
       "mercado": null,
       "odd": 2.1,
-      "resultado": null
+      "resultado": "perdido"
      }
     ],
     "accounting_confirmed": true,
@@ -8336,9 +8336,9 @@
   ],
   "boletins": 61,
   "greens": 12,
-  "reds": 47,
-  "pendentes": 2,
-  "lucro": -0.56,
+  "reds": 48,
+  "pendentes": 1,
+  "lucro": -1.56,
   "excluidos_sem_recibo_valido": 0
  },
  "historico_sinais": [
