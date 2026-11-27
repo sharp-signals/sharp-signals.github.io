@@ -5754,5 +5754,29 @@
       "golos_apos_casa": 0,
       "golos_apos_fora": 0
     }
+  ],
+  "2026-11-27": [
+    {
+      "alerta_id": "ce1:1551901:mid",
+      "fixture_id": 1551901,
+      "timestamp": "2026-11-27T21:21:58.246919",
+      "jogo": "MVV vs Jong PSV U21",
+      "liga": "Eerste Divisie",
+      "janela": "MID PRESSURE",
+      "tempo_alerta": 69,
+      "estrelas": 7.5,
+      "cantos_no_ref": 4,
+      "cantos_final": 7,
+      "cantos_apos_alerta": 3,
+      "meta_cantos": 3,
+      "resultado": "CANCELADA",
+      "resultado_tecnico": "WIN",
+      "estado_entrada": "SEM_ENTRADA",
+      "resultado_mercado_potencial": "VOID",
+      "condicao_preco": "O alvo técnico era linha de VOID",
+      "justificacao_void": "Não entrada — preço demasiado alto",
+      "golos_apos_casa": 1,
+      "golos_apos_fora": 0
+    }
   ]
 }
