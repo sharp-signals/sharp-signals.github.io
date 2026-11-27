@@ -17,7 +17,7 @@
    "pode_nao_publicar": true
   }
  },
- "atualizado": "2026-11-27T06:16:18",
+ "atualizado": "2026-11-27T15:59:18",
  "dia_trading": "2026-11-27",
  "geral": {
   "inicio": "2026-06-06",
@@ -4242,7 +4242,7 @@
    "ticket_id": "prelive:2026-11-27:1",
    "ticket_slot": 1,
    "fire": false,
-   "resultado": null
+   "resultado": "perdido"
   }
  ],
  "por_estrategia": {
@@ -4292,9 +4292,9 @@
   "publication_scope": "free_confirmed_only",
   "boletins": 41,
   "greens": 9,
-  "reds": 31,
-  "pendentes": 1,
-  "lucro": 8.09,
+  "reds": 32,
+  "pendentes": 0,
+  "lucro": 7.09,
   "ultimos": [
    {
     "ticket_id": "prelive:2026-11-27:1",
@@ -4304,7 +4304,7 @@
     "data": "2026-11-27",
     "tipo": "dupla",
     "odd": 3.65,
-    "resultado": null,
+    "resultado": "red",
     "u": 1.0,
     "published_at": "2026-11-27T06:15:58+00:00",
     "publication_confirmed": true,
@@ -4327,7 +4327,7 @@
       "hora": "12:15",
       "mercado": null,
       "odd": 1.91,
-      "resultado": null
+      "resultado": "perdido"
      }
     ]
    }
@@ -4340,7 +4340,7 @@
    "data": "2026-11-27",
    "tipo": "dupla",
    "odd": 3.65,
-   "resultado": null,
+   "resultado": "red",
    "u": 1.0,
    "published_at": "2026-11-27T06:15:58+00:00",
    "publication_confirmed": true,
@@ -4363,7 +4363,7 @@
      "hora": "12:15",
      "mercado": null,
      "odd": 1.91,
-     "resultado": null
+     "resultado": "perdido"
     }
    ]
   },
@@ -5926,7 +5926,7 @@
     "data": "2026-11-27",
     "tipo": "dupla",
     "odd": 3.65,
-    "resultado": null,
+    "resultado": "red",
     "u": 1.0,
     "published_at": "2026-11-27T06:15:58+00:00",
     "publication_confirmed": true,
@@ -5949,7 +5949,7 @@
       "hora": "12:15",
       "mercado": null,
       "odd": 1.91,
-      "resultado": null
+      "resultado": "perdido"
      }
     ]
    }
@@ -8431,7 +8431,7 @@
     "data": "2026-11-27",
     "tipo": "dupla",
     "odd": 3.65,
-    "resultado": null,
+    "resultado": "red",
     "u": 1.0,
     "published_at": "2026-11-27T06:15:58+00:00",
     "publication_confirmed": true,
@@ -8454,7 +8454,7 @@
       "hora": "12:15",
       "mercado": null,
       "odd": 1.91,
-      "resultado": null
+      "resultado": "perdido"
      }
     ],
     "accounting_confirmed": true,
@@ -8481,9 +8481,9 @@
   ],
   "boletins": 63,
   "greens": 12,
-  "reds": 48,
-  "pendentes": 3,
-  "lucro": -1.56,
+  "reds": 49,
+  "pendentes": 2,
+  "lucro": -2.56,
   "excluidos_sem_recibo_valido": 0
  },
  "historico_sinais": [
