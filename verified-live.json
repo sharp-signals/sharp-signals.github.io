@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-27T20:40:40Z",
-  "event_chain_head": "6707ce35e2548b27debe0c3f4287f75ed71c072bf1b2ac657f4e7d49d2991b64",
+  "generated_at": "2026-11-27T21:00:15Z",
+  "event_chain_head": "54b0e64c693935aa511527ede2ce39d511ba86e57f008d09805c73308467c581",
   "event_chain_algorithm": "SHA-256 linked events",
   "event_chain_integrity": {
     "status": "valid_from_checkpoint",
-    "events": 1013,
+    "events": 1014,
     "broken_links": [],
     "content_hash_mismatches": [
       {
@@ -142,7 +142,7 @@
       }
     ],
     "unacknowledged_content_hashes": [],
-    "head": "6707ce35e2548b27debe0c3f4287f75ed71c072bf1b2ac657f4e7d49d2991b64"
+    "head": "54b0e64c693935aa511527ede2ce39d511ba86e57f008d09805c73308467c581"
   },
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -153,20 +153,43 @@
   },
   "summary": {
     "total": 514,
-    "pending": 20,
+    "pending": 19,
     "signals_settled": 161,
-    "official_entries_settled": 292,
+    "official_entries_settled": 293,
     "cancelled": 71
   },
   "records": [
     {
       "id": "tip_proposal:20261127T204039765004Z:a37fdb83",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-11-27T20:40:40Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "471e7ba25262717d9405929b046e403833e9a81ac0300ed250a995bfb5f301d2",
-      "telegram_message_count": 2
+      "telegram_message_count": 2,
+      "settled_at": "2026-11-27T21:00:14Z",
+      "result": "LOSS",
+      "outcome": {
+        "odds": 1.8,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": -0.75,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20261127T204039765004Z:a37fdb83",
+        "market": "🏁 Race to 7 corners · Groningen",
+        "match": "Groningen x Willem II",
+        "minimum_recommended_odds": 1.8,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "ce1:1551901:mid",
