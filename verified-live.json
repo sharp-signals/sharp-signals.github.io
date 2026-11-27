@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-27T21:00:15Z",
-  "event_chain_head": "54b0e64c693935aa511527ede2ce39d511ba86e57f008d09805c73308467c581",
+  "generated_at": "2026-11-27T21:22:03Z",
+  "event_chain_head": "6621c7c610db6c2d035799e39d86e375cd4c10565c06ab5079ce37e70c437464",
   "event_chain_algorithm": "SHA-256 linked events",
   "event_chain_integrity": {
     "status": "valid_from_checkpoint",
-    "events": 1014,
+    "events": 1015,
     "broken_links": [],
     "content_hash_mismatches": [
       {
@@ -142,7 +142,7 @@
       }
     ],
     "unacknowledged_content_hashes": [],
-    "head": "54b0e64c693935aa511527ede2ce39d511ba86e57f008d09805c73308467c581"
+    "head": "6621c7c610db6c2d035799e39d86e375cd4c10565c06ab5079ce37e70c437464"
   },
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -153,10 +153,10 @@
   },
   "summary": {
     "total": 514,
-    "pending": 19,
-    "signals_settled": 161,
+    "pending": 18,
+    "signals_settled": 162,
     "official_entries_settled": 293,
-    "cancelled": 71
+    "cancelled": 72
   },
   "records": [
     {
@@ -194,11 +194,39 @@
     {
       "id": "ce1:1551901:mid",
       "kind": "signal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-11-27T20:31:31Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "8ab715eca3e781bf65c3ca6b2ffd8e0b7109a7721a55866e9529b8dc9904ba66",
-      "telegram_message_count": 3
+      "telegram_message_count": 3,
+      "settled_at": "2026-11-27T21:22:03Z",
+      "result": "CANCELADA",
+      "outcome": {
+        "corners_reference": 4,
+        "corners_final": 7,
+        "corners_after": 3,
+        "target": 3,
+        "technical_result": "WIN",
+        "entry_status": "sem_entrada",
+        "potential_market_result": "VOID",
+        "price_condition": "O alvo técnico era linha de VOID",
+        "void_reason": "Não entrada — preço demasiado alto",
+        "approved_manually": true
+      },
+      "sealed_payload": {
+        "alert_id": "ce1:1551901:mid",
+        "classification": "scanner_signal_not_confirmed_bet",
+        "confidence": 7.5,
+        "corners_at_alert": 3,
+        "league": "Eerste Divisie",
+        "match": "MVV vs Jong PSV U21",
+        "minimum_price": 1.8,
+        "minute": 69,
+        "score_at_alert": "2-2",
+        "suggestion": "🎯 REFERÊNCIA\nOver 5.5 cantos · preço de referência @1.80+\n⚠️ Validar mercado e contexto · alerta não é entrada automática",
+        "window": "MID PRESSURE"
+      },
+      "commitment_valid": true
     },
     {
       "id": "ce1:1630413:final",
