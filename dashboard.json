@@ -17,7 +17,7 @@
    "pode_nao_publicar": true
   }
  },
- "atualizado": "2026-11-28T07:00:52",
+ "atualizado": "2026-11-28T07:51:06",
  "dia_trading": "2026-11-28",
  "geral": {
   "inicio": "2026-06-06",
@@ -6053,7 +6053,7 @@
       "hora": "05:00",
       "mercado": null,
       "odd": 1.91,
-      "resultado": null
+      "resultado": "ganho"
      },
      {
       "fixture_id": 1603087,
@@ -8593,7 +8593,7 @@
       "hora": "05:00",
       "mercado": null,
       "odd": 1.91,
-      "resultado": null
+      "resultado": "ganho"
      },
      {
       "fixture_id": 1603087,
@@ -8624,8 +8624,29 @@
     "publication_channel": "goal",
     "free_publication_confirmed": false,
     "leg_count": 2,
-    "legs_disclosed": false,
-    "pernas": []
+    "legs_disclosed": true,
+    "pernas": [
+     {
+      "fixture_id": 1559205,
+      "casa": "Francs Borains",
+      "fora": "Eupen",
+      "liga": null,
+      "hora": "19:00",
+      "mercado": null,
+      "odd": 1.91,
+      "resultado": "perdido"
+     },
+     {
+      "fixture_id": 1556164,
+      "casa": "Kyoto Sanga",
+      "fora": "Cerezo",
+      "liga": null,
+      "hora": "05:00",
+      "mercado": null,
+      "odd": 1.95,
+      "resultado": "ganho"
+     }
+    ]
    },
    {
     "ticket_id": "prelive:2026-11-28:1",
