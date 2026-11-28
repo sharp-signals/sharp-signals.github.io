@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-28T14:23:34Z",
-  "event_chain_head": "ddac44d43add0cb722d0064760d7766bd1daa944ad727172b411554febfff0e5",
+  "generated_at": "2026-11-28T14:23:55Z",
+  "event_chain_head": "a6b25228b8f4665bca78b31ce850fec18782cb6265f9d19b9553c6c193e8b118",
   "event_chain_algorithm": "SHA-256 linked events",
   "event_chain_integrity": {
     "status": "valid_from_checkpoint",
-    "events": 1036,
+    "events": 1037,
     "broken_links": [],
     "content_hash_mismatches": [
       {
@@ -142,7 +142,7 @@
       }
     ],
     "unacknowledged_content_hashes": [],
-    "head": "ddac44d43add0cb722d0064760d7766bd1daa944ad727172b411554febfff0e5"
+    "head": "a6b25228b8f4665bca78b31ce850fec18782cb6265f9d19b9553c6c193e8b118"
   },
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -153,9 +153,9 @@
   },
   "summary": {
     "total": 522,
-    "pending": 13,
+    "pending": 12,
     "signals_settled": 163,
-    "official_entries_settled": 297,
+    "official_entries_settled": 298,
     "cancelled": 81
   },
   "records": [
@@ -203,11 +203,34 @@
     {
       "id": "tip_proposal:20261128T134219238400Z:4dacbfae",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-11-28T13:42:19Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "b9f599695e7889f86653423f3103410ca634a271301358ff6c254cdc47f79afa",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-11-28T14:23:55Z",
+      "result": "LOSS",
+      "outcome": {
+        "odds": 1.81,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": -0.75,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20261128T134219238400Z:4dacbfae",
+        "market": "⛳ Over 9 corners · FT",
+        "match": "Police Tero x Nakhon",
+        "minimum_recommended_odds": 1.8,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20261128T133541097754Z:9f0489cf",
