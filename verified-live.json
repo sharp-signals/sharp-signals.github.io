@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-28T14:21:51Z",
-  "event_chain_head": "832aa0489c85903c2a0ebf86a5ad21fe494403776169ea774cad6ff4b9830107",
+  "generated_at": "2026-11-28T14:22:12Z",
+  "event_chain_head": "0e4f4070b1393add265f075a90809eb4f0896e6e1e72c86ef3be4926e362ba69",
   "event_chain_algorithm": "SHA-256 linked events",
   "event_chain_integrity": {
     "status": "valid_from_checkpoint",
-    "events": 1032,
+    "events": 1033,
     "broken_links": [],
     "content_hash_mismatches": [
       {
@@ -142,7 +142,7 @@
       }
     ],
     "unacknowledged_content_hashes": [],
-    "head": "832aa0489c85903c2a0ebf86a5ad21fe494403776169ea774cad6ff4b9830107"
+    "head": "0e4f4070b1393add265f075a90809eb4f0896e6e1e72c86ef3be4926e362ba69"
   },
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -153,10 +153,10 @@
   },
   "summary": {
     "total": 522,
-    "pending": 17,
+    "pending": 16,
     "signals_settled": 163,
     "official_entries_settled": 296,
-    "cancelled": 78
+    "cancelled": 79
   },
   "records": [
     {
@@ -8707,11 +8707,34 @@
     {
       "id": "tip_proposal:20261024T130601800365Z:33736b67",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-10-24T13:06:02Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "ba901362ed27fe661b4d8cad191bf04fcc1c872e2dcac16899f323aeb8c1165d",
-      "telegram_message_count": 2
+      "telegram_message_count": 2,
+      "settled_at": "2026-11-28T14:22:12Z",
+      "result": "CANCELADA",
+      "outcome": {
+        "odds": null,
+        "odds_source": null,
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "cancelled",
+        "profit_loss_percent": null,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20261024T130601800365Z:33736b67",
+        "market": "🏁 Race to 9 corners · Buriram",
+        "match": "Buriram x Sisaket Utd.",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20261024T125807138202Z:5b144ae4",
