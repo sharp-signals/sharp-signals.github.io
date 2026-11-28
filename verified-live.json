@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-28T12:33:11Z",
-  "event_chain_head": "d22978ad34a73d2705fe1e2b814900f120d8017ad2c8ca0d35e2397fb81c1838",
+  "generated_at": "2026-11-28T12:52:31Z",
+  "event_chain_head": "802b0ab5578f27236d29e07b89bfe0c13a9644b7effbf0bf5fd75ec26a33e577",
   "event_chain_algorithm": "SHA-256 linked events",
   "event_chain_integrity": {
     "status": "valid_from_checkpoint",
-    "events": 1021,
+    "events": 1022,
     "broken_links": [],
     "content_hash_mismatches": [
       {
@@ -142,7 +142,7 @@
       }
     ],
     "unacknowledged_content_hashes": [],
-    "head": "d22978ad34a73d2705fe1e2b814900f120d8017ad2c8ca0d35e2397fb81c1838"
+    "head": "802b0ab5578f27236d29e07b89bfe0c13a9644b7effbf0bf5fd75ec26a33e577"
   },
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -153,20 +153,43 @@
   },
   "summary": {
     "total": 518,
-    "pending": 20,
+    "pending": 19,
     "signals_settled": 162,
     "official_entries_settled": 295,
-    "cancelled": 72
+    "cancelled": 73
   },
   "records": [
     {
       "id": "tip_proposal:20261128T123311349039Z:c130147c",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-11-28T12:33:11Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "82bb01a7eb95a7d8daca28c88ec763bd65d6b34b70f0debe9a5a7e01c757eefa",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-11-28T12:52:31Z",
+      "result": "CANCELADA",
+      "outcome": {
+        "odds": null,
+        "odds_source": null,
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "cancelled",
+        "profit_loss_percent": null,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 8,
+        "entry_id": "tip_proposal:20261128T123311349039Z:c130147c",
+        "market": "⛳ Over 8.5 corners · FT",
+        "match": "Dyn. Kiev x Odesa",
+        "minimum_recommended_odds": 1.8,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 1.25
+      },
+      "commitment_valid": true
     },
     {
       "id": "ce1:1576246:ht",
