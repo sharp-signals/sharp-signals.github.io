@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-28T14:23:55Z",
-  "event_chain_head": "a6b25228b8f4665bca78b31ce850fec18782cb6265f9d19b9553c6c193e8b118",
+  "generated_at": "2026-11-28T14:24:17Z",
+  "event_chain_head": "611ee8c7a6f990e456706c6dcee1ab76685bd164784878256227da7fc2157220",
   "event_chain_algorithm": "SHA-256 linked events",
   "event_chain_integrity": {
     "status": "valid_from_checkpoint",
-    "events": 1037,
+    "events": 1038,
     "broken_links": [],
     "content_hash_mismatches": [
       {
@@ -142,7 +142,7 @@
       }
     ],
     "unacknowledged_content_hashes": [],
-    "head": "a6b25228b8f4665bca78b31ce850fec18782cb6265f9d19b9553c6c193e8b118"
+    "head": "611ee8c7a6f990e456706c6dcee1ab76685bd164784878256227da7fc2157220"
   },
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -153,9 +153,9 @@
   },
   "summary": {
     "total": 522,
-    "pending": 12,
+    "pending": 11,
     "signals_settled": 163,
-    "official_entries_settled": 298,
+    "official_entries_settled": 299,
     "cancelled": 81
   },
   "records": [
@@ -194,11 +194,34 @@
     {
       "id": "tip_proposal:20261128T134807506944Z:c374c254",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-11-28T13:48:07Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "130bb04e08c28e506d1de92d3158c3b04f024150ad16e57e15a83c265785e942",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-11-28T14:24:17Z",
+      "result": "CASHOUT",
+      "outcome": {
+        "odds": null,
+        "odds_source": "cashout_loss_reference",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": 0.15,
+        "entry_status": "confirmed",
+        "profit_loss_percent": -0.188,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 8,
+        "entry_id": "tip_proposal:20261128T134807506944Z:c374c254",
+        "market": "⛳ Over 6.5 corners · FT",
+        "match": "Lamphun x Chonburi",
+        "minimum_recommended_odds": 1.8,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 1.25
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20261128T134219238400Z:4dacbfae",
