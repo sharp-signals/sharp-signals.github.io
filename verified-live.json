@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-28T11:33:25Z",
-  "event_chain_head": "17c1b206f3c9cc8926b9ffd842043d371b2be2764b0e95d976dc53eabf1ee752",
+  "generated_at": "2026-11-28T11:50:59Z",
+  "event_chain_head": "41451881bb3e89ae9b75bcbc0339839ebe9cde04dc1c380a39b8896228c39f3b",
   "event_chain_algorithm": "SHA-256 linked events",
   "event_chain_integrity": {
     "status": "valid_from_checkpoint",
-    "events": 1017,
+    "events": 1018,
     "broken_links": [],
     "content_hash_mismatches": [
       {
@@ -142,7 +142,7 @@
       }
     ],
     "unacknowledged_content_hashes": [],
-    "head": "17c1b206f3c9cc8926b9ffd842043d371b2be2764b0e95d976dc53eabf1ee752"
+    "head": "41451881bb3e89ae9b75bcbc0339839ebe9cde04dc1c380a39b8896228c39f3b"
   },
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -153,9 +153,9 @@
   },
   "summary": {
     "total": 516,
-    "pending": 20,
+    "pending": 19,
     "signals_settled": 162,
-    "official_entries_settled": 293,
+    "official_entries_settled": 294,
     "cancelled": 72
   },
   "records": [
@@ -171,11 +171,34 @@
     {
       "id": "tip_proposal:20261128T112754581830Z:f0d37eb8",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-11-28T11:27:55Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "8e7b3b593a3a7d2fdc3e52b595f919521c33fef4d5a63d322335974ed5c86b9b",
-      "telegram_message_count": 2
+      "telegram_message_count": 2,
+      "settled_at": "2026-11-28T11:50:59Z",
+      "result": "LOSS",
+      "outcome": {
+        "odds": 1.9,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": -0.75,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20261128T112754581830Z:f0d37eb8",
+        "market": "⛳ Over 8 corners · FT",
+        "match": "Sai Gon x Ho Chi Minh",
+        "minimum_recommended_odds": 1.8,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20261127T204039765004Z:a37fdb83",
