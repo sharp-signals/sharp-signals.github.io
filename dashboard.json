@@ -17,7 +17,7 @@
    "pode_nao_publicar": true
   }
  },
- "atualizado": "2026-11-28T06:09:10",
+ "atualizado": "2026-11-28T06:20:30",
  "dia_trading": "2026-11-28",
  "geral": {
   "inicio": "2026-06-06",
@@ -4333,7 +4333,32 @@
    "dias_verde_pct": 42.6
   }
  },
- "tip_do_dia": [],
+ "tip_do_dia": [
+  {
+   "hora": "12:30",
+   "liga": "NB I",
+   "jogo": "Vasas Budapest vs Honved",
+   "mercado": "Over 1.5 · 2ª parte",
+   "odd": 1.85,
+   "bilhete": "dupla",
+   "ticket_id": "prelive:2026-11-28:1",
+   "ticket_slot": 1,
+   "fire": false,
+   "resultado": null
+  },
+  {
+   "hora": "19:30",
+   "liga": "Super League",
+   "jogo": "Servette vs Lausanne",
+   "mercado": "Over 1.5 · 2ª parte",
+   "odd": 1.97,
+   "bilhete": "dupla",
+   "ticket_id": "prelive:2026-11-28:1",
+   "ticket_slot": 1,
+   "fire": false,
+   "resultado": null
+  }
+ ],
  "por_estrategia": {
   "Golos (arquivo)": {
    "n": 31,
@@ -4379,80 +4404,80 @@
   "nome": "Pré-Live Grátis",
   "descricao": "Bilhete partilhado no canal gratuito · até um por dia · 1u",
   "publication_scope": "free_confirmed_only",
-  "boletins": 41,
+  "boletins": 42,
   "greens": 9,
   "reds": 32,
-  "pendentes": 0,
+  "pendentes": 1,
   "lucro": 7.09,
   "ultimos": [
    {
-    "ticket_id": "prelive:2026-11-27:1",
+    "ticket_id": "prelive:2026-11-28:1",
     "ticket_slot": 1,
     "free_publication_confirmed": true,
     "publication_channel": "free",
-    "data": "2026-11-27",
+    "data": "2026-11-28",
     "tipo": "dupla",
-    "odd": 3.65,
-    "resultado": "red",
+    "odd": 3.64,
+    "resultado": null,
     "u": 1.0,
-    "published_at": "2026-11-27T06:15:58+00:00",
+    "published_at": "2026-11-28T06:15:49+00:00",
     "publication_confirmed": true,
     "pernas": [
      {
-      "fixture_id": 1647384,
-      "casa": "Seoul",
-      "fora": "Daejeon Citizen",
+      "fixture_id": 1560290,
+      "casa": "Vasas Budapest",
+      "fora": "Honved",
       "liga": null,
-      "hora": "05:00",
+      "hora": "12:30",
       "mercado": null,
-      "odd": 1.91,
+      "odd": 1.85,
       "resultado": null
      },
      {
-      "fixture_id": 1603087,
-      "casa": "Al Kholood",
-      "fora": "Al Khaleej",
+      "fixture_id": 1555433,
+      "casa": "Servette",
+      "fora": "Lausanne",
       "liga": null,
-      "hora": "12:15",
+      "hora": "19:30",
       "mercado": null,
-      "odd": 1.91,
-      "resultado": "perdido"
+      "odd": 1.97,
+      "resultado": null
      }
     ]
    }
   ],
   "ultimo": {
-   "ticket_id": "prelive:2026-11-27:1",
+   "ticket_id": "prelive:2026-11-28:1",
    "ticket_slot": 1,
    "free_publication_confirmed": true,
    "publication_channel": "free",
-   "data": "2026-11-27",
+   "data": "2026-11-28",
    "tipo": "dupla",
-   "odd": 3.65,
-   "resultado": "red",
+   "odd": 3.64,
+   "resultado": null,
    "u": 1.0,
-   "published_at": "2026-11-27T06:15:58+00:00",
+   "published_at": "2026-11-28T06:15:49+00:00",
    "publication_confirmed": true,
    "pernas": [
     {
-     "fixture_id": 1647384,
-     "casa": "Seoul",
-     "fora": "Daejeon Citizen",
+     "fixture_id": 1560290,
+     "casa": "Vasas Budapest",
+     "fora": "Honved",
      "liga": null,
-     "hora": "05:00",
+     "hora": "12:30",
      "mercado": null,
-     "odd": 1.91,
+     "odd": 1.85,
      "resultado": null
     },
     {
-     "fixture_id": 1603087,
-     "casa": "Al Kholood",
-     "fora": "Al Khaleej",
+     "fixture_id": 1555433,
+     "casa": "Servette",
+     "fora": "Lausanne",
      "liga": null,
-     "hora": "12:15",
+     "hora": "19:30",
      "mercado": null,
-     "odd": 1.91,
-     "resultado": "perdido"
+     "odd": 1.97,
+     "resultado": null
     }
    ]
   },
@@ -6039,6 +6064,41 @@
       "mercado": null,
       "odd": 1.91,
       "resultado": "perdido"
+     }
+    ]
+   },
+   {
+    "ticket_id": "prelive:2026-11-28:1",
+    "ticket_slot": 1,
+    "free_publication_confirmed": true,
+    "publication_channel": "free",
+    "data": "2026-11-28",
+    "tipo": "dupla",
+    "odd": 3.64,
+    "resultado": null,
+    "u": 1.0,
+    "published_at": "2026-11-28T06:15:49+00:00",
+    "publication_confirmed": true,
+    "pernas": [
+     {
+      "fixture_id": 1560290,
+      "casa": "Vasas Budapest",
+      "fora": "Honved",
+      "liga": null,
+      "hora": "12:30",
+      "mercado": null,
+      "odd": 1.85,
+      "resultado": null
+     },
+     {
+      "fixture_id": 1555433,
+      "casa": "Servette",
+      "fora": "Lausanne",
+      "liga": null,
+      "hora": "19:30",
+      "mercado": null,
+      "odd": 1.97,
+      "resultado": null
      }
     ]
    }
@@ -8566,12 +8626,50 @@
     "leg_count": 2,
     "legs_disclosed": false,
     "pernas": []
+   },
+   {
+    "ticket_id": "prelive:2026-11-28:1",
+    "ticket_slot": 1,
+    "free_publication_confirmed": true,
+    "publication_channel": "free",
+    "data": "2026-11-28",
+    "tipo": "dupla",
+    "odd": 3.64,
+    "resultado": null,
+    "u": 1.0,
+    "published_at": "2026-11-28T06:15:49+00:00",
+    "publication_confirmed": true,
+    "pernas": [
+     {
+      "fixture_id": 1560290,
+      "casa": "Vasas Budapest",
+      "fora": "Honved",
+      "liga": null,
+      "hora": "12:30",
+      "mercado": null,
+      "odd": 1.85,
+      "resultado": null
+     },
+     {
+      "fixture_id": 1555433,
+      "casa": "Servette",
+      "fora": "Lausanne",
+      "liga": null,
+      "hora": "19:30",
+      "mercado": null,
+      "odd": 1.97,
+      "resultado": null
+     }
+    ],
+    "accounting_confirmed": true,
+    "leg_count": 2,
+    "legs_disclosed": true
    }
   ],
-  "boletins": 63,
+  "boletins": 64,
   "greens": 12,
   "reds": 50,
-  "pendentes": 1,
+  "pendentes": 2,
   "lucro": -3.56,
   "excluidos_sem_recibo_valido": 0
  },
