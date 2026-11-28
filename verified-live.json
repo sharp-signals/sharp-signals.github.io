@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-28T14:09:44Z",
-  "event_chain_head": "031fdbaa8f3db38d3456108f74ee5406f58a1e944749fe8804f23981ad35fe9e",
+  "generated_at": "2026-11-28T14:17:01Z",
+  "event_chain_head": "0fc7f8694d15b26e4f843584af1e93392e45151792386eeccfad9886619d8e46",
   "event_chain_algorithm": "SHA-256 linked events",
   "event_chain_integrity": {
     "status": "valid_from_checkpoint",
-    "events": 1027,
+    "events": 1028,
     "broken_links": [],
     "content_hash_mismatches": [
       {
@@ -142,7 +142,7 @@
       }
     ],
     "unacknowledged_content_hashes": [],
-    "head": "031fdbaa8f3db38d3456108f74ee5406f58a1e944749fe8804f23981ad35fe9e"
+    "head": "0fc7f8694d15b26e4f843584af1e93392e45151792386eeccfad9886619d8e46"
   },
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -153,20 +153,43 @@
   },
   "summary": {
     "total": 522,
-    "pending": 22,
+    "pending": 21,
     "signals_settled": 163,
-    "official_entries_settled": 295,
+    "official_entries_settled": 296,
     "cancelled": 74
   },
   "records": [
     {
       "id": "tip_proposal:20261128T140944501404Z:50337deb",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-11-28T14:09:44Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "3b8f1ac3c94823b27bf5a8eaee588bb5b9df5fdc52968ac23133ef65f9d4e386",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-11-28T14:17:01Z",
+      "result": "WIN",
+      "outcome": {
+        "odds": 1.84,
+        "odds_source": "recorded",
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "confirmed",
+        "profit_loss_percent": 0.63,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20261128T140944501404Z:50337deb",
+        "market": "⛳ Over 8 corners · FT",
+        "match": "Dugopolje x Orijent",
+        "minimum_recommended_odds": 1.8,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20261128T134807506944Z:c374c254",
