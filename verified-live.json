@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-28T14:24:38Z",
-  "event_chain_head": "0783b53560064e63f673601d0f7ced51d09093a51677e3eb2243a39fcb48bc84",
+  "generated_at": "2026-11-28T14:24:59Z",
+  "event_chain_head": "1932dd428fb0ebdfe757d0dc82e01053a9dfc7688c4a067491654a7df95204ef",
   "event_chain_algorithm": "SHA-256 linked events",
   "event_chain_integrity": {
     "status": "valid_from_checkpoint",
-    "events": 1039,
+    "events": 1040,
     "broken_links": [],
     "content_hash_mismatches": [
       {
@@ -142,7 +142,7 @@
       }
     ],
     "unacknowledged_content_hashes": [],
-    "head": "0783b53560064e63f673601d0f7ced51d09093a51677e3eb2243a39fcb48bc84"
+    "head": "1932dd428fb0ebdfe757d0dc82e01053a9dfc7688c4a067491654a7df95204ef"
   },
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -153,10 +153,10 @@
   },
   "summary": {
     "total": 522,
-    "pending": 11,
+    "pending": 10,
     "signals_settled": 163,
     "official_entries_settled": 298,
-    "cancelled": 81
+    "cancelled": 82
   },
   "records": [
     {
@@ -11941,11 +11941,34 @@
     {
       "id": "tip_proposal:20260929T185901662580Z:33513724",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-09-29T18:59:01Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "50e744428dd094be7ded8f6e0e40ca415cb89ef88855b1e09de97a8e50c274b7",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-11-28T14:24:59Z",
+      "result": "CANCELADA",
+      "outcome": {
+        "odds": null,
+        "odds_source": null,
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "cancelled",
+        "profit_loss_percent": null,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20260929T185901662580Z:33513724",
+        "market": "⛳ Over 3 corners · 1st half",
+        "match": "San Marino x Albania",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20260929T171338330233Z:21fc25be",
