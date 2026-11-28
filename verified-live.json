@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-28T14:22:12Z",
-  "event_chain_head": "0e4f4070b1393add265f075a90809eb4f0896e6e1e72c86ef3be4926e362ba69",
+  "generated_at": "2026-11-28T14:22:33Z",
+  "event_chain_head": "8428d7695309efc5cb8e08f9f6cdb2e2d0612d350e168bcfa9d94ef6ad2822f2",
   "event_chain_algorithm": "SHA-256 linked events",
   "event_chain_integrity": {
     "status": "valid_from_checkpoint",
-    "events": 1033,
+    "events": 1034,
     "broken_links": [],
     "content_hash_mismatches": [
       {
@@ -142,7 +142,7 @@
       }
     ],
     "unacknowledged_content_hashes": [],
-    "head": "0e4f4070b1393add265f075a90809eb4f0896e6e1e72c86ef3be4926e362ba69"
+    "head": "8428d7695309efc5cb8e08f9f6cdb2e2d0612d350e168bcfa9d94ef6ad2822f2"
   },
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -153,10 +153,10 @@
   },
   "summary": {
     "total": 522,
-    "pending": 16,
+    "pending": 15,
     "signals_settled": 163,
     "official_entries_settled": 296,
-    "cancelled": 79
+    "cancelled": 80
   },
   "records": [
     {
@@ -5619,11 +5619,34 @@
     {
       "id": "tip_proposal:20261101T150633578919Z:ddc599da",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-11-01T15:06:33Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "d90dde74e2d94db69bad97bb957de6ddf80409939461ddb2511cb5a224d9c8e2",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-11-28T14:22:32Z",
+      "result": "CANCELADA",
+      "outcome": {
+        "odds": null,
+        "odds_source": null,
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "cancelled",
+        "profit_loss_percent": null,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20261101T150633578919Z:ddc599da",
+        "market": "⛳ Over 7.5 corners · FT",
+        "match": "Wolfsberger x Sturm Graz",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20261101T145614138020Z:98fc323f",
