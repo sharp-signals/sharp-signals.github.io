@@ -8,9 +8,9 @@
    "fim": "2026-01-31"
   },
   "cresc_pct": 56.91,
-  "apostas": 1318,
+  "apostas": 1319,
   "ganhos": 737,
-  "perdidos": 581,
+  "perdidos": 582,
   "wr": 55.9,
   "meses": [
    {
@@ -86,9 +86,9 @@
    {
     "mes": "2026-11",
     "label": "Nov 26",
-    "cresc_pct": 5.78,
-    "apostas": 86,
-    "wr": 52.3
+    "cresc_pct": 5.03,
+    "apostas": 87,
+    "wr": 51.7
    }
   ],
   "por_mercado": [
@@ -101,9 +101,9 @@
    },
    {
     "mercado": "Over Cantos HT",
-    "n": 217,
-    "wr": 57.1,
-    "roi": 9.88,
+    "n": 218,
+    "wr": 56.9,
+    "roi": 9.13,
     "pl_eur": 417.66
    },
    {
@@ -143,7 +143,6 @@
    }
   ],
   "forma": [
-   "cashout",
    "perdido",
    "ganho",
    "ganho",
@@ -156,6 +155,7 @@
    "ganho",
    "perdido",
    "ganho",
+   "perdido",
    "perdido",
    "perdido"
   ],
@@ -166,13 +166,13 @@
     "jogo": "Dyn. Kiev x Odesa",
     "mercado": "⛳ Over 4.5 corners · 1st half",
     "categoria": "Over Cantos HT",
-    "odd": null,
-    "pl_pct": null,
+    "odd": 1.83,
+    "pl_pct": -0.75,
     "stake_pct": 0.75,
-    "resultado": "pendente",
+    "resultado": "perdido",
     "verified_id": "tip_proposal:20261128T113324520392Z:fc9635b3",
-    "estado_entrada": "aguarda_confirmacao",
-    "tipo_odd": "por_registar",
+    "estado_entrada": "confirmada",
+    "tipo_odd": "real",
     "odd_minima_recomendada": 1.8,
     "confianca": 7
    },
