@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-28T14:17:01Z",
-  "event_chain_head": "0fc7f8694d15b26e4f843584af1e93392e45151792386eeccfad9886619d8e46",
+  "generated_at": "2026-11-28T14:20:46Z",
+  "event_chain_head": "6204abe0380220f793ad074064b999e2cbff269f60408eacb598a0ec560bbb92",
   "event_chain_algorithm": "SHA-256 linked events",
   "event_chain_integrity": {
     "status": "valid_from_checkpoint",
-    "events": 1028,
+    "events": 1029,
     "broken_links": [],
     "content_hash_mismatches": [
       {
@@ -142,7 +142,7 @@
       }
     ],
     "unacknowledged_content_hashes": [],
-    "head": "0fc7f8694d15b26e4f843584af1e93392e45151792386eeccfad9886619d8e46"
+    "head": "6204abe0380220f793ad074064b999e2cbff269f60408eacb598a0ec560bbb92"
   },
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -153,10 +153,10 @@
   },
   "summary": {
     "total": 522,
-    "pending": 21,
+    "pending": 20,
     "signals_settled": 163,
     "official_entries_settled": 296,
-    "cancelled": 74
+    "cancelled": 75
   },
   "records": [
     {
@@ -14524,11 +14524,34 @@
     {
       "id": "tip_proposal:20260915T142802907136Z:a8bfc135",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-09-15T14:28:03Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "9b21a685d02dad27fdfc5a6f26d87f8b2980956a14f630ceb7b1d0f6eaeaa9e4",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-11-28T14:20:46Z",
+      "result": "CANCELADA",
+      "outcome": {
+        "odds": null,
+        "odds_source": null,
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "cancelled",
+        "profit_loss_percent": null,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20260915T142802907136Z:a8bfc135",
+        "market": "⛳ Over 5 corners · FT",
+        "match": "Gol Gohar x Al Jazira",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20260915T140445492769Z:854c9861",
