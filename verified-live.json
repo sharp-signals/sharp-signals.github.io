@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-28T14:20:46Z",
-  "event_chain_head": "6204abe0380220f793ad074064b999e2cbff269f60408eacb598a0ec560bbb92",
+  "generated_at": "2026-11-28T14:21:05Z",
+  "event_chain_head": "632376a96fb1d852659bb2df018308f82ee07a673b33577c3dd0440c1323f4ca",
   "event_chain_algorithm": "SHA-256 linked events",
   "event_chain_integrity": {
     "status": "valid_from_checkpoint",
-    "events": 1029,
+    "events": 1030,
     "broken_links": [],
     "content_hash_mismatches": [
       {
@@ -142,7 +142,7 @@
       }
     ],
     "unacknowledged_content_hashes": [],
-    "head": "6204abe0380220f793ad074064b999e2cbff269f60408eacb598a0ec560bbb92"
+    "head": "632376a96fb1d852659bb2df018308f82ee07a673b33577c3dd0440c1323f4ca"
   },
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -153,10 +153,10 @@
   },
   "summary": {
     "total": 522,
-    "pending": 20,
+    "pending": 19,
     "signals_settled": 163,
     "official_entries_settled": 296,
-    "cancelled": 75
+    "cancelled": 76
   },
   "records": [
     {
@@ -13656,11 +13656,34 @@
     {
       "id": "tip_proposal:20260918T193505124002Z:1c612a09",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-09-18T19:35:05Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "77506a340caa942d5fc8f4f9da94cbec811a42c829d02bc58d95ae0ff5f6204c",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-11-28T14:21:05Z",
+      "result": "CANCELADA",
+      "outcome": {
+        "odds": null,
+        "odds_source": null,
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "cancelled",
+        "profit_loss_percent": null,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20260918T193505124002Z:1c612a09",
+        "market": "🏁 Race to 9 corners · Belupo",
+        "match": "Rudes x Belupo",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20260918T192750069289Z:138f1bd1",
