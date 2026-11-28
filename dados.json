@@ -8,10 +8,10 @@
    "fim": "2026-01-31"
   },
   "cresc_pct": 56.91,
-  "apostas": 1317,
+  "apostas": 1318,
   "ganhos": 737,
-  "perdidos": 580,
-  "wr": 56.0,
+  "perdidos": 581,
+  "wr": 55.9,
   "meses": [
    {
     "mes": "2025-08",
@@ -86,17 +86,17 @@
    {
     "mes": "2026-11",
     "label": "Nov 26",
-    "cresc_pct": 6.53,
-    "apostas": 85,
-    "wr": 52.9
+    "cresc_pct": 5.78,
+    "apostas": 86,
+    "wr": 52.3
    }
   ],
   "por_mercado": [
    {
     "mercado": "Over Cantos FT",
-    "n": 726,
-    "wr": 59.0,
-    "roi": 50.14,
+    "n": 727,
+    "wr": 58.9,
+    "roi": 49.39,
     "pl_eur": 1369.94
    },
    {
@@ -143,7 +143,6 @@
    }
   ],
   "forma": [
-   "ganho",
    "cashout",
    "perdido",
    "ganho",
@@ -157,6 +156,7 @@
    "ganho",
    "perdido",
    "ganho",
+   "perdido",
    "perdido"
   ],
   "historico": [
@@ -182,13 +182,13 @@
     "jogo": "Sai Gon x Ho Chi Minh",
     "mercado": "⛳ Over 8 corners · FT",
     "categoria": "Over Cantos FT",
-    "odd": null,
-    "pl_pct": null,
+    "odd": 1.9,
+    "pl_pct": -0.75,
     "stake_pct": 0.75,
-    "resultado": "pendente",
+    "resultado": "perdido",
     "verified_id": "tip_proposal:20261128T112754581830Z:f0d37eb8",
-    "estado_entrada": "aguarda_confirmacao",
-    "tipo_odd": "por_registar",
+    "estado_entrada": "confirmada",
+    "tipo_odd": "real",
     "odd_minima_recomendada": 1.8,
     "confianca": 7
    },
