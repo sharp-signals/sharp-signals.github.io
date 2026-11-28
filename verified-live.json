@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-28T14:22:33Z",
-  "event_chain_head": "8428d7695309efc5cb8e08f9f6cdb2e2d0612d350e168bcfa9d94ef6ad2822f2",
+  "generated_at": "2026-11-28T14:22:53Z",
+  "event_chain_head": "60a2775e63899dbc96cb1d8bc2a95c54b1634ea6a5273d740440dd062e09235f",
   "event_chain_algorithm": "SHA-256 linked events",
   "event_chain_integrity": {
     "status": "valid_from_checkpoint",
-    "events": 1034,
+    "events": 1035,
     "broken_links": [],
     "content_hash_mismatches": [
       {
@@ -142,7 +142,7 @@
       }
     ],
     "unacknowledged_content_hashes": [],
-    "head": "8428d7695309efc5cb8e08f9f6cdb2e2d0612d350e168bcfa9d94ef6ad2822f2"
+    "head": "60a2775e63899dbc96cb1d8bc2a95c54b1634ea6a5273d740440dd062e09235f"
   },
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -153,10 +153,10 @@
   },
   "summary": {
     "total": 522,
-    "pending": 15,
+    "pending": 14,
     "signals_settled": 163,
     "official_entries_settled": 296,
-    "cancelled": 80
+    "cancelled": 81
   },
   "records": [
     {
@@ -3944,11 +3944,34 @@
     {
       "id": "tip_proposal:20261107T191509492268Z:22f47d4b",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-11-07T19:15:09Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "3a204985bf0ef24d2030e7fd9b9868344959432c120de2ea6b16c0c3882c6b82",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-11-28T14:22:52Z",
+      "result": "CANCELADA",
+      "outcome": {
+        "odds": null,
+        "odds_source": null,
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "cancelled",
+        "profit_loss_percent": null,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20261107T191509492268Z:22f47d4b",
+        "market": "⛳ Over 4 corners · FT",
+        "match": "Ironi Tiberias x Beitar Jerusalem",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20261107T185639923008Z:72d8714f",
