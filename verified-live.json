@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-28T14:21:05Z",
-  "event_chain_head": "632376a96fb1d852659bb2df018308f82ee07a673b33577c3dd0440c1323f4ca",
+  "generated_at": "2026-11-28T14:21:26Z",
+  "event_chain_head": "f1926736d8c55a85324a58f97087b3b12ffd6c5a6de9c135d0127f7baa0aebca",
   "event_chain_algorithm": "SHA-256 linked events",
   "event_chain_integrity": {
     "status": "valid_from_checkpoint",
-    "events": 1030,
+    "events": 1031,
     "broken_links": [],
     "content_hash_mismatches": [
       {
@@ -142,7 +142,7 @@
       }
     ],
     "unacknowledged_content_hashes": [],
-    "head": "632376a96fb1d852659bb2df018308f82ee07a673b33577c3dd0440c1323f4ca"
+    "head": "f1926736d8c55a85324a58f97087b3b12ffd6c5a6de9c135d0127f7baa0aebca"
   },
   "methodology": {
     "signal": "Alerta técnico do scanner; não representa necessariamente uma aposta e não entra no ROI.",
@@ -153,10 +153,10 @@
   },
   "summary": {
     "total": 522,
-    "pending": 19,
+    "pending": 18,
     "signals_settled": 163,
     "official_entries_settled": 296,
-    "cancelled": 76
+    "cancelled": 77
   },
   "records": [
     {
@@ -11122,11 +11122,34 @@
     {
       "id": "tip_proposal:20261003T203112407429Z:b7db27e9",
       "kind": "tip_proposal",
-      "status": "pending",
+      "status": "settled",
       "published_at": "2026-10-03T20:31:12Z",
       "commitment_algorithm": "SHA-256",
       "commitment": "3b5de447c0368fbfe6b91a2de118bbaac17e5b45a35cfe1dd430224313fbd119",
-      "telegram_message_count": 1
+      "telegram_message_count": 1,
+      "settled_at": "2026-11-28T14:21:26Z",
+      "result": "CANCELADA",
+      "outcome": {
+        "odds": null,
+        "odds_source": null,
+        "reference_odds": null,
+        "cashout_loss_fraction_reference": null,
+        "entry_status": "cancelled",
+        "profit_loss_percent": null,
+        "settled_manually": true
+      },
+      "sealed_payload": {
+        "classification": "published_tip_awaiting_activation",
+        "confidence": 7,
+        "entry_id": "tip_proposal:20261003T203112407429Z:b7db27e9",
+        "market": "⛳ Over 6.5 corners · FT",
+        "match": "Planaltina x Legiao",
+        "minimum_recommended_odds": 1.81,
+        "minute": null,
+        "odds": null,
+        "stake_percent": 0.75
+      },
+      "commitment_valid": true
     },
     {
       "id": "tip_proposal:20261003T202707562756Z:f94267dd",
