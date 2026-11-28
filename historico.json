@@ -5778,5 +5778,29 @@
       "golos_apos_casa": 1,
       "golos_apos_fora": 0
     }
+  ],
+  "2026-11-28": [
+    {
+      "alerta_id": "ce1:1576246:ht",
+      "fixture_id": 1576246,
+      "timestamp": "2026-11-28T13:04:47.747693",
+      "jogo": "Hertha BSC vs Karlsruher SC",
+      "liga": "2. Bundesliga",
+      "janela": "HT ATTACK",
+      "tempo_alerta": 27,
+      "estrelas": 8.0,
+      "cantos_no_ref": 3,
+      "cantos_final": 3,
+      "cantos_apos_alerta": 0,
+      "meta_cantos": 2,
+      "resultado": "CANCELADA",
+      "resultado_tecnico": "LOSS",
+      "estado_entrada": "SEM_ENTRADA",
+      "resultado_mercado_potencial": "LOSS",
+      "condicao_preco": "O alvo técnico era linha de VOID",
+      "justificacao_void": "Não entrada — preço demasiado alto",
+      "golos_apos_casa": 1,
+      "golos_apos_fora": 0
+    }
   ]
 }
