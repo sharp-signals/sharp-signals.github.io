@@ -8,8 +8,8 @@
    "fim": "2026-01-31"
   },
   "cresc_pct": 56.91,
-  "apostas": 1319,
-  "ganhos": 737,
+  "apostas": 1320,
+  "ganhos": 738,
   "perdidos": 582,
   "wr": 55.9,
   "meses": [
@@ -86,17 +86,17 @@
    {
     "mes": "2026-11",
     "label": "Nov 26",
-    "cresc_pct": 5.03,
-    "apostas": 87,
-    "wr": 51.7
+    "cresc_pct": 5.66,
+    "apostas": 88,
+    "wr": 52.3
    }
   ],
   "por_mercado": [
    {
     "mercado": "Over Cantos FT",
-    "n": 727,
+    "n": 728,
     "wr": 58.9,
-    "roi": 49.39,
+    "roi": 50.02,
     "pl_eur": 1369.94
    },
    {
@@ -143,7 +143,6 @@
    }
   ],
   "forma": [
-   "perdido",
    "ganho",
    "ganho",
    "cashout",
@@ -157,7 +156,8 @@
    "ganho",
    "perdido",
    "perdido",
-   "perdido"
+   "perdido",
+   "ganho"
   ],
   "historico": [
    {
@@ -166,13 +166,13 @@
     "jogo": "Dugopolje x Orijent",
     "mercado": "⛳ Over 8 corners · FT",
     "categoria": "Over Cantos FT",
-    "odd": null,
-    "pl_pct": null,
+    "odd": 1.84,
+    "pl_pct": 0.63,
     "stake_pct": 0.75,
-    "resultado": "pendente",
+    "resultado": "ganho",
     "verified_id": "tip_proposal:20261128T140944501404Z:50337deb",
-    "estado_entrada": "aguarda_confirmacao",
-    "tipo_odd": "por_registar",
+    "estado_entrada": "confirmada",
+    "tipo_odd": "real",
     "odd_minima_recomendada": 1.8,
     "confianca": 7
    },
